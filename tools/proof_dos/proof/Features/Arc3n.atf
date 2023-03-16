@@ -1,0 +1,39 @@
+CREATE AGV. 1
+CREATE AGV. 2
+CREATE AGV. 3
+CREATE BLOB 4
+SET 1 COLOR GREEN
+SET 2 COLOR YELLOW
+SET 3 COLOR PINK
+SET 4 COLOR RED
+PLACE 1. ON LOOP AT end
+PLACE 2. ON BIGCIRCLE AT end
+PLACE 3. ON SMALLCIRCLE AT end
+PLACE 4. ON LOOP AT 30
+time 50
+rotate 2 to 0
+set 1 speed -1
+set 2 speed -1
+set 3 speed  1
+set 4 speed  1
+time 100
+set 1 speed  1
+set 2 speed  1
+set 3 speed -1
+set 4 speed -1
+time 150
+set 1 speed path
+set 2 speed path
+set 3 speed path
+set 4 speed path
+time 200
+set path LOOP speed -2
+set path BIGCIRCLE speed -2
+set path SMALLCIRCLE speed -2
+time 250
+set path LOOP speed 2
+set path BIGCIRCLE speed 2
+set path SMALLCIRCLE speed 2
+TIME 10000
+END
+

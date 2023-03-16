@@ -1,0 +1,262 @@
+*** Time 0 ... 100 of G:\p4w\demodisk\Pickbest.ATF ***
+*** Establish Proper State ***
+Set Path Belt Speed 1
+Set Path Accumulator1 Speed 1
+Set Path Loop Speed 2
+Set Path LDock1 Speed 0.5
+Set Path LDock2 Speed 0.5
+Set Path LDock3 Speed 0.5
+Set Path LDock4 Speed 0.5
+*** Resume User Trace ***
+Time 0.4529 53668
+create Box23 1
+place 1 at 86.368   -14
+move 1 10.000 86.368    -2
+Time 0.5442 7484
+create Box23 2
+place 2 at 36.140   -14
+move 2 10.000 36.140    -2
+Time 1.7512 27092
+create Box11 3
+place 3 at 66.878   -14
+move 3 10.000 66.878    -2
+Time 4.8517 46444
+create Box17 4
+place 4 at 24.629   -14
+move 4 10.000 24.629    -2
+Time 10.4529 260
+place 1 on Belt at 86.368
+Time 10.5442 10186
+place 2 on Belt at 36.140
+Time 11.1383 19856
+create Box23 5
+place 5 at 38.985   -14
+move 5 10.000 38.985    -2
+Time 11.7512 39208
+place 3 on Belt at 66.878
+Time 13.0964 49134
+create Box23 6
+place 6 at 65.863   -14
+move 6 10.000 65.863    -2
+Time 13.7945 2950
+create Box17 7
+place 7 at 95.854   -14
+move 7 10.000 95.854    -2
+Time 14.8517 22302
+place 4 on Belt at 24.629
+Time 16.0268 32228
+create Box23 8
+place 8 at 15.438   -14
+move 8 10.000 15.438    -2
+Time 21.1383 51580
+place 5 on Belt at 38.985
+Time 23.0964 61250
+place 6 on Belt at 65.863
+Time 23.7945 5384
+place 7 on Belt at 95.854
+Time 24.0463 15310
+create Box11 9
+place 9 at 86.871   -14
+move 9 10.000 86.871    -2
+Time 25.538 34662
+create Box11 10
+place 10 at 56.396   -14
+move 10 10.000 56.396    -2
+Time 25.7391 54270
+create Box17 11
+place 11 at 49.002   -14
+move 11 10.000 49.002    -2
+Time 26.0268 8086
+place 8 on Belt at 15.438
+Time 30.0812 17756
+create Box23 12
+place 12 at 2.364   -14
+move 12 10.000 2.364    -2
+Time 34.0463 37364
+place 9 on Belt at 86.871
+Time 34.0853 47034
+place 1 on Accumulator1 at 2.000
+Time 34.8054 56704
+create Box17 13
+place 13 at 85.602   -14
+move 13 10.000 85.602    -2
+Time 35.538 10520
+place 10 on Belt at 56.396
+Time 35.7391 20446
+place 11 on Belt at 49.002
+Time 37.9406 30116
+place 7 on Accumulator1 at 2.000
+Time 38.0191 39786
+create Box11 14
+place 14 at 43.200   -14
+move 14 10.000 43.200    -2
+Time 39.9272 59138
+create Box17 15
+place 15 at 73.473   -14
+move 15 10.000 73.473    -2
+Time 40.0812 13210
+place 12 on Belt at 2.364
+Time 43.2027 22880
+create Box17 16
+place 16 at 20.304   -14
+move 16 10.000 20.304    -2
+Time 45.2521 42488
+place 13 on Belt at 85.602
+Time 47.0853 52158
+set   BeltStatus class YellowLight
+Time 48.0191 61831
+place 14 on Belt at 43.200
+Time 49.002 5965
+set   BeltStatus class GreenLight
+Time 50.0779 15638
+create Box23 17
+place 17 at 99.565   -14
+move 17 10.000 99.565    -2
+Time 50.2943 35246
+place 15 on Belt at 73.473
+Time 50.9406 44916
+set   BeltStatus class YellowLight
+Time 51.6724 54589
+create Box17 18
+place 18 at 46.633   -14
+move 18 10.000 46.633    -2
+Time 52.3573 8661
+set   BeltStatus class GreenLight
+Time 53.2027 18334
+place 16 on Belt at 20.304
+Time 54.8295 28004
+create Box17 19
+place 19 at 51.162   -14
+move 19 10.000 51.162    -2
+Time 54.8733 47612
+place 3 on Accumulator1 at 2.000
+Time 56.9129 57282
+create Box11 20
+place 20 at 3.225   -14
+move 20 10.000 3.225    -2
+Time 57.1757 11098
+place 9 on Accumulator1 at 2.000
+Time 61.1312 20768
+place 17 on Belt at 99.565
+Time 61.6724 30694
+place 18 on Belt at 46.633
+Time 62.0853 40364
+place 1 on Loop at 0.000
+Time 63.8681 50034
+create Box17 21
+place 21 at 32.011   -14
+move 21 10.000 32.011    -2
+Time 64.1007 3850
+create Box23 22
+place 22 at 94.924   -14
+move 22 10.000 94.924    -2
+Time 65.9406 23458
+place 7 on Loop at 0.000
+Time 66.9129 33128
+place 20 on Belt at 3.225
+Time 67.2332 42798
+place 6 on Accumulator1 at 2.000
+Time 67.8733 52724
+set   BeltStatus class YellowLight
+Time 68.1178 62397
+place 19 on Belt at 51.162
+Time 68.7899 6531
+set   BeltStatus class GreenLight
+Time 69.0144 16204
+create Box17 23
+place 23 at 7.246   -14
+move 23 10.000 7.246    -2
+Time 69.6499 35812
+place 13 on Accumulator1 at 2.000
+Time 70.1757 45482
+set   BeltStatus class YellowLight
+Time 71.0923 55155
+set   BeltStatus class GreenLight
+Time 71.5666 64828
+place 17 on Accumulator1 at 2.000
+Time 72.8417 8962
+create Box23 24
+place 24 at 50.690   -14
+move 24 10.000 50.690    -2
+Time 73.8681 28570
+place 21 on Belt at 32.011
+Time 77.1267 38240
+create Box23 25
+place 25 at 29.354   -14
+move 25 10.000 29.354    -2
+Time 79.0144 57848
+place 23 on Belt at 7.246
+Time 80.2332 1982
+set   BeltStatus class YellowLight
+Time 81.0389 11655
+create Box23 26
+place 26 at 17.561   -14
+move 26 10.000 17.561    -2
+Time 82.1499 31007
+set   BeltStatus class GreenLight
+Time 82.6499 40936
+set   BeltStatus class YellowLight
+Time 82.8733 50609
+place 3 on Loop at 0.000
+Time 84.0666 60279
+set   BeltStatus class GreenLight
+Time 84.4046 4416
+place 2 on Accumulator1 at 2.000
+Time 84.5666 14086
+set   BeltStatus class YellowLight
+Time 85.3733 24015
+place 9 on Loop at 0.000
+Time 85.5058 33685
+place 24 on Belt at 50.690
+Time 86.4832 43355
+set   BeltStatus class GreenLight
+Time 86.7356 53028
+create Box11 27
+place 27 at 65.575   -14
+move 27 10.000 65.575    -2
+Time 86.8213 7100
+place 15 on Accumulator1 at 2.000
+Time 87.0629 16770
+place 22 on Belt at 94.924
+Time 87.1267 26440
+place 25 on Belt at 29.354
+Time 87.4301 36110
+create Box23 28
+place 28 at 36.742   -14
+move 28 10.000 36.742    -2
+Time 89.1418 55718
+place 10 on Accumulator1 at 2.000
+Time 91.2461 65388
+place 26 on Belt at 17.561
+Time 91.8464 9522
+create Box11 29
+place 29 at 99.459   -14
+move 29 10.000 99.459    -2
+Time 92.153 29130
+place 5 on Accumulator1 at 2.000
+Time 93.961 38800
+create Box11 30
+place 30 at 5.713   -14
+move 30 10.000 5.713    -2
+Time 95.2332 58152
+place 6 on Loop at 0.000
+Time 96.7356 2542
+place 27 on Belt at 65.575
+Time 96.7371 12212
+place 11 on Accumulator1 at 2.000
+Time 97.4046 21882
+set   BeltStatus class YellowLight
+Time 97.4301 31555
+place 28 on Belt at 36.742
+Time 97.7332 41225
+place 13 on Loop at 0.000
+Time 98.6966 51151
+create Box17 31
+place 31 at 57.597   -14
+move 31 10.000 57.597    -2
+Time 99.3213 4967
+set   BeltStatus class GreenLight
+Time 99.8213 14640
+set   BeltStatus class YellowLight
+Time 100 24569
+End

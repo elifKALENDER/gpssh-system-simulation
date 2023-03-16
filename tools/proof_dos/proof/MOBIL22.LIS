@@ -1,0 +1,277 @@
+    STUDENT GPSS/H RELEASE 3.0j-C10 (UL206)     22 Jun 2003   12:12:55     FILE: MOBIL22.gps
+
+    LINE# STMT#  IF DO  BLOCK#  *LOC	OPERATION	A,B,C,D,E,F,G	COMMENTS  
+ 
+        1     1                 *       PROJECT # 4 INTRODUCTION TO SIMULATION  FALL 1992.
+        2     2                 *       MOBIL GAS STATION: ANIMATION OF SYSTEM
+        3     3                 *
+        4     4                        SIMULATE
+        5     5                 ATF    FILEDEF  'MOBIL.ATF'       
+        6     6                        STORAGE    S(PUMP1),2/S(PUMP2),2
+        7     7              1         GENERATE   2,.5        ARRIVAL OF CARS AT EVERY 3+-2 MINUTES
+        8     8              2         BPUTPIC    FILE=ATF,LINES=2,(AC1,XID1)
+        9     9              2  TIME *.**
+       10    10              2  CREATE CAR *
+       11    11              3         TRANSFER   .70,BBB,AAA
+       12    12              4  BBB    TRANSFER   .60,EEE,DDD
+       13    13              5  AAA    TRANSFER   .5,GGG,FFF
+       14    14                 **
+       15    15              6  FFF    BPUTPIC FILE=ATF,LINES=1,(XID1)
+       16    16              6  PLACE * ON pump1
+       17    17              7         TEST  L    Q(LINE1),1,EXIT1
+       18    18              8         TRANSFER   .5,ALI,VELI        
+       19    19              9  VELI   BPUTPIC FILE=ATF,LINES=1,(XID1) 
+       20    20              9  PLACE * ON pump102
+       21    21             10         TRANSFER   ,ECE
+       22    22             11  ALI    BPUTPIC FILE=ATF,LINES=1,(XID1) 
+       23    23             11  PLACE * ON pump103
+       24    24             12  ECE    QUEUE      LINE1
+       25    25             13         ENTER      PUMP1
+       26    26             14         DEPART     LINE1
+       27    27             15         ADVANCE    7,2
+       28    28             16         BPUTPIC    FILE=ATF,LINES=2,(AC1,XID1)
+       29    29             16  TIME *.**
+       30    30             16  DESTROY *
+       31    31             17         LEAVE      PUMP1
+       32    32             18         TERMINATE
+       33    33             19  EXIT1    BPUTPIC FILE=ATF,LINES=1,(XID1)
+       34    34             19  PLACE * ON pump101
+       35    35             20         ADVANCE    3,1
+       36    36             21          BPUTPIC FILE=ATF,LINES=2,(AC1,XID1)
+       37    37             21  TIME *.**
+       38    38             21  DESTROY *
+       39    39             22         TERMINATE
+       40    40             23  GGG    TEST  L    Q(LINE2),1,EXIT2    
+       41    41             24         BPUTPIC FILE=ATF,LINES=1,(XID1)   
+       42    42             24  PLACE  * ON pump2       
+       43    43             25         TRANSFER   .5,ALI1,ALI2
+       44    44             26  ALI2   BPUTPIC FILE=ATF,LINES=1,(XID1)   
+       45    45             26  PLACE * ON pump201 
+       46    46             27         TRANSFER   ,ALI3
+       47    47             28  ALI1   BPUTPIC FILE=ATF,LINES=1,(XID1)   
+       48    48             28  PLACE * ON pump202
+       49    49             29  ALI3   QUEUE      LINE2
+       50    50             30         ENTER      PUMP2
+       51    51             31         DEPART     LINE2
+       52    52             32         ADVANCE    7,2
+       53    53             33         BPUTPIC    FILE=ATF,LINES=2,(AC1,XID1)
+       54    54             33  TIME *.**
+       55    55             33  DESTROY *      
+       56    56             34         LEAVE      PUMP2
+
+    STUDENT GPSS/H RELEASE 3.0j-C10 (UL206)     22 Jun 2003   12:12:55     FILE: MOBIL22.gps
+
+    LINE# STMT#  IF DO  BLOCK#  *LOC	OPERATION	A,B,C,D,E,F,G	COMMENTS  
+ 
+       57    57             35         TERMINATE
+       58    58             36  EXIT2  BPUTPIC FILE=ATF,LINES=1,(XID1) 
+       59    59             36  PLACE * ON pump203
+       60    60             37          ADVANCE 3,1
+       61    61             38          BPUTPIC    FILE=ATF,LINES=2,(AC1,XID1)  
+       62    62             38  TIME *.**       
+       63    63             38  DESTROY *
+       64    64             39          TERMINATE        
+       65    65             40  DDD     BPUTPIC FILE=ATF,LINES=1,(XID1) 
+       66    66             40  PLACE * ON shop       
+       67    67             41         TEST  L    Q(DELI),2,EXIT3
+       68    68             42         BPUTPIC    FILE=ATF,LINES=2,(AC1,XID1)
+       69    69             42  TIME *.**
+       70    70             42  PLACE * ON shop01       
+       71    71             43         QUEUE      DELI
+       72    72             44         SEIZE      CLERK
+       73    73             45         DEPART     DELI
+       74    74             46         ADVANCE    15,5
+       75    75             47         BPUTPIC    FILE=ATF,LINES=2,(AC1,XID1)
+       76    76             47  TIME *.**
+       77    77             47  DESTROY *
+       78    78             48         RELEASE    CLERK
+       79    79             49         TERMINATE
+       80    80             50  EXIT3  BPUTPIC FILE=ATF,LINES=1,(XID1) 
+       81    81             50  PLACE * ON shop02
+       82    82             51         ADVANCE    3,1
+       83    83             52          BPUTPIC    FILE=ATF,LINES=2,(AC1,XID1)  
+       84    84             52  TIME *.**
+       85    85             52  DESTROY *
+       86    86             53         TERMINATE
+       87    87             54  EEE    BPUTPIC    FILE=ATF,LINES=2,(AC1,XID1)
+       88    88             54  TIME *.**
+       89    89             54  PLACE * ON oil       
+       90    90             55         TEST  L    Q(OIL),1,EXIT4
+       91    91             56         BPUTPIC FILE=ATF,LINES=1,(XID1) 
+       92    92             56  PLACE * ON oil01       
+       93    93             57         QUEUE      OIL
+       94    94             58         SEIZE      MECHANIC
+       95    95             59         DEPART     OIL
+       96    96             60         ADVANCE    35,10
+       97    97             61         BPUTPIC    FILE=ATF,LINES=2,(AC1,XID1)
+       98    98             61  TIME *.**
+       99    99             61  DESTROY *
+      100   100             62         RELEASE    MECHANIC
+      101   101             63         TERMINATE
+      102   102             64  EXIT4  BPUTPIC FILE=ATF,LINES=1,(XID1)
+      103   103             64  PLACE * ON oil02 
+      104   104             65         BPUTPIC    FILE=ATF,LINES=2,(AC1,XID1)  
+      105   105             65  TIME *.**       
+      106   106             65  DESTROY *
+      107   107             66         TERMINATE
+      108   108             67         GENERATE   480
+      109   109                        START      1 
+      110   110             68         TERMINATE  1
+      111   111                        END
+
+ENTITY DICTIONARY (IN ASCENDING ORDER BY ENTITY NUMBER; "*" => VALUE CONFLICT.)
+
+       Facilities: 1=CLERK         2=MECHANIC
+
+           Queues: 1=LINE1         2=LINE2         3=DELI          4=OIL
+
+         Storages: 1=PUMP1         2=PUMP2
+
+            Files: 1=ATF
+
+SYMBOL   VALUE   EQU DEFNS  CONTEXT      REFERENCES BY STATEMENT NUMBER
+ 
+PUMP1        1              Absolute         6
+PUMP2        2              Absolute         6
+ 
+AAA          5          13  Block           11
+ALI         11          22  Block           18
+ALI1        28          47  Block           43
+ALI2        26          44  Block           43
+ALI3        29          49  Block           46
+BBB          4          12  Block           11
+DDD         40          65  Block           12
+ECE         12          24  Block           21
+EEE         54          87  Block           12
+EXIT1       19          33  Block           17
+EXIT2       36          58  Block           40
+EXIT3       50          80  Block           67
+EXIT4       64         102  Block           90
+FFF          6          15  Block           13
+GGG         23          40  Block           13
+VELI         9          19  Block           18
+ 
+CLERK        1              Facility        72    78
+MECHANIC     2              Facility        94   100
+ 
+DELI         3              Queue           67    71    73
+LINE1        1              Queue           17    24    26
+LINE2        2              Queue           40    49    51
+OIL          4              Queue           90    93    95
+ 
+PUMP1        1           6  Storage         25    31
+PUMP2        2           6  Storage         50    56
+ 
+ATF          1           5  File             8    15    19    22    28    33    36    41    44    47    53    58    61    65    68
+                                            75    80    83    87    91    97   102   104
+
+
+
+STORAGE REQUIREMENTS (BYTES)
+
+COMPILED CODE:     2814
+COMPILED DATA:       80
+MISCELLANEOUS:      580
+ENTITIES:           704
+COMMON:           10000
+-----------------------
+TOTAL:            14178
+
+
+
+GPSS/H MODEL SIZE:
+
+CONTROL STATEMENTS      5
+BLOCKS                 68
+
+Simulation begins.
+
+RELATIVE CLOCK: 480.0000   ABSOLUTE CLOCK: 480.0000
+
+
+
+BLOCK CURRENT     TOTAL  BLOCK CURRENT     TOTAL  BLOCK CURRENT     TOTAL  BLOCK CURRENT     TOTAL  BLOCK CURRENT     TOTAL
+1                   240  ALI                  46  21                    2  31                   91  41                   41 
+2                   240  ECE                  81  22                    2  32          1        91  42                   31 
+3                   240  13                   81  GGG                  94  33                   90  43          1        31 
+BBB                  63  14                   81  24                   91  34                   90  44                   30 
+AAA                 177  15          2        81  25                   91  35                   90  45                   30 
+FFF                  83  16                   79  ALI2                 41  EXIT2                 3  46          1        30 
+7                    83  17                   79  27                   41  37                    3  47                   29 
+8                    81  18                   79  ALI1                 50  38                    3  48                   29 
+VELI                 35  EXIT1                 2  ALI3                 91  39                    3  49                   29 
+10                   35  20                    2  30                   91  DDD                  41  EXIT3                10 
+
+
+
+BLOCK CURRENT     TOTAL  BLOCK CURRENT     TOTAL  
+51                   10  61                   12 
+52                   10  62                   12 
+53                   10  63                   12 
+EEE                  22  EXIT4                 9 
+55                   22  65                    9 
+56                   13  66                    9 
+57                   13  67                    1 
+58                   13  68                    1 
+59                   13 
+60          1        13 
+
+
+
+          --AVG-UTIL-DURING--                                                               
+FACILITY  TOTAL  AVAIL  UNAVL     ENTRIES    AVERAGE   CURRENT  PERCENT  SEIZING  PREEMPTING
+           TIME   TIME   TIME               TIME/XACT   STATUS   AVAIL     XACT      XACT   
+   CLERK  0.919                        30      14.701    AVAIL              223 
+MECHANIC  0.926                        13      34.201    AVAIL              218 
+
+
+
+          --AVG-UTIL-DURING--                                                                                          
+ STORAGE  TOTAL  AVAIL  UNAVL     ENTRIES    AVERAGE   CURRENT  PERCENT    CAPACITY     AVERAGE     CURRENT     MAXIMUM
+           TIME   TIME   TIME               TIME/UNIT   STATUS   AVAIL                 CONTENTS    CONTENTS    CONTENTS
+   PUMP1  0.560                        81       6.636    AVAIL   100.0            2       1.120           2           2
+   PUMP2  0.655                        91       6.906    AVAIL   100.0            2       1.309           1           2
+
+
+
+   QUEUE     MAXIMUM      AVERAGE       TOTAL        ZERO     PERCENT      AVERAGE      $AVERAGE     QTABLE     CURRENT
+            CONTENTS     CONTENTS      ENTRIES     ENTRIES     ZEROS      TIME/UNIT    TIME/UNIT     NUMBER    CONTENTS
+   LINE1           1        0.085          81          55       67.9         0.504         1.570                      0
+   LINE2           1        0.093          91          67       73.6         0.492         1.865                      0
+    DELI           2        1.216          31           4       12.9        18.828        21.617                      1
+     OIL           1        0.446          13           4       30.8        16.475        23.798                      0
+
+  RANDOM    ANTITHETIC     INITIAL     CURRENT      SAMPLE   CHI-SQUARE
+  STREAM      VARIATES    POSITION    POSITION       COUNT   UNIFORMITY
+       1           OFF      100000      101123        1123      0.83
+
+
+
+STATUS OF COMMON STORAGE
+
+    8864 BYTES AVAILABLE
+    1136 IN USE
+    1632 USED (MAX)
+
+Simulation terminated.  Absolute Clock: 480.0000
+
+
+
+Total Block Executions: 3481
+
+Blocks / second:        58017
+
+Microseconds / Block:  17.24
+
+
+
+Elapsed Time Used (SEC)
+ 
+SYM/XREF         0.06
+LOAD/CTRL:       0.16
+EXECUTION:       0.06
+---------------------
+TOTAL:           0.28
+
+GPSS/H IS A PROPRIETARY PRODUCT OF, AND IS USED UNDER A LICENSE GRANTED BY, THE WOLVERINE SOFTWARE CORPORATION,
+7617 LITTLE RIVER TURNPIKE, ANNANDALE, VIRGINIA 22003-2603, USA.

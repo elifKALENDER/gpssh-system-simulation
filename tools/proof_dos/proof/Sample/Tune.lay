@@ -1,0 +1,12 @@
+Define View "(Home)" center 39.9375 29.0833 width 79.875 Ortho Aspect 0.75 0.5 Speed 6 Mouse 5
+Define View "(Class)" center 0 0 width 7.9875 Ortho
+Define color Backdrop 0 0 0
+Define color Blue 0 0 0.6667
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0
+Define color Pink 1 0 0.6667
+Define color Tan 1 0.6667 0
+Define color Green 0 1 0
+Define color Layout 0.5079 0.5079 0.5079
+End

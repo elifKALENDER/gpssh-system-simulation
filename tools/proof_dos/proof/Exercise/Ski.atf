@@ -1,0 +1,89 @@
+time 0
+create cloud 1
+place 1 at 93 49
+move 1 7 15 49
+time 5
+creat cloud2 100
+place 100 at  93 49
+move 100 7 15 49
+time 7
+create island 10
+place 10 at 80 20
+move 10 7 1 20
+destroy 1
+time 12 
+destroy 100
+time 14
+destroy 10
+time 15 
+create cloud2 2
+place 2 at  93 49
+move 2 7 15 49
+time 22
+destroy 2
+time 23 
+create cloud 3
+place 3 at  93 49
+move 3 7 15 49
+time 28
+create island2 11
+place 11 at 80 20
+move 11 7 1 20
+time 30
+destroy 3
+time 35
+create island2 12
+place 12 at 80 20
+move 12 7 1 20
+create cloud2 4
+place 4 at  93 49
+move 4 7 15 49
+destroy 11
+time 38
+create cloud 5
+place 5 at 93 49
+move 5 7 15 49
+time 41
+create cloud2 6
+place 6 at 93 49
+move 6 7 15 49
+time 42
+destroy 12
+destroy 4
+time 45
+destroy  5
+create island 13
+place 13 at 80 20
+move 13 7 1 20
+time 49
+destroy 6
+create island2 14
+place 14 at 80 20
+move 14 7 1 20
+time 52
+create bird 7
+place 7 at 93 49
+move 7 7 15 49
+destroy 13
+time 54
+create bird 8
+place 8 at 93 49
+move 8 7 15 49
+time 56
+create bird 101
+place 101 at 93 49
+move 101 7 15 49
+destroy 14
+time 59
+destroy 7
+create island2 15
+place 15 at 80 20
+move 15 7 1 20
+time 61
+destroy 8
+time 63
+destroy 101
+time 65
+end
+
+

@@ -1,0 +1,14 @@
+create carrier 1
+place 1 on loop rgp on rgploop
+dt 6
+create carrier 2
+place 2 on loop rgp on rgploop
+dt 6
+create carrier 3
+place 3 on loop rgp on rgploop
+time 200
+set path loop travel -50
+time 400
+set path loop travel 50
+time 1000
+end

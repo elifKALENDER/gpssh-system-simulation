@@ -1,0 +1,265 @@
+Define View "(Home)" center 52 65 Width 160 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 6 Tolerance 0.3162
+Define View "(Class)" center 0 0 Width 9.6 Grid Size 1 10 Ortho
+Define color Backdrop  0.2392 0.1922 0.1922
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 0.7294 0.3647 1
+Define color F7 0 1 0
+Define color F8 0.898 0.2471 0.2471
+Define color F9 0 0 1
+Define color F10 0.749 0.2471 0.2471
+Define color F11 0.6 0.949 1
+Define color F12 0.498 0.349 0
+Define color F13 0.749 0.4 0.6667
+Define color F14 0.6 0.498 0.498
+Define color F15 0 0.6 0.2
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3294 0
+Define color F19 0.4 0.498 0.698
+Define color F20 0 0.3294 0.3294
+Define color F21 0.898 0.6667 0.498
+Define color F22 0.498 0.2471 0.498
+Define color F23 0.749 0.6 0
+Define color F24 0.498 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 1 0.6667 0
+Define color L2 0.6667 0.949 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.898 0.6667 0.498
+Define color L6 0.4 0.498 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color L1
+Define Class DOT
+Fill -0.031 -0.0701
+Arc 0.2 0 0 0 360 1.2566
+End
+Define Class LEAF Directional
+Line 0 0 0 8
+Line 0 0 8 0
+Line 0 0 0 -8
+Line 0 0 -8 0
+End
+Define Class FAN Directional
+Arc 4 0 0 0 360 25.1327
+Line 4 2 10 2
+Line 10 2 10 -2
+Line 10 -2 4 -2
+Line 4 -2 4 2
+Line -2 -4 -2 -10
+Line -2 -10 2 -10
+Line 2 -10 2 -4
+Line 2 -4 -2 -4
+Line -4 -2 -10 -2
+Line -10 -2 -10 2
+Line -10 2 -4 2
+Line -4 2 -4 -2
+Line -2 4 -2 10
+Line -2 10 2 10
+Line 2 10 2 4
+Line 2 4 -2 4
+End
+Color F3
+Define Class WAFER
+Line -2 2 -2 -2
+Line -2 -2 2 -2
+Line 2 -2 2 2
+Line 2 2 -2 2
+Arc 2 0 0 0 360 12.5664
+End
+Color L1
+Arc 12 20 90 0 360 75.3982
+Line 8 78 32 78
+Line 32 78 32 102
+Line 32 102 8 102
+Line 8 102 8 78
+Line 7.75 77.75 32.25 77.75
+Line 32.25 77.75 32.25 102.25
+Line 32.25 102.25 7.75 102.25
+Line 7.75 102.25 7.75 77.75
+Arc 10 50 90 0 360 62.8319
+Arc 8 50 90 0 360 50.2655
+Arc 8.5 50 90 0 360 53.4071
+Line 38 78 38 102
+Line 38 102 40 102
+Line 40 102 40 78
+Line 40 78 38 78
+Line 60 78 60 102
+Line 60 102 62 102
+Line 62 102 62 78
+Line 62 78 60 78
+Line 40 100 60 100
+Line 40 80 60 80
+Line 40 82 43 82
+Line 57 82 60 82
+Line 40 98 43 98
+Line 57 98 60 98
+Arc 10 80 90 0 360 62.8319
+Arc 8 80 90 0 360 50.2655
+Arc 7.5 80 90 0 360 47.1239
+Arc 7 80 90 0 360 43.9823
+Arc 6.5 80 90 0 360 40.8407
+Arc 6 80 90 0 360 37.6991
+Line 68 78 92 78
+Line 92 78 92 102
+Line 92 102 68 102
+Line 68 102 68 78
+Line 67.75 77.75 92.25 77.75
+Line 92.25 77.75 92.25 102.25
+Line 92.25 102.25 67.75 102.25
+Line 67.75 102.25 67.75 77.75
+Line 75 95 68 102
+Line 75 85 68 78
+Line 85 85 92 78
+Line 85 95 92 102
+Arc 10 20 30 0 360 62.8319
+Arc 8 20 30 0 360 50.2655
+Arc 8.5 20 30 0 360 53.4071
+Line 8 18 32 18
+Line 32 18 32 42
+Line 32 42 8 42
+Line 8 42 8 18
+Line 7.75 17.75 32.25 17.75
+Line 32.25 17.75 32.25 42.25
+Line 32.25 42.25 7.75 42.25
+Line 7.75 42.25 7.75 17.75
+Line 8 18 16 25
+Line 32 18 25 26
+Line 32 42 25 36
+Line 8 42 17 36
+Arc 6.5 20 30 0 360 40.8407
+Arc 7 20 30 0 360 43.9823
+Arc 7.5 20 30 0 360 47.1239
+Arc 3 50 30 0 360 18.8496
+Line 40 20 60 20
+Line 60 20 60 40
+Line 60 40 40 40
+Line 40 40 40 20
+Line 38 18 62 18
+Line 62 18 62 42
+Line 62 42 38 42
+Line 38 42 38 18
+Line 37.75 17.75 62.25 17.75
+Line 62.25 17.75 62.25 42.25
+Line 62.25 42.25 37.75 42.25
+Line 37.75 42.25 37.75 17.75
+Arc 10 80 30 0 360 62.8319
+Arc 8 80 30 0 360 50.2655
+Arc 8.5 80 30 0 360 53.4071
+Line 70 20 90 20
+Line 90 20 90 40
+Line 90 40 70 40
+Line 70 40 70 20
+Line 68 18 92 18
+Line 92 18 92 42
+Line 92 42 68 42
+Line 68 42 68 18
+Line 67.75 17.75 92.25 17.75
+Line 92.25 17.75 92.25 42.25
+Line 92.25 42.25 67.75 42.25
+Line 67.75 42.25 67.75 17.75
+Color Backdrop
+Arc  #1 0.1 20 90 0 360 0.6283
+Arc  #2 8 50 90 0 360 50.2655
+Arc  #3 7.8 50 90 0 360 49.0088
+Arc  #4 7.5 50 90 0 360 47.1239
+Arc  #5 7.2 50 90 0 360 45.2389
+Arc  #6 6.8 50 90 0 360 42.7257
+Arc  #7 6.2 50 90 0 360 38.9557
+Arc  #8 8 80 90 0 360 50.2655
+Arc  #9 8 20 30 0 360 50.2655
+Line #10 40 20 42 40
+Line #11 42 40 62 30
+Line #12 62 30 40 30
+Line #13 40 30 62 38
+Line #14 52 38 50 18
+Line #15 50 18 50 42
+Line #16 50 42 40 20
+Arc  #17 0.21 80 30 0 360 1.3195
+Arc  #18 0.9 80 90 0 360 5.6549
+Arc  #19 0.9 20 30 0 360 5.6549
+CPO WAFER waf1 20 90 Color Backdrop
+CPO WAFER waf2 50 90 Color Backdrop
+CPO WAFER waf5 50 30 Color Backdrop
+CPO WAFER waf6 80 30 Color Backdrop
+Color F7
+Text 1 2 12 74 PROCESS 1
+Text 1 2 42 74 PROCESS 2
+Text 1 2 72 74 PROCESS 3
+Text 1 2 12 46 PROCESS 4
+Text 1 2 42 46 PROCESS 5
+Text 1 2 72 46 PROCESS 6
+Color F3
+Text 1 4 CENTER 50 59 XYZ International manufacturing
+Define Path PROCESS1 Circular Label 12.0626 89.2045 Speed 1
+Segment #1 20.1 90 20.1 90 0.6283 CCW
+End
+Define Path PROCESS2 Circular Label 58.385 91.2076 Speed 100
+Segment #2 58 90 58 90 50.2655 CCW
+Segment #3 57.8 90 57.8 90 49.0088 CCW
+Segment #4 57.5 90 57.5 90 47.1239 CCW
+Segment #5 57.2 90 57.2 90 45.2389 CCW
+Segment #6 56.8 90 56.8 90 42.7257 CCW
+Segment #7 56.2 90 56.2 90 38.9557 CCW
+End
+Define Path PROCESS3 Circular Label 88.4319 91.2076 Speed 100
+Segment #8 88 90 88 90 50.2655 CCW
+End
+Define Path PROCESS4 Circular Label 28.5884 31.4476 Speed 100
+Segment #9 28 30 28 30 50.2655 CCW
+End
+Define Path PROCESS5 Circular Label 40.6072 21.4319 Speed 100
+Segment #10 40 20 42 40 20.0998
+Segment #11 42 40 62 30 22.3607
+Segment #12 62 30 40 30 22
+Segment #13 40 30 62 38 23.4094
+Segment #14 52 38 50 18 20.0998
+Segment #15 50 18 50 42 24
+Segment #16 50 42 40 20 24.1661
+End
+Define Path PROCESS6 Circular Label 72.1565 29.4444 Speed 2
+Segment #17 80.21 30 80.21 30 1.3195 CCW
+End
+Define Path W3 Circular Label 81.421 91.2076 Speed 5
+Segment #18 80.9 90 80.9 90 5.6549 CCW
+End
+Define Path W4 Circular Label 21.3271 31.4476 Speed 5
+Segment #19 20.9 30 20.9 30 5.6549 CCW
+End
+End

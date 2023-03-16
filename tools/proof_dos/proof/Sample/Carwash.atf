@@ -1,0 +1,908 @@
+Time 0.7
+Create Car 1
+Place 1 On ENTRY
+Time 0.9
+Place 1 On CHAIN
+Time 2.2
+Create Car 2
+Place 2 On ENTRY
+Time 2.9
+Place 2 On CHAIN
+Time 4.4
+Place 1 On EXIT
+Time 4.7
+Destroy 1
+Time 5.2
+Create Car 3
+Place 3 On ENTRY
+Time 5.4
+Place 3 On CHAIN
+Time 5.7
+Create Car 4
+Place 4 On ENTRY
+Time 6.0
+Create Car 5
+Place 5 On ENTRY
+Time 6.4
+Place 2 On EXIT
+Time 6.7
+Destroy 2
+Time 7.4
+Place 4 On CHAIN
+Time 8.9
+Place 3 On EXIT
+Time 9.2
+Destroy 3
+Time 9.2
+Create Car 6
+Place 6 On ENTRY
+Time 9.4
+Place 5 On CHAIN
+Time 10.5
+Create Car 7
+Place 7 On ENTRY
+Time 10.9
+Place 4 On EXIT
+Time 11.2
+Destroy 4
+Time 11.4
+Place 6 On CHAIN
+Time 12.9
+Place 5 On EXIT
+Time 13.2
+Destroy 5
+Time 13.4
+Place 7 On CHAIN
+Time 14.8
+Create Car 8
+Place 8 On ENTRY
+Time 14.9
+Place 6 On EXIT
+Time 15.2
+Destroy 6
+Time 15.4
+Place 8 On CHAIN
+Time 16.9
+Place 7 On EXIT
+Time 17.2
+Destroy 7
+Time 18.2
+Create Car 9
+Place 9 On ENTRY
+Time 18.4
+Create Car 10
+Place 10 On ENTRY
+Time 18.5
+Place 9 On CHAIN
+Time 18.6
+Create Car 11
+Place 11 On ENTRY
+Time 18.9
+Place 8 On EXIT
+Time 19.0
+Create Car 12
+Place 12 On ENTRY
+Time 19.2
+Destroy 8
+Time 19.9
+Create Car 13
+Place 13 On ENTRY
+Time 20.5
+Place 10 On CHAIN
+Time 22.0
+Place 9 On EXIT
+Time 22.2
+Destroy 9
+Time 22.5
+Place 11 On CHAIN
+Time 24.0
+Place 10 On EXIT
+Time 24.2
+Destroy 10
+Time 24.5
+Place 12 On CHAIN
+Time 24.8
+Create Car 14
+Place 14 On ENTRY
+Time 26.0
+Place 11 On EXIT
+Time 26.2
+Destroy 11
+Time 26.5
+Place 13 On CHAIN
+Time 27.7
+Create Car 15
+Place 15 On ENTRY
+Time 28.0
+Place 12 On EXIT
+Time 28.2
+Destroy 12
+Time 28.4
+Create Car 16
+Place 16 On ENTRY
+Time 28.5
+Place 14 On CHAIN
+Time 30.0
+Place 13 On EXIT
+Time 30.2
+Destroy 13
+Time 30.5
+Place 15 On CHAIN
+Time 32.0
+Create Car 17
+Place 17 On ENTRY
+Time 32.0
+Place 14 On EXIT
+Time 32.2
+Destroy 14
+Time 32.5
+Place 16 On CHAIN
+Time 34.0
+Place 15 On EXIT
+Time 34.2
+Destroy 15
+Time 34.5
+Place 17 On CHAIN
+Time 34.5
+Create Car 18
+Place 18 On ENTRY
+Time 36.0
+Place 16 On EXIT
+Time 36.1
+Create Car 19
+Place 19 On ENTRY
+Time 36.2
+Destroy 16
+Time 36.5
+Place 18 On CHAIN
+Time 38.0
+Place 17 On EXIT
+Time 38.2
+Destroy 17
+Time 38.5
+Place 19 On CHAIN
+Time 38.7
+Create Car 20
+Place 20 On ENTRY
+Time 40.0
+Place 18 On EXIT
+Time 40.2
+Destroy 18
+Time 40.5
+Place 20 On CHAIN
+Time 41.2
+Create Car 21
+Place 21 On ENTRY
+Time 42.0
+Place 19 On EXIT
+Time 42.2
+Destroy 19
+Time 42.5
+Place 21 On CHAIN
+Time 42.6
+Create Car 22
+Place 22 On ENTRY
+Time 44.0
+Place 20 On EXIT
+Time 44.2
+Destroy 20
+Time 44.5
+Place 22 On CHAIN
+Time 46.0
+Place 21 On EXIT
+Time 46.2
+Destroy 21
+Time 46.4
+Create Car 23
+Place 23 On ENTRY
+Time 46.7
+Create Car 24
+Place 24 On ENTRY
+Time 46.7
+Place 23 On CHAIN
+Time 48.0
+Place 22 On EXIT
+Time 48.2
+Destroy 22
+Time 48.7
+Place 24 On CHAIN
+Time 49.5
+Create Car 25
+Place 25 On ENTRY
+Time 50.2
+Place 23 On EXIT
+Time 50.4
+Destroy 23
+Time 50.7
+Place 25 On CHAIN
+Time 51.4
+Create Car 26
+Place 26 On ENTRY
+Time 52.2
+Place 24 On EXIT
+Time 52.2
+Create Car 27
+Place 27 On ENTRY
+Time 52.4
+Destroy 24
+Time 52.7
+Place 26 On CHAIN
+Time 53.6
+Create Car 28
+Place 28 On ENTRY
+Time 54.2
+Place 25 On EXIT
+Time 54.4
+Destroy 25
+Time 54.7
+Place 27 On CHAIN
+Time 56.2
+Place 26 On EXIT
+Time 56.4
+Destroy 26
+Time 56.7
+Place 28 On CHAIN
+Time 58.2
+Place 27 On EXIT
+Time 58.4
+Destroy 27
+Time 60.0
+Create Car 29
+Place 29 On ENTRY
+Time 60.2
+Place 28 On EXIT
+Time 60.3
+Place 29 On CHAIN
+Time 60.4
+Destroy 28
+Time 62.2
+Create Car 30
+Place 30 On ENTRY
+Time 62.5
+Place 30 On CHAIN
+Time 63.8
+Place 29 On EXIT
+Time 64.0
+Destroy 29
+Time 64.2
+Create Car 31
+Place 31 On ENTRY
+Time 64.5
+Place 31 On CHAIN
+Time 66.0
+Place 30 On EXIT
+Time 66.2
+Destroy 30
+Time 68.0
+Place 31 On EXIT
+Time 68.2
+Destroy 31
+Time 71.6
+Create Car 32
+Place 32 On ENTRY
+Time 71.8
+Place 32 On CHAIN
+Time 75.3
+Place 32 On EXIT
+Time 75.6
+Destroy 32
+Time 76.9
+Create Car 33
+Place 33 On ENTRY
+Time 77.1
+Create Car 34
+Place 34 On ENTRY
+Time 77.2
+Place 33 On CHAIN
+Time 79.2
+Place 34 On CHAIN
+Time 80.7
+Place 33 On EXIT
+Time 80.9
+Destroy 33
+Time 82.7
+Place 34 On EXIT
+Time 82.9
+Destroy 34
+Time 84.9
+Create Car 35
+Place 35 On ENTRY
+Time 85.1
+Place 35 On CHAIN
+Time 87.3
+Create Car 36
+Place 36 On ENTRY
+Time 87.5
+Place 36 On CHAIN
+Time 87.8
+Create Car 37
+Place 37 On ENTRY
+Time 88.6
+Place 35 On EXIT
+Time 88.9
+Destroy 35
+Time 89.5
+Place 37 On CHAIN
+Time 91.0
+Place 36 On EXIT
+Time 91.1
+Create Car 38
+Place 38 On ENTRY
+Time 91.3
+Destroy 36
+Time 91.5
+Place 38 On CHAIN
+Time 91.8
+Create Car 39
+Place 39 On ENTRY
+Time 92.7
+Create Car 40
+Place 40 On ENTRY
+Time 93.0
+Place 37 On EXIT
+Time 93.3
+Destroy 37
+Time 93.5
+Place 39 On CHAIN
+Time 94.9
+Create Car 41
+Place 41 On ENTRY
+Time 95.0
+Place 38 On EXIT
+Time 95.3
+Destroy 38
+Time 95.5
+Place 40 On CHAIN
+Time 97.0
+Place 39 On EXIT
+Time 97.3
+Destroy 39
+Time 97.5
+Place 41 On CHAIN
+Time 99.0
+Create Car 42
+Place 42 On ENTRY
+Time 99.0
+Place 40 On EXIT
+Time 99.3
+Destroy 40
+Time 99.3
+Create Car 43
+Place 43 On ENTRY
+Time 99.5
+Place 42 On CHAIN
+Time 100.9
+Create Car 44
+Place 44 On ENTRY
+Time 101.0
+Place 41 On EXIT
+Time 101.3
+Destroy 41
+Time 101.5
+Place 43 On CHAIN
+Time 102.1
+Create Car 45
+Place 45 On ENTRY
+Time 103.0
+Place 42 On EXIT
+Time 103.3
+Destroy 42
+Time 103.5
+Place 44 On CHAIN
+Time 104.4
+Create Car 46
+Place 46 On ENTRY
+Time 104.9
+Create Car 47
+Place 47 On ENTRY
+Time 105.0
+Place 43 On EXIT
+Time 105.3
+Destroy 43
+Time 105.5
+Place 45 On CHAIN
+Time 107.0
+Place 44 On EXIT
+Time 107.3
+Destroy 44
+Time 107.3
+Create Car 48
+Place 48 On ENTRY
+Time 107.5
+Place 46 On CHAIN
+Time 107.6
+Create Car 49
+Place 49 On ENTRY
+Time 108.0
+Create Car 50
+Place 50 On ENTRY
+Time 109.0
+Create Car 51
+Place 51 On ENTRY
+Time 109.0
+Place 45 On EXIT
+Time 109.3
+Destroy 45
+Time 109.5
+Place 47 On CHAIN
+Time 111.0
+Place 46 On EXIT
+Time 111.3
+Destroy 46
+Time 111.5
+Place 48 On CHAIN
+Time 113.0
+Place 47 On EXIT
+Time 113.2
+Create Car 52
+Place 52 On ENTRY
+Time 113.3
+Destroy 47
+Time 113.5
+Place 49 On CHAIN
+Time 115.0
+Place 48 On EXIT
+Time 115.3
+Destroy 48
+Time 115.5
+Place 50 On CHAIN
+Time 116.5
+Create Car 53
+Place 53 On ENTRY
+Time 117.0
+Place 49 On EXIT
+Time 117.3
+Destroy 49
+Time 117.5
+Place 51 On CHAIN
+Time 118.3
+Create Car 54
+Place 54 On ENTRY
+Time 119.0
+Place 50 On EXIT
+Time 119.3
+Destroy 50
+Time 119.5
+Place 52 On CHAIN
+Time 121.0
+Place 51 On EXIT
+Time 121.3
+Destroy 51
+Time 121.5
+Place 53 On CHAIN
+Time 123.0
+Place 52 On EXIT
+Time 123.3
+Destroy 52
+Time 123.5
+Place 54 On CHAIN
+Time 123.9
+Create Car 55
+Place 55 On ENTRY
+Time 125.0
+Place 53 On EXIT
+Time 125.3
+Destroy 53
+Time 125.5
+Place 55 On CHAIN
+Time 125.9
+Create Car 56
+Place 56 On ENTRY
+Time 126.1
+Create Car 57
+Place 57 On ENTRY
+Time 127.0
+Place 54 On EXIT
+Time 127.3
+Destroy 54
+Time 127.5
+Place 56 On CHAIN
+Time 129.0
+Place 55 On EXIT
+Time 129.3
+Destroy 55
+Time 129.5
+Place 57 On CHAIN
+Time 131.0
+Place 56 On EXIT
+Time 131.3
+Destroy 56
+Time 133.0
+Place 57 On EXIT
+Time 133.1
+Create Car 58
+Place 58 On ENTRY
+Time 133.3
+Destroy 57
+Time 133.4
+Place 58 On CHAIN
+Time 134.9
+Create Car 59
+Place 59 On ENTRY
+Time 135.4
+Place 59 On CHAIN
+Time 135.5
+Create Car 60
+Place 60 On ENTRY
+Time 136.9
+Place 58 On EXIT
+Time 137.1
+Destroy 58
+Time 137.4
+Place 60 On CHAIN
+Time 137.8
+Create Car 61
+Place 61 On ENTRY
+Time 138.0
+Create Car 62
+Place 62 On ENTRY
+Time 138.6
+Create Car 63
+Place 63 On ENTRY
+Time 138.9
+Place 59 On EXIT
+Time 139.1
+Destroy 59
+Time 139.4
+Place 61 On CHAIN
+Time 140.9
+Place 60 On EXIT
+Time 141.1
+Destroy 60
+Time 141.4
+Place 62 On CHAIN
+Time 141.4
+Create Car 64
+Place 64 On ENTRY
+Time 142.9
+Place 61 On EXIT
+Time 143.1
+Destroy 61
+Time 143.4
+Place 63 On CHAIN
+Time 144.9
+Place 62 On EXIT
+Time 145.1
+Destroy 62
+Time 145.4
+Place 64 On CHAIN
+Time 146.9
+Place 63 On EXIT
+Time 147.1
+Destroy 63
+Time 148.9
+Place 64 On EXIT
+Time 149.1
+Destroy 64
+Time 150.7
+Create Car 65
+Place 65 On ENTRY
+Time 151.0
+Place 65 On CHAIN
+Time 151.8
+Create Car 66
+Place 66 On ENTRY
+Time 153.0
+Place 66 On CHAIN
+Time 153.6
+Create Car 67
+Place 67 On ENTRY
+Time 154.1
+Create Car 68
+Place 68 On ENTRY
+Time 154.3
+Create Car 69
+Place 69 On ENTRY
+Time 154.5
+Place 65 On EXIT
+Time 154.7
+Destroy 65
+Time 155.0
+Place 67 On CHAIN
+Time 155.9
+Create Car 70
+Place 70 On ENTRY
+Time 156.5
+Place 66 On EXIT
+Time 156.7
+Destroy 66
+Time 157.0
+Place 68 On CHAIN
+Time 158.5
+Place 67 On EXIT
+Time 158.7
+Destroy 67
+Time 158.9
+Create Car 71
+Place 71 On ENTRY
+Time 159.0
+Place 69 On CHAIN
+Time 160.0
+Create Car 72
+Place 72 On ENTRY
+Time 160.5
+Place 68 On EXIT
+Time 160.7
+Destroy 68
+Time 160.8
+Create Car 73
+Place 73 On ENTRY
+Time 161.0
+Place 70 On CHAIN
+Time 161.6
+Create Car 74
+Place 74 On ENTRY
+Time 162.5
+Place 69 On EXIT
+Time 162.7
+Destroy 69
+Time 163.0
+Create Car 75
+Place 75 On ENTRY
+Time 163.0
+Place 71 On CHAIN
+Time 163.2
+Create Car 76
+Place 76 On ENTRY
+Time 164.5
+Place 70 On EXIT
+Time 164.7
+Destroy 70
+Time 165.0
+Place 72 On CHAIN
+Time 165.4
+Create Car 77
+Place 77 On ENTRY
+Time 166.5
+Place 71 On EXIT
+Time 166.7
+Destroy 71
+Time 167.0
+Place 73 On CHAIN
+Time 167.4
+Create Car 78
+Place 78 On ENTRY
+Time 168.0
+Create Car 79
+Place 79 On ENTRY
+Time 168.5
+Place 72 On EXIT
+Time 168.7
+Destroy 72
+Time 169.0
+Place 74 On CHAIN
+Time 169.0
+Create Car 80
+Place 80 On ENTRY
+Time 170.5
+Create Car 81
+Place 81 On ENTRY
+Time 170.5
+Place 73 On EXIT
+Time 170.7
+Destroy 73
+Time 171.0
+Place 75 On CHAIN
+Time 172.4
+Create Car 82
+Place 82 On ENTRY
+Time 172.5
+Place 74 On EXIT
+Time 172.7
+Destroy 74
+Time 173.0
+Place 76 On CHAIN
+Time 174.5
+Place 75 On EXIT
+Time 174.7
+Destroy 75
+Time 175.0
+Place 77 On CHAIN
+Time 176.5
+Place 76 On EXIT
+Time 176.7
+Destroy 76
+Time 177.0
+Place 78 On CHAIN
+Time 178.5
+Place 77 On EXIT
+Time 178.7
+Destroy 77
+Time 179.0
+Place 79 On CHAIN
+Time 179.2
+Create Car 83
+Place 83 On ENTRY
+Time 179.4
+Create Car 84
+Place 84 On ENTRY
+Time 179.5
+Create Car 85
+Place 85 On ENTRY
+Time 180.5
+Place 78 On EXIT
+Time 180.7
+Destroy 78
+Time 181.0
+Place 80 On CHAIN
+Time 181.8
+Create Car 86
+Place 86 On ENTRY
+Time 182.5
+Place 79 On EXIT
+Time 182.7
+Destroy 79
+Time 183.0
+Place 81 On CHAIN
+Time 184.5
+Place 80 On EXIT
+Time 184.7
+Destroy 80
+Time 185.0
+Place 82 On CHAIN
+Time 186.5
+Place 81 On EXIT
+Time 186.5
+Create Car 87
+Place 87 On ENTRY
+Time 186.7
+Destroy 81
+Time 187.0
+Place 83 On CHAIN
+Time 188.5
+Place 82 On EXIT
+Time 188.7
+Destroy 82
+Time 189.0
+Place 84 On CHAIN
+Time 189.4
+Create Car 88
+Place 88 On ENTRY
+Time 190.5
+Place 83 On EXIT
+Time 190.7
+Destroy 83
+Time 191.0
+Place 85 On CHAIN
+Time 192.5
+Place 84 On EXIT
+Time 192.7
+Destroy 84
+Time 193.0
+Place 86 On CHAIN
+Time 193.6
+Create Car 89
+Place 89 On ENTRY
+Time 193.8
+Create Car 90
+Place 90 On ENTRY
+Time 194.0
+Create Car 91
+Place 91 On ENTRY
+Time 194.5
+Place 85 On EXIT
+Time 194.7
+Destroy 85
+Time 195.0
+Place 87 On CHAIN
+Time 196.0
+Create Car 92
+Place 92 On ENTRY
+Time 196.5
+Place 86 On EXIT
+Time 196.7
+Destroy 86
+Time 197.0
+Place 88 On CHAIN
+Time 198.5
+Place 87 On EXIT
+Time 198.7
+Destroy 87
+Time 199.0
+Place 89 On CHAIN
+Time 199.3
+Create Car 93
+Place 93 On ENTRY
+Time 200.5
+Place 88 On EXIT
+Time 200.7
+Destroy 88
+Time 201.0
+Place 90 On CHAIN
+Time 202.5
+Place 89 On EXIT
+Time 202.7
+Destroy 89
+Time 203.0
+Place 91 On CHAIN
+Time 204.5
+Place 90 On EXIT
+Time 204.7
+Destroy 90
+Time 205.0
+Place 92 On CHAIN
+Time 206.5
+Create Car 94
+Place 94 On ENTRY
+Time 206.5
+Place 91 On EXIT
+Time 206.7
+Destroy 91
+Time 207.0
+Place 93 On CHAIN
+Time 207.3
+Create Car 95
+Place 95 On ENTRY
+Time 208.5
+Place 92 On EXIT
+Time 208.7
+Destroy 92
+Time 209.0
+Place 94 On CHAIN
+Time 210.5
+Place 93 On EXIT
+Time 210.7
+Destroy 93
+Time 211.0
+Place 95 On CHAIN
+Time 211.0
+Create Car 96
+Place 96 On ENTRY
+Time 212.1
+Create Car 97
+Place 97 On ENTRY
+Time 212.5
+Place 94 On EXIT
+Time 212.7
+Destroy 94
+Time 213.0
+Place 96 On CHAIN
+Time 213.9
+Create Car 98
+Place 98 On ENTRY
+Time 214.5
+Place 95 On EXIT
+Time 214.7
+Destroy 95
+Time 215.0
+Place 97 On CHAIN
+Time 216.2
+Create Car 99
+Place 99 On ENTRY
+Time 216.5
+Place 96 On EXIT
+Time 216.7
+Destroy 96
+Time 217.0
+Place 98 On CHAIN
+Time 217.7
+Create Car 100
+Place 100 On ENTRY
+Time 218.5
+Place 97 On EXIT
+Time 218.6
+Create Car 101
+Place 101 On ENTRY
+Time 218.7
+Destroy 97
+Time 219.0
+Place 99 On CHAIN
+Time 220.5
+Place 98 On EXIT
+Time 220.7
+Destroy 98
+Time 221.0
+Place 100 On CHAIN
+Time 222.5
+Place 99 On EXIT
+Time 222.7
+Destroy 99
+Time 223.0
+Place 101 On CHAIN
+Time 223.3
+Create Car 102
+Place 102 On ENTRY
+Time 224.5
+Place 100 On EXIT
+Time 224.7
+Destroy 100

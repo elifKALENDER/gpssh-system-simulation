@@ -1,0 +1,44 @@
+create Wagon 1
+create Wheel 2
+create Wheel 3
+place 1 on Trail
+place 2 on Trail
+dt 8 29299
+place 3 on Trail
+*
+rotate 2 speed -20 step 6
+rotate 3 speed -20 step 6
+*
+time 75 58433
+set 1 speed .8
+set 2 speed .8
+set 3 speed .8
+rotate 2 speed 0
+rotate 3 speed 0
+create Smoke 4
+attach 4 to 1
+time 80 31934
+set 1 speed .6
+set 2 speed .6
+set 3 speed .6
+time 85 51343
+set 1 speed .4
+set 2 speed .4
+set 3 speed .4
+time 85 5216
+set 1 speed .2
+set 2 speed .2
+set 3 speed .2
+time 90 24625
+set 1 speed .1
+set 2 speed .1
+set 3 speed .1
+time 95 44034
+set 1 speed 0
+set 2 speed 0
+set 3 speed 0
+time 98 63699
+destroy 4
+time 9999 7853
+end
+

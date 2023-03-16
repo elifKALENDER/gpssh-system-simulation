@@ -1,0 +1,5 @@
+rotate shand speed -6 step 6
+rotate mhand speed -0.1 step 6
+rotate hhand speed -0.008333333333 step 6
+time 99999 19662
+end

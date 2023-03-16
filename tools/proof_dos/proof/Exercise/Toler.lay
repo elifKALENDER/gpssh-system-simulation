@@ -1,0 +1,41 @@
+View center 46.3489 26.0306 width 42.799 Speed 6 Mouse 5 Tolerance 0
+Define color Backdrop 0 0 0
+Define color Blue 0 0 0.6032
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0
+Define color Pink 0.4286 0.7302 0.6667
+Define color Tan 1 0.6667 0
+Define color Green 0 1 0
+Define color Layout 0.4921 0.4921 0.4921
+Color Layout
+Line 33.6536 31.9367 37.2786 31.9367
+Line 33.6536 19.1867 33.6536 31.8534
+Line 59.0286 19.1867 33.7161 19.1867
+Line #1 36.7786 31.9367 59.0911 31.9367
+Line 59.0911 31.8534 59.0863 19.1984
+Define Path swim1 Circular Label 35.9338 31.7907 Speed 2
+Segment #1 37.2786 31.9367 59.0911 31.9367 21.8125
+End
+Color Pink
+Define Class smoothie
+Line -0.1265 0.329 0.9 0.25
+Arc 0.5 -0.1648 -0.1696 85.6013 189.4603 0.9063
+Line -0.6 -0.6 -0.9 -0.2
+Line -0.9 -0.2 -1.4 -0.3
+Line -0.9437 0.0259 -1.4 -0.3
+Line -0.658 -0.2517 -0.6 -0.6
+Arc 0.1 0.9121 0.3494 260.5377 265.6013 0.0088
+Arc 0.1 0.9121 0.3494 260.5377 265.6013 0.0088
+Arc 0.2 0.9242 0.4487 260.5377 265.6013 0.0177
+Line 0.9 0.25 1.14 0.21
+Line 0.99 0.38 1.13 0.28
+Arc 0.05 1.1 0.24 -36.8699 54.4623 0.0797
+Line 0.3 1 -0.05 1.35
+Line -0.05 1.35 -0.2 1
+Arc 1 0.0563 0.025 20.7234 75.4862 0.9558
+Arc 1 0.0563 0.025 105.0919 179.9488 1.3065
+Arc 0.05 0.75 0.55 0 360 0.3142
+Fill 0.0525 0.6069
+End
+End

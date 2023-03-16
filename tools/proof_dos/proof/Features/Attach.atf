@@ -1,0 +1,32 @@
+time 0
+create engine 1
+create box 2
+set 2 color red
+create box 3
+set 3 color white
+create box 4
+attach 2 to 1
+attach 3 to 2
+attach 4 to 3
+place 1 on PATH1
+time 20
+place 1 on PATH2
+time 23
+place 1 on PATH3
+detach 4 from 3
+set 4 speed 2
+time 30
+destroy 4
+detach 3 from 2
+set 3 speed 0
+time 43
+destroy 3
+place 1 on PATH1
+time 63
+place 1 on PATH2
+time 66
+place 1 on PATH3
+time 83
+destroy 2
+time 86 
+end

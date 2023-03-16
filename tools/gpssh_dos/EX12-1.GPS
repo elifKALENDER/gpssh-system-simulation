@@ -1,0 +1,103 @@
+       SIMULATE
+*
+*      Ampervariable Declaration
+*
+       INTEGER    &I
+       REAL       &AVG1,&AVG2,&MIN1,&MIN2,&MAX1,&MAX2
+       LET        &MIN1=999999.
+       LET        &MIN2=999999.
+       LET        &MAX1=-999999.
+       LET        &MAX2=-999999.
+*
+*      Storage Declaration Segment
+*
+       STORAGE    S(WKR2),2/S(WKR5),3/S(INSPECT),2
+*
+*      GPSS/H Block Section
+*
+*         Staging Area
+*
+       GENERATE   4,1         A bundle arrives between 4+-1 minutes
+       ADVANCE    2           Transportation time to the staging area
+       QUEUE      SERVER      Start sewing time statistic collection
+       SEIZE      SERVER      Capture the line server
+       DEPART     SERVER      Record sewing time observation
+       ADVANCE    3.75,1      Prepare a bundle
+       RELEASE    SERVER      Release the line server
+*
+*         Sewing Line
+*
+       SEIZE      WKR1        Capture work station 1
+       ADVANCE    3.5,1       Close first shoulder
+       RELEASE    WKR1        Free work station 1
+*
+       ENTER      WKR2        Capture 1 of work station 2
+       ADVANCE    7,2         Sew collar
+       LEAVE      WKR2        Free 1 of work station 2
+*
+       SEIZE      WKR3        Capture work station 3
+       ADVANCE    3,0.75      Cover seam
+       RELEASE    WKR3        Free work station 3
+*
+       SEIZE      WKR4        Capture work station 4
+       ADVANCE    3.25,1      Close second shoulder
+       RELEASE    WKR4        Free work station 4
+* 
+       ENTER      WKR5        Capture 1 of work station 5 
+       ADVANCE    11,3        Set sleeves
+       LEAVE      WKR5        Free 1 of work station 5
+*
+*         Inspection Stations
+*
+       ENTER      INSPECT     Capture 1 inspection station
+       TEST E     0,F(INSP1),OTHER Is inspector 1 idle?
+       SEIZE      INSP1       Capture inspector 1
+       ADVANCE    7,2         Inspect shirts
+       RELEASE    INSP1       Release inspector 1
+       TRANSFER   ,BACK       Go to Block BACK
+ OTHER SEIZE      INSP2       Capture inspector 2
+       ADVANCE    9,1         Inspect shirts
+       RELEASE    INSP2       Release inspector 2
+ BACK  LEAVE      INSPECT     Free 1 inspection station
+       TRANSFER   .05,,REJ    5% are rejected
+       TERMINATE              Good t-shirts exit the system
+ REJ   TERMINATE              Bad t-shirts exit the system 
+*
+*        Timer Segment
+*
+       GENERATE  540          Arrival after 9 hours 
+       TERMINATE 1            Decrement TG1 by 1  
+*
+*      GPSS/H Control Statements
+*
+       DO        &I=1,50          Repeat 50 times
+       CLEAR                      Clear all statistics
+       START     1,NP             Start simulation run, no print
+       LET       &AVG1=&AVG1+QA(SERVER) Sum all average contents
+       LET       &AVG2=&AVG2+QT(SERVER) Sum all average waiting time
+       IF        &MIN1>QA(SERVER) Is minimum average contents greater than current value?
+       LET       &MIN1=QA(SERVER) Yes, change minimum value
+       ENDIF                      No, do not change
+       IF        &MIN2>QT(SERVER) Is minimum average waiting time greater than current value?
+       LET       &MIN2=QT(SERVER) Yes, change minimum value
+       ENDIF                      No, do not change
+       IF        &MAX1<QA(SERVER) Is maximum average contents less than current value?
+       LET       &MAX1=QA(SERVER) Yes, change maximum value
+       ENDIF                      No, do not change
+       IF        &MAX2<QT(SERVER) Is maximum average waiting time less than current value?
+       LET       &MAX2=QT(SERVER) Yes, change maximum value
+       ENDIF                      No, do not change
+       ENDDO                      Go back to DO
+       LET       &AVG1=&AVG1/50.  Compute overall average contents
+       LET       &AVG2=&AVG2/50.  Compute overall average waiting time
+       PUTPIC    FILE=ANS12,LINES=7,(&MIN1,&MAX1,&AVG1,&MIN2,&MAX2,&AVG2)
+                                     Minimum  Maximum  Average
+                                     -------  -------  -------
+Average Number of Transactions       **.****  **.****  **.****
+  in Queue SERVER
+Average Waiting Time of              **.****  **.****  **.****
+  Transactions in Queue SERVER
+
+       END
+
+

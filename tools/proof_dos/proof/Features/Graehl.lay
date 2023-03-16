@@ -1,0 +1,65 @@
+Define View "(Home)" center 39.9448 26.3285 width 70.5882 Ortho Aspect 1 0.5 Speed 8 Mouse 5
+Define View "(Class)" center 0 0 width 31.95 Ortho
+Define color 0 0 0 0
+Define color 1 0 0 0.6667
+Define color 2 1 0 0
+Define color 3 1 1 1
+Define color 4 1 1 0
+Define color 5 1 0 0.6667
+Define color 6 1 0.6667 0
+Define color 7 0 1 0
+Define color 8 0.8889 0.2381 0.2381
+Define color 9 0 0 1
+Define color 10 0.746 0.2381 0.2381
+Define color 11 0.5873 0.9365 1
+Define color 12 0.4921 0.3492 0
+Define color 13 0.746 0.3968 0.6667
+Define color 14 0.5873 0.4921 0.4921
+Define color 15 0 0.5873 0.1905
+Define color 16 0.6667 0 1
+Define color 17 0 0.6667 0.6667
+Define color 18 0.6667 0.3175 0
+Define color 19 0.3968 0.4921 0.6984
+Define color 20 0 0.3175 0.3175
+Define color 21 0.8889 0.6667 0.4921
+Define color 22 0.4921 0.2381 0.4921
+Define color 23 0.746 0.5873 0
+Define color 24 0.4921 0 0.6667
+Define color L1 0.5079 0.5079 0.5079
+Define color L2 0.6667 0.9365 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.8889 0.6667 0.4921
+Define color L6 0.3968 0.4921 0.6984
+Define color L7 0 0 0.6667
+Define Class carrier Directional RGP -10
+Color F3 
+Line -10.5 -0.5 -10.5 0.5
+Line -10.5 0.5 0.5 0.5
+Line 0.5 0.5 0.5 -0.5
+Line 0.5 -0.5 -10.5 -0.5
+Line -10.5 0 -9.5 0
+Line -10 0.5 -10 -0.5
+Line 0 0.5 0 -0.5
+Line -0.5 0 0.5 0
+End
+Color L1 
+Line #1 10 40 70 40
+Arc  #2 10 30 30 90 180 15.708
+Line 20 41 20 39
+Line #3 20 30 20 10
+Line 19 25 21 25
+Define Path path1 Label 21.0313 11.6667 Speed 1
+Segment #3 20 10 20 25 15
+End
+Define Path path2 Label 21.1563 27.3333 Speed 1
+Segment #3 20 25 20 30 5
+Segment #2 20 30 30 40 15.708 CW
+End
+Define Path path3 Label 11.6563 41.6667 Speed 1
+Segment #1 10 40 20 40 10
+End
+Define Path path4 Label 22.5313 41.6667 Speed 1
+Segment #1 20 40 70 40 50
+End
+End

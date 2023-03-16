@@ -1,0 +1,61 @@
+Define View "(Home)" center 39.9375 29.0833 width 79.875 Ortho Aspect 0.75 0.5 Speed 10 Mouse 5
+Define View "(Class)" center 0 0 width 26.0925 Ortho
+Define color Bac 0 0 0
+Define color F1  0 0 0.6667
+Define color F2  1 0 0
+Define color F3  1 1 1
+Define color F4  1 1 0
+Define color F5  1 0 0.6667
+Define color F6  1 0.6667 0
+Define color F7  0 1 0
+Define color L1  0.5079 0.5079 0.5079
+Color F2 
+Define Class carrier Directional RGP -10
+Arc 0.75 -10.25 0.25 90 180 1.1781
+Arc 0.75 0.25 0.25 0 90 1.1781
+Line 0.25 1 -10.25 1
+Arc 0.75 0.25 -0.25 -90 0 1.1781
+Arc 0.75 -10.25 -0.25 180 270 1.1781
+Line -10.25 -1 0.25 -1
+Line -11 0.25 -11 -0.25
+Line 1 0.2 1 -0.2
+Line -10 0 0 0
+Line 0 0 -0.6 0.6
+Line 0 0 -0.6 -0.6
+End
+Color L1 
+Arc  #1 4 24 36 90 180 6.2832
+Arc  #2 4 24 14 180 270 6.2832
+Line #3 20 14 20 36
+Arc  #4 4 56 14 -90 0 6.2832
+Line #5 56 10 24 10
+Line #6 24 40 56 40
+Line #7 60 36 60 14
+Arc  #8 4 29 36 90 180 6.2832
+Arc  #9 4 29 14 180 270 6.2832
+Line #10 25 14 25 36
+Arc  #11 4 56 36 0 90 6.2832
+Arc  #12 4 51 36 0 90 6.2832
+Arc  #13 4 51 14 270 360 6.2832
+Line #14 55 36 55 14
+Define Path loop Circular Label 39.625 9.5 Time 50
+Segment #5 56 10 24 10 32
+Segment #2 24 10 20 14 6.2832 CW
+Segment #3 20 14 20 36 22
+Segment #1 20 36 24 40 6.2832 CW
+Segment #6 24 40 56 40 32
+Segment #11 56 40 60 36 6.2832 CW
+Segment #7 60 36 60 14 22
+Segment #4 60 14 56 10 6.2832 CW
+End
+Define Path rgploop Circular Label 26 24.8333 Time 50
+Segment #5 51 10 29 10 22
+Segment #9 29 10 25 14 6.2832 CW
+Segment #10 25 14 25 36 22
+Segment #8 25 36 29 40 6.2832 CW
+Segment #6 29 40 51 40 22
+Segment #12 51 40 55 36 6.2832 CW
+Segment #14 55 36 55 14 22
+Segment #13 55 14 51 10 6.2832 CW
+End
+End

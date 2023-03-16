@@ -1,0 +1,226 @@
+Define View "(Home)" center 56.2098 49.8519 width 83.5566 Ortho Aspect 0.75 0.5 Grid ON Speed 25 Mouse 5
+Define View "(Class)" center 0 0 width 33.5277 Ortho
+Define color Backdrop 0 0 0
+Define color Blue 0.3175 0.3175 1
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0
+Define color Pink 1 0.3175 0.6667
+Define color Tan 1 0.6667 0
+Define color Green 0 1 0
+Define color Layout 0.4921 0.4921 0.4921
+Color Layout
+Define Class ST13
+Line -15 18 15 18
+Line -15 12 15 12
+Line -15 6 15 6
+Line -15 0 15 0
+Line -15 -6 15 -6
+Line -15 -12 15 -12
+Line -15 -12 -15 18
+Line 0 -12 0 18
+Line 15 -12 15 18
+Line 9 -12 9 18
+Text 1 2 -15 20 Shipped
+Text 1 2 2 20 In Stock
+Text 1 2 -22 15 1-1
+Text 1 2 -22 9 1-2
+Text 1 2 -22 3 1-3
+Text 1 2 -22 -3 1-4
+Text 1 2 -22 -9 1-5
+End
+Color Tan
+Define Class STN1
+Line 0 0 10 0
+Line 10 0 10 8
+Line 10 8 0 8
+Line 0 8 0 0
+Text 1 3 8 2.5 1
+End
+Define Class STN2
+Line 0 0 10 0
+Line 10 0 10 8
+Line 10 8 0 8
+Line 0 8 0 0
+Text 1 3 8 2.5 2
+End
+Define Class STN3
+Line 0 0 8 0
+Line 8 0 8 10
+Line 8 10 0 10
+Line 0 10 0 0
+Text 1 3 3 7 3
+End
+Define Class STN4
+Line 0 0 8 0
+Line 8 0 8 10
+Line 8 10 0 10
+Line 0 10 0 0
+Text 1 3 3 7 4
+End
+Define Class ST11
+Text 1 2 0 0 Subassembly Area
+End
+Define Class STN5
+Line 0 0 5 0
+Line 5 0 5 12
+Line 5 12 0 12
+Line 0 12 0 0
+Line 0 3 5 3
+Line 0 6 5 6
+Line 0 9 5 9
+Text 1 1.5 3 10.5 5
+End
+Define Class STN6
+Line 0 0 5 0
+Line 5 0 5 12
+Line 5 12 0 12
+Line 0 12 0 0
+Line 0 3 5 3
+Line 0 6 5 6
+Line 0 9 5 9
+Text 1 1.5 3 1.5 6
+End
+Color White
+Define Class STN7
+Line 0 0 8 0
+Line 8 0 8 12
+Line 8 12 0 12
+Line 0 12 0 0
+Text 1 3 2 6 7
+End
+Define Class STN8
+Line 0 0 8 0
+Line 8 0 8 12
+Line 8 12 0 12
+Line 0 12 0 0
+Text 1 3 2 6 8
+End
+Define Class ST12
+Text 1 2 0 0 Product Assembly
+End
+Color Layout
+Define Class STN9
+Line 0 0 2 0
+Line 2 0 2 10
+Line 2 10 0 10
+Line 0 10 0 0
+Line 4 0 6 0
+Line 6 0 6 10
+Line 6 10 4 10
+Line 4 10 4 0
+Line 8 0 10 0
+Line 10 0 10 10
+Line 10 10 8 10
+Line 8 10 8 0
+Text 1 2 -2 -4 Product 
+Text 1 2 -2 -8 Shipping
+End
+Color Pink
+Define Class STN0
+Line 0 0 2 0
+Line 2 0 2 10
+Line 2 10 0 10
+Line 0 10 0 0
+Line 4 0 6 0
+Line 6 0 6 10
+Line 6 10 4 10
+Line 4 10 4 0
+Line 8 0 10 0
+Line 10 0 10 10
+Line 10 10 8 10
+Line 8 10 8 0
+Text 1 2 -2 12.5 Material
+End
+Color Layout
+Define Class LAGV
+Arc 1 1 1 0 90 1.5708
+Arc 1 1 -1 0 -90 1.5708
+Arc 1 -3 1 90 180 1.5708
+Arc 1 -3 -1 180 270 1.5708
+Line 2 1 2 -1
+Line -4 1 -4 -1
+Line -3 -2 1 -2
+Line 1 -2 1 2
+Line 1 2 -3 2
+Line -3 2 -3 -2
+Text 1 2 4 0 AGV With No Load
+End
+Define Class LAGF
+Arc 1 1 1 0 90 1.5708
+Arc 1 1 -1 0 -90 1.5708
+Arc 1 -3 1 90 180 1.5708
+Arc 1 -3 -1 180 270 1.5708
+Line 2 1 2 -1
+Line -4 1 -4 -1
+Line -3 -2 1 -2
+Line 1 -2 1 2
+Line 1 2 -3 2
+Line -3 2 -3 -2
+Line -2 -1 0 -1
+Line 0 -1 0 1
+Line 0 1 -2 1
+Line -2 1 -2 -1
+Text 1 2 4 0 AGV With Full Bin
+End
+Define Class LAGE
+Arc 1 1 1 0 90 1.5708
+Arc 1 1 -1 0 -90 1.5708
+Arc 1 -3 1 90 180 1.5708
+Arc 1 -3 -1 180 270 1.5708
+Line 2 1 2 -1
+Line -4 1 -4 -1
+Line -3 -2 1 -2
+Line 1 -2 1 2
+Line 1 2 -3 2
+Line -3 2 -3 -2
+Line -2 -1 0 -1
+Line 0 -1 0 1
+Line 0 1 -2 1
+Line -2 1 -2 -1
+Text 1 2 4 0 AGV With Empty Bin
+End
+Color Yellow
+Line 100 58 100 57
+Line 95 64 95 56
+Line 101 58 99 58
+Line 101 66 99 66
+Line 96 56 94 56
+Line 96 64 94 64
+Color Green
+Line 56 56 54 56
+Line 38 41 38 39
+Line 32 46 32 44
+Line 40 46 40 44
+Color Yellow
+Line 78 40 66 40
+Line 78 41 78 39
+Line 72 46 72 44
+Line 80 46 80 44
+Line 80 45 72 45
+Color Green
+Line 61 58 59 58
+Line 61 66 59 66
+Line 56 64 54 64
+Color Yellow
+Line 100 66 100 58
+Color Green
+Line 60 66 60 58
+Line 55 64 55 56
+Color Yellow
+Line 83 40 78 40
+Color Green
+Line 40 45 32 45
+Line 38 40 26 40
+Line 50 45 40 45
+Line 55 56 55 50
+Line 60 58 60 57.0711
+Arc 10 42.9289 50 270 315 7.854
+Line 42.9289 40 38 40
+Line 57.0711 50 50 42.9289
+Arc 10 50 57.0711 -45 0 7.854
+Arc 5 50 50 -90 0 7.854
+Color Yellow
+Line 95 56 95 53
+Line 85 45 80 45
+End

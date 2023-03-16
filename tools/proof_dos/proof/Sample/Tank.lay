@@ -1,0 +1,140 @@
+Define View "(Class)" center 0 0 Width 7.9875 Grid Size 0.1 1 Ortho
+Define View "(Home)" center 39.9375 29.9375 Width 79.875 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 6
+Define color Backdrop  1 1 0.8549
+Define color F1 0 0 0
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 1 1 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.7451 0.3961 0.6667
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.4 0.498 0.698
+Define color F20 0 0.3176 0.3176
+Define color F21 0.8902 0.6667 0.4902
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 1 0.7451 0.5804
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.4902 0.4902 0.4902
+Define color L2 0.6667 0.9373 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0 0 0
+Define color L6 0.3961 0.4902 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F19
+Fill 26.9171 16.9797
+Color L5
+Fill 39.9375 30.2927
+Color F3
+Line 20 10 20 50
+Line 60 10 20 10
+Line 20 50 60 50
+Line 60 50 60 10
+Arc 10 40 30 0 360 62.8319
+Line 30 40 50 40
+Line 30 40 30 20
+Line 50 20 50 40
+Line 30 20 50 20
+Text 1 2 CENTER 70 43 Color
+Text 1 2 CENTER 70 40 Priority
+Line 66 37 65 36
+Line 65 36 67 36
+Line 67 36 66 37
+Line 66 23 66 36
+Fill 66.0248 36.4298
+Color L5
+Text 1 2 CENTER 71 27 L5
+Color L4
+Text 1 2 CENTER 71 23 L4
+Color F3
+Text 1 2 CENTER 71 31 F3
+Color F19
+Text 1 2 CENTER 71 35 F19
+Color F3
+Text 1 2 LJ 5 48 Actual
+Text 1 2 LJ 5 42 Outline
+Text 1 2 LJ 5 45 Bar
+Line 10 46 33 46
+Line 34 41 33 40
+Line 32 41 33 40
+Line 32 41 34 41
+Line 33 46 33 41
+Fill 32.8943 40.758
+Color F19
+Fill 53.6697 30.6064
+Fill 26.2053 29.3473
+Color F1
+Line 57 38 57 15
+Line 23 15 23 38
+Arc 0.5 32 38 0 360 0
+Arc 0.5 32 22 0 360 0
+Arc 0.5 48 38 0 360 0
+Arc 0.5 48 22 0 360 0
+Line 23 38 31.5 38
+Line 23 22 31.5 22
+Line 48.5 22 57 22
+Line 48.5 38 57 38
+Fill 32.1074 38.0037
+Fill 47.925 38.0824
+Fill 32.0287 22.0287
+Fill 47.925 21.8713
+Color F19
+Fill 48.7906 36.7446
+Fill 31.0844 36.902
+Fill 30.8483 23.76
+Fill 49.1054 23.76
+Color L4
+Bar tank BG L5 30 50 20 40 Vrange 0 100 Hrange 0 100
+Color F1
+Text 1 2 CENTER 40 12 F19 Hides L4 & L5 Bar Colors
+Color F27
+Fill 37.3923 53.5669
+Fill 41.163 51.3674
+Fill 43.2997 51.6816
+Color F9
+Message joke 1 2 MIDDLE 40 30 BG L5 Earthquake!
+End

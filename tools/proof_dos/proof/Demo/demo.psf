@@ -1,0 +1,382 @@
+title P4 Demo Disk
+
+run wel1
+wipe F19 checker
+*
+*
+group Please select the next step
+*
+*
+  item How to View This Demo (Click Here)
+
+    run how2use2 dummy
+    wait
+    wipe F19 checker
+*
+*
+  item Introduction
+
+    slide checker intro.rtf
+    wait
+    wipe F19 checker
+*
+*
+   subgroup Sample Applications
+*
+
+    subgroup Transportation 
+
+    item Interstate Trucking Network
+    slide dissolve truck1.rtf
+    wait
+    run trucking 0 60
+    run * view Midwest 60 120
+    slide dissolve truck2.rtf
+    wait
+    run * view "(Home)" 120 200
+    wipe f19 dissolve
+*
+*
+    item Hypothetical Air Traffic Zone Control
+    slide dissolve reserve.rtf
+    wait
+    run sunrise reserve reserve1 speed 3 0 60
+    wipe f19 venetian
+    run venetian * view ZoneBD speed 0.5 60 75
+    wipe f19 fade
+*
+*
+    item Miami International Airport
+
+    slide dissolve miami.rtf
+    wait
+    run sunrise miami view D_TERM  speed 0.1 1056 1058
+    run sunrise *     view FISAREA speed 0.1 1058 1060
+    wipe f19 fade
+*
+*
+    item Animated Train Graph
+    slide dissolve vre.rtf
+    wait
+    run checker vre
+    run dissolve vre view Possum speed 2 640 660
+    wait 2
+    wipe f19 checker
+
+  endsubgroup
+*
+*
+  subgroup Mining and Minerals
+
+    case Open Pit Mine
+      run sunrise mine              3000 3150
+      run sunrise * view "conveyor" 3150 3225
+      run sunrise * view "silos"    3225 3325
+      run sunrise * view "silogate" 3325 3450
+      wait 1.5
+      wipe f19 dissolve
+*
+*
+    case Smelter Operation
+      run smelter speed 2 240 300
+      wait 1.5
+      wipe f19 venetian
+
+  endsubgroup
+*
+*
+  subgroup Manufacturing and Material Handling
+
+    item Over-and-Under AGV System
+    slide dissolve marriage.rtf
+    wait
+    run sunrise marriage marriage1
+    wait 1.5
+    wipe F19 dissolve
+*
+*
+    item Belt + Accumulating + Loop Conveyors
+    run checker pickbest pbest1
+    run dissolve pickbest pbest2 view AccumSplit
+*
+*
+    item Comparison of Two Transport Systems
+    run txcnc
+    wait 1.5
+    wipe F19 fade
+
+  endsubgroup
+*
+*
+  subgroup Health Care 
+
+    item Air/Land/Sea Emergency Arrivals
+
+      run sunrise mercy speed .2 6.5 8.5
+      run sunrise *     speed .2 11.2 15.9
+      run sunrise * view "Move to Treat" speed .075 17.5 18.1
+      wait 1.5
+      wipe F19 venetian
+*
+*
+    item Laboratory Specimen Processing
+       run sunrise vghlab1 SPEED 15 3600 4200
+       wait 1.5
+       wipe f19 checker
+
+  endsubgroup
+*
+*
+  subgroup Telecommunications 
+
+    item Transcontinental Switching
+      slide dissolve transcon.rtf
+      wait
+      run checker  data data1
+      run dissolve data data2 view Split speed 0.5
+      run dissolve data data3 speed 1
+      wait 1.5
+      wipe F19 venetian
+
+  endsubgroup
+*
+*
+	endsubgroup
+*
+*
+  subgroup Small Examples of P4 Features
+*
+    item Accumulating & Non-Accumulating Paths
+    slide checker accnon.rtf
+    wait
+    run dissolve pickbest pbest2 view AccNonAcc speed 4
+*
+    item Rotation of Objects
+    slide checker rotate.rtf
+    wait
+    run checker rotate5 75
+    run dissolve clock 750
+*
+    item Combining Rotation and Motion
+    slide checker rotmove.rtf
+    wait
+    run dissolve rotate2 100
+    wipe f19 venetian
+*
+    item Front/Rear on Different Paths
+    slide checker rgp.rtf
+    wait
+    run dissolve aacrgp
+*
+    item "Front Wheel Drive" Motion
+    slide checker rgppull.rtf
+    wait
+    run dissolve rgppull 90
+*
+    item Plots
+    slide checker plot.rtf
+    wait
+    run dissolve plot3
+*
+    item Exploiting Color Priorities
+    slide checker palettex.rtf
+    wait
+    run dissolve palettex
+*
+    item Using a Bar Graph to Animate a Tank
+    slide checker tank.rtf
+    wait
+    run dissolve tank
+    wait
+*
+    item Objects with Individualized Text
+    slide checker njesort.rtf
+    wait
+    run checker njesort 75
+
+  endsub
+  subgroup What's New in P4?
+*
+    subgroup New Technology
+
+      item User Interface
+      wipe f19 venetian
+      slide venetian uxface.rtf
+      wait
+*
+      item More Colors, Color Priorities
+      wipe f19 checker
+      slide checker palettex.rtf
+      wait
+      run dissolve palettex
+      wipe f22 checker
+*
+      item Concurrent/Real-Time Animation
+      slide dissolve p4dll.rtf
+      wait
+*
+      item .WAV File Playback
+      wipe f19 vvenetian
+      play media\tada
+      slide vvenetian wav.rtf
+      wait 0.25
+      play media\tada
+      wait
+*
+      item .AVI Capture
+      wipe f19 venetian
+      slide venetian avi.rtf
+      wait
+*
+      item DirectDraw Technology
+      wipe f19 checker
+      slide checker directx.rtf
+      wait
+
+    endsub
+*
+*
+    subgroup New Features
+ 
+      item Windows Fonts
+      slide dissolve fonts.rtf
+      wait
+*
+      item Tree-View Presentation Navigation
+      wipe f19 venetian
+      slide venetian treeview.rtf
+      wait
+*
+      item New ways to create Presentation Slides
+      wipe f19 vvenetian
+      slide vvenetian bmprtf.rtf
+      wait
+*
+      item Text Editor Interface
+      wipe f19 venetian
+      slide venetian editor.rtf
+      wait
+
+    endsub
+
+    subgroup Enhancements
+
+      item Debugger Enhancements
+      slide dissolve debugenh.rtf
+      wait
+*
+      item Plot Enhancements
+      slide dissolve plotenh.rtf
+      wait
+*
+      item Bar Graph Enhancements
+      wipe f19 venetian
+      slide venetian barenh.rtf
+      wait
+      run checker tank
+      wait
+*
+      item RGP Enhancements
+      wipe f19 checker
+      slide checker RGPenh.rtf
+      wait
+      run checker rgppull 90
+      wait
+*
+      item Path Mode Enhancements
+      wipe f19 checker
+      slide checker pmodeenh.rtf
+      wait
+
+    endsub
+
+  endsub
+*
+*
+  subgroup Beneath the Surface
+
+    item How P4 Works
+*
+    run arch 0 4
+    wait 
+*
+    run checker archlay dummy
+    wait 
+*
+    run dissolve archcad dummy
+    wait 
+*
+    run dissolve archtrac dummy
+    wait
+*
+    run dissolve archDLL dummy
+    wait 
+*
+    run dissolve archpsf dummy
+    wait 
+*
+    run sunrise arch
+    wait 
+    wipe F19 venetian
+
+    item More Detailed Exploration of P4
+    slide dissolve explore1.rtf
+    wait
+    slide dissolve explore2.rtf
+    wait
+    wipe f19 venetian
+*
+  endsub
+*
+*
+  subgroup Wolverine Products
+
+    item The P4 Product Family
+    slide dissolve prooffam.rtf
+    wait
+    wipe f19 venetian
+
+*
+*
+
+    item Simulation Software from Wolverine
+    slide dissolve sim.rtf
+    wait
+    wipe f19 venetian
+*
+*
+    item GPSS/H
+    slide dissolve gpssh.rtf
+    wait
+    wipe f19 venetian
+*
+*
+    item SLX
+    slide dissolve slx.rtf
+    wait
+    wipe f19 venetian
+
+  endsub
+*
+*
+    item About Wolverine Software
+
+    slide dissolve wolvrine.rtf
+    wait
+*
+*
+  item Credits
+  
+  run credits
+  wipe f19 checker
+*
+*
+  item Exit Demo   
+
+    run plogo2 dummy
+    wait 2
+    exit system
+
+endgroup
+END
+

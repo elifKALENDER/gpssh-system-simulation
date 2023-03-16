@@ -1,0 +1,157 @@
+create credit 1
+write text(1) The Multi-Modal Transportation Center animation was developed for
+place 1 on credits
+*
+dt 1 24499
+create credit 2
+write text(2) the Southeastern Pennsylvania Transit Authority (SEPTA) by
+place 2 on credits
+*
+dt 2 48742
+create credit 3
+write text(3) Philadelphia Transit Consultants
+place 3 on credits
+*
+dt 1 7449
+create credit 4
+write text(4) and
+place 4 on credits
+*
+dt 1 31948
+create credit 5
+write text(5) SystemFlow Simulations, Inc.
+place 5 on credits
+*
+dt 3 56191
+create credit 6
+write text(6) The Miami International Airport animation was developed for
+place 6 on credits
+*
+dt 1 14898
+create credit 7
+write text(7) the U.S. Immigration & Naturalization Service (INS) by
+place 7 on credits
+*
+dt 2 39397
+create credit 8
+write text(8) Regal Decision Systems, Inc.
+place 8 on credits
+*
+dt 3 63640
+create credit 9
+write text(9) The Toll Plaza animation was developed by
+place 9 on credits
+*
+dt 2 22347
+create credit 10
+write text(10) Applied Systems Modeling, Ltd.
+place 10 on credits
+*
+dt 3 46846
+create credit 11
+write text(11) The Open Pit Mine animation was developed by
+place 11 on credits
+*
+dt 2 5553
+create credit 12
+write text(12) Professor John Sturgul, University of Idaho
+place 12 on credits
+*
+dt 3 29796
+create credit 13
+write text(13) The Smelter animation was developed by
+place 13 on credits
+*
+dt 2 54039
+create credit 14
+write text(14) Professor John Sturgul, University of Idaho
+place 14 on credits
+*
+dt 1 13002
+create credit 141
+write text(141) and
+place 141 on credits
+*
+dt 1 37245
+create credit 15
+write text(15) Thomas Fliess & Klaus-Christoph Ritter, his former students
+place 15 on credits
+*
+dt 3 61488
+create credit 18
+write text(18) The Over-and-Under AGV animation was developed by
+place 18 on credits
+*
+dt 2 20451
+create credit 19
+write text(19) Mr. Wayne Ross of Control Engineering
+place 19 on credits
+*
+dt 3 44694
+create credit 16
+write text(16) The Comparison of Two Transport Systems animation was developed by
+place 16 on credits
+*
+dt 2 3401
+create credit 17
+write text(17) John Deere & Company
+place 17 on credits
+*
+dt 3 27900
+create credit 20
+write text(20) The Air/Land/Sea Emergency Arrivals animation was developed by
+place 20 on credits
+*
+dt 2 52143
+create credit 21
+write text(21) AIC Engineering
+place 21 on credits
+*
+dt 3 10850
+create credit 22
+write text(22) The Laboratory Specimen Processing animation was developed by
+place 22 on credits
+*
+dt 2 35093
+create credit 23
+write text(23) Andronic Devices, Ltd.
+place 23 on credits
+*
+dt 3 59592
+create credit 24
+write text(24) The Transcontinental Switching System animation was developed by
+place 24 on credits
+*
+dt 2 18299
+create credit 25
+write text(25) Advanced Visual Data, Inc.
+place 25 on credits
+*
+dt 5 42542
+create credit 26
+write text(26) Although the P4 Demo Viewer is provided free-of-charge, its use 
+place 26 on credits
+*
+dt 1 1505
+create credit 27
+write text(27) is strictly regulated by the license agreement you have accepted.
+place 27 on credits
+*
+dt 2 25748
+create credit 28
+write text(28) You may redistribute this demo only in its entirety.
+place 28 on credits
+*
+dt 2 49991
+create credit 29
+write text(29) All rights reserved.
+place 29 on credits
+*
+dt 2 8954
+create credit 30
+write text(30) Wolverine Software Corporation
+place 30 on credits
+*
+dt 27 33197
+end
+

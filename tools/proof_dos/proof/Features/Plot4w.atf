@@ -1,0 +1,402 @@
+PLOT plot3 #1 -100 -25 -100  25
+DT 2
+PLOT plot3 #2 -100  25  -96  25 color green
+DT 2
+PLOT plot3 #3  -96  25  -96 -25
+DT 2
+PLOT plot3 #4  -96 -25  -92 -25 color red
+DT 2
+PLOT plot3 #5  -92 -25  -92  25
+DT 2
+PLOT plot3 #6  -92  25  -88  25 color green
+DT 2
+PLOT plot3 #7  -88  25  -88 -25
+DT 2
+PLOT plot3 #8  -88 -25  -84 -25 color red
+DT 2
+PLOT plot3 #9  -84 -25  -84  25
+DT 2
+PLOT plot3 #10  -84  25  -80  25 color green
+DT 2
+PLOT plot3 #11  -80  25  -80 -25
+DT 2
+PLOT plot3 #12  -80 -25  -76 -25 color red
+DT 2
+PLOT plot3 #13  -76 -25  -76  25
+DT 2
+PLOT plot3 #14  -76  25  -72  25 color green
+DT 2
+PLOT plot3 #15  -72  25  -72 -25
+DT 2
+PLOT plot3 #16  -72 -25  -68 -25 color red
+DT 2
+PLOT plot3 #17  -68 -25  -68  25
+DT 2
+PLOT plot3 #18  -68  25  -64  25 color green
+DT 2
+PLOT plot3 #19  -64  25  -64 -25
+DT 2
+PLOT plot3 #20  -64 -25  -60 -25 color red
+DT 2
+PLOT plot3 #21  -60 -25  -60  25
+DT 2
+PLOT plot3 #22  -60  25  -56  25 color green
+DT 2
+PLOT plot3 #23  -56  25  -56 -25
+DT 2
+PLOT plot3 #24  -56 -25  -52 -25 color red
+DT 2
+PLOT plot3 #25  -52 -25  -52  25
+DT 2
+PLOT plot3 #26  -52  25  -48  25 color green
+DT 2
+PLOT plot3 #27  -48  25  -48 -25
+DT 2
+PLOT plot3 #28  -48 -25  -44 -25 color red
+DT 2
+PLOT plot3 #29  -44 -25  -44  25
+DT 2
+PLOT plot3 #30  -44  25  -40  25 color green
+DT 2
+PLOT plot3 #31  -40  25  -40 -25
+DT 2
+PLOT plot3 #32  -40 -25  -36 -25 color red
+DT 2
+PLOT plot3 #33  -36 -25  -36  25
+DT 2
+PLOT plot3 #34  -36  25  -32  25 color green
+DT 2
+PLOT plot3 #35  -32  25  -32 -25
+DT 2
+PLOT plot3 #36  -32 -25  -28 -25 color red
+DT 2
+PLOT plot3 #37  -28 -25  -28  25
+DT 2
+PLOT plot3 #38  -28  25  -24  25 color green
+DT 2
+PLOT plot3 #39  -24  25  -24 -25
+DT 2
+PLOT plot3 #40  -24 -25  -20 -25 color red
+DT 2
+PLOT plot3 #41  -20 -25  -20  25
+DT 2
+PLOT plot3 #42  -20  25  -16  25 color green
+DT 2
+PLOT plot3 #43  -16  25  -16 -25
+DT 2
+PLOT plot3 #44  -16 -25  -12 -25 color red
+DT 2
+PLOT plot3 #45  -12 -25  -12  25
+DT 2
+PLOT plot3 #46  -12  25   -8  25 color green
+DT 2
+PLOT plot3 #47   -8  25   -8 -25
+DT 2
+PLOT plot3 #48   -8 -25   -4 -25 color red
+DT 2
+PLOT plot3 #49   -4 -25   -4  25
+DT 2
+PLOT plot3 #50   -4  25    0  25 color green
+DT 50
+PLOT plot3 clear
+DT 2
+PLOT plot3 #51    0  25    0 -25
+DT 2
+PLOT plot3 #52    0 -25    4 -25 color red
+DT 2
+PLOT plot3 #53    4 -25    4  25
+DT 2
+PLOT plot3 #54    4  25    8  25 color green
+DT 2
+PLOT plot3 #55    8  25    8 -25
+DT 2
+PLOT plot3 #56    8 -25   12 -25 color red
+DT 2
+PLOT plot3 #57   12 -25   12  25
+DT 2
+PLOT plot3 #58   12  25   16  25 color green
+DT 2
+PLOT plot3 #59   16  25   16 -25
+DT 2
+PLOT plot3 #60   16 -25   20 -25 color red
+DT 2
+PLOT plot3 #61   20 -25   20  25
+DT 2
+PLOT plot3 #62   20  25   24  25 color green
+DT 2
+PLOT plot3 #63   24  25   24 -25
+DT 2
+PLOT plot3 #64   24 -25   28 -25 color red
+DT 2
+PLOT plot3 #65   28 -25   28  25
+DT 2
+PLOT plot3 #66   28  25   32  25 color green
+DT 2
+PLOT plot3 #67   32  25   32 -25
+DT 2
+PLOT plot3 #68   32 -25   36 -25 color red
+DT 2
+PLOT plot3 #69   36 -25   36  25
+DT 2
+PLOT plot3 #70   36  25   40  25 color green
+DT 2
+PLOT plot3 #71   40  25   40 -25
+DT 2
+PLOT plot3 #72   40 -25   44 -25 color red
+DT 2
+PLOT plot3 #73   44 -25   44  25
+DT 2
+PLOT plot3 #74   44  25   48  25 color green
+DT 2
+PLOT plot3 #75   48  25   48 -25
+DT 2
+PLOT plot3 #76   48 -25   52 -25 color red
+DT 2
+PLOT plot3 #77   52 -25   52  25
+DT 2
+PLOT plot3 #78   52  25   56  25 color green
+DT 2
+PLOT plot3 #79   56  25   56 -25
+DT 2
+PLOT plot3 #80   56 -25   60 -25 color red
+DT 2
+PLOT plot3 #81   60 -25   60  25
+DT 2
+PLOT plot3 #82   60  25   64  25 color green
+DT 2
+PLOT plot3 #83   64  25   64 -25
+DT 2
+PLOT plot3 #84   64 -25   68 -25 color red
+DT 2
+PLOT plot3 #85   68 -25   68  25
+DT 2
+PLOT plot3 #86   68  25   72  25 color green
+DT 2
+PLOT plot3 #87   72  25   72 -25
+DT 2
+PLOT plot3 #88   72 -25   76 -25 color red
+DT 2
+PLOT plot3 #89   76 -25   76  25
+DT 2
+PLOT plot3 #90   76  25   80  25 color green
+DT 2
+PLOT plot3 #91   80  25   80 -25
+DT 2
+PLOT plot3 #92   80 -25   84 -25 color red
+DT 2
+PLOT plot3 #93   84 -25   84  25
+DT 2
+PLOT plot3 #94   84  25   88  25 color green
+DT 2
+PLOT plot3 #95   88  25   88 -25
+DT 2
+PLOT plot3 #96   88 -25   92 -25 color red
+DT 2
+PLOT plot3 #97   92 -25   92  25
+DT 2
+PLOT plot3 #98   92  25   96  25 color green
+DT 2
+PLOT plot3 #99   96  25   96 -25
+DT 2
+PLOT plot3 #100   96 -25  100 -25 color red
+DT 2
+PLOT plot3 #1 -100 -12 -100  12
+DT 2
+PLOT plot3 #2 -100  12  -96  12 color green
+DT 2
+PLOT plot3 #3  -96  12  -96 -12
+DT 2
+PLOT plot3 #4  -96 -12  -92 -12 color red
+DT 2
+PLOT plot3 #5  -92 -12  -92  12
+DT 2
+PLOT plot3 #6  -92  12  -88  12 color green
+DT 2
+PLOT plot3 #7  -88  12  -88 -12
+DT 2
+PLOT plot3 #8  -88 -12  -84 -12 color red
+DT 2
+PLOT plot3 #9  -84 -12  -84  12
+DT 2
+PLOT plot3 #10  -84  12  -80  12 color green
+DT 2
+PLOT plot3 #11  -80  12  -80 -12
+DT 2
+PLOT plot3 #12  -80 -12  -76 -12 color red
+DT 2
+PLOT plot3 #13  -76 -12  -76  12
+DT 2
+PLOT plot3 #14  -76  12  -72  12 color green
+DT 2
+PLOT plot3 #15  -72  12  -72 -12
+DT 2
+PLOT plot3 #16  -72 -12  -68 -12 color red
+DT 2
+PLOT plot3 #17  -68 -12  -68  12
+DT 2
+PLOT plot3 #18  -68  12  -64  12 color green
+DT 2
+PLOT plot3 #19  -64  12  -64 -12
+DT 2
+PLOT plot3 #20  -64 -12  -60 -12 color red
+DT 2
+PLOT plot3 #21  -60 -12  -60  12
+DT 2
+PLOT plot3 #22  -60  12  -56  12 color green
+DT 2
+PLOT plot3 #23  -56  12  -56 -12
+DT 2
+PLOT plot3 #24  -56 -12  -52 -12 color red
+DT 2
+PLOT plot3 #25  -52 -12  -52  12
+DT 2
+PLOT plot3 #26  -52  12  -48  12 color green
+DT 2
+PLOT plot3 #27  -48  12  -48 -12
+DT 2
+PLOT plot3 #28  -48 -12  -44 -12 color red
+DT 2
+PLOT plot3 #29  -44 -12  -44  12
+DT 2
+PLOT plot3 #30  -44  12  -40  12 color green
+DT 2
+PLOT plot3 #31  -40  12  -40 -12
+DT 2
+PLOT plot3 #32  -40 -12  -36 -12 color red
+DT 2
+PLOT plot3 #33  -36 -12  -36  12
+DT 2
+PLOT plot3 #34  -36  12  -32  12 color green
+DT 2
+PLOT plot3 #35  -32  12  -32 -12
+DT 2
+PLOT plot3 #36  -32 -12  -28 -12 color red
+DT 2
+PLOT plot3 #37  -28 -12  -28  12
+DT 2
+PLOT plot3 #38  -28  12  -24  12 color green
+DT 2
+PLOT plot3 #39  -24  12  -24 -12
+DT 2
+PLOT plot3 #40  -24 -12  -20 -12 color red
+DT 2
+PLOT plot3 #41  -20 -12  -20  12
+DT 2
+PLOT plot3 #42  -20  12  -16  12 color green
+DT 2
+PLOT plot3 #43  -16  12  -16 -12
+DT 2
+PLOT plot3 #44  -16 -12  -12 -12 color red
+DT 2
+PLOT plot3 #45  -12 -12  -12  12
+DT 2
+PLOT plot3 #46  -12  12   -8  12 color green
+DT 2
+PLOT plot3 #47   -8  12   -8 -12
+DT 2
+PLOT plot3 #48   -8 -12   -4 -12 color red
+DT 2
+PLOT plot3 #49   -4 -12   -4  12
+DT 2
+PLOT plot3 #50   -4  12    0  12 color green
+DT 2
+PLOT plot3 #51    0  12    0 -12
+DT 2
+PLOT plot3 #52    0 -12    4 -12 color red
+DT 2
+PLOT plot3 #53    4 -12    4  12
+DT 2
+PLOT plot3 #54    4  12    8  12 color green
+DT 2
+PLOT plot3 #55    8  12    8 -12
+DT 2
+PLOT plot3 #56    8 -12   12 -12 color red
+DT 2
+PLOT plot3 #57   12 -12   12  12
+DT 2
+PLOT plot3 #58   12  12   16  12 color green
+DT 2
+PLOT plot3 #59   16  12   16 -12
+DT 2
+PLOT plot3 #60   16 -12   20 -12 color red
+DT 2
+PLOT plot3 #61   20 -12   20  12
+DT 2
+PLOT plot3 #62   20  12   24  12 color green
+DT 2
+PLOT plot3 #63   24  12   24 -12
+DT 2
+PLOT plot3 #64   24 -12   28 -12 color red
+DT 2
+PLOT plot3 #65   28 -12   28  12
+DT 2
+PLOT plot3 #66   28  12   32  12 color green
+DT 2
+PLOT plot3 #67   32  12   32 -12
+DT 2
+PLOT plot3 #68   32 -12   36 -12 color red
+DT 2
+PLOT plot3 #69   36 -12   36  12
+DT 2
+PLOT plot3 #70   36  12   40  12 color green
+DT 2
+PLOT plot3 #71   40  12   40 -12
+DT 2
+PLOT plot3 #72   40 -12   44 -12 color red
+DT 2
+PLOT plot3 #73   44 -12   44  12
+DT 2
+PLOT plot3 #74   44  12   48  12 color green
+DT 2
+PLOT plot3 #75   48  12   48 -12
+DT 2
+PLOT plot3 #76   48 -12   52 -12 color red
+DT 2
+PLOT plot3 #77   52 -12   52  12
+DT 2
+PLOT plot3 #78   52  12   56  12 color green
+DT 2
+PLOT plot3 #79   56  12   56 -12
+DT 2
+PLOT plot3 #80   56 -12   60 -12 color red
+DT 2
+PLOT plot3 #81   60 -12   60  12
+DT 2
+PLOT plot3 #82   60  12   64  12 color green
+DT 2
+PLOT plot3 #83   64  12   64 -12
+DT 2
+PLOT plot3 #84   64 -12   68 -12 color red
+DT 2
+PLOT plot3 #85   68 -12   68  12
+DT 2
+PLOT plot3 #86   68  12   72  12 color green
+DT 2
+PLOT plot3 #87   72  12   72 -12
+DT 2
+PLOT plot3 #88   72 -12   76 -12 color red
+DT 2
+PLOT plot3 #89   76 -12   76  12
+DT 2
+PLOT plot3 #90   76  12   80  12 color green
+DT 2
+PLOT plot3 #91   80  12   80 -12
+DT 2
+PLOT plot3 #92   80 -12   84 -12 color red
+DT 2
+PLOT plot3 #93   84 -12   84  12
+DT 2
+PLOT plot3 #94   84  12   88  12 color green
+DT 2
+PLOT plot3 #95   88  12   88 -12
+DT 2
+PLOT plot3 #96   88 -12   92 -12 color red
+DT 2
+PLOT plot3 #97   92 -12   92  12
+DT 2
+PLOT plot3 #98   92  12   96  12 color green
+DT 2
+PLOT plot3 #99   96  12   96 -12
+DT 2
+PLOT plot3 #100   96 -12  100 -12 color red
+end

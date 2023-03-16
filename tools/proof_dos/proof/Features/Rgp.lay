@@ -1,0 +1,101 @@
+Define View "(Home)" center 59.9264 26.4729 width 94.1176 Ortho Aspect 0.75 0.5 Grid ON Speed 2 Mouse 5
+Define View "(Class)" center -6.7652 0.3038 width 19.4118 Ortho
+Define color Bac 0 0 0.3016
+Define color F1  0 0 0.6667
+Define color F2  1 0 0
+Define color F3  1 1 1
+Define color F4  1 1 0
+Define color F5  1 0 0.6667
+Define color F6  1 0.6667 0
+Define color F7  0 1 0
+Define color L1  0.5079 0.5079 0.5079
+Color F2 
+Define Class agv5 Directional RGP -5
+Arc 1.5 0 0 -90 90 4.7124
+Line 0 -1.5 -5 -1.5
+Line -5 -1.5 -5 1.5
+Line -5 0 -4 1
+Line -5 0 -4 -1
+Line -1 1 0 0
+Line -1 -1 0 0
+Line -5 0 0 0
+Line -5 1.5 0 1.5
+End
+Define Class agv10 Directional RGP -10
+Arc 1.5 0 0 -90 90 4.7124
+Line -1 1 0 0
+Line -1 -1 0 0
+Line -10 1.5 0 1.5
+Line 0 -1.5 -10 -1.5
+Line -10 0 -9 -1
+Line -10 0 -9 1
+Line -10 -1.5 -10 1.5
+Line -10 0 0 0
+End
+Define Class agv15 Directional RGP -15
+Arc 1.5 0 0 -90 90 4.7124
+Line -1 1 0 0
+Line -1 -1 0 0
+Line -15 0 -14 -1
+Line -15 0 -14 1
+Line -15 -1.5 -15 1.5
+Line -15 1.5 0 1.5
+Line 0 -1.5 -15 -1.5
+Line -15 0 0 0
+End
+Color L1 
+Arc  #1 10 40 30 0 90 15.708
+Line #2 50 30 50 20
+Arc  #3 10 60 20 180 270 15.708
+Line #4 70 10 70 30
+Line #5 80 40 80 30
+Arc  #6 10 90 30 180 270 15.708
+Arc  #7 10 90 10 0 90 15.708
+Arc  #8 10 30 20 180 270 15.708
+Arc  #9 20 40 20 90 180 31.4159
+Line #10 70 30 60 30
+Line #11 60 30 60 50
+Line #12 60 50 100 50
+Line #13 100 50 100 40
+Line #14 100 40 80 40
+Line #15 30 10 40 0
+Line #16 40 0 60 0
+Line #17 60 0 70 10
+Line #18 30 10 100 10
+Define Path loop Circular Label 67.6591 9.682 Time 100
+Segment #18 70 10 60 10 10
+Segment #3 60 10 50 20 15.708 CW
+Segment #2 50 20 50 30 10
+Segment #1 50 30 40 40 15.708 CCW
+Segment #9 40 40 20 20 31.4159 CCW
+Segment #8 20 20 30 10 15.708 CCW
+Segment #15 30 10 40 0 14.1421
+Segment #16 40 0 60 0 20
+Segment #17 60 0 70 10 14.1421
+Segment #4 70 10 70 30 20
+Segment #10 70 30 60 30 10
+Segment #11 60 30 60 50 20
+Segment #12 60 50 100 50 40
+Segment #13 100 50 100 40 10
+Segment #14 100 40 80 40 20
+Segment #5 80 40 80 30 10
+Segment #6 80 30 90 20 15.708 CCW
+Segment #7 90 20 100 10 15.708 CW
+Segment #18 100 10 30 10 70
+Segment #8 30 10 20 20 15.708 CW
+Segment #9 20 20 40 40 31.4159 CW
+Segment #1 40 40 50 30 15.708 CW
+Segment #2 50 30 50 20 10
+Segment #3 50 20 60 10 15.708 CCW
+Segment #18 60 10 100 10 40
+Segment #7 100 10 90 20 15.708 CCW
+Segment #6 90 20 80 30 15.708 CW
+Segment #5 80 30 80 40 10
+Segment #14 80 40 100 40 20
+Segment #13 100 40 100 50 10
+Segment #12 100 50 60 50 40
+Segment #11 60 50 60 30 20
+Segment #10 60 30 70 30 10
+Segment #4 70 30 70 10 20
+End
+End

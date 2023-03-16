@@ -1,0 +1,599 @@
+Define View "greyhound" center 228.7213 156.6785 Width 62.8024 Grid Size 1 10 Ortho
+Define View "(Home)" center 139.4888 120.1978 Width 278.5055 Grid Size 2 20 Ortho Aspect 1 0.5 Speed 6
+Define View "(Class)" center 0 0 Width 156.8 Grid Size 1 10 Ortho
+Define color Backdrop  0 0 0.302
+Define color F1 0 0.3804 1
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 0 1 0
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 0 0 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.7451 0.3961 0.6667
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.3961 0.4902 0.698
+Define color F20 0 0.3176 0.3176
+Define color F21 0.8902 0.6667 0.4902
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.3804 0.3804 0.3804
+Define color L2 0.6667 0.9373 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.8902 0.6667 0.4902
+Define color L6 0.3961 0.4902 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F1
+Define Class CART2 Directional Clearance 1 13
+Line 0 -1 -4 -1
+Line -4 -1 -4 1
+Line -4 1 0 1
+Line 0 1 0 -1
+Line -1 1 -1 -1
+Line -3 1 -3 -1
+Line -5 -1.5 -11 -1.5
+Line -11 -1.5 -11 1.5
+Line -11 1.5 -5 1.5
+Line -5 1.5 -5 -1.5
+Line -5 0 -4 0
+Line -1 0.4 -2 0.4
+Line -2 0.4 -2 1
+Line -2 1 -1 1
+Line -1 1 -1 0.4
+Line -1 -0.4 -2 -0.4
+Line -2 -0.4 -2 -1
+Line -2 -1 -1 -1
+Line -1 -1 -1 -0.4
+Line -1 -0.4 -2 -0.4
+Line -2 -0.4 -2 -1
+Line -2 -1 -1 -1
+Line -1 -1 -1 -0.4
+Line -8 1.5 -8 -1.5
+End
+Define Class CART3 Directional Clearance 1 14
+Line 0 -1 -4 -1
+Line -4 -1 -4 1
+Line -4 1 0 1
+Line 0 1 0 -1
+Line -1 1 -1 -1
+Line -3 1 -3 -1
+Line -5 -1.5 -12 -1.5
+Line -12 -1.5 -12 1.5
+Line -12 1.5 -5 1.5
+Line -5 1.5 -5 -1.5
+Line -5 0 -4 0
+Line -1 0.4 -2 0.4
+Line -2 0.4 -2 1
+Line -2 1 -1 1
+Line -1 1 -1 0.4
+Line -1 -0.4 -2 -0.4
+Line -2 -0.4 -2 -1
+Line -2 -1 -1 -1
+Line -1 -1 -1 -0.4
+Line -8 1.5 -8 -1.5
+Line -9 1.5 -9 -1.5
+End
+Define Class CART4 Directional Clearance 1 15
+Line 0 -1 -4 -1
+Line -4 -1 -4 1
+Line -4 1 0 1
+Line 0 1 0 -1
+Line -1 1 -1 -1
+Line -3 1 -3 -1
+Line -5 -1.5 -13 -1.5
+Line -13 -1.5 -13 1.5
+Line -13 1.5 -5 1.5
+Line -5 1.5 -5 -1.5
+Line -5 0 -4 0
+Line -1 0.4 -2 0.4
+Line -2 0.4 -2 1
+Line -2 1 -1 1
+Line -1 1 -1 0.4
+Line -1 -0.4 -2 -0.4
+Line -2 -0.4 -2 -1
+Line -2 -1 -1 -1
+Line -1 -1 -1 -0.4
+Line -8 1.5 -8 -1.5
+Line -9 1.5 -9 -1.5
+Line -10 1.5 -10 -1.5
+End
+Define Class MC Directional Clearance 1 4
+Line 0 -0.1 -2.5 -0.1
+Line -2.5 -0.1 -2.5 0.1
+Line -2.5 0.1 0 0.1
+Line 0 0.1 0 -0.1
+Line -0.75 -0.3 -1.75 -0.3
+Line -1.75 -0.3 -1.75 0.3
+Line -1.75 0.3 -0.75 0.3
+Line -0.75 0.3 -0.75 -0.3
+End
+Define Class TRUCK Directional Clearance 1 6
+Line 0 -1 -4 -1
+Line -4 -1 -4 1
+Line -4 1 0 1
+Line 0 1 0 -1
+Line -1 1 -1 -1
+Line -2 1 -2 -1
+Line -1 0.4 -2 0.4
+Line -2 0.4 -2 1
+Line -2 1 -1 1
+Line -1 1 -1 0.4
+End
+Define Class TRK7 Directional Clearance 2 12
+Line 0 -1.25 -1.5 -1.5
+Line -1.5 -1.5 -1.5 1.5
+Line -1.5 1.5 0 1.25
+Line 0 1.25 0 -1.25
+Line -1.5 -1.5 -3 -1.5
+Line -3 -1.5 -3 1.5
+Line -3 1.5 -1.5 1.5
+Line -1.5 1.5 -1.5 -1.5
+Line -3 -0.5 -4 -0.5
+Line -4 -0.5 -4 0.5
+Line -4 0.5 -3 0.5
+Line -3 0.5 -3 -0.5
+Line -4 -1.5 -9 -1.5
+Line -9 -1.5 -9 1.5
+Line -9 1.5 -4 1.5
+Line -4 1.5 -4 -1.5
+Text 1 2 -6 -0.5 7
+End
+Define Class TRK8 Directional Clearance 2 13
+Line 0 -1.25 -1.5 -1.5
+Line -1.5 -1.5 -1.5 1.5
+Line -1.5 1.5 0 1.25
+Line 0 1.25 0 -1.25
+Line -1.5 -1.5 -3 -1.5
+Line -3 -1.5 -3 1.5
+Line -3 1.5 -1.5 1.5
+Line -1.5 1.5 -1.5 -1.5
+Line -3 -0.5 -4 -0.5
+Line -4 -0.5 -4 0.5
+Line -4 0.5 -3 0.5
+Line -3 0.5 -3 -0.5
+Line -4 -1.5 -10 -1.5
+Line -10 -1.5 -10 1.5
+Line -10 1.5 -4 1.5
+Line -4 1.5 -4 -1.5
+Text 1 2 -6 -0.5 8
+End
+Define Class TRK9 Directional Clearance 2 13
+Line 0 -1.25 -1.5 -1.5
+Line -1.5 -1.5 -1.5 1.5
+Line -1.5 1.5 0 1.25
+Line 0 1.25 0 -1.25
+Line -1.5 -1.5 -3 -1.5
+Line -3 -1.5 -3 1.5
+Line -3 1.5 -1.5 1.5
+Line -1.5 1.5 -1.5 -1.5
+Line -3 -0.5 -4 -0.5
+Line -4 -0.5 -4 0.5
+Line -4 0.5 -3 0.5
+Line -3 0.5 -3 -0.5
+Line -4 -1.5 -10 -1.5
+Line -10 -1.5 -10 1.5
+Line -10 1.5 -4 1.5
+Line -4 1.5 -4 -1.5
+Text 1 2 -6 -0.5 9
+End
+Define Class TRK10 Directional Clearance 2 17
+Line 0 -1.25 -1.5 -1.5
+Line -1.5 -1.5 -1.5 1.5
+Line -1.5 1.5 0 1.25
+Line 0 1.25 0 -1.25
+Line -1.5 -1.5 -3 -1.5
+Line -3 -1.5 -3 1.5
+Line -3 1.5 -1.5 1.5
+Line -1.5 1.5 -1.5 -1.5
+Line -3 -0.5 -4 -0.5
+Line -4 -0.5 -4 0.5
+Line -4 0.5 -3 0.5
+Line -3 0.5 -3 -0.5
+Line -4 -1.5 -14 -1.5
+Line -14 -1.5 -14 1.5
+Line -14 1.5 -4 1.5
+Line -4 1.5 -4 -1.5
+Text 1 2 -6 -0.5 10
+End
+Define Class TRK11 Directional Clearance 2 17
+Line 0 -1.25 -1.5 -1.5
+Line -1.5 -1.5 -1.5 1.5
+Line -1.5 1.5 0 1.25
+Line 0 1.25 0 -1.25
+Line -1.5 -1.5 -3 -1.5
+Line -3 -1.5 -3 1.5
+Line -3 1.5 -1.5 1.5
+Line -1.5 1.5 -1.5 -1.5
+Line -3 -0.5 -4 -0.5
+Line -4 -0.5 -4 0.5
+Line -4 0.5 -3 0.5
+Line -3 0.5 -3 -0.5
+Line -4 -1.5 -14 -1.5
+Line -14 -1.5 -14 1.5
+Line -14 1.5 -4 1.5
+Line -4 1.5 -4 -1.5
+Text 1 2 -6 -0.5 11
+End
+Define Class BUS Directional Clearance 2 15
+Line 0 -1.5 -14 -1.5
+Line -14 -1.5 -14 1.5
+Line -14 1.5 0 1.5
+Line 0 1.5 0 -1.5
+Text 1 1 LJ -13.8028 -0.6427 GO GREYHOUND!
+End
+Color L1
+Define Class BOOTH
+Line 0 0 -3 0
+Line -3 0 -3 1
+Line -3 1 0 1
+Line 0 1 0 0
+Line 10 0.3 -15 0.3
+Line -15 0.3 -15 0.7
+Line -15 0.7 10 0.7
+Line 10 0.7 10 0.3
+End
+Define Class CAR1 Directional Clearance 1 5
+Line 0 -1 -4 -1
+Line -4 -1 -4 1
+Line -4 1 0 1
+Line 0 1 0 -1
+Line -1 1 -1 -1
+Line -3 1 -3 -1
+Line -1 0.4 -2 0.4
+Line -2 0.4 -2 1
+Line -2 1 -1 1
+Line -1 1 -1 0.4
+End
+Define Class CAR2 Directional Clearance 1 5
+Line 0 -1 -4 -1
+Line -4 -1 -4 1
+Line -4 1 0 1
+Line 0 1 0 -1
+Line -1 1 -1 -1
+Line -3 1 -3 -1
+Line -1 0.4 -2 0.4
+Line -2 0.4 -2 1
+Line -2 1 -1 1
+Line -1 1 -1 0.4
+Line -1 -0.4 -2 -0.4
+Line -2 -0.4 -2 -1
+Line -2 -1 -1 -1
+Line -1 -1 -1 -0.4
+End
+Define Class CAR3 Directional Clearance 1 5
+Line 0 -1 -4 -1
+Line -4 -1 -4 1
+Line -4 1 0 1
+Line 0 1 0 -1
+Line -1 1 -1 -1
+Line -3 1 -3 -1
+Line -1 0.4 -2 0.4
+Line -2 0.4 -2 1
+Line -2 1 -1 1
+Line -1 1 -1 0.4
+Line -2 0.4 -3 0.4
+Line -3 0.4 -3 1
+Line -3 1 -2 1
+Line -2 1 -2 0.4
+Line -1 -0.4 -2 -0.4
+Line -2 -0.4 -2 -1
+Line -2 -1 -1 -1
+Line -1 -1 -1 -0.4
+End
+Define Class CAR4 Directional Clearance 1 5
+Line 0 -1 -4 -1
+Line -4 -1 -4 1
+Line -4 1 0 1
+Line 0 1 0 -1
+Line -1 1 -1 -1
+Line -3 1 -3 -1
+Line -1 0.4 -2 0.4
+Line -2 0.4 -2 1
+Line -2 1 -1 1
+Line -1 1 -1 0.4
+Line -2 0.4 -3 0.4
+Line -3 0.4 -3 1
+Line -3 1 -2 1
+Line -2 1 -2 0.4
+Line -1 -0.4 -2 -0.4
+Line -2 -0.4 -2 -1
+Line -2 -1 -1 -1
+Line -1 -1 -1 -0.4
+Line -2 -0.4 -3 -0.4
+Line -3 -0.4 -3 -1
+Line -3 -1 -2 -1
+Line -2 -1 -2 -0.4
+End
+Define Class CAR5 Directional Clearance 1 5
+Line 0 -1 -4 -1
+Line -4 -1 -4 1
+Line -4 1 0 1
+Line 0 1 0 -1
+Line -1 1 -1 -1
+Line -3 1 -3 -1
+Line -1 0.4 -2 0.4
+Line -2 0.4 -2 1
+Line -2 1 -1 1
+Line -1 1 -1 0.4
+Line -2 -1 -3 -1
+Line -3 -1 -3 1
+Line -3 1 -2 1
+Line -2 1 -2 -1
+Line -1 -0.4 -2 -0.4
+Line -2 -0.4 -2 -1
+Line -2 -1 -1 -1
+Line -1 -1 -1 -0.4
+End
+Define Class CAR6 Directional Clearance 1 5
+Line 0 -1 -4 -1
+Line -4 -1 -4 1
+Line -4 1 0 1
+Line 0 1 0 -1
+Line -1 1 -1 -1
+Line -3 1 -3 -1
+Line -1 -1 -2 -1
+Line -2 -1 -2 1
+Line -2 1 -1 1
+Line -1 1 -1 -1
+Line -2 -1 -3 -1
+Line -3 -1 -3 1
+Line -3 1 -2 1
+Line -2 1 -2 -1
+End
+Color Backdrop
+Define Class TITLE
+Text 1 5 -27 0 Ankara-Istanbul Autobahn
+End
+Define Class APPL
+Text 1 4 CENTER 0 -5 Anderson, Indiana, U.S.A.
+Text 1 4 CENTER 0 1 KIZIL Consulting, Inc.
+End
+Color F5
+Define Class BAR
+Line 0 1 5 1
+Line 5 1 5 5
+Line 5 5 0 5
+Line 0 5 0 1
+End
+Color Backdrop
+Line #1 0 156 250 156
+Color L1
+Line 120 143.5 280 143.5
+Line 120 151.5 280 151.5
+Line 120 159.5 280 159.5
+Color Backdrop
+Line #2 140 140 250 140
+Line #3 250 140 280 140
+Line #4 160 148 250 148
+Line #5 250 148 280 148
+Line #6 250 156 280 156
+Line #7 250 148 280 148
+Color L1
+Line 120 135.5 280 135.5
+Text 1 3 200 156 Lane 5
+Text 1 3 200 148 Lane 4
+Text 1 3 200 140 Lane 3
+Text 1 3 200 156 Lane 5
+Text 1 3 200 148 Lane 4
+Text 1 3 200 140 Lane 3
+Color Backdrop
+Line #8 170 124 250 124
+Line #9 250 124 280 124
+Color L1
+Line 120 120 280 120
+Line 120 119 280 119
+Line 120 127.5 280 127.5
+Text 1 3 200 132 Lane 2
+Text 1 3 200 124 Lane 1
+Text 1 3 200 132 Lane 2
+Text 1 3 200 124 Lane 1
+Color Backdrop
+Line #10 170 132 250 132
+Line #11 250 132 280 132
+Arc  #12 57 90 80 180 90 89.5354
+Line #13 90 137 100 137
+Line #14 100 137 170 124
+Arc  #15 57 90 80 180 90 89.5354
+Line #16 90 137 110 137
+Line #17 110 137 170 132
+Arc  #18 57 90 80 180 90 89.5354
+Line #19 90 137 140 140
+Line #20 0 156 120 156
+Line #21 120 156 160 148
+Line #22 0 156 110 156
+Line #23 110 156 170 164
+Arc  #24 57 90 80 180 90 89.5354
+Line #25 90 137 160 148
+Color L1
+Arc 65 90 80 180 90 102.1018
+Arc 66 90 80 180 91 102.5206
+Line 0 149 90 149
+Line 0 148 89 148
+Line 90 149 90 145
+Line 89 148 89 146
+Arc 50 90 80 180 90 78.5398
+Arc 49 90 80 180 90 76.969
+Line 90 130 120 120
+Line 90 129 120 119
+Color F6
+Text 1 4 25 63 Time
+Color F5
+Line 21 67 21 59
+Line 21 59 63 59
+Line 63 59 63 67
+Line 63 67 21 67
+Color F3
+Text 1 3 122 106 QUEUE STATISTICS
+Text 1 3 100 67 4
+Text 1 3 100 75 5
+Text 1 3 100 83 6
+Text 1 3 95 91 HO/SU
+Text 1 3 182 106 VEH./
+Text 1 3 182 101 MIN.
+Text 1 3 150 101 AVG.TIME
+Text 1 3 120 101 AVG.QTY.
+Text 1 3 100 101 LANE     
+Text 1 3 212 106 TOLL
+Text 1 3 212 101 COLL.
+Text 1 3 100 59 3
+Text 1 3 100 51 2
+Text 1 3 100 43 1
+Color Backdrop
+Line #26 0 172 280 172
+Color L1
+Line 0 167.5 280 167.5
+Color Backdrop
+Line #27 170 164 250 164
+Line #28 250 164 280 164
+Color L1
+Line 0 175.5 280 175.5
+Line 0 177 280 177
+Text 1 3 160 172 High Occupancy/Special Use
+Text 1 3 200 164 Lane 6
+Text 1 3 160 172 High Occupancy/Special Use
+Text 1 3 200 164 Lane 6
+Line 70 163 120 167.5
+Line 120 167.5 0 167.5
+Line 0 163 70 163
+Color F3
+Text 1 3 76 33 Composite (1-6)
+Color F4
+Message QA7 1 3 120 91 BG Backdrop QA7
+Message SA7 1 3 150 91 BG Backdrop SA7
+Message VM7 1 3 180 91 BG Backdrop VM7
+Message TC7 1 3 210 91 BG Backdrop TC7
+Message QA6 1 3 120 83 BG Backdrop QA6
+Message SA6 1 3 150 83 BG Backdrop SA6
+Message VM6 1 3 180 83 BG Backdrop VM6
+Message TC6 1 3 210 83 BG Backdrop TC6
+Message QA5 1 3 120 75 BG Backdrop QA5
+Message SA5 1 3 150 75 BG Backdrop SA5
+Message VM5 1 3 180 75 BG Backdrop VM5
+Message TC5 1 3 210 75 BG Backdrop TC5
+Message QA4 1 3 120 67 BG Backdrop QA4
+Message SA4 1 3 150 67 BG Backdrop SA4
+Message VM4 1 3 180 67 BG Backdrop VM4
+Message TC4 1 3 210 67 BG Backdrop TC4
+Message QA3 1 3 120 59 BG Backdrop QA3
+Message SA3 1 3 150 59 BG Backdrop SA3
+Message VM3 1 3 180 59 BG Backdrop VM3
+Message TC3 1 3 210 59 BG Backdrop TC3
+Message QA2 1 3 120 51 BG Backdrop QA2
+Message SA2 1 3 150 51 BG Backdrop SA2
+Message VM2 1 3 180 51 BG Backdrop VM2
+Message TC2 1 3 210 51 BG Backdrop TC2
+Message QA1 1 3 120 43 BG Backdrop QA1
+Message SA1 1 3 150 43 BG Backdrop SA1
+Message VM1 1 3 180 43 BG Backdrop VM1
+Message TC1 1 3 210 43 BG Backdrop TC1
+Message QAT 1 3 120 33 BG Backdrop QAT
+Message SAT 1 3 150 33 BG Backdrop SAT
+Message VMT 1 3 180 33 BG Backdrop VMT
+Message TCT 1 3 210 33 BG Backdrop TCT
+Message CLOCK 1 4 44 63 BG Backdrop CLOCK
+Color L1
+Line 0 167.5 0 163
+Define Path LANE1 Accumulating Label 0 0 Lag 0.3 Speed 10
+Segment #12 33 80 90 137 89.5354 CW
+Segment #13 90 137 100 137 10
+Segment #14 100 137 170 124 71.1969
+Segment #8 170 124 250 124 80
+End
+Define Path OUT1 Label 0 0 Speed 15
+Segment #9 250 124 280 124 30
+End
+Define Path LANE2 Accumulating Label 0 0 Lag 0.3 Speed 10
+Segment #15 33 80 90 137 89.5354 CW
+Segment #16 90 137 110 137 20
+Segment #17 110 137 170 132 60.208
+Segment #10 170 132 250 132 80
+End
+Define Path OUT2 Label 0 0 Speed 15
+Segment #11 250 132 280 132 30
+End
+Define Path LANE3 Accumulating Label 0 0 Lag 0.3 Speed 10
+Segment #18 33 80 90 137 89.5354 CW
+Segment #19 90 137 140 140 50.0899
+Segment #2 140 140 250 140 110
+End
+Define Path OUT3 Label 0 0 Speed 15
+Segment #3 250 140 280 140 30
+End
+Define Path LANE4 Accumulating Label 0 0 Lag 0.3 Speed 10
+Segment #20 0 156 120 156 120
+Segment #21 120 156 160 148 40.7922
+End
+Define Path LANE4A Accumulating Label 0 0 Lag 0.3 Speed 10
+Segment #4 160 148 250 148 90
+End
+Define Path OUT4 Label 0 0 Speed 15
+Segment #5 250 148 280 148 30
+End
+Define Path LANE5 Accumulating Label 0 0 Lag 0.3 Speed 10
+Segment #1 0 156 250 156 250
+End
+Define Path OUT5 Label 0 0 Speed 15
+Segment #6 250 156 280 156 30
+End
+Define Path LANE6 Accumulating Label 0 0 Lag 0.3 Speed 10
+Segment #22 0 156 110 156 110
+Segment #23 110 156 170 164 60.531
+Segment #27 170 164 250 164 80
+End
+Define Path OUT6 Label 0 0 Speed 15
+Segment #28 250 164 280 164 30
+End
+Define Path LANE7 Label 0 0 Speed 25
+Segment #26 0 172 280 172 280
+End
+Define Path LANE8 Accumulating Label 0 0 Lag 0.3 Speed 10
+Segment #24 33 80 90 137 89.5354 CW
+Segment #25 90 137 160 148 70.859
+End
+Define Path OUT8 Label 0 0 Speed 15
+Segment #7 250 148 280 148 30
+End
+End

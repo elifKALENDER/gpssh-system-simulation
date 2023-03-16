@@ -1,0 +1,113 @@
+    STUDENT GPSS/H RELEASE 2.01 (UG172)     17 Mar 2009   02:02:01     FILE: ODEVSON.gps
+
+    LINE# STMT#  IF DO  BLOCK#  *LOC	OPERATION	A,B,C,D,E,F,G	COMMENTS  
+ 
+        1     1                 	SIMULATE
+        2     2              1  	GENERATE 6,2
+        3     3              2  	SEIZE ISLEME
+        4     4              3  	ADVANCE 10,3
+        5     5              4  	RELEASE ISLEME
+        6     6              5  	SEIZE TEMIZ
+        7     7              6  	ADVANCE 5,1
+        8     8              7  	RELEASE TEMIZ
+        9     9              8  	SEIZE ISCI
+       10    10              9  	ADVANCE 9,3
+       11    11             10  	RELEASE ISCI
+       12    12             11  	TERMINATE 1
+       13    13                 	START 200
+       14    14                 	END
+
+ENTITY DICTIONARY (IN ASCENDING ORDER BY ENTITY NUMBER; "*" => VALUE CONFLICT.)
+
+       Facilities: 1=ISLEME        2=TEMIZ         3=ISCI
+
+SYMBOL   VALUE   EQU DEFNS  CONTEXT      REFERENCES BY STATEMENT NUMBER
+ 
+ISCI         3              Facility         9    11
+ISLEME       1              Facility         3     5
+TEMIZ        2              Facility         6     8
+
+
+
+STORAGE REQUIREMENTS (BYTES)
+
+COMPILED CODE:      308
+COMPILED DATA:       40
+MISCELLANEOUS:        0
+ENTITIES:           352
+COMMON:           10000
+-----------------------
+TOTAL:            10700
+
+
+
+GPSS/H MODEL SIZE:
+
+CONTROL STATEMENTS      3
+BLOCKS                 11
+
+
+
+Simulation begins.
+
+RELATIVE CLOCK: 2026.0110   ABSOLUTE CLOCK: 2026.0110
+
+
+
+BLOCK CURRENT     TOTAL  BLOCK CURRENT     TOTAL  
+1                   202  11                  200 
+2                   202 
+3           1       202 
+4                   201 
+5                   201 
+6                   201 
+7           1       201 
+8                   200 
+9                   200 
+10                  200 
+
+
+
+          --AVG-UTIL-DURING--                                                               
+FACILITY  TOTAL  AVAIL  UNAVL     ENTRIES    AVERAGE   CURRENT  PERCENT  SEIZING  PREEMPTING
+           TIME   TIME   TIME               TIME/XACT   STATUS   AVAIL     XACT      XACT   
+  ISLEME  0.997                       202      10.000    AVAIL              202 
+   TEMIZ  0.493                       201       4.973    AVAIL                  
+    ISCI  0.887                       200       8.985    AVAIL                  
+
+
+
+  RANDOM    ANTITHETIC     INITIAL     CURRENT      SAMPLE   CHI-SQUARE
+  STREAM      VARIATES    POSITION    POSITION       COUNT   UNIFORMITY
+       1           OFF      100000      100806         806      0.53
+
+
+
+STATUS OF COMMON STORAGE
+
+    9520 BYTES AVAILABLE
+     480 IN USE
+     704 USED (MAX)
+
+Simulation terminated.  Absolute Clock: 2026.0110
+
+
+
+Total Block Executions: 2210
+
+Blocks / second:        2210000
+
+Microseconds / Block:   0.45
+
+
+
+Elapsed Time Used (SEC)
+ 
+PASS1:           0.05
+LOAD/CTRL:       0.22
+EXECUTION:       0.00
+---------------------
+TOTAL:           0.27
+
+GPSS/H IS A PROPRIETARY PRODUCT OF, AND IS USED UNDER A LICENSE GRANTED BY, THE WOLVERINE SOFTWARE CORPORATION,
+4115 ANNANDALE ROAD, ANNANDALE, VIRGINIA 22003-2500, USA.

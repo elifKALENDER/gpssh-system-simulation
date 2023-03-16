@@ -1,0 +1,740 @@
+Define View "(Home)" center 11.2836 -2.0156 Width 161.0138 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 6
+Define View "(Class)" center 11.2836 -2.0156 Width 161.0138 Grid Size 1 10 Ortho
+Define color Backdrop  0.6549 0.7686 0.6902
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.898 0.2471 0.2471
+Define color F9 0 0 1
+Define color F10 0.749 0.2471 0.2471
+Define color F11 0.6 0.949 1
+Define color F12 0.498 0.349 0
+Define color F13 0.749 0.4 0.6667
+Define color F14 0.6 0.498 0.498
+Define color F15 0 0.6 0.2
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3294 0
+Define color F19 0.4 0.498 0.698
+Define color F20 0 0.3294 0.3294
+Define color F21 0.898 0.6667 0.498
+Define color F22 0.498 0.2471 0.498
+Define color F23 0.749 0.6 0
+Define color F24 0.498 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.498 0.498 0.498
+Define color L2 0.6667 0.949 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.898 0.6667 0.498
+Define color L6 0.4 0.498 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0.3451 0.3333 0.3451
+*[new] Define color L10 0.1373 0.1608 0.149
+*[new] Define color L11 0.4039 0.702 0.6902
+*[new] Define color L12 0.8392 0.9098 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0.8471 0.8 0.6
+Color F17
+Define Class P03
+Fill 5.2485 5.6232
+Fill 6.7237 5.6232
+Fill 8.0145 5.6232
+Fill 4.8885 5.46
+Fill 7.7956 5.46
+Fill 6.5324 5.4427
+Line 5.8 7.1 3.8 7.1
+Color L1
+Fill 5.9002 6.3515
+Color F17
+Line 7.8 6.1 5.8 6.1
+Line 5.8 5.1 7.8 5.1
+Arc 0.5 7.8 5.6 270 90 0
+Arc 0.5 7.8 5.6 90 -90 0
+Color F15
+Fill 9.0901 4.4861
+Fill 8.9057 3.9022
+Color F3
+Fill 6.9353 4.8198
+Color F17
+Line 5.8 4.5 7.92 4.5
+Line 7.5273 4.5 7.6 4.18
+Color L1
+Line 9.4 4.3 9.7805 2.5244
+Color F20
+Fill 9.1886 3.0853
+Color L1
+Line 6.8 4.1 6.8067 4.0678
+Fill 6.0983 3.4957
+Line 6.6 2.9 6.3 4.5
+Color F3
+Fill 6.1162 4.7386
+Fill 8.3018 4.7386
+Fill 6.472 4.7005
+Fill 6.4466 4.7132
+Color F17
+Line 5.8 4.1 3.8 4.1
+Arc 0.5 8.1 4.2 264.2608 182.5404 0.7131
+Arc 0.5 8 4.2 8.3659 -84.2608 0.8083
+Line 8.3 5.6 8.5 4.24
+Color F14
+Arc 1.3 8.1 4.2 -193.3424 80.3732 6.2104
+Color L1
+Line 6.8623 3.8025 7.2094 2.144
+Line 9.3 1 9.2349 1.2277
+Color F14
+Line 9.3 0.1 9.3 1
+Color L1
+Fill 9.123 1.0004
+Color F14
+Line 9.3 0.1 9 1.1
+Color F3
+Fill 8.736 0.5314
+Color L1
+Line 4.8 0.1 6.6 0.1
+Color F14
+Line 8.3 0.1 9.3 0.1
+Line 8.3 0.1 8 1.1
+Color L3
+Fill 5.5427 1.619
+Color F14
+Arc 1.3 8.5 2.3 -173.1086 14.25 4.251
+Color L1
+Line 6.6 0.1 5.8 4.1
+Line 3.8 4.1 4.8 0.1
+Line 6 6.1 5.8 7.1
+Color F17
+Line 5.8 7.1 5.8 4.1
+Color L1
+Line 6.6 0.1 6.6 2.9
+Color F17
+Line 7.8 5.1 7.92 4.5
+Line 3.8 4.1 3.8 7.1
+Fill 4.8709 5.6676
+Fill 4.9543 5.7094
+Color L1
+Fill 6.2061 3.4978
+End
+Color L9
+Define Class P04 Directional
+Line 18.8 2 18.8 9.8283
+Color L8
+Line 19 8.9 19 0.9
+Line 19.6 0.9 19.6 8.9
+Line 20 9.2 20 1.22
+Line 20.6 1.22 20.6 9.2
+Color L6
+Fill 19.448 3.7002
+Color L2
+Fill 20.114 5.0538
+Color F20
+Fill 14.1891 4.7923
+Fill 16.7452 5.6077
+Fill 15.4231 5.806
+Fill 14.4094 5.9162
+Fill 17.208 6.5993
+Fill 12.8449 4.7042
+Fill 14.6739 6.9078
+Fill 15.7756 7.04
+Fill 9.5174 6.4009
+Fill 14.2331 8.1638
+Color L8
+Arc 0.5 19.3 8.5 126.8699 53.1301 0.6435
+Arc 0.5 20.3 8.8 126.8699 53.1301 0.6435
+Color L9
+Arc 0.7 18.1214 9.6359 14.1904 16.6001 0.0294
+Arc 2 17.4 8.4 45.573 90.5017 1.5683
+Line 5.1 10.4 17.4 10.4
+Line 5.1 2.6 17.4 2.6
+Line 17 0.5 16.7381 2.2
+Line 16.7381 2.2 18.2 2.2
+Arc 2 17.4 0.6 45.573 90.5017 1.5683
+Color F3
+Fill 17.4063 2.4345
+Color L9
+Line 17.7199 1.8906 17.7165 2.2
+Line 18 1.9 18.3 0.5
+Line 18 1.9 18.38 1.9
+Line 18.68 1.8905 18.68 2.0773
+Arc 1 18.2 1.2 53.1301 90 0.6435
+Arc 0.7 18.2 2.4 285.6391 313.3001 0.3379
+Line 18.38 1.9 18.6 0.5
+Arc 0.7 18.2 2.4 226.6944 256.6884 0.3664
+Color L32
+Fill 18.4945 2.0057
+Fill 18.3149 2.0493
+Color L9
+Line 11.9381 2.2 16.1571 2.2
+Line 12.2 0.5 11.9381 2.2
+Line 11.7 0.5 11.3571 2.2
+Line 7.3381 2.2 11.3571 2.2
+Line 16.5 0.5 16.1571 2.2
+Color F26
+Fill 18.2694 1.0241
+Fill 18.2729 0.9801
+Color F3
+Fill 19.2675 0.9481
+Fill 19.2852 0.871
+Color L8
+Arc 0.5 20.28 1.48 0 0 0
+Arc 0.5 19.3 0.52 126.8699 53.1301 0.6435
+Arc 0.5 19.3 1.3 306.8699 233.1301 0.1893
+Color F3
+Fill 19.4197 0.999
+Color L8
+Arc 0.5 20.3 0.82 128.7394 51.2606 0.6761
+Color F25
+Arc 0.5 20.3 1.6 308.7394 231.2606 0.6761
+Color F3
+Fill 20.4264 1.2359
+Color L9
+Line 7.6 0.5 7.3381 2.2
+Line 7.1 0.5 6.7571 2.2
+Line 4.2 2.2 6.7571 2.2
+Arc 2 5 0.6 86.9872 136.4688 1.7272
+Arc 2 5 8.4 86.9872 137.1211 0
+Arc 0.7 4.2 2.4 285.6391 313.3001 0.3379
+Line 4.7 10.0899 4.7 10.1
+Line 4.38 1.9 4.6 0.5
+Color L32
+Fill 4.3293 1.9708
+Fill 4.535 2.0903
+Color L9
+Line 4 1.9 4.3 0.5
+Color L32
+Fill 4.5439 2.0964
+Fill 4.4259 2.0256
+Color L9
+Arc 1 4.2 1.2 90 130.5416 0.7076
+Arc 0.7 4.2 2.4 226.6944 255.004 0.3459
+Color F26
+Fill 4.2694 1.0241
+Fill 4.2729 0.9801
+Color L9
+Line 4 1.9 4.38 1.9
+Line 4.6801 1.8906 4.6808 2.2
+Line 3.7199 1.8906 3.7031 2.0678
+Line 3.55 9.7775 3.55 1.9599
+Color L8
+Arc 0.5 3.08 1.18 0 0 0
+Line 3.4 0.9 3.4 8.9
+Color L6
+Fill 3.248 3.7002
+Color L8
+Arc 0.5 3.1 0.52 126.8699 53.1301 0.6435
+Color F3
+Fill 3.0852 0.871
+Color L8
+Arc 0.5 3.1 1.3 306.8699 233.1301 0.1893
+Color F3
+Fill 3.2104 0.9399
+Color L8
+Arc 0.5 3.1 8.5 126.8699 53.1301 0.6435
+Color F3
+Fill 3.0675 0.9481
+Color L8
+Line 2.8 8.9 2.8 0.9
+Arc 0.5 1.88 1.48 0 0 0
+Line 2.2 1.2 2.2 9.2
+Arc 0.5 1.9 0.82 126.8699 53.1301 0.6435
+Arc 0.5 1.74 0.8 0 0 0
+Arc 0.5 1.9 1.6 306.8699 233.1301 0.1482
+Arc 0.5 1.9 8.8 126.8699 53.1301 0.6435
+Color F3
+Fill 1.9949 1.1995
+Fill 1.9396 1.2188
+Fill 1.8802 1.1649
+Color L2
+Fill 1.714 5.0538
+Color L9
+Line 16.5 0.5 17 0.5
+Line 18.3 0.5 18.6 0.5
+Color L8
+Arc 0.5 19.14 0.5 0 0 0
+Color L9
+Line 11.7 0.5 12.2 0.5
+Line 7.1 0.5 7.6 0.5
+Line 4.3 0.5 4.6 0.5
+Color L8
+Arc 0.5 2.94 0.5 0 0 0
+Line 1.6 9.2 1.6 1.2
+Arc 0.5 0.78 0.98 0 0 0
+Line 1.1 0.7 1.1 8.7
+Color F17
+Fill 0.8568 2.1663
+Fill 0.8117 3.5198
+Fill 0.8117 2.3918
+Color L8
+Arc 0.5 0.8 0.32 126.8699 53.1301 0.6435
+Arc 0.5 0.8 1.1 306.8699 233.1301 0.1629
+Color F3
+Fill 0.9092 0.7393
+Color L8
+Arc 0.5 0.8 8.3 126.8699 53.1301 0.6435
+Color F17
+Fill 0.6312 2.9784
+Color L8
+Line 0.5 8.7 0.5 0.7
+End
+Color F25
+Define Class TRANS Directional Clearance 5 0
+Line -0.4 0.3 -0.5 -0.2
+Line -2.25 0.2 -0.42 0.2
+Line -2.3 0.3 -0.4 0.3
+Line -2.3 1.1 0.4342 1.1
+Arc 0.3 -2.3 0.4 30 150 0.6283
+Arc 0.4 -2.25 0.6 198.5314 270 0.4989
+Arc 0.4 -2.3 0.7 90 270 1.2566
+Line -2.6 -0.2 -0.5 -0.2
+Arc 0.4 -2.6 -0.6 90 270 1.2566
+Arc 0.3 -2.5 -0.9 30 150 0.6283
+Line -2.6 -1 0.6 -1
+Line -2.55 -1.1 0.8 -1.1
+Arc 0.4 -2.55 -0.7 198.5314 270 0.4989
+Line -2.2402 -0.75 -2.2479 -0.4374
+Line -2.7598 -0.75 -2.7521 -0.4374
+Arc 0.3 -2.5 -0.6 32.8091 147.1909 0.5989
+Arc 0.3 -2.3 0.7 32.4971 146.7898 0.5984
+Line -2.5598 0.55 -2.551 0.8643
+Line -2.0402 0.55 -2.047 0.8612
+Color L1
+Fill -0.0241 -0.1682
+Fill -1.1674 -0.5731
+Color F11
+Fill -2.4655 0.8203
+Fill -2.4416 -0.3826
+Color F3
+Fill 0.3094 -1.0376
+Fill -0.0003 -1.0376
+Fill -2.1439 0.2486
+Color L1
+Fill -0.4651 0.5987
+Fill -0.1228 0.6735
+Color F25
+Line 0.6 -1 0.4314 1.1358
+Line 0.5467 2 0.4314 1.1358
+Line 0.8 -1.1 0.6 1.1
+Line 0.6 1.1 0.7 2
+Color L1
+Fill 0.5118 -0.0848
+Color F25
+Line 0.8486 0.4144 0.7 2
+Line 0.85 1.25 0.7314 2.4358
+Line 1.2 1.1 0.8 -1.1
+Line 0.85 1.25 0.8 0.9
+Line 1.0142 1.1441 0.9 2.4
+Line 1.0142 1.1441 0.8486 0.4144
+Color F23
+Fill 0.9525 0.0223
+Color F25
+Line 0.7 2 0.5467 2
+Line 1.2 1.1 1 3.3
+Color F23
+Fill 1.0239 0.5225
+Fill 1.0597 0.6059
+Color F3
+Fill 0.7977 2.1541
+Color L1
+Fill -0.9625 0.5075
+Fill -0.897 0.9295
+Color F25
+Line 0.8467 3.3 0.7314 2.4358
+Line 0.9 2.4 1 3.3
+Line 1 3.3 0.8467 3.3
+End
+Define Class RULO Clearance 0.3 0.3
+Text 1 0.29 LJ -0.4 0.4 RULO
+Text 1 0.29 LJ -0.4 -0.4 LDPE
+Line -0.6 -1 -0.6 1
+Color F3
+Fill -0.2191 1.1344
+Fill 0.0236 1.0773
+Color F25
+Line 0.6 -1 0.6 1
+Arc 1 0 0.2 53.1301 126.8699 1.287
+Color F3
+Fill 0.0395 0.8117
+Fill 0.1533 0.6201
+Fill 0.1772 0.4524
+Fill 0.1952 0.2728
+Fill 0.2012 0.0452
+Fill 0.2012 -0.1165
+Fill 0.2012 -0.2782
+Fill 0.1952 -0.5657
+Fill 0.2551 -0.7274
+Fill 0.5186 -0.8891
+Fill 0.3808 -1.0029
+Color F25
+Arc 0.4 0 -0.7 310.5416 311.4096 0.00606
+Arc 0.4 0 -0.7 228.5904 229.4584 0.00606
+Line 0.26 -1 0.26 -1.1656
+Line -0.26 -1 -0.26 -1.1656
+Arc 1 0 -0.2 285.0701 306.8699 0.3805
+Arc 1 0 -0.2 233.1301 254.9299 0.3805
+Arc 0.4 0 -1.3 48.5904 131.4096 0.5782
+Arc 1 0 -1.8 53.1301 126.8699 1.287
+End
+Color L9
+Define Class P01
+Line 0 9 0 0
+Color F12
+Line 3.2 9 3.2 0
+Line 3 9.6 3 0.6
+Color L9
+Line 0.4 3 2.8 3
+Line 0.4 6 0.4 3
+Line 0.6 3 0.6 5.45
+Color F12
+Line 6 9.6 6 0.6
+Line 6.2 0 6.2 3
+Line 7 3 6.2 3
+Line 6.8 3.6 6 3.6
+Line 6.8 4.6 6 4.6
+Line 6.2 6 6.2 4.6
+Fill 6.3881 3.4402
+Color L2
+Fill 6.5093 4.2019
+Fill 6.5093 3.873
+Color F12
+Line 6.8 3.6 6.8 4.6
+Line 6.8 4.6 7 4
+Line 7 4 7 3
+Color L1
+Fill 2.0434 5.102
+Color L9
+Line 2.8 6 0.6 5.45
+Fill 0.6066 5.6905
+Color F12
+Line 7 6 6.2 6
+Line 7 6.6 7 6
+Color L9
+Line 2.8 6 0.4 6
+Color F12
+Fill 6.8382 6.5387
+Line 6.8 6.6 6.8 7.4
+Line 6.8 7.4 7 6.6
+Line 6.8 6.6 6 6.6
+Fill 3.0993 6.6772
+Color L2
+Fill 6.4401 6.8849
+Fill 6.5612 6.8676
+Color F12
+Line 6.2 9 6.2 7.4
+Line 6.8 7.4 6 7.4
+Color L1
+Fill 4.0859 7.4561
+Color F12
+Fill 6.0766 7.8369
+Color L1
+Fill 8.5519 7.8716
+Fill 2.2353 7.0171
+Color F12
+Line 3 0.6 3.2 0
+Line 6.2 0 6 0.6
+Color L9
+Line 0 0 10 0
+Line 0 0 0.2 -0.6
+Line 10 0 10 9
+Color L3
+Fill 10.1043 4.2536
+Color L9
+Line 10.2 -0.6 10.2 8.4
+Line 10 9 10.2 8.4
+Line 10 9 0 9
+Color F12
+Line 6 9.6 6.2 9
+Line 3.2 9 3 9.6
+Color L9
+Line 10.6 -0.2 10.6 8.8
+Arc 0.2 10.8 -0.2 -180 0 0
+Color F20
+Fill 10.8021 5.6559
+Fill 10.8714 6.3656
+Color L9
+Line 11 8.8 10.6 8.8
+Color F12
+Fill 6.0592 9.2217
+Fill 3.03 9.239
+Color L9
+Line 11 -0.2 11 8.8
+Color F20
+Fill 10.906 4.9981
+Color L9
+Line 10.2 -0.6 0.2 -0.6
+Line 11.8 0.8 11.8 9.8
+Line 11.4 9.8 11.4 0.8
+Arc 0.2 11.6 0.8 -180 0 0
+Color L2
+Fill 11.5638 5.8463
+Color L9
+Line 11.4 9.8 11.8 9.8
+Line 12.2 9.2 12.2 0.2
+Arc 0.2 12.4 0.2 -180 0 0.6283
+Color L11
+Fill 12.4293 4.8943
+Color L9
+Line 12.2 9.2 12.6 9.2
+Line 12.6 0.2 12.6 9.2
+End
+Color F25
+Define Class HAMM Clearance 0.8 0.8
+Line -0.8061 -0.3435 -0.804 1.0792
+Line 0.6778 1.0792 -0.804 1.0792
+Line -0.675 -1.0661 -0.8061 -0.3435
+Line 0.6778 -0.3435 -0.8061 -0.3435
+Line 0.6778 1.0792 0.8242 0.429
+Line 0.6778 -0.3435 0.6778 1.0792
+Line 0.8242 -1.0661 0.6778 -0.3435
+Line 0.8242 -1.0661 -0.675 -1.0661
+Line 0.8242 0.429 0.8242 -1.0661
+Color F6
+Fill -0.1934 0.2345
+Fill 0.1039 -0.7502
+Fill 0.7542 -0.3786
+End
+Color L9
+Define Class P02
+Line -1.6 6.5 5.3816 5.4528
+Line 5.3694 3.1712 -1.6 2.3
+Line 6.4 6.4932 6.4 9.3
+Line 8.4 1.9315 8.4 -0.7
+Line 6.4 2.1068 6.4 -0.7
+Line 9.2 2.1 7.6 2.1
+Line 7.6 2.1 7.2 2.1
+Line 7.6 2.3 9.2 2.3
+Line 7.6 2.3 7.6 8.3
+Line 7.2 8.5 7.2 2.1
+Arc 2.5 7.6 4.3 50.2082 90 1.7362
+Arc 2.5 7.6 4.3 99.2069 298.3576 8.6896
+Line 8.4 6.6685 8.4 8.3
+Color F12
+Fill 0.5223 4.6023
+Fill 0.646 4.5775
+Color F17
+Fill 7.4273 7.2752
+Color L32
+Fill 8.145 4.0083
+Fill 5.8928 3.835
+Color L9
+Line -1.2 -0.7 -1.2 2.35
+Line -1.2 6.44 -1.2 9.3
+Color L1
+Fill 1.1162 6.8544
+Color F12
+Fill 7.8233 7.2999
+Fill 6.6353 7.8197
+Color L9
+Line -5.6 -0.7 -5.6 9.3
+Line 12.4 -0.7 -5.6 -0.7
+Line -5.6 2.3 -1.6 2.3
+Line -1.6 2.3 -1.6 6.5
+Line -1.6 6.5 -5.6 6.5
+Line 9.2 10.7 11.8 10.7
+Line 11.8 10.7 12.4 9.3
+Line 9.2 10.7 9.2 0.5
+Line 9.2 0.5 9.8 -0.7
+Line 12.4 -0.7 11.8 0.5
+Line 11.8 0.5 11.8 10.7
+Line 9.2 0.5 11.8 0.5
+Line -5.6 9.3 9.2 9.3
+Line 9.2 8.3 7.6 8.3
+Line 7.2 8.5 9.2 8.5
+Line 12.4 9.3 12.4 -0.7
+Line 8.4 8.5 8.4 9.3
+Fill -3.1406 4.528
+Color L2
+Fill -1.8537 7.3989
+Fill -2.9179 1.2364
+Color L1
+Fill 2.8982 0.6424
+Color F12
+Fill 7.8233 0.6671
+Color L1
+Fill 9.036 7.2999
+Fill 8.739 8.6364
+Fill 9.0855 0.3206
+Color L3
+Fill 12.2039 8.1662
+Fill 11.6099 -0.1744
+Color L2
+Fill 10.3972 7.7949
+End
+CPO P04 P041 3 -20
+CPO P04 P042 -33 -20
+Color Backdrop
+Line #1 0 -40 0 36
+CPO P03 P032 -2 40
+CPO P03 P031 -20 40
+Line #2 20 -1 20 -3
+Line #3 -28 -1 20 -1
+Line #4 20 -3 -28 -3
+Line #5 -8 -40 -8 36
+Line #6 20 19 20 17
+Line #7 20 17 -28 17
+Line #8 -28 19 20 19
+Line #9 0 47 0 36
+Line #10 -17 36 -17 47
+Line #11 10 40 0 36
+Line #12 -8 47 0 36
+Line #13 -17 36 0 36
+Line #14 -30 -21 20 -21
+Line #15 20 -21 20 -23
+Line #16 -30 -23 20 -23
+Line #17 0 -40 10 -40
+Line #18 -8 -40 -20 -40
+Line #19 -28 17 -28 19
+Line #20 -28 -3 -28 -1
+Line #21 -30 -21 -30 -23
+Color F25
+Line -40 50 -40 -50
+Color F28
+Fill -46.3067 -6.0781
+Fill -49.1192 -3.7344
+Fill -57.5567 -18.7344
+Fill -59.4952 3.4502
+CPO P01 P011 -28 21
+CPO P02 P022 7 1
+CPO P01 P012 -28 1
+Color F9
+Line -35 44 -35 -10
+Color Backdrop
+Line #22 10 40 10 47
+Color L1
+Arc 0.5 -11 43.2 0 0 0
+Color Backdrop
+Line #23 10 47 0 47
+Line #24 -17 47 -8 47
+Color F25
+Line 40 50 -40 50
+Color F9
+Text 1 2 LJ -37 45 G. PARÇA.SAY
+Color F25
+Line 40 -50 40 50
+Line -40 -50 40 -50
+Color F9
+Line -27 -31 -27 -42
+Text 1 2 LJ -38 -33 ÜRETÝM.    RED. TALEB
+CPO P02 P021 7 21
+Line 25 -10 25 44
+Line 34 44 34 -10
+Text 1 2 LJ -38 42 1.   2. MAK                                                                MAK .     1     2       1    2
+Text 1 2 LJ 11 45 ORT. BEK. ZN.     MAK. KUL. ORA.
+Message YY 1 2 LJ 21 38 BG Backdrop YY
+Message FF 1 2 LJ 21 28 BG Backdrop FF
+Message UM 1 2 LJ -37 -36 BG Backdrop 2619415
+Message DD 1 2 LJ -39 9 BG Backdrop DD
+Message HH 1 2 LJ 21 10 BG Backdrop HH
+Message MM 1 2 LJ -39 -9 BG Backdrop MM
+Message KK 1 2 LJ 21 -10 BG Backdrop KK
+Message XX 1 2 LJ -39 38 BG Backdrop XX
+Message BB 1 2 LJ -39 27 BG Backdrop BB
+Define Path P030E Accumulating LEAPOK Label -24.0336 -40.4879 Time 5
+Segment #18 -20 -40 -8 -40 12
+Segment #5 -8 -40 -8 36 76
+End
+Define Path P0DEPO LEAPOK Label 5.0751 35.6425 Speed 15.2
+Segment #1 0 36 0 -40 76
+Segment #17 0 -40 10 -40 10
+End
+Define Path P02E Accumulating LEAPOK Label -16.502 -23.9998 Time 5
+Segment #16 20 -23 -30 -23 50
+End
+Define Path P01E Accumulating LEAPOK Label 9.7569 -21.3535 Time 5
+Segment #14 -30 -21 20 -21 50
+End
+Define Path P032E Accumulating LEAPOK Label -12.0237 35.6425 Time 1
+Segment #13 -8 36 0 36 8
+Segment #9 0 36 0 47 11
+End
+Define Path P031E Accumulating LEAPOK Label -12.0237 35.6425 Time 1
+Segment #13 -8 36 -17 36 9
+Segment #10 -17 36 -17 47 11
+End
+Define Path P031D Label -20.9802 46.6346 Time 1
+Segment #24 -17 47 -8 47 9
+Segment #12 -8 47 0 36 13.6015
+End
+Define Path P032D Accumulating LEAPOK Label -4.085 46.6346 Time 1
+Segment #23 0 47 10 47 10
+Segment #22 10 47 10 40 7
+Segment #11 10 40 0 36 10.7703
+End
+Define Path P021R LEAPOK Label 20.3419 19.765 Time 1
+Segment #6 20 19 20 17 2
+End
+Define Path P022R LEAPOK Label 20.3419 -0.1836 Time 1
+Segment #2 20 -1 20 -3 2
+End
+Define Path P021E Accumulating LEAPOK Label -31.9723 18.5437 Time 5
+Segment #8 -28 19 20 19 48
+End
+Define Path P011E Accumulating LEAPOK Label 16.2708 15.0832 Time 5
+Segment #7 20 17 -28 17 48
+End
+Define Path P011R Accumulating LEAPOK Label -27.2905 17.7295 Time 1
+Segment #19 -28 17 -28 19 2
+End
+Define Path P022E Accumulating LEAPOK Label -31.9723 -1.4049 Time 5
+Segment #3 -28 -1 20 -1 48
+End
+Define Path P012E Accumulating LEAPOK Label 15.8636 -3.4405 Time 5
+Segment #4 20 -3 -28 -3 48
+End
+Define Path P012R Accumulating LEAPOK Label -27.4941 -2.2192 Time 1
+Segment #20 -28 -3 -28 -1 2
+End
+Define Path P01R Label 20.749 -20.1322 Time 1
+Segment #15 20 -21 20 -23 2
+End
+Define Path P02R Label -40.1146 -21.7607 Time 1
+Segment #21 -30 -23 -30 -21 2
+End
+Define Path P0D12E Accumulating LEAPOK Label -3.6779 14.8797 Time 5
+Segment #7 0 17 -8 17 8
+Segment #5 -8 17 -8 -3 20
+Segment #4 -8 -3 -28 -3 20
+End
+Define Path P0D11E Accumulating LEAPOK Label -4.8992 -3.4405 Time 5
+Segment #4 0 -3 -8 -3 8
+Segment #5 -8 -3 -8 17 20
+Segment #7 -8 17 -28 17 20
+End
+Define Path P3021E LEAPOK Label 8.7391 18.1366 Time 4
+Segment #1 0 36 0 19 17
+Segment #8 0 19 20 19 20
+End
+Define Path P3022E LEAPOK Label 22.7846 1.852 Time 6
+Segment #1 0 36 0 -1 37
+Segment #3 0 -1 20 -1 20
+End
+End

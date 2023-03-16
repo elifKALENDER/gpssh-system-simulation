@@ -1,0 +1,38 @@
+        SIMULATE
+*
+ATF     FILEDEF 'carwash.atf'
+*
+* Block Statements
+*
+        GENERATE        RVEXPO(1,2.2)
+        BPUTPIC         FILE=ATF,LINES=3,(AC1,XID1,XID1)
+TIME *.**
+CREATE Car *
+PLACE * ON ENTRY
+        ADVANCE         0.25
+        SEIZE           CHAIN
+        BPUTPIC         FILE=ATF,LINES=2,(AC1,XID1)
+TIME *.**
+PLACE * ON CHAIN
+        ADVANCE         2
+        RELEASE         CHAIN
+        ADVANCE         1.5
+        BPUTPIC         FILE=ATF,LINES=2,(AC1,XID1)
+TIME *.**
+PLACE * ON EXIT
+        ADVANCE         0.25
+        BPUTPIC         FILE=ATF,LINES=2,(AC1,XID1)
+TIME *.**
+DESTROY *
+        TERMINATE       1
+*
+* Control Statements
+*
+        START           100
+        PUTPIC          FILE=ATF,LINES=2,(AC1)
+TIME *.**
+END
+        END
+
+
+

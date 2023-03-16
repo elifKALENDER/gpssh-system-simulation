@@ -1,0 +1,519 @@
+*** Time 0 ... 75 of D:\SE\reserve.ATF ***
+*** Establish Proper State ***
+Set Path OriginA Speed 0
+Set Path OriginB Speed 0
+Set Path OriginC Speed 0
+Set Path OriginD Speed 0
+*** Resume User Trace ***
+Time 2.5975 39080
+set bar OriginD       1
+write OriginD 1
+create Plane 1
+write ID(1) 1
+place 1 on OriginD  
+set bar OriginD       0
+write OriginD 0
+set object 1 speed 0.887
+Time 3.2329 17302
+set bar OriginB       1
+write OriginB 1
+create Plane 2
+write ID(2) 2
+place 2 on OriginB  
+Time 7.7877 46372
+set bar OriginB       0
+write OriginB 0
+set object 2 speed 2.220
+Time 8.2336 473
+set object 1 color Red
+Time 10.0399 10146
+set object 2 color Red
+Time 11.3931 19819
+set bar OriginC       1
+write OriginC 1
+create Plane 3
+write ID(3) 3
+place 3 on OriginC  
+set bar OriginC       0
+write OriginC 0
+set object 3 speed 3.070
+Time 11.8416 63577
+set object 2 color Class
+Time 12.7425 7714
+set object 1 color Class
+set object 2 color Red
+Time 13.0219 22367
+set object 3 color Red
+Time 14.325 32040
+set object 3 color Class
+Time 14.5442 41969
+destroy 2
+Time 14.8072 51627
+set bar OriginA       1
+write OriginA 1
+create Plane 4
+write ID(4) 4
+place 4 on OriginA  
+set bar OriginA       0
+write OriginA 0
+set object 4 speed 0.975
+Time 14.9766 29849
+set object 3 color Red
+Time 14.9969 39522
+set object 1 color Red
+Time 16.2797 49195
+destroy 3
+Time 17.477 59109
+set bar OriginD       1
+write OriginD 1
+create Plane 5
+write ID(5) 5
+place 5 on OriginD  
+set bar OriginD       0
+write OriginD 0
+set object 5 speed 1.924
+Time 17.9244 37331
+set bar OriginB       1
+write OriginB 1
+create Plane 6
+write ID(6) 6
+place 6 on OriginB  
+set bar OriginB       0
+write OriginB 0
+set object 6 speed 1.796
+Time 19.5058 15553
+destroy 1
+Time 19.9342 25211
+set object 4 color Red
+Time 20.0756 34884
+set object 5 color Red
+Time 20.7086 44557
+set object 6 color Red
+Time 22.1545 54486
+set object 5 color Class
+Time 22.5998 64159
+set bar OriginA       1
+write OriginA 1
+create Plane 7
+write ID(7) 7
+place 7 on OriginA  
+Time 22.936 27693
+set object 6 color Class
+Time 23.1939 37622
+set object 5 color Red
+Time 24.0358 47295
+set object 4 color Class
+Time 24.0497 56968
+set object 6 color Red
+Time 24.066 1105
+set bar OriginB       1
+write OriginB 1
+create Plane 8
+write ID(8) 8
+place 8 on OriginB  
+set bar OriginB       0
+write OriginB 0
+set object 8 speed 1.218
+Time 25.2729 44863
+destroy 5
+Time 25.352 54777
+set bar OriginA       0
+write OriginA 0
+set object 7 speed 2.274
+Time 25.5067 8622
+set bar OriginC       1
+write OriginC 1
+create Plane 9
+write ID(9) 9
+place 9 on OriginC  
+Time 26.0866 37692
+set object 4 color Red
+Time 26.2771 47365
+destroy 6
+Time 26.5193 57279
+set bar OriginB       1
+write OriginB 1
+create Plane 10
+write ID(10) 10
+place 10 on OriginB  
+Time 27.349 20813
+set bar OriginD       1
+write OriginD 1
+create Plane 11
+write ID(11) 11
+place 11 on OriginD  
+set bar OriginD       0
+write OriginD 0
+set object 11 speed 2.032
+Time 27.5503 64571
+set object 7 color Red
+Time 28.1723 8708
+set object 8 color Red
+Time 28.5468 18637
+set bar OriginB       0
+write OriginB 0
+set object 10 speed 1.027
+Time 29.0101 38018
+set bar OriginC       0
+write OriginC 0
+set object 9 speed 2.043
+Time 29.3089 57399
+set object 7 color Class
+Time 29.7738 1536
+set bar OriginD       1
+write OriginD 1
+create Plane 12
+write ID(12) 12
+place 12 on OriginD  
+Time 29.8094 30862
+set object 11 color Red
+Time 30.1882 40535
+destroy 4
+set object 7 color Red
+Time 30.4995 55173
+set bar OriginB       1
+write OriginB 1
+create Plane 13
+write ID(13) 13
+place 13 on OriginB  
+Time 30.6612 18707
+set bar OriginC       1
+write OriginC 1
+create Plane 14
+write ID(14) 14
+place 14 on OriginC  
+Time 31.4573 48033
+set object 8 color Class
+set object 9 color Red
+Time 31.7777 62686
+set object 11 color Class
+Time 31.9468 6823
+destroy 7
+Time 32.7619 16481
+set object 11 color Red
+Time 33.0998 26154
+set object 8 color Red
+Time 33.3763 36083
+set bar OriginA       1
+write OriginA 1
+create Plane 15
+write ID(15) 15
+place 15 on OriginA  
+Time 33.4151 65153
+set object 10 color Red
+set object 9 color Class
+Time 34.394 14270
+set object 9 color Red
+Time 34.7303 23943
+destroy 11
+Time 36.3518 33601
+destroy 9
+Time 36.3848 43515
+destroy 8
+Time 36.5786 53173
+set bar OriginD       2
+write OriginD 2
+Time 37.3098 2294
+set object 10 color Class
+Time 39.2571 11967
+set object 10 color Red
+Time 39.733 21640
+set bar OriginC       2
+write OriginC 2
+Time 39.7697 36297
+set bar OriginD       1
+write OriginD 1
+set object 12 speed 1.478
+create Plane 16
+write ID(16) 16
+place 16 on OriginD  
+Time 40.9281 4811
+set bar OriginB       0
+write OriginB 0
+set object 13 speed 2.232
+Time 40.9773 24192
+set bar OriginB       1
+write OriginB 1
+create Plane 18
+write ID(18) 18
+place 18 on OriginB  
+Time 41.2875 53262
+set bar OriginA       2
+write OriginA 2
+Time 42.9769 2383
+set bar OriginC       1
+write OriginC 1
+set object 14 speed 2.520
+create Plane 17
+write ID(17) 17
+place 17 on OriginC  
+Time 43.1518 36433
+destroy 10
+set object 12 color Red
+Time 43.1687 51071
+set object 13 color Red
+Time 44.9612 60744
+set object 14 color Red
+set object 13 color Class
+Time 45.8557 9861
+set bar OriginD       0
+write OriginD 0
+set object 16 speed 1.260
+Time 45.8575 29242
+set object 12 color Class
+set object 13 color Red
+Time 46.1031 43895
+set bar OriginA       1
+write OriginA 1
+set object 15 speed 1.769
+create Plane 19
+write ID(19) 19
+place 19 on OriginA  
+Time 46.5487 12409
+set object 14 color Class
+Time 47.2103 22082
+set object 12 color Red
+Time 47.3425 31755
+set object 14 color Red
+Time 47.3707 41684
+set bar OriginB       2
+write OriginB 2
+Time 47.65 56085
+destroy 13
+Time 47.7702 463
+set bar OriginD       1
+write OriginD 1
+create Plane 21
+write ID(21) 21
+place 21 on OriginD  
+Time 48.93 29533
+set object 15 color Red
+destroy 14
+Time 49.0321 44171
+set bar OriginB       1
+write OriginB 1
+set object 18 speed 2.774
+create Plane 20
+write ID(20) 20
+place 20 on OriginB  
+Time 49.3163 12685
+set bar OriginC       0
+write OriginC 0
+set object 17 speed 1.689
+Time 49.823 32066
+set object 16 color Red
+Time 49.916 41739
+destroy 12
+Time 50.8343 51653
+set object 18 color Red
+Time 51.1915 61326
+set object 15 color Class
+Time 52.276 5463
+set object 17 color Red
+set object 18 color Class
+Time 52.3223 20116
+set object 15 color Red
+Time 52.3261 29789
+set bar OriginD       2
+write OriginD 2
+Time 52.9969 44446
+set object 16 color Class
+set object 18 color Red
+Time 53.6702 59099
+set bar OriginC       1
+write OriginC 1
+create Plane 23
+write ID(23) 23
+place 23 on OriginC  
+Time 54.1315 22633
+set bar OriginA       2
+write OriginA 2
+Time 54.4386 37290
+destroy 18
+Time 54.5838 46948
+destroy 15
+set object 16 color Red
+Time 54.6438 61586
+set object 17 color Class
+Time 54.8876 5723
+set bar OriginC       0
+write OriginC 0
+set object 23 speed 1.912
+Time 55.1378 25104
+set bar OriginA       1
+write OriginA 1
+set object 19 speed 1.635
+create Plane 24
+write ID(24) 24
+place 24 on OriginA  
+Time 55.5484 59154
+set bar OriginD       3
+write OriginD 3
+Time 55.8277 8275
+set object 17 color Red
+Time 57.503 17948
+set object 23 color Red
+Time 57.7577 27877
+destroy 16
+Time 58.1954 37535
+set object 19 color Red
+destroy 17
+Time 59.4477 52173
+set bar OriginD       2
+write OriginD 2
+set object 21 speed 2.262
+create Plane 22
+write ID(22) 22
+place 22 on OriginD  
+Time 59.5954 20687
+set object 23 color Class
+Time 60.0848 30360
+set bar OriginB       0
+write OriginB 0
+set object 20 speed 3.292
+Time 60.0977 49741
+set bar OriginA       0
+write OriginA 0
+set object 24 speed 1.839
+Time 60.6415 3586
+set object 19 color Class
+set object 23 color Red
+Time 61.1297 18239
+set bar OriginD       1
+write OriginD 1
+set object 22 speed 1.424
+create Plane 25
+write ID(25) 25
+place 25 on OriginD  
+Time 61.3947 52289
+set bar OriginD       2
+write OriginD 2
+Time 61.6037 1410
+set object 20 color Red
+Time 61.6581 11083
+set object 21 color Red
+Time 61.8646 20756
+set object 19 color Red
+Time 62.132 30685
+set bar OriginB       1
+write OriginB 1
+create Plane 27
+write ID(27) 27
+place 27 on OriginB  
+Time 62.7339 59755
+destroy 23
+Time 62.8165 3877
+set object 24 color Red
+Time 62.8189 13806
+set object 20 color Class
+Time 63.4039 23479
+set bar OriginA       1
+write OriginA 1
+create Plane 28
+write ID(28) 28
+place 28 on OriginA  
+Time 63.4265 52549
+set object 21 color Class
+set object 20 color Red
+Time 63.5375 1666
+set bar OriginB       0
+write OriginB 0
+set object 27 speed 1.552
+Time 64.3107 21047
+destroy 19
+set object 21 color Red
+Time 64.6417 35685
+set object 22 color Red
+destroy 20
+Time 64.9915 50323
+set object 24 color Class
+Time 65.9412 59996
+set bar OriginD       1
+write OriginD 1
+set object 25 speed 1.922
+create Plane 26
+write ID(26) 26
+place 26 on OriginD  
+Time 66.079 28510
+destroy 21
+set object 24 color Red
+Time 66.6572 43148
+set bar OriginC       1
+write OriginC 1
+create Plane 29
+write ID(29) 29
+place 29 on OriginC  
+Time 66.759 6682
+set object 27 color Red
+Time 67.4512 16611
+set object 22 color Class
+Time 68.254 26284
+destroy 24
+Time 68.5388 35942
+set bar OriginA       0
+write OriginA 0
+set object 28 speed 2.112
+Time 68.5432 55323
+set object 25 color Red
+Time 68.6691 65252
+set bar OriginC       0
+write OriginC 0
+set object 29 speed 2.663
+Time 68.856 19097
+set object 22 color Red
+Time 69.3362 28770
+set object 27 color Class
+Time 70.0091 38443
+set bar OriginD       0
+write OriginD 0
+set object 26 speed 1.566
+Time 70.5469 58080
+set object 29 color Red
+Time 70.6032 2217
+set bar OriginD       1
+write OriginD 1
+create Plane 30
+write ID(30) 30
+place 30 on OriginD  
+Time 70.6248 31287
+set object 25 color Class
+set object 27 color Red
+Time 70.8498 45940
+set bar OriginB       1
+write OriginB 1
+create Plane 31
+write ID(31) 31
+place 31 on OriginB  
+set bar OriginB       0
+write OriginB 0
+set object 31 speed 0.947
+Time 70.9062 24162
+set object 28 color Red
+Time 71.6656 33835
+destroy 22
+set object 25 color Red
+Time 72.0491 48473
+set object 29 color Class
+Time 72.8002 58146
+set object 28 color Class
+set object 29 color Red
+Time 73.202 7263
+set object 26 color Red
+destroy 27
+Time 73.6527 21901
+set bar OriginA       1
+write OriginA 1
+create Plane 32
+write ID(32) 32
+place 32 on OriginA  
+Time 73.7471 50971
+destroy 25
+set object 28 color Red
+Time 74.3024 73
+destroy 29
+Time 74.6084 9731
+set bar OriginD       0
+write OriginD 0
+set object 30 speed 2.209
+Time 75 29368
+End

@@ -1,0 +1,73 @@
+View center 39.9375 29.4366 width 79.7502 Speed 6
+Define color Backdrop 0 0 0
+Define color Blue 0 0 0.6667
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0
+Define color Pink 1 0 0.6667
+Define color Tan 1 0.6667 0
+Define color Green 0 1 0
+Define color Layout 0.4921 0.4921 0.4921
+Color Layout
+Line #1 22 40 50 40
+Line #2 40 36 50 36
+Line #3 40 32 70 32
+Line #4 22 20 50 20
+Line #5 40 16 50 16
+Line #6 50 40 50 36
+Line #7 40 36 40 32
+Line #8 50 20 50 16
+Line #9 40 16 40 12
+Line #10 40 12 70 12
+Color Yellow
+Text 1 1.5 LJ 7 14 ACCUMULATING PATH
+Text 1 1.5 LJ 3 34 NON-ACCUMULATING PATH
+Color Green
+Define Path ThePath Label 18.5 39.6866 Speed 1
+Segment #1 22 40 50 40 28
+Segment #6 50 40 50 36 4
+Segment #2 50 36 40 36 10
+Segment #7 40 36 40 32 4
+Segment #3 40 32 70 32 30
+End
+Define Path TheAccPath Accumulating Label 17 19.6866 Speed 1
+Segment #4 22 20 50 20 28
+Segment #8 50 20 50 16 4
+Segment #5 50 16 40 16 10
+Segment #9 40 16 40 12 4
+Segment #10 40 12 70 12 30
+End
+Color Green
+Define Class SQUARE Clearance 1 1
+Line 0.5002 0.5165 0.5002 -0.4835
+Line -0.4998 0.5165 -0.4998 -0.4835
+Line -0.4998 0.5165 0.5002 0.5165
+Line 0.5002 -0.4835 -0.4998 -0.4835
+Fill -0.1878 0.0835
+End
+Define Class CIRCLE Clearance 1 1
+Arc 0.5014 0 0 0 360 3.1504
+Fill 0.1628 -0.0835
+End
+Define Class TRIANGLE Clearance 1 1
+Fill 0.0908 -0.1165
+Line 0.6 -0.4 0 0.6
+Line -0.6 -0.4 0.6 -0.4
+Line 0 0.6 -0.6 -0.4
+End
+Color Red
+Define Class BUZZ
+Line -2.4 1 0 1
+Line 0 1 -0.4 0.4
+Line -0.4 0.4 1.6 0.2
+Line 1.6 0.2 0.8 -0.2
+Line 0.8 -0.2 2.8 -0.6
+Line 2.8 -0.6 -0.2 -0.6
+Line -0.2 -0.6 0.2 -0.2
+Line 0.2 -0.2 -1 0
+Line -1 0 -0.8 0.6
+Line -2.4 1 -1 0.6
+Line -0.8 0.6 -1 0.6
+Fill 0.4611 0.0498
+End
+End

@@ -1,0 +1,25 @@
+Define View "(Home)" Bounds 0 50.0782 4.0115 52.7221 center 40 27.5 Width 79.9112 Grid Size 1 10 Ortho Aspect 0.75 0.5 Grid ON Speed 25 Mouse 5 Tolerance 0.2474
+Define Window Bounds 0 50.0782 52.7221 100 Center 40 27.5 Width 82.5057 Grid Size 1 10 Ortho
+Define Window Bounds 50.0782 100 4.0115 100 Center 40 27.5 Width 56.5549 Grid Size 1 10 Iso
+Define View "(Class)" center 0 0 Width 7.9875 Grid Size 1 10 Ortho
+Define color Bac 0 0 0
+Define color F1  0 0 0.6667
+Define color F2  1 0 0
+Define color F3  1 1 1
+Define color F4  1 1 0
+Define color F5  1 0 0.6667
+Define color F6  1 0.6667 0
+Define color F7  0 1 0
+Define color L1  0.4921 0.4921 0.4921
+Color F5 
+Bar BAR1 BG F6  38 42 20 40 Vrange 0 100 Hrange 0 100
+Color F2 
+Line 30 10 30 50
+Line 50 50 50 10
+Line 30 50 50 50
+Color F6 
+Fill 39.875 45.1866
+Color F2 
+Line 50 10 30 10
+Message testinfo 1 2 CENTER 40 5 BG Bac testinfo
+End

@@ -1,0 +1,162 @@
+dt 1 4965
+write Layout LAYOUT FILE
+dt 1 14658
+write Trace TRACE FILE
+dt 1 24351
+write Script SCRIPT FILE
+*
+* PAUSE
+*
+dt 2 48895
+write Layout
+dt .2 58588
+write Layout LAYOUT FILE
+dt .2 2745
+write Layout
+dt .2 12438
+write Layout LAYOUT FILE
+*
+dt 2 26996
+write Layout LINE 13 5 13 6
+dt 1 36689
+create blob 99
+place 99 on line1
+dt 1 51339
+Color L6
+Line 13.25 5 13.25 5.75
+destroy 99
+*
+dt 1 10215
+write Layout
+dt 1 19908
+write Layout LINE 13 6 11 6
+dt 1 29601
+create blob 99
+place 99 on line2
+dt 1 44251
+Color L6
+Line 13.25 5.75 11.75 5.75
+destroy 99
+*
+dt 1 2871
+write Layout
+dt 1 12564
+write Layout LINE 11 6 11 5
+dt 1 22513
+create blob 99
+place 99 on line3
+dt 1 36907
+Color L6
+Line 11.75 5.75 11.75 5
+destroy 99
+*   
+dt 1 61319
+write Layout
+dt 1 5476
+write Layout LINE 11 5 13 5
+dt 1 15169
+create blob 99
+place 99 on line4
+dt 1 29819
+Color L6
+Line 11.75 5 13.25 5
+destroy 99
+*
+dt 3 54231
+write Layout DEFINE PATH P
+create pathtoken 1
+dt 2 3096
+place 1 at 8.5 7
+dt 1 13038
+create blob 99
+place 99 on createp1
+dt 1 27432
+color L1
+Line 13.25 5 13.25 5.75
+place 99 on createp2
+dt .5 47023
+Line 13.25 5.75 11.75 5.75
+place 99 on createp3
+dt .5 61650
+Line 11.75 5.75 11.75 5
+place 99 on createp4
+dt .5 10741
+destroy 99
+Line 11.75 5 13.25 5
+dt 2 25100
+*
+* PAUSE
+*
+write Layout DEFINE CLASS X
+dt 1 49644
+create objecttoken 2
+place 2 at 8.5 6
+dt 3 64038
+*
+* PAUSE
+*
+write Layout LAYOUT FILE
+dt .2 22790
+write Trace
+dt .2 32739
+write Trace TRACE FILE
+dt .2 42432
+write Trace
+dt .2 52125
+write Trace TRACE FILE
+dt 2 61818
+*
+write Trace CREATE X 1
+create objecttoken 3
+dt 2 15804
+place 3 at 8.5 6
+move 3 2 8.5 5
+dt .5 30208
+set 3 class object1
+dt 3 40153
+*
+* PAUSE
+*
+write Trace CREATE X 1
+*
+dt 2 3770
+write Trace PLACE 1 ON P
+dt 2 13463
+create sobj 4
+place 4 on screenpath
+dt 5 28113
+set 4 speed 0
+dt 1 37802
+*
+* PAUSE
+*
+write Trace DESTROY 1
+dt 2 62090
+destroy 3 
+destroy 4
+dt 2 11193
+write Trace TRACE FILE
+dt .2 20886
+write Script
+dt .2 30579
+write Script SCRIPT FILE
+dt .2 40272
+write Script
+dt .2 49965
+write Script SCRIPT FILE
+dt 2 59658
+write Script SLIDE THE_END
+dt 1 4071
+color F2
+Line 11.75 5.00 13.25 5.00
+Line 13.25 5.00 13.25 5.75
+Line 13.25 5.75 11.75 5.75
+Line 11.75 5.75 11.75 5.00
+fill 12.5 5.4
+fill 12.5 6
+color white
+text 0 .25 middle 12.5 5.4 THE END
+dt 3 52619
+*
+End
+

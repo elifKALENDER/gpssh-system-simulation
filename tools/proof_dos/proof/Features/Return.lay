@@ -1,0 +1,86 @@
+Define View "(Home)" center 43.25 27.5 width 73.1144 Ortho Aspect 0.75 0.5 Speed 6 Mouse 5
+Define View "(Class)" center 0 0 width 7.9875 Ortho
+Define color Bac 0 0 0
+Define color F1  0 0 0.6667
+Define color F2  1 0 0
+Define color F3  1 1 1
+Define color F4  1 1 0
+Define color F5  1 0 0.6667
+Define color F6  1 0.6667 0
+Define color F7  0 1 0
+Define color L1  0 0.6825 0.746
+Color F2 
+Define Class customer Directional Clearance 1.4 1.4
+Arc 1 0 0 0 360 6.2832
+Line -0.3 1.8 0 2
+Line 0 2 0.3 1.8
+Line -0.3 0.9539 -0.3 1.8
+Line 0.3 1.8 0.3 0.9539
+Line 0.3 -1.8 0.3 -0.9539
+Line -0.3 -0.9539 -0.3 -1.8
+Line 0 -2 0.3 -1.8
+Line -0.3 -1.8 0 -2
+Fill 0.0583 1.3813
+Fill 0.0417 -1.4313
+End
+Define Class custbox Directional Clearance 1.4 1.4
+Arc 1 0 0 0 360 6.2832
+Line -0.3 1.8 0 2
+Line 0 2 0.3 1.8
+Line -0.3 0.9539 -0.3 1.8
+Line 0.3 1.8 0.3 0.9539
+Line 0.3 -1.8 0.3 -0.9539
+Line -0.3 -0.9539 -0.3 -1.8
+Line 0 -2 0.3 -1.8
+Line -0.3 -1.8 0 -2
+Fill 0.0583 1.3813
+Fill 0.0417 -1.4313
+Line -0.8 -1.2 -0.8 -2.2
+Line 0.9 -2.2 0.9 -1.2
+Line -0.3 -1.2 -0.8 -1.2
+Line -0.8 -2.2 0.9 -2.2
+Line 0.9 -1.2 0.3 -1.2
+End
+Color F3 
+Define Plot queue 49 75 24 44 Vrange 0 10 Hrange 0 360 DATA F4 
+Color Bac
+Line #1 26 23 -1 22
+Color F3 
+Text 1 1 LJ 25 28 RETURNS
+Color L1 
+Fill 32.5 28.5
+Line 37 26 20 26
+Line 37 32 37 26
+Line 20 32 37 32
+Line 20 26 20 32
+Color F4 
+Text 1 1 LJ 55 19 Time  (minutes)
+Text 1 1 LJ 34 40 in the queue
+Text 1 1 LJ 33 42 Current Number
+Color F5 
+Text 1 2.7 CENTER 56 7 Customer Returns
+Color Bac
+Arc  #2 5 24 15 -90 0.00000006 7.854
+Line #3 24 10 1 10
+Line #4 29 15 29 22
+Color F4 
+Line 27 33.6 26.8 33.9
+Line 26.8 33.9 27 34.2
+Line 27.8461 33.6 27 33.6
+Line 27 34.2 27.8461 34.2
+Line 30.6 34.2 29.7539 34.2
+Line 29.7539 33.6 30.6 33.6
+Line 30.8 33.9 30.6 34.2
+Line 30.6 33.6 30.8 33.9
+Fill 27.4187 33.9583
+Fill 30.2313 33.9417
+Arc 1 28.8 33.9 0 360 6.2832
+Define Path line Accumulating Label 4 9.6667 Time 3.3
+Segment #3 1 10 24 10 23
+Segment #2 24 10 29 15 7.854 CCW
+Segment #4 29 15 29 22 7
+End
+Define Path out1 Label -2.5 21.6666 Time 3
+Segment #1 26 23 -1 22 27.0185
+End
+End

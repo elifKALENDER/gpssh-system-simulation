@@ -1,0 +1,59 @@
+Define View "(Home)" center -12.6893 64.1604 width 86.5758 Ortho Aspect 0.75 0.5 Speed 6 Mouse 5
+Define View "(Class)" center -0.1148 0.066 width 19.73 Ortho
+Define color Backdrop 0 0 0
+Define color Blue 0 0 0.6667
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0
+Define color Pink 1 0 0.6667
+Define color Tan 1 0.6667 0
+Define color Green 0 1 0
+Define color Layout 0.5079 0.5079 0.5079
+Color Red
+Define Class MachineShape
+Line -4.2885 -3.2885 -3.8223 -3.8325
+Line -3.75 -3.25 -3.5 -3.25
+Line -1.0728 3.3343 -0.0753 2.4878
+Line -2.8425 2.5615 -1.0728 3.3343
+Line -2.5103 2.3803 -1.1938 2.9718
+Arc 3.75 0 0 206.3891 213.6901 0.3823
+Arc 3.75 0 0 73.8986 196.6451 6.427
+Line -3.875 -2.3 -3.6283 -1.2458
+Line -2.892 -1.9242 -3.4935 -2.5255
+Arc 3.75 0 0 -133.6678 26.5343 8.3882
+Line -3.359 -2.3912 -2.8423 -2.908
+Line -3.75 -2.75 -4.2885 -3.2885
+Line -1.3895 -2.3663 -1.9198 -2.8965
+Line -1.9198 -2.8965 -3.334 -1.4823
+Line -3.8223 -3.8325 -2.3615 -2.4545
+Line 1.7607 4.3235 -2.2388 0.3242
+Line -2.2388 0.3242 -0.1173 -1.7973
+Line -0.1173 -1.7973 3.8412 2.1615
+Line -0.7343 -1.1805 -1.6548 -2.101
+Line -2.8035 -0.952 -1.3895 -2.3663
+Line -3.334 -1.4823 -2.8035 -0.952
+Line -1.618 -0.2965 -2.5385 -1.2173
+Line -3.775 -3.25 -3.775 -2.6
+Line -3.6 -3.25 -3.6 -2.6
+Line -3.5 -2.6 -3.875 -2.6
+Line -3.875 -2.6 -3.875 -2.3
+Line -3.875 -2.3 -3.5 -2.3
+Line -3.5 -2.3 -3.5 -2.6
+Line -3.6283 -1.2458 -2.8425 2.5615
+Line -1.1938 2.9718 -0.3473 2.2158
+Line -3.2658 -1.2458 -2.5103 2.3803
+Line -3.5 -2.3 -3.2658 -1.2458
+Arc 2.4163 1.4362 1.9293 82 6 12.8193
+Fill 1.2901 1.404
+Fill 0.1476 1.157
+End
+CPO MachineShape Machine1 -45.2336 66.4437 Color Green
+Text 1 1 LJ -21 58 RED = IDLE
+Color Green
+Text 1 1 LJ -22 55 GREEN = BUSY
+CPO MachineShape Machine2 -31.2336 66.4437 Color Green
+CPO MachineShape Machine6 20.2664 66.4437 Color Green
+CPO MachineShape Machine5 7.2664 66.4437 Color Green
+CPO MachineShape Machine4 -5.7336 66.4437 Color Green
+CPO MachineShape Machine3 -18.7336 66.4437 Color Green
+End

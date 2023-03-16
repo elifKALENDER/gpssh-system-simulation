@@ -1,0 +1,21 @@
+group Please pick an option
+
+  item Calm Water
+  run dissolve ski
+
+  item Regatta
+  run dissolve dolphin
+
+  item Tropic Temps
+  slide temper.pcx
+  wait 3
+  run dissolve shade 0 600
+
+  item Exit
+  slide dissolve enuf.pcx
+  wait 3
+  wipe tan venetian
+  exit
+
+endgroup
+end

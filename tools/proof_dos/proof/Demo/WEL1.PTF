@@ -1,0 +1,25 @@
+Write Wolverine Wolverine Software Corporation
+dt 25 9917
+Write WelcomesYouTo Welcomes You to P4
+dt 30 19578
+*
+set proof color class
+dt 25 34132
+set anim color class
+dt 25 43821
+create pbar 100
+place 100 on pbar
+dt 10 58471
+create ybar 200
+place 200 on ybar
+dt 10 7585
+create gbar 300
+place 300 on gbar
+dt 20 22235
+set ForWindows color class
+dt 20 31924
+set tm color class
+***
+dt 30 46478
+end
+

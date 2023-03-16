@@ -1,0 +1,150 @@
+Define View "split" Bounds 0 99.9016 0 54.8387 center 42.5 21 Width 102.2078 Grid Size 1 10 Ortho
+Define Window Bounds 0 99.9016 54.8387 99.8534 Center 42.5 2.27 Width 90.8727 Grid Size 1 10 Ortho
+Define View "(Class)" center 0 -0.1 Width 13.5454 Grid Size 0.1 1 Ortho
+Define View "(Home)" center 42.5 21 Width 90.8727 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 6
+Define color Backdrop  0 0 0
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 0 0 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.7451 0.3961 0.6667
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.3961 0.4902 0.698
+Define color F20 0 0.3176 0.3176
+Define color F21 0.8902 0.6667 0.4902
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0 0 0.5098
+Define color L2 0.6667 0.9373 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.8902 0.6667 0.4902
+Define color L6 0.3961 0.4902 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F3
+Define Class box Clearance 2.5 2.6 Speed 10
+Line 2.42 -2.52 2.42 2.28
+Line 2.42 2.28 -2.38 2.28
+Line -2.38 -2.52 2.42 -2.52
+Line -2.38 2.28 -2.38 -2.52
+Line 1.9 -2 1.9 1.8
+Line 1.9 1.8 -1.8 1.8
+Line -1.8 1.8 -1.8 -2
+Line -1.8 -2 1.9 -2
+Color F2
+Fill 0.0106 -2.294
+Color F3
+Message id 1 1.5 MIDDLE 0 0 BG Backdrop id
+End
+Color Backdrop
+Line #1 17 34 17 7
+Line #2 30 34 30 7
+Line #3 56 34 56 7
+Line #4 69 34 69 7
+Line #5 43 34 43 7
+Color F6
+Fill 49.3866 13.4846
+Fill 36.8942 13.1103
+Fill 23.9807 12.736
+Fill 10.9269 12.5488
+Color F4
+Line 5 31 14 31
+Line 81 31 72 31
+Line 5 37 81 37
+Color F6
+Fill 75.4942 18.5377
+Color Backdrop
+Line #6 81 34 4 34
+Color L1
+Fill 43.4244 -2.1093
+Color F4
+Line 72 4.5 81 4.5
+Line 5 4.5 14 4.5
+Line 81 37 81 4.5
+Line 72 31 72 4.5
+Line 66 31 66 4.5
+Line 53 4.5 53 31
+Line 40 31 40 4.5
+Line 27 4.5 27 31
+Line 14 31 14 4.5
+Line 5 31 5 4.5
+Line 59 31 59 4.5
+Line 59 4.5 66 4.5
+Line 59 31 66 31
+Color F6
+Fill 62.0018 16.8533
+Color F4
+Line 46 31 46 4.5
+Line 46 4.5 53 4.5
+Line 46 31 53 31
+Line 33 31 33 4.5
+Line 33 4.5 40 4.5
+Line 33 31 40 31
+Line 20 31 20 4.5
+Line 20 4.5 27 4.5
+Line 20 31 27 31
+Define Path pmain Label 4.0625 40.25 Speed 0
+Segment #6 4 34 69 34 65
+End
+Define Path p1 Accumulating Label 18.8125 20.5833 Speed 0
+Segment #1 17 34 17 7 27
+End
+Define Path p2 Accumulating Label 30.8125 20.5833 Speed 0
+Segment #2 30 34 30 7 27
+End
+Define Path p3 Accumulating Label 44.5625 20.5833 Speed 0
+Segment #5 43 34 43 7 27
+End
+Define Path p4 Accumulating Label 57.0625 20.5833 Speed 0
+Segment #3 56 34 56 7 27
+End
+Define Path p5 Accumulating Label 69.5625 19.25 Speed 0
+Segment #4 69 34 69 7 27
+End
+End

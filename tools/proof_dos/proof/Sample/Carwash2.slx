@@ -1,0 +1,61 @@
+//*****************************************************************************
+//	SLX Carwash Example (With Animation)
+//*****************************************************************************
+
+import <h7>						// use GPSS/H-style queueing constructs
+import <proof4>				// SLX-Proof interface
+
+module CarWash
+	{
+	static int				NCARS = 100;		// simulate 100 cars
+
+	int						ncars;		// number of cars created
+	control boolean	done;		// set TRUE after NCARS cars
+	rn_stream			IAT;		// random number stream
+	facility				wash;		// single server
+
+	class car
+		{
+		int			ID = ++ncars;	// assign car ID number
+
+		actions
+			{
+			PA_Create	"Car" ID;				// create Proof object
+			PA_Place	ID on "ENTRY";		// place on entry path
+
+			advance	0.25;			// minimum time through the entry queue
+			seize		wash;			// get exclusive control of the wash
+
+			PA_Place	ID on "CHAIN";		// place on the chain
+
+			advance	2.0;			// wash time
+			release	wash;			// allow a successor car to be washed
+
+			PA_Place	ID on "EXIT";			// place on the exit path
+
+			advance	1.5;			// drying time
+			advance	0.25;			// exit time
+			
+			PA_Destroy ID;						// destroy Proof object
+
+			if (ID == NCARS)		// last car?
+				done = TRUE;		// signal the main program
+
+			terminate;				// exit the system
+			}
+		};
+
+	procedure main()
+		{
+		int		ncars;
+
+		PA_ATF	"carwash2.atf";	// animation trace file (atf)
+
+		arrivals: car  iat = rv_expo(IAT, 2.2)  count = NCARS;
+
+		wait until (done);
+
+		PA_End;						// terminate the trace file
+		report system;				// issue summary report
+		}
+	}

@@ -1,0 +1,99 @@
+       SIMULATE
+*
+*      Ampervariable Declaration
+*
+       INTEGER    &I
+       REAL       &A(5),&B(5),&C(5),&D(5)
+*
+*      Storage Declaration Segment
+*
+       STORAGE    S(WKR2),2/S(WKR5),3/S(INSPECT),2
+*
+*      GPSS/H Block Section
+*
+*         Staging Area
+*
+       GENERATE   4,1         A bundle arrives between 4+-1 minutes
+       ADVANCE    2           Transportation time to the staging area
+       QUEUE      SERVER      Start sewing time statistic collection
+       SEIZE      SERVER      Capture the line server
+       DEPART     SERVER      Record sewing time observation
+       ADVANCE    3.75,1      Prepare a bundle
+       RELEASE    SERVER      Release the line server
+*
+*         Sewing Line
+*
+       SEIZE      WKR1        Capture work station 1
+       ADVANCE    3.5,1       Close first shoulder
+       RELEASE    WKR1        Free work station 1
+*
+       ENTER      WKR2        Capture 1 of work station 2
+       ADVANCE    7,2         Sew collar
+       LEAVE      WKR2        Free 1 of work station 2
+*
+       SEIZE      WKR3        Capture work station 3
+       ADVANCE    3,0.75      Cover seam
+       RELEASE    WKR3        Free work station 3
+*
+       SEIZE      WKR4        Capture work station 4
+       ADVANCE    3.25,1      Close second shoulder
+       RELEASE    WKR4        Free work station 4
+* 
+       ENTER      WKR5        Capture 1 of work station 5 
+       ADVANCE    11,3        Set sleeves
+       LEAVE      WKR5        Free 1 of work station 5
+*
+*         Inspection Stations
+*
+       ENTER      INSPECT     Capture 1 inspection station
+       TEST E     0,F(INSP1),OTHER Is inspector 1 idle?
+       SEIZE      INSP1       Capture inspector 1
+       ADVANCE    7,2         Inspect shirts
+       RELEASE    INSP1       Release inspector 1
+       TRANSFER   ,BACK       Go to Block BACK
+ OTHER SEIZE      INSP2       Capture inspector 2
+       ADVANCE    9,1         Inspect shirts
+       RELEASE    INSP2       Release inspector 2
+ BACK  LEAVE      INSPECT     Free 1 inspection station
+       TRANSFER   .05,,REJ    5% are rejected
+       TERMINATE              Good t-shirts exit the system
+ REJ   TERMINATE              Bad t-shirts exit the system 
+*
+*        Timer Segment
+*
+       GENERATE  540          Arrival after 9 hours 
+       BLET      &I=&I+1      Increment &I by 1
+       BLET      &A(&I)=QA(SERVER) Record average waiting timestatistic
+       BLET      &B(&I)=QT(SERVER) Record average number in queue statistic
+       BLET      &C(&I)=FR(INSP1)/1000  Record average utilization of inspector 1
+       BLET      &D(&I)=FR(INSP2)/1000  Record average utilization of inspector 2
+       TERMINATE 1            Decrement TG1 by 1  
+*
+*      GPSS/H Control Statements
+*
+       START     1            Conduct 1st replication
+       CLEAR                  Set all statistics to 0 
+       START     1            Conduct 2nd replication
+       CLEAR                  Set all statistics to 0
+       START     1            Conduct 3rd replication
+       CLEAR                  Set all statistics to 0
+       START     1            Conduct 4th replication
+       CLEAR                  Set all statistics to 0
+       START     1            Conduct 5th replication
+       PUTPIC    FILE=ANS11,LINES=3
+             AVG NO OF TRANS  AVG WAITING TIME  AVG UTILIZATION  AVG UTILIZATION   
+REPLICATION  IN SEWING LINE   PER TRANSACTION   OF INSPECTOR 1   OF INSPECTOR 2
+-----------  ---------------  ----------------  ---------------  ----------------
+       PUTPIC    FILE=ANS11,(1,&A(1),&B(1),&C(1),&D(1))
+     *           ***.****          ***.****           *.****          *.****
+       PUTPIC    FILE=ANS11,(2,&A(2),&B(2),&C(2),&D(2))
+     *           ***.****          ***.****           *.****          *.****
+       PUTPIC    FILE=ANS11,(3,&A(3),&B(3),&C(3),&D(3))
+     *           ***.****          ***.****           *.****          *.****
+       PUTPIC    FILE=ANS11,(4,&A(4),&B(4),&C(4),&D(4))
+     *           ***.****          ***.****           *.****          *.****
+       PUTPIC    FILE=ANS11,(5,&A(5),&B(5),&C(5),&D(5))
+     *           ***.****          ***.****           *.****          *.****
+       END
+
+

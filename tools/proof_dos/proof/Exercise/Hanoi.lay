@@ -1,0 +1,175 @@
+Define View "(Class)" center 0 0 Width 14.7685 Grid Size 1 10 Ortho
+Define View "(Home)" center 20 9.9922 Width 59.8126 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 20 Mouse 5 Tolerance 0.1872
+Define color 0 0.2381 0.2381 0.2381
+Define color 1 0 0 0.6667
+Define color 2 1 0 0
+Define color 3 1 1 1
+Define color 4 1 1 0
+Define color 5 1 0 0.6667
+Define color 6 1 0.6667 0
+Define color 7 0 1 0
+Define color 8 0.8889 0.2381 0.2381
+Define color 9 0 0 1
+Define color 10 0.746 0.2381 0.2381
+Define color 11 0.5873 0.9365 1
+Define color 12 0.4921 0.3492 0
+Define color 13 0.746 0.3968 0.6667
+Define color 14 0.5873 0.4921 0.4921
+Define color 15 0 0.5873 0.1905
+Define color 16 0.6667 0 1
+Define color 17 0 0.6667 0.6667
+Define color 18 0.6667 0.3175 0
+Define color 19 0.3968 0.4921 0.6984
+Define color 20 0 0.3175 0.3175
+Define color 21 0.8889 0.6667 0.4921
+Define color 22 0.4921 0.2381 0.4921
+Define color 23 0.746 0.5873 0
+Define color 24 0.4921 0 0.6667
+Define color L1 0.4921 0.4921 0.4921
+Define color L2 0.6667 0.9365 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.8889 0.6667 0.4921
+Define color L6 0.3968 0.4921 0.6984
+Define color L7 0 0 0.6667
+Color F2
+Define Class DISK1 Directional Clearance 0 1
+Fill 0.3947 0.0374
+Line 0.5 -0.5 0 -0.5
+Line 0 0.5 0.5 0.5
+Line 0 -0.5 0 0.5
+Line 0.5 0.5 0.5 -0.5
+End
+Color F3
+Define Class DISK2 Directional Clearance 0 1
+Fill 0.37 0.6864
+Line 0 -1 0 1
+Line 0.5 -1 0 -1
+Line 0.5 1 0.5 -1
+Line 0 1 0.5 1
+End
+Color F1
+Define Class DISK3 Directional Clearance 0 1
+Fill 0.4139 -0.7863
+Line 0 -1.5 0.5 -1.5
+Line 0.5 1.5 0 1.5
+Line 0.5 -1.5 0.5 1.5
+Line 0 1.5 0 -1.5
+End
+Color F5
+Define Class DISK4 Directional Clearance 0 1
+Fill 0.2326 0.2621
+Line 0 2 0.5 2
+Line 0 -2 0 2
+Line 0.5 -2 0 -2
+Line 0.5 2 0.5 -2
+End
+Color F6
+Define Class DISK5 Directional Clearance 0 1
+Fill 0.3326 0.1373
+Line 0.5 2.5 0 2.5
+Line 0.5 -2.5 0.5 2.5
+Line 0 -2.5 0.5 -2.5
+Line 0 2.5 0 -2.5
+End
+Color F4
+Define Class DISK6 Directional Clearance 0 1
+Fill 0.192 1.5283
+Line 0.5 3.1 0 3.1
+Line 0.5 -2.9 0.5 3.1
+Line 0 -2.9 0.5 -2.9
+Line 0 3.1 0 -2.9
+End
+Color F7
+Define Class DISK7 Directional Clearance 0 1
+Fill 0.1747 1.5562
+Line 0 3.5 0.5 3.5
+Line 0 -3.5 0 3.5
+Line 0.5 -3.5 0 -3.5
+Line 0.5 3.5 0.5 -3.5
+End
+Color F4
+Text 1 1 CENTER 0 -3 PEG 1
+Text 1 1 CENTER 20 -3 PEG 2
+Text 1 1.5 CENTER 20 22.5 TOWERS OF HANOI
+Color L1
+Line #1 0 10 0 0
+Line #2 20 10 20 0
+Color Bac
+Line 0 0 0 10
+Arc  #3 5 5 10 180 90 7.854
+Line #4 5 15 15 15
+Arc  #5 5 15 10 90 0 7.854
+Line #6 0 0 0 10
+Arc  #7 5 5 10 180 90 7.854
+Line #8 5 15 35 15
+Line #9 20 0 20 10
+Arc  #10 5 15 10 0 90 7.854
+Line #11 15 15 5 15
+Arc  #12 5 5 10 90 180 7.854
+Line #13 20 0 20 10
+Arc  #14 5 25 10 180 90 7.854
+Line #15 25 15 35 15
+Line #16 35 15 5 15
+Arc  #17 5 5 10 90 180 7.854
+Line #18 35 15 25 15
+Arc  #19 5 25 10 90 180 7.854
+Color F4
+Message MOVENO 1 1 CENTER 20 17.5 BG Bac MOVENO
+Text 1 1 CENTER 40 -3 PEG 3
+Color L1
+Line #20 40 10 40 0
+Color Bac
+Arc  #21 5 35 10 90 0 7.854
+Arc  #22 5 35 10 90 0 7.854
+Line #23 40 0 40 10
+Arc  #24 5 35 10 0 90 7.854
+Line #25 40 0 40 10
+Arc  #26 5 35 10 0 90 7.854
+Define Path PEG1 Accumulating LEAPOK Label -1.4688 9.8516 Speed 1
+Segment #1 0 10 0 0 10
+End
+Define Path PEG2 Accumulating LEAPOK Label 18.5 9.8516 Speed 1
+Segment #2 20 10 20 0 10
+End
+Define Path PEG3 Accumulating LEAPOK Label 38.4688 9.8516 Speed 1
+Segment #20 40 10 40 0 10
+End
+Define Path FROM1TO2 Label 0.7812 1.1328 Speed 4
+Segment #6 0 0 0 10 10
+Segment #3 0 10 5 15 7.854 CW
+Segment #4 5 15 15 15 10
+Segment #5 15 15 20 10 7.854 CW
+End
+Define Path FROM1TO3 Label -6.4375 1.1328 Speed 4
+Segment #6 0 0 0 10 10
+Segment #3 0 10 5 15 7.854 CW
+Segment #4 5 15 15 15 10
+Segment #8 15 15 35 15 20
+Segment #21 35 15 40 10 7.854 CW
+End
+Define Path FROM2TO1 Label 13.625 1.0391 Speed 4
+Segment #13 20 0 20 10 10
+Segment #5 20 10 15 15 7.854 CCW
+Segment #4 15 15 5 15 10
+Segment #3 5 15 0 10 7.854 CCW
+End
+Define Path FROM2TO3 Label 20.5625 1.0391 Speed 4
+Segment #13 20 0 20 10 10
+Segment #14 20 10 25 15 7.854 CW
+Segment #8 25 15 35 15 10
+Segment #21 35 15 40 10 7.854 CW
+End
+Define Path FROM3TO2 Label 33.5938 1.1328 Speed 4
+Segment #25 40 0 40 10 10
+Segment #21 40 10 35 15 7.854 CCW
+Segment #8 35 15 25 15 10
+Segment #14 25 15 20 10 7.854 CCW
+End
+Define Path FROM3TO1 Label 40.5313 1.0391 Speed 4
+Segment #25 40 0 40 10 10
+Segment #21 40 10 35 15 7.854 CCW
+Segment #8 35 15 5 15 30
+Segment #3 5 15 0 10 7.854 CCW
+End
+End

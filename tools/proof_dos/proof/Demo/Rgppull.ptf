@@ -1,0 +1,15 @@
+set rotation_res 1
+create marker 1
+create toyota 2
+place 2 on loop rgp pulled
+time 30 24354
+place 1 on loop rgp pulled
+time 200 34056
+*
+*place 1 on loop rgp pulled
+*place 2 on loop rgp pulled
+*
+*set 1 speed -5
+*set 2 speed -5
+time 9999 2691
+end

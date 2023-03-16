@@ -1,0 +1,128 @@
+        SIMULATE
+* ---------------------------------------------------------------------
+*
+* Proof Macros
+*
+* ---------------------------------------------------------------------
+PUTTIME STARTMACRO
+        TEST NE         AC1,&ATFTIME,*+3
+        BPUTPIC         FILE=ATF,(AC1)
+TI *
+        BLET            &ATFTIME=AC1
+        ENDMACRO
+*
+CREATE  STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#B)
+CR #A *                                 
+        ENDMACRO
+*
+CREATE3 STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#B,#C)
+CR #A* *
+        ENDMACRO
+*
+DESTROY STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#A)
+DES *
+        ENDMACRO
+*
+PLACEON STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#A,#C)
+PL * ON #B*
+        ENDMACRO
+*
+PLACEOA STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#A,#C,#D)
+PL * ON #B* AT *
+        ENDMACRO
+*
+SETCOLR STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#A,#B)
+SET * COL *
+        ENDMACRO
+*
+SETCLAS STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#A,#C)
+SET * CL #B*
+        ENDMACRO
+*
+SETBAR  STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#B)
+SET BAR #A RIGHT **.***
+        ENDMACRO
+*
+WRITE0  STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#B)
+WR #A *
+        ENDMACRO
+*
+PLACEAT STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#A,#B,#C)
+PLACE * AT * *
+        ENDMACRO
+*
+        REAL            &TEMP,&AVERAGE,&ATFTIME
+        INTEGER         &I,&J
+*
+ATF     FILEDEF         'shade.atf'
+*
+*
+SINTEMP FVARIABLE       95+20*SIN(((AC1-600)*2*3.14159)/1440.0)
+
+        GENERATE        ,,,1,,1PL
+*
+        BLET            &TEMP=V(SINTEMP)
+*
+WRITE0  MACRO           TENMIN,0
+WRITE0  MACRO           HOUR,12
+        ADVANCE         360
+*
+        TERMINATE       0
+*
+        GENERATE        10,,,35,,1PL
+*
+        BLET            &TEMP=V(SINTEMP)
+WRITE0  MACRO           value,&TEMP
+SETBAR  MACRO           CURVAL,&TEMP
+        BLET            &AVERAGE=&AVERAGE+&TEMP/36.0
+        BLET            PL(OLDTEMP)=&TEMP
+        ADVANCE         355
+        BLET            &AVERAGE=&AVERAGE-PL(OLDTEMP)/36.0
+*
+        TERMINATE       0
+*
+        GENERATE        10,,360,,,1PL
+*
+        BLET            &TEMP=V(SINTEMP)
+        BLET            &AVERAGE=&AVERAGE+&TEMP/36.0
+*
+WRITE0  MACRO           value,&TEMP
+SETBAR  MACRO           CURVAL,&TEMP
+WRITE0  MACRO           average,&AVERAGE
+SETBAR  MACRO           MOVAL,&AVERAGE
+*
+        BLET            PL(OLDTEMP)=&TEMP
+        ADVANCE         355
+        BLET            &AVERAGE=&AVERAGE-PL(OLDTEMP)/36.0
+*
+        TERMINATE       1
+*
+        GENERATE        10
+        BLET            &J=(AC1@60)/10
+WRITE0  MACRO           TENMIN,&J
+        TEST E          &J,0,NOTHOUR
+WRITE0  MACRO           HOUR,((AC1/60)-1)@12+1
+NOTHOUR TERMINATE       0
+*
+        START           1000
+        END     

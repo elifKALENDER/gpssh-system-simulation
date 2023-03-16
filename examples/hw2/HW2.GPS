@@ -1,0 +1,8 @@
+	SIMULATE
+        GENERATE        3,1
+        SEIZE           SERVIS     
+        ADVANCE         8.5,1.5    
+        RELEASE         SERVIS     
+        TERMINATE       1       
+        START           75
+	END

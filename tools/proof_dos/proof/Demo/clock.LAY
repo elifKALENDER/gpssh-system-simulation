@@ -1,0 +1,117 @@
+Define View "(Home)" center 40 30 Width 79.2969 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 60
+Define View "(Class)" center 0 0 Width 33.3047 Grid Size 0.5 5 Ortho
+Define color Backdrop  0.8902 0.7255 0.5216
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 0 0 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.7451 0.3961 0.6667
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.3961 0.4902 0.698
+Define color F20 0 0.3176 0.3176
+Define color F21 0.8902 0.6667 0.4902
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.4902 0.4902 0.4902
+Define color L2 0.8235 0.0941 0.8431
+Define color L3 0 1 0
+Define color L4 0.4902 0.4902 0.4902
+Define color L5 0.8902 0.6667 0.4902
+Define color L6 0.3961 0.4902 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F1
+Define Class hour Directional
+Arc 0.5 0 0 90 270 0
+Line 5 -0.5 5 0.5
+Line 0 -0.5 5 -0.5
+Line 0 0.5 5 0.5
+Color F3
+Fill 2.9367 0.0164
+End
+Color F1
+Define Class min Directional
+Arc 0.5 0 0 90 270 0
+Line 10 -0.5 10 0.5
+Line 0 -0.5 10 -0.5
+Line 0 0.5 10 0.5
+Color F3
+Fill 5.3648 0.0164
+End
+Color F1
+Define Class sec Directional
+Arc 0.5 0 0 90 270 0
+Line 15 -0.5 15 0.5
+Line 0 -0.5 15 -0.5
+Line 0 0.5 15 0.5
+Color F3
+Fill 7.7602 0.0164
+End
+CPO sec shand 40 30 Color F1 Rotation 90
+CPO hour hhand 40 30 Color F1 Rotation 90
+CPO min mhand 40 30 Color F1 Rotation 90
+Color F1
+Line 40 48 40 50
+Line 40 50 40 48
+Line 31 45.5885 30 47.3205
+Line 49 45.5885 50 47.3205
+Line 20 30 22 30
+Line 24.4115 39 22.6795 40
+Arc 20 40 30 90 180 31.4159
+Line 58 30 60 30
+Line 55.5885 39 57.3205 40
+Arc 20 40 30 0 90 31.4159
+Arc 20 40 30 0 -90 31.4159
+Line 49 14.4115 50 12.6795
+Line 55.5885 21 57.3205 20
+Line 40 10 40 12
+Arc 20 40 30 270 180 31.4159
+Line 24.4115 21 22.6795 20
+Line 31 14.4115 30 12.6795
+Line 40 12 40 10
+End

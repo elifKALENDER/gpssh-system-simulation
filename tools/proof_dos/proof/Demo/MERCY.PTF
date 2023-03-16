@@ -1,0 +1,181 @@
+*** Time 6.5 ... 19 of D:\PROOF2\NEWDEMO\HEALTH\MERCY.ATF ***
+Time jump 6.5 9814
+*** Establish Proper State ***
+Set Path walkin Speed 240
+Set Path amblv Speed 480
+Set Path trq Speed 999999
+Set Path nursq Speed 999999
+Set Path ambarv Speed 480
+Set Path waitq Speed 999999
+Set Path nrsamb Speed 240
+Set Path trto1 Speed 240
+Set Path trto2 Speed 240
+Set Path trto3 Speed 240
+Set Path trto4 Speed 240
+Set Path trto5 Speed 240
+Set Path trto6 Speed 240
+Set Path trto7 Speed 240
+Set Path trto8 Speed 240
+Set Path trto9 Speed 240
+Set Path trto10 Speed 240
+Set Path trto11 Speed 240
+Set Path trto12 Speed 240
+Set Path trto13 Speed 240
+Set Path r1nrs Speed 240
+Set Path r2nrs Speed 240
+Set Path r3nrs Speed 240
+Set Path r4nrs Speed 240
+Set Path r5nrs Speed 240
+Set Path r6nrs Speed 240
+Set Path r7nrs Speed 240
+Set Path r8nrs Speed 240
+Set Path r9nrs Speed 240
+Set Path r10nrs Speed 240
+Set Path r11nrs Speed 240
+Set Path r12nrs Speed 240
+Set Path r13nrs Speed 240
+Set Path nrsto1 Speed 240
+Set Path nrsto2 Speed 240
+Set Path nrsto3 Speed 240
+Set Path nrsto4 Speed 240
+Set Path nrsto5 Speed 240
+Set Path nrsto6 Speed 240
+Set Path nrsto7 Speed 240
+Set Path nrsto8 Speed 240
+Set Path nrsto9 Speed 240
+Set Path nrsto10 Speed 240
+Set Path nrsto11 Speed 240
+Set Path nrsto12 Speed 240
+Set Path nrsto13 Speed 240
+Set Path trgnrs Speed 240
+Set Path nrsbrk Speed 999999
+Set Path r1trg Speed 240
+Set Path r2trg Speed 240
+Set Path r3trg Speed 240
+Set Path r4trg Speed 240
+Set Path r5trg Speed 240
+Set Path r6trg Speed 240
+Set Path r7trg Speed 240
+Set Path r8trg Speed 240
+Set Path r9trg Speed 240
+Set Path r10trg Speed 240
+Set Path r11trg Speed 240
+Set Path r12trg Speed 240
+Set Path r13trg Speed 240
+Set Path docq Speed 999999
+Set Path boatarv Speed 480
+Set Path boatlv Speed 480
+Set Path emrgin Speed 240
+Set Path boatin Speed 240
+Set Path helicin Speed 240
+Set Path helicarv Speed 240
+Set Path heliclv Speed 240
+Set Path internin Speed 240
+Create nurse 7
+Place 7 On nursq at 31
+Create nurse 37
+Place 37 On nursq at 29
+Create nurse 38
+Place 38 On nursq at 27
+Create nurse 39
+Place 39 On nursq at 25
+Create nurse 40
+Place 40 On nursq at 23
+Create doc 42
+Place 42 On docq at 18
+Create doc 6
+Place 6 On nrsbrk at 28
+Create doc 41
+Place 41 On nrsbrk at 26
+Create wp 8
+Place 8 On trq at 8
+*** Resume User Trace ***
+Time 6.6849 59362
+Create wp          44
+Place 44 ON walkin
+Time 6.7915 8396
+Create amblc 1000046
+Place 1000046 ON ambarv
+Time 7.0075 22966
+Place 44 ON trq     
+Time 7.6727 32604
+Place 8 ON waitq   
+Time 7.7822 42242
+Place 1000046 ON amblv
+Time 7.7822 52136
+Create emrg        49
+Place 49 ON emrgin
+Time 7.8406 1170
+Place 7 ON nrsamb  
+Time 8.0111 10808
+DESTROY 1000046
+Time 8.0364 20690
+Place 7 ON trto1 
+Place 49 on trto1  at 3
+Time 8.1864 35273
+Place 7 ON r1nrs   
+Time 8.353 44911
+Place 7 ON nursq
+Time 10.704 54549
+Place 37 ON nrsamb  
+Time 10.8999 64443
+Place 37 ON trto2 
+Place 8 on trto2  at 3
+Time 10.9791 13490
+Create boat 1000047
+Place 1000047 ON boatarv
+Time 11.4687 28060
+Create helicopt 1000050
+cre rotor   2000050
+Place 1000050 ON helicarv
+Place 2000050 ON helicarv
+rotate 2000050 speed 1440 step 10
+Time 11.8753 57262
+Place 44 ON waitq   
+Time 12.1983 1364
+rotate 2000050 speed 720 step 10
+Time 12.6983 11036
+rotate 2000050 speed 360 step 10
+Time 12.8983 20964
+rotate 2000050 speed 0
+Time 13.1983 30636
+Place 1000050 ON heliclv
+Place 2000050 ON heliclv
+rotate 2000050 speed 1440 step 10
+Time 13.1983 49942
+Create emrg        52
+Place 52 ON helicin
+Time 13.6161 64512
+DESTROY 1000050
+DESTROY 2000050
+Time 13.8226 13791
+Place 52 ON emrgin
+Time 13.881 23429
+Place 38 ON nrsamb  
+Time 14.0768 33067
+Place 38 ON trto3 
+Place 52 on trto3  at 3
+Time 14.8646 47650
+Place 1000047 ON boatlv
+Time 14.8646 57544
+Create emrg        53
+Place 53 ON boatin
+Time 15.1516 6578
+DESTROY 1000047
+Time 15.3094 16204
+Place 53 ON emrgin
+Time 15.3678 26098
+Place 39 ON nrsamb  
+Time 15.5636 35736
+Place 39 ON trto4 
+Place 53 on trto4  at 3
+Time 17.5352 50319
+Place 40 ON nrsamb  
+Time 17.5817 59957
+Create boat 1000051
+Place 1000051 ON boatarv
+Time 17.731 8991
+Place 40 ON trto5 
+Place 44 on trto5  at 3
+Time 19 23574
+End

@@ -1,0 +1,286 @@
+CREATE SHH 2
+PLACE 2 AT 40 21.5
+create HEART 1001
+place 1001 at 40 12
+CREATE BALL 1
+DT 8
+PLACE 1 ON BALLPATH
+WRITE LYRIC HAPPY         BIRTH-DAY           TO            YOU...
+SET 2 CLASS AAA
+sound C
+DT 1.8
+SET 2 CLASS SHH
+sound 0
+DT .2
+SET 2 CLASS III
+sound C
+DT .8
+SET 2 CLASS SHH
+sound 0
+DT .2
+SET 2 CLASS ERR
+sound D
+DT 3
+SET 2 CLASS AAA
+sound C
+DT 2.8
+SET 2 CLASS III
+sound 0
+DT .2
+SET 2 CLASS OOO
+sound F
+DT 2.8
+SET 2 CLASS III
+sound 0
+DT .2
+SET 2 CLASS OOO
+sound E
+DT 2.5
+SET 1 COLOR BACKDROP
+DT .5
+sound 0
+SET 2 CLASS SHH
+DT 3
+SET 1 COLOR WHITE
+PLACE 1 ON BALLPATH
+WRITE LYRIC HAPPY         BIRTH-DAY           TO            YOU...
+SET 2 CLASS AAA
+sound C
+DT 1.8
+SET 2 CLASS SHH
+sound 0
+DT .2
+SET 2 CLASS III
+sound C
+DT .8
+SET 2 CLASS SHH
+sound 0
+DT .2
+SET 2 CLASS ERR
+sound D
+DT 3
+SET 2 CLASS AAA
+sound C
+DT 2.8
+SET 2 CLASS III
+sound 0
+DT .2
+SET 2 CLASS OOO
+sound G
+DT 2.8
+SET 2 CLASS III
+DT .2
+SET 2 CLASS OOO
+sound F
+DT 2.5
+SET 1 COLOR BACKDROP
+DT .5
+sound 0
+SET 2 CLASS SHH
+DT 3
+SET 1 COLOR WHITE
+PLACE 1 ON BALLPATH
+WRITE LYRIC HAPPY         BIRTH-DAY           DEAR          "PROOF - ER"....
+SET 2 CLASS AAA
+sound C
+DT 1.8
+SET 2 CLASS SHH
+sound 0
+DT .2
+SET 2 CLASS III
+sound C
+DT .8
+SET 2 CLASS SHH
+sound 0
+DT .2
+SET 2 CLASS ERR
+sound C5
+DT 3
+SET 2 CLASS AAA
+sound A
+DT 3
+SET 2 CLASS III
+sound F
+dt 1
+sound G
+dt 1
+sound F
+dt .8
+SET 2 CLASS SHH
+sound 0
+DT .2
+SET 2 CLASS OOO
+sound E
+DT 2.8
+SET 2 CLASS SHH
+sound 0
+DT .2
+SET 2 CLASS III
+sound D
+DT 2.8
+SET 2 CLASS SHH
+SET 1 COLOR BACKDROP
+sound 0
+DT 3.2
+SET 1 COLOR WHITE
+PLACE 1 ON BALLPATH
+WRITE LYRIC HAPPY         BIRTH-DAY           TO            YOU...
+SET 2 CLASS AAA
+sound Bb
+DT 1.8
+SET 2 CLASS SHH
+sound 0
+DT .2
+SET 2 CLASS III
+sound Bb
+DT .8
+SET 2 CLASS SHH
+sound 0
+DT .2
+SET 2 CLASS ERR
+sound A
+DT 3
+SET 2 CLASS AAA
+sound F
+DT 2.8
+SET 2 CLASS III
+sound 0
+DT .2
+SET 2 CLASS OOO
+sound G
+DT 2.8
+SET 2 CLASS III
+sound 0
+DT .2
+SET 2 CLASS OOO
+sound F
+DT 2.5
+SET 1 COLOR BACKDROP
+sound 0
+dt .5
+sound F
+dt 1
+sound A
+dt 1
+sound C5
+dt 1
+sound F5
+dt 4
+SET 2 CLASS SHH
+sound 0
+set 1001 color red
+dt 1
+set 1001 color backdrop
+dt 1
+set 1001 color red
+dt 1
+set 1001 color backdrop
+dt 1
+set 1001 color red
+dt 1
+set 1001 color backdrop
+dt 1
+set 1001 color red
+dt 1
+move 1001 200 40 -10
+*
+set 2 class FROWN1
+sound C3
+dt 3
+sound A2
+dt 3
+sound D3
+dt 6
+sound A2
+dt 5.8
+sound 0
+dt .2
+sound C3
+dt 3
+sound A2
+dt 3
+sound D3
+dt 6
+sound A2
+dt 5.8
+sound 0
+dt .2
+set 2 class FROWN2
+sound F3
+dt 2.8
+sound 0
+dt .2
+sound F3
+dt 2.8
+sound 0
+dt .2
+sound E3
+dt 2.8
+sound 0
+dt .2
+sound E3
+dt 2.8
+sound 0
+dt .2
+sound D3
+dt 2.8
+sound 0
+dt .2
+sound D3
+dt 2.8
+sound 0
+dt .2
+sound A2
+dt 5.8
+sound 0
+dt .2
+set 2 class FROWN3
+sound F3
+dt 2.8
+sound 0
+dt .2
+sound F3
+dt 2.8
+sound 0
+dt .2
+sound E3
+dt 2.8
+sound 0
+dt .2
+sound E3
+dt 2.8
+sound 0
+dt .2
+sound D3
+dt 2.8
+sound 0
+dt .2
+sound D3
+dt 2.8
+sound 0
+dt .2
+sound A2
+dt 5.8
+sound 0
+dt .2
+sound C3
+dt 3
+sound A2
+dt 3
+sound D3
+dt 6
+sound A2
+dt 5.8
+sound 0
+dt .2
+sound C3
+dt 3
+sound A2
+dt 3
+sound D3
+dt 6
+sound A2
+dt 5.8
+sound 0
+dt .2
+END

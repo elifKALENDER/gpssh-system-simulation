@@ -1,0 +1,626 @@
+Create PAL1 1
+Place 1 At 48.00 7.00
+Write HR1    0.5
+Write HR2    0.5
+Create PAL2 7
+Place 7 At 15.00 7.00
+Create PAL3 8
+Place 8 At 20.00 7.00
+Create PAL4 9
+Place 9 At 25.00 7.00
+Create PAL5 10
+Place 10 At 30.00 7.00
+Create PAL6 11
+Place 11 At 35.00 7.00
+Create PAL7 12
+Place 12 At 40.00 7.00
+Create PAL8 13
+Place 13 At 15.00 17.00
+Create PAL9 14
+Place 14 At 20.00 17.00
+Create PAL10 15
+Place 15 At 35.00 17.00
+Create PAL11 16
+Place 16 At 40.00 17.00
+Create PAL1 18
+Create PAL2 19
+Create PAL3 20
+Create PAL4 21
+Create PAL5 22
+Create PAL6 23
+Create PAL1 25
+Create PAL2 26
+Create PAL3 27
+Create PAL4 28
+Create PAL5 29
+Create PAL6 30
+Place 18 On INL1
+Place 25 On INL2
+Time     0.62 58686
+Set 18 Color RED
+Set 18 Color GREEN
+Set 25 Color RED
+Time     3.00 12687
+Set 1 Color YELLOW
+Move TRNS   0.47  48.00  12.00
+Time     3.48 27270
+Move 1   0.62  48.00  12.00
+Time     4.10 36905
+Move TRNS   0.00  48.00  12.00
+Move 1   0.00  48.00  12.00
+Time     4.10 51482
+Move 1   0.62  48.00  17.00
+Time     4.72 61373
+Place 1 On IR1
+Move TRNS   0.41  15.00  12.00
+Time     4.92 10417
+Place 1 On IM1
+Time     5.14 20055
+Move 7   0.62  15.00  12.00
+Time     5.76 29946
+Move TRNS   0.41  48.00  12.00
+Move 7   0.41  48.00  12.00
+Time     6.18 44523
+Move 7   0.62  48.00   7.00
+Time     6.62 54158
+Write PUL2 2
+Set 18 Color YELLOW
+Set 25 Color GREEN
+Place 18 On OUTL1
+Time     7.24 12852
+Place 19 On RC12
+Place 20 On RC13
+Place 21 On RC14
+Place 22 On RC15
+Place 23 On RC16
+Place 18 On RC11
+Time     7.44 46959
+Place 19 On RC13
+Place 20 On RC14
+Place 21 On RC15
+Place 22 On RC16
+Place 23 On RC11
+Place 18 On RC12
+Time     7.64 15530
+Place 18 On INM1
+Time     8.26 25168
+Place 19 On RC14
+Place 20 On RC15
+Place 21 On RC16
+Place 22 On RC11
+Place 23 On RC12
+Time     8.46 54330
+Place 19 On RC15
+Place 20 On RC16
+Place 21 On RC11
+Place 22 On RC12
+Place 23 On RC13
+Time     8.66 17956
+Place 19 On RC16
+Place 20 On RC11
+Place 21 On RC12
+Place 22 On RC13
+Place 23 On RC14
+Time     8.86 47118
+Place 19 On INL1
+Time     9.30 57012
+Set 7 Color YELLOW
+Move TRNS   0.00  48.00  12.00
+Time     9.31 6059
+Move 7   0.62  48.00  12.00
+Time     9.48 15694
+Set 19 Color RED
+Time     9.92 25591
+Move TRNS   0.26  27.00  12.00
+Move 7   0.26  27.00  12.00
+Time    10.19 40168
+Move 7   0.62  27.00  17.00
+Time    10.81 49803
+Place 7 On IR2
+Move TRNS   0.09  20.00  12.00
+Time    10.90 64383
+Move 8   0.62  20.00  12.00
+Time    11.01 8482
+Place 7 On IM2
+Time    11.53 18376
+Move TRNS   0.35  48.00  12.00
+Move 8   0.35  48.00  12.00
+Time    11.88 32953
+Move 8   0.62  48.00   7.00
+Time    12.62 42588
+Write PUL2 3
+Set 25 Color YELLOW
+Set 19 Color GREEN
+Place 25 On OUTL2
+Time    13.24 1282
+Place 26 On RC22
+Place 27 On RC23
+Place 28 On RC24
+Place 29 On RC25
+Place 30 On RC26
+Place 25 On RC21
+Time    13.44 35389
+Place 26 On RC23
+Place 27 On RC24
+Place 28 On RC25
+Place 29 On RC26
+Place 30 On RC21
+Place 25 On RC22
+Time    13.64 3960
+Place 25 On INM2
+Time    14.26 13598
+Place 26 On RC24
+Place 27 On RC25
+Place 28 On RC26
+Place 29 On RC21
+Place 30 On RC22
+Time    14.46 42760
+Place 26 On RC25
+Place 27 On RC26
+Place 28 On RC21
+Place 29 On RC22
+Place 30 On RC23
+Time    14.66 6642
+Place 26 On RC26
+Place 27 On RC21
+Place 28 On RC22
+Place 29 On RC23
+Place 30 On RC24
+Time    14.86 35804
+Place 26 On INL2
+Time    15.25 45442
+Set 8 Color YELLOW
+Move TRNS   0.00  48.00  12.00
+Time    15.25 60025
+Move 8   0.62  48.00  12.00
+Time    15.48 4124
+Set 26 Color RED
+Time    15.88 14021
+Move TRNS   0.00  48.00  12.00
+Move 8   0.00  48.00  12.00
+Time    15.88 28598
+Move 8   0.62  48.00  17.00
+Time    16.50 38233
+Move TRNS   0.29  25.00  12.00
+Time    16.79 48124
+Move 9   0.62  25.00  12.00
+Time    17.41 57759
+Move TRNS   0.29  48.00  12.00
+Move 9   0.29  48.00  12.00
+Time    17.62 6800
+Write PUL2 4
+Set 19 Color YELLOW
+Set 26 Color GREEN
+Place 19 On OUTL1
+Time    17.71 31030
+Move 9   0.62  48.00   7.00
+Time    18.24 40921
+Place 20 On RCC12
+Place 21 On RCC13
+Place 22 On RCC14
+Place 23 On RCC15
+Place 19 On RCC11
+Time    18.44 4547
+Place 20 On INL1
+Time    19.06 14185
+Set 20 Color RED
+Time    20.83 23826
+Set 9 Color YELLOW
+Move TRNS   0.00  48.00  12.00
+Time    20.83 38409
+Move 9   0.62  48.00  12.00
+Time    21.45 48300
+Move TRNS   0.26  27.00  12.00
+Move 9   0.26  27.00  12.00
+Time    21.72 62877
+Move 9   0.62  27.00  17.00
+Time    22.34 6976
+Move TRNS   0.04  30.00  12.00
+Time    22.38 16867
+Move 10   0.62  30.00  12.00
+Time    22.62 26502
+Write PUL2 5
+Set 26 Color YELLOW
+Set 20 Color GREEN
+Place 26 On OUTL2
+Time    23.00 50732
+Move TRNS   0.23  48.00  12.00
+Move 10   0.23  48.00  12.00
+Time    23.23 65309
+Move 10   0.62  48.00   7.00
+Time    23.24 9664
+Place 27 On RCC22
+Place 28 On RCC23
+Place 29 On RCC24
+Place 30 On RCC25
+Place 26 On RCC21
+Time    23.44 38826
+Place 27 On INL2
+Time    24.06 48464
+Set 27 Color RED
+Time    25.13 58361
+Write PM1 2
+Set 1 Color GREEN
+Place 1 On OM1
+Time    25.17 12107
+Write PM1 2
+Set 7 Color GREEN
+Place 7 On OM2
+Time    25.76 31645
+Place 1 On OR1
+Place 8 On IR1
+Time    25.79 46228
+Place 7 On OR2
+Place 9 On IR2
+Time    25.96 60811
+Place 8 On IM1
+Move TRNS   0.00  48.00  12.00
+Time    25.96 9855
+Move 1   0.62  48.00  12.00
+Time    25.99 19490
+Place 9 On IM2
+Time    26.58 29384
+Move TRNS   0.47  10.00  12.00
+Move 1   0.47  10.00  12.00
+Time    26.85 43961
+Set 10 Color YELLOW
+Time    27.06 53602
+Move 1   0.62  10.00   7.00
+Time    27.68 63237
+Move TRNS   0.21  27.00  12.00
+Time    27.85 7592
+Write PMD2 2
+Set 18 Color GREEN
+Time    27.89 22185
+Place 21 On RCC12
+Place 22 On RCC13
+Place 23 On RCC14
+Place 19 On RCC16
+Time    27.90 46402
+Move 7   0.62  27.00  12.00
+Time    28.09 56293
+Place 21 On RCC11
+Place 22 On RCC12
+Place 23 On RCC13
+Place 19 On RCC15
+Time    28.12 14974
+Write PUL2 6
+Set 20 Color YELLOW
+Set 27 Color GREEN
+Time    28.52 34515
+Place 18 On OUTM1
+Move TRNS   0.15  15.00  12.00
+Move 7   0.15  15.00  12.00
+Time    28.67 53781
+Move 7   0.62  15.00   7.00
+Time    29.14 63672
+Place 21 On RC16
+Place 22 On RC11
+Place 23 On RC12
+Place 19 On RC14
+Place 18 On RC13
+Time    29.29 27298
+Move TRNS   0.41  48.00  12.00
+Time    29.34 36933
+Place 21 On RC11
+Place 22 On RC12
+Place 23 On RC13
+Place 19 On RC15
+Place 18 On RC14
+Time    29.70 559
+Place 20 On OUTL1
+Time    29.71 10453
+Move 10   0.62  48.00  12.00
+Time    30.00 20088
+Write HR1    1.0
+Write HR2    1.0
+Time    30.32 34685
+Place 21 On RC12
+Place 22 On RC13
+Place 23 On RC14
+Place 19 On RC16
+Place 18 On RC15
+Place 20 On RC11
+Time    30.33 3256
+Move TRNS   0.00  48.00  12.00
+Move 10   0.00  48.00  12.00
+Time    30.33 17833
+Move 10   0.62  48.00  17.00
+Time    30.52 27468
+Place 21 On RC13
+Place 22 On RC14
+Place 23 On RC15
+Place 19 On RC11
+Place 18 On RC16
+Place 20 On RC12
+Time    30.72 61575
+Place 21 On RC14
+Place 22 On RC15
+Place 23 On RC16
+Place 19 On RC12
+Place 18 On RC11
+Place 20 On RC13
+Time    30.92 30146
+Place 19 On INM1
+Time    30.96 39784
+Move TRNS   0.16  35.00  12.00
+Time    31.12 49419
+Move 11   0.62  35.00  12.00
+Time    31.54 59310
+Place 21 On RC15
+Place 22 On RC16
+Place 23 On RC11
+Place 18 On RC12
+Place 20 On RC14
+Time    31.74 22936
+Move TRNS   0.16  48.00  12.00
+Move 11   0.16  48.00  12.00
+Time    31.74 37513
+Place 21 On RC16
+Place 22 On RC11
+Place 23 On RC12
+Place 18 On RC13
+Place 20 On RC15
+Time    31.91 1139
+Move 11   0.62  48.00   7.00
+Time    31.94 10774
+Place 21 On INL1
+Time    32.45 20668
+Write PM1 4
+Set 9 Color GREEN
+Place 9 On OM2
+Time    32.56 39950
+Set 21 Color RED
+Time    33.07 49847
+Set 9 Color RED
+Time    33.62 59488
+Write PUL2 7
+Set 27 Color YELLOW
+Set 21 Color GREEN
+Place 27 On OUTL2
+Time    33.85 18182
+Write PMD2 3
+Set 25 Color GREEN
+Time    34.24 32775
+Place 28 On RCC22
+Place 29 On RCC23
+Place 30 On RCC24
+Place 26 On RCC26
+Place 27 On RCC21
+Time    34.44 62193
+Place 28 On RCC21
+Place 29 On RCC22
+Place 30 On RCC23
+Place 26 On RCC25
+Place 27 On RCC26
+Time    35.03 25819
+Place 25 On OUTM2
+Set 11 Color YELLOW
+Move TRNS   0.00  48.00  12.00
+Time    35.04 45091
+Move 11   0.62  48.00  12.00
+Time    35.65 54982
+Place 28 On RCC26
+Place 29 On RCC21
+Place 30 On RCC22
+Place 26 On RCC24
+Place 27 On RCC25
+Place 25 On RCC23
+Time    35.66 23297
+Move TRNS   0.26  27.00  12.00
+Move 11   0.26  27.00  12.00
+Time    35.85 38130
+Place 26 On INM2
+Time    35.92 47768
+Move 11   0.62  27.00  17.00
+Time    36.47 57403
+Place 28 On RCC25
+Place 29 On RCC26
+Place 30 On RCC21
+Place 27 On RCC24
+Place 25 On RCC22
+Time    36.54 21029
+Set 9 Color GREEN
+Place 9 On OR2
+Place 11 On IR2
+Move TRNS   0.16  40.00  12.00
+Time    36.67 45502
+Place 25 On INL2
+Time    36.71 55140
+Move 12   0.62  40.00  12.00
+Time    36.74 64775
+Place 11 On IM2
+Time    37.29 9133
+Set 25 Color RED
+Time    37.33 18774
+Move TRNS   0.10  48.00  12.00
+Move 12   0.10  48.00  12.00
+Time    37.44 33351
+Move 12   0.62  48.00   7.00
+Time    38.06 43242
+Move TRNS   0.26  27.00  12.00
+Time    38.32 52877
+Move 9   0.62  27.00  12.00
+Time    38.62 62512
+Write PUL2 8
+Set 21 Color YELLOW
+Write PROD1 2
+Set 25 Color GREEN
+Place 21 On OUTL1
+Time    38.94 26158
+Move TRNS   0.03  25.00  12.00
+Move 9   0.03  25.00  12.00
+Time    38.97 40735
+Move 9   0.62  25.00   7.00
+Time    39.24 50626
+Place 22 On RC12
+Place 23 On RC13
+Place 18 On RC14
+Place 20 On RC16
+Place 21 On RC11
+Time    39.44 14252
+Place 22 On RC13
+Place 23 On RC14
+Place 18 On RC15
+Place 20 On RC11
+Place 21 On RC12
+Time    39.64 43414
+Place 22 On RC14
+Place 23 On RC15
+Place 18 On RC16
+Place 20 On RC12
+Place 21 On RC13
+Time    39.84 7040
+Place 18 On INL1
+Time    39.91 16678
+Write PM1 5
+Set 8 Color GREEN
+Place 8 On OM1
+Time    40.46 36216
+Set 18 Color RED
+Time    40.52 45857
+Place 8 On OR1
+Place 10 On IR1
+Time    40.73 60440
+Place 10 On IM1
+Move TRNS   0.29  48.00  12.00
+Time    40.81 9484
+Set 12 Color YELLOW
+Write PRD1 2
+Time    41.02 24077
+Move 8   0.62  48.00  12.00
+Time    41.64 33968
+Move TRNS   0.35  20.00  12.00
+Move 8   0.35  20.00  12.00
+Time    41.99 48545
+Move 8   0.62  20.00   7.00
+Time    42.61 58180
+Move TRNS   0.35  48.00  12.00
+Time    42.97 2535
+Move 12   0.62  48.00  12.00
+Time    43.59 12170
+Move TRNS   0.26  27.00  12.00
+Move 12   0.26  27.00  12.00
+Time    43.86 26747
+Move 12   0.62  27.00  17.00
+Time    44.48 36382
+Move TRNS   0.21  10.00  12.00
+Time    44.62 46273
+Write PUL2 9
+Set 25 Color YELLOW
+Set 18 Color GREEN
+Place 25 On OUTL2
+Time    44.69 4967
+Move 1   0.62  10.00  12.00
+Time    45.08 14602
+Write PMD2 4
+Set 19 Color GREEN
+Time    45.24 29195
+Place 22 On RC15
+Place 23 On RC16
+Place 20 On RC13
+Place 21 On RC14
+Time    45.31 53668
+Move TRNS   0.47  48.00  12.00
+Move 1   0.47  48.00  12.00
+Time    45.79 2709
+Place 19 On OUTM1
+Time    45.79 12347
+Move 1   0.62  48.00   7.00
+Time    46.41 22238
+Place 22 On RCC16
+Place 23 On RCC11
+Place 20 On RCC14
+Place 21 On RCC15
+Place 19 On RCC13
+Time    46.61 51400
+Place 20 On INM1
+Time    49.41 61038
+Write PU1 8
+Time    50.01 5147
+Write PMD2 5
+Set 26 Color GREEN
+Time    50.62 19740
+Write PUL2 9
+Set 18 Color YELLOW
+Place 18 On OUTL1
+Place 28 On RC24
+Place 29 On RC25
+Place 30 On RC26
+Place 27 On RC23
+Place 25 On RC21
+Time    50.90 63491
+Place 26 On OUTM2
+Write PM1 6
+Set 11 Color GREEN
+Place 11 On OM2
+Time    51.24 22438
+Place 22 On RCC15
+Place 23 On RCC16
+Place 21 On RCC14
+Place 19 On RCC12
+Place 18 On RCC11
+Time    51.44 51600
+Place 19 On INL1
+Time    51.52 61238
+Place 11 On OR2
+Place 12 On IR2
+Place 28 On RCC25
+Place 29 On RCC26
+Place 30 On RCC21
+Place 27 On RCC24
+Place 25 On RCC22
+Place 26 On RCC23
+Time    51.72 39443
+Place 12 On IM2
+Place 27 On INM2
+Move TRNS   0.26  27.00  12.00
+Time    51.99 58968
+Move 11   0.62  27.00  12.00
+Time    52.06 3323
+Set 19 Color RED
+Set 19 Color GREEN
+Time    52.34 17912
+Place 28 On RCC24
+Place 29 On RCC25
+Place 30 On RCC26
+Place 25 On RCC21
+Place 26 On RCC22
+Time    52.41 47074
+Set 1 Color YELLOW
+Time    52.54 56715
+Place 26 On INL2
+Time    52.61 817
+Move TRNS   0.10  35.00  12.00
+Move 11   0.10  35.00  12.00
+Time    52.72 15394
+Move 11   0.62  35.00   7.00
+Time    53.16 25285
+Set 26 Color RED
+Time    53.34 34926
+Move TRNS   0.16  48.00  12.00
+Time    53.50 44561
+Move 1   0.62  48.00  12.00
+Time    54.12 54452
+Move TRNS   0.00  48.00  12.00
+Move 1   0.00  48.00  12.00
+Time    54.13 3493
+Move 1   0.62  48.00  17.00
+Time    54.75 13128
+Move TRNS   0.41  15.00  12.00
+Time    55.17 23019
+Move 7   0.62  15.00  12.00
+Time    55.79 32654
+Move TRNS   0.41  48.00  12.00
+Move 7   0.41  48.00  12.00
+Time    56.20 47231
+Move 7   0.62  48.00   7.00
+Time    57.06 56866
+Write PUL2 11
+Set 19 Color YELLOW
+Set 26 Color GREEN
+Place 19 On OUTL1
+Time    59.32 15816
+Write PU1 9
+Time    60.00 25461
+End

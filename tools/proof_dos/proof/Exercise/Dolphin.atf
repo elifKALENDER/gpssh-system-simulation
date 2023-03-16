@@ -1,0 +1,65 @@
+Time 0
+CREATE CLOUD 301
+PLACE 301 AT -10 50
+CREATE BOAT 401
+create flipper 1
+PLACE 401 AT 5 15
+place 1 on swim1
+MOVE 301 200 105 50
+MOVE 401 60 88 15
+time 9.14
+create splash 25
+place 25 at 6 10
+time 9.54
+set 1 color backdrop
+time 10
+set 25 color backdrop
+time 20
+set 1 color pink
+place 1 on swim3
+time 29.14
+place 25 at 24.5 10
+set 25 color white
+time 29.54
+create CLOUD 302
+place 302 at -10 49
+move 302 200 105 49
+set 1 color backdrop
+time 30
+set 25 color backdrop
+time 40
+set 1 color pink
+place 1 on swim5
+time 49.14
+place 25 at 42.5 10
+set 25 color white
+time 49.54
+set 1 color backdrop
+time 50
+create BOAT2 402
+place 402 at 0 13
+move 402 75 88 13
+set 25 color backdrop
+time 60
+set 1 color pink
+place 1 on swim7
+time 69.14
+place 25 at 61 10
+set 25 color white
+time 69.54
+set 1 color backdrop
+time 70
+set 25 color backdrop
+time 80
+set 1 color pink
+place 1 on swim9
+time 89.14
+place 25 at 79 10
+set 25 color white
+time 89.54
+set 1 color backdrop
+destroy 1
+time 90
+destroy 25
+time 130
+END

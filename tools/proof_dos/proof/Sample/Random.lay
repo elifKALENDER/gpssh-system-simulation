@@ -1,0 +1,62 @@
+Define View "(Home)" center 9.8952 10.7753 width 33.8756 Ortho Aspect 0.75 Speed 6 Mouse 5
+Define View "(Class)" center 0 0 width 6.7751 Ortho
+Define color Backdrop 0 0 0
+Define color Blue 0 0 0.6667
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0
+Define color Pink 1 0 0.6667
+Define color Tan 1 0.6667 0
+Define color Green 0 1 0
+Define color Layout 0.4921 0.4921 0.4921
+Color Layout
+Line 0 5 20 5
+Line 0 6 20 6
+Line 0 7 20 7
+Line 0 8 20 8
+Line 0 9 20 9
+Line 0 10 20 10
+Line 0 11 20 11
+Line 0 12 20 12
+Line 0 13 20 13
+Line 0 14 20 14
+Line 0 15 20 15
+Line 0 16 20 16
+Line 0 17 20 17
+Line 0 18 20 18
+Line 0 19 20 19
+Line 0 20 20 20
+Line 0 20 0 0
+Line 1 20 1 0
+Line 2 20 2 0
+Line 3 20 3 0
+Line 4 20 4 0
+Line 5 20 5 0
+Line 6 20 6 0
+Line 7 20 7 0
+Line 8 20 8 0
+Line 9 20 9 0
+Line 10 20 10 0
+Line 11 20 11 0
+Line 12 20 12 0
+Line 13 20 13 0
+Line 14 20 14 0
+Line 15 20 15 0
+Line 16 20 16 0
+Line 17 20 17 0
+Line 18 20 18 0
+Line 19 20 19 0
+Line 20 20 20 0
+Line 0 0 20 0
+Line 0 1 20 1
+Line 0 2 20 2
+Line 0 3 20 3
+Line 0 4 20 4
+Color Yellow
+Define Class walker
+Line -0.3 0.3 0.3 0
+Line -0.3 0.3 -0.3 -0.3
+Line -0.3 -0.3 0.3 0
+Fill -0.1325 -0.0495
+End
+End

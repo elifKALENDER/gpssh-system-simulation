@@ -1,0 +1,67 @@
+Define View "(Home)" center 39.9375 29.4366 width 79.875 Ortho Aspect 0.7143 0.5 Speed 0.25 Mouse 5
+Define View "(Class)" center -0.0184 0.1866 width 23.5294 Ortho
+Define color Backdrop 0 0 0
+Define color Blue 0 0 0.6667
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0
+Define color Pink 1 0 0.6667
+Define color Tan 1 0.6667 0
+Define color Green 0 1 0
+Define color Layout 0.4921 0.4921 0.4921
+Color Yellow
+Define Class Car Directional Clearance 0 2.5
+Line -2 0.5 0 0.5
+Line 0 0.5 0 -0.5
+Line 0 -0.5 -2 -0.5
+Line -2 -0.5 -2 0.5
+Fill -1.1813 0.1583
+End
+Color Red
+Define Class Van Clearance 0 2.7
+Line 0 0.7 -2.2 0.7
+Line -2.2 0.7 -2.2 -0.7
+Line -2.2 -0.7 0 -0.7
+Line 0 -0.7 0 0.7
+Fill -1.1188 -0.1487
+End
+Color Layout
+Define Class Wash
+Line -9 2 9 2
+Line -9 -2 9 -2
+Line 10 1 10 -1
+Line -10 1 -10 -1
+End
+Line 30 31 30 29
+Line 50 31 50 29
+Color Backdrop
+Line #1 30 30 50 30
+Color White
+Text 1 1 CENTER 20 32 WAITING LINE
+Text 1 1 CENTER 40 34 WASH AREA
+Text 1 1 CENTER 60 32 DRIVE AWAY
+Color Green
+Line 30 32 40 40
+Color Tan
+Line 24 30 25 30
+Color Green
+Line #2 10 30 30 30
+Line 31 28 49 28
+Line 31 32 49 32
+Line #3 50 30 70 30
+Line 60 43 70 32
+Line 60 43 50 32
+Line 40 40 50 32
+Color Tan
+Message ALI 1 1 CENTER 38 55 BG Backdrop ALI
+Text 1 2 CENTER 41 46 OLDWOLFE CARWASH INC.
+Define Path ENTRY Accumulating LEAPOK Label 7.5 29.6866 Lag 0.25 Time 0.25
+Segment #2 10 30 30 30 20
+End
+Define Path CHAIN Label 27.5 29.6866 Time 2
+Segment #1 30 30 50 30 20
+End
+Define Path EXIT Label 48 29.6866 Time 0.25
+Segment #3 50 30 70 30 20
+End
+End

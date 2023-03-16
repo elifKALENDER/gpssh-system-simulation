@@ -1,0 +1,100 @@
+Define View "(Class)" center -0.0365 0.7292 Width 91.3301 Grid Size 1 10 Ortho
+Define View "(Home)" center 12.9448 0.0126 Width 202.2911 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 15
+Define color Backdrop  0.8902 0.7255 0.5216
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 0 0 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.7451 0.3961 0.6667
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.3961 0.4902 0.698
+Define color F20 0 0.3176 0.3176
+Define color F21 0.8902 0.6667 0.4902
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.4902 0.4902 0.4902
+Define color L2 0.8235 0.0941 0.8431
+Define color L3 0 1 0
+Define color L4 0.4902 0.4902 0.4902
+Define color L5 0.8902 0.6667 0.4902
+Define color L6 0.3961 0.4902 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F3
+Define Class BigGear Directional
+Line -4.3301 -2.5 4.3301 2.5
+Line -4.3301 2.5 4.3301 -2.5
+Line 0 5 0 -5
+Arc 12 0 0 5.8532 25.3597 4.0854
+Arc 5 10.2942 0.1699 83.6915 108.469 2.1622
+Arc 10 0 0 -30 1.045 5.4184
+Arc 5 8.6603 5 285.5225 310.9528 2.2192
+Arc 5 8.6603 -5 225.5225 250.9528 2.2192
+Arc 10 0 0 270 301.045 5.4184
+Arc 5 5.2942 -8.8301 23.6915 48.469 2.1622
+Arc 12 0 0 305.8532 325.3597 4.0854
+Arc 12 0 0 245.8532 265.3597 4.0854
+Arc 5 -5 -9 323.6915 348.469 2.1622
+Arc 10 0 0 210 241.045 5.4184
+Arc 5 0 -10 165.5225 190.9528 2.2192
+Arc 5 -8.6603 -5 105.5225 130.9528 2.2192
+Arc 10 0 0 150 181.045 5.4184
+Arc 5 -10.2942 -0.1699 263.6915 288.469 2.1622
+Arc 12 0 0 185.8532 205.3597 4.0854
+Arc 12 0 0 125.8532 145.3597 4.0854
+Arc 5 -5.2942 8.8301 203.6915 228.469 2.1622
+Arc 10 0 0 90 121.045 5.4184
+Arc 5 -8.6603 5 45.5225 70.9528 2.2192
+Arc 5 0 10 -14.4775 10.9528 2.2192
+Arc 10 0 0 30 61.045 5.4184
+Arc 5 5 9 143.6915 168.469 2.1622
+Arc 12 0 0 65.8532 85.3597 4.0854
+Color F10
+Fill 1.1342 1.9917
+End
+End

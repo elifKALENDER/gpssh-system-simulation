@@ -1,0 +1,70 @@
+Define View "(Class)" center 0 0 Width 7.9875 Grid Size 0.1 1 Ortho
+Define View "(Home)" center 39.9375 29.4366 Width 79.875 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 6
+Define color Backdrop  0 0 0
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.898 0.2471 0.2471
+Define color F9 0 0 1
+Define color F10 0.749 0.2471 0.2471
+Define color F11 0.6 0.949 1
+Define color F12 0.498 0.349 0
+Define color F13 0.749 0.4 0.6667
+Define color F14 0.6 0.498 0.498
+Define color F15 0 0.6 0.2
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3294 0
+Define color F19 0.4 0.498 0.698
+Define color F20 0 0.3294 0.3294
+Define color F21 0.898 0.6667 0.498
+Define color F22 0.498 0.2471 0.498
+Define color F23 0.749 0.6 0
+Define color F24 0.498 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.5098 0.5098 0.5098
+Define color L2 0.6667 0.949 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.898 0.6667 0.498
+Define color L6 0.4 0.498 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0.8471 0.8 0.6
+Color F2
+Message Info 1 2 CENTER 40 30 BG Backdrop Info
+End

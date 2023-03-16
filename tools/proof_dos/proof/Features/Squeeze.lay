@@ -1,0 +1,35 @@
+Define View "(Home)" center 39.9375 29.0833 width 79.875 Ortho Aspect 0.75 0.5 Speed 50 Mouse 5
+Define View "(Class)" center 0 0 width 11.4107 Ortho
+Define color Backdrop 0 0 0
+Define color Blue 0 0 0.6667
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0
+Define color Pink 1 0 0.6667
+Define color Tan 1 0.6667 0
+Define color Green 0 1 0
+Define color Layout 0.5079 0.5079 0.5079
+Color Red
+Define Class HighGuy Clearance 2 2
+Line 0 1 0 -1
+Line 0 -1 -1 -2
+Line 0 -1 1 -2
+Line 0 0.6 -1 0.3
+Line 0 0.6 1 0.3
+Arc 0.5 0 1.5 0 360 3.1416
+End
+Color Green
+Define Class LowGuy Clearance 2 2
+Arc 0.5 0 1.7 0 360 3.1416
+Line 0 0.8 1 0.5
+Line 0 0.8 -1 0.5
+Line 0 -0.8 1 -1.8
+Line 0 -0.8 -1 -1.8
+Line 0 1.2 0 -0.8
+End
+Color Layout
+Line #1 20 30 60 30
+Define Path AccPath Accumulating LEAPOK Label 16.5 29.6667 Time 20
+Segment #1 20 30 60 30 40
+End
+End

@@ -1,0 +1,16 @@
+       SIMULATE
+*
+*      GPSS/H Block Section
+*
+       GENERATE    4,1         A bundle arrives every 4+-1 minutes
+       ADVANCE     2           Transportation time to the staging area
+       SEIZE       SERVER      Capture the line server
+       ADVANCE     3.75,1      Prepare a bundle
+       RELEASE     SERVER      Release the line server
+       TERMINATE   1           Increment finished bundles by 1
+*
+*      GPSS/H Control Statements
+*
+       START       100         Terminate simulation after 100 bundles
+       END
+

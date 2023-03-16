@@ -1,0 +1,26 @@
+create spaceship 1
+time 5
+place 1 at -60 50
+move 1 55 160 50
+time 10
+sound e4
+time 12.5
+sound 0
+time 13
+sound f#4
+time 15.5
+sound 0
+time 16
+sound d4
+time 18.5
+sound 0
+time 19
+sound d3
+time 21.5
+sound 0
+time 22
+sound a3
+time 31
+sound 0
+time 60
+end

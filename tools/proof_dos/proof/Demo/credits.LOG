@@ -1,0 +1,24 @@
+T=91.97 @ Trace line 156: You've reached the end of the trace file
+                        : end
+                        :    +
+
+Layout line 133: Invalid animator command "Pie"
+               : Pie
+               : +
+
+Layout line 134: Invalid animator command "Pie"
+               : Pie
+               : +
+
+Layout line 21: Invalid animator command "Pie"
+              : Pie
+              : +
+
+T=252.96 @ Trace line 768: Object 127 : Object 126 on path "oil01"
+                         : Object 126 path offset = 2.74, aft clearance = 2.50
+                         : Object 127 path offset = 0.00, fore clearance = 1.00
+                         : Overlap = 0.7587 (2.50 + 1.00) - (2.74 - 0.00)
+T=260.96 @ Trace line 790: Object 127 : Object 126 on path "oil01"
+                         : Object 126 path offset = 13.57, aft clearance = 2.50
+                         : Object 127 path offset = 10.83, fore clearance = 1.00
+                         : Overlap = 0.7587 (2.50 + 1.00) - (13.57 - 10.83)

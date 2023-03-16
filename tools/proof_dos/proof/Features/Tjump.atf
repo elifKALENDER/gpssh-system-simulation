@@ -1,0 +1,87 @@
+ create agv5 1
+place 1 on loop
+
+time jump 50
+time 60
+time jump 70
+time 80
+time jump 90
+time 100
+
+set path loop travel -100
+dt 100
+set 1 class agv10
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv15
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv5
+create agv5 4
+set path loop travel 100
+place 1 on loop at 7
+place 4 on loop
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv10
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv15
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv5
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv10
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv15
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv5
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv10
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv15
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv5
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv10
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+set 1 class agv15
+set path loop travel 100
+dt 100
+set path loop travel -100
+dt 100
+end
+

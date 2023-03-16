@@ -1,0 +1,4190 @@
+*** Time 3000 ... 3450 of D:\PROOF2\NEWDEMO\MINING\MINE.ATF ***
+Time jump 3000 9814
+*** Establish Proper State ***
+Set Bar BARFEEDA Left 0 Right 100 Top 46 Bot 0 Color L1
+Set Bar BARFEEDB Left 0 Right 100 Top 46 Bot 0 Color L1
+Set Bar BARUPS Left 0 Right 6847 Top 100 Bot 0 Color F2
+Set Bar BARROW Left 0 Right 9910 Top 100 Bot 0 Color F2
+Set Bar AVAMSURG Left 0 Right 100 Top 305 Bot 0 Color F3
+Set Bar BARAPRA Left 0 Right 100 Top 67 Bot 0 Color L1
+Set Bar BARAPRB Left 0 Right 100 Top 67 Bot 0 Color L1
+Set Bar BARSURGE Left 0 Right 100 Top 467 Bot 0 Color L1
+Set Bar BARLOS Left 0 Right 3680 Top 100 Bot 0 Color F2
+Set Bar AVAMS1 Left 0 Right 100 Top 5990 Bot 0 Color F3
+Set Bar AMS1 Left 0 Right 2150 Top 100 Bot 0 Color F7
+Set Bar AMS2 Left 0 Right 8375 Top 100 Bot 0 Color F7
+Set Bar AVAMS2 Left 0 Right 100 Top 1660 Bot 0 Color F3
+Set Bar AVAMS3 Left 0 Right 100 Top 0 Bot 0 Color F3
+Set Bar AVAMS4 Left 0 Right 100 Top 0 Bot 0 Color F3
+Set Bar AVAMS5 Left 0 Right 100 Top 0 Bot 0 Color F3
+Set Bar AVAMS6 Left 0 Right 100 Top 0 Bot 0 Color F3
+Set Bar BARMINED Left 0 Right 20437 Top 100 Bot 0 Color F1
+Write silo1 2150
+Write silo2 8375
+Write AVPCTS1 55%
+Write CTAPRON 133
+Write CTSURGE 467
+Write SPEED3 7500
+Write SPEED1 6000
+Write SPEED2 4000
+Write AVPCTSUR 3%
+Write mode WORKING HIGH ROWLAND
+Write CTFEEDER 93
+Write day MONDAY
+Write TIME  5:00
+Write work FIRST SHIFT
+Write CTROW 9910
+Write CTUPS 6847
+Write CTLOS 3680
+Write AVPCTS3 0%
+Write AVPCTS5 0%
+Write AVPCTS4 0%
+Write AVPCTS6 0%
+Write CTMINED 20437
+Write AVPCTS2 15%
+Set Path ROW2FEED Speed 0
+Set Path UPPER2FEED Speed 0
+Set Path LOWER2FEED Speed 0
+Set Path TODUMP1 Speed 5
+Set Path FEEDA2FEEDB Speed 5
+Set Path FEED2ROW Speed 0
+Set Path FEED2UPPER Speed 0
+Set Path FEED2LOWER Speed 0
+Set Path TODUMP2 Speed 5
+Set Path TODUMP3 Speed 5
+Set Path LHBACK1 Speed 0
+Set Path LHBACK2 Speed 0
+Set Path LHBACK3 Speed 0
+Set Path OverlandConv Speed 0.7405
+Set Path ReclaimConv Speed 0.8146
+Set Path ApronConv Speed 0.8363
+Set Path TrainLeaving Speed 5
+Set Path LdS1 Speed 2
+Set Path LdS2 Speed 2
+Set Path LdS3 Speed 2
+Set Path LdS4 Speed 2
+Set Path LdS5 Speed 2
+Set Path LdS6 Speed 2
+Set Path LdTrS1 Speed 2
+Set Path LdTrS2 Speed 2
+Set Path LdTrS3 Speed 2
+Set Path LdTrS4 Speed 2
+Set Path LdTrS5 Speed 2
+Set Path LdTrS6 Speed 2
+Set Path GotoS1 Speed 2
+Set Path GotoS2 Speed 2
+Set Path GotoS4 Speed 2
+Set Path GotoS5 Speed 2
+Set Path GotoS6 Speed 2
+Set Path BackFrTr Speed 2
+Set Path arm22down Speed 35.2813
+Set Path arm21down Speed 19.198
+Set Path arm21up Speed 19.198
+Set Path arm22up Speed 35.8767
+Set Path arm22forward Speed 9.206
+Set Path arm22back Speed 9.774
+Set Path shovel2down Speed 35.6647
+Set Path shovel2back Speed 23.7367
+Set Path shovel2up Speed 35.876
+Set Path shovel2forward Speed 23.4647
+Set Path arm11down Speed 19.198
+Set Path arm11up Speed 19.198
+Set Path arm12up Speed 34.8967
+Set Path arm12down Speed 34.278
+Set Path arm12forward Speed 9.2127
+Set Path arm12back Speed 9.774
+Set Path shovel1down Speed 35.6647
+Set Path shovel1back Speed 23.7367
+Set Path shovel1up Speed 35.876
+Set Path shovel1forward Speed 23.3553
+Set Path arm31down Speed 19.198
+Set Path arm31up Speed 19.198
+Set Path arm32forward Speed 9.206
+Set Path arm32down Speed 35.2813
+Set Path arm32back Speed 9.774
+Set Path arm32up Speed 35.8767
+Set Path shovel3forward Speed 23.4647
+Set Path shovel3down Speed 35.6647
+Set Path shovel3back Speed 23.7367
+Set Path shovel3up Speed 35.876
+Set Path TrainComing Speed 5
+Set Path GotoS3 Speed 2
+Set Path LdW1 Speed 5
+Set Path LdW2 Speed 5
+Set Path LdW3 Speed 5
+Set Path LdW4 Speed 5
+Set Path LdW5 Speed 5
+Set Path longhaul1 Speed 5
+Set Path longhaul2 Speed 5
+Set Path longhaul3 Speed 5
+Create coal2 coal4
+Set coal4 Speed 2 2
+Place coal4 On LdS2 at 11.5274
+Create coal2 coal5
+Set coal5 Speed 2 2
+Place coal5 On LdS2 at 7.5274
+Create coal2 coal3
+Set coal3 Speed 2 2
+Place coal3 On LdS2 at 15.5274
+Create coal2 4370
+Place 4370 On ApronConv at 83.63
+Create coal2 4373
+Place 4373 On ApronConv at 81.9574
+Create coal2 4376
+Place 4376 On ApronConv at 80.2848
+Create coal2 4379
+Place 4379 On ApronConv at 78.6122
+Create coal2 4382
+Place 4382 On ApronConv at 76.9396
+Create coal2 4400
+Place 4400 On ApronConv at 66.904
+Create coal2 4403
+Place 4403 On ApronConv at 65.2314
+Create coal2 4406
+Place 4406 On ApronConv at 63.5588
+Create coal2 4409
+Place 4409 On ApronConv at 61.8862
+Create coal2 4412
+Place 4412 On ApronConv at 60.2136
+Create coal2 4430
+Place 4430 On ApronConv at 50.178
+Create coal2 4433
+Place 4433 On ApronConv at 48.5054
+Create coal2 4436
+Place 4436 On ApronConv at 46.8328
+Create coal2 4439
+Place 4439 On ApronConv at 45.1602
+Create coal2 4442
+Place 4442 On ApronConv at 43.4876
+Create coal1 4443
+Place 4443 On OverlandConv at 37.025
+Create coal1 4446
+Place 4446 On OverlandConv at 35.544
+Create coal1 4449
+Place 4449 On OverlandConv at 34.063
+Create coal1 4452
+Place 4452 On OverlandConv at 32.582
+Create coal1 4455
+Place 4455 On OverlandConv at 31.101
+Create belly 9
+Set 9 Speed 1.0446 1.0446
+Place 9 On UPPER2FEED at 43.0718
+Create coal1 4458
+Place 4458 On OverlandConv at 29.62
+Create coal2 4460
+Place 4460 On ApronConv at 33.452
+Create coal2 4463
+Place 4463 On ApronConv at 31.7794
+Create coal1 4464
+Place 4464 On OverlandConv at 26.658
+Create coal2 4466
+Place 4466 On ApronConv at 30.1068
+Create coal1 4467
+Place 4467 On OverlandConv at 25.177
+Create coal2 4469
+Place 4469 On ApronConv at 28.4342
+Create coal1 4470
+Place 4470 On OverlandConv at 23.696
+Create coal2 4472
+Place 4472 On ApronConv at 26.7616
+Create cat 7
+Set 7 Speed 2.1398 2.1398
+Place 7 On FEED2ROW at 67.9047
+Create coal1 4473
+Place 4473 On OverlandConv at 22.215
+Create coal2 4475
+Place 4475 On ApronConv at 25.089
+Create coal1 4476
+Place 4476 On OverlandConv at 20.734
+Create coal2 4478
+Place 4478 On ApronConv at 23.4164
+Create coal2 4481
+Place 4481 On ApronConv at 21.7438
+Create coal2 4484
+Place 4484 On ApronConv at 20.0712
+Create coal2 4487
+Place 4487 On ApronConv at 18.3986
+Create coal1 4489
+Place 4489 On ReclaimConv at 16.292
+Create coal1 4492
+Place 4492 On ReclaimConv at 14.6628
+Create coal1 4495
+Place 4495 On ReclaimConv at 13.0336
+Create coal1 4498
+Place 4498 On ReclaimConv at 11.4044
+Create coal1 4501
+Place 4501 On ReclaimConv at 9.7752
+Create coal1 4504
+Place 4504 On ReclaimConv at 8.146
+Create coal2 4505
+Place 4505 On ApronConv at 8.363
+Create belly 10
+Set 10 Speed 1.0446 1.0446
+Place 10 On UPPER2FEED at 10.3227
+Create coal1 4507
+Place 4507 On ReclaimConv at 6.5168
+Create coal2 4508
+Place 4508 On ApronConv at 6.6904
+Create coal1 4510
+Place 4510 On ReclaimConv at 4.8876
+Create coal2 4511
+Place 4511 On ApronConv at 5.0178
+Create coal1 4513
+Place 4513 On ReclaimConv at 3.2584
+Create coal2 4514
+Place 4514 On ApronConv at 3.3452
+Create belly 8
+Set 8 Speed 1.378 1.378
+Place 8 On LOWER2FEED at 5.3988
+Create coal1 4516
+Place 4516 On ReclaimConv at 1.6292
+Create coal2 4517
+Place 4517 On ApronConv at 1.6726
+Create coal2 coal1
+Set coal1 Speed 0 2
+Place coal1 On LdS2 at 18.8341
+Set POConv1 Color Bac
+Place POConv1 At 68 26.5
+Set POConv2 Color Bac
+Place POConv2 At 75.5 26.5
+Set PRConv2 Color Bac
+Place PRConv2 At 117 20.5
+Set PRConv1 Color Bac
+Place PRConv1 At 103 20.5
+Set PAConv2 Color Bac
+Place PAConv2 At 76 13.5
+Set PAConv1 Color Bac
+Place PAConv1 At 121.5 13.5
+Set POConv3 Color Bac
+Place POConv3 At 102 30.5
+Set PSh11 Color Bac
+Place PSh11 At 19.8 42.8
+Set PSh12 Color Bac
+Place PSh12 At 20.6 43.6
+Set PSh13 Color Bac
+Place PSh13 At 20.6 41.6
+Set PSh22 Color Bac
+Place PSh22 At 20.6 29.2
+Set PSh21 Color Bac
+Place PSh21 At 19.8 28.4
+Set PSh23 Color Bac
+Place PSh23 At 20.6 27.2
+Set PSh32 Color Bac
+Place PSh32 At 20.4 17.2
+Set PSh31 Color Bac
+Place PSh31 At 19.6 16.4
+Set PSh33 Color Bac
+Place PSh33 At 20.4 15.2
+Set PRow Color Bac
+Place PRow At 24 35
+Set PUpp Color Bac
+Place PUpp At 24 21
+Set PLow Color Bac
+Place PLow At 24 8
+Set PLdS4 Color F3
+Place PLdS4 At 136 7
+Set PLdS3 Color F3
+Place PLdS3 At 130 7
+Set PLdS2 Color F3
+Place PLdS2 At 124 7
+Set PLdS1 Color F3
+Place PLdS1 At 118 7
+Set PFConv1 Color Bac
+Place PFConv1 At 71 11.4
+Set PLdS5 Color F3
+Place PLdS5 At 142 7
+Set PLdS6 Color F3
+Place PLdS6 At 148 7
+Set PLdTrain Color Bac
+Place PLdTrain At 118 -4.6
+Create loader ld
+Set ld Speed 0 0.325
+Place ld On LdTrS1 at 8
+Create filler filler1
+Place filler1 At 118 7
+Create filler filler2
+Set filler2 Color Bac
+Place filler2 At 124 7
+Create filler filler3
+Place filler3 At 130 7
+Create filler filler4
+Place filler4 At 136 7
+Create filler filler5
+Place filler5 At 142 7
+Create filler filler6
+Place filler6 At 148 7
+Create ARM1 arm31
+Set arm31 Speed 0 8.6296
+Place arm31 On arm31up at 2.8797
+Create ARM2 arm32
+Set arm32 Speed 0 16.1268
+Place arm32 On arm32up at 5.3815
+Rotate arm32 To 179.9983
+Create SHOVEL sh3
+Set sh3 Speed 0 16.1265
+Place sh3 On shovel3up at 5.3814
+Create ARM1 arm11
+Set arm11 Speed 0 34.737
+Place arm11 On arm11up at 2.8797
+Create ARM2 arm12
+Set arm12 Speed 0 63.1423
+Place arm12 On arm12up at 5.2345
+Rotate arm12 To 180.0707
+Create SHOVEL sh1
+Set sh1 Speed 0 64.9144
+Place sh1 On shovel1up at 5.3814
+Create ARM1 arm21
+Set arm21 Speed 0 5.4354
+Place arm21 On arm21up at 2.8797
+Create ARM2 arm22
+Set arm22 Speed 0 10.1576
+Place arm22 On arm22up at 5.3815
+Rotate arm22 To 179.9983
+Create SHOVEL sh2
+Set sh2 Speed 0 10.1574
+Place sh2 On shovel2up at 5.3814
+Create coal2 coal2
+Set coal2 Speed 0 2
+Place coal2 On LdS2 at 18.8341
+Create train 14
+Set 14 Speed 0 0.2667
+Place 14 On LdW4 at 4
+Create cat 6
+Set 6 Speed 0 2.1398
+Place 6 On FEED2ROW at 106.9912
+*** Resume User Trace ***
+Create coal1 4519
+Place 4519 On ReclaimConv
+Time 3000 37548
+Destroy 4489
+Time 3000 47174
+Destroy 4443
+Time 3000 57056
+Destroy 4370
+Time 3000 1146
+SET BAR AVAMS1 TOP 5920
+WRITE AVPCTS1 55%
+SET BAR AVAMS2 TOP 1770
+WRITE AVPCTS2 16%
+SET BAR AVAMS3 TOP 0
+WRITE AVPCTS3 0%
+SET BAR AVAMS4 TOP 0
+WRITE AVPCTS4 0%
+SET BAR AVAMS5 TOP 0
+WRITE AVPCTS5 0%
+SET BAR AVAMS6 TOP 0
+WRITE AVPCTS6 0%
+SET BAR AVAMSURG TOP 307
+WRITE AVPCTSUR 3%
+WRITE TIME  5:05
+SET BAR BARSURGE TOP 400
+WRITE CTSURGE 400
+SET BAR BARAPRA TOP 38
+SET BAR BARAPRB TOP 38
+WRITE CTAPRON 75
+Time 3002 37767
+Create coal1 4522
+Place 4522 On ReclaimConv
+Time 3002 52337
+Destroy 4492
+Time 3002 61963
+Destroy 4446
+Time 3002 6309
+Destroy 4373
+Time 3003.3412 15935
+SET BAR BARMINED RIGHT 20636
+WRITE CTMINED 20636
+SET BAR BARROW RIGHT 10109
+WRITE CTROW 10109
+Place 6 On ROW2FEED
+SET 6 TRAVEL 48.00
+Time 3004 50065
+Create coal1 4525
+Place 4525 On ReclaimConv
+Time 3004 64635
+Destroy 4495
+Time 3004 8725
+Destroy 4449
+Time 3004 18607
+Destroy 4376
+Time 3006 28233
+Create coal1 4528
+Place 4528 On ReclaimConv
+Time 3006 42803
+Destroy 4498
+Time 3006 52685
+Destroy 4452
+Time 3006 62311
+Destroy 4379
+Time 3006.7678 6401
+Place 9 On TODUMP2
+SET 9 TRAVEL 3.00
+Time 3008 21243
+Create coal1 4530
+Place 4530 On OverlandConv
+Create coal1 4531
+Place 4531 On ReclaimConv
+Time 3008 45434
+Destroy 4501
+Time 3008 55060
+Destroy 4455
+Time 3008 64942
+Destroy 4382
+Time 3008.2363 9032
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3010 23618
+Create coal1 4533
+Place 4533 On OverlandConv
+Create coal1 4534
+Place 4534 On ReclaimConv
+Create coal2 4535
+Place 4535 On ApronConv
+Time 3010 57686
+Destroy 4504
+Time 3010 2032
+Destroy 4458
+Time 3010 11658
+SET BAR BARFEEDA TOP 113
+SET BAR BARFEEDB TOP 113
+WRITE CTFEEDER 225
+SET BAR BARSURGE TOP 333
+WRITE CTSURGE 333
+SET BAR BARAPRA TOP 71
+SET BAR BARAPRB TOP 71
+WRITE CTAPRON 142
+Time 3010.2363 55435
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3012 4485
+Create coal1 4536
+Place 4536 On OverlandConv
+Create coal1 4537
+Place 4537 On ReclaimConv
+Create coal2 4538
+Place 4538 On ApronConv
+Time 3012 38553
+Destroy 4507
+Time 3012.2363 48179
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3013.7678 62765
+Place 9 On FEEDA2FEEDB
+SET 9 TRAVEL 1.00
+Time 3014 11815
+Create coal1 4539
+Place 4539 On OverlandConv
+Create coal1 4540
+Place 4540 On ReclaimConv
+Create coal2 4541
+Place 4541 On ApronConv
+Time 3014 45883
+Destroy 4510
+Time 3014 55765
+Destroy 4464
+Time 3014.2363 65391
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3016 14441
+Create coal1 4542
+Place 4542 On OverlandConv
+Create coal1 4543
+Place 4543 On ReclaimConv
+Create coal2 4544
+Place 4544 On ApronConv
+Time 3016 48509
+Destroy 4513
+Time 3016 58135
+Destroy 4467
+Time 3016.2363 2481
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3018 17067
+Create coal1 4545
+Place 4545 On OverlandConv
+Create coal1 4546
+Place 4546 On ReclaimConv
+Create coal2 4547
+Place 4547 On ApronConv
+Time 3018 51135
+Destroy 4516
+Time 3018 60761
+Destroy 4470
+WRITE silo2 8500
+SET BAR AMS2 RIGHT 8500
+Time 3018.2662 14751
+SET arm12 DIRECTIONAL
+Place arm12 On arm12forward
+SET arm12 TRAVEL 0.0085
+Place sh1 On shovel1forward
+SET sh1 TRAVEL 0.0085
+Time 3018.2748 43922
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11down
+SET arm11 TRAVEL 0.0085
+Place arm12 On arm12down
+SET arm12 TRAVEL 0.0085
+Place sh1 On shovel1down
+SET sh1 TRAVEL 0.0085
+Time 3018.2833 17194
+SET arm12 DIRECTIONAL
+Place arm12 On arm12back
+SET arm12 TRAVEL 0.0085
+Place sh1 On shovel1back
+SET sh1 TRAVEL 0.0085
+Time 3018.2918 46365
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11up
+SET arm11 TRAVEL 0.0085
+Place arm12 On arm12up
+SET arm12 TRAVEL 0.0085
+Place sh1 On shovel1up
+SET sh1 TRAVEL 0.0085
+Time 3018.7678 19893
+SET BAR BARFEEDB TOP 63
+WRITE CTFEEDER 125
+Place 9 On FEED2UPPER
+SET 9 TRAVEL 62.00
+Time 3020 44123
+Create coal1 4548
+Place 4548 On OverlandConv
+Create coal1 4549
+Place 4549 On ReclaimConv
+Time 3020 3034
+Destroy 4519
+Time 3020 12660
+Destroy 4473
+Time 3020 22286
+Destroy 4400
+Time 3020 32168
+SET BAR BARFEEDA TOP 63
+SET BAR BARSURGE TOP 367
+WRITE CTSURGE 367
+SET BAR BARAPRA TOP 42
+SET BAR BARAPRB TOP 42
+WRITE CTAPRON 83
+Time 3021.2107 765
+SET BAR BARMINED RIGHT 20824
+WRITE CTMINED 20824
+SET BAR BARROW RIGHT 10297
+WRITE CTROW 10297
+Place 7 On ROW2FEED
+SET 7 TRAVEL 48.00
+Time 3022 34639
+Create coal1 4551
+Place 4551 On OverlandConv
+Create coal1 4552
+Place 4552 On ReclaimConv
+Time 3022 59086
+Destroy 4522
+Time 3022 3176
+Destroy 4476
+Time 3022 12802
+Destroy 4403
+Time 3024 22684
+Create coal1 4554
+Place 4554 On OverlandConv
+Create coal1 4555
+Place 4555 On ReclaimConv
+Time 3024 46875
+Destroy 4525
+Time 3024 56757
+Destroy 4406
+Time 3026 847
+Create coal1 4557
+Place 4557 On OverlandConv
+Create coal1 4558
+Place 4558 On ReclaimConv
+Time 3026 25294
+Destroy 4528
+Time 3026 34920
+Destroy 4409
+Time 3028 44546
+Create coal1 4561
+Place 4561 On ReclaimConv
+Time 3028 59372
+Destroy 4531
+Time 3028 3462
+Destroy 4412
+Time 3028.2363 13088
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3030 27674
+Create coal1 4564
+Place 4564 On ReclaimConv
+Create coal2 4565
+Place 4565 On ApronConv
+Time 3030 52121
+Destroy 4534
+Time 3030 61747
+SET BAR BARFEEDA TOP 13
+SET BAR BARFEEDB TOP 13
+WRITE CTFEEDER 25
+SET BAR BARSURGE TOP 400
+WRITE CTSURGE 400
+SET BAR BARAPRA TOP 75
+SET BAR BARAPRB TOP 75
+WRITE CTAPRON 150
+Time 3030.2363 39988
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3032 54574
+Create coal1 4567
+Place 4567 On ReclaimConv
+Create coal2 4568
+Place 4568 On ApronConv
+Time 3032 13485
+Destroy 4537
+Time 3032.2363 23111
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3034 37697
+Create coal1 4570
+Place 4570 On ReclaimConv
+Create coal2 4571
+Place 4571 On ApronConv
+Time 3034 62144
+Destroy 4540
+Time 3034.2363 6234
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3036 20820
+Create coal1 4573
+Place 4573 On ReclaimConv
+Create coal2 4574
+Place 4574 On ApronConv
+Time 3036 45267
+Destroy 4543
+Time 3036.2363 54893
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3038 3943
+Create coal1 4576
+Place 4576 On ReclaimConv
+Create coal2 4577
+Place 4577 On ApronConv
+Time 3038 28390
+Destroy 4546
+Time 3038.1182 38016
+Place 10 On TODUMP2
+SET 10 TRAVEL 3.00
+WRITE silo2 8625
+SET BAR AMS2 RIGHT 8625
+Time 3040 62246
+Create coal1 4578
+Place 4578 On OverlandConv
+Create coal1 4579
+Place 4579 On ReclaimConv
+Time 3040 21157
+Destroy 4549
+Time 3040 30783
+Destroy 4430
+Time 3040 40665
+SET BAR BARFEEDA TOP 79
+SET BAR BARFEEDB TOP 79
+WRITE CTFEEDER 158
+SET BAR BARSURGE TOP 333
+WRITE CTSURGE 333
+SET BAR BARAPRA TOP 46
+SET BAR BARAPRB TOP 46
+WRITE CTAPRON 92
+Time 3042 18906
+Create coal1 4581
+Place 4581 On OverlandConv
+Create coal1 4582
+Place 4582 On ReclaimConv
+Time 3042 43097
+Destroy 4552
+Time 3042 52979
+Destroy 4433
+Time 3044 62605
+Create coal1 4584
+Place 4584 On OverlandConv
+Create coal1 4585
+Place 4585 On ReclaimConv
+Time 3044 21260
+Destroy 4555
+Time 3044 31142
+Destroy 4436
+Time 3045.1182 40768
+Place 10 On FEEDA2FEEDB
+SET 10 TRAVEL 1.00
+Time 3046 55354
+Create coal1 4587
+Place 4587 On OverlandConv
+Create coal1 4588
+Place 4588 On ReclaimConv
+Time 3046 14265
+Destroy 4558
+Time 3046 23891
+Destroy 4439
+Time 3048 33773
+Create coal1 4590
+Place 4590 On OverlandConv
+Create coal1 4591
+Place 4591 On ReclaimConv
+Time 3048 57964
+Destroy 4561
+Time 3048 2054
+Destroy 4442
+Time 3048.2363 11936
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3050 26522
+Create coal1 4594
+Place 4594 On ReclaimConv
+Create coal2 4595
+Place 4595 On ApronConv
+Time 3050 50713
+Destroy 4564
+Time 3050 60595
+SET BAR AVAMS1 TOP 5860
+WRITE AVPCTS1 54%
+SET BAR AVAMS2 TOP 1880
+WRITE AVPCTS2 17%
+SET BAR AVAMS3 TOP 0
+WRITE AVPCTS3 0%
+SET BAR AVAMS4 TOP 0
+WRITE AVPCTS4 0%
+SET BAR AVAMS5 TOP 0
+WRITE AVPCTS5 0%
+SET BAR AVAMS6 TOP 0
+WRITE AVPCTS6 0%
+SET BAR AVAMSURG TOP 308
+WRITE AVPCTSUR 3%
+WRITE TIME  5:10
+SET BAR BARFEEDA TOP 29
+SET BAR BARFEEDB TOP 29
+WRITE CTFEEDER 58
+SET BAR BARSURGE TOP 367
+WRITE CTSURGE 367
+SET BAR BARAPRA TOP 79
+SET BAR BARAPRB TOP 79
+WRITE CTAPRON 158
+Time 3050.1182 46272
+Place 10 On FEED2UPPER
+SET 10 TRAVEL 62.00
+Place 8 On TODUMP3
+SET 8 TRAVEL 3.00
+Time 3050.2363 4959
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3052 19545
+Create coal1 4596
+Place 4596 On OverlandConv
+Create coal1 4597
+Place 4597 On ReclaimConv
+Create coal2 4598
+Place 4598 On ApronConv
+Time 3052 53613
+Destroy 4567
+Time 3052.2363 63239
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3054 12289
+Create coal1 4599
+Place 4599 On OverlandConv
+Create coal1 4600
+Place 4600 On ReclaimConv
+Create coal2 4601
+Place 4601 On ApronConv
+Time 3054 46357
+Destroy 4570
+Time 3054.2363 56239
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3056 5289
+Create coal1 4602
+Place 4602 On OverlandConv
+Create coal1 4603
+Place 4603 On ReclaimConv
+Create coal2 4604
+Place 4604 On ApronConv
+Time 3056 39357
+Destroy 4573
+Time 3056.2363 48983
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3057.1182 63569
+SET BAR BARFEEDA TOP 107
+Place 8 On FEEDA2FEEDB
+SET 8 TRAVEL 1.00
+Time 3058 17567
+Create coal1 4605
+Place 4605 On OverlandConv
+Create coal1 4606
+Place 4606 On ReclaimConv
+Create coal2 4607
+Place 4607 On ApronConv
+Time 3058 51635
+Destroy 4576
+Time 3058 61261
+Destroy 4530
+WRITE silo2 8750
+SET BAR AMS2 RIGHT 8750
+Time 3060 15251
+Create coal1 4608
+Place 4608 On OverlandConv
+Create coal1 4609
+Place 4609 On ReclaimConv
+Time 3060 39442
+Destroy 4579
+Time 3060 49324
+Destroy 4533
+Time 3060 58950
+Destroy 4460
+Time 3060 3296
+SET BAR BARFEEDB TOP 107
+WRITE CTFEEDER 214
+SET BAR BARSURGE TOP 300
+WRITE CTSURGE 300
+SET BAR BARAPRA TOP 50
+SET BAR BARAPRB TOP 50
+WRITE CTAPRON 100
+Time 3062 42125
+Create coal1 4611
+Place 4611 On OverlandConv
+Create coal1 4612
+Place 4612 On ReclaimConv
+Time 3062 780
+Destroy 4582
+Time 3062 10662
+Destroy 4536
+Time 3062 20288
+Destroy 4463
+Time 3062.1182 30170
+SET BAR BARFEEDB TOP 57
+WRITE CTFEEDER 114
+Place 8 On FEED2LOWER
+SET 8 TRAVEL 55.00
+Place 6 On TODUMP1
+SET 6 TRAVEL 1.50
+Time 3064 64037
+Create coal1 4614
+Place 4614 On OverlandConv
+Create coal1 4615
+Place 4615 On ReclaimConv
+Time 3064 22948
+Destroy 4585
+Time 3064 32574
+Destroy 4539
+Time 3064 42456
+Destroy 4466
+Time 3065.6182 52082
+SET BAR BARFEEDA TOP 142
+Place 6 On FEEDA2FEEDB
+SET 6 TRAVEL 0.50
+Time 3066 6080
+Create coal1 4617
+Place 4617 On OverlandConv
+Create coal1 4618
+Place 4618 On ReclaimConv
+Time 3066 30271
+Destroy 4588
+Time 3066 40153
+Destroy 4542
+Time 3066 49779
+Destroy 4469
+Time 3068 59405
+Create coal1 4620
+Place 4620 On OverlandConv
+Create coal1 4621
+Place 4621 On ReclaimConv
+Time 3068 18316
+Destroy 4591
+Time 3068 27942
+Destroy 4545
+Time 3068 37824
+Destroy 4472
+Time 3068.1182 47450
+SET BAR BARFEEDB TOP 142
+WRITE CTFEEDER 285
+Place 6 On FEED2ROW
+SET 6 TRAVEL 50.00
+Time 3068.2363 6144
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3070 20986
+Create coal1 4623
+Place 4623 On OverlandConv
+Create coal1 4624
+Place 4624 On ReclaimConv
+Create coal2 4625
+Place 4625 On ApronConv
+Time 3070 54798
+Destroy 4594
+Time 3070 64680
+Destroy 4548
+Time 3070 8770
+Destroy 4475
+Time 3070 18652
+SET BAR BARSURGE TOP 333
+WRITE CTSURGE 333
+SET BAR BARAPRA TOP 83
+SET BAR BARAPRB TOP 83
+WRITE CTAPRON 167
+Time 3070.1182 47837
+Place 7 On TODUMP1
+SET 7 TRAVEL 1.50
+Time 3070.2363 62423
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3072 11473
+Create coal1 4626
+Place 4626 On OverlandConv
+Create coal1 4627
+Place 4627 On ReclaimConv
+Create coal2 4628
+Place 4628 On ApronConv
+Time 3072 45541
+Destroy 4597
+Time 3072 55167
+Destroy 4551
+Time 3072 64793
+Destroy 4478
+Time 3072.2363 9139
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3073.6182 23725
+SET BAR BARFEEDA TOP 192
+Place 7 On FEEDA2FEEDB
+SET 7 TRAVEL 0.50
+Time 3074 43259
+Create coal1 4629
+Place 4629 On OverlandConv
+Create coal1 4630
+Place 4630 On ReclaimConv
+Create coal2 4631
+Place 4631 On ApronConv
+Time 3074 11535
+Destroy 4600
+Time 3074 21417
+Destroy 4554
+Time 3074 31043
+Destroy 4481
+Time 3074.2363 40925
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3076 55511
+Create coal1 4632
+Place 4632 On OverlandConv
+Create coal1 4633
+Place 4633 On ReclaimConv
+Create coal2 4634
+Place 4634 On ApronConv
+Time 3076 24043
+Destroy 4603
+Time 3076 33669
+Destroy 4557
+Time 3076 43295
+Destroy 4484
+Time 3076.1182 53177
+SET BAR BARFEEDB TOP 192
+WRITE CTFEEDER 384
+Place 7 On FEED2ROW
+SET 7 TRAVEL 50.00
+Time 3076.2363 11871
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3078 26457
+Create coal1 4635
+Place 4635 On OverlandConv
+Create coal1 4636
+Place 4636 On ReclaimConv
+Create coal2 4637
+Place 4637 On ApronConv
+Time 3078 60525
+Destroy 4606
+Time 3078 4615
+Destroy 4487
+WRITE silo2 8875
+SET BAR AMS2 RIGHT 8875
+Time 3080 24141
+Create coal1 4638
+Place 4638 On OverlandConv
+Create coal1 4639
+Place 4639 On ReclaimConv
+Time 3080 48588
+Destroy 4609
+Time 3080 58214
+SET BAR BARSURGE TOP 367
+WRITE CTSURGE 367
+SET BAR BARAPRA TOP 54
+SET BAR BARAPRB TOP 54
+WRITE CTAPRON 108
+Time 3080.7678 21863
+SET arm22 DIRECTIONAL
+Place arm22 On arm22forward
+SET arm22 TRAVEL 0.6322
+Place sh2 On shovel2forward
+SET sh2 TRAVEL 0.6322
+Time 3081.4001 51034
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21down
+SET arm21 TRAVEL 0.6322
+Place arm22 On arm22down
+SET arm22 TRAVEL 0.6322
+Place sh2 On shovel2down
+SET sh2 TRAVEL 0.6322
+Time 3082 24562
+Create coal1 4641
+Place 4641 On OverlandConv
+Create coal1 4642
+Place 4642 On ReclaimConv
+Time 3082 48753
+Destroy 4612
+Time 3082.0323 58379
+SET arm22 DIRECTIONAL
+Place arm22 On arm22back
+SET arm22 TRAVEL 0.6322
+Place sh2 On shovel2back
+SET sh2 TRAVEL 0.6322
+Time 3082.6646 22270
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21up
+SET arm21 TRAVEL 0.6322
+Place arm22 On arm22up
+SET arm22 TRAVEL 0.6322
+Place sh2 On shovel2up
+SET sh2 TRAVEL 0.6322
+Time 3084 61078
+Create coal1 4644
+Place 4644 On OverlandConv
+Create coal1 4645
+Place 4645 On ReclaimConv
+Time 3084 19733
+Destroy 4615
+Time 3086 29615
+Create coal1 4647
+Place 4647 On OverlandConv
+Create coal1 4648
+Place 4648 On ReclaimConv
+Time 3086 53806
+Destroy 4618
+Time 3088 63688
+Create coal1 4650
+Place 4650 On OverlandConv
+Create coal1 4651
+Place 4651 On ReclaimConv
+Time 3088 22343
+Destroy 4621
+Time 3088.2363 32225
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3088.7091 46811
+Place ld On BackFrTr
+SET ld TRAVEL 20.0000
+Place ld On GotoS1
+SET ld TRAVEL 20.0000
+Place 14 On LdW5
+SET 14 TRAVEL 15.00
+Time 3090 15135
+Create coal1 4653
+Place 4653 On OverlandConv
+Create coal1 4654
+Place 4654 On ReclaimConv
+Create coal2 4655
+Place 4655 On ApronConv
+Time 3090 49203
+Destroy 4624
+Time 3090 59085
+Destroy 4578
+Time 3090 3175
+Destroy 4505
+Time 3090 12801
+SET BAR BARFEEDA TOP 142
+SET BAR BARFEEDB TOP 142
+WRITE CTFEEDER 284
+SET BAR BARSURGE TOP 400
+WRITE CTSURGE 400
+SET BAR BARAPRA TOP 88
+SET BAR BARAPRB TOP 88
+WRITE CTAPRON 175
+Time 3090.2363 56578
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3091.8902 5884
+SET BAR BARUPS RIGHT 7012
+WRITE CTUPS 7012
+SET BAR BARMINED RIGHT 20989
+WRITE CTMINED 20989
+Place 9 On UPPER2FEED
+SET 9 TRAVEL 48.00
+Time 3092 39758
+Create coal1 4656
+Place 4656 On OverlandConv
+Create coal1 4657
+Place 4657 On ReclaimConv
+Create coal2 4658
+Place 4658 On ApronConv
+Time 3092 8290
+Destroy 4627
+Time 3092 18172
+Destroy 4581
+Time 3092 27798
+Destroy 4508
+Time 3092.2363 37424
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3094 52010
+Create coal1 4659
+Place 4659 On OverlandConv
+Create coal1 4660
+Place 4660 On ReclaimConv
+Create coal2 4661
+Place 4661 On ApronConv
+Time 3094 20542
+Destroy 4630
+Time 3094 30424
+Destroy 4584
+Time 3094 40050
+Destroy 4511
+Time 3094.2363 49676
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3096 64262
+Create coal1 4662
+Place 4662 On OverlandConv
+Create coal1 4663
+Place 4663 On ReclaimConv
+Create coal2 4664
+Place 4664 On ApronConv
+Time 3096 32794
+Destroy 4633
+Time 3096 42676
+Destroy 4587
+Time 3096 52302
+Destroy 4514
+Time 3096.2363 62184
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3098 11234
+Create coal1 4665
+Place 4665 On OverlandConv
+Create coal1 4666
+Place 4666 On ReclaimConv
+Create coal2 4667
+Place 4667 On ApronConv
+Time 3098 45302
+Destroy 4636
+Time 3098 54928
+Destroy 4590
+Time 3098 64554
+Destroy 4517
+WRITE silo2 9000
+SET BAR AMS2 RIGHT 9000
+Time 3100 18544
+Create coal1 4668
+Place 4668 On OverlandConv
+Create coal1 4669
+Place 4669 On ReclaimConv
+Time 3100 42991
+Destroy 4639
+Time 3100 52617
+SET BAR AVAMS1 TOP 5800
+WRITE AVPCTS1 54%
+SET BAR AVAMS2 TOP 1990
+WRITE AVPCTS2 18%
+SET BAR AVAMS3 TOP 0
+WRITE AVPCTS3 0%
+SET BAR AVAMS4 TOP 0
+WRITE AVPCTS4 0%
+SET BAR AVAMS5 TOP 0
+WRITE AVPCTS5 0%
+SET BAR AVAMS6 TOP 0
+WRITE AVPCTS6 0%
+SET BAR AVAMSURG TOP 310
+WRITE AVPCTSUR 3%
+WRITE TIME  5:15
+SET BAR BARFEEDA TOP 92
+SET BAR BARFEEDB TOP 92
+WRITE CTFEEDER 184
+SET BAR BARSURGE TOP 433
+WRITE CTSURGE 433
+SET BAR BARAPRA TOP 58
+SET BAR BARAPRB TOP 58
+WRITE CTAPRON 117
+Time 3102 38294
+Create coal1 4672
+Place 4672 On ReclaimConv
+Time 3102 52864
+Destroy 4642
+Time 3102 62490
+Destroy 4596
+Time 3104 6836
+Create coal1 4675
+Place 4675 On ReclaimConv
+Time 3104 21406
+Destroy 4645
+Time 3104 31032
+Destroy 4599
+Time 3106 40914
+Create coal1 4678
+Place 4678 On ReclaimConv
+Time 3106 55484
+Destroy 4648
+Time 3106 65110
+Destroy 4602
+Time 3108 9456
+Create coal1 4681
+Place 4681 On ReclaimConv
+Time 3108 24026
+Destroy 4651
+Time 3108 33652
+Destroy 4605
+Time 3108.2363 43278
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3110 57864
+Create coal1 4684
+Place 4684 On ReclaimConv
+Create coal2 4685
+Place 4685 On ApronConv
+Time 3110 16775
+Destroy 4654
+Time 3110 26401
+Destroy 4608
+Time 3110 36283
+Destroy 4535
+Time 3110 45909
+SET BAR BARFEEDA TOP 42
+SET BAR BARFEEDB TOP 42
+WRITE CTFEEDER 84
+SET BAR BARSURGE TOP 467
+WRITE CTSURGE 467
+SET BAR BARAPRA TOP 92
+SET BAR BARAPRB TOP 92
+WRITE CTAPRON 183
+Time 3110.2363 24150
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3112 38736
+Create coal1 4687
+Place 4687 On ReclaimConv
+Create coal2 4688
+Place 4688 On ApronConv
+Time 3112 63183
+Destroy 4657
+Time 3112 7273
+Destroy 4611
+Time 3112 16899
+Destroy 4538
+Time 3112.1182 26781
+SET arm22 DIRECTIONAL
+Place arm22 On arm22forward
+SET arm22 TRAVEL 0.1800
+Place sh2 On shovel2forward
+SET sh2 TRAVEL 0.1800
+Time 3112.2363 55952
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3112.2982 5002
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21down
+SET arm21 TRAVEL 0.1800
+Place arm22 On arm22down
+SET arm22 TRAVEL 0.1800
+Place sh2 On shovel2down
+SET sh2 TRAVEL 0.1800
+Time 3112.4783 43810
+SET arm22 DIRECTIONAL
+Place arm22 On arm22back
+SET arm22 TRAVEL 0.1800
+Place sh2 On shovel2back
+SET sh2 TRAVEL 0.1800
+Time 3112.6583 7445
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21up
+SET arm21 TRAVEL 0.1800
+Place arm22 On arm22up
+SET arm22 TRAVEL 0.1800
+Place sh2 On shovel2up
+SET sh2 TRAVEL 0.1800
+Time 3114 46509
+Create coal1 4690
+Place 4690 On ReclaimConv
+Create coal2 4691
+Place 4691 On ApronConv
+Time 3114 5164
+Destroy 4660
+Time 3114 15046
+Destroy 4614
+Time 3114 24672
+Destroy 4541
+Time 3114.2363 34554
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3116 49140
+Create coal1 4693
+Place 4693 On ReclaimConv
+Create coal2 4694
+Place 4694 On ApronConv
+Time 3116 7795
+Destroy 4663
+Time 3116 17421
+Destroy 4617
+Time 3116 27303
+Destroy 4544
+Time 3116.1599 36929
+SET BAR BARUPS RIGHT 7163
+WRITE CTUPS 7163
+SET BAR BARMINED RIGHT 21140
+WRITE CTMINED 21140
+Place 10 On UPPER2FEED
+SET 10 TRAVEL 48.00
+Time 3116.2363 5523
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3117.1182 20109
+SET arm32 DIRECTIONAL
+Place arm32 On arm32forward
+SET arm32 TRAVEL 1.0704
+Place sh3 On shovel3forward
+SET sh3 TRAVEL 1.0704
+Time 3118 49280
+Create coal1 4696
+Place 4696 On ReclaimConv
+Create coal2 4697
+Place 4697 On ApronConv
+Time 3118 8191
+Destroy 4666
+Time 3118 17817
+Destroy 4620
+Time 3118 27443
+Destroy 4547
+Time 3118.1182 37325
+SET arm12 DIRECTIONAL
+Place arm12 On arm12forward
+SET arm12 TRAVEL 0.5079
+Place sh1 On shovel1forward
+SET sh1 TRAVEL 0.5079
+Time 3118.1886 960
+SET arm32 NONDIRECTIONAL
+Place arm31 On arm31down
+SET arm31 TRAVEL 1.0704
+Place arm32 On arm32down
+SET arm32 TRAVEL 1.0704
+Place sh3 On shovel3down
+SET sh3 TRAVEL 1.0704
+WRITE silo2 9125
+SET BAR AMS2 RIGHT 9125
+Time 3118.2363 49412
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3118.6261 64254
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11down
+SET arm11 TRAVEL 0.5079
+Place arm12 On arm12down
+SET arm12 TRAVEL 0.5079
+Place sh1 On shovel1down
+SET sh1 TRAVEL 0.5079
+Time 3119.134 37526
+SET arm12 DIRECTIONAL
+Place arm12 On arm12back
+SET arm12 TRAVEL 0.5079
+Place sh1 On shovel1back
+SET sh1 TRAVEL 0.5079
+Time 3119.259 1161
+SET arm32 DIRECTIONAL
+Place arm32 On arm32back
+SET arm32 TRAVEL 1.0704
+Place sh3 On shovel3back
+SET sh3 TRAVEL 1.0704
+Time 3119.6419 30332
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11up
+SET arm11 TRAVEL 0.5079
+Place arm12 On arm12up
+SET arm12 TRAVEL 0.5079
+Place sh1 On shovel1up
+SET sh1 TRAVEL 0.5079
+Time 3120 3604
+Create coal1 4699
+Place 4699 On ReclaimConv
+Create coal2 4700
+Place 4700 On ApronConv
+Time 3120 28051
+Destroy 4669
+Time 3120 37677
+Destroy 4623
+Time 3120 47559
+SET BAR BARSURGE TOP 400
+WRITE CTSURGE 400
+SET BAR BARAPRA TOP 63
+SET BAR BARAPRB TOP 63
+WRITE CTAPRON 125
+Time 3120.2363 11208
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3120.3293 25794
+SET arm32 NONDIRECTIONAL
+Place arm31 On arm31up
+SET arm31 TRAVEL 1.0704
+Place arm32 On arm32up
+SET arm32 TRAVEL 1.0704
+Place sh3 On shovel3up
+SET sh3 TRAVEL 1.0704
+Time 3122 64602
+Create coal1 4702
+Place 4702 On ReclaimConv
+Create coal2 4703
+Place 4703 On ApronConv
+Time 3122 23513
+Destroy 4672
+Time 3122 33139
+Destroy 4626
+Time 3122.2363 42765
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3124 57351
+Create coal1 4705
+Place 4705 On ReclaimConv
+Create coal2 4706
+Place 4706 On ApronConv
+Time 3124 16262
+Destroy 4675
+Time 3124 25888
+Destroy 4629
+Time 3124.2363 35770
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3125.9467 50356
+SET BAR BARMINED RIGHT 21329
+WRITE CTMINED 21329
+SET BAR BARROW RIGHT 10486
+WRITE CTROW 10486
+Place 6 On ROW2FEED
+SET 6 TRAVEL 48.00
+Time 3126 18694
+Create coal1 4708
+Place 4708 On ReclaimConv
+Create coal2 4709
+Place 4709 On ApronConv
+Time 3126 43141
+Destroy 4678
+Time 3126 52767
+Destroy 4632
+Time 3126.1182 62649
+SET arm12 DIRECTIONAL
+Place arm12 On arm12forward
+SET arm12 TRAVEL 0.2285
+Place sh1 On shovel1forward
+SET sh1 TRAVEL 0.2285
+Time 3126.2363 26284
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3126.3467 40870
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11down
+SET arm11 TRAVEL 0.2285
+Place arm12 On arm12down
+SET arm12 TRAVEL 0.2285
+Place sh1 On shovel1down
+SET sh1 TRAVEL 0.2285
+Time 3126.5751 14142
+SET arm12 DIRECTIONAL
+Place arm12 On arm12back
+SET arm12 TRAVEL 0.2285
+Place sh1 On shovel1back
+SET sh1 TRAVEL 0.2285
+Time 3126.8036 43313
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11up
+SET arm11 TRAVEL 0.2285
+Place arm12 On arm12up
+SET arm12 TRAVEL 0.2285
+Place sh1 On shovel1up
+SET sh1 TRAVEL 0.2285
+Time 3128 16841
+Create coal1 4711
+Place 4711 On ReclaimConv
+Create coal2 4712
+Place 4712 On ApronConv
+Time 3128 41032
+Destroy 4681
+Time 3128 50914
+Destroy 4635
+WRITE silo2 9250
+SET BAR AMS2 RIGHT 9250
+Time 3129.4903 4648
+SET BAR BARMINED RIGHT 21468
+WRITE CTMINED 21468
+SET BAR BARLOS RIGHT 3820
+WRITE CTLOS 3820
+Place 8 On LOWER2FEED
+SET 8 TRAVEL 48.00
+Time 3130 38778
+Create coal1 4714
+Place 4714 On ReclaimConv
+Time 3130 53348
+Destroy 4684
+Time 3130 63230
+Destroy 4638
+Time 3130 7320
+Destroy 4565
+Time 3130 16946
+SET BAR BARSURGE TOP 333
+WRITE CTSURGE 333
+SET BAR BARAPRA TOP 33
+SET BAR BARAPRB TOP 33
+WRITE CTAPRON 67
+Time 3132 46131
+Create coal1 4717
+Place 4717 On ReclaimConv
+Time 3132 60701
+Destroy 4687
+Time 3132 5047
+Destroy 4641
+Time 3132 14673
+Destroy 4568
+Time 3134 24555
+Create coal1 4720
+Place 4720 On ReclaimConv
+Time 3134 39125
+Destroy 4690
+Time 3134 48751
+Destroy 4644
+Time 3134 58377
+Destroy 4571
+Time 3135.0048 2723
+SET BAR BARMINED RIGHT 21655
+WRITE CTMINED 21655
+SET BAR BARROW RIGHT 10673
+WRITE CTROW 10673
+Place 7 On ROW2FEED
+SET 7 TRAVEL 48.00
+Time 3136 36853
+Create coal1 4723
+Place 4723 On ReclaimConv
+Time 3136 51423
+Destroy 4693
+Time 3136 61049
+Destroy 4647
+Time 3136 5139
+Destroy 4574
+Time 3138 15021
+Create coal1 4726
+Place 4726 On ReclaimConv
+Time 3138 29591
+Destroy 4696
+Time 3138 39217
+Destroy 4650
+Time 3138 49099
+Destroy 4577
+Time 3138.2363 58725
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3139.8902 7775
+Place 9 On TODUMP2
+SET 9 TRAVEL 3.00
+Time 3140 22361
+Create coal1 4728
+Place 4728 On OverlandConv
+Create coal1 4729
+Place 4729 On ReclaimConv
+Create coal2 4730
+Place 4730 On ApronConv
+Time 3140 56429
+Destroy 4699
+Time 3140 519
+Destroy 4653
+Time 3140 10401
+SET BAR BARFEEDA TOP 118
+SET BAR BARFEEDB TOP 118
+WRITE CTFEEDER 236
+SET BAR BARSURGE TOP 267
+WRITE CTSURGE 267
+SET BAR BARAPRA TOP 67
+SET BAR BARAPRB TOP 67
+WRITE CTAPRON 133
+Time 3140.2363 54178
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3142 3228
+Create coal1 4731
+Place 4731 On OverlandConv
+Create coal1 4732
+Place 4732 On ReclaimConv
+Create coal2 4733
+Place 4733 On ApronConv
+Time 3142 37296
+Destroy 4702
+Time 3142 46922
+Destroy 4656
+Time 3142.2363 56804
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3144 5854
+Create coal1 4734
+Place 4734 On OverlandConv
+Create coal1 4735
+Place 4735 On ReclaimConv
+Create coal2 4736
+Place 4736 On ApronConv
+Time 3144 39922
+Destroy 4705
+Time 3144 49548
+Destroy 4659
+Time 3144.2363 59174
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3146 8224
+Create coal1 4737
+Place 4737 On OverlandConv
+Create coal1 4738
+Place 4738 On ReclaimConv
+Create coal2 4739
+Place 4739 On ApronConv
+Time 3146 42292
+Destroy 4708
+Time 3146 52174
+Destroy 4662
+Time 3146.2363 61800
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3146.8902 10850
+Place 9 On FEEDA2FEEDB
+SET 9 TRAVEL 1.00
+Time 3148 25436
+Create coal1 4740
+Place 4740 On OverlandConv
+Create coal1 4741
+Place 4741 On ReclaimConv
+Create coal2 4742
+Place 4742 On ApronConv
+Time 3148 59504
+Destroy 4711
+Time 3148 3594
+Destroy 4665
+WRITE silo2 9375
+SET BAR AMS2 RIGHT 9375
+Time 3150 23120
+Create coal1 4743
+Place 4743 On OverlandConv
+Create coal1 4744
+Place 4744 On ReclaimConv
+Time 3150 47567
+Destroy 4714
+Time 3150 57193
+Destroy 4668
+Time 3150 1283
+Destroy 4595
+Time 3150 11165
+SET BAR AVAMS1 TOP 5750
+WRITE AVPCTS1 53%
+SET BAR AVAMS2 TOP 2110
+WRITE AVPCTS2 19%
+SET BAR AVAMS3 TOP 0
+WRITE AVPCTS3 0%
+SET BAR AVAMS4 TOP 0
+WRITE AVPCTS4 0%
+SET BAR AVAMS5 TOP 0
+WRITE AVPCTS5 0%
+SET BAR AVAMS6 TOP 0
+WRITE AVPCTS6 0%
+SET BAR AVAMSURG TOP 309
+WRITE AVPCTSUR 3%
+WRITE TIME  5:20
+SET BAR BARFEEDA TOP 68
+SET BAR BARFEEDB TOP 68
+WRITE CTFEEDER 136
+SET BAR BARSURGE TOP 300
+WRITE CTSURGE 300
+SET BAR BARAPRA TOP 38
+SET BAR BARAPRB TOP 38
+WRITE CTAPRON 75
+Time 3151.8902 62378
+Place 9 On FEED2UPPER
+SET 9 TRAVEL 62.00
+Time 3152 11428
+Create coal1 4746
+Place 4746 On OverlandConv
+Create coal1 4747
+Place 4747 On ReclaimConv
+Time 3152 35619
+Destroy 4717
+Time 3152 45501
+Destroy 4598
+Time 3154 55127
+Create coal1 4749
+Place 4749 On OverlandConv
+Create coal1 4750
+Place 4750 On ReclaimConv
+Time 3154 14038
+Destroy 4720
+Time 3154 23664
+Destroy 4601
+Time 3156 33290
+Create coal1 4752
+Place 4752 On OverlandConv
+Create coal1 4753
+Place 4753 On ReclaimConv
+Time 3156 57737
+Destroy 4723
+Time 3156 1827
+Destroy 4604
+Time 3158 11709
+Create coal1 4755
+Place 4755 On OverlandConv
+Create coal1 4756
+Place 4756 On ReclaimConv
+Time 3158 35900
+Destroy 4726
+Time 3158 45782
+Destroy 4607
+Time 3158.2363 55408
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3160 4458
+Create coal1 4759
+Place 4759 On ReclaimConv
+Create coal2 4760
+Place 4760 On ApronConv
+Time 3160 28905
+Destroy 4729
+Time 3160 38531
+SET BAR BARFEEDA TOP 18
+SET BAR BARFEEDB TOP 18
+WRITE CTFEEDER 36
+SET BAR BARSURGE TOP 333
+WRITE CTSURGE 333
+SET BAR BARAPRA TOP 71
+SET BAR BARAPRB TOP 71
+WRITE CTAPRON 142
+Time 3160.2363 16772
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3162 31358
+Create coal1 4762
+Place 4762 On ReclaimConv
+Create coal2 4763
+Place 4763 On ApronConv
+Time 3162 55805
+Destroy 4732
+Time 3162.2363 65431
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3164 14481
+Create coal1 4765
+Place 4765 On ReclaimConv
+Create coal2 4766
+Place 4766 On ApronConv
+Time 3164 38672
+Destroy 4735
+Time 3164.1599 48554
+Place 10 On TODUMP2
+SET 10 TRAVEL 3.00
+Time 3164.2363 63140
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3166 12190
+Create coal1 4767
+Place 4767 On OverlandConv
+Create coal1 4768
+Place 4768 On ReclaimConv
+Create coal2 4769
+Place 4769 On ApronConv
+Time 3166 46258
+Destroy 4738
+Time 3166.2363 55884
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3168 4934
+Create coal1 4770
+Place 4770 On OverlandConv
+Create coal1 4771
+Place 4771 On ReclaimConv
+Create coal2 4772
+Place 4772 On ApronConv
+Time 3168 39002
+Destroy 4741
+WRITE silo2 9500
+SET BAR AMS2 RIGHT 9500
+Time 3170 58528
+Create coal1 4773
+Place 4773 On OverlandConv
+Create coal1 4774
+Place 4774 On ReclaimConv
+Time 3170 17183
+Destroy 4744
+Time 3170 27065
+Destroy 4625
+Time 3170 36691
+SET BAR BARFEEDA TOP 101
+SET BAR BARFEEDB TOP 101
+WRITE CTFEEDER 201
+SET BAR BARSURGE TOP 267
+WRITE CTSURGE 267
+SET BAR BARAPRA TOP 42
+SET BAR BARAPRB TOP 42
+WRITE CTAPRON 83
+Time 3171.1599 14932
+Place 10 On FEEDA2FEEDB
+SET 10 TRAVEL 1.00
+Time 3172 29518
+Create coal1 4776
+Place 4776 On OverlandConv
+Create coal1 4777
+Place 4777 On ReclaimConv
+Time 3172 53965
+Destroy 4747
+Time 3172 63591
+Destroy 4628
+Time 3174 7681
+Create coal1 4779
+Place 4779 On OverlandConv
+Create coal1 4780
+Place 4780 On ReclaimConv
+Time 3174 32128
+Destroy 4750
+Time 3174 41754
+Destroy 4631
+Time 3176 51636
+Create coal1 4782
+Place 4782 On OverlandConv
+Create coal1 4783
+Place 4783 On ReclaimConv
+Time 3176 10291
+Destroy 4753
+Time 3176 20173
+Destroy 4634
+Time 3176.1599 29799
+SET BAR BARFEEDB TOP 51
+WRITE CTFEEDER 101
+Place 10 On FEED2UPPER
+SET 10 TRAVEL 62.00
+Place 6 On TODUMP1
+SET 6 TRAVEL 1.50
+Time 3178 63922
+Create coal1 4785
+Place 4785 On OverlandConv
+Create coal1 4786
+Place 4786 On ReclaimConv
+Time 3178 22577
+Destroy 4756
+Time 3178 32459
+Destroy 4637
+Time 3178.2363 42085
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3179.6599 56671
+SET BAR BARFEEDA TOP 144
+Place 6 On FEEDA2FEEDB
+SET 6 TRAVEL 0.50
+Time 3180 10669
+Create coal1 4788
+Place 4788 On OverlandConv
+Create coal1 4789
+Place 4789 On ReclaimConv
+Create coal2 4790
+Place 4790 On ApronConv
+Time 3180 44737
+Destroy 4759
+Time 3180 54363
+SET BAR BARFEEDB TOP 144
+WRITE CTFEEDER 289
+SET BAR BARSURGE TOP 300
+WRITE CTSURGE 300
+SET BAR BARAPRA TOP 75
+SET BAR BARAPRB TOP 75
+WRITE CTAPRON 150
+Time 3180.2363 27656
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3182 42242
+Create coal1 4791
+Place 4791 On OverlandConv
+Create coal1 4792
+Place 4792 On ReclaimConv
+Create coal2 4793
+Place 4793 On ApronConv
+Time 3182 10774
+Destroy 4762
+Time 3182.1599 20656
+Place 6 On FEED2ROW
+SET 6 TRAVEL 50.00
+Time 3182.2363 35242
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3184 49828
+Create coal1 4794
+Place 4794 On OverlandConv
+Create coal1 4795
+Place 4795 On ReclaimConv
+Create coal2 4796
+Place 4796 On ApronConv
+Time 3184 18360
+Destroy 4765
+Time 3184.1599 27986
+Place 7 On TODUMP1
+SET 7 TRAVEL 1.50
+Time 3184.2363 42572
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3186 57158
+Create coal1 4797
+Place 4797 On OverlandConv
+Create coal1 4798
+Place 4798 On ReclaimConv
+Create coal2 4799
+Place 4799 On ApronConv
+Time 3186 25690
+Destroy 4768
+Time 3186.2363 35572
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3187.6599 50158
+SET BAR BARFEEDA TOP 189
+Place 7 On FEEDA2FEEDB
+SET 7 TRAVEL 0.50
+Time 3188 3900
+Create coal1 4800
+Place 4800 On OverlandConv
+Create coal1 4801
+Place 4801 On ReclaimConv
+Create coal2 4802
+Place 4802 On ApronConv
+Time 3188 37968
+Destroy 4771
+WRITE silo2 9625
+SET BAR AMS2 RIGHT 9625
+Time 3190 57494
+Create coal1 4803
+Place 4803 On OverlandConv
+Create coal1 4804
+Place 4804 On ReclaimConv
+Time 3190 16149
+Destroy 4774
+Time 3190 26031
+Destroy 4728
+Time 3190 35657
+Destroy 4655
+Time 3190 45539
+SET BAR BARFEEDB TOP 189
+WRITE CTFEEDER 378
+SET BAR BARSURGE TOP 333
+WRITE CTSURGE 333
+SET BAR BARAPRA TOP 46
+SET BAR BARAPRB TOP 46
+WRITE CTAPRON 92
+Time 3190.1599 18832
+Place 7 On FEED2ROW
+SET 7 TRAVEL 50.00
+Time 3192 33418
+Create coal1 4806
+Place 4806 On OverlandConv
+Create coal1 4807
+Place 4807 On ReclaimConv
+Time 3192 57609
+Destroy 4777
+Time 3192 1955
+Destroy 4731
+Time 3192 11581
+Destroy 4658
+Time 3194 21463
+Create coal1 4809
+Place 4809 On OverlandConv
+Create coal1 4810
+Place 4810 On ReclaimConv
+Time 3194 45654
+Destroy 4780
+Time 3194 55536
+Destroy 4734
+Time 3194 65162
+Destroy 4661
+Time 3196 9252
+Create coal1 4812
+Place 4812 On OverlandConv
+Create coal1 4813
+Place 4813 On ReclaimConv
+Time 3196 33699
+Destroy 4783
+Time 3196 43325
+Destroy 4737
+Time 3196 53207
+Destroy 4664
+Time 3198 62833
+Create coal1 4815
+Place 4815 On OverlandConv
+Create coal1 4816
+Place 4816 On ReclaimConv
+Time 3198 21744
+Destroy 4786
+Time 3198 31370
+Destroy 4740
+Time 3198 40996
+Destroy 4667
+Time 3198.2363 50878
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3200 65464
+Create coal1 4818
+Place 4818 On OverlandConv
+Create coal1 4819
+Place 4819 On ReclaimConv
+Create coal2 4820
+Place 4820 On ApronConv
+Time 3200 33996
+Destroy 4789
+Time 3200 43622
+Destroy 4743
+Time 3200 53248
+SET BAR AVAMS1 TOP 5690
+WRITE AVPCTS1 52%
+SET BAR AVAMS2 TOP 2220
+WRITE AVPCTS2 20%
+SET BAR AVAMS3 TOP 0
+WRITE AVPCTS3 0%
+SET BAR AVAMS4 TOP 0
+WRITE AVPCTS4 0%
+SET BAR AVAMS5 TOP 0
+WRITE AVPCTS5 0%
+SET BAR AVAMS6 TOP 0
+WRITE AVPCTS6 0%
+SET BAR AVAMSURG TOP 310
+WRITE AVPCTSUR 3%
+WRITE TIME  5:25
+SET BAR BARFEEDA TOP 139
+SET BAR BARFEEDB TOP 139
+WRITE CTFEEDER 278
+SET BAR BARSURGE TOP 367
+WRITE CTSURGE 367
+SET BAR BARAPRA TOP 79
+SET BAR BARAPRB TOP 79
+WRITE CTAPRON 158
+Time 3200.2363 38925
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3202 53511
+Create coal1 4821
+Place 4821 On OverlandConv
+Create coal1 4822
+Place 4822 On ReclaimConv
+Create coal2 4823
+Place 4823 On ApronConv
+Time 3202 22043
+Destroy 4792
+Time 3202 31925
+Destroy 4746
+Time 3202.2363 41551
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3204 56137
+Create coal1 4824
+Place 4824 On OverlandConv
+Create coal1 4825
+Place 4825 On ReclaimConv
+Create coal2 4826
+Place 4826 On ApronConv
+Time 3204 24669
+Destroy 4795
+Time 3204 34551
+Destroy 4749
+Time 3204.1599 44177
+Place 8 On TODUMP3
+SET 8 TRAVEL 3.00
+Time 3204.2363 58763
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3206 7813
+Create coal1 4827
+Place 4827 On OverlandConv
+Create coal1 4828
+Place 4828 On ReclaimConv
+Create coal2 4829
+Place 4829 On ApronConv
+Time 3206 41881
+Destroy 4798
+Time 3206 51507
+Destroy 4752
+Time 3206.2363 61389
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3208 10439
+Create coal1 4830
+Place 4830 On OverlandConv
+Create coal1 4831
+Place 4831 On ReclaimConv
+Create coal2 4832
+Place 4832 On ApronConv
+Time 3208 44507
+Destroy 4801
+Time 3208 54133
+Destroy 4755
+WRITE silo2 9750
+SET BAR AMS2 RIGHT 9750
+Time 3210 8123
+Create coal1 4833
+Place 4833 On OverlandConv
+Create coal1 4834
+Place 4834 On ReclaimConv
+Time 3210 32314
+Destroy 4804
+Time 3210 42196
+Destroy 4685
+Time 3210 51822
+SET BAR BARFEEDA TOP 164
+SET BAR BARFEEDB TOP 164
+WRITE CTFEEDER 329
+SET BAR BARSURGE TOP 400
+WRITE CTSURGE 400
+SET BAR BARAPRA TOP 50
+SET BAR BARAPRB TOP 50
+WRITE CTAPRON 100
+Time 3211.1599 30063
+Place 8 On FEEDA2FEEDB
+SET 8 TRAVEL 1.00
+Time 3212 44649
+Create coal1 4836
+Place 4836 On OverlandConv
+Create coal1 4837
+Place 4837 On ReclaimConv
+Time 3212 3560
+Destroy 4807
+Time 3212 13186
+Destroy 4688
+Time 3213.8902 22812
+SET arm22 DIRECTIONAL
+Place arm22 On arm22forward
+SET arm22 TRAVEL 0.7493
+Place sh2 On shovel2forward
+SET sh2 TRAVEL 0.7493
+Time 3214 51983
+Create coal1 4839
+Place 4839 On OverlandConv
+Create coal1 4840
+Place 4840 On ReclaimConv
+Time 3214 10894
+Destroy 4810
+Time 3214 20520
+Destroy 4691
+Time 3214.6395 30402
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21down
+SET arm21 TRAVEL 0.7493
+Place arm22 On arm22down
+SET arm22 TRAVEL 0.7493
+Place sh2 On shovel2down
+SET sh2 TRAVEL 0.7493
+Time 3215.3888 3674
+SET arm22 DIRECTIONAL
+Place arm22 On arm22back
+SET arm22 TRAVEL 0.7493
+Place sh2 On shovel2back
+SET sh2 TRAVEL 0.7493
+Time 3216 32845
+Create coal1 4842
+Place 4842 On OverlandConv
+Create coal1 4843
+Place 4843 On ReclaimConv
+Time 3216 57292
+Destroy 4813
+Time 3216 1382
+Destroy 4767
+Time 3216 11008
+Destroy 4694
+Time 3216.138 20890
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21up
+SET arm21 TRAVEL 0.7493
+Place arm22 On arm22up
+SET arm22 TRAVEL 0.7493
+Place sh2 On shovel2up
+SET sh2 TRAVEL 0.7493
+Time 3216.1599 59698
+SET BAR BARFEEDB TOP 114
+WRITE CTFEEDER 229
+Place 8 On FEED2LOWER
+SET 8 TRAVEL 55.00
+Time 3218 18648
+Create coal1 4845
+Place 4845 On OverlandConv
+Create coal1 4846
+Place 4846 On ReclaimConv
+Time 3218 42839
+Destroy 4816
+Time 3218 52721
+Destroy 4770
+Time 3218 62347
+Destroy 4697
+Time 3218.2363 6437
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3220 21023
+Create coal1 4848
+Place 4848 On OverlandConv
+Create coal1 4849
+Place 4849 On ReclaimConv
+Create coal2 4850
+Place 4850 On ApronConv
+Time 3220 55091
+Destroy 4819
+Time 3220 64973
+Destroy 4773
+Time 3220 9063
+Destroy 4700
+Time 3220 18689
+SET BAR BARFEEDA TOP 114
+SET BAR BARSURGE TOP 433
+WRITE CTSURGE 433
+SET BAR BARAPRA TOP 83
+SET BAR BARAPRB TOP 83
+WRITE CTAPRON 167
+Time 3220.2363 52822
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3222 1872
+Create coal1 4851
+Place 4851 On OverlandConv
+Create coal1 4852
+Place 4852 On ReclaimConv
+Create coal2 4853
+Place 4853 On ApronConv
+Time 3222 35940
+Destroy 4822
+Time 3222 45822
+Destroy 4776
+Time 3222 55448
+Destroy 4703
+Time 3222.2363 65074
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3224 14124
+Create coal1 4854
+Place 4854 On OverlandConv
+Create coal1 4855
+Place 4855 On ReclaimConv
+Create coal2 4856
+Place 4856 On ApronConv
+Time 3224 48192
+Destroy 4825
+Time 3224 58074
+Destroy 4779
+Time 3224 2164
+Destroy 4706
+Time 3224.2363 11790
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3226 26376
+Create coal1 4857
+Place 4857 On OverlandConv
+Create coal1 4858
+Place 4858 On ReclaimConv
+Create coal2 4859
+Place 4859 On ApronConv
+Time 3226 60444
+Destroy 4828
+Time 3226 4790
+Destroy 4782
+Time 3226 14416
+Destroy 4709
+Time 3226.2363 24298
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3228 38884
+Create coal1 4860
+Place 4860 On OverlandConv
+Create coal1 4861
+Place 4861 On ReclaimConv
+Create coal2 4862
+Place 4862 On ApronConv
+Time 3228 7416
+Destroy 4831
+Time 3228 17042
+Destroy 4785
+Time 3228 26668
+Destroy 4712
+WRITE silo2 9875
+SET BAR AMS2 RIGHT 9875
+WRITE silo1 0
+SET BAR AMS1 RIGHT 0
+Time 3228.7091 55838
+Place ld On LdTrS1
+Time 3230 196
+Create coal1 4863
+Place 4863 On OverlandConv
+Create coal1 4864
+Place 4864 On ReclaimConv
+Time 3230 24387
+Destroy 4834
+Time 3230 34269
+Destroy 4788
+Time 3230 43895
+SET BAR BARFEEDA TOP 64
+SET BAR BARFEEDB TOP 64
+WRITE CTFEEDER 129
+SET BAR BARSURGE TOP 467
+WRITE CTSURGE 467
+SET BAR BARAPRA TOP 54
+SET BAR BARAPRB TOP 54
+WRITE CTAPRON 108
+Time 3232 22136
+Create coal1 4866
+Place 4866 On OverlandConv
+Create coal1 4867
+Place 4867 On ReclaimConv
+Time 3232 46583
+Destroy 4837
+Time 3232 56209
+Destroy 4791
+Time 3232.1599 299
+SET arm12 DIRECTIONAL
+Place arm12 On arm12forward
+SET arm12 TRAVEL 0.4519
+Place sh1 On shovel1forward
+SET sh1 TRAVEL 0.4519
+Time 3232.5052 29470
+SET BAR BARUPS RIGHT 7309
+WRITE CTUPS 7309
+SET BAR BARMINED RIGHT 21802
+WRITE CTMINED 21802
+Place 9 On UPPER2FEED
+SET 9 TRAVEL 48.00
+Time 3232.6118 63600
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11down
+SET arm11 TRAVEL 0.4519
+Place arm12 On arm12down
+SET arm12 TRAVEL 0.4519
+Place sh1 On shovel1down
+SET sh1 TRAVEL 0.4519
+Time 3233.0637 36872
+SET arm12 DIRECTIONAL
+Place arm12 On arm12back
+SET arm12 TRAVEL 0.4519
+Place sh1 On shovel1back
+SET sh1 TRAVEL 0.4519
+Time 3233.5156 763
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11up
+SET arm11 TRAVEL 0.4519
+Place arm12 On arm12up
+SET arm12 TRAVEL 0.4519
+Place sh1 On shovel1up
+SET sh1 TRAVEL 0.4519
+Time 3234 39571
+Create coal1 4869
+Place 4869 On OverlandConv
+Create coal1 4870
+Place 4870 On ReclaimConv
+Time 3234 63762
+Destroy 4840
+Time 3234 8108
+Destroy 4794
+Time 3236 17734
+Create coal1 4873
+Place 4873 On ReclaimConv
+Time 3236 32304
+Destroy 4843
+Time 3236 42186
+Destroy 4797
+Time 3238 51812
+Create coal1 4876
+Place 4876 On ReclaimConv
+Time 3238 846
+Destroy 4846
+Time 3238 10728
+Destroy 4800
+Time 3238.1599 20354
+SET arm22 DIRECTIONAL
+Place arm22 On arm22forward
+SET arm22 TRAVEL 0.1377
+Place sh2 On shovel2forward
+SET sh2 TRAVEL 0.1377
+Time 3238.2363 49525
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3238.2975 64111
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21down
+SET arm21 TRAVEL 0.1377
+Place arm22 On arm22down
+SET arm22 TRAVEL 0.1377
+Place sh2 On shovel2down
+SET sh2 TRAVEL 0.1377
+Time 3238.4352 37383
+SET arm22 DIRECTIONAL
+Place arm22 On arm22back
+SET arm22 TRAVEL 0.1377
+Place sh2 On shovel2back
+SET sh2 TRAVEL 0.1377
+Time 3238.5729 1274
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21up
+SET arm21 TRAVEL 0.1377
+Place arm22 On arm22up
+SET arm22 TRAVEL 0.1377
+Place sh2 On shovel2up
+SET sh2 TRAVEL 0.1377
+Time 3240 40082
+Create coal1 4879
+Place 4879 On ReclaimConv
+Create coal2 4880
+Place 4880 On ApronConv
+Time 3240 64273
+Destroy 4849
+Time 3240 8619
+Destroy 4803
+Time 3240 18245
+Destroy 4730
+Time 3240 28127
+SET BAR BARFEEDA TOP 14
+SET BAR BARFEEDB TOP 14
+WRITE CTFEEDER 29
+SET BAR BARSURGE TOP 500
+WRITE CTSURGE 500
+SET BAR BARAPRA TOP 88
+SET BAR BARAPRB TOP 88
+WRITE CTAPRON 175
+Time 3240.2363 6368
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3242 20954
+Create coal1 4882
+Place 4882 On ReclaimConv
+Create coal2 4883
+Place 4883 On ApronConv
+Time 3242 45145
+Destroy 4852
+Time 3242 55027
+Destroy 4806
+Time 3242 64653
+Destroy 4733
+Time 3242.2363 8743
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3243.8339 23329
+SET BAR BARUPS RIGHT 7459
+WRITE CTUPS 7459
+SET BAR BARMINED RIGHT 21951
+WRITE CTMINED 21951
+Place 10 On UPPER2FEED
+SET 10 TRAVEL 48.00
+Time 3244 57459
+Create coal1 4885
+Place 4885 On ReclaimConv
+Create coal2 4886
+Place 4886 On ApronConv
+Time 3244 16370
+Destroy 4855
+Time 3244 25996
+Destroy 4809
+Time 3244 35622
+Destroy 4736
+Time 3244.2363 45504
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3246 60090
+Create coal1 4888
+Place 4888 On ReclaimConv
+Create coal2 4889
+Place 4889 On ApronConv
+Time 3246 18745
+Destroy 4858
+Time 3246 28627
+Destroy 4812
+Time 3246 38253
+Destroy 4739
+Time 3246.2363 47879
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3248 62465
+Create coal1 4891
+Place 4891 On ReclaimConv
+Create coal2 4892
+Place 4892 On ApronConv
+Time 3248 21376
+Destroy 4861
+Time 3248 31002
+Destroy 4815
+Time 3248 40884
+Destroy 4742
+WRITE silo2 10000
+SET BAR AMS2 RIGHT 10000
+Time 3250 60410
+Create coal1 4894
+Place 4894 On ReclaimConv
+Time 3250 9444
+Destroy 4864
+Time 3250 19070
+Destroy 4818
+Time 3250 28696
+SET BAR AVAMS1 TOP 5600
+WRITE AVPCTS1 52%
+SET BAR AVAMS2 TOP 2340
+WRITE AVPCTS2 21%
+SET BAR AVAMS3 TOP 0
+WRITE AVPCTS3 0%
+SET BAR AVAMS4 TOP 0
+WRITE AVPCTS4 0%
+SET BAR AVAMS5 TOP 0
+WRITE AVPCTS5 0%
+SET BAR AVAMS6 TOP 0
+WRITE AVPCTS6 0%
+SET BAR AVAMSURG TOP 312
+WRITE AVPCTSUR 3%
+WRITE TIME  5:30
+SET BAR BARSURGE TOP 433
+WRITE CTSURGE 433
+SET BAR BARAPRA TOP 58
+SET BAR BARAPRB TOP 58
+WRITE CTAPRON 117
+Time 3250.3957 65317
+SET BAR BARMINED RIGHT 22140
+WRITE CTMINED 22140
+SET BAR BARROW RIGHT 10862
+WRITE CTROW 10862
+Place 6 On ROW2FEED
+SET 6 TRAVEL 48.00
+SET arm12 DIRECTIONAL
+Place arm12 On arm12forward
+SET arm12 TRAVEL 0.2384
+Place sh1 On shovel1forward
+SET sh1 TRAVEL 0.2384
+Time 3250.6341 58133
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11down
+SET arm11 TRAVEL 0.2384
+Place arm12 On arm12down
+SET arm12 TRAVEL 0.2384
+Place sh1 On shovel1down
+SET sh1 TRAVEL 0.2384
+Time 3250.8726 31661
+SET arm12 DIRECTIONAL
+Place arm12 On arm12back
+SET arm12 TRAVEL 0.2384
+Place sh1 On shovel1back
+SET sh1 TRAVEL 0.2384
+Time 3251.111 60832
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11up
+SET arm11 TRAVEL 0.2384
+Place arm12 On arm12up
+SET arm12 TRAVEL 0.2384
+Place sh1 On shovel1up
+SET sh1 TRAVEL 0.2384
+Time 3252 34104
+Create coal1 4897
+Place 4897 On ReclaimConv
+Time 3252 48674
+Destroy 4867
+Time 3252 58556
+Destroy 4821
+Time 3254 2646
+Create coal1 4900
+Place 4900 On ReclaimConv
+Time 3254 17216
+Destroy 4870
+Time 3254 27098
+Destroy 4824
+Time 3254.0452 36724
+SET BAR BARMINED RIGHT 22311
+WRITE CTMINED 22311
+SET BAR BARROW RIGHT 11033
+WRITE CTROW 11033
+Place 7 On ROW2FEED
+SET 7 TRAVEL 48.00
+Time 3256 5318
+Create coal1 4903
+Place 4903 On ReclaimConv
+Time 3256 19888
+Destroy 4873
+Time 3256 29514
+Destroy 4827
+Time 3258 39396
+Create coal1 4906
+Place 4906 On ReclaimConv
+Time 3258 53966
+Destroy 4876
+Time 3258 63592
+Destroy 4830
+Time 3258.2363 7682
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3260 22524
+Create coal1 4909
+Place 4909 On ReclaimConv
+Create coal2 4910
+Place 4910 On ApronConv
+Time 3260 46715
+Destroy 4879
+Time 3260 56341
+Destroy 4833
+Time 3260 687
+Destroy 4760
+Time 3260 10313
+SET BAR BARSURGE TOP 367
+WRITE CTSURGE 367
+SET BAR BARAPRA TOP 92
+SET BAR BARAPRB TOP 92
+WRITE CTAPRON 183
+Time 3260.2363 39498
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3262 54084
+Create coal1 4912
+Place 4912 On ReclaimConv
+Create coal2 4913
+Place 4913 On ApronConv
+Time 3262 12995
+Destroy 4882
+Time 3262 22621
+Destroy 4836
+Time 3262 32503
+Destroy 4763
+Time 3262.2363 42129
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3264 56715
+Create coal1 4915
+Place 4915 On ReclaimConv
+Create coal2 4916
+Place 4916 On ApronConv
+Time 3264 15370
+Destroy 4885
+Time 3264 25252
+Destroy 4839
+Time 3264 34878
+Destroy 4766
+Time 3264.2363 44760
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3266 59346
+Create coal1 4918
+Place 4918 On ReclaimConv
+Create coal2 4919
+Place 4919 On ApronConv
+Time 3266 18001
+Destroy 4888
+Time 3266 27883
+Destroy 4842
+Time 3266 37509
+Destroy 4769
+Time 3266.2363 47135
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3268 61721
+Create coal1 4921
+Place 4921 On ReclaimConv
+Create coal2 4922
+Place 4922 On ApronConv
+Time 3268 20632
+Destroy 4891
+Time 3268 30258
+Destroy 4845
+Time 3268 40140
+Destroy 4772
+WRITE silo2 10125
+SET BAR AMS2 RIGHT 10125
+Time 3268.2363 59410
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3270 8460
+Create coal1 4924
+Place 4924 On ReclaimConv
+Create coal2 4925
+Place 4925 On ApronConv
+Time 3270 32907
+Destroy 4894
+Time 3270 42533
+Destroy 4848
+Time 3270 52415
+SET BAR BARSURGE TOP 300
+WRITE CTSURGE 300
+SET BAR BARAPRA TOP 63
+SET BAR BARAPRB TOP 63
+WRITE CTAPRON 125
+Time 3270.2363 16064
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3271.1599 30650
+SET arm32 DIRECTIONAL
+Place arm32 On arm32forward
+SET arm32 TRAVEL 1.0071
+Place sh3 On shovel3forward
+SET sh3 TRAVEL 1.0071
+Time 3272 59821
+Create coal1 4927
+Place 4927 On ReclaimConv
+Create coal2 4928
+Place 4928 On ApronConv
+Time 3272 18476
+Destroy 4897
+Time 3272 28358
+Destroy 4851
+Time 3272.167 37984
+SET arm32 NONDIRECTIONAL
+Place arm31 On arm31down
+SET arm31 TRAVEL 1.0071
+Place arm32 On arm32down
+SET arm32 TRAVEL 1.0071
+Place sh3 On shovel3down
+SET sh3 TRAVEL 1.0071
+Time 3272.2363 11512
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3273.1741 26098
+SET arm32 DIRECTIONAL
+Place arm32 On arm32back
+SET arm32 TRAVEL 1.0071
+Place sh3 On shovel3back
+SET sh3 TRAVEL 1.0071
+Time 3274 55269
+Create coal1 4930
+Place 4930 On ReclaimConv
+Create coal2 4931
+Place 4931 On ApronConv
+Time 3274 13924
+Destroy 4900
+Time 3274 23806
+Destroy 4854
+Time 3274.1812 33432
+SET arm32 NONDIRECTIONAL
+Place arm31 On arm31up
+SET arm31 TRAVEL 1.0071
+Place arm32 On arm32up
+SET arm32 TRAVEL 1.0071
+Place sh3 On shovel3up
+SET sh3 TRAVEL 1.0071
+Time 3274.2363 6704
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3276 21290
+Create coal1 4933
+Place 4933 On ReclaimConv
+Create coal2 4934
+Place 4934 On ApronConv
+Time 3276 45737
+Destroy 4903
+Time 3276 55363
+Destroy 4857
+Time 3276.2363 65245
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3278 14295
+Create coal1 4936
+Place 4936 On ReclaimConv
+Create coal2 4937
+Place 4937 On ApronConv
+Time 3278 38486
+Destroy 4906
+Time 3278 48368
+Destroy 4860
+WRITE silo2 10250
+SET BAR AMS2 RIGHT 10250
+Time 3280 2102
+Create coal1 4939
+Place 4939 On ReclaimConv
+Time 3280 16672
+Destroy 4909
+Time 3280 26554
+Destroy 4863
+Time 3280 36180
+Destroy 4790
+Time 3280 46062
+SET BAR BARSURGE TOP 233
+WRITE CTSURGE 233
+SET BAR BARAPRA TOP 33
+SET BAR BARAPRB TOP 33
+WRITE CTAPRON 67
+Time 3280.5052 9711
+Place 9 On TODUMP2
+SET 9 TRAVEL 3.00
+Time 3281.9166 24297
+SET BAR BARMINED RIGHT 22451
+WRITE CTMINED 22451
+SET BAR BARLOS RIGHT 3960
+WRITE CTLOS 3960
+Place 8 On LOWER2FEED
+SET 8 TRAVEL 48.00
+Time 3282 58171
+Create coal1 4941
+Place 4941 On OverlandConv
+Create coal1 4942
+Place 4942 On ReclaimConv
+Time 3282 17082
+Destroy 4912
+Time 3282 26708
+Destroy 4866
+Time 3282 36590
+Destroy 4793
+Time 3284 46216
+Create coal1 4944
+Place 4944 On OverlandConv
+Create coal1 4945
+Place 4945 On ReclaimConv
+Time 3284 4871
+Destroy 4915
+Time 3284 14753
+Destroy 4869
+Time 3284 24379
+Destroy 4796
+Time 3286 34261
+Create coal1 4947
+Place 4947 On OverlandConv
+Create coal1 4948
+Place 4948 On ReclaimConv
+Time 3286 58452
+Destroy 4918
+Time 3286 2798
+Destroy 4799
+Time 3287.5052 12424
+SET BAR BARFEEDA TOP 84
+Place 9 On FEEDA2FEEDB
+SET 9 TRAVEL 1.00
+Time 3288 31958
+Create coal1 4950
+Place 4950 On OverlandConv
+Create coal1 4951
+Place 4951 On ReclaimConv
+Time 3288 56149
+Destroy 4921
+Time 3288 495
+Destroy 4802
+Time 3288.2363 10121
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3290 24707
+Create coal1 4953
+Place 4953 On OverlandConv
+Create coal1 4954
+Place 4954 On ReclaimConv
+Create coal2 4955
+Place 4955 On ApronConv
+Time 3290 58775
+Destroy 4924
+Time 3290 2865
+SET BAR BARFEEDB TOP 84
+WRITE CTFEEDER 168
+SET BAR BARSURGE TOP 167
+WRITE CTSURGE 167
+SET BAR BARAPRA TOP 67
+SET BAR BARAPRB TOP 67
+WRITE CTAPRON 133
+Time 3290.2363 41950
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3292 56536
+Create coal1 4957
+Place 4957 On ReclaimConv
+Create coal2 4958
+Place 4958 On ApronConv
+Time 3292 15191
+Destroy 4927
+Time 3292.2363 25073
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3292.5052 39659
+SET BAR BARFEEDB TOP 34
+WRITE CTFEEDER 68
+Place 9 On FEED2UPPER
+SET 9 TRAVEL 62.00
+Place 10 On TODUMP2
+SET 10 TRAVEL 3.00
+Time 3294 7990
+Create coal1 4959
+Place 4959 On OverlandConv
+Create coal1 4960
+Place 4960 On ReclaimConv
+Create coal2 4961
+Place 4961 On ApronConv
+Time 3294 42058
+Destroy 4930
+Time 3294.2363 51940
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3296 990
+Create coal1 4962
+Place 4962 On OverlandConv
+Create coal1 4963
+Place 4963 On ReclaimConv
+Create coal2 4964
+Place 4964 On ApronConv
+Time 3296 35058
+Destroy 4933
+Time 3296.2363 44684
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3298 59270
+Create coal1 4965
+Place 4965 On OverlandConv
+Create coal1 4966
+Place 4966 On ReclaimConv
+Create coal2 4967
+Place 4967 On ApronConv
+Time 3298 27802
+Destroy 4936
+WRITE silo2 10375
+SET BAR AMS2 RIGHT 10375
+Time 3299.5052 47328
+SET BAR BARFEEDA TOP 107
+Place 10 On FEEDA2FEEDB
+SET 10 TRAVEL 1.00
+Time 3300 1070
+Create coal1 4968
+Place 4968 On OverlandConv
+Create coal1 4969
+Place 4969 On ReclaimConv
+Time 3300 25517
+Destroy 4939
+Time 3300 35143
+Destroy 4820
+Time 3300 45025
+SET BAR AVAMS1 TOP 5520
+WRITE AVPCTS1 51%
+SET BAR AVAMS2 TOP 2460
+WRITE AVPCTS2 22%
+SET BAR AVAMS3 TOP 0
+WRITE AVPCTS3 0%
+SET BAR AVAMS4 TOP 0
+WRITE AVPCTS4 0%
+SET BAR AVAMS5 TOP 0
+WRITE AVPCTS5 0%
+SET BAR AVAMS6 TOP 0
+WRITE AVPCTS6 0%
+SET BAR AVAMSURG TOP 310
+WRITE AVPCTSUR 3%
+WRITE TIME  5:35
+SET BAR BARFEEDB TOP 107
+WRITE CTFEEDER 215
+SET BAR BARSURGE TOP 200
+WRITE CTSURGE 200
+SET BAR BARAPRA TOP 38
+SET BAR BARAPRB TOP 38
+WRITE CTAPRON 75
+Time 3302 25754
+Create coal1 4971
+Place 4971 On OverlandConv
+Create coal1 4972
+Place 4972 On ReclaimConv
+Time 3302 49945
+Destroy 4942
+Time 3302 59827
+Destroy 4823
+Time 3304 3917
+Create coal1 4974
+Place 4974 On OverlandConv
+Create coal1 4975
+Place 4975 On ReclaimConv
+Time 3304 28364
+Destroy 4945
+Time 3304 37990
+Destroy 4826
+Time 3304.5052 47616
+SET BAR BARFEEDB TOP 57
+WRITE CTFEEDER 115
+Place 10 On FEED2UPPER
+SET 10 TRAVEL 62.00
+Place 6 On TODUMP1
+SET 6 TRAVEL 1.50
+Time 3306 16203
+Create coal1 4977
+Place 4977 On OverlandConv
+Create coal1 4978
+Place 4978 On ReclaimConv
+Time 3306 40650
+Destroy 4948
+Time 3306 50276
+Destroy 4829
+Time 3308 60158
+Create coal1 4980
+Place 4980 On OverlandConv
+Create coal1 4981
+Place 4981 On ReclaimConv
+Time 3308 18813
+Destroy 4951
+Time 3308 28439
+Destroy 4832
+Time 3308.0052 38321
+SET BAR BARFEEDA TOP 151
+Place 6 On FEEDA2FEEDB
+SET 6 TRAVEL 0.50
+Time 3308.2363 57855
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3310 6905
+Create coal1 4983
+Place 4983 On OverlandConv
+Create coal1 4984
+Place 4984 On ReclaimConv
+Create coal2 4985
+Place 4985 On ApronConv
+Time 3310 40717
+Destroy 4954
+Time 3310 50599
+SET BAR BARFEEDB TOP 151
+WRITE CTFEEDER 302
+SET BAR BARSURGE TOP 233
+WRITE CTSURGE 233
+SET BAR BARAPRA TOP 71
+SET BAR BARAPRB TOP 71
+WRITE CTAPRON 142
+Time 3310.2363 23892
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3310.5052 38478
+Place 6 On FEED2ROW
+SET 6 TRAVEL 50.00
+Place 7 On TODUMP1
+SET 7 TRAVEL 1.50
+Time 3312 62957
+Create coal1 4986
+Place 4986 On OverlandConv
+Create coal1 4987
+Place 4987 On ReclaimConv
+Create coal2 4988
+Place 4988 On ApronConv
+Time 3312 31233
+Destroy 4957
+Time 3312.2363 41115
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3314 55701
+Create coal1 4989
+Place 4989 On OverlandConv
+Create coal1 4990
+Place 4990 On ReclaimConv
+Create coal2 4991
+Place 4991 On ApronConv
+Time 3314 24233
+Destroy 4960
+Time 3314.0052 33859
+SET BAR BARFEEDA TOP 196
+Place 7 On FEEDA2FEEDB
+SET 7 TRAVEL 0.50
+Time 3314.2363 53393
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3316 2443
+Create coal1 4992
+Place 4992 On OverlandConv
+Create coal1 4993
+Place 4993 On ReclaimConv
+Create coal2 4994
+Place 4994 On ApronConv
+Time 3316 36511
+Destroy 4963
+Time 3316.2363 46137
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3316.5052 60723
+SET BAR BARFEEDB TOP 196
+WRITE CTFEEDER 391
+Place 7 On FEED2ROW
+SET 7 TRAVEL 50.00
+Time 3318 19673
+Create coal1 4995
+Place 4995 On OverlandConv
+Create coal1 4996
+Place 4996 On ReclaimConv
+Create coal2 4997
+Place 4997 On ApronConv
+Time 3318 53741
+Destroy 4966
+WRITE silo2 10500
+SET BAR AMS2 RIGHT 10500
+Time 3320 7475
+Create coal1 4998
+Place 4998 On OverlandConv
+Create coal1 4999
+Place 4999 On ReclaimConv
+Time 3320 31922
+Destroy 4969
+Time 3320 41548
+Destroy 4850
+Time 3320 51430
+SET BAR BARSURGE TOP 267
+WRITE CTSURGE 267
+SET BAR BARAPRA TOP 42
+SET BAR BARAPRB TOP 42
+WRITE CTAPRON 83
+Time 3322 15079
+Create coal1 5001
+Place 5001 On OverlandConv
+Create coal1 5002
+Place 5002 On ReclaimConv
+Time 3322 39270
+Destroy 4972
+Time 3322 48896
+Destroy 4853
+Time 3324 58778
+Create coal1 5004
+Place 5004 On OverlandConv
+Create coal1 5005
+Place 5005 On ReclaimConv
+Time 3324 17433
+Destroy 4975
+Time 3324 27315
+Destroy 4856
+Time 3326 36941
+Create coal1 5007
+Place 5007 On OverlandConv
+Create coal1 5008
+Place 5008 On ReclaimConv
+Time 3326 61388
+Destroy 4978
+Time 3326 5478
+Destroy 4859
+Time 3328 15104
+Create coal1 5010
+Place 5010 On OverlandConv
+Create coal1 5011
+Place 5011 On ReclaimConv
+Time 3328 39551
+Destroy 4981
+Time 3328 49177
+Destroy 4862
+Time 3328.2363 59059
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3330 8109
+Create coal1 5013
+Place 5013 On OverlandConv
+Create coal1 5014
+Place 5014 On ReclaimConv
+Create coal2 5015
+Place 5015 On ApronConv
+Time 3330 42177
+Destroy 4984
+Time 3330 51803
+SET BAR BARFEEDA TOP 146
+SET BAR BARFEEDB TOP 146
+WRITE CTFEEDER 291
+SET BAR BARSURGE TOP 300
+WRITE CTSURGE 300
+SET BAR BARAPRA TOP 75
+SET BAR BARAPRB TOP 75
+WRITE CTAPRON 150
+Time 3330.2363 30044
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3332 44630
+Create coal1 5016
+Place 5016 On OverlandConv
+Create coal1 5017
+Place 5017 On ReclaimConv
+Create coal2 5018
+Place 5018 On ApronConv
+Time 3332 13162
+Destroy 4987
+Time 3332 22788
+Destroy 4941
+Time 3332.2363 32670
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3332.5052 47256
+Place 8 On TODUMP3
+SET 8 TRAVEL 3.00
+Time 3334 61842
+Create coal1 5019
+Place 5019 On OverlandConv
+Create coal1 5020
+Place 5020 On ReclaimConv
+Create coal2 5021
+Place 5021 On ApronConv
+Time 3334 30374
+Destroy 4990
+Time 3334 40000
+Destroy 4944
+Time 3334.2363 49882
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3336 64468
+Create coal1 5022
+Place 5022 On OverlandConv
+Create coal1 5023
+Place 5023 On ReclaimConv
+Create coal2 5024
+Place 5024 On ApronConv
+Time 3336 33000
+Destroy 4993
+Time 3336 42626
+Destroy 4947
+Time 3336.2363 52252
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3338 1302
+Create coal1 5025
+Place 5025 On OverlandConv
+Create coal1 5026
+Place 5026 On ReclaimConv
+Create coal2 5027
+Place 5027 On ApronConv
+Time 3338 35370
+Destroy 4996
+Time 3338 45252
+Destroy 4950
+WRITE silo2 10625
+SET BAR AMS2 RIGHT 10625
+Time 3339.5052 64522
+SET BAR BARFEEDA TOP 170
+Place 8 On FEEDA2FEEDB
+SET 8 TRAVEL 1.00
+Time 3340 18520
+Create coal1 5028
+Place 5028 On OverlandConv
+Create coal1 5029
+Place 5029 On ReclaimConv
+Time 3340 42967
+Destroy 4999
+Time 3340 52593
+Destroy 4953
+Time 3340 62219
+Destroy 4880
+Time 3340 6565
+SET BAR BARFEEDB TOP 170
+WRITE CTFEEDER 340
+SET BAR BARSURGE TOP 333
+WRITE CTSURGE 333
+SET BAR BARAPRA TOP 46
+SET BAR BARAPRB TOP 46
+WRITE CTAPRON 92
+Time 3342 45394
+Create coal1 5031
+Place 5031 On OverlandConv
+Create coal1 5032
+Place 5032 On ReclaimConv
+Time 3342 4305
+Destroy 5002
+Time 3342 13931
+Destroy 4883
+Time 3344 23557
+Create coal1 5034
+Place 5034 On OverlandConv
+Create coal1 5035
+Place 5035 On ReclaimConv
+Time 3344 48004
+Destroy 5005
+Time 3344 57630
+Destroy 4959
+Time 3344 1976
+Destroy 4886
+Time 3344.5052 11602
+SET BAR BARFEEDB TOP 120
+WRITE CTFEEDER 240
+Place 8 On FEED2LOWER
+SET 8 TRAVEL 55.00
+Time 3346 36088
+Create coal1 5037
+Place 5037 On OverlandConv
+Create coal1 5038
+Place 5038 On ReclaimConv
+Time 3346 60279
+Destroy 5008
+Time 3346 4369
+Destroy 4962
+Time 3346 14251
+Destroy 4889
+Time 3348 23877
+Create coal1 5040
+Place 5040 On OverlandConv
+Create coal1 5041
+Place 5041 On ReclaimConv
+Time 3348 48324
+Destroy 5011
+Time 3348 57950
+Destroy 4965
+Time 3348 2296
+Destroy 4892
+Time 3348.2363 11922
+Place coal1 On LdS2
+SET coal1 SPEED 2.0
+Time 3350 26508
+Create coal1 5043
+Place 5043 On OverlandConv
+Create coal1 5044
+Place 5044 On ReclaimConv
+Create coal2 5045
+Place 5045 On ApronConv
+Time 3350 60576
+Destroy 5014
+Time 3350 4666
+Destroy 4968
+Time 3350 14548
+SET BAR AVAMS1 TOP 5440
+WRITE AVPCTS1 50%
+SET BAR AVAMS2 TOP 2580
+WRITE AVPCTS2 24%
+SET BAR AVAMS3 TOP 0
+WRITE AVPCTS3 0%
+SET BAR AVAMS4 TOP 0
+WRITE AVPCTS4 0%
+SET BAR AVAMS5 TOP 0
+WRITE AVPCTS5 0%
+SET BAR AVAMS6 TOP 0
+WRITE AVPCTS6 0%
+SET BAR AVAMSURG TOP 311
+WRITE AVPCTSUR 3%
+WRITE TIME  5:40
+SET BAR BARFEEDA TOP 120
+SET BAR BARSURGE TOP 367
+WRITE CTSURGE 367
+SET BAR BARAPRA TOP 79
+SET BAR BARAPRB TOP 79
+WRITE CTAPRON 158
+Time 3350.2363 55861
+Place coal2 On LdS2
+SET coal2 SPEED 2.0
+Time 3352 4911
+Create coal1 5046
+Place 5046 On OverlandConv
+Create coal1 5047
+Place 5047 On ReclaimConv
+Create coal2 5048
+Place 5048 On ApronConv
+Time 3352 38979
+Destroy 5017
+Time 3352 48861
+Destroy 4971
+Time 3352.2363 58487
+Place coal3 On LdS2
+SET coal3 SPEED 2.0
+Time 3354 7537
+Create coal1 5049
+Place 5049 On OverlandConv
+Create coal1 5050
+Place 5050 On ReclaimConv
+Create coal2 5051
+Place 5051 On ApronConv
+Time 3354 41605
+Destroy 5020
+Time 3354 51231
+Destroy 4974
+Time 3354.2363 61113
+Place coal4 On LdS2
+SET coal4 SPEED 2.0
+Time 3354.5052 10163
+SET arm22 DIRECTIONAL
+Place arm22 On arm22forward
+SET arm22 TRAVEL 0.2045
+Place sh2 On shovel2forward
+SET sh2 TRAVEL 0.2045
+Time 3354.7098 39334
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21down
+SET arm21 TRAVEL 0.2045
+Place arm22 On arm22down
+SET arm22 TRAVEL 0.2045
+Place sh2 On shovel2down
+SET sh2 TRAVEL 0.2045
+Time 3354.9143 12606
+SET arm22 DIRECTIONAL
+Place arm22 On arm22back
+SET arm22 TRAVEL 0.2045
+Place sh2 On shovel2back
+SET sh2 TRAVEL 0.2045
+Time 3355.1189 41777
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21up
+SET arm21 TRAVEL 0.2045
+Place arm22 On arm22up
+SET arm22 TRAVEL 0.2045
+Place sh2 On shovel2up
+SET sh2 TRAVEL 0.2045
+Time 3356 15305
+Create coal1 5052
+Place 5052 On OverlandConv
+Create coal1 5053
+Place 5053 On ReclaimConv
+Create coal2 5054
+Place 5054 On ApronConv
+Time 3356 49373
+Destroy 5023
+Time 3356 58999
+Destroy 4977
+Time 3356.2363 3089
+Place coal5 On LdS2
+SET coal5 SPEED 2.0
+Time 3358 17675
+Create coal1 5055
+Place 5055 On OverlandConv
+Create coal1 5056
+Place 5056 On ReclaimConv
+Create coal2 5057
+Place 5057 On ApronConv
+Time 3358 51743
+Destroy 5026
+Time 3358 61625
+Destroy 4980
+Time 3358.2363 5715
+Set filler2 Color RED
+WRITE silo2 10750
+SET BAR AMS2 RIGHT 10750
+Time 3360 25256
+Create coal1 5058
+Place 5058 On OverlandConv
+Create coal1 5059
+Place 5059 On ReclaimConv
+Time 3360 49447
+Destroy 5029
+Time 3360 59329
+Destroy 4983
+Time 3360 3419
+Destroy 4910
+Time 3360 13301
+SET BAR BARFEEDA TOP 70
+SET BAR BARFEEDB TOP 70
+WRITE CTFEEDER 140
+SET BAR BARSURGE TOP 400
+WRITE CTSURGE 400
+SET BAR BARAPRA TOP 50
+SET BAR BARAPRB TOP 50
+WRITE CTAPRON 100
+Time 3360.5052 57078
+SET arm12 DIRECTIONAL
+Place arm12 On arm12forward
+SET arm12 TRAVEL 0.0440
+Place sh1 On shovel1forward
+SET sh1 TRAVEL 0.0440
+Time 3360.5492 20713
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11down
+SET arm11 TRAVEL 0.0440
+Place arm12 On arm12down
+SET arm12 TRAVEL 0.0440
+Place sh1 On shovel1down
+SET sh1 TRAVEL 0.0440
+Time 3360.5932 59521
+SET arm12 DIRECTIONAL
+Place arm12 On arm12back
+SET arm12 TRAVEL 0.0440
+Place sh1 On shovel1back
+SET sh1 TRAVEL 0.0440
+Time 3360.6372 23156
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11up
+SET arm11 TRAVEL 0.0440
+Place arm12 On arm12up
+SET arm12 TRAVEL 0.0440
+Place sh1 On shovel1up
+SET sh1 TRAVEL 0.0440
+Time 3362 61964
+Create coal1 5061
+Place 5061 On OverlandConv
+Create coal1 5062
+Place 5062 On ReclaimConv
+Time 3362 20875
+Destroy 5032
+Time 3362 30501
+Destroy 4986
+Time 3362 40383
+Destroy 4913
+Time 3364 50009
+Create coal1 5065
+Place 5065 On ReclaimConv
+Time 3364 64579
+Destroy 5035
+Time 3364 8925
+Destroy 4989
+Time 3364 18551
+Destroy 4916
+Time 3364.57 28177
+SET BAR BARUPS RIGHT 7601
+WRITE CTUPS 7601
+SET BAR BARMINED RIGHT 22594
+WRITE CTMINED 22594
+Place 9 On UPPER2FEED
+SET 9 TRAVEL 48.00
+Time 3366 62307
+Create coal1 5068
+Place 5068 On ReclaimConv
+Time 3366 11341
+Destroy 5038
+Time 3366 21223
+Destroy 4992
+Time 3366 30849
+Destroy 4919
+Time 3366.2834 40475
+SET BAR BARMINED RIGHT 22784
+WRITE CTMINED 22784
+SET BAR BARROW RIGHT 11223
+WRITE CTROW 11223
+Place 6 On ROW2FEED
+SET 6 TRAVEL 48.00
+Time 3366.5052 9069
+SET arm12 DIRECTIONAL
+Place arm12 On arm12forward
+SET arm12 TRAVEL 4.7121
+Place sh1 On shovel1forward
+SET sh1 TRAVEL 4.7121
+Time 3366.5052 38240
+SET arm22 DIRECTIONAL
+Place arm22 On arm22forward
+SET arm22 TRAVEL 0.0749
+Place sh2 On shovel2forward
+SET sh2 TRAVEL 0.0749
+Time 3366.5801 1875
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21down
+SET arm21 TRAVEL 0.0749
+Place arm22 On arm22down
+SET arm22 TRAVEL 0.0749
+Place sh2 On shovel2down
+SET sh2 TRAVEL 0.0749
+Time 3366.6551 40939
+SET arm22 DIRECTIONAL
+Place arm22 On arm22back
+SET arm22 TRAVEL 0.0749
+Place sh2 On shovel2back
+SET sh2 TRAVEL 0.0749
+Time 3366.73 4574
+SET arm22 NONDIRECTIONAL
+Place arm21 On arm21up
+SET arm21 TRAVEL 0.0749
+Place arm22 On arm22up
+SET arm22 TRAVEL 0.0749
+Place sh2 On shovel2up
+SET sh2 TRAVEL 0.0749
+Time 3368 43382
+Create coal1 5071
+Place 5071 On ReclaimConv
+Time 3368 57952
+Destroy 5041
+Time 3368 2298
+Destroy 4995
+Time 3368 11924
+Destroy 4922
+Time 3368.2363 21550
+Set filler3 Color BACKDROP
+Place coal1 On LdS3
+SET coal1 SPEED 2.0
+Time 3368.7091 41084
+Place ld On BackFrTr
+SET ld TRAVEL 20.0000
+Place 14 On TrainLeaving
+SET 14 TRAVEL 80.00
+Time 3370 65307
+Create coal1 5074
+Place 5074 On ReclaimConv
+Create coal2 5075
+Place 5075 On ApronConv
+Time 3370 24218
+Destroy 5044
+Time 3370 33844
+Destroy 4998
+Time 3370 43726
+Destroy 4925
+Time 3370 53352
+SET BAR BARFEEDA TOP 20
+SET BAR BARFEEDB TOP 20
+WRITE CTFEEDER 40
+SET BAR BARSURGE TOP 433
+WRITE CTSURGE 433
+SET BAR BARAPRA TOP 83
+SET BAR BARAPRB TOP 83
+WRITE CTAPRON 167
+Time 3370.2363 31593
+Place coal2 On LdS3
+SET coal2 SPEED 2.0
+Time 3371.2173 46179
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11down
+SET arm11 TRAVEL 4.7121
+Place arm12 On arm12down
+SET arm12 TRAVEL 4.7121
+Place sh1 On shovel1down
+SET sh1 TRAVEL 4.7121
+Time 3372 19707
+Create coal1 5077
+Place 5077 On ReclaimConv
+Create coal2 5078
+Place 5078 On ApronConv
+Time 3372 43898
+Destroy 5047
+Time 3372 53524
+Destroy 5001
+Time 3372 63406
+Destroy 4928
+Time 3372.2363 7496
+Place coal3 On LdS3
+SET coal3 SPEED 2.0
+Time 3372.3951 22082
+SET BAR BARUPS RIGHT 7748
+WRITE CTUPS 7748
+SET BAR BARMINED RIGHT 22931
+WRITE CTMINED 22931
+Place 10 On UPPER2FEED
+SET 10 TRAVEL 48.00
+Time 3374 56212
+Create coal1 5080
+Place 5080 On ReclaimConv
+Create coal2 5081
+Place 5081 On ApronConv
+Time 3374 14867
+Destroy 5050
+Time 3374 24749
+Destroy 5004
+Time 3374 34375
+Destroy 4931
+Time 3374.2363 44257
+Place coal4 On LdS3
+SET coal4 SPEED 2.0
+Time 3375.9294 58843
+SET arm12 DIRECTIONAL
+Place arm12 On arm12back
+SET arm12 TRAVEL 4.7121
+Place sh1 On shovel1back
+SET sh1 TRAVEL 4.7121
+Time 3376 22478
+Create coal1 5083
+Place 5083 On ReclaimConv
+Create coal2 5084
+Place 5084 On ApronConv
+Time 3376 46669
+Destroy 5053
+Time 3376 56551
+Destroy 5007
+Time 3376 641
+Destroy 4934
+Time 3376.2363 10267
+Place coal5 On LdS3
+SET coal5 SPEED 2.0
+Time 3378 24853
+Create coal1 5086
+Place 5086 On ReclaimConv
+Create coal2 5087
+Place 5087 On ApronConv
+Time 3378 49300
+Destroy 5056
+Time 3378 58926
+Destroy 5010
+Time 3378 3272
+Destroy 4937
+WRITE silo3 125
+SET BAR AMS3 RIGHT 125
+Time 3380 22542
+Create coal1 5089
+Place 5089 On ReclaimConv
+Time 3380 37368
+Destroy 5059
+Time 3380 46994
+Destroy 5013
+Time 3380 56620
+SET BAR BARSURGE TOP 367
+WRITE CTSURGE 367
+SET BAR BARAPRA TOP 54
+SET BAR BARAPRB TOP 54
+WRITE CTAPRON 108
+Time 3380.6415 20269
+SET arm12 NONDIRECTIONAL
+Place arm11 On arm11up
+SET arm11 TRAVEL 4.7121
+Place arm12 On arm12up
+SET arm12 TRAVEL 4.7121
+Place sh1 On shovel1up
+SET sh1 TRAVEL 4.7121
+Time 3382 59333
+Create coal1 5092
+Place 5092 On ReclaimConv
+Time 3382 8367
+Destroy 5062
+Time 3382 17993
+Destroy 5016
+Time 3384 27875
+Create coal1 5095
+Place 5095 On ReclaimConv
+Time 3384 42445
+Destroy 5065
+Time 3384 52071
+Destroy 5019
+Time 3386 61697
+Create coal1 5098
+Place 5098 On ReclaimConv
+Time 3386 10987
+Destroy 5068
+Time 3386 20613
+Destroy 5022
+Time 3388 30239
+Create coal1 5101
+Place 5101 On ReclaimConv
+Time 3388 44809
+Destroy 5071
+Time 3388 54691
+Destroy 5025
+Time 3388.2363 64317
+Place coal1 On LdS3
+SET coal1 SPEED 2.0
+Time 3390 13367
+Create coal1 5104
+Place 5104 On ReclaimConv
+Create coal2 5105
+Place 5105 On ApronConv
+Time 3390 37814
+Destroy 5074
+Time 3390 47440
+Destroy 5028
+Time 3390 57322
+Destroy 4955
+Time 3390 1412
+SET BAR BARSURGE TOP 300
+WRITE CTSURGE 300
+SET BAR BARAPRA TOP 88
+SET BAR BARAPRB TOP 88
+WRITE CTAPRON 175
+Time 3390.2363 30597
+Place coal2 On LdS3
+SET coal2 SPEED 2.0
+Time 3392 45183
+Create coal1 5107
+Place 5107 On ReclaimConv
+Create coal2 5108
+Place 5108 On ApronConv
+Time 3392 4094
+Destroy 5077
+Time 3392 13720
+Destroy 5031
+Time 3392 23346
+Destroy 4958
+Time 3392.2363 33228
+Place coal3 On LdS3
+SET coal3 SPEED 2.0
+Time 3393.6448 47814
+SET BAR BARMINED RIGHT 23133
+WRITE CTMINED 23133
+SET BAR BARROW RIGHT 11425
+WRITE CTROW 11425
+Place 7 On ROW2FEED
+SET 7 TRAVEL 48.00
+Time 3394 16152
+Create coal1 5110
+Place 5110 On ReclaimConv
+Create coal2 5111
+Place 5111 On ApronConv
+Time 3394 40599
+Destroy 5080
+Time 3394 50225
+Destroy 5034
+Time 3394 60107
+Destroy 4961
+Time 3394.2363 4197
+Place coal4 On LdS3
+SET coal4 SPEED 2.0
+Time 3396 18783
+Create coal1 5113
+Place 5113 On ReclaimConv
+Create coal2 5114
+Place 5114 On ApronConv
+Time 3396 43230
+Destroy 5083
+Time 3396 52856
+Destroy 5037
+Time 3396 62482
+Destroy 4964
+Time 3396.2363 6828
+Place coal5 On LdS3
+SET coal5 SPEED 2.0
+Time 3398 21414
+Create coal1 5116
+Place 5116 On ReclaimConv
+Create coal2 5117
+Place 5117 On ApronConv
+Time 3398 45605
+Destroy 5086
+Time 3398 55487
+Destroy 5040
+Time 3398 65113
+Destroy 4967
+WRITE silo3 250
+SET BAR AMS3 RIGHT 250
+Time 3399.5052 19103
+SET arm32 DIRECTIONAL
+Place arm32 On arm32forward
+SET arm32 TRAVEL 1.9348
+Place sh3 On shovel3forward
+SET sh3 TRAVEL 1.9348
+Time 3400 48274
+Create coal1 5119
+Place 5119 On ReclaimConv
+Time 3400 62844
+Destroy 5089
+Time 3400 6934
+Destroy 5043
+Time 3400 16816
+SET BAR AVAMS1 TOP 5360
+WRITE AVPCTS1 49%
+SET BAR AVAMS2 TOP 2700
+WRITE AVPCTS2 25%
+SET BAR AVAMS3 TOP 0
+WRITE AVPCTS3 0%
+SET BAR AVAMS4 TOP 0
+WRITE AVPCTS4 0%
+SET BAR AVAMS5 TOP 0
+WRITE AVPCTS5 0%
+SET BAR AVAMS6 TOP 0
+WRITE AVPCTS6 0%
+SET BAR AVAMSURG TOP 310
+WRITE AVPCTSUR 3%
+WRITE TIME  5:45
+SET BAR BARSURGE TOP 233
+WRITE CTSURGE 233
+SET BAR BARAPRA TOP 58
+SET BAR BARAPRB TOP 58
+WRITE CTAPRON 117
+Time 3401.44 53437
+SET arm32 NONDIRECTIONAL
+Place arm31 On arm31down
+SET arm31 TRAVEL 1.9348
+Place arm32 On arm32down
+SET arm32 TRAVEL 1.9348
+Place sh3 On shovel3down
+SET sh3 TRAVEL 1.9348
+Time 3402 26709
+Create coal1 5122
+Place 5122 On ReclaimConv
+Time 3402 41279
+Destroy 5092
+Time 3402 51161
+Destroy 5046
+Time 3403.3748 60787
+SET arm32 DIRECTIONAL
+Place arm32 On arm32back
+SET arm32 TRAVEL 1.9348
+Place sh3 On shovel3back
+SET sh3 TRAVEL 1.9348
+Time 3404 24422
+Create coal1 5125
+Place 5125 On ReclaimConv
+Time 3404 38992
+Destroy 5095
+Time 3404 48874
+Destroy 5049
+Time 3405.3096 58500
+SET arm32 NONDIRECTIONAL
+Place arm31 On arm31up
+SET arm31 TRAVEL 1.9348
+Place arm32 On arm32up
+SET arm32 TRAVEL 1.9348
+Place sh3 On shovel3up
+SET sh3 TRAVEL 1.9348
+Time 3406 31772
+Create coal1 5128
+Place 5128 On ReclaimConv
+Time 3406 46342
+Destroy 5098
+Time 3406 56224
+Destroy 5052
+Time 3408 314
+Create coal1 5131
+Place 5131 On ReclaimConv
+Time 3408 14884
+Destroy 5101
+Time 3408 24766
+Destroy 5055
+Time 3408.2363 34392
+Place coal1 On LdS3
+SET coal1 SPEED 2.0
+Time 3410 48978
+Create coal1 5134
+Place 5134 On ReclaimConv
+Create coal2 5135
+Place 5135 On ApronConv
+Time 3410 7889
+Destroy 5104
+Time 3410 17515
+Destroy 5058
+Time 3410 27141
+Destroy 4985
+Time 3410 37023
+SET BAR BARSURGE TOP 167
+WRITE CTSURGE 167
+SET BAR BARAPRA TOP 92
+SET BAR BARAPRB TOP 92
+WRITE CTAPRON 183
+Time 3410.2363 672
+Place coal2 On LdS3
+SET coal2 SPEED 2.0
+Time 3412 15258
+Create coal1 5137
+Place 5137 On ReclaimConv
+Create coal2 5138
+Place 5138 On ApronConv
+Time 3412 39449
+Destroy 5107
+Time 3412 49331
+Destroy 5061
+Time 3412 58957
+Destroy 4988
+Time 3412.2363 3303
+Place coal3 On LdS3
+SET coal3 SPEED 2.0
+Time 3412.5596 17889
+SET BAR BARMINED RIGHT 23288
+WRITE CTMINED 23288
+SET BAR BARLOS RIGHT 4114
+WRITE CTLOS 4114
+Place 8 On LOWER2FEED
+SET 8 TRAVEL 48.00
+Time 3412.57 51763
+Place 9 On TODUMP2
+SET 9 TRAVEL 3.00
+Time 3414 813
+Create coal1 5139
+Place 5139 On OverlandConv
+Create coal1 5140
+Place 5140 On ReclaimConv
+Create coal2 5141
+Place 5141 On ApronConv
+Time 3414 34881
+Destroy 5110
+Time 3414 44763
+Destroy 4991
+Time 3414.2363 54389
+Place coal4 On LdS3
+SET coal4 SPEED 2.0
+Time 3416 3439
+Create coal1 5142
+Place 5142 On OverlandConv
+Create coal1 5143
+Place 5143 On ReclaimConv
+Create coal2 5144
+Place 5144 On ApronConv
+Time 3416 37507
+Destroy 5113
+Time 3416 47133
+Destroy 4994
+Time 3416.2363 57015
+Place coal5 On LdS3
+SET coal5 SPEED 2.0
+Time 3418 6065
+Create coal1 5145
+Place 5145 On OverlandConv
+Create coal1 5146
+Place 5146 On ReclaimConv
+Create coal2 5147
+Place 5147 On ApronConv
+Time 3418 40133
+Destroy 5116
+Time 3418 49759
+Destroy 4997
+WRITE silo3 375
+SET BAR AMS3 RIGHT 375
+Time 3418.2363 3749
+Place coal1 On LdS3
+SET coal1 SPEED 2.0
+Time 3419.57 18335
+SET BAR BARFEEDA TOP 90
+Place 9 On FEEDA2FEEDB
+SET 9 TRAVEL 1.00
+Time 3420 37869
+Create coal1 5148
+Place 5148 On OverlandConv
+Create coal1 5149
+Place 5149 On ReclaimConv
+Create coal2 5150
+Place 5150 On ApronConv
+Time 3420 6145
+Destroy 5119
+Time 3420 16027
+SET BAR BARFEEDB TOP 90
+WRITE CTFEEDER 180
+SET BAR BARSURGE TOP 100
+WRITE CTSURGE 100
+SET BAR BARAPRA TOP 63
+SET BAR BARAPRB TOP 63
+WRITE CTAPRON 125
+Time 3420.2363 54856
+Place coal2 On LdS3
+SET coal2 SPEED 2.0
+Time 3422 3906
+Create coal1 5151
+Place 5151 On OverlandConv
+Create coal1 5152
+Place 5152 On ReclaimConv
+Create coal2 5153
+Place 5153 On ApronConv
+Time 3422 37974
+Destroy 5122
+Time 3422.2363 47856
+Place coal3 On LdS3
+SET coal3 SPEED 2.0
+Time 3424 62442
+Create coal1 5155
+Place 5155 On ReclaimConv
+Create coal2 5156
+Place 5156 On ApronConv
+Time 3424 21097
+Destroy 5125
+Time 3424.2363 30723
+Place coal4 On LdS3
+SET coal4 SPEED 2.0
+Time 3424.57 45565
+SET BAR BARFEEDB TOP 40
+WRITE CTFEEDER 80
+Place 9 On FEED2UPPER
+SET 9 TRAVEL 62.00
+Place 6 On TODUMP1
+SET 6 TRAVEL 1.50
+Time 3426 13896
+Create coal1 5157
+Place 5157 On OverlandConv
+Create coal1 5158
+Place 5158 On ReclaimConv
+Create coal2 5159
+Place 5159 On ApronConv
+Time 3426 47964
+Destroy 5128
+Time 3426.2363 57846
+Place coal5 On LdS3
+SET coal5 SPEED 2.0
+Time 3428 6896
+Create coal1 5160
+Place 5160 On OverlandConv
+Create coal1 5161
+Place 5161 On ReclaimConv
+Create coal2 5162
+Place 5162 On ApronConv
+Time 3428 40708
+Destroy 5131
+Time 3428.07 50590
+SET BAR BARFEEDA TOP 125
+Place 6 On FEEDA2FEEDB
+SET 6 TRAVEL 0.50
+WRITE silo3 500
+SET BAR AMS3 RIGHT 500
+Time 3430 14232
+Create coal1 5163
+Place 5163 On OverlandConv
+Create coal1 5164
+Place 5164 On ReclaimConv
+Time 3430 38423
+Destroy 5134
+Time 3430 48305
+Destroy 5015
+Time 3430 57931
+SET BAR BARFEEDB TOP 125
+WRITE CTFEEDER 251
+SET BAR BARSURGE TOP 133
+WRITE CTSURGE 133
+SET BAR BARAPRA TOP 33
+SET BAR BARAPRB TOP 33
+WRITE CTAPRON 67
+Time 3430.57 31480
+Place 6 On FEED2ROW
+SET 6 TRAVEL 50.00
+Place 10 On TODUMP2
+SET 10 TRAVEL 3.00
+Time 3432 55703
+Create coal1 5166
+Place 5166 On OverlandConv
+Create coal1 5167
+Place 5167 On ReclaimConv
+Time 3432 14358
+Destroy 5137
+Time 3432 24240
+Destroy 5018
+Time 3434 33866
+Create coal1 5169
+Place 5169 On OverlandConv
+Create coal1 5170
+Place 5170 On ReclaimConv
+Time 3434 58313
+Destroy 5140
+Time 3434 2403
+Destroy 5021
+Time 3436 12285
+Create coal1 5172
+Place 5172 On OverlandConv
+Create coal1 5173
+Place 5173 On ReclaimConv
+Time 3436 36476
+Destroy 5143
+Time 3436 46102
+Destroy 5024
+Time 3437.57 55984
+SET BAR BARFEEDA TOP 147
+Place 10 On FEEDA2FEEDB
+SET 10 TRAVEL 1.00
+Time 3438 9982
+Create coal1 5175
+Place 5175 On OverlandConv
+Create coal1 5176
+Place 5176 On ReclaimConv
+Time 3438 34173
+Destroy 5146
+Time 3438 43799
+Destroy 5027
+Time 3438.2363 53681
+Place coal1 On LdS3
+SET coal1 SPEED 2.0
+Time 3440 2731
+Create coal1 5178
+Place 5178 On OverlandConv
+Create coal1 5179
+Place 5179 On ReclaimConv
+Create coal2 5180
+Place 5180 On ApronConv
+Time 3440 36799
+Destroy 5149
+Time 3440 46425
+SET BAR BARFEEDB TOP 147
+WRITE CTFEEDER 294
+SET BAR BARSURGE TOP 167
+WRITE CTSURGE 167
+SET BAR BARAPRA TOP 67
+SET BAR BARAPRB TOP 67
+WRITE CTAPRON 133
+Time 3440.2363 19718
+Place coal2 On LdS3
+SET coal2 SPEED 2.0
+Time 3442 34304
+Create coal1 5181
+Place 5181 On OverlandConv
+Create coal1 5182
+Place 5182 On ReclaimConv
+Create coal2 5183
+Place 5183 On ApronConv
+Time 3442 2836
+Destroy 5152
+Time 3442.2363 12718
+Place coal3 On LdS3
+SET coal3 SPEED 2.0
+Time 3442.57 27304
+Place 10 On FEED2UPPER
+SET 10 TRAVEL 62.00
+Time 3444 41890
+Create coal1 5184
+Place 5184 On OverlandConv
+Create coal1 5185
+Place 5185 On ReclaimConv
+Create coal2 5186
+Place 5186 On ApronConv
+Time 3444 10422
+Destroy 5155
+Time 3444.2363 20048
+Place coal4 On LdS3
+SET coal4 SPEED 2.0
+Time 3444.57 34634
+Place 7 On TODUMP1
+SET 7 TRAVEL 1.50
+Time 3446 49220
+Create coal1 5187
+Place 5187 On OverlandConv
+Create coal1 5188
+Place 5188 On ReclaimConv
+Create coal2 5189
+Place 5189 On ApronConv
+Time 3446 17752
+Destroy 5158
+Time 3446.2363 27634
+Place coal5 On LdS3
+SET coal5 SPEED 2.0
+Time 3448 42220
+Create coal1 5190
+Place 5190 On OverlandConv
+Create coal1 5191
+Place 5191 On ReclaimConv
+Create coal2 5192
+Place 5192 On ApronConv
+Time 3448 10496
+Destroy 5161
+Time 3448.07 20378
+SET BAR BARFEEDA TOP 192
+Place 7 On FEEDA2FEEDB
+SET 7 TRAVEL 0.50
+WRITE silo3 625
+SET BAR AMS3 RIGHT 625
+Time 3448.7091 49556
+Destroy 14
+Time 3450 59182
+End

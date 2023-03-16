@@ -1,0 +1,66 @@
+       SIMULATE
+*
+*      Storage Declaration Segment
+*
+       STORAGE    S(WKR2),2/S(WKR5),3/S(INSPECT),2
+*
+*      Define Table Entities 
+*
+ SERV  QTABLE    LINE,0,1,10
+ CONT  TABLE     Q(LINE),0,1,5
+*
+*      GPSS/H Block Section
+*
+*         Staging Area
+*
+       GENERATE   4,1         A bundle arrives between 4+-1 minutes
+       ADVANCE    2           Transportation time to the staging area
+       TABULATE   CONT        Record number is queue
+       QUEUE      LINE        Begin waiting time for line server
+       SEIZE      SERVER      Capture the line server
+       DEPART     LINE        End waiting time for line server
+       ADVANCE    3.75,1      Prepare a bundle
+       RELEASE    SERVER      Release the line server
+*
+*         Sewing Line
+*
+       SEIZE      WKR1        Capture work station 1
+       ADVANCE    3.5,1       Close first shoulder
+       RELEASE    WKR1        Free work station 1
+*
+       ENTER      WKR2        Capture 1 of work station 2
+       ADVANCE    7,2         Sew collar
+       LEAVE      WKR2        Free 1 of work station 2
+*
+       SEIZE      WKR3        Capture work station 3
+       ADVANCE    3,0.75      Cover seam
+       RELEASE    WKR3        Free work station 3
+*
+       SEIZE      WKR4        Capture work station 4
+       ADVANCE    3.25,1      Close second shoulder
+       RELEASE    WKR4        Free work station 4
+* 
+       ENTER      WKR5        Capture 1 of work station 5 
+       ADVANCE    11,3        Set sleeves
+       LEAVE      WKR5        Free 1 of work station 5
+*
+*         Inspection Stations
+*
+       ENTER      INSPECT     Capture 1 inspection station
+       TEST E     0,F(INSP1),OTHER Is inspector 1 idle?
+       SEIZE      INSP1       Capture inspector 1
+       ADVANCE    7,2         Inspect shirts
+       RELEASE    INSP1       Release inspector 1
+       TRANSFER   ,BACK       Go to Block BACK
+ OTHER SEIZE      INSP2       Capture inspector 2
+       ADVANCE    9,1         Inspect shirts
+       RELEASE    INSP2       Release inspector 2
+ BACK  LEAVE      INSPECT     Free 1 inspection station
+       TRANSFER   .05,,REJ    5% are rejected
+       TERMINATE  1           Decrement TG1 by 1 
+ REJ   TERMINATE              Bad t-shirts exit the system 
+*
+*      GPSS/H Control Statements
+*
+       START      100         Set TG1 to 100 
+       END

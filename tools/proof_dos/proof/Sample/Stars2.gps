@@ -1,0 +1,29 @@
+        SIMULATE
+*
+ATF     FILEDEF         'stars.atf'
+*
+* Block Statements
+*
+        GENERATE        10
+        BLET            PH(XLOC)=80*FRN1
+        BLET            PH(YLOC)=55*FRN1
+*
+        BPUTPIC         FILE=ATF,LINES=3,(AC1,PH(XLOC),PH(YLOC))
+TIME *.*
+CREATE STAR 1
+PLACE 1 AT * *
+*
+        ADVANCE         7
+*
+        BPUTPIC         FILE=ATF,LINES=2,(AC1)
+TIME *.*
+DESTROY 1
+*
+        TERMINATE       1
+*
+* Control Statements
+*
+        START           30
+        END
+
+

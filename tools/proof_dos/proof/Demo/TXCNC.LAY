@@ -1,0 +1,720 @@
+Define View "RNT" center -21.6403 23.0135 Width 75.9488 Grid Size 1 10 Ortho
+Define View "LNT" center 30.278 22.8007 Width 75.7122 Grid Size 1 10 Ortho
+Define View "whole" center 6.4033 5.9499 Width 123.5294 Grid Size 1 10 Ortho
+Define View "split" Bounds 0 47.8346 0 99.8534 center 6 8.9 Width 126.5005 Grid Size 1 10 Ortho
+Define Window Bounds 47.8346 99.9016 0 99.8534 Center -3.4864 23.0135 Width 39.641 Grid Size 1 10 Ortho
+Define View "(Home)" center 5.3038 9.0554 Width 122.7789 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 2.5
+Define View "(Class)" center 3 -0.1459 Width 16.6583 Grid Size 0.2 2 Ortho
+Define color Backdrop  0 0.3176 0.3176
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0.6353 0.6353
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 0 0 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.7451 0.3961 0.6667
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.3961 0.4902 0.698
+Define color F20 0 0.3176 0.3176
+Define color F21 0.7608 0.349 0.0471
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.3961 0.4902 0.698
+Define color L2 0.6667 0.9373 1
+Define color L3 1 1 1
+Define color L4 0 0 0.302
+Define color L5 0.7137 0.4588 0.302
+Define color L6 0.5098 0.0314 0
+Define color L7 0.651 0 0.5412
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color L6
+Define Class TRNS
+Line -1.6 1.825 1.7 1.825
+Line -1.6 -1.55 1.7 -1.55
+Line 1.7 1.825 1.7 -1.55
+Line -1.6 1.825 -1.6 -1.55
+Fill 0.2235 0.3563
+Arc 1.5 0.05 0.1 0 360 12.5664
+End
+Color F3
+Define Class PAL1
+Line -1 1 1 1
+Line 1 1 1 -1
+Line -1 1 -1 -1
+Line -1 -1 1 -1
+Text 1 1.4 MIDDLE 0 0 1
+End
+Define Class PAL2
+Line -1 -1 1 -1
+Line -1 1 -1 -1
+Line 1 1 1 -1
+Line -1 1 1 1
+Text 1 1.4 MIDDLE 0 0 2
+End
+Define Class PAL3
+Line -1 -1 1 -1
+Line -1 1 -1 -1
+Line 1 1 1 -1
+Line -1 1 1 1
+Text 1 1.4 MIDDLE 0 0 3
+End
+Define Class PAL4
+Line -1 -1 1 -1
+Line -1 1 -1 -1
+Line 1 1 1 -1
+Line -1 1 1 1
+Text 1 1.4 MIDDLE 0 0 4
+End
+Define Class PAL5
+Line -1 1 1 1
+Line 1 1 1 -1
+Line -1 1 -1 -1
+Line -1 -1 1 -1
+Text 1 1.4 MIDDLE 0 0 5
+End
+Define Class PAL6
+Line -1 1 1 1
+Line 1 1 1 -1
+Line -1 1 -1 -1
+Line -1 -1 1 -1
+Text 1 1.4 MIDDLE 0 0 6
+End
+Define Class PAL7
+Line -1 1 1 1
+Line 1 1 1 -1
+Line -1 1 -1 -1
+Line -1 -1 1 -1
+Text 1 1.4 MIDDLE 0 0 7
+End
+Define Class PAL8
+Line -1 1 1 1
+Line 1 1 1 -1
+Line -1 1 -1 -1
+Line -1 -1 1 -1
+Text 1 1.4 MIDDLE 0 0 8
+End
+Define Class PAL9
+Line -1 1 1 1
+Line 1 1 1 -1
+Line -1 1 -1 -1
+Line -1 -1 1 -1
+Text 1 1.4 MIDDLE 0 0 9
+End
+Define Class PAL10
+Line -1 1 1 1
+Line 1 1 1 -1
+Line -1 1 -1 -1
+Line -1 -1 1 -1
+Text 1 0.9 MIDDLE 0 0 10
+End
+Define Class PAL11
+Line -1 1 1 1
+Line 1 1 1 -1
+Line -1 1 -1 -1
+Line -1 -1 1 -1
+Text 1 0.95 MIDDLE 0 0 11
+End
+Define Class PAL12
+Line -1 1 1 1
+Line 1 1 1 -1
+Line -1 1 -1 -1
+Line -1 -1 1 -1
+Text 1 1 MIDDLE 0 0 12
+End
+Color L3
+Define Class MCH
+Line 2 3 10 3
+Line 10 3 10 1
+Line 8 1 10 1
+Color F3
+Line 0 2 -4 2
+Line 0 1 -4 1
+Line -4 1 -4 2
+Line 2 5 2 3
+Line 8 -5.2918 8 1
+Line 0 5 2 5
+Line 0 -2 0 5
+Line 4 -2 0 -2
+Line 4 -5.2918 4 -2
+Color L4
+Fill -2.0341 1.4885
+Color L1
+Fill 4.0591 0.6256
+Color L6
+Line 4 -5.2918 8 -5.2918
+End
+CPO TRNS TRNS 7 12
+Color F6
+Text 1 1 CENTER -12 7 MACH#1
+Color Backdrop
+Line #1 -15.8971 13.75 -19.0245 11.9444
+Arc 3 -12 16 0 360 18.8496
+Color L4
+Fill -19.2514 11.6656
+Color F3
+Arc 3 -12 16 0 360 18.8496
+Color Backdrop
+Arc  #2 4.5 -34 16 -30 30 4.7124
+Arc  #3 4.5 -34 16 270 330 4.7124
+Color F6
+Text 1 1 CENTER -34 7 MACH#2
+Color Backdrop
+Arc  #4 4.5 -34 16 30 90 4.7124
+Line #5 -34 20.5 -34 25
+Arc  #6 4.5 -34 16 210 270 4.7124
+Arc  #7 4.5 -34 16 90 150 4.7124
+Color L6
+Arc 7 -34 16 269.3646 270.6354 0.1553
+Color Backdrop
+Line #8 -37.8971 13.75 -41.0245 11.9444
+Arc  #9 4.5 -34 16 150 210 4.7124
+Color L4
+Fill -40.3838 11.7881
+Color Backdrop
+Arc 3 -34 16 0 360 18.8496
+Color F3
+Arc 3 -34 16 0 360 18.8496
+Color L5
+Fill -33.1447 11.5461
+Color Backdrop
+Arc  #10 4.5 -12 16 90 150 4.7124
+Arc  #11 4.5 -12 16 150 210 4.7124
+Arc  #12 4.5 -12 16 210 270 4.7124
+Color F3
+Line -14 22.7082 -18.1037 19.6387
+Line -18.1037 19.6387 -19 16
+Line -18.2925 14.6764 -21.7566 12.6764
+Line -21.7566 12.6764 -19.7566 9.2123
+Line -19 16 -15.5 9.9378
+Line -15.5 9.9378 -12 8.9792
+Line -32 22.7082 -27.9935 19.4679
+Line -27.9935 19.4679 -27 16
+Line -27.9753 12.5216 -27 16
+Line -30.5 9.9378 -27.9753 12.5216
+Line -34 8.9792 -30.5 9.9378
+Line -37.5 9.9378 -34 8.9792
+Line -41 16 -37.5 9.9378
+Line -43.7566 12.6764 -41.7566 9.2123
+Line -40.2925 14.6764 -43.7566 12.6764
+Line -40.1037 19.6387 -41 16
+Line -36 22.7082 -40.1037 19.6387
+Line -41.7566 9.2123 -38.2925 11.2123
+Line -19.7566 9.2123 -16.2925 11.2123
+Line -18 30 -22 30
+Line -18 29 -22 29
+Line -22 29 -22 30
+Line -18 33 -16 33
+Line -18 26 -18 33
+Line -14 26 -18 26
+Line -14 22.7082 -14 26
+Color L4
+Fill -20.0341 29.4885
+Color L1
+Fill -13.9409 28.6256
+Color F3
+Line -16 31 -8 31
+Line -16 33 -16 31
+Color L6
+Line -14 22.7082 -10 22.7082
+Color F3
+Line -46 -31 -46 44
+Line -44 29 -44 30
+Line -32 22.7082 -32 29
+Line -32 29 -30 29
+Line -30 31 -30 29
+Line -38 31 -30 31
+Line -40 30 -44 30
+Line -40 29 -44 29
+Line -38 33 -38 31
+Line -40 33 -38 33
+Line -40 26 -40 33
+Line -36 26 -40 26
+Line -36 22.7082 -36 26
+Color L4
+Fill -42.0341 29.4885
+Color L1
+Fill -35.9409 28.6256
+Color L6
+Line -36 22.7082 -32 22.7082
+Color F3
+Line -4.6 21.6 12.4 21.6
+Line -5 22 1 22
+Line -5 34 -5 22
+Color Backdrop
+Line #13 -12 20.5 -12 25
+Color L3
+Arc 7 -12 16 269.3646 270.6354 0.1553
+Line -5 22 -4.6 21.6
+Color F2
+Text 1 1 LJ -4 32 PALLET LEGEND:
+Color F3
+Line 1 34 -5 34
+Color Backdrop
+Arc  #14 4.5 -12 16 -30 30 4.7124
+Color L5
+Fill -9.6031 11.9111
+Color Backdrop
+Arc  #15 4.5 -12 16 270 330 4.7124
+Arc  #16 4.5 -12 16 30 90 4.7124
+Color F3
+Line -12 8.9792 -8.5 9.9378
+Line -8.5 9.9378 -5.9753 12.5216
+Line -5.9753 12.5216 -5 16
+Line -5.9935 19.4679 -5 16
+Line -10 22.7082 -5.9935 19.4679
+Line -10 22.7082 -10 29
+Line -10 29 -8 29
+Line -8 31 -8 29
+Text 1 1 LJ -37 4 PALLET DEFINITION:
+Color F4
+Text 1 1.9 CENTER -22 39 ROTARY TABLE OPTION
+Text 1 2.8 CENTER 5 46 COMPARING TWO SCENARIOS
+Color F3
+Line -46 44 58 44
+Line -2.252 31.164 -0.812 31.164
+Line -0.812 31.164 -0.812 29.724
+Line -2.252 31.164 -2.252 29.724
+Line -2.252 29.724 -0.812 29.724
+Text 1 1.008 MIDDLE -1.532 30.444 1
+Color F4
+Text 1 1.008 MIDDLE -1.532 28.444 1
+Line -2.252 27.724 -0.812 27.724
+Line -2.252 29.164 -2.252 27.724
+Line -0.812 29.164 -0.812 27.724
+Line -2.252 29.164 -0.812 29.164
+Color F7
+Line -2.252 27.164 -0.812 27.164
+Line -0.812 27.164 -0.812 25.724
+Line -2.252 27.164 -2.252 25.724
+Line -2.252 25.724 -0.812 25.724
+Text 1 1.008 MIDDLE -1.532 26.444 1
+Color F2
+Line -2.252 25.164 -0.812 25.164
+Line -0.812 25.164 -0.812 23.724
+Line -2.252 25.164 -2.252 23.724
+Line -2.252 23.724 -0.812 23.724
+Text 1 1.008 MIDDLE -1.532 24.444 1
+Color F4
+Text 1 1 LJ -20 2 MACH#1
+Text 1 1 LJ -20 0 1: 310 FRAME & ROP
+Text 1 1 LJ -20 -2 2: 310 FRAME 2ND
+Color Backdrop
+Line 5 12 56 12
+Line 15 7 15 12
+Color F3
+Text 1 1.22 MIDDLE 15 21 8
+Color L6
+Arc 1.75 15 17 0 360 10.9956
+Color Backdrop
+Line 15 17 15 12
+Color F3
+Line 12.4 21.6 12.4 33.4
+Line 12.4 33.4 12 34
+Color F4
+Text 1 1.9 CENTER 29.5 39 LINEAR TRANSPORT OPTION
+Color L5
+Fill 15.1306 16.9316
+Color F3
+Line 1 22 12 22
+Text 1 1 LJ 1 30 EMPTY
+Color F4
+Text 1 1 LJ 1 28 LOADED
+Color F7
+Text 1 1 LJ 1 26 MACHINED
+Color F2
+Text 1 1 LJ 1 24 DELAYED
+Color F3
+Line 12 34 1 34
+Line 1 34 1 44
+Line 2 44 2 34
+Line 1 -31 1 21.6
+Color Backdrop
+Line 10 7 10 12
+Color F3
+Line 12 22 12 34
+Line 2 21.6 2 -31
+Text 1 1.22 MIDDLE 10 3 1
+Text 1 1.22 MIDDLE 15 3 2
+Text 1 1 LJ 3 0 PALLET DEFINITION:
+Color F4
+Text 1 1 LJ 7 -2 1: 310 FRAME & ROP
+Text 1 1 LJ 7 -4 2: 310 FRAME 2ND
+Text 1 1 LJ -20 -4 3: 310 MAST
+Color L3
+Arc 1.75 10 7 0 360 10.9956
+Arc 1.75 15 7 0 360 10.9956
+Color L4
+Fill 9.7411 7.3488
+Fill 14.8509 7.1663
+Color F4
+Text 1 1 LJ -44 0 1: 310 FRAME & ROP
+Text 1 1 LJ -44 -2 2: 310 FRAME 2ND
+Text 1 1 LJ -44 2 MACH#2
+Text 1 1 LJ -44 -4 3: 310 MAST
+Text 1 1 LJ 7 -6 3: 310 MAST
+Text 1 1 LJ -20 -6 4: 310/410 AXLE MT.
+Text 1 1 LJ -44 -6 4: 410/510 FRAME & ROP
+Color Backdrop
+Line 30 7 30 12
+Line 25 7 25 12
+Line 20 7 20 12
+Color L6
+Arc 1.75 20 17 0 360 10.9956
+Color Backdrop
+Line #17 27 19 27 12
+Color F3
+Text 1 1.22 MIDDLE 20 21 9
+Color Backdrop
+Line 20 17 20 12
+Color L5
+Fill 20.0967 17.2863
+Fill 30.5611 12.3201
+Color F3
+Text 1 1.22 MIDDLE 35 21 10
+Color L6
+Arc 1.75 35 17 0 360 10.9956
+Color Backdrop
+Line 35 7 35 12
+Line 35 17 35 12
+Line #18 29 21 29 26
+Color F3
+Text 1 1.22 MIDDLE 30 3 5
+Text 1 1.22 MIDDLE 25 3 4
+Text 1 1.22 MIDDLE 20 3 3
+Text 1 1.22 MIDDLE 35 3 6
+Color F4
+Text 1 1 LJ 30 -2 7: 310 MAST
+Text 1 1 LJ 30 -4 8: 410/510 FRAME & ROP
+Text 1 1 LJ 30 -6 9: 410/510 FRAME 2ND
+Text 1 1 LJ 29 -8 10: 410/510 MAST
+Text 1 1 LJ 7 -8 4: 310/410 AXLE MT.
+Text 1 1 LJ -20 -8 5: 410/510 MAST
+Text 1 1 LJ -44 -8 5: 410/510 FRAME 2ND
+Text 1 1 LJ 7 -10 5: 310 FRAME & ROP
+Text 1 1 LJ 29 -10 11: 510 AXLE MT.
+Text 1 1 LJ 7 -12 6: 310 FRAME 2ND
+Text 1 1 LJ -20 -10 6: 510 AXLE MT.
+Color F3
+Text 1 1 LJ 7 -17 # PALLETS
+Text 1 1 LJ 30 -19 PRODUCED:
+Color F5
+Text 1 1 LJ 34 -21 31O'S:
+Color F3
+Text 1 1 LJ 9 -19 HOUR:
+Text 1 1 LJ -21 -18 # BACKHOES
+Text 1 1 LJ -19 -20 PRODUCED:
+Text 1 1 LJ -44 -21 # PALLETS
+Text 1 1 LJ -42 -18 HOUR:
+Text 1 1 LJ 7 -22 # PALLETS
+Color F5
+Text 1 1 LJ 34 -23 410'S:
+Text 1 1 LJ 34 -25 510'S:
+Color F3
+Text 1 1 LJ 9 -24 MACHINED:
+Color F5
+Text 1 1 LJ -18 -22 31O'S:
+Text 1 1 LJ -18 -24 410'S:
+Message PROD2 0 1 LJ -9 -24 BG Backdrop 100
+Message PROD3 0 1 LJ -9 -26 BG Backdrop 100
+Text 1 1 LJ -18 -26 510'S:
+Color F3
+Text 1 1 LJ -42 -23 MACHINED:
+Text 1 1 LJ -44 -26 # PALLETS
+Text 1 1 LJ 7 -27 # BACKHOES
+Text 1 1 LJ 9 -29 UNLOADED:
+Text 1 1 LJ -42 -28 UNLOADED:
+Color L3
+Arc 1.75 35 7 0 360 10.9956
+Arc 1.75 30 7 0 360 10.9956
+Arc 1.75 25 7 0 360 10.9956
+Arc 1.75 20 7 0 360 10.9956
+Color L4
+Fill 20.1432 6.8013
+Fill 25.4355 6.9838
+Fill 29.9978 6.9838
+Fill 34.9251 7.1663
+Color F3
+Line 5 14 56 14
+Line 5 14 5 10
+Line 56 10 5 10
+Line 33 32 33 30
+Line 33 30 31 30
+Line 23 34 25 34
+Line 25 34 25 32
+Line 25 32 33 32
+Line 26 27 23 27
+Line 23 27 23 34
+Line 23 30 19 30
+Line 23 31 19 31
+Line 19 31 19 30
+Color L5
+Fill 27.6826 29.5804
+Color F3
+Line 26 25 26 27
+Line 24 23 26 25
+Line 24 23 24 18
+Line 24 18 26 16
+Line 26 16 30 16
+Line 30 16 32 18
+Line 32 18 32 23
+Line 32 23 31 24
+Line 31 24 31 30
+Color F4
+Message HR1 0 1 LJ 19 -19 BG Backdrop 100
+Message HR2 0 1 LJ -36 -18 BG Backdrop 100
+Color F7
+Message PM1 0 1 LJ 19 -24 BG Backdrop 100
+Message PMD2 0 1 LJ -32 -23 BG Backdrop 100
+Color F5
+Message PROD1 0 1 LJ -9 -22 BG Backdrop 100
+Color F6
+Message PU1 0 1 LJ 19 -29 BG Backdrop 100
+Message PUL2 0 1 LJ -32 -28 BG Backdrop 100
+Color Backdrop
+Arc  #19 2 28 20 0 360 12.5664
+Color F3
+Arc 0.5 28 20 0 360 3.1416
+Color L5
+Fill 35.3499 17.2863
+Color Backdrop
+Line 40 7 40 12
+Line 40 17 40 12
+Color L6
+Arc 1.75 40 17 0 360 10.9956
+Color F3
+Text 1 1.22 MIDDLE 40 21 11
+Color L5
+Fill 40.316 17.2863
+Color Backdrop
+Line 48 7 48 12
+Line #20 48 19 48 12
+Color F3
+Line 58 44 58 -31
+Color Backdrop
+Line #21 50 21 50 26
+Arc  #22 2 49 20 0 360 12.5664
+Color F3
+Text 1 1.22 MIDDLE 40 3 7
+Color F5
+Message PRD2 0 1 LJ 41 -23 BG Backdrop 100
+Message PRD3 0 1 LJ 41 -25 BG Backdrop 100
+Color L3
+Arc 1.75 48 7 0 360 10.9956
+Arc 1.75 40 7 0 360 10.9956
+Color L4
+Fill 40.0349 7.1663
+Fill 47.6996 7.1663
+Color L6
+Fill 49.8895 9.1737
+Color F3
+Line 56 14 56 10
+Line 45 10 45 4
+Line 45 4 51 4
+Line 51 4 51 10
+Line 46 34 46 32
+Line 44 34 46 34
+Line 40 30 40 31
+Line 44 30 40 30
+Line 44 31 40 31
+Line 44 27 44 34
+Line 47 27 44 27
+Line 46 32 54 32
+Line 52 30 54 30
+Line 54 32 54 30
+Color L5
+Fill 48.4541 29.5804
+Color F3
+Line 52 24 52 30
+Line 53 23 52 24
+Line 53 18 53 23
+Line 51 16 53 18
+Line 47 16 51 16
+Line 45 18 47 16
+Line 45 23 45 18
+Line 47 25 45 23
+Line 47 25 47 27
+Color L6
+Message PRD1 0 1 LJ 41 -21 BG Backdrop 100
+Color F3
+Arc 0.5 49 20 0 360 3.1416
+Line 58 -31 -46 -31
+Define Path IM1 Label 47.7253 21.3812 Time 0.63
+Segment #21 50 21.7321 50 26 4.268
+End
+Define Path OM1 Label 47.7253 25.5719 Time 0.63
+Segment #21 50 26 50 21.7321 4.268
+End
+Define Path IQ2 Label 27.3094 12.5875 Time 0.63
+Segment #17 27 12 27 18.2679 6.268
+End
+Define Path OQ2 Label 27.1422 18.9047 Time 0.63
+Segment #17 27 18.2679 27 12 6.268
+End
+Define Path IM2 Label 26.7716 21.3812 Time 0.63
+Segment #18 29 21.7321 29 26 4.268
+End
+Define Path OM2 Label 26.7716 25.5719 Time 0.63
+Segment #18 29 26 29 21.7321 4.268
+End
+Define Path INM1 Label -14.9538 20.1057 Time 0.62
+Segment #13 -12 20.5 -12 25 4.5
+End
+Define Path OUTM1 Label -15.6826 24.6609 Time 0.62
+Segment #13 -12 25 -12 20.5 4.5
+End
+Define Path INL1 Label -18.7801 13.3641 Time 0.62
+Segment #1 -15.8971 13.75 -17.25 12.9689 1.5622
+Segment #1 -17.2925 12.9444 -19.0245 11.9444 2
+End
+Define Path OUTL1 Label -22.6064 11.542 Time 0.62
+Segment #1 -19.0245 11.9444 -17.2925 12.9444 2
+Segment #1 -17.25 12.9689 -15.8971 13.75 1.5622
+End
+Define Path INM2 Label -37.0008 20.1057 Time 0.62
+Segment #5 -34 20.5 -34 25 4.5
+End
+Define Path OUTM2 Label -37.7296 24.6609 Time 0.62
+Segment #5 -34 25 -34 20.5 4.5
+End
+Define Path INL2 Label -40.8271 13.3641 Time 0.62
+Segment #8 -37.8971 13.75 -39.25 12.9689 1.5622
+Segment #8 -39.2925 12.9444 -41.0245 11.9444 2
+End
+Define Path OUTL2 Label -44.6534 11.542 Time 0.62
+Segment #8 -41.0245 11.9444 -39.2925 12.9444 2
+Segment #8 -39.25 12.9689 -37.8971 13.75 1.5622
+End
+Define Path IQ1 Label 48.3052 12.6707 Time 0.63
+Segment #20 48 12 48 18.2679 6.268
+End
+Define Path OQ1 Label 48.0592 18.4126 Time 0.63
+Segment #20 48 18.2679 48 12 6.268
+End
+Define Path IR1 Label 45.9032 17.9192 Time 0.2
+Segment #22 48 18.2679 50 21.7321 6.2832 CW
+End
+Define Path OR1 Label 47.7253 21.3812 Time 0.2
+Segment #22 50 21.7321 48 18.2679 6.2832 CCW
+End
+Define Path IR2 Label 24.7673 17.9192 Time 0.2
+Segment #19 27 18.2679 29 21.7321 6.2832 CW
+End
+Define Path OR2 Label 26.7716 21.3812 Time 0.2
+Segment #19 29 21.7321 27 18.2679 6.2832 CW
+End
+Define Path RC11 Label -18.7801 13.3641 Time 0.2
+Segment #11 -15.8971 13.75 -15.8971 18.25 4.7124 CW
+End
+Define Path RC12 Label -18.7801 17.9192 Time 0.2
+Segment #10 -15.8971 18.25 -12 20.5 4.7124 CW
+End
+Define Path RC13 Label -14.9538 20.1057 Time 0.2
+Segment #16 -12 20.5 -8.1029 18.25 4.7124 CW
+End
+Define Path RC14 Label -10.9452 17.9192 Time 0.2
+Segment #14 -8.1029 18.25 -8.1029 13.75 4.7124 CW
+End
+Define Path RC15 Label -10.9452 13.3641 Time 0.2
+Segment #15 -8.1029 13.75 -12 11.5 4.7124 CW
+End
+Define Path RC16 Label -14.9538 11.1776 Time 0.2
+Segment #12 -12 11.5 -15.8971 13.75 4.7124 CW
+End
+Define Path RCC11 Label -19.5089 13.3641 Time 0.2
+Segment #12 -15.8971 13.75 -12 11.5 4.7124 CCW
+End
+Define Path RCC16 Label -15.6826 11.1776 Time 0.2
+Segment #15 -12 11.5 -8.1029 13.75 4.7124 CCW
+End
+Define Path RCC15 Label -11.674 13.3641 Time 0.2
+Segment #14 -8.1029 13.75 -8.1029 18.25 4.7124 CCW
+End
+Define Path RCC14 Label -11.674 17.9192 Time 0.2
+Segment #16 -8.1029 18.25 -12 20.5 4.7124 CCW
+End
+Define Path RCC13 Label -15.6826 20.1057 Time 0.2
+Segment #10 -12 20.5 -15.8971 18.25 4.7124 CCW
+End
+Define Path RCC12 Label -19.5089 17.9192 Time 0.2
+Segment #11 -15.8971 18.25 -15.8971 13.75 4.7124 CCW
+End
+Define Path RC21 Label -40.8271 13.3641 Time 0.2
+Segment #9 -37.8971 13.75 -37.8971 18.25 4.7124 CW
+End
+Define Path RC22 Label -40.8271 17.9192 Time 0.2
+Segment #7 -37.8971 18.25 -34 20.5 4.7124 CW
+End
+Define Path RC23 Label -37.0008 20.1057 Time 0.2
+Segment #4 -34 20.5 -30.1029 18.25 4.7124 CW
+End
+Define Path RC24 Label -32.9922 17.9192 Time 0.2
+Segment #2 -30.1029 18.25 -30.1029 13.75 4.7124 CW
+End
+Define Path RC25 Label -32.9922 13.3641 Time 0.2
+Segment #3 -30.1029 13.75 -34 11.5 4.7124 CW
+End
+Define Path RC26 Label -37.0008 11.1776 Time 0.2
+Segment #6 -34 11.5 -37.8971 13.75 4.7124 CW
+End
+Define Path RCC21 Label -41.5559 13.3641 Time 0.2
+Segment #6 -37.8971 13.75 -34 11.5 4.7124 CCW
+End
+Define Path RCC26 Label -37.7296 11.1776 Time 0.2
+Segment #3 -34 11.5 -30.1029 13.75 4.7124 CCW
+End
+Define Path RCC25 Label -33.721 13.3641 Time 0.2
+Segment #2 -30.1029 13.75 -30.1029 18.25 4.7124 CCW
+End
+Define Path RCC24 Label -33.721 17.9192 Time 0.2
+Segment #4 -30.1029 18.25 -34 20.5 4.7124 CCW
+End
+Define Path RCC23 Label -37.7296 20.1057 Time 0.2
+Segment #7 -34 20.5 -37.8971 18.25 4.7124 CCW
+End
+Define Path RCC22 Label -41.5559 17.9192 Time 0.2
+Segment #9 -37.8971 18.25 -37.8971 13.75 4.7124 CCW
+End
+End

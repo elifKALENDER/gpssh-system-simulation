@@ -1,0 +1,1249 @@
+Time 1.4
+CR waiting 1
+Place 1 ON line
+Time 1.6
+SET 1 CLASS customer
+Place 1 IN chair1
+Time 3.3
+CR waiting 2
+Place 2 ON line
+Time 3.5
+SET 2 CLASS customer
+Place 2 IN chair2
+Time 3.9
+CR waiting 3
+Place 3 ON line
+Time 4.1
+SET 3 CLASS customer
+Place 3 IN chair3
+Time 4.4
+CR waiting 4
+Place 4 ON line
+Time 4.6
+SET 4 CLASS customer
+Place 4 IN chair4
+Time 5.8
+CR waiting 5
+Place 5 ON line
+Time 6.0
+SET 5 CLASS customer
+Place 5 IN chair5
+Time 6.3
+CR waiting 6
+Place 6 ON line
+Time 6.5
+SET 6 CLASS customer
+Place 6 IN chair6
+Time 6.8
+CR waiting 7
+Place 7 ON line
+Time 7.3
+CR waiting 8
+Place 8 ON line
+Time 12.9
+CR waiting 9
+Place 9 ON line
+Time 13.7
+CR waiting 10
+Place 10 ON line
+Time 18.0
+DES 1
+Time 18.2
+SET 7 CLASS customer
+Place 7 IN chair1
+Time 18.3
+CR waiting 11
+Place 11 ON line
+Time 20.1
+DES 5
+Time 20.1
+DES 2
+Time 20.3
+SET 8 CLASS customer
+Place 8 IN chair2
+Time 20.3
+SET 9 CLASS customer
+Place 9 IN chair5
+Time 21.3
+DES 3
+Time 21.4
+DES 4
+Time 21.4
+CR waiting 12
+Place 12 ON line
+Time 21.5
+SET 10 CLASS customer
+Place 10 IN chair3
+Time 21.6
+SET 11 CLASS customer
+Place 11 IN chair4
+Time 23.0
+DES 6
+Time 23.1
+CR waiting 13
+Place 13 ON line
+Time 23.2
+SET 12 CLASS customer
+Place 12 IN chair6
+Time 26.7
+CR waiting 14
+Place 14 ON line
+Time 27.8
+CR waiting 15
+Place 15 ON line
+Time 29.5
+CR waiting 16
+Place 16 ON line
+Time 33.2
+DES 7
+Time 33.4
+SET 13 CLASS customer
+Place 13 IN chair1
+Time 34.1
+DES 11
+Time 34.3
+SET 14 CLASS customer
+Place 14 IN chair4
+Time 36.4
+DES 8
+Time 36.4
+DES 9
+Time 36.6
+SET 15 CLASS customer
+Place 15 IN chair2
+Time 36.6
+SET 16 CLASS customer
+Place 16 IN chair5
+Time 37.5
+CR waiting 17
+Place 17 ON line
+Time 38.0
+CR waiting 18
+Place 18 ON line
+Time 38.4
+DES 10
+Time 38.6
+DES 12
+Time 38.6
+SET 17 CLASS customer
+Place 17 IN chair3
+Time 38.8
+SET 18 CLASS customer
+Place 18 IN chair6
+Time 47.4
+CR waiting 19
+Place 19 ON line
+Time 49.2
+DES 13
+Time 49.4
+SET 19 CLASS customer
+Place 19 IN chair1
+Time 49.8
+DES 14
+Time 51.5
+CR waiting 20
+Place 20 ON line
+Time 51.7
+SET 20 CLASS customer
+Place 20 IN chair4
+Time 52.1
+DES 18
+Time 52.7
+CR waiting 21
+Place 21 ON line
+Time 52.9
+SET 21 CLASS customer
+Place 21 IN chair6
+Time 54.1
+DES 16
+Time 54.4
+DES 15
+Time 54.6
+DES 17
+Time 57.8
+CR waiting 22
+Place 22 ON line
+Time 58.0
+SET 22 CLASS customer
+Place 22 IN chair2
+Time 59.7
+CR waiting 23
+Place 23 ON line
+Time 59.9
+SET 23 CLASS customer
+Place 23 IN chair3
+Time 62.6
+CR waiting 24
+Place 24 ON line
+Time 62.8
+SET 24 CLASS customer
+Place 24 IN chair5
+Time 63.1
+DES 19
+Time 65.7
+CR waiting 25
+Place 25 ON line
+Time 65.7
+DES 21
+Time 65.9
+SET 25 CLASS customer
+Place 25 IN chair1
+Time 66.2
+CR waiting 26
+Place 26 ON line
+Time 66.4
+SET 26 CLASS customer
+Place 26 IN chair6
+Time 67.5
+CR waiting 27
+Place 27 ON line
+Time 67.5
+DES 20
+Time 67.7
+SET 27 CLASS customer
+Place 27 IN chair4
+Time 69.8
+CR waiting 28
+Place 28 ON line
+Time 72.2
+CR waiting 29
+Place 29 ON line
+Time 72.5
+DES 22
+Time 72.7
+SET 28 CLASS customer
+Place 28 IN chair2
+Time 72.7
+CR waiting 30
+Place 30 ON line
+Time 73.1
+DES 23
+Time 73.3
+SET 29 CLASS customer
+Place 29 IN chair3
+Time 75.3
+DES 24
+Time 75.5
+SET 30 CLASS customer
+Place 30 IN chair5
+Time 81.2
+CR waiting 31
+Place 31 ON line
+Time 81.7
+CR waiting 32
+Place 32 ON line
+Time 82.2
+CR waiting 33
+Place 33 ON line
+Time 83.0
+DES 25
+Time 83.1
+DES 26
+Time 83.2
+SET 31 CLASS customer
+Place 31 IN chair1
+Time 83.3
+SET 32 CLASS customer
+Place 32 IN chair6
+Time 85.3
+DES 27
+Time 85.5
+SET 33 CLASS customer
+Place 33 IN chair4
+Time 85.7
+CR waiting 34
+Place 34 ON line
+Time 86.8
+DES 29
+Time 87.0
+SET 34 CLASS customer
+Place 34 IN chair3
+Time 87.8
+CR waiting 35
+Place 35 ON line
+Time 88.0
+DES 28
+Time 88.2
+SET 35 CLASS customer
+Place 35 IN chair2
+Time 89.8
+CR waiting 36
+Place 36 ON line
+Time 91.2
+CR waiting 37
+Place 37 ON line
+Time 91.5
+DES 30
+Time 91.7
+SET 36 CLASS customer
+Place 36 IN chair5
+Time 92.1
+CR waiting 38
+Place 38 ON line
+Time 93.2
+CR waiting 39
+Place 39 ON line
+Time 93.7
+CR waiting 40
+Place 40 ON line
+Time 96.2
+CR waiting 41
+Place 41 ON line
+Time 97.6
+DES 32
+Time 97.8
+SET 37 CLASS customer
+Place 37 IN chair6
+Time 98.7
+DES 33
+Time 98.8
+CR waiting 42
+Place 42 ON line
+Time 98.9
+SET 38 CLASS customer
+Place 38 IN chair4
+Time 99.7
+DES 34
+Time 99.9
+SET 39 CLASS customer
+Place 39 IN chair3
+Time 100.0
+CR waiting 43
+Place 43 ON line
+Time 101.1
+DES 31
+Time 101.3
+SET 40 CLASS customer
+Place 40 IN chair1
+Time 102.4
+CR waiting 44
+Place 44 ON line
+Time 102.9
+CR waiting 45
+Place 45 ON line
+Time 104.7
+DES 35
+Time 104.9
+SET 41 CLASS customer
+Place 41 IN chair2
+Time 105.4
+CR waiting 46
+Place 46 ON line
+Time 106.4
+DES 36
+Time 106.6
+SET 42 CLASS customer
+Place 42 IN chair5
+Time 109.0
+CR waiting 47
+Place 47 ON line
+Time 109.5
+CR waiting 48
+Place 48 ON line
+Time 110.0
+CR waiting 49
+Place 49 ON line
+Time 111.3
+DES 37
+Time 111.5
+SET 43 CLASS customer
+Place 43 IN chair6
+Time 112.0
+CR waiting 50
+Place 50 ON line
+Time 113.8
+DES 40
+Time 113.8
+DES 38
+Time 114.0
+SET 44 CLASS customer
+Place 44 IN chair1
+Time 114.0
+SET 45 CLASS customer
+Place 45 IN chair4
+Time 116.1
+CR waiting 51
+Place 51 ON line
+Time 117.5
+CR waiting 52
+Place 52 ON line
+Time 117.6
+DES 39
+Time 117.8
+SET 46 CLASS customer
+Place 46 IN chair3
+Time 119.8
+CR waiting 53
+Place 53 ON line
+Time 121.6
+CR waiting 54
+Place 54 ON line
+Time 122.2
+DES 41
+Time 122.4
+SET 47 CLASS customer
+Place 47 IN chair2
+Time 122.7
+CR waiting 55
+Place 55 ON line
+Time 123.7
+DES 42
+Time 123.9
+SET 48 CLASS customer
+Place 48 IN chair5
+Time 128.0
+DES 44
+Time 128.2
+SET 49 CLASS customer
+Place 49 IN chair1
+Time 128.6
+CR waiting 56
+Place 56 ON line
+Time 129.3
+DES 43
+Time 129.5
+SET 50 CLASS customer
+Place 50 IN chair6
+Time 130.9
+DES 45
+Time 131.1
+SET 51 CLASS customer
+Place 51 IN chair4
+Time 131.8
+CR waiting 57
+Place 57 ON line
+Time 133.6
+DES 46
+Time 133.8
+SET 52 CLASS customer
+Place 52 IN chair3
+Time 135.1
+CR waiting 58
+Place 58 ON line
+Time 138.7
+DES 47
+Time 138.8
+DES 48
+Time 138.9
+SET 53 CLASS customer
+Place 53 IN chair2
+Time 139.0
+SET 54 CLASS customer
+Place 54 IN chair5
+Time 140.3
+DES 49
+Time 140.5
+SET 55 CLASS customer
+Place 55 IN chair1
+Time 146.3
+DES 50
+Time 146.5
+SET 56 CLASS customer
+Place 56 IN chair6
+Time 148.6
+CR waiting 59
+Place 59 ON line
+Time 148.9
+DES 51
+Time 149.1
+SET 57 CLASS customer
+Place 57 IN chair4
+Time 150.6
+DES 52
+Time 150.8
+SET 58 CLASS customer
+Place 58 IN chair3
+Time 152.8
+CR waiting 60
+Place 60 ON line
+Time 156.8
+DES 54
+Time 156.8
+DES 53
+Time 157.0
+SET 59 CLASS customer
+Place 59 IN chair2
+Time 157.0
+SET 60 CLASS customer
+Place 60 IN chair5
+Time 158.3
+DES 55
+Time 158.9
+CR waiting 61
+Place 61 ON line
+Time 159.1
+SET 61 CLASS customer
+Place 61 IN chair1
+Time 159.7
+DES 56
+Time 165.2
+DES 57
+Time 165.4
+DES 58
+Time 169.1
+DES 60
+Time 173.1
+CR waiting 62
+Place 62 ON line
+Time 173.3
+SET 62 CLASS customer
+Place 62 IN chair3
+Time 173.4
+DES 59
+Time 173.6
+CR waiting 63
+Place 63 ON line
+Time 173.7
+DES 61
+Time 173.8
+SET 63 CLASS customer
+Place 63 IN chair1
+Time 177.8
+CR waiting 64
+Place 64 ON line
+Time 178.0
+SET 64 CLASS customer
+Place 64 IN chair2
+Time 182.6
+CR waiting 65
+Place 65 ON line
+Time 182.8
+SET 65 CLASS customer
+Place 65 IN chair4
+Time 187.1
+DES 62
+Time 188.4
+CR waiting 66
+Place 66 ON line
+Time 188.6
+SET 66 CLASS customer
+Place 66 IN chair3
+Time 190.3
+DES 63
+Time 191.0
+CR waiting 67
+Place 67 ON line
+Time 191.2
+SET 67 CLASS customer
+Place 67 IN chair1
+Time 191.7
+CR waiting 68
+Place 68 ON line
+Time 191.9
+SET 68 CLASS customer
+Place 68 IN chair5
+Time 192.2
+CR waiting 69
+Place 69 ON line
+Time 192.4
+SET 69 CLASS customer
+Place 69 IN chair6
+Time 192.7
+CR waiting 70
+Place 70 ON line
+Time 193.2
+CR waiting 71
+Place 71 ON line
+Time 193.7
+CR waiting 72
+Place 72 ON line
+Time 194.2
+CR waiting 73
+Place 73 ON line
+Time 195.4
+CR waiting 74
+Place 74 ON line
+Time 195.6
+DES 64
+Time 195.8
+SET 70 CLASS customer
+Place 70 IN chair2
+Time 197.1
+DES 65
+Time 197.3
+SET 71 CLASS customer
+Place 71 IN chair4
+Time 201.0
+DES 66
+Time 201.1
+CR waiting 75
+Place 75 ON line
+Time 201.2
+SET 72 CLASS customer
+Place 72 IN chair3
+Time 204.7
+DES 69
+Time 204.9
+SET 73 CLASS customer
+Place 73 IN chair6
+Time 206.9
+DES 68
+Time 207.1
+SET 74 CLASS customer
+Place 74 IN chair5
+Time 207.7
+CR waiting 76
+Place 76 ON line
+Time 208.2
+CR waiting 77
+Place 77 ON line
+Time 208.7
+CR waiting 78
+Place 78 ON line
+Time 209.0
+DES 67
+Time 209.2
+SET 75 CLASS customer
+Place 75 IN chair1
+Time 209.5
+DES 71
+Time 209.6
+CR waiting 79
+Place 79 ON line
+Time 209.7
+SET 76 CLASS customer
+Place 76 IN chair4
+Time 210.4
+CR waiting 80
+Place 80 ON line
+Time 211.3
+CR waiting 81
+Place 81 ON line
+Time 211.8
+CR waiting 82
+Place 82 ON line
+Time 213.6
+DES 70
+Time 213.8
+SET 77 CLASS customer
+Place 77 IN chair2
+Time 214.4
+DES 72
+Time 214.6
+SET 78 CLASS customer
+Place 78 IN chair3
+Time 219.0
+CR waiting 83
+Place 83 ON line
+Time 220.0
+DES 73
+Time 220.2
+SET 79 CLASS customer
+Place 79 IN chair6
+Time 220.9
+DES 74
+Time 221.1
+SET 80 CLASS customer
+Place 80 IN chair5
+Time 221.3
+CR waiting 84
+Place 84 ON line
+Time 222.2
+CR waiting 85
+Place 85 ON line
+Time 223.7
+DES 76
+Time 223.9
+SET 81 CLASS customer
+Place 81 IN chair4
+Time 224.8
+CR waiting 86
+Place 86 ON line
+Time 225.2
+DES 75
+Time 225.4
+SET 82 CLASS customer
+Place 82 IN chair1
+Time 225.6
+CR waiting 87
+Place 87 ON line
+Time 226.1
+DES 77
+Time 226.3
+SET 83 CLASS customer
+Place 83 IN chair2
+Time 228.9
+CR waiting 88
+Place 88 ON line
+Time 230.4
+DES 78
+Time 230.6
+SET 84 CLASS customer
+Place 84 IN chair3
+Time 235.3
+DES 80
+Time 235.5
+SET 85 CLASS customer
+Place 85 IN chair5
+Time 235.9
+DES 79
+Time 236.1
+SET 86 CLASS customer
+Place 86 IN chair6
+Time 237.4
+DES 82
+Time 237.6
+SET 87 CLASS customer
+Place 87 IN chair1
+Time 238.3
+CR waiting 89
+Place 89 ON line
+Time 238.4
+DES 83
+Time 238.6
+SET 88 CLASS customer
+Place 88 IN chair2
+Time 238.9
+CR waiting 90
+Place 90 ON line
+Time 239.5
+CR waiting 91
+Place 91 ON line
+Time 240.3
+CR waiting 92
+Place 92 ON line
+Time 241.0
+DES 81
+Time 241.2
+SET 89 CLASS customer
+Place 89 IN chair4
+Time 241.4
+CR waiting 93
+Place 93 ON line
+Time 241.9
+CR waiting 94
+Place 94 ON line
+Time 243.3
+DES 84
+Time 243.5
+SET 90 CLASS customer
+Place 90 IN chair3
+Time 247.3
+CR waiting 95
+Place 95 ON line
+Time 248.0
+DES 85
+Time 248.2
+SET 91 CLASS customer
+Place 91 IN chair5
+Time 250.3
+DES 87
+Time 250.5
+SET 92 CLASS customer
+Place 92 IN chair1
+Time 251.8
+DES 86
+Time 252.0
+SET 93 CLASS customer
+Place 93 IN chair6
+Time 252.9
+DES 88
+Time 253.1
+SET 94 CLASS customer
+Place 94 IN chair2
+Time 256.6
+DES 89
+Time 256.8
+SET 95 CLASS customer
+Place 95 IN chair4
+Time 257.5
+CR waiting 96
+Place 96 ON line
+Time 257.8
+DES 90
+Time 258.0
+SET 96 CLASS customer
+Place 96 IN chair3
+Time 262.1
+DES 91
+Time 262.6
+DES 92
+Time 263.3
+CR waiting 97
+Place 97 ON line
+Time 263.5
+SET 97 CLASS customer
+Place 97 IN chair1
+Time 263.8
+CR waiting 98
+Place 98 ON line
+Time 264.0
+SET 98 CLASS customer
+Place 98 IN chair5
+Time 265.0
+CR waiting 99
+Place 99 ON line
+Time 265.7
+CR waiting 100
+Place 100 ON line
+Time 266.9
+DES 94
+Time 267.1
+SET 99 CLASS customer
+Place 99 IN chair2
+Time 267.6
+CR waiting 101
+Place 101 ON line
+Time 268.7
+DES 93
+Time 268.9
+CR waiting 102
+Place 102 ON line
+Time 268.9
+SET 100 CLASS customer
+Place 100 IN chair6
+Time 270.5
+DES 95
+Time 270.7
+SET 101 CLASS customer
+Place 101 IN chair4
+Time 274.0
+DES 96
+Time 274.2
+SET 102 CLASS customer
+Place 102 IN chair3
+Time 274.2
+CR waiting 103
+Place 103 ON line
+Time 276.0
+DES 97
+Time 276.2
+SET 103 CLASS customer
+Place 103 IN chair1
+Time 277.5
+CR waiting 104
+Place 104 ON line
+Time 278.1
+DES 98
+Time 278.3
+SET 104 CLASS customer
+Place 104 IN chair5
+Time 283.0
+DES 101
+Time 283.5
+CR waiting 105
+Place 105 ON line
+Time 283.7
+SET 105 CLASS customer
+Place 105 IN chair4
+Time 284.6
+CR waiting 106
+Place 106 ON line
+Time 284.6
+DES 99
+Time 284.8
+SET 106 CLASS customer
+Place 106 IN chair2
+Time 284.9
+DES 100
+Time 286.6
+CR waiting 107
+Place 107 ON line
+Time 286.8
+SET 107 CLASS customer
+Place 107 IN chair6
+Time 288.6
+DES 102
+Time 290.2
+DES 103
+Time 294.3
+CR waiting 108
+Place 108 ON line
+Time 294.5
+SET 108 CLASS customer
+Place 108 IN chair1
+Time 295.7
+DES 104
+Time 298.9
+CR waiting 109
+Place 109 ON line
+Time 299.1
+SET 109 CLASS customer
+Place 109 IN chair3
+Time 299.4
+DES 105
+Time 299.9
+DES 107
+Time 299.9
+DES 106
+Time 301.5
+CR waiting 110
+Place 110 ON line
+Time 301.7
+SET 110 CLASS customer
+Place 110 IN chair2
+Time 307.9
+CR waiting 111
+Place 111 ON line
+Time 308.1
+SET 111 CLASS customer
+Place 111 IN chair4
+Time 312.0
+DES 108
+Time 313.8
+CR waiting 112
+Place 112 ON line
+Time 314.0
+SET 112 CLASS customer
+Place 112 IN chair1
+Time 314.8
+DES 110
+Time 315.3
+DES 109
+Time 319.4
+CR waiting 113
+Place 113 ON line
+Time 319.6
+SET 113 CLASS customer
+Place 113 IN chair2
+Time 322.0
+DES 111
+Time 330.3
+DES 112
+Time 331.7
+DES 113
+Time 336.1
+CR waiting 114
+Place 114 ON line
+Time 336.3
+SET 114 CLASS customer
+Place 114 IN chair1
+Time 339.8
+CR waiting 115
+Place 115 ON line
+Time 340.0
+SET 115 CLASS customer
+Place 115 IN chair2
+Time 340.4
+CR waiting 116
+Place 116 ON line
+Time 340.6
+SET 116 CLASS customer
+Place 116 IN chair3
+Time 344.4
+CR waiting 117
+Place 117 ON line
+Time 344.6
+SET 117 CLASS customer
+Place 117 IN chair4
+Time 348.7
+CR waiting 118
+Place 118 ON line
+Time 348.9
+SET 118 CLASS customer
+Place 118 IN chair5
+Time 349.6
+CR waiting 119
+Place 119 ON line
+Time 349.8
+SET 119 CLASS customer
+Place 119 IN chair6
+Time 351.3
+CR waiting 120
+Place 120 ON line
+Time 352.4
+CR waiting 121
+Place 121 ON line
+Time 354.0
+DES 114
+Time 354.1
+DES 116
+Time 354.2
+SET 120 CLASS customer
+Place 120 IN chair1
+Time 354.3
+SET 121 CLASS customer
+Place 121 IN chair3
+Time 354.4
+CR waiting 122
+Place 122 ON line
+Time 355.3
+DES 115
+Time 355.5
+SET 122 CLASS customer
+Place 122 IN chair2
+Time 358.5
+CR waiting 123
+Place 123 ON line
+Time 359.5
+DES 117
+Time 359.7
+SET 123 CLASS customer
+Place 123 IN chair4
+Time 360.5
+CR waiting 124
+Place 124 ON line
+Time 361.8
+CR waiting 125
+Place 125 ON line
+Time 363.1
+CR waiting 126
+Place 126 ON line
+Time 363.6
+CR waiting 127
+Place 127 ON line
+Time 364.1
+DES 118
+Time 364.1
+CR waiting 128
+Place 128 ON line
+Time 364.3
+SET 124 CLASS customer
+Place 124 IN chair5
+Time 366.4
+DES 120
+Time 366.6
+SET 125 CLASS customer
+Place 125 IN chair1
+Time 367.2
+DES 119
+Time 367.4
+SET 126 CLASS customer
+Place 126 IN chair6
+Time 368.4
+DES 121
+Time 368.6
+SET 127 CLASS customer
+Place 127 IN chair3
+Time 369.2
+CR waiting 129
+Place 129 ON line
+Time 369.4
+DES 122
+Time 369.6
+SET 128 CLASS customer
+Place 128 IN chair2
+Time 370.7
+CR waiting 130
+Place 130 ON line
+Time 371.2
+CR waiting 131
+Place 131 ON line
+Time 374.6
+CR waiting 132
+Place 132 ON line
+Time 377.2
+DES 123
+Time 377.4
+SET 129 CLASS customer
+Place 129 IN chair4
+Time 377.6
+CR waiting 133
+Place 133 ON line
+Time 379.3
+DES 124
+Time 379.5
+CR waiting 134
+Place 134 ON line
+Time 379.5
+SET 130 CLASS customer
+Place 130 IN chair5
+Time 379.6
+DES 125
+Time 379.8
+SET 131 CLASS customer
+Place 131 IN chair1
+Time 381.6
+DES 126
+Time 381.8
+SET 132 CLASS customer
+Place 132 IN chair6
+Time 382.4
+DES 127
+Time 382.6
+SET 133 CLASS customer
+Place 133 IN chair3
+Time 385.7
+CR waiting 135
+Place 135 ON line
+Time 386.3
+DES 128
+Time 386.5
+SET 134 CLASS customer
+Place 134 IN chair2
+Time 387.9
+CR waiting 136
+Place 136 ON line
+Time 389.9
+CR waiting 137
+Place 137 ON line
+Time 390.4
+CR waiting 138
+Place 138 ON line
+Time 393.5
+DES 130
+Time 393.7
+SET 135 CLASS customer
+Place 135 IN chair5
+Time 394.2
+DES 129
+Time 394.4
+SET 136 CLASS customer
+Place 136 IN chair4
+Time 394.5
+CR waiting 139
+Place 139 ON line
+Time 394.9
+DES 131
+Time 395.1
+SET 137 CLASS customer
+Place 137 IN chair1
+Time 395.1
+CR waiting 140
+Place 140 ON line
+Time 398.0
+DES 132
+Time 398.2
+SET 138 CLASS customer
+Place 138 IN chair6
+Time 399.5
+CR waiting 141
+Place 141 ON line
+Time 399.5
+DES 133
+Time 399.7
+SET 139 CLASS customer
+Place 139 IN chair3
+Time 400.1
+DES 134
+Time 400.3
+SET 140 CLASS customer
+Place 140 IN chair2
+Time 401.7
+CR waiting 142
+Place 142 ON line
+Time 402.2
+CR waiting 143
+Place 143 ON line
+Time 403.6
+CR waiting 144
+Place 144 ON line
+Time 404.8
+CR waiting 145
+Place 145 ON line
+Time 406.5
+DES 135
+Time 406.7
+SET 141 CLASS customer
+Place 141 IN chair5
+Time 408.8
+DES 137
+Time 409.0
+SET 142 CLASS customer
+Place 142 IN chair1
+Time 409.7
+CR waiting 146
+Place 146 ON line
+Time 410.2
+CR waiting 147
+Place 147 ON line
+Time 410.7
+DES 138
+Time 410.9
+SET 143 CLASS customer
+Place 143 IN chair6
+Time 411.6
+DES 136
+Time 411.8
+SET 144 CLASS customer
+Place 144 IN chair4
+Time 416.7
+DES 139
+Time 416.9
+SET 145 CLASS customer
+Place 145 IN chair3
+Time 417.1
+DES 140
+Time 417.3
+SET 146 CLASS customer
+Place 146 IN chair2
+Time 417.8
+CR waiting 148
+Place 148 ON line
+Time 421.8
+CR waiting 149
+Place 149 ON line
+Time 422.6
+DES 142
+Time 422.8
+SET 147 CLASS customer
+Place 147 IN chair1
+Time 424.5
+DES 141
+Time 424.7
+SET 148 CLASS customer
+Place 148 IN chair5
+Time 425.2
+DES 143
+Time 425.4
+SET 149 CLASS customer
+Place 149 IN chair6
+Time 426.3
+CR waiting 150
+Place 150 ON line
+Time 426.7
+DES 144
+Time 426.9
+SET 150 CLASS customer
+Place 150 IN chair4
+Time 429.9
+DES 145
+Time 431.4
+CR waiting 151
+Place 151 ON line
+Time 431.6
+SET 151 CLASS customer
+Place 151 IN chair3
+Time 432.7
+DES 146
+Time 433.6
+CR waiting 152
+Place 152 ON line
+Time 433.8
+SET 152 CLASS customer
+Place 152 IN chair2
+Time 434.7
+CR waiting 153
+Place 153 ON line
+Time 436.6
+CR waiting 154
+Place 154 ON line
+Time 437.5
+DES 147
+Time 437.7
+SET 153 CLASS customer
+Place 153 IN chair1
+Time 438.9
+DES 148
+Time 439.1
+SET 154 CLASS customer
+Place 154 IN chair5
+Time 441.3
+DES 149
+Time 441.4
+DES 150
+Time 442.2
+CR waiting 155
+Place 155 ON line
+Time 442.4
+SET 155 CLASS customer
+Place 155 IN chair4
+Time 447.0
+CR waiting 156
+Place 156 ON line
+Time 447.2
+SET 156 CLASS customer
+Place 156 IN chair6
+Time 447.5
+CR waiting 157
+Place 157 ON line
+Time 448.9
+DES 151
+Time 449.1
+SET 157 CLASS customer
+Place 157 IN chair3
+Time 449.4
+CR waiting 158
+Place 158 ON line
+Time 449.7
+END

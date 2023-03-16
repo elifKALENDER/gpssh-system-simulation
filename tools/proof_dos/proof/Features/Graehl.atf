@@ -1,0 +1,8 @@
+create carrier 1
+place 1 on path1
+time 20
+place 1 on path2
+time 50
+place 1 on path4 at 10
+time 100
+end

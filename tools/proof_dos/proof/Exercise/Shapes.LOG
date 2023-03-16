@@ -1,0 +1,16 @@
+T=0.00 @ Trace line 6: PLACE: object "at" does not exist
+                     : place at 20 20
+                     :         +
+
+T=0.00 @ Trace line 7: ROTATE: target angle missing/invalid
+                     : rotate 5 to speed 33 step 12
+                     :             +
+
+T=43.00 @ Trace line 23: Leapfrog on path "PATH3"
+                       : Object 3 has leapfrogged 1
+                       : Object 3 remaining path travel = 142.26
+                       : Object 1 remaining path travel = 0.00
+Layout line 21: Invalid animator command "Pie"
+              : Pie
+              : +
+

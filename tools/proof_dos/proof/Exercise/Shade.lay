@@ -1,0 +1,103 @@
+Define View "(Home)" center 38.9429 37.8925 width 73.0067 Ortho Aspect 0.75 Speed 60 Mouse 5
+Define View "(Class)" center 0 0 width 14.6013 Ortho
+Define color Backdrop 0 0 0
+Define color Blue 0 0 0.6667
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0
+Define color Pink 1 0 0.6667
+Define color Tan 1 0.6667 0
+Define color Green 0 1 0
+Define color Layout 0.4921 0.4921 0.4921
+Color Pink
+Message value 1 1.5 RJ 40 25 BG Backdrop 97
+Color Green
+Line 52 46.5 53 46.5
+Line 52.5 31.5 50 31.5
+Line 53 46.5 54.5 45.5
+Line 54.5 45.5 55.5 43
+Line 55.5 43 55 46
+Line 55 46 52.5 47.5
+Line 52.5 47.5 55.5 47
+Line 55.5 47 57.5 45
+Line 57.5 45 56 47.5
+Line 56 47.5 54 48
+Line 54 48 57.5 48
+Line 58.5 47.5 57 49
+Line 57 49 54 48.5
+Line 54 48.5 56 50
+Line 56 50 58 50
+Line 58 50 55.5 51
+Line 55.5 51 53.5 49
+Line 53.5 49 54.5 51.5
+Line 53.5 51.5 52.5 49
+Line 52.5 49 53 53.5
+Line 53 53.5 52 49.5
+Line 52 49.5 51.5 52
+Line 50.5 51.5 51 49.5
+Line 51 49.5 49.5 51
+Line 49 50.5 50.5 49
+Line 50.5 49 46.5 50
+Line 46.5 50 49.5 48.5
+Line 49.5 48.5 51 47.5
+Line 51 47.5 48.5 48.5
+Line 48.5 48.5 46 48.5
+Line 46 48.5 48.5 47.5
+Line 48.5 47.5 50.5 47
+Line 50.5 47 47.5 47
+Line 47.5 47 45.5 45.5
+Line 45.5 45.5 48.5 46
+Line 48.5 46 51.5 46.5
+Line 51.5 46.5 49.5 45.5
+Line 49.5 45.5 49 43.5
+Line 49 43.5 50 45
+Line 50 45 52 46.5
+Line 48.5 31.5 48.5 33
+Line 49 31.5 49.5 33.5
+Line 49.5 33.5 50 31.5
+Line 52.5 31.5 53 33
+Line 53 33 53 31.5
+Line 53 31.5 54 33.5
+Line 54 33.5 53.5 31.5
+Color Pink
+Message average 1 1.5 RJ 40 20 BG Backdrop 84
+Color Green
+Line 57.5 48 58.5 47.5
+Line 54.5 51.5 56 52.5
+Line 56 52.5 53.5 51.5
+Line 51.5 52 49.5 53.5
+Line 49.5 53.5 50.5 51.5
+Line 49.5 51 47 52
+Line 47 52 49 50.5
+Color Pink
+Text 1 2 RJ 30 34 0
+Text 1 2 RJ 26 34 :
+Message TENMIN 1 2 RJ 28 34 BG Backdrop 2
+Message HOUR 1 2 RJ 25 34 BG Backdrop 10
+Color Tan
+Line 53 46.5 54 43.5
+Line 53 43.5 52 46.5
+Line 53 40 53 43.5
+Line 54 43.5 54 40
+Line 52 36 53 40
+Line 54 40 53 35
+Line 50 31.5 52 36
+Line 53 35 52.5 31.5
+Line 60 31.5 40 31.5
+Color Green
+Line 48.5 33 49 31.5
+Color Yellow
+Text 1 1.5 RJ 34 25 CURRENT VALUE
+Text 1 1.5 RJ 34 20 MOVING AVERAGE
+Color Green
+Fill 51.5677 48.4798
+Color Tan
+Fill 53.2815 38.578
+Color Yellow
+Text 1 2.5 CENTER 25 39 IN THE SHADE
+Text 1 1.5 CENTER 18 34 AT
+Text 1 2.5 CENTER 25 44 TEMPERATURE
+Color White
+Bar MOVAL 41 64.8 20 22 Vrange 0 100 Hrange 0 140
+Bar CURVAL 41 64.8 25 27 Vrange 0 100 Hrange 0 140
+End

@@ -1,0 +1,655 @@
+*** Time 630 ... 750 of G:\p4w\demodisk\Pickbest.ATF ***
+Time jump 630 9814
+*** Establish Proper State ***
+Set Path Belt Speed 1
+Set Path Accumulator1 Speed 1
+Set Path Loop Speed 2
+Set Path LDock1 Speed 0.5
+Set Path LDock2 Speed 0.5
+Set Path LDock3 Speed 0.5
+Set Path LDock4 Speed 0.5
+Create Box23 8
+Place 8 On Loop at 54.3258
+Create Box23 25
+Place 25 On Loop at 414.2056
+Create Box17 23
+Place 23 On Loop at 386.2156
+Create Box23 26
+Place 26 On Loop at 381.2156
+Create Box17 33
+Place 33 On Loop at 328.2556
+Create Box23 48
+Place 48 On Loop at 313.2556
+Create Box23 50
+Place 50 On Loop at 256.7294
+Create Box17 49
+Place 49 On Loop at 199.9746
+Create Box23 56
+Place 56 On Loop at 179.9746
+Create Box11 67
+Place 67 On Loop at 174.9746
+Create Box17 66
+Place 66 On Loop at 155.842
+Create Box17 70
+Place 70 On Loop at 122.0882
+Create Box11 82
+Place 82 On Loop at 117.0882
+Create Box17 73
+Place 73 On Loop at 96.2818
+Create Box11 74
+Place 74 On Loop at 90.0474
+Create Box11 79
+Place 79 On Loop at 49.4094
+Create Box23 89
+Place 89 On Loop at 29.4094
+Create Box11 85
+Place 85 On Loop at 14.4094
+Create Box17 72
+Place 72 On Loop at 8.0672
+Create Box23 100
+Place 100 On Loop at 447.5134
+Create Box17 80
+Place 80 On Loop at 437.5134
+Create Box17 83
+Place 83 On Loop at 423.5596
+Create Box23 97
+Place 97 On Loop at 393.4586
+Create Box23 105
+Place 105 On Loop at 354.8
+Create Box23 87
+Place 87 On Loop at 344.8
+Create Box11 112
+Place 112 On LDock4 at 18.169
+Create Box23 104
+Place 104 On Loop at 318.8392
+Create Box11 116
+Place 116 On Loop at 298.3392
+Create Box17 94
+Place 94 On LDock3 at 16.5538
+Create Box17 114
+Place 114 On Loop at 283.6208
+Create Box17 120
+Place 120 On Loop at 273.1208
+Create Box17 124
+Place 124 On LDock3 at 10.2492
+Create Box11 98
+Place 98 On LDock2 at 18.9992
+Create Box11 117
+Place 117 On Loop at 251.813
+Create Box23 102
+Place 102 On Loop at 246.813
+Create Box17 122
+Place 122 On Loop at 236.813
+Create Box17 106
+Place 106 On LDock3 at 1.1723
+Create Box17 113
+Place 113 On Loop at 226.813
+Create Box23 129
+Place 129 On Loop at 221.813
+Create Box23 108
+Place 108 On Loop at 216.813
+Create Box17 118
+Place 118 On Loop at 211.813
+Create Box17 133
+Place 133 On LDock1 at 14.9223
+Create Box11 115
+Place 115 On Loop at 194.4798
+Create Box23 111
+Place 111 On LDock2 at 0.499
+Create Box17 126
+Place 126 On LDock1 at 9.249
+Create Box23 149
+Place 149 On Belt at 108.3682
+Create Box23 121
+Place 121 On Loop at 171.0582
+Create Box23 130
+Place 130 On Loop at 166.0582
+Create Box17 151
+Place 151 On Belt at 105.9516
+Create Box17 125
+Place 125 On Loop at 151.4256
+Create Box11 119
+Place 119 On Loop at 146.4256
+Create Box23 123
+Place 123 On Loop at 141.4256
+Create Box23 134
+Place 134 On Loop at 136.4256
+Create Box11 128
+Place 128 On Loop at 131.4256
+Create Box23 138
+Place 138 On Loop at 126.4256
+Create Box23 156
+Place 156 On Belt at 87.6247
+Create Box11 131
+Place 131 On Loop at 113.1718
+Create Box23 146
+Place 146 On Loop at 108.1718
+Create Box23 135
+Place 135 On Loop at 103.1718
+Create Box23 160
+Place 160 On Belt at 68.1608
+Create Box23 143
+Place 143 On Loop at 86.1312
+Create Box23 150
+Place 150 On Loop at 81.1312
+Create Box11 140
+Place 140 On Loop at 76.1312
+Create Box23 162
+Place 162 On Belt at 98.0799
+Create Box17 127
+Place 127 On Loop at 71.1312
+Create Box23 163
+Place 163 On Belt at 61.3401
+Create Box11 132
+Place 132 On Loop at 63.058
+Create Box11 141
+Place 141 On Loop at 58.058
+Create Box17 166
+Place 166 On Belt at 80.2311
+Create Box11 147
+Place 147 On Loop at 45.493
+Create Box23 154
+Place 154 On Loop at 40.493
+Create Box11 139
+Place 139 On Loop at 35.493
+Create Box17 167
+Place 167 On Belt at 43.3099
+Create Box23 144
+Place 144 On Loop at 24.493
+Create Box17 158
+Place 158 On Loop at 19.493
+Create Box23 148
+Place 148 On Loop at 3.6508
+Create Box17 168
+Place 168 On Belt at 77.9903
+Create Box23 170
+Place 170 On Belt at 84.267
+Create Box23 136
+Place 136 On Accumulator1 at 29.9054
+Create Box17 171
+Place 171 On Belt at 41.3928
+Create Box23 152
+Place 152 On Accumulator1 at 27.9854
+Create Box17 137
+Place 137 On Accumulator1 at 26.0654
+Create Box11 172
+Place 172 On Belt at 63.4429
+Create Box23 153
+Place 153 On Accumulator1 at 24.6454
+Create Box11 155
+Place 155 On Accumulator1 at 22.7254
+Create Box23 173
+Place 173 On Belt at 73.7653
+Create Box17 164
+Place 164 On Accumulator1 at 21.8054
+Create Box11 174
+Place 174 On Belt at 104.0348
+Create Box17 175
+Place 175 On Belt at 30.9888
+Create Box17 145
+Place 145 On Accumulator1 at 20.3854
+Create Box23 176
+Place 176 On Belt at 52.5977
+Create Box17 142
+Place 142 On Accumulator1 at 18.9654
+Create Box23 157
+Place 157 On Accumulator1 at 17.3806
+Create Box17 177
+Place 177 On Belt at 76.0738
+Create Box23 178
+Place 178 On Belt at 23.5183
+Create Box17 161
+Place 161 On Accumulator1 at 12.2854
+Create Box11 179
+Place 179 On Belt at 81.7647
+Create Box23 165
+Place 165 On Accumulator1 at 10.3687
+Create Box23 180
+Place 180 At 26.343 -6.4136
+Move 180 3.678 26.343 -2
+Create Box23 169
+Place 169 On Accumulator1 at 7.9521
+Create Box23 159
+Place 159 On Accumulator1 at 3.4444
+Create Box23 181
+Place 181 At 21.213 -13.5092
+Move 181 9.591 21.213 -2
+*** Resume User Trace ***
+Time 630.6746 12019
+place 136 on Loop at 0.000
+Time 631.1039 21689
+create Box17 182
+place 182 at 54.741   -14
+move 182 10.000 54.741    -2
+Time 631.6317 41041
+place 149 on Accumulator1 at 2.000
+Time 632.0016 50711
+destroy 98
+Time 632.2144 60625
+create Box17 183
+place 183 at 93.330   -14
+move 183 10.000 93.330    -2
+Time 632.7146 14441
+set   BeltStatus class YellowLight
+Time 633.662 24114
+destroy 112
+Time 634.0484 34028
+place 151 on Accumulator1 at 2.000
+Time 634.1313 43698
+set   BeltStatus class GreenLight
+Time 634.6313 53371
+set   BeltStatus class YellowLight
+Time 635.2419 63044
+place 180 on Belt at 26.343
+Time 635.8254 7178
+place 152 on Loop at 0.000
+Time 635.9651 17104
+place 174 on Accumulator1 at 2.000
+Time 636.5479 26774
+set   BeltStatus class GreenLight
+Time 636.8924 36447
+destroy 94
+Time 636.914 46105
+create Box17 184
+place 184 at 41.680   -14
+move 184 10.000 41.680    -2
+Time 637.0479 177
+set   BeltStatus class YellowLight
+Time 637.8492 9850
+place 128 on LDock1 at 0.000
+Time 639.591 19520
+place 181 on Belt at 21.213
+Time 640.0479 29190
+set   BeltStatus class RedLight
+Time 640.1555 39119
+destroy 133
+Time 640.5754 48777
+place 137 on Loop at 0.000
+Time 641.2421 58447
+set   BeltStatus class GreenLight
+Time 641.4659 2584
+create Box11 185
+place 185 at 17.187   -14
+move 185 10.000 17.187    -2
+Time 641.5556 22192
+set   BeltStatus class YellowLight
+Time 641.9202 31865
+place 162 on Accumulator1 at 2.000
+Time 643.0754 41535
+place 153 on Loop at 0.000
+Time 644.2421 51205
+set   BeltStatus class GreenLight
+Time 644.6317 61134
+set   BeltStatus class YellowLight
+Time 645.2645 5271
+place 182 on Belt at 54.741
+Time 645.6409 14941
+place 66 on LDock2 at 0.000
+Time 647.5524 24611
+place 155 on Loop at 0.000
+Time 647.6317 34537
+set   BeltStatus class RedLight
+Time 649.1746 44210
+create Box23 186
+place 186 at 72.275   -14
+move 186 10.000 72.275    -2
+Time 649.5016 63562
+destroy 124
+Time 651.4659 7684
+place 185 on Belt at 17.187
+Time 651.502 17610
+destroy 126
+Time 651.9813 27268
+place 183 on Belt at 93.330
+Time 652.3751 36938
+set path Belt speed 0.000
+Time 652.4792 46611
+place 164 on Loop at 0.000
+Time 652.6555 56537
+place 129 on LDock4 at 0.000
+Time 653.4847 671
+create Box23 187
+place 187 at 17.547   -14
+move 187 10.000 17.547    -2
+Time 654.9792 20023
+place 145 on Loop at 0.000
+Time 656.6786 29949
+create Box23 188
+place 188 at 99.243   -14
+move 188 10.000 99.243    -2
+Time 657.4792 49301
+place 142 on Loop at 0.000
+Time 659.1746 58971
+place 186 on Belt at 72.275
+Time 659.731 3105
+create Box11 189
+place 189 at 63.891   -14
+move 189 10.000 63.891    -2
+Time 660.5329 22713
+place 130 on LDock3 at 0.000
+Time 662.5177 32383
+place 70 on LDock2 at 0.000
+Time 662.9964 42053
+place 150 on LDock1 at 0.000
+Time 663.5746 51723
+place 49 on LDock4 at 0.000
+Time 667.6555 61649
+destroy 106
+Time 668.9743 5771
+place 157 on Loop at 0.000
+Time 669.002 15441
+destroy 111
+Time 669.2243 25099
+set   BeltStatus class GreenLight
+set path Belt speed 1.000
+place 156 on Accumulator1 at 2.000
+Time 669.8447 44729
+place 184 on Belt at 41.680
+Time 670.0917 54399
+place 187 on Belt at 17.547
+Time 671.3002 64069
+create Box11 190
+place 190 at 41.139   -14
+move 190 10.000 41.139    -2
+Time 671.4743 18141
+place 161 on Loop at 0.000
+Time 672.5826 27811
+place 170 on Accumulator1 at 2.000
+Time 673.1807 37481
+place 189 on Belt at 63.891
+Time 673.9743 47151
+place 165 on Loop at 0.000
+Time 674.9954 57077
+create Box17 191
+place 191 at 0.241   -14
+move 191 10.000 0.241    -2
+Time 675.0843 10893
+place 179 on Accumulator1 at 2.000
+Time 676.0746 20563
+place 67 on LDock4 at 0.000
+Time 676.4743 30233
+place 169 on Loop at 0.000
+Time 676.6177 40159
+place 166 on Accumulator1 at 2.000
+Time 676.7636 49829
+create Box11 192
+place 192 at 71.457   -14
+move 192 10.000 71.457    -2
+Time 677.8492 3645
+destroy 128
+Time 678.5381 13559
+place 74 on LDock2 at 0.000
+Time 678.8589 23229
+place 168 on Accumulator1 at 2.000
+Time 680.7755 32899
+place 177 on Accumulator1 at 2.000
+Time 681.3002 42569
+place 190 on Belt at 41.139
+Time 682.1822 52239
+place 159 on Loop at 0.000
+Time 682.2243 62165
+set   BeltStatus class YellowLight
+Time 682.2409 6302
+create Box11 193
+place 193 at 35.148   -14
+move 193 10.000 35.148    -2
+Time 683.0836 25654
+place 173 on Accumulator1 at 2.000
+Time 683.3155 35580
+place 154 on LDock1 at 0.000
+Time 684.1409 45250
+set   BeltStatus class GreenLight
+Time 684.9954 54923
+place 191 on Belt at 0.241
+Time 685.5003 64593
+place 183 on Accumulator1 at 2.000
+Time 685.5826 8727
+set   BeltStatus class YellowLight
+Time 685.6409 18656
+destroy 66
+Time 687.1689 28314
+place 188 on Belt at 99.243
+Time 687.1822 37984
+place 149 on Loop at 0.000
+Time 687.4993 47654
+set   BeltStatus class GreenLight
+Time 688.0843 57583
+set   BeltStatus class YellowLight
+Time 688.238 1720
+create Box17 194
+place 194 at 4.393   -14
+move 194 10.000 4.393    -2
+Time 688.6887 21072
+place 160 on Accumulator1 at 2.000
+Time 689.001 30742
+set   BeltStatus class GreenLight
+Time 689.2344 40671
+place 192 on Belt at 71.457
+Time 689.4761 50341
+place 146 on LDock3 at 0.000
+Time 689.6177 60011
+set   BeltStatus class YellowLight
+Time 689.6822 4148
+place 151 on Loop at 0.000
+Time 690.3492 14074
+place 119 on LDock4 at 0.000
+Time 691.0343 23744
+set   BeltStatus class GreenLight
+Time 691.7705 33417
+create Box11 195
+place 195 at 75.996   -14
+move 195 10.000 75.996    -2
+Time 691.8589 52769
+set   BeltStatus class YellowLight
+Time 692.2409 62698
+place 193 on Belt at 35.148
+Time 692.6555 6832
+destroy 129
+Time 693.1039 16490
+create Box11 196
+place 196 at 72.174   -14
+move 196 10.000 72.174    -2
+Time 693.2755 35842
+set   BeltStatus class GreenLight
+Time 693.4058 45771
+place 172 on Accumulator1 at 2.000
+Time 693.7755 55441
+set   BeltStatus class YellowLight
+Time 695.1922 65114
+set   BeltStatus class GreenLight
+Time 695.2042 9251
+place 174 on Loop at 0.000
+Time 695.5091 19177
+place 163 on Accumulator1 at 2.000
+Time 695.7358 28847
+create Box11 197
+place 197 at 46.237   -14
+move 197 10.000 46.237    -2
+Time 696.0836 48199
+set   BeltStatus class YellowLight
+Time 697.9258 57872
+place 188 on Accumulator1 at 2.000
+Time 698.0003 2262
+set   BeltStatus class GreenLight
+Time 698.238 11935
+place 194 on Belt at 4.393
+Time 698.5003 21605
+set   BeltStatus class YellowLight
+Time 699.7553 31278
+create Box23 198
+place 198 at 8.707   -14
+move 198 10.000 8.707    -2
+Time 699.9169 50886
+set   BeltStatus class GreenLight
+Time 700.5329 60559
+destroy 130
+Time 701.6887 4681
+set   BeltStatus class YellowLight
+Time 701.7366 14354
+place 148 on LDock1 at 0.000
+Time 702.5177 24280
+destroy 70
+Time 702.9542 33938
+place 162 on Loop at 0.000
+Time 702.9964 43608
+destroy 150
+Time 703.1039 53266
+place 196 on Belt at 72.174
+Time 703.5746 63192
+destroy 49
+Time 704.1209 7314
+set   BeltStatus class GreenLight
+Time 704.2515 16987
+place 176 on Accumulator1 at 2.000
+Time 705.4542 26657
+place 156 on Loop at 0.000
+Time 705.7358 36583
+place 197 on Belt at 46.237
+Time 706.4058 46253
+set   BeltStatus class YellowLight
+Time 706.6816 55926
+create Box23 199
+place 199 at 71.444   -14
+move 199 10.000 71.444    -2
+Time 706.949 9742
+place 186 on Accumulator1 at 2.000
+Time 707.3225 19668
+set   BeltStatus class GreenLight
+Time 707.6586 29341
+create Box11 200
+place 200 at 32.693   -14
+move 200 10.000 32.693    -2
+Time 708.343 48693
+place 195 on Belt at 75.996
+Time 708.5091 58619
+set   BeltStatus class YellowLight
+Time 708.8453 2756
+create Box11 201
+place 201 at 88.756   -14
+move 201 10.000 88.756    -2
+Time 709.7553 22108
+place 198 on Belt at 8.707
+Time 709.9126 31778
+place 170 on Loop at 0.000
+Time 710.4258 41704
+set   BeltStatus class GreenLight
+Time 710.9258 51377
+set   BeltStatus class YellowLight
+Time 712.4126 61050
+place 179 on Loop at 0.000
+Time 712.8425 5184
+set   BeltStatus class GreenLight
+Time 713.5397 14857
+place 167 on Accumulator1 at 2.000
+Time 714.2887 24783
+create Box17 202
+place 202 at 23.833   -14
+move 202 10.000 23.833    -2
+Time 715.4564 44135
+place 171 on Accumulator1 at 2.000
+Time 716.0746 53805
+destroy 67
+Time 716.3571 63719
+place 85 on LDock2 at 0.000
+Time 716.6816 7853
+place 199 on Belt at 71.444
+Time 717.2515 17523
+set   BeltStatus class YellowLight
+Time 717.373 27196
+place 182 on Accumulator1 at 2.000
+Time 717.5218 36866
+place 166 on Loop at 0.000
+Time 718.1165 46792
+create Box23 203
+place 203 at 58.913   -14
+move 203 10.000 58.913    -2
+Time 718.5381 608
+destroy 74
+Time 718.8571 10266
+place 79 on LDock3 at 0.000
+Time 719.1682 20192
+set   BeltStatus class GreenLight
+Time 719.2897 29865
+place 189 on Accumulator1 at 2.000
+Time 719.3641 39535
+place 200 on Belt at 32.693
+Time 719.949 49205
+set   BeltStatus class YellowLight
+Time 720.4964 59134
+place 143 on LDock4 at 0.000
+Time 722.3845 3268
+create Box23 204
+place 204 at 29.949   -14
+move 204 10.000 29.949    -2
+Time 722.5194 22620
+place 201 on Belt at 88.756
+Time 722.7718 32290
+place 168 on Loop at 0.000
+Time 722.949 42216
+set   BeltStatus class RedLight
+Time 723.3155 51889
+destroy 154
+Time 724.3877 61547
+create Box11 205
+place 205 at 82.829   -14
+move 205 10.000 82.829    -2
+Time 725.2718 15363
+place 177 on Loop at 0.000
+Time 725.5218 25289
+set   BeltStatus class GreenLight
+Time 725.8605 34962
+place 175 on Accumulator1 at 2.000
+Time 726.5397 44632
+set   BeltStatus class YellowLight
+Time 726.9291 54305
+place 100 on LDock2 at 0.000
+Time 727.2987 64231
+place 202 on Belt at 23.833
+Time 727.7772 8365
+place 192 on Accumulator1 at 2.000
+Time 728.1165 18035
+place 203 on Belt at 58.913
+Time 729.4761 27705
+destroy 146
+Time 729.5397 37619
+set   BeltStatus class RedLight
+Time 730.0179 47292
+create Box23 206
+place 206 at 5.702   -14
+move 206 10.000 5.702    -2
+Time 730.3492 1108
+destroy 119
+Time 732.4989 10766
+create Box17 207
+place 207 at 51.544   -14
+move 207 10.000 51.544    -2
+Time 733.3311 30374
+set path Belt speed 0.000
+Time 733.8155 40047
+place 158 on LDock3 at 0.000
+Time 734.533 49717
+place 141 on LDock4 at 0.000
+Time 736.1756 59643
+place 173 on Loop at 0.000
+Time 740.0179 3777
+place 206 on Belt at 5.702
+Time 740.0779 13447
+place 26 on LDock1 at 0.000
+Time 740.9256 23117
+place 183 on Loop at 0.000
+Time 741.7366 32787
+destroy 148
+Time 742.4989 42701
+place 207 on Belt at 51.544
+Time 744.6743 52371
+create Box17 208
+place 208 at 0.859   -14
+move 208 10.000 0.859    -2
+Time 745.9256 6187
+place 160 on Loop at 0.000
+Time 747.222 16113
+create Box17 209
+place 209 at 50.692   -14
+move 209 10.000 50.692    -2
+Time 750 35465
+End

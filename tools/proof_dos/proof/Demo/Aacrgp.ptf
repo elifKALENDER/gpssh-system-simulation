@@ -1,0 +1,16 @@
+create carrier 1
+place 1 on loop rgp on rgploop
+dt 6 14650
+create carrier 2
+place 2 on loop rgp on rgploop
+dt 6 29300
+create carrier 3
+place 3 on loop rgp on rgploop
+time 22.5 43966
+set 1 speed 0
+time 33.5 53671
+set 1 speed path
+time 62.5 63376
+set 1 speed 0
+time 75 7545
+end

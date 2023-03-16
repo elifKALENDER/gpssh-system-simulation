@@ -1,0 +1,288 @@
+Define View "(Home)" center 40 34.25 Width 74.1176 Grid Size 0.5 10 Ortho Aspect 1 0.5 Speed 6
+Define View "(Class)" center 0 0 Width 7.9248 Grid Size 0.1 1 Ortho
+Define color Backdrop  0.8706 0.8549 0.6431
+Define color F1 0 0 0.6667
+Define color F2 0.9137 0 0.102
+Define color F3 1 1 1
+Define color F4 0.8902 0.8745 0.5882
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.898 0.2471 0.2471
+Define color F9 0 0 1
+Define color F10 0.749 0.2471 0.2471
+Define color F11 0.9059 0.9059 0.9059
+Define color F12 0.498 0.349 0
+Define color F13 0.749 0.4 0.6667
+Define color F14 0.6 0.498 0.498
+Define color F15 0 0.6 0.2
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3294 0
+Define color F19 0.7451 0.8275 0.9216
+Define color F20 0 0.3294 0.3294
+Define color F21 0.898 0.6667 0.498
+Define color F22 0.498 0.2471 0.498
+Define color F23 0.749 0.6 0
+Define color F24 0.498 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.498 0.498 0.498
+Define color L2 0.6667 0.949 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.898 0.6667 0.498
+Define color L6 0.4 0.498 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F25
+Text 1 1.4 LJ 36.5 46.5 Hide or reveal navigation tree
+Color F2
+Text 1 1.4 LJ 36.5 43.5 Jump ahead to the next item
+Color F25
+Text 1 1.4 LJ 36.5 37.5 Resume execution of an animation
+Text 1 1.4 LJ 36.5 40.5 Stop execution of an animation
+Line 35.5 51.5 35.5 49
+Line 35.5 49 33 49
+Line 33 51.5 35.5 51.5
+Line 33 49 33 51.5
+Line 33 48.5 35.5 48.5
+Line 35.5 48.5 35.5 46
+Line 35.5 46 33 46
+Line 33 46 33 48.5
+Line 33 43 33 45.5
+Line 35.5 43 33 43
+Line 35.5 45.5 35.5 43
+Line 33 45.5 35.5 45.5
+Line 33 42.5 35.5 42.5
+Line 35.5 42.5 35.5 40
+Line 35.5 40 33 40
+Line 33 40 33 42.5
+Line 33 37 33 39.5
+Line 35.5 37 33 37
+Line 35.5 39.5 35.5 37
+Line 33 39.5 35.5 39.5
+Line 33 36.5 35.5 36.5
+Line 35.5 36.5 35.5 34
+Line 33 34 33 36.5
+Color F7
+Fill 34.2995 50.3048
+Color F25
+Line 33.5864 50.2444 34.5864 49.2444
+Line 34.5864 51.2444 34.5864 49.2444
+Line 34.5864 51.2444 33.5864 50.2444
+Color F7
+Fill 33.8072 44.2895
+Color F25
+Line 33.4856 45.2286 33.4856 43.2286
+Line 34.4856 44.2286 33.4856 45.2286
+Line 33.4856 43.2286 34.4856 44.2286
+Color F1
+Line 34.4364 37.5101 34.5904 37.5065
+Line 34.5167 37.5399 34.5904 37.5399
+Line 34.1531 37.9845 34.5106 37.7822
+Line 33.6224 37.9036 33.5309 37.7478
+Line 33.857 37.7586 33.5999 37.8541
+Line 33.8787 37.7822 33.6044 37.8991
+Line 33.8832 37.6967 34.1665 38.007
+Line 34.3376 38.6254 34.1779 38.0332
+Line 34.1531 38.052 33.8563 37.7192
+Line 34.1036 38.079 33.8113 37.7462
+Line 34.3599 38.6141 34.2025 37.9935
+Line 34.2475 38.6276 34.0631 37.989
+Line 34.3059 38.6231 34.1441 38.0565
+Line 34.1094 38.0395 33.857 37.7586
+Line 34.3012 38.7274 34.2926 38.6684
+Line 34.2796 38.6206 34.1094 38.0395
+Line 34.2926 38.6684 33.9705 38.63
+Line 33.9705 38.63 33.8593 38.5139
+Fill 34.4079 38.918
+Arc 0.15 34.3582 38.8683 0 360 0.63
+Line 34.3553 38.7198 34.3486 38.6669
+Line 34.1408 38.0032 34.1493 38.0155
+Arc 1 33.2063 38.3484 339.6112 340.5554 0.0165
+Line 34.593 38.4535 34.6962 38.5196
+Line 34.3376 38.6254 34.5864 38.4535
+Line 34.3486 38.6669 34.5995 38.4995
+Line 34.5864 38.4995 34.6718 38.5521
+Line 33.6122 37.8011 33.8832 37.6967
+Line 34.5141 37.5706 34.5856 37.5655
+Line 34.6009 37.5655 34.5904 37.5065
+Line 34.18 38.043 34.5029 37.8593
+Line 34.1665 38.0115 34.5029 37.8189
+Line 34.198 38.0655 34.5411 37.8751
+Line 34.4399 37.8458 34.4409 37.4876
+Line 34.4874 37.8253 34.4827 37.5065
+Line 34.5366 37.8796 34.5167 37.5399
+Line 34.2792 38.5971 34.0034 38.5512
+Line 34.2843 38.638 33.9881 38.5971
+Line 33.9932 38.592 33.9013 38.5001
+Line 33.8593 38.5139 33.9064 38.4644
+Line 34.0341 38.5665 33.9217 38.4695
+Line 34.3303 38.5869 34.5856 38.4235
+Line 34.5958 38.4133 34.7082 38.495
+Line 34.6718 38.5521 34.7133 38.5001
+Line 33.6715 37.8107 33.6 37.7085
+Line 33.6306 37.8464 33.5744 37.7443
+Line 33.5324 37.7421 33.5949 37.7085
+Color F2
+Line 34.4174 42.1439 34.4174 40.3439
+Line 33.9174 42.1439 33.9174 40.3439
+Color F1
+Line 34.8831 46.8903 34.8848 46.6403
+Line 34.6831 47.0903 34.8831 46.8903
+Line 35.0831 47.0903 34.8831 46.8903
+Line 34.6831 47.8903 35.0831 47.4903
+Line 34.6831 47.4903 35.0831 47.8903
+Line 33.3397 48.1903 33.3397 46.1903
+Line 33.8397 47.6903 33.8397 46.6903
+Line 33.3397 47.6903 34.4397 47.6903
+Line 33.8397 46.6903 34.4397 46.6903
+Color F25
+Line 71.5 55 31.5 55
+Color F31
+Fill 35.2311 50.2472
+Fill 34.448 47.2715
+Fill 34.9179 44.3742
+Fill 34.9179 41.2418
+Fill 35.0745 38.4228
+Color F25
+Text 1 1.4 LJ 36.5 49.5 Jump back to the previous item
+Line 31.5 52 71.5 52
+Line 31.5 55 31.5 33
+Text 1 1.4 MIDDLE 51.5 53.5 Presentation Toolbar Buttons
+Text 1 1.4 43.5 22.5 Expand  hierarchical item
+Color F19
+Fill 56.8306 29.8358
+Color F25
+Text 1 1.4 MIDDLE 51.5 29.2314 Navigation Tree Items
+Text 1 1.4 43.5 15.5 Select simple presentation item
+Line 71.5 13.5 31.5 13.5
+Text 1 1.4 MIDDLE 37.5 26 Prefix
+Line 31.5 28 71.5 28
+Text 1 1.4 43.5 26 Click Action
+Line 31.5 31 71.5 31
+Line 71.5 31 71.5 13.5
+Color F11
+Fill 60.1899 22.0171
+Color F25
+Text 1 1.4 MIDDLE 37.5 15.5 (none)
+Line 36.5 19 38.5 19
+Line 38.5 20 36.5 20
+Line 38.5 18 38.5 20
+Line 36.5 18 38.5 18
+Line 36.5 20 36.5 18
+Line 37.5 23.5 37.5 21.5
+Line 36.5 22.5 38.5 22.5
+Line 38.5 23.5 36.5 23.5
+Line 38.5 21.5 38.5 23.5
+Line 36.5 21.5 38.5 21.5
+Line 36.5 23.5 36.5 21.5
+Line 31.5 13.5 31.5 31
+Color F11
+Fill 36.9087 21.9546
+Fill 36.9868 23.0483
+Fill 37.9243 23.0483
+Fill 38.0806 22.0327
+Fill 37.5337 18.439
+Fill 37.5337 19.4546
+Color F25
+Text 1 1.4 43.5 19 Contract hierarchical item
+Line 35 25 40 25
+Line 42.5 25 53.5 25
+Line 35.5 34 33 34
+Color F2
+Fill 34.8187 34.7672
+Line 34.2022 35.1439 35.0362 34.8055
+Color F4
+Fill 34.7713 35.4203
+Color F25
+Line 33.7072 35.6389 33.5658 35.7803
+Line 34.2022 36.0439 34.2022 35.8439
+Line 34.9022 35.1439 35.1022 35.1439
+Line 34.6972 35.6389 34.8386 35.7803
+Line 33.3022 35.1439 33.5022 35.1439
+Line 33.9022 35.7439 34.2022 35.1439
+Color F2
+Line 34.2022 35.1439 34.8386 34.5075
+Color F25
+Arc 0.9 34.2022 35.1439 -45 225 0
+Line 34.2022 35.1439 33.5658 34.5075
+Color F4
+Fill 33.7521 35.2826
+Color F19
+Fill 53.4087 53.4077
+Color F11
+Fill 52.0962 42.8921
+Color F31
+Fill 34.2131 34.5074
+Color F25
+Text 1 1.4 LJ 36.5 34.5 Speed up, slow down the presentation
+Line 31.5 33 71.5 33
+Line 71.5 33 71.5 55
+Color F2
+Line 8.5 47.5 8.5 40.5
+Text 1 1.4 LJ 10 43.5 clicking this icon in
+Text 1 1.4 LJ 10 41.5 the toolbar above
+Line 31.5 44 30.5 45
+Line 30.5 45 30.5 43
+Line 30.5 43 31.5 44
+Fill 30.9946 43.9335
+Color F11
+Fill 10.3895 46.4082
+Fill 18.0568 44.3636
+Fill 23.2414 43.1222
+Fill 26.4544 41.7348
+Fill 26.0162 46.3352
+Fill 10.3895 41.6618
+Color F2
+Text 1 1.4 LJ 10 45.5 Start or resume by 
+Text 1 1.4 LJ 9.5 26.5 Note:  The numeric
+Text 1 1.4 LJ 9.5 24.5 keypad "+" and "-"
+Text 1 1.4 LJ 9.5 22.5 keys can also be
+Line 8.5 28.5 8.5 15.5
+Text 1 1.4 LJ 9.5 16.5 presentation.
+Color F32
+Fill 22.7302 19.5289
+Color F2
+Text 1 1.4 LJ 9.5 20.5 used for jumping
+Text 1 1.4 LJ 9.5 18.5 ahead or back in a 
+Line 26.5 15.5 26.5 28.5
+Line 26.5 40.5 26.5 47.5
+Line 30.5 44 26.5 44
+Line 26.5 47.5 8.5 47.5
+Line 8.5 40.5 26.5 40.5
+Line 8.5 15.5 26.5 15.5
+Line 8.5 28.5 26.5 28.5
+Line 17.5 40.5 17.5 28.5
+End

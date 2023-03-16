@@ -1,0 +1,20 @@
+        SIMULATE
+*
+* Block Statements
+*
+        GENERATE        RVEXPO(1,2.2)
+        ADVANCE         0.25            Car moves to entry
+        SEIZE           CHAIN
+        ADVANCE         2               Car moves thru wash
+        RELEASE         CHAIN
+        ADVANCE         1.5             Car sits for drying
+        ADVANCE         0.25            Car moves to exit
+        TERMINATE       1
+*
+* Control Statements
+*
+        START           100
+        END
+
+
+

@@ -1,0 +1,14 @@
+create car 1
+create car 2
+create car 3
+time 3
+place 1 on yol
+time 4
+place 2 on yol
+time 5
+place 3 on yol
+time 8
+set path yol speed 0
+time 12
+set path yol speed 5
+time 60

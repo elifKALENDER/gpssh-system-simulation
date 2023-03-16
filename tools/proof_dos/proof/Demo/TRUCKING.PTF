@@ -1,0 +1,4564 @@
+*** Time 0 ... 200 of D:\SE\users\jbhunt\jbhunt.ATF ***
+*** Establish Proper State ***
+Set Path ChiNas Speed 0
+Set Path ChiBos Speed 0
+Set Path OrlSea Speed 0
+Set Path EliPhi Speed 0
+Set Path DetCle Speed 0
+Set Path DetCol Speed 0
+Set Path DetChi Speed 0
+Set Path DetEli Speed 0
+Set Path CleDet Speed 0
+Set Path CleEli Speed 0
+Set Path CleTol Speed 0
+Set Path CleCin Speed 0
+Set Path ColLou Speed 0
+Set Path ColDet Speed 0
+Set Path ColCle Speed 0
+Set Path ColInd Speed 0
+Set Path ColSol Speed 0
+Set Path ColRic Speed 0
+Set Path EliCle Speed 0
+Set Path StLCle Speed 0
+Set Path FloCle Speed 0
+Set Path FtWCol Speed 0
+Set Path CheDet Speed 0
+Set Path DayDet Speed 0
+Set Path TolDet Speed 0
+Set Path ChiDet Speed 0
+Set Path TolCle Speed 0
+Set Path BufCle Speed 0
+Set Path WarCle Speed 0
+Set Path TolCol Speed 0
+Set Path SolCol Speed 0
+Set Path RicCol Speed 0
+Set Path CinCol Speed 0
+Set Path NasChi Speed 0
+Set Path BosChi Speed 0
+Set Path SeaOrl Speed 0
+Set Path PhiEli Speed 0
+Set Path EliDet Speed 0
+Set Path CinCle Speed 0
+Set Path LouCol Speed 0
+Set Path CleCol Speed 0
+Set Path IndCol Speed 0
+Set Path CleStl Speed 0
+Set Path CleFlo Speed 0
+Set Path ColFtW Speed 0
+Set Path DetChe Speed 0
+Set Path DetDay Speed 0
+Set Path DetTol Speed 0
+Set Path CleBuf Speed 0
+Set Path CleWar Speed 0
+Set Path ColTol Speed 0
+Set Path ColCin Speed 0
+*** Resume User Trace ***
+create HourHand HH
+place HH at  -760   610
+Rotate HH Speed    -30 Step 6
+create MinuteHand MH
+place MH at  -760   610
+Rotate MH Speed   -360 Step 30
+write DayNo Day 1
+Time 0.3223 44336
+create Truck 1
+place 1 on EliPhi
+Time 0.7161 58970
+set   1 color White
+set   1 travel 1.803
+Time 0.9091 8087
+create Truck 2
+place 2 on CleCin
+Time 1.0451 22721
+create Truck 3
+place 3 on CleCin
+Time 1.3789 37355
+set   2 color White
+set   2 travel 5.966
+Time 1.4344 51752
+create Truck 4
+place 4 on ColDet
+Time 1.4778 850
+set   3 color White
+set   3 travel 5.629
+Time 1.8904 15503
+set   4 color White
+set   4 travel 4.632
+Time 3.6286 30156
+create Truck 5
+place 5 on ChiNas
+Time 3.7946 44790
+create Truck 6
+place 6 on ColInd
+Time 4.7669 59168
+set   5 color White
+set   5 travel 11.529
+Time 5.2436 8285
+create Truck 7
+place 7 on ColSol
+Time 5.6195 22919
+create Truck 8
+place 8 on DetChi
+Time 5.786 37553
+create Truck 9
+place 9 on ColRic
+Time 5.8748 52187
+create Truck 10
+place 10 on ColCle
+Time 6.0253 1029
+set   6 color White
+set   6 travel 3.786
+Time 6.0443 15682
+create Truck 11
+place 11 on ColCle
+Time 6.1366 30316
+set   8 color White
+set   8 travel 5.826
+Time 6.2223 44969
+create Truck 12
+place 12 on EliPhi
+Time 6.6451 59603
+create Truck 13
+place 13 on DetChi
+Time 6.6825 8701
+set   12 color White
+set   12 travel 1.942
+Time 6.6878 23098
+set   10 color White
+set   10 travel 3.228
+Time 6.8491 37751
+create Truck 14
+place 14 on DetEli
+Time 7.1585 52385
+set   13 color White
+set   13 travel 6.467
+Time 7.3258 1502
+set   14 color White
+set   14 travel 13.380
+Time 7.4412 15899
+set   7 color White
+set   7 travel 3.162
+Time 8 30552
+set   1 color Green
+set   4 color Green
+set   3 color Green
+set   2 color Green
+Time 8.0844 54909
+set   9 color White
+set   9 travel 2.296
+Time 8.2686 4026
+create Truck 15
+place 15 on CleCin
+Time 8.3471 18660
+create Truck 16
+place 16 on CleCin
+Time 8.3724 33038
+place 2 on CinCle
+set   2 color White
+set   2 travel 5.782
+Time 8.4765 52668
+place 1 on PhiEli
+set   1 color White
+set   1 travel 1.720
+Time 8.4926 6506
+place 3 on CinCle
+set   3 color White
+set   3 travel 5.778
+Time 8.6247 25880
+set   12 color Green
+Time 8.787 35809
+set   15 color White
+set   15 travel 5.530
+Time 8.9011 50206
+set   16 color White
+set   16 travel 5.229
+Time 8.9033 64859
+create Truck 17
+place 17 on ColDet
+Time 9.1663 13957
+place 12 on PhiEli
+set   12 color White
+set   12 travel 1.759
+Time 9.3353 33331
+set   17 color White
+set   17 travel 4.598
+Time 9.477 47984
+create Truck 18
+place 18 on ColInd
+Time 9.6533 62618
+create Truck 19
+place 19 on CleTol
+Time 9.8116 11716
+set   6 color Green
+Time 9.9157 21389
+set   10 color Green
+Time 10.1091 31062
+create Truck 20
+place 20 on DetEli
+Time 10.1819 45696
+set   19 color White
+set   19 travel 2.409
+Time 10.1963 60349
+destroy 1
+Time 10.3245 4471
+place 6 on IndCol
+set   6 color White
+set   6 travel 4.090
+Time 10.3801 23845
+set   9 color Green
+Time 10.4757 33774
+place 4 on DetCol
+set   4 color White
+set   4 travel 4.909
+Time 10.6028 53148
+set   7 color Green
+Time 10.6565 62821
+set   20 color White
+set   20 travel 13.453
+Time 10.9251 11938
+destroy 12
+Time 10.932 21596
+place 10 on CleCol
+set   10 color White
+set   10 travel 3.284
+Time 10.9334 40970
+place 9 on RicCol
+set   9 color White
+set   9 travel 2.219
+Time 11.5664 60600
+place 7 on SolCol
+set   7 color White
+set   7 travel 3.251
+Time 11.5774 14438
+create Truck 21
+place 21 on DetCol
+Time 11.6667 29072
+create Truck 22
+place 22 on DetCol
+Time 11.7573 43706
+set   18 color White
+set   18 travel 3.811
+Time 11.9622 58359
+set   8 color Green
+Time 12.0515 2496
+set   21 color White
+set   21 travel 4.780
+Time 12.0721 17149
+create Truck 23
+place 23 on ColCle
+Time 12.2266 31527
+set   22 color White
+set   22 travel 4.635
+Time 12.591 46180
+set   19 color Green
+Time 12.6791 55853
+create Truck 24
+place 24 on CleCin
+Time 12.8595 4951
+create Truck 25
+place 25 on EliPhi
+Time 12.9734 19585
+place 8 on ChiDet
+set   8 color White
+set   8 travel 6.376
+Time 13.1331 38959
+set   24 color White
+set   24 travel 5.647
+Time 13.1524 53612
+destroy 9
+Time 13.3068 63270
+create Truck 26
+place 26 on ColRic
+Time 13.3733 12368
+create Truck 27
+place 27 on DetCle
+Time 13.3786 27002
+set   25 color White
+set   25 travel 1.919
+Time 13.4884 41655
+create Truck 28
+place 28 on DetEli
+Time 13.5206 56289
+place 19 on TolCle
+set   19 color White
+set   19 travel 2.476
+Time 13.5859 10127
+create Truck 29
+place 29 on DetEli
+Time 13.6258 24761
+set   13 color Green
+Time 13.9162 34434
+set   27 color White
+set   27 travel 3.641
+Time 13.9337 49087
+set   17 color Green
+Time 14.0034 58760
+set   28 color White
+set   28 travel 13.670
+Time 14.1204 7877
+set   29 color White
+set   29 travel 14.099
+Time 14.1299 22274
+set   16 color Green
+Time 14.1549 32203
+destroy 2
+Time 14.2159 41861
+destroy 10
+Time 14.2703 51519
+destroy 3
+Time 14.3171 61433
+set   15 color Green
+Time 14.4146 5570
+destroy 6
+Time 14.4343 15228
+set   23 color White
+set   23 travel 3.073
+Time 14.4344 29881
+create Truck 30
+place 30 on ColCle
+Time 14.5528 44515
+place 16 on CinCle
+set   16 color White
+set   16 travel 5.606
+Time 14.6751 63889
+place 13 on ChiDet
+set   13 color White
+set   13 travel 5.887
+Time 14.7669 17727
+set   5 speed     0
+set   5 color Blue 
+Time 14.8173 32380
+destroy 7
+Time 14.8692 42038
+place 15 on CinCle
+set   15 color White
+set   15 travel 5.990
+Time 15.0058 61668
+create Truck 31
+place 31 on OrlSea
+Time 15.2977 10510
+set   25 color Green
+Time 15.3845 20439
+destroy 4
+Time 15.5359 30097
+set   26 color White
+set   26 travel 2.269
+Time 15.568 44750
+set   18 color Green
+Time 15.8344 54423
+place 25 on PhiEli
+set   25 color White
+set   25 travel 1.735
+Time 15.9498 8261
+set   31 color White
+set   31 travel 67.662
+Time 15.9966 22914
+destroy 19
+Time 16.0609 32572
+place 18 on IndCol
+set   18 color White
+set   18 travel 4.091
+Time 16.4564 52202
+place 17 on DetCol
+set   17 color White
+set   17 travel 4.459
+Time 16.6509 6040
+set   30 color White
+set   30 travel 3.279
+Time 16.8316 20693
+set   21 color Green
+Time 16.8615 30366
+set   22 color Green
+Time 16.8934 40039
+create Truck 32
+place 32 on ColInd
+Time 17.1111 54673
+create Truck 33
+place 33 on ColInd
+Time 17.1444 3771
+create Truck 34
+place 34 on ColRic
+Time 17.3258 18405
+set   14 speed     0
+set   14 color Blue 
+Time 17.5078 32802
+set   23 color Green
+Time 17.5185 42731
+create Truck 35
+place 35 on ColRic
+Time 17.5573 57109
+set   27 color Green
+Time 17.5639 1502
+set   32 color White
+set   32 travel 4.047
+Time 17.5693 15899
+destroy 25
+Time 17.7519 25813
+create Truck 36
+place 36 on OrlSea
+Time 17.8048 40447
+set   26 color Green
+Time 18.0569 50120
+create Truck 37
+place 37 on ChiBos
+Time 18.0807 64754
+set   34 color White
+set   34 travel 2.274
+Time 18.3079 13615
+create Truck 38
+place 38 on CleTol
+Time 18.3235 28249
+place 26 on RicCol
+set   26 color White
+set   26 travel 2.263
+Time 18.4456 47623
+place 23 on CleCol
+set   23 color White
+set   23 travel 3.237
+Time 18.56 1717
+place 27 on CleDet
+set   27 color White
+set   27 travel 3.550
+Time 18.7784 21091
+set   38 color White
+set   38 travel 2.463
+Time 18.7893 35744
+create Truck 39
+place 39 on CleEli
+Time 18.962 50378
+create Truck 40
+place 40 on ColLou
+Time 19.0068 65012
+set   36 color White
+set   36 travel 71.045
+Time 19.2482 13873
+create Truck 41
+place 41 on EliPhi
+Time 19.2701 28507
+set   39 color White
+set   39 travel 10.104
+Time 19.3307 43160
+place 21 on ColDet
+set   21 color White
+set   21 travel 4.365
+Time 19.349 62534
+destroy 8
+Time 19.3749 6656
+create Truck 42
+place 42 on CleDet
+Time 19.4327 21290
+place 22 on ColDet
+set   22 color White
+set   22 travel 4.398
+Time 19.5081 40920
+set   40 color White
+set   40 travel 4.830
+Time 19.5465 55317
+create Truck 43
+place 43 on CleDet
+Time 19.8545 4415
+set   41 color White
+set   41 travel 1.823
+Time 19.9052 19068
+set   42 color White
+set   42 travel 3.859
+Time 20.0331 33721
+set   43 color White
+set   43 travel 3.775
+Time 20.1516 48374
+destroy 18
+Time 20.1592 58032
+destroy 16
+Time 20.5599 2154
+set   37 color White
+set   37 travel 23.752
+Time 20.5626 16807
+destroy 13
+Time 20.587 26465
+destroy 26
+Time 20.6565 36123
+set   20 speed     0
+set   20 color Blue 
+Time 20.8595 50776
+destroy 15
+Time 20.9154 60434
+destroy 17
+Time 21.6376 4812
+create Truck 44
+place 44 on DetChi
+Time 21.6821 19446
+destroy 23
+Time 22.1098 29104
+destroy 27
+Time 22.1639 38762
+set   44 color White
+set   44 travel 6.197
+Time 22.6695 53415
+create Truck 45
+place 45 on DetEli
+Time 22.7669 2513
+set   5 color White
+set   5 travel 1.529
+Time 23.1368 16910
+set   45 color White
+set   45 travel 14.190
+Time 23.5056 31563
+create Truck 46
+place 46 on ColRic
+Time 23.6952 46197
+destroy 21
+Time 23.8303 55855
+destroy 22
+Time 23.9241 233
+create Truck 47
+place 47 on CleCin
+Time 24 14611
+write DayNo Day 2
+Time 24.0034 24544
+set   28 speed     0
+set   28 color Blue 
+Time 24.1204 38941
+set   29 speed     0
+set   29 color Blue 
+Time 24.21 53594
+create Truck 48
+place 48 on DetEli
+Time 24.3552 2692
+set   47 color White
+set   47 travel 5.463
+Time 24.5648 17345
+create Truck 49
+place 49 on DetCol
+Time 24.7241 31979
+set   48 color White
+set   48 travel 14.246
+Time 24.9957 46376
+set   49 color White
+set   49 travel 4.553
+Time 25.3258 61029
+set   14 color White
+set   14 travel 3.380
+Time 25.7186 10146
+set   46 color White
+set   46 travel 2.284
+Time 25.9498 24799
+set   31 speed     0
+set   31 color Blue 
+Time 26.7476 39196
+create Truck 50
+place 50 on ColInd
+Time 26.839 53830
+create Truck 51
+place 51 on EliPhi
+Time 27.0937 2928
+create Truck 52
+place 52 on DetEli
+Time 27.353 17562
+set   51 color White
+set   51 travel 2.004
+Time 27.6105 32215
+set   52 color White
+set   52 travel 12.386
+Time 27.7569 46612
+create Truck 53
+place 53 on EliPhi
+Time 28.2873 61246
+set   53 color White
+set   53 travel 1.838
+Time 28.5133 10363
+create Truck 54
+place 54 on ColRic
+Time 28.6565 24997
+set   20 color White
+set   20 travel 3.453
+Time 28.7583 39650
+create Truck 55
+place 55 on ColRic
+Time 28.9889 54028
+set   50 color White
+set   50 travel 3.951
+Time 29.0068 3145
+set   36 speed     0
+set   36 color Blue 
+Time 29.2701 17798
+set   39 speed     0
+set   39 color Blue 
+Time 29.2977 32451
+set   54 color White
+set   54 travel 2.366
+Time 30.5599 46848
+set   37 speed     0
+set   37 color Blue 
+Time 30.8517 61501
+create Truck 56
+place 56 on ColLou
+Time 31.3743 10599
+set   56 color White
+set   56 travel 4.781
+Time 32 25252
+set   24 color Green
+set   30 color Green
+set   34 color Green
+set   38 color Green
+set   32 color Green
+set   41 color Green
+set   42 color Green
+set   43 color Green
+set   5 color Green
+set   40 color Green
+set   46 color Green
+set   44 color Green
+set   14 color Green
+set   51 color Green
+set   49 color Green
+set   47 color Green
+set   53 color Green
+set   54 color Green
+Time 32.0034 52001
+set   28 color White
+set   28 travel 3.670
+Time 32.1097 1118
+set   20 color Green
+Time 32.1204 10791
+set   29 color White
+set   29 travel 4.099
+Time 32.3848 25444
+place 47 on CinCle
+set   47 color White
+set   47 travel 5.363
+Time 32.4733 44818
+create Truck 57
+place 57 on ChiNas
+Time 32.4882 59452
+place 14 on EliDet
+set   14 color White
+set   14 travel 14.028
+Time 32.5025 13546
+place 24 on CinCle
+set   24 color White
+set   24 travel 5.785
+Time 32.5098 32920
+place 53 on PhiEli
+set   53 color White
+set   53 travel 1.888
+Time 32.5155 52294
+place 46 on RicCol
+set   46 color White
+set   46 travel 2.222
+Time 32.5168 6388
+place 32 on IndCol
+set   32 color White
+set   32 travel 3.795
+Time 32.5173 25762
+place 54 on RicCol
+set   54 color White
+set   54 travel 2.245
+Time 32.5307 45136
+place 51 on PhiEli
+set   51 color White
+set   51 travel 1.848
+Time 32.5368 64766
+place 34 on RicCol
+set   34 color White
+set   34 travel 2.362
+Time 32.5898 18604
+place 41 on PhiEli
+set   41 color White
+set   41 travel 1.813
+Time 32.606 37978
+place 20 on EliDet
+set   20 color White
+set   20 travel 13.874
+Time 32.94 57352
+set   50 color Green
+Time 32.9546 1745
+place 44 on ChiDet
+set   44 color White
+set   44 travel 6.837
+Time 32.9553 21119
+place 5 on NasChi
+set   5 color White
+set   5 travel 9.917
+Time 32.9677 40493
+place 40 on LouCol
+set   40 color White
+set   40 travel 4.476
+Time 32.999 60123
+place 43 on DetCle
+set   43 color White
+set   43 travel 4.071
+Time 33.0332 13961
+place 38 on TolCle
+set   38 color White
+set   38 travel 2.659
+Time 33.0362 33335
+place 42 on DetCle
+set   42 color White
+set   42 travel 4.034
+Time 33.0392 52965
+place 30 on CleCol
+set   30 color White
+set   30 travel 3.229
+Time 33.1368 6803
+set   45 speed     0
+set   45 color Blue 
+Time 33.3738 21456
+set   57 color White
+set   57 travel 11.095
+Time 33.3884 35853
+place 50 on IndCol
+set   50 color White
+set   50 travel 3.899
+Time 33.6152 55483
+create Truck 58
+place 58 on ColRic
+Time 33.821 4581
+create Truck 59
+place 59 on EliPhi
+Time 33.8845 18959
+create Truck 60
+place 60 on ColRic
+Time 33.9498 33593
+set   31 color White
+set   31 travel 57.662
+Time 34.3118 48246
+set   59 color White
+set   59 travel 1.891
+Time 34.3792 62899
+destroy 51
+Time 34.3974 7021
+destroy 53
+Time 34.4026 16679
+destroy 41
+Time 34.4079 26593
+set   58 color White
+set   58 travel 2.308
+Time 34.4699 40990
+place 49 on ColDet
+set   49 color White
+set   49 travel 4.559
+Time 34.6647 60620
+create Truck 61
+place 61 on ColInd
+Time 34.7241 9718
+set   48 speed     0
+set   48 color Blue 
+Time 34.7376 24115
+destroy 46
+Time 34.7619 34029
+destroy 54
+Time 34.8461 43687
+create Truck 62
+place 62 on EliPhi
+Time 34.8987 58321
+destroy 34
+Time 35.4258 2443
+set   62 color White
+set   62 travel 2.006
+Time 35.6738 17096
+set   28 color Green
+Time 35.692 26769
+destroy 38
+Time 35.7021 36427
+create Truck 63
+place 63 on ColRic
+Time 36.1552 51061
+set   56 color Green
+Time 36.1795 60734
+place 28 on EliDet
+set   28 color White
+set   28 travel 13.439
+Time 36.2025 14828
+set   59 color Green
+Time 36.219 24501
+set   29 color Green
+Time 36.2685 34174
+destroy 30
+Time 36.3116 43832
+destroy 32
+Time 36.498 53746
+create Truck 64
+place 64 on CleDet
+Time 36.7158 2588
+set   58 color Green
+Time 36.7643 12517
+place 59 on PhiEli
+set   59 color White
+set   59 travel 1.847
+Time 36.7714 31891
+place 29 on EliDet
+set   29 color White
+set   29 travel 14.183
+Time 36.9811 51265
+set   61 color White
+set   61 travel 3.854
+Time 36.984 382
+set   64 color White
+set   64 travel 3.797
+Time 37.0068 15035
+set   36 color White
+set   36 travel 61.045
+Time 37.0651 29688
+create Truck 65
+place 65 on CleCin
+Time 37.07 44066
+destroy 43
+Time 37.0707 53980
+destroy 42
+Time 37.2327 63638
+place 58 on RicCol
+set   58 color White
+set   58 travel 2.331
+Time 37.2345 17476
+create Truck 66
+place 66 on CleCin
+Time 37.2389 32110
+place 56 on LouCol
+set   56 color White
+set   56 travel 4.447
+Time 37.2701 51484
+set   39 color White
+set   39 travel 0.104
+Time 37.2876 601
+destroy 50
+Time 37.3282 10259
+create Truck 67
+place 67 on CleCin
+Time 37.3739 24893
+set   39 color Green
+Time 37.4233 34566
+create Truck 68
+place 68 on DetEli
+Time 37.4322 49200
+set   62 color Green
+Time 37.4436 59129
+destroy 40
+Time 37.6024 3251
+set   65 color White
+set   65 travel 5.514
+Time 37.6105 17904
+set   52 speed     0
+set   52 color Blue 
+Time 37.7479 32301
+destroy 47
+Time 37.8139 42215
+set   66 color White
+set   66 travel 5.395
+Time 37.8532 56612
+set   67 color White
+set   67 travel 5.766
+Time 37.9507 5729
+set   63 color White
+set   63 travel 2.233
+Time 37.9874 20382
+set   68 color White
+set   68 travel 13.274
+Time 38.0151 35035
+place 62 on PhiEli
+set   62 color White
+set   62 travel 1.848
+Time 38.2876 54409
+destroy 24
+Time 38.5599 64067
+set   37 color White
+set   37 travel 13.752
+Time 38.6115 13184
+destroy 59
+Time 38.7552 22842
+create Truck 69
+place 69 on ColDet
+Time 38.8896 37476
+create Truck 70
+place 70 on ColDet
+Time 39.0293 52110
+destroy 49
+Time 39.252 61768
+set   69 color White
+set   69 travel 4.879
+Time 39.5074 10885
+set   70 color White
+set   70 travel 4.673
+Time 39.5633 25538
+destroy 58
+Time 39.7918 35196
+destroy 44
+Time 39.8631 44854
+destroy 62
+Time 39.8694 54768
+place 39 on EliCle
+set   39 color White
+set   39 travel 10.298
+Time 39.915 8606
+create Truck 71
+place 71 on DetEli
+Time 40.1835 23240
+set   63 color Green
+Time 40.3956 32913
+set   71 color White
+set   71 travel 13.769
+Time 40.7288 47566
+place 63 on RicCol
+set   63 color White
+set   63 travel 2.274
+Time 40.7809 1404
+set   64 color Green
+Time 40.8355 11077
+set   61 color Green
+Time 41.1368 20750
+set   45 color White
+set   45 travel 4.190
+Time 41.2562 35403
+place 61 on IndCol
+set   61 color White
+set   61 travel 3.916
+Time 41.2992 55033
+create Truck 72
+place 72 on CleCin
+Time 41.6858 3875
+destroy 56
+Time 41.7368 13789
+place 64 on DetCle
+set   64 color White
+set   64 travel 3.762
+Time 41.8318 33163
+set   72 color White
+set   72 travel 5.239
+Time 42.4882 47816
+set   14 speed     0
+set   14 color Blue 
+Time 42.606 62213
+set   20 speed     0
+set   20 color Blue 
+Time 42.7241 11330
+set   48 color White
+set   48 travel 4.246
+Time 42.8721 25983
+destroy 5
+Time 43.0033 35641
+destroy 63
+Time 43.3738 45555
+set   57 speed     0
+set   57 color Blue 
+Time 43.813 59952
+create Truck 73
+place 73 on ColRic
+Time 43.9498 9050
+set   31 speed     0
+set   31 color Blue 
+Time 43.9881 23703
+create Truck 74
+place 74 on CleEli
+Time 44.1351 38337
+create Truck 75
+place 75 on EliPhi
+Time 44.2951 52971
+create Truck 76
+place 76 on ColInd
+Time 44.4256 1813
+create Truck 77
+place 77 on EliPhi
+Time 44.5588 16447
+set   74 color White
+set   74 travel 10.048
+Time 44.6318 31100
+set   75 color White
+set   75 travel 1.955
+Time 44.8327 45753
+set   77 color White
+set   77 travel 1.788
+Time 45.1723 60406
+destroy 61
+Time 45.4991 4528
+destroy 64
+Time 45.6105 14186
+set   52 color White
+set   52 travel 2.386
+Time 45.971 28839
+create Truck 78
+place 78 on DetCle
+Time 46 43473
+set   73 color White
+set   73 travel 2.278
+set   76 color White
+set   76 travel 3.965
+Time 46.1795 2294
+set   28 speed     0
+set   28 color Blue 
+Time 46.2954 16691
+create Truck 79
+place 79 on CleEli
+Time 46.4765 31325
+set   78 color White
+set   78 travel 3.871
+Time 46.7714 45978
+set   29 speed     0
+set   29 color Blue 
+Time 46.7735 60631
+set   79 color White
+set   79 travel 10.422
+Time 47.0068 9492
+set   36 speed     0
+set   36 color Blue 
+Time 47.0656 24145
+create Truck 80
+place 80 on DetEli
+Time 47.3889 38779
+create Truck 81
+place 81 on ColRic
+Time 47.5619 53413
+create Truck 82
+place 82 on DetCol
+Time 47.581 2511
+set   80 color White
+set   80 travel 12.923
+Time 47.9874 16908
+set   68 speed     0
+set   68 color Blue 
+Time 48 31561
+write DayNo Day 3
+Time 48.0174 41238
+set   82 color White
+set   82 travel 4.704
+Time 48.5599 55891
+set   37 speed     0
+set   37 color Blue 
+Time 48.8999 5008
+create Truck 83
+place 83 on OrlSea
+Time 49.07 19642
+create Truck 84
+place 84 on CleCin
+Time 49.1962 34276
+create Truck 85
+place 85 on ColRic
+Time 49.5212 48654
+create Truck 86
+place 86 on EliPhi
+Time 49.5289 63288
+set   84 color White
+set   84 travel 5.477
+Time 49.8045 12405
+set   81 color White
+set   81 travel 2.428
+Time 49.8297 27058
+create Truck 87
+place 87 on EliPhi
+Time 49.8542 41692
+set   83 color White
+set   83 travel 74.723
+Time 49.8694 56089
+set   39 speed     0
+set   39 color Blue 
+Time 50.0184 5206
+set   86 color White
+set   86 travel 1.915
+Time 50.2138 19859
+create Truck 88
+place 88 on CleTol
+Time 50.3956 34493
+set   71 speed     0
+set   71 color Blue 
+Time 50.4777 49146
+set   87 color White
+set   87 travel 1.931
+Time 50.4882 63543
+set   14 color White
+set   14 travel 4.028
+Time 50.606 12660
+set   20 color White
+set   20 travel 3.874
+Time 50.8392 27313
+set   88 color White
+set   88 travel 2.706
+Time 51.0608 41966
+create Truck 89
+place 89 on ChiBos
+Time 51.3738 56344
+set   57 color White
+set   57 travel 1.095
+Time 51.6159 5461
+create Truck 90
+place 90 on ColInd
+Time 51.8676 20095
+create Truck 91
+place 91 on ColInd
+Time 51.9498 34729
+set   31 color White
+set   31 travel 47.662
+Time 52.3652 49382
+create Truck 92
+place 92 on ColLou
+Time 52.3758 63760
+create Truck 93
+place 93 on ColLou
+Time 52.3876 12858
+set   90 color White
+set   90 travel 3.904
+Time 52.8913 27511
+set   92 color White
+set   92 travel 4.414
+Time 52.9417 42164
+set   93 color White
+set   93 travel 4.288
+Time 53.0719 56817
+create Truck 94
+place 94 on CleCin
+Time 53.3184 5659
+set   89 color White
+set   89 travel 23.038
+Time 53.619 20312
+set   94 color White
+set   94 travel 5.433
+Time 54.1795 34965
+set   28 color White
+set   28 travel 3.439
+Time 54.4802 49618
+destroy 20
+Time 54.5158 59276
+destroy 14
+Time 54.5588 3398
+set   74 speed     0
+set   74 color Blue 
+Time 54.7714 18051
+set   29 color White
+set   29 travel 4.183
+Time 55.0068 32704
+set   36 color White
+set   36 travel 51.045
+Time 55.9874 47357
+set   68 color White
+set   68 travel 3.274
+Time 56 61754
+set   65 color Green
+set   66 color Green
+set   67 color Green
+set   69 color Green
+set   70 color Green
+set   45 color Green
+set   75 color Green
+set   77 color Green
+set   48 color Green
+set   72 color Green
+set   52 color Green
+set   73 color Green
+set   76 color Green
+set   78 color Green
+set   86 color Green
+set   81 color Green
+set   87 color Green
+set   57 color Green
+set   82 color Green
+set   88 color Green
+set   84 color Green
+Time 56.2798 37651
+create Truck 95
+place 95 on DetEli
+Time 56.292 52285
+set   90 color Green
+Time 56.4238 61958
+place 72 on CinCle
+set   72 color White
+set   72 travel 5.468
+Time 56.4362 16052
+place 76 on IndCol
+set   76 color White
+set   76 travel 4.070
+Time 56.4414 35426
+place 84 on CinCle
+set   84 color White
+set   84 travel 5.955
+Time 56.4458 54800
+place 77 on PhiEli
+set   77 color White
+set   77 travel 1.814
+Time 56.4462 8894
+place 67 on CinCle
+set   67 color White
+set   67 travel 5.398
+Time 56.4504 28268
+place 81 on RicCol
+set   81 color White
+set   81 travel 2.521
+Time 56.4662 47642
+place 45 on EliDet
+set   45 color White
+set   45 travel 14.152
+Time 56.4674 1736
+place 86 on PhiEli
+set   86 color White
+set   86 travel 1.855
+Time 56.4866 21110
+place 73 on RicCol
+set   73 color White
+set   73 travel 2.389
+Time 56.4906 40484
+place 75 on PhiEli
+set   75 color White
+set   75 travel 1.923
+Time 56.4958 60114
+place 48 on EliDet
+set   48 color White
+set   48 travel 13.449
+Time 56.5084 13952
+place 52 on EliDet
+set   52 color White
+set   52 travel 13.961
+Time 56.5249 33326
+place 87 on PhiEli
+set   87 color White
+set   87 travel 1.808
+Time 56.5283 52956
+place 66 on CinCle
+set   66 color White
+set   66 travel 5.615
+Time 56.5392 6794
+place 65 on CinCle
+set   65 color White
+set   65 travel 5.891
+Time 56.5599 26168
+set   37 color White
+set   37 travel 3.752
+Time 56.7735 40821
+set   79 speed     0
+set   79 color Blue 
+Time 56.8041 55474
+set   95 color White
+set   95 travel 14.717
+Time 56.82 4591
+place 90 on IndCol
+set   90 color White
+set   90 travel 3.694
+Time 56.9457 23965
+place 78 on CleDet
+set   78 color White
+set   78 travel 3.736
+Time 56.9565 43339
+create Truck 96
+place 96 on DetEli
+Time 56.9857 57973
+place 88 on TolCle
+set   88 color White
+set   88 travel 2.351
+Time 57.0633 11811
+place 57 on NasChi
+set   57 color White
+set   57 travel 10.574
+Time 57.2096 31441
+create Truck 97
+place 97 on DetChi
+Time 57.2295 46075
+set   93 color Green
+Time 57.3056 55748
+set   92 color Green
+Time 57.3522 65421
+create Truck 98
+place 98 on ColInd
+Time 57.4486 14519
+set   96 color White
+set   96 travel 13.892
+Time 57.5799 29172
+create Truck 99
+place 99 on ColInd
+Time 57.581 43550
+set   80 speed     0
+set   80 color Blue 
+Time 57.6187 58203
+destroy 28
+Time 57.7235 2325
+set   97 color White
+set   97 travel 6.567
+Time 57.8694 16978
+set   39 color White
+set   39 travel 0.298
+Time 58.0581 31631
+set   98 color White
+set   98 travel 3.820
+Time 58.1675 46284
+destroy 39
+Time 58.2328 55942
+place 93 on LouCol
+set   93 color White
+set   93 travel 4.632
+Time 58.2558 9780
+place 92 on LouCol
+set   92 color White
+set   92 travel 4.557
+Time 58.2597 29410
+destroy 77
+Time 58.3219 39068
+destroy 86
+Time 58.3331 48726
+destroy 87
+Time 58.386 58384
+place 70 on DetCol
+set   70 color White
+set   70 travel 5.125
+Time 58.3956 12478
+set   71 color White
+set   71 travel 3.769
+Time 58.414 27131
+destroy 75
+Time 58.4367 36789
+place 82 on ColDet
+set   82 color White
+set   82 travel 4.747
+Time 58.4828 56163
+place 69 on DetCol
+set   69 color White
+set   69 travel 4.766
+Time 58.5446 10001
+create Truck 100
+place 100 on ColCle
+Time 58.7443 24635
+create Truck 101
+place 101 on OrlSea
+Time 58.8306 39269
+create Truck 102
+place 102 on ColCle
+Time 58.8752 53903
+destroy 73
+Time 58.8988 63561
+create Truck 103
+place 103 on ColCle
+Time 58.954 12659
+destroy 29
+Time 58.9709 22317
+destroy 81
+Time 59.0518 32231
+set   94 color Green
+Time 59.2617 41904
+set   68 color Green
+Time 59.337 51577
+destroy 88
+Time 59.3895 61235
+create Truck 104
+place 104 on CleDet
+Time 59.4286 10333
+set   100 color White
+set   100 travel 3.152
+Time 59.5497 24986
+place 94 on CinCle
+set   94 color White
+set   94 travel 5.850
+Time 59.6347 44360
+create Truck 105
+place 105 on CleDet
+Time 59.7266 58994
+set   101 color White
+set   101 travel 62.625
+Time 59.8055 8111
+place 68 on EliDet
+set   68 color White
+set   68 travel 14.440
+Time 59.8542 27485
+set   83 speed     0
+set   83 color Blue 
+Time 59.9421 42138
+set   104 color White
+set   104 travel 4.020
+Time 60.1461 56791
+set   105 color White
+set   105 travel 3.707
+Time 60.3116 5652
+set   37 color Green
+Time 60.5062 15581
+destroy 76
+Time 60.5139 25239
+destroy 90
+Time 60.6814 34897
+destroy 78
+Time 61.5741 44555
+create Truck 106
+place 106 on ColSol
+Time 61.8446 59189
+destroy 67
+Time 61.8493 3567
+create Truck 107
+place 107 on ColSol
+Time 61.878 17945
+set   98 color Green
+Time 61.8916 27874
+destroy 72
+Time 61.9253 37532
+create Truck 108
+place 108 on ColRic
+Time 61.9498 52166
+set   31 speed     0
+set   31 color Blue 
+Time 62.1428 1027
+destroy 66
+Time 62.1642 10941
+set   71 color Green
+Time 62.3815 20614
+set   106 color White
+set   106 travel 3.060
+Time 62.3963 35267
+destroy 84
+Time 62.43 44925
+destroy 65
+Time 62.5134 54583
+place 98 on IndCol
+set   98 color White
+set   98 travel 3.867
+Time 62.5588 8677
+set   74 color White
+set   74 travel 0.048
+Time 62.581 23074
+set   100 color Green
+Time 62.6073 33003
+set   74 color Green
+Time 62.668 42676
+place 71 on EliDet
+set   71 color White
+set   71 travel 14.743
+Time 62.7881 62050
+place 37 on BosChi
+set   37 color White
+set   37 travel 21.329
+Time 62.8129 15888
+destroy 92
+Time 62.8645 25802
+destroy 93
+Time 62.9954 35460
+create Truck 109
+place 109 on DetEli
+Time 63.139 50094
+create Truck 110
+place 110 on DetCle
+Time 63.184 64728
+destroy 82
+Time 63.2488 8850
+destroy 69
+Time 63.3184 18508
+set   89 speed     0
+set   89 color Blue 
+Time 63.5055 33161
+set   109 color White
+set   109 travel 13.166
+Time 63.5107 47814
+destroy 70
+Time 63.6664 57472
+place 100 on CleCol
+set   100 color White
+set   100 travel 2.959
+Time 63.6714 11310
+set   110 color White
+set   110 travel 3.741
+Time 63.708 25963
+create Truck 111
+place 111 on ChiNas
+Time 63.8434 40597
+create Truck 112
+place 112 on DetChi
+Time 63.8534 55231
+set   105 color Green
+Time 63.962 64904
+set   104 color Green
+Time 64.012 9041
+create Truck 113
+place 113 on EliPhi
+Time 64.0217 23675
+create Truck 114
+place 114 on EliPhi
+Time 64.2903 38309
+set   97 color Green
+Time 64.3014 47982
+set   108 color White
+set   108 travel 2.481
+Time 64.3797 62635
+set   112 color White
+set   112 travel 5.806
+Time 64.4711 11752
+set   113 color White
+set   113 travel 1.759
+Time 64.5053 26149
+set   114 color White
+set   114 travel 1.988
+Time 64.5209 40802
+create Truck 115
+place 115 on ColRic
+Time 64.584 55436
+set   111 color White
+set   111 travel 9.605
+Time 64.7735 4553
+set   79 color White
+set   79 travel 0.422
+Time 64.8758 18950
+create Truck 116
+place 116 on ColSol
+Time 64.9307 33584
+place 104 on DetCle
+set   104 color White
+set   104 travel 3.942
+Time 64.9631 53214
+place 105 on DetCle
+set   105 color White
+set   105 travel 3.697
+Time 65.0068 7052
+set   36 speed     0
+set   36 color Blue 
+Time 65.0435 21705
+place 74 on EliCle
+set   74 color White
+set   74 travel 9.753
+Time 65.1454 41079
+create Truck 117
+place 117 on CleTol
+Time 65.1954 55713
+set   79 color Green
+Time 65.2484 65386
+place 97 on ChiDet
+set   97 color White
+set   97 travel 6.573
+Time 65.2616 19224
+create Truck 118
+place 118 on ChiBos
+Time 65.3995 33858
+destroy 94
+Time 65.4419 43772
+set   106 color Green
+Time 65.581 53445
+set   80 color White
+set   80 travel 2.923
+Time 65.6075 2306
+create Truck 119
+place 119 on ColRic
+Time 65.6749 16940
+create Truck 120
+place 120 on ColRic
+Time 65.6812 31574
+set   117 color White
+set   117 travel 2.546
+Time 65.918 46227
+create Truck 121
+place 121 on ColInd
+Time 66.1143 60861
+set   115 color White
+set   115 travel 2.271
+Time 66.135 9978
+create Truck 122
+place 122 on ColInd
+Time 66.3809 24356
+destroy 98
+Time 66.4662 34270
+set   45 speed     0
+set   45 color Blue 
+Time 66.4958 48667
+set   48 speed     0
+set   48 color Blue 
+Time 66.5084 63320
+set   52 speed     0
+set   52 color Blue 
+Time 66.5111 12437
+place 106 on SolCol
+set   106 color White
+set   106 travel 3.174
+Time 66.6027 31811
+set   121 color White
+set   121 travel 3.817
+Time 66.625 46464
+destroy 100
+Time 66.8041 56122
+set   95 speed     0
+set   95 color Blue 
+Time 67.0633 5239
+set   57 speed     0
+set   57 color Blue 
+Time 67.1545 19892
+set   116 color White
+set   116 travel 3.071
+Time 67.4486 34545
+set   96 speed     0
+set   96 color Blue 
+Time 67.7 48942
+place 79 on EliCle
+set   79 color White
+set   79 travel 10.068
+Time 67.8542 3036
+set   83 color White
+set   83 travel 64.723
+Time 68.0427 17433
+create Truck 123
+place 123 on EliPhi
+Time 68.0885 32067
+set   118 color White
+set   118 travel 22.812
+Time 68.1268 46720
+create Truck 124
+place 124 on ColRic
+Time 68.3699 61354
+create Truck 125
+place 125 on DetChi
+Time 68.5312 10452
+set   123 color White
+set   123 travel 1.873
+Time 68.5897 24849
+create Truck 126
+place 126 on CleTol
+Time 68.6599 39483
+destroy 105
+Time 68.7558 49397
+create Truck 127
+place 127 on DetCol
+Time 68.7726 63775
+set   125 color White
+set   125 travel 6.055
+Time 68.8728 12892
+destroy 104
+Time 69.1633 22550
+set   126 color White
+set   126 travel 2.565
+Time 69.1764 37203
+create Truck 128
+place 128 on CleEli
+Time 69.2457 51837
+set   127 color White
+set   127 travel 4.723
+Time 69.6552 954
+set   128 color White
+set   128 travel 10.526
+Time 69.6849 15607
+destroy 106
+Time 69.7266 25265
+set   101 speed     0
+set   101 color Blue 
+Time 69.8055 39918
+set   68 speed     0
+set   68 color Blue 
+Time 69.9498 54315
+set   31 color White
+set   31 travel 37.662
+Time 70 3432
+set   124 color White
+set   124 travel 2.240
+Time 70.2071 18085
+create Truck 129
+place 129 on ColDet
+Time 70.6681 32719
+set   129 color White
+set   129 travel 4.205
+Time 71.1099 47116
+create Truck 130
+place 130 on ColDet
+Time 71.1509 61750
+create Truck 131
+place 131 on ColDet
+Time 71.3184 10848
+set   89 color White
+set   89 travel 13.038
+Time 71.5571 25501
+set   130 color White
+set   130 travel 4.793
+Time 71.6533 40154
+set   131 color White
+set   131 travel 4.845
+Time 71.7447 54551
+create Truck 132
+place 132 on ColInd
+Time 71.8218 3649
+destroy 97
+Time 71.9493 13563
+create Truck 133
+place 133 on CleCin
+Time 72 27941
+write DayNo Day 4
+Time 72.0542 37874
+create Truck 134
+place 134 on CleCin
+Time 72.4604 52252
+set   133 color White
+set   133 travel 5.759
+Time 72.4819 1369
+set   134 color White
+set   134 travel 5.744
+Time 72.668 16022
+set   71 speed     0
+set   71 color Blue 
+Time 72.7881 30675
+set   37 speed     0
+set   37 color Blue 
+Time 73.0068 45072
+set   36 color White
+set   36 travel 41.045
+Time 73.5055 59725
+set   109 speed     0
+set   109 color Blue 
+Time 73.6989 8842
+create Truck 135
+place 135 on DetEli
+Time 73.7528 23476
+create Truck 136
+place 136 on DetEli
+Time 73.9709 38110
+set   132 color White
+set   132 travel 4.112
+Time 74.2262 52507
+set   135 color White
+set   135 travel 13.763
+Time 74.2893 1624
+set   136 color White
+set   136 travel 13.613
+Time 74.4662 16277
+set   45 color White
+set   45 travel 4.152
+Time 74.4958 30930
+set   48 color White
+set   48 travel 3.449
+Time 74.5084 45327
+set   52 color White
+set   52 travel 3.961
+Time 74.7964 59980
+destroy 74
+Time 74.8041 4102
+set   95 color White
+set   95 travel 4.717
+Time 74.9186 18755
+create Truck 137
+place 137 on CleDet
+Time 75.0633 33389
+set   57 color White
+set   57 travel 0.574
+Time 75.3712 48042
+set   137 color White
+set   137 travel 3.755
+Time 75.4486 62695
+set   96 color White
+set   96 travel 3.892
+Time 75.6377 11556
+destroy 57
+Time 75.6507 21470
+create Truck 138
+place 138 on ChiBos
+Time 75.7618 35848
+create Truck 139
+place 139 on EliPhi
+Time 75.807 50482
+create Truck 140
+place 140 on EliPhi
+Time 76.3437 65116
+set   140 color White
+set   140 travel 1.815
+Time 76.3623 14233
+create Truck 141
+place 141 on ColRic
+Time 76.3887 28867
+set   139 color White
+set   139 travel 1.985
+Time 76.4871 43264
+set   134 speed     0
+set   134 color Yellow
+Time 76.6295 57917
+create Truck 142
+place 142 on ColRic
+Time 77.1444 7015
+set   141 color White
+set   141 travel 2.393
+Time 77.7 21668
+set   79 speed     0
+set   79 color Blue 
+Time 77.7266 36321
+set   101 color White
+set   101 travel 52.625
+Time 77.8055 50718
+set   68 color White
+set   68 travel 4.440
+Time 77.8542 65371
+set   83 speed     0
+set   83 color Blue 
+Time 77.8895 14488
+create Truck 143
+place 143 on DetCol
+Time 77.9446 29122
+destroy 48
+Time 78.0885 38780
+set   118 speed     0
+set   118 color Blue 
+Time 78.1552 53433
+set   138 color White
+set   138 travel 22.949
+Time 78.4505 2550
+set   143 color White
+set   143 travel 4.675
+Time 78.4696 16947
+destroy 52
+Time 78.6184 26861
+destroy 45
+Time 78.9075 36519
+create Truck 144
+place 144 on DetCle
+Time 78.9956 51153
+create Truck 145
+place 145 on CleCin
+Time 79.0602 251
+create Truck 146
+place 146 on ColRic
+Time 79.3137 14629
+create Truck 147
+place 147 on ColRic
+Time 79.4871 29263
+set   144 color White
+set   144 travel 3.651
+Time 79.5736 43916
+set   145 color White
+set   145 travel 5.413
+Time 79.6552 58569
+set   128 speed     0
+set   128 color Blue 
+Time 79.8409 7430
+set   146 color White
+set   146 travel 2.239
+Time 79.9498 22083
+set   31 speed     0
+set   31 color Blue 
+Time 80 36736
+set   113 color Green
+set   114 color Green
+set   108 color Green
+set   110 color Green
+set   117 color Green
+set   115 color Green
+set   80 color Green
+set   112 color Green
+set   116 color Green
+set   123 color Green
+set   121 color Green
+set   126 color Green
+set   124 color Green
+set   127 color Green
+set   111 color Green
+set   125 color Green
+set   129 color Green
+set   130 color Green
+set   131 color Green
+set   132 color Green
+set   140 color Green
+set   133 color Green
+set   139 color Green
+set   137 color Green
+set   96 color Green
+set   95 color Green
+set   141 color Green
+Time 80.0272 41745
+create Truck 148
+place 148 on CleEli
+Time 80.428 56379
+place 123 on PhiEli
+set   123 color White
+set   123 travel 1.893
+Time 80.4453 10473
+place 121 on IndCol
+set   121 color White
+set   121 travel 4.062
+Time 80.4621 29847
+place 108 on RicCol
+set   108 color White
+set   108 travel 2.308
+Time 80.4847 49221
+create Truck 149
+place 149 on CleCin
+Time 80.4865 63855
+place 140 on PhiEli
+set   140 color White
+set   140 travel 1.782
+Time 80.4926 17693
+place 95 on EliDet
+set   95 color White
+set   95 travel 14.543
+Time 80.5021 37323
+place 139 on PhiEli
+set   139 color White
+set   139 travel 1.865
+Time 80.5022 56697
+place 124 on RicCol
+set   124 color White
+set   124 travel 2.115
+Time 80.5035 10535
+place 132 on IndCol
+set   132 color White
+set   132 travel 3.838
+Time 80.5148 30165
+place 113 on PhiEli
+set   113 color White
+set   113 travel 1.865
+Time 80.5222 49539
+place 114 on PhiEli
+set   114 color White
+set   114 travel 1.901
+Time 80.5239 3377
+set   148 color White
+set   148 travel 10.704
+Time 80.5442 18030
+place 96 on EliDet
+set   96 color White
+set   96 travel 13.985
+Time 80.5547 37404
+place 80 on EliDet
+set   80 color White
+set   80 travel 13.973
+Time 80.5547 57034
+place 115 on RicCol
+set   115 color White
+set   115 travel 2.460
+Time 80.5555 10872
+place 141 on RicCol
+set   141 color White
+set   141 travel 2.233
+Time 80.5577 30246
+place 133 on CinCle
+set   133 color White
+set   133 travel 5.818
+Time 80.668 49876
+set   71 color White
+set   71 travel 4.743
+Time 80.7881 64273
+set   37 color White
+set   37 travel 11.329
+Time 80.9151 13390
+place 126 on TolCle
+set   126 color White
+set   126 travel 2.484
+Time 80.9493 33020
+place 110 on CleDet
+set   110 color White
+set   110 travel 3.859
+Time 80.9615 52394
+place 125 on ChiDet
+set   125 color White
+set   125 travel 6.218
+Time 80.9788 6232
+place 116 on SolCol
+set   116 color White
+set   116 travel 3.401
+Time 81.0085 25606
+place 112 on ChiDet
+set   112 color White
+set   112 travel 5.975
+Time 81.044 45236
+place 137 on DetCle
+set   137 color White
+set   137 travel 3.546
+Time 81.0746 64610
+set   149 color White
+set   149 travel 5.356
+Time 81.0806 13727
+place 117 on TolCle
+set   117 color White
+set   117 travel 2.528
+Time 81.1242 33101
+place 111 on NasChi
+set   111 color White
+set   111 travel 10.269
+Time 81.1458 52731
+create Truck 150
+place 150 on ColInd
+Time 81.3184 1573
+set   89 speed     0
+set   89 color Blue 
+Time 81.5055 16226
+set   109 color White
+set   109 travel 3.166
+Time 81.5949 30879
+create Truck 151
+place 151 on ChiNas
+Time 81.6392 45513
+create Truck 152
+place 152 on ChiNas
+Time 82.0795 60147
+set   146 color Green
+Time 82.2459 4284
+destroy 68
+Time 82.2686 13942
+destroy 140
+Time 82.3192 23600
+create Truck 153
+place 153 on DetCol
+Time 82.3207 38234
+destroy 123
+Time 82.3548 47892
+create Truck 154
+place 154 on ChiNas
+Time 82.3672 62526
+destroy 139
+Time 82.3797 6904
+destroy 113
+Time 82.4229 16562
+destroy 114
+Time 82.4288 26220
+set   152 color White
+set   152 travel 9.681
+Time 82.4519 40873
+place 129 on DetCol
+set   129 color White
+set   129 travel 4.643
+Time 82.5163 60247
+place 130 on DetCol
+set   130 color White
+set   130 travel 4.320
+Time 82.5312 14085
+place 127 on ColDet
+set   127 color White
+set   127 travel 4.483
+Time 82.5551 33715
+place 131 on DetCol
+set   131 color White
+set   131 travel 4.708
+Time 82.617 53089
+destroy 124
+Time 82.6252 62747
+set   151 color White
+set   151 travel 10.230
+Time 82.6717 11864
+place 146 on RicCol
+set   146 color White
+set   146 travel 2.491
+Time 82.7702 31238
+destroy 108
+Time 82.7883 41152
+destroy 141
+Time 82.8608 50810
+set   153 color White
+set   153 travel 4.319
+Time 82.9097 65463
+create Truck 155
+place 155 on ColRic
+Time 83.0068 14561
+set   36 speed     0
+set   36 color Blue 
+Time 83.0142 28958
+destroy 115
+Time 83.1253 38872
+set   143 color Green
+Time 83.1379 48545
+set   144 color Green
+Time 83.1716 58218
+create Truck 156
+place 156 on ColInd
+Time 83.3788 7316
+set   154 color White
+set   154 travel 10.789
+Time 83.3992 21969
+destroy 126
+Time 83.5431 31627
+set   150 color White
+set   150 travel 3.805
+Time 83.6084 46280
+destroy 117
+Time 84.1387 55938
+place 144 on CleDet
+set   144 color White
+set   144 travel 3.851
+Time 84.2262 9776
+set   135 speed     0
+set   135 color Blue 
+Time 84.2893 24429
+set   136 speed     0
+set   136 color Blue 
+Time 84.3416 39082
+destroy 132
+Time 84.3552 48740
+create Truck 157
+place 157 on ChiBos
+Time 84.3802 63374
+destroy 116
+Time 84.5074 7496
+destroy 121
+Time 84.5174 17154
+create Truck 158
+place 158 on ChiBos
+Time 84.5901 31788
+destroy 137
+Time 84.6711 41702
+set   109 color Green
+Time 84.8084 51375
+destroy 110
+Time 84.9868 61033
+set   145 color Green
+Time 85.163 5170
+destroy 146
+Time 85.2177 15084
+set   155 color White
+set   155 travel 2.104
+Time 85.2309 29481
+place 109 on EliDet
+set   109 color White
+set   109 travel 14.079
+Time 85.2406 49111
+create Truck 159
+place 159 on DetEli
+Time 85.4107 63489
+destroy 71
+Time 85.5037 7867
+create Truck 160
+place 160 on CleCin
+Time 85.5182 22501
+place 145 on CinCle
+set   145 color White
+set   145 travel 5.851
+Time 85.5975 41875
+place 143 on ColDet
+set   143 color White
+set   143 travel 4.521
+Time 85.7 61249
+set   79 color White
+set   79 travel 0.068
+Time 85.7682 10366
+destroy 79
+Time 85.8444 20024
+set   159 color White
+set   159 travel 14.414
+Time 85.8542 34677
+set   83 color White
+set   83 travel 54.723
+Time 85.954 49330
+set   160 color White
+set   160 travel 5.548
+set   160 speed     0
+set   160 color Yellow
+Time 86.0885 8151
+set   118 color White
+set   118 travel 12.812
+Time 86.2577 22548
+set   112 speed     0
+set   112 color Yellow
+Time 86.3755 37201
+destroy 133
+Time 86.4306 46859
+set   149 color Green
+Time 86.5191 56788
+create Truck 161
+place 161 on CleEli
+Time 86.8366 5886
+destroy 130
+Time 86.9094 15544
+place 149 on CinCle
+set   149 color White
+set   149 travel 5.778
+Time 87.0072 34918
+set   161 color White
+set   161 travel 10.372
+set   161 speed     0
+set   161 color Yellow
+Time 87.0138 59275
+destroy 127
+Time 87.0719 3397
+set   157 color White
+set   157 travel 22.423
+Time 87.0953 18050
+destroy 129
+Time 87.1794 27708
+destroy 125
+Time 87.18 37622
+set   153 color Green
+Time 87.2626 47295
+destroy 131
+Time 87.276 56953
+set   158 color White
+set   158 travel 21.641
+Time 87.2837 6070
+create Truck 162
+place 162 on ColRic
+Time 87.3219 20704
+set   155 color Green
+Time 87.3478 30377
+set   150 color Green
+Time 87.5021 40050
+create Truck 163
+place 163 on CleCin
+Time 87.6552 54684
+set   128 color White
+set   128 travel 0.526
+Time 87.7266 3801
+set   101 speed     0
+set   101 color Blue 
+Time 87.8048 18198
+place 150 on IndCol
+set   150 color White
+set   150 travel 3.961
+Time 87.8269 37828
+place 155 on RicCol
+set   155 color White
+set   155 travel 2.315
+Time 87.8829 57202
+create Truck 164
+place 164 on ColDet
+Time 87.8996 6300
+set   163 color White
+set   163 travel 5.192
+Time 87.9498 20953
+set   31 color White
+set   31 travel 27.662
+Time 87.9895 35350
+destroy 144
+Time 88.1552 45264
+set   138 speed     0
+set   138 color Blue 
+Time 88.1808 59661
+set   128 color Green
+Time 88.3439 4054
+set   164 color White
+set   164 travel 4.678
+Time 88.5697 18451
+set   164 speed     0
+set   164 color Yellow
+Time 89.3184 33104
+set   89 color White
+set   89 travel 3.038
+Time 89.591 47757
+set   162 color White
+set   162 travel 2.365
+Time 89.6862 62410
+place 153 on ColDet
+set   153 color White
+set   153 travel 4.518
+Time 90.1181 16248
+destroy 143
+Time 90.1417 25906
+destroy 155
+Time 90.3828 35820
+create Truck 165
+place 165 on EliPhi
+Time 90.4926 50198
+set   95 speed     0
+set   95 color Blue 
+Time 90.5239 64851
+set   148 speed     0
+set   148 color Blue 
+Time 90.5442 13968
+set   96 speed     0
+set   96 color Blue 
+Time 90.5547 28621
+set   80 speed     0
+set   80 color Blue 
+Time 90.6079 43018
+place 128 on EliCle
+set   128 color White
+set   128 travel 10.243
+Time 90.7881 62648
+set   37 speed     0
+set   37 color Blue 
+Time 90.9394 11765
+set   165 color White
+set   165 travel 1.943
+Time 91.0068 26162
+set   36 color White
+set   36 travel 31.045
+Time 91.1242 40815
+set   111 speed     0
+set   111 color Blue 
+Time 91.3692 55468
+destroy 145
+Time 91.766 65126
+destroy 150
+Time 91.978 9248
+set   159 speed     0
+set   159 color Yellow
+Time 92.2262 23901
+set   135 color White
+set   135 travel 3.763
+Time 92.2893 38554
+set   136 color White
+set   136 travel 3.613
+Time 92.3899 53207
+create Truck 166
+place 166 on DetEli
+Time 92.6252 2049
+set   151 speed     0
+set   151 color Blue 
+Time 92.6876 16702
+destroy 149
+Time 92.9217 26616
+set   166 color White
+set   166 travel 13.145
+Time 93.0737 41013
+create Truck 167
+place 167 on EliPhi
+Time 93.3788 55647
+set   154 speed     0
+set   154 color Blue 
+Time 93.5815 4764
+set   167 color White
+set   167 travel 1.743
+Time 94.2047 19417
+destroy 153
+Time 95.2309 29075
+set   109 speed     0
+set   109 color Blue 
+Time 95.5143 43728
+create Truck 168
+place 168 on ColInd
+Time 95.659 58362
+create Truck 169
+place 169 on ColDet
+Time 95.6601 7204
+create Truck 170
+place 170 on ColDet
+Time 95.7266 21838
+set   101 color White
+set   101 travel 42.625
+Time 95.8542 36491
+set   83 speed     0
+set   83 color Blue 
+Time 95.8753 51144
+create Truck 171
+place 171 on EliPhi
+Time 96 242
+write DayNo Day 5
+set   134 color White
+set   134 travel 1.738
+set   134 speed     0
+set   134 color Yellow
+set   160 color White
+set   160 travel 5.548
+set   160 speed     0
+set   160 color Yellow
+set   112 color White
+set   112 travel 0.726
+set   112 speed     0
+set   112 color Yellow
+set   161 color White
+set   161 travel 10.372
+set   161 speed     0
+set   161 color Yellow
+Time 96.0885 22271
+set   118 speed     0
+set   118 color Blue 
+Time 96.1291 36668
+set   170 color White
+set   170 travel 4.633
+set   170 speed     0
+set   170 color Yellow
+Time 96.1419 61025
+set   169 color White
+set   169 travel 4.628
+Time 96.1552 10142
+set   138 color White
+set   138 travel 12.949
+Time 96.251 24795
+create Truck 172
+place 172 on OrlSea
+Time 96.3553 39173
+set   171 color White
+set   171 travel 1.881
+Time 96.5697 53826
+set   164 color White
+set   164 travel 4.452
+set   164 speed     0
+set   164 color Yellow
+Time 96.634 12647
+create Truck 173
+place 173 on ColLou
+Time 97.0441 27281
+set   172 color White
+set   172 travel 71.065
+Time 97.0719 41934
+set   157 speed     0
+set   157 color Blue 
+Time 97.1704 56331
+set   173 color White
+set   173 travel 4.597
+Time 97.276 5448
+set   158 speed     0
+set   158 color Blue 
+Time 97.3074 20101
+create Truck 174
+place 174 on OrlSea
+Time 97.6973 34735
+set   128 speed     0
+set   128 color Yellow
+Time 97.7749 49388
+set   168 color White
+set   168 travel 3.928
+set   168 speed     0
+set   168 color Yellow
+Time 97.9498 7953
+set   31 speed     0
+set   31 color Blue 
+Time 98.3723 22606
+set   174 color White
+set   174 travel 70.516
+Time 98.4854 37259
+create Truck 175
+place 175 on CleTol
+Time 98.4926 51893
+set   95 color White
+set   95 travel 4.543
+Time 98.5239 1010
+set   148 color White
+set   148 travel 0.704
+Time 98.5442 15407
+set   96 color White
+set   96 travel 3.985
+Time 98.5547 30060
+set   80 color White
+set   80 travel 3.973
+Time 98.7881 44713
+set   37 color White
+set   37 travel 1.329
+Time 98.9225 59366
+set   175 color White
+set   175 travel 2.513
+Time 98.9276 8227
+create Truck 176
+place 176 on CleTol
+Time 98.9806 22861
+create Truck 177
+place 177 on CleDet
+Time 99.088 37495
+create Truck 178
+place 178 on CleDet
+Time 99.1242 52129
+set   111 color White
+set   111 travel 0.269
+Time 99.3932 1246
+destroy 111
+Time 99.4402 10904
+set   176 color White
+set   176 travel 2.596
+Time 99.4837 25557
+set   177 color White
+set   177 travel 3.697
+Time 99.5373 39954
+set   178 color White
+set   178 travel 3.802
+set   178 speed     0
+set   178 color Yellow
+Time 99.978 64311
+set   159 color White
+set   159 travel 8.281
+set   159 speed     0
+set   159 color Yellow
+Time 99.9996 23132
+create Truck 179
+place 179 on DetEli
+Time 100.1167 37766
+destroy 37
+Time 100.5503 47424
+set   179 color White
+set   179 travel 13.362
+Time 100.569 62077
+create Truck 180
+place 180 on EliPhi
+Time 100.6252 11175
+set   151 color White
+set   151 travel 0.230
+Time 100.9662 25828
+create Truck 181
+place 181 on ChiBos
+Time 101.0068 40206
+set   36 speed     0
+set   36 color Blue 
+Time 101.024 54859
+set   180 color White
+set   180 travel 1.836
+Time 101.1416 3976
+create Truck 182
+place 182 on EliPhi
+Time 101.2898 18610
+set   96 speed     0
+set   96 color Yellow
+Time 101.3788 33263
+set   154 color White
+set   154 travel 0.789
+Time 101.6072 47660
+set   182 color White
+set   182 travel 1.951
+Time 101.7668 62313
+create Truck 183
+place 183 on ColCle
+Time 102.0489 11411
+create Truck 184
+place 184 on ColCle
+Time 102.2798 26045
+create Truck 185
+place 185 on DetChi
+Time 102.461 40679
+set   183 color White
+set   183 travel 3.202
+Time 102.5281 55076
+destroy 80
+Time 102.8046 64990
+set   185 color White
+set   185 travel 6.554
+Time 102.8226 13851
+create Truck 186
+place 186 on CleEli
+Time 102.9217 28485
+set   166 speed     0
+set   166 color Blue 
+Time 103.0359 43138
+destroy 95
+Time 103.2309 52796
+set   109 color White
+set   109 travel 4.079
+Time 103.4066 1913
+set   186 color White
+set   186 travel 10.311
+Time 103.4309 16566
+set   181 color White
+set   181 travel 21.962
+Time 103.7205 31219
+create Truck 187
+place 187 on ChiBos
+Time 103.8206 45597
+create Truck 188
+place 188 on DetEli
+Time 103.8542 60231
+set   83 color White
+set   83 travel 44.723
+Time 103.8964 9348
+create Truck 189
+place 189 on DetEli
+Time 104 23982
+set   162 color Green
+set   152 color Green
+set   89 color Green
+set   165 color Green
+set   163 color Green
+set   167 color Green
+set   136 color Green
+set   135 color Green
+set   171 color Green
+set   148 color Green
+set   169 color Green
+set   151 color Green
+set   175 color Green
+set   173 color Green
+set   176 color Green
+set   154 color Green
+set   180 color Green
+set   177 color Green
+set   182 color Green
+Time 104.0885 55711
+set   118 color White
+set   118 travel 2.812
+Time 104.418 4828
+set   189 color White
+set   189 travel 13.708
+Time 104.422 19225
+set   188 color White
+set   188 travel 14.761
+Time 104.4295 33878
+place 162 on RicCol
+set   162 color White
+set   162 travel 2.414
+set   162 speed     0
+set   162 color Yellow
+Time 104.453 63212
+place 182 on PhiEli
+set   182 color White
+set   182 travel 1.798
+Time 104.4584 17050
+place 165 on PhiEli
+set   165 color White
+set   165 travel 1.731
+Time 104.4702 36424
+place 180 on PhiEli
+set   180 color White
+set   180 travel 1.886
+Time 104.5045 56054
+place 136 on EliDet
+set   136 color White
+set   136 travel 13.103
+Time 104.5244 9892
+place 135 on EliDet
+set   135 color White
+set   135 travel 13.086
+Time 104.5338 29266
+place 163 on CinCle
+set   163 color White
+set   163 travel 5.967
+Time 104.5483 48640
+place 167 on PhiEli
+set   167 color White
+set   167 travel 1.824
+Time 104.5701 2734
+place 171 on PhiEli
+set   171 color White
+set   171 travel 1.975
+Time 104.7831 22108
+create Truck 190
+place 190 on ColInd
+Time 104.8047 36742
+create Truck 191
+place 191 on EliPhi
+Time 104.9394 51376
+place 175 on TolCle
+set   175 color White
+set   175 travel 2.556
+Time 104.9739 5214
+place 176 on TolCle
+set   176 color White
+set   176 travel 2.632
+Time 104.9897 24588
+place 177 on DetCle
+set   177 color White
+set   177 travel 3.974
+Time 105.0063 44218
+place 173 on LouCol
+set   173 color White
+set   173 travel 4.758
+Time 105.0317 63592
+place 152 on NasChi
+set   152 color White
+set   152 travel 11.022
+Time 105.0407 17430
+place 151 on NasChi
+set   151 color White
+set   151 travel 10.343
+Time 105.0719 37060
+set   157 color White
+set   157 travel 12.423
+Time 105.2219 51457
+place 154 on NasChi
+set   154 color White
+set   154 travel 10.237
+Time 105.2701 5551
+set   191 color White
+set   191 travel 1.901
+Time 105.276 20204
+set   158 color White
+set   158 travel 11.641
+Time 105.2796 34601
+create Truck 192
+place 192 on CleCin
+Time 105.4251 49235
+create Truck 193
+place 193 on DetCol
+Time 105.5239 63869
+create Truck 194
+place 194 on CleCin
+Time 105.6625 12967
+set   183 color Green
+Time 105.6726 22640
+create Truck 195
+place 195 on CleCin
+Time 105.7266 37274
+set   101 speed     0
+set   101 color Blue 
+Time 105.7916 51927
+set   192 color White
+set   192 travel 5.789
+Time 105.9062 788
+set   193 color White
+set   193 travel 4.786
+Time 105.9361 15441
+set   187 color White
+set   187 travel 23.152
+Time 105.9498 30094
+set   31 color White
+set   31 travel 17.662
+Time 105.9519 44747
+create Truck 196
+place 196 on DetCol
+Time 106.0421 59381
+set   194 color White
+set   194 travel 5.563
+Time 106.1552 8242
+set   138 speed     0
+set   138 color Blue 
+Time 106.1755 22895
+set   195 color White
+set   195 travel 5.760
+Time 106.1895 37548
+destroy 165
+Time 106.2515 47206
+destroy 182
+Time 106.3559 56864
+destroy 180
+Time 106.3559 1242
+place 89 on BosChi
+set   89 color White
+set   89 travel 21.735
+set   89 speed     0
+set   89 color Yellow
+Time 106.3722 30320
+destroy 167
+Time 106.4209 39978
+set   196 color White
+set   196 travel 4.228
+Time 106.4525 54631
+place 169 on DetCol
+set   169 color White
+set   169 travel 4.534
+Time 106.46 8469
+place 148 on EliCle
+set   148 color White
+set   148 travel 10.445
+Time 106.5451 28099
+destroy 171
+Time 106.6814 37757
+place 183 on CleCol
+set   183 color White
+set   183 travel 3.078
+Time 106.7266 57131
+set   185 speed     0
+set   185 color Yellow
+Time 106.9004 6248
+set   118 color Green
+Time 106.9702 15921
+set   190 color White
+set   190 travel 3.836
+set   190 speed     0
+set   190 color Yellow
+Time 107.0092 40278
+create Truck 197
+place 197 on CleCin
+Time 107.0441 54912
+set   172 speed     0
+set   172 color Blue 
+Time 107.1709 4029
+set   191 color Green
+Time 107.3095 13702
+destroy 109
+Time 107.4952 23360
+destroy 175
+Time 107.5507 33274
+set   197 color White
+set   197 travel 5.343
+Time 107.5888 47671
+place 191 on PhiEli
+set   191 color White
+set   191 travel 1.903
+Time 107.6058 1765
+destroy 176
+Time 108.0297 11423
+create Truck 198
+place 198 on ColCle
+Time 108.1312 26057
+create Truck 199
+place 199 on ColRic
+Time 108.3723 40691
+set   174 speed     0
+set   174 color Blue 
+Time 108.3825 55088
+create Truck 200
+place 200 on ColRic
+Time 108.8613 4186
+set   199 color White
+set   199 travel 2.427
+Time 108.9632 18839
+destroy 177
+Time 109.0068 28497
+set   36 color White
+set   36 travel 21.045
+Time 109.3003 43150
+place 118 on BosChi
+set   118 color White
+set   118 travel 21.783
+Time 109.309 62524
+create Truck 201
+place 201 on DetChi
+Time 109.3815 11622
+create Truck 202
+place 202 on ColRic
+Time 109.4917 26256
+destroy 191
+Time 109.5128 35914
+set   179 speed     0
+set   179 color Yellow
+Time 109.6589 50567
+create Truck 203
+place 203 on ColRic
+Time 109.7595 65201
+destroy 183
+Time 109.7644 9323
+destroy 173
+Time 109.7996 18981
+set   201 color White
+set   201 travel 6.247
+Time 109.8765 33634
+set   148 speed     0
+set   148 color Yellow
+Time 110.171 48287
+set   202 color White
+set   202 travel 2.423
+Time 110.3282 62940
+set   198 color White
+set   198 travel 3.257
+Time 110.3531 11801
+set   193 speed     0
+set   193 color Yellow
+Time 110.3745 26454
+set   201 speed     0
+set   201 color Yellow
+Time 110.467 41107
+create Truck 204
+place 204 on ColDet
+Time 110.5009 55741
+destroy 163
+Time 110.6486 65399
+set   196 color Green
+Time 110.6858 9536
+set   198 speed     0
+set   198 color Yellow
+Time 110.9113 24189
+set   204 color White
+set   204 travel 5.122
+Time 110.9217 38842
+set   166 color White
+set   166 travel 3.145
+Time 110.9868 53495
+destroy 169
+Time 111.2878 63153
+set   199 color Green
+Time 111.3818 7290
+create Truck 205
+place 205 on ColSol
+Time 111.5804 21924
+set   192 color Green
+Time 111.605 31597
+set   194 color Green
+Time 111.8189 41270
+place 199 on RicCol
+set   199 color White
+set   199 travel 2.372
+Time 111.9126 60900
+create Truck 206
+place 206 on CleEli
+Time 111.9352 9742
+set   195 color Green
+Time 112.0578 19671
+place 192 on CinCle
+set   192 color White
+set   192 travel 5.687
+Time 112.0933 39045
+place 194 on CinCle
+set   194 color White
+set   194 travel 5.384
+Time 112.3747 58419
+place 195 on CinCle
+set   195 color White
+set   195 travel 5.288
+Time 112.4101 12513
+set   206 color White
+set   206 travel 9.967
+Time 112.594 26910
+set   202 color Green
+Time 112.6351 36839
+create Truck 207
+place 207 on ColSol
+Time 112.8938 51217
+set   197 color Green
+Time 113.0932 61146
+place 202 on RicCol
+set   202 color White
+set   202 travel 2.088
+Time 113.138 14984
+set   205 color White
+set   205 travel 3.178
+Time 113.1613 29637
+place 196 on ColDet
+set   196 color White
+set   196 travel 4.707
+Time 113.3264 49011
+place 197 on CinCle
+set   197 color White
+set   197 travel 5.417
+Time 113.4066 2849
+set   186 speed     0
+set   186 color Blue 
+Time 113.4309 17502
+set   181 speed     0
+set   181 color Blue 
+Time 113.6681 32155
+create Truck 208
+place 208 on DetEli
+Time 113.7266 46789
+set   101 color White
+set   101 travel 32.625
+Time 113.8542 61186
+set   83 speed     0
+set   83 color Blue 
+Time 114.0883 10303
+set   208 color White
+set   208 travel 13.733
+Time 114.1552 24956
+set   138 color White
+set   138 travel 2.949
+Time 114.191 39609
+destroy 199
+Time 114.418 49267
+set   189 speed     0
+set   189 color Blue 
+Time 114.422 63920
+set   188 speed     0
+set   188 color Blue 
+Time 114.5045 13037
+set   136 speed     0
+set   136 color Blue 
+Time 114.5244 27434
+set   135 speed     0
+set   135 color Blue 
+Time 114.6983 42087
+create Truck 209
+place 209 on CleTol
+Time 115.0058 56721
+set   31 speed     0
+set   31 color Yellow
+Time 115.0317 5838
+set   152 speed     0
+set   152 color Blue 
+Time 115.0407 20235
+set   151 speed     0
+set   151 color Blue 
+Time 115.0441 34888
+set   172 color White
+set   172 travel 61.065
+Time 115.0719 49541
+set   157 speed     0
+set   157 color Blue 
+Time 115.1054 64194
+create Truck 210
+place 210 on EliPhi
+Time 115.1809 13292
+destroy 202
+Time 115.2219 22950
+set   154 speed     0
+set   154 color Blue 
+Time 115.2409 37603
+set   209 color White
+set   209 travel 2.608
+Time 115.276 52000
+set   158 speed     0
+set   158 color Blue 
+Time 115.7015 1117
+set   210 color White
+set   210 travel 1.795
+Time 115.8692 15770
+create Truck 211
+place 211 on ColDet
+Time 115.8763 30404
+set   187 speed     0
+set   187 color Yellow
+Time 116.3723 44801
+set   174 color White
+set   174 travel 60.516
+Time 116.3762 59454
+set   211 color White
+set   211 travel 4.689
+Time 116.6466 8571
+create Truck 212
+place 212 on ColLou
+Time 117.1233 23205
+create Truck 213
+place 213 on ChiNas
+Time 117.2112 37839
+set   212 color White
+set   212 travel 4.526
+Time 117.2503 52236
+create Truck 214
+place 214 on ColCle
+Time 117.4771 1334
+destroy 194
+Time 117.5597 11248
+create Truck 215
+place 215 on ColCle
+Time 117.6629 25626
+destroy 195
+Time 117.7451 35540
+destroy 192
+Time 117.7519 45198
+set   36 speed     0
+set   36 color Yellow
+Time 117.7541 59851
+create Truck 216
+place 216 on ColRic
+Time 117.8688 8949
+destroy 196
+Time 117.8763 18607
+create Truck 217
+place 217 on DetChi
+Time 117.9415 33241
+create Truck 218
+place 218 on DetChi
+Time 118 47619
+set   216 color White
+set   216 travel 2.168
+Time 118.0125 62272
+set   214 color White
+set   214 travel 3.199
+set   214 speed     0
+set   214 color Yellow
+Time 118.3176 21093
+set   213 color White
+set   213 travel 10.760
+Time 118.3313 35746
+create Truck 219
+place 219 on OrlSea
+Time 118.3355 50380
+set   206 speed     0
+set   206 color Yellow
+Time 118.4086 64777
+create Truck 220
+place 220 on ColRic
+Time 118.4109 13875
+set   217 color White
+set   217 travel 6.364
+Time 118.4823 28528
+set   218 color White
+set   218 travel 6.211
+Time 118.553 43181
+create Truck 221
+place 221 on EliPhi
+Time 118.7437 57815
+destroy 197
+Time 119.0943 1937
+set   221 color White
+set   221 travel 1.787
+Time 119.2836 16590
+set   217 speed     0
+set   217 color Yellow
+Time 119.3003 30987
+set   118 speed     0
+set   118 color Blue 
+Time 119.4368 45640
+set   219 color White
+set   219 travel 63.256
+Time 119.5455 60293
+set   216 speed     0
+set   216 color Yellow
+Time 119.6565 9410
+create Truck 222
+place 222 on ColInd
+Time 119.9403 24044
+create Truck 223
+place 223 on CleDet
+Time 120 38422
+write DayNo Day 6
+set   134 color White
+set   134 travel 1.738
+set   134 speed     0
+set   134 color Yellow
+set   160 color White
+set   160 travel 5.548
+set   160 speed     0
+set   160 color Yellow
+set   112 color White
+set   112 travel 0.726
+set   112 speed     0
+set   112 color Yellow
+set   161 color White
+set   161 travel 10.372
+set   161 speed     0
+set   161 color Yellow
+set   170 color White
+set   170 travel 4.633
+set   170 speed     0
+set   170 color Yellow
+set   164 color White
+set   164 travel 4.452
+set   164 speed     0
+set   164 color Yellow
+set   128 color White
+set   128 travel 3.154
+set   128 speed     0
+set   128 color Yellow
+set   168 color White
+set   168 travel 3.928
+set   168 speed     0
+set   168 color Yellow
+set   178 color White
+set   178 travel 3.802
+set   178 speed     0
+set   178 color Yellow
+set   159 color White
+set   159 travel 8.281
+set   159 speed     0
+set   159 color Yellow
+set   96 color White
+set   96 travel 1.239
+set   96 speed     0
+set   96 color Yellow
+set   162 color White
+set   162 travel 2.414
+set   162 speed     0
+set   162 color Yellow
+set   89 color White
+set   89 travel 21.735
+set   89 speed     0
+set   89 color Yellow
+set   185 color White
+set   185 travel 2.632
+set   185 speed     0
+set   185 color Yellow
+set   190 color White
+set   190 travel 3.836
+set   190 speed     0
+set   190 color Yellow
+set   179 color White
+set   179 travel 4.400
+set   179 speed     0
+set   179 color Yellow
+set   148 color White
+set   148 travel 7.028
+set   148 speed     0
+set   148 color Yellow
+set   193 color White
+set   193 travel 0.340
+set   193 speed     0
+set   193 color Yellow
+set   201 color White
+set   201 travel 5.672
+set   201 speed     0
+set   201 color Yellow
+set   198 color White
+set   198 travel 2.900
+set   198 speed     0
+set   198 color Yellow
+Time 120.5018 44067
+set   223 color White
+set   223 travel 3.711
+Time 120.6967 58720
+set   220 color White
+set   220 travel 2.365
+Time 121.4066 7837
+set   186 color White
+set   186 travel 0.311
+Time 121.4309 22490
+set   181 color White
+set   181 travel 11.962
+Time 121.8542 36887
+set   83 color White
+set   83 travel 34.723
+Time 121.9205 51540
+set   222 color White
+set   222 travel 3.944
+Time 122.0379 657
+set   218 speed     0
+set   218 color Yellow
+Time 122.418 15310
+set   189 color White
+set   189 travel 3.708
+Time 122.422 29707
+set   188 color White
+set   188 travel 4.761
+Time 122.5045 44360
+set   136 color White
+set   136 travel 3.103
+Time 122.5244 59013
+set   135 color White
+set   135 travel 3.086
+Time 123.0058 8130
+set   31 color White
+set   31 travel 8.606
+set   31 speed     0
+set   31 color Yellow
+Time 123.0317 32487
+set   152 color White
+set   152 travel 1.022
+Time 123.0407 46884
+set   151 color White
+set   151 travel 0.343
+Time 123.0719 61537
+set   157 color White
+set   157 travel 2.423
+Time 123.2219 10654
+set   154 color White
+set   154 travel 0.237
+Time 123.276 25307
+set   158 color White
+set   158 travel 1.641
+Time 123.3833 39704
+destroy 151
+Time 123.4593 49618
+destroy 154
+Time 123.7266 59276
+set   101 speed     0
+set   101 color Blue 
+Time 123.8763 8393
+set   187 color White
+set   187 travel 13.212
+set   187 speed     0
+set   187 color Yellow
+Time 124.0535 32750
+destroy 152
+Time 124.0883 42408
+set   208 speed     0
+set   208 color Blue 
+Time 125.0441 57061
+set   172 speed     0
+set   172 color Blue 
+Time 125.6079 5922
+destroy 136
+Time 125.6106 15836
+destroy 135
+Time 125.7519 25494
+set   36 color White
+set   36 travel 12.300
+set   36 speed     0
+set   36 color Yellow
+Time 126.0125 49851
+set   214 color White
+set   214 travel 3.199
+set   214 speed     0
+set   214 color Yellow
+Time 126.3355 8672
+set   206 color White
+set   206 travel 4.042
+set   206 speed     0
+set   206 color Yellow
+Time 126.3723 32773
+set   174 speed     0
+set   174 color Blue 
+Time 127.2836 47426
+set   217 color White
+set   217 travel 5.491
+set   217 speed     0
+set   217 color Yellow
+Time 127.3003 6247
+set   118 color White
+set   118 travel 11.783
+Time 127.5455 20900
+set   216 color White
+set   216 travel 0.622
+set   216 speed     0
+set   216 color Yellow
+Time 128 45257
+set   166 color Green
+set   204 color Green
+set   205 color Green
+set   138 color Green
+set   210 color Green
+set   209 color Green
+set   221 color Green
+set   211 color Green
+set   186 color Green
+set   212 color Green
+set   220 color Green
+set   223 color Green
+set   158 color Green
+set   157 color Green
+set   222 color Green
+set   189 color Green
+set   188 color Green
+Time 128.3176 1746
+set   213 speed     0
+set   213 color Blue 
+Time 128.4236 16143
+place 220 on RicCol
+set   220 color White
+set   220 travel 2.380
+Time 128.4325 35773
+place 222 on IndCol
+set   222 color White
+set   222 travel 3.826
+Time 128.4452 55147
+place 166 on EliDet
+set   166 color White
+set   166 travel 13.813
+Time 128.4725 8985
+place 221 on PhiEli
+set   221 color White
+set   221 travel 2.030
+Time 128.4835 28615
+place 189 on EliDet
+set   189 color White
+set   189 travel 13.909
+Time 128.4877 47989
+place 188 on EliDet
+set   188 color White
+set   188 travel 13.149
+Time 128.5302 1827
+place 210 on PhiEli
+set   210 color White
+set   210 travel 2.037
+Time 128.9291 21457
+place 209 on TolCle
+set   209 color White
+set   209 travel 2.513
+Time 128.994 40831
+place 212 on LouCol
+set   212 color White
+set   212 travel 4.759
+Time 129.0243 60205
+place 223 on DetCle
+set   223 color White
+set   223 travel 3.768
+Time 129.0499 14299
+place 205 on SolCol
+set   205 color White
+set   205 travel 3.078
+Time 129.4368 33673
+set   219 speed     0
+set   219 color Blue 
+Time 130.4899 48326
+place 211 on DetCol
+set   211 color White
+set   211 travel 4.042
+Time 130.5026 2164
+destroy 221
+Time 130.5402 11822
+place 158 on BosChi
+set   158 color White
+set   158 travel 22.141
+Time 130.5518 31452
+place 204 on DetCol
+set   204 color White
+set   204 travel 4.792
+Time 130.5675 50826
+destroy 210
+Time 130.5963 60484
+place 186 on EliCle
+set   186 color White
+set   186 travel 10.005
+Time 130.7708 14578
+place 138 on BosChi
+set   138 color White
+set   138 travel 19.816
+Time 130.8033 33952
+destroy 220
+Time 130.9011 43610
+place 157 on BosChi
+set   157 color White
+set   157 travel 22.150
+Time 131.4309 62984
+set   181 speed     0
+set   181 color Blue 
+Time 131.4423 12101
+destroy 209
+Time 131.7266 22015
+set   101 color White
+set   101 travel 22.625
+Time 131.8542 36412
+set   83 speed     0
+set   83 color Blue 
+Time 132.0883 51065
+set   208 color White
+set   208 travel 3.733
+Time 132.1283 182
+destroy 205
+Time 132.2585 9840
+destroy 222
+Time 132.7921 19498
+destroy 223
+Time 133.0441 29412
+set   172 color White
+set   172 travel 51.065
+Time 133.7528 43809
+destroy 212
+Time 134.3723 53723
+set   174 color White
+set   174 travel 50.516
+Time 134.5315 2584
+destroy 211
+Time 135.257 12498
+set   138 speed     0
+set   138 color Yellow
+Time 135.3437 26895
+destroy 204
+Time 135.8211 36809
+set   208 color Green
+Time 136.3176 46482
+set   213 color White
+set   213 travel 0.760
+Time 136.3405 61135
+place 208 on EliDet
+set   208 color White
+set   208 travel 13.006
+Time 137.0777 14973
+set   213 color Green
+Time 137.3003 24646
+set   118 speed     0
+set   118 color Blue 
+Time 137.4368 39299
+set   219 color White
+set   219 travel 53.256
+Time 138.1175 53952
+place 213 on NasChi
+set   213 color White
+set   213 travel 10.314
+Time 138.4452 7790
+set   166 speed     0
+set   166 color Blue 
+Time 138.4835 22443
+set   189 speed     0
+set   189 color Blue 
+Time 138.4877 37096
+set   188 speed     0
+set   188 color Blue 
+Time 139.4309 51493
+set   181 color White
+set   181 travel 1.962
+Time 139.8542 610
+set   83 color White
+set   83 travel 24.723
+Time 140.5402 15263
+set   158 speed     0
+set   158 color Blue 
+Time 140.5963 29916
+set   186 speed     0
+set   186 color Blue 
+Time 140.9011 44313
+set   157 speed     0
+set   157 color Blue 
+Time 141.7266 58966
+set   101 speed     0
+set   101 color Blue 
+Time 143.0441 8083
+set   172 speed     0
+set   172 color Blue 
+Time 144 22736
+write DayNo Day 7
+set   134 color White
+set   134 travel 1.738
+set   134 speed     0
+set   134 color Yellow
+set   160 color White
+set   160 travel 5.548
+set   160 speed     0
+set   160 color Yellow
+set   112 color White
+set   112 travel 0.726
+set   112 speed     0
+set   112 color Yellow
+set   161 color White
+set   161 travel 10.372
+set   161 speed     0
+set   161 color Yellow
+set   170 color White
+set   170 travel 4.633
+set   170 speed     0
+set   170 color Yellow
+set   164 color White
+set   164 travel 4.452
+set   164 speed     0
+set   164 color Yellow
+set   128 color White
+set   128 travel 3.154
+set   128 speed     0
+set   128 color Yellow
+set   168 color White
+set   168 travel 3.928
+set   168 speed     0
+set   168 color Yellow
+set   178 color White
+set   178 travel 3.802
+set   178 speed     0
+set   178 color Yellow
+set   159 color White
+set   159 travel 8.281
+set   159 speed     0
+set   159 color Yellow
+set   96 color White
+set   96 travel 1.239
+set   96 speed     0
+set   96 color Yellow
+set   162 color White
+set   162 travel 2.414
+set   162 speed     0
+set   162 color Yellow
+set   89 color White
+set   89 travel 21.735
+set   89 speed     0
+set   89 color Yellow
+set   185 color White
+set   185 travel 2.632
+set   185 speed     0
+set   185 color Yellow
+set   190 color White
+set   190 travel 3.836
+set   190 speed     0
+set   190 color Yellow
+set   179 color White
+set   179 travel 4.400
+set   179 speed     0
+set   179 color Yellow
+set   148 color White
+set   148 travel 7.028
+set   148 speed     0
+set   148 color Yellow
+set   193 color White
+set   193 travel 0.340
+set   193 speed     0
+set   193 color Yellow
+set   201 color White
+set   201 travel 5.672
+set   201 speed     0
+set   201 color Yellow
+set   198 color White
+set   198 travel 2.900
+set   198 speed     0
+set   198 color Yellow
+set   218 color White
+set   218 travel 2.655
+set   218 speed     0
+set   218 color Yellow
+set   31 color White
+set   31 travel 8.606
+set   31 speed     0
+set   31 color Yellow
+set   187 color White
+set   187 travel 13.212
+set   187 speed     0
+set   187 color Yellow
+set   36 color White
+set   36 travel 12.300
+set   36 speed     0
+set   36 color Yellow
+set   214 color White
+set   214 travel 3.199
+set   214 speed     0
+set   214 color Yellow
+set   206 color White
+set   206 travel 4.042
+set   206 speed     0
+set   206 color Yellow
+set   217 color White
+set   217 travel 5.491
+set   217 speed     0
+set   217 color Yellow
+set   216 color White
+set   216 travel 0.622
+set   216 speed     0
+set   216 color Yellow
+set   138 color White
+set   138 travel 15.329
+set   138 speed     0
+set   138 color Yellow
+Time 144.3723 6701
+set   174 speed     0
+set   174 color Blue 
+Time 145.3003 21354
+set   118 color White
+set   118 travel 1.783
+Time 146.3405 36007
+set   208 speed     0
+set   208 color Blue 
+Time 146.4452 50660
+set   166 color White
+set   166 travel 3.813
+set   166 speed     0
+set   166 color Yellow
+Time 146.4835 9225
+set   189 color White
+set   189 travel 3.909
+set   189 speed     0
+set   189 color Yellow
+Time 146.4877 33582
+set   188 color White
+set   188 travel 3.149
+Time 147.0831 48235
+destroy 118
+Time 147.4368 57893
+set   219 speed     0
+set   219 color Blue 
+Time 148.1175 7010
+set   213 speed     0
+set   213 color Blue 
+Time 148.5402 21663
+set   158 color White
+set   158 travel 12.141
+Time 148.5963 36316
+set   186 color White
+set   186 travel 0.005
+Time 148.6018 50713
+destroy 186
+Time 148.8999 60627
+set   83 speed     0
+set   83 color Yellow
+Time 148.9011 9488
+set   157 color White
+set   157 travel 12.150
+Time 149.6363 24141
+destroy 188
+Time 149.7266 33799
+set   101 color White
+set   101 travel 12.625
+Time 151.0441 48452
+set   172 color White
+set   172 travel 41.065
+Time 152 63105
+set   181 color Green
+Time 152.3723 7242
+set   174 color White
+set   174 travel 40.516
+Time 154.3405 21895
+set   208 color White
+set   208 travel 3.006
+set   208 speed     0
+set   208 color Yellow
+Time 154.4631 46252
+place 181 on BosChi
+set   181 color White
+set   181 travel 23.144
+Time 155.4368 90
+set   219 color White
+set   219 travel 43.256
+Time 156.1175 14743
+set   213 color White
+set   213 travel 0.314
+Time 156.4319 29396
+destroy 213
+Time 158.5402 39054
+set   158 speed     0
+set   158 color Blue 
+Time 158.7443 53707
+set   101 speed     0
+set   101 color Yellow
+Time 158.9011 2568
+set   157 speed     0
+set   157 color Blue 
+Time 159.744 17221
+set   181 speed     0
+set   181 color Yellow
+Time 161.0441 31874
+set   172 speed     0
+set   172 color Blue 
+Time 162.3723 46527
+set   174 speed     0
+set   174 color Blue 
+Time 165.4368 61180
+set   219 speed     0
+set   219 color Blue 
+Time 166.5402 10041
+set   158 color White
+set   158 travel 2.141
+Time 166.9011 24694
+set   157 color White
+set   157 travel 2.150
+Time 168 39347
+write DayNo Day 8
+set   134 color White
+set   134 travel 1.738
+set   160 color White
+set   160 travel 5.548
+set   112 color White
+set   112 travel 0.726
+set   161 color White
+set   161 travel 10.372
+set   170 color White
+set   170 travel 4.633
+set   164 color White
+set   164 travel 4.452
+set   128 color White
+set   128 travel 3.154
+set   168 color White
+set   168 travel 3.928
+set   178 color White
+set   178 travel 3.802
+set   159 color White
+set   159 travel 8.281
+set   96 color White
+set   96 travel 1.239
+set   162 color White
+set   162 travel 2.414
+set   162 speed     0
+set   162 color Yellow
+set   89 color White
+set   89 travel 21.735
+set   185 color White
+set   185 travel 2.632
+set   190 color White
+set   190 travel 3.836
+set   179 color White
+set   179 travel 4.400
+set   148 color White
+set   148 travel 7.028
+set   193 color White
+set   193 travel 0.340
+set   201 color White
+set   201 travel 5.672
+set   198 color White
+set   198 travel 2.900
+set   218 color White
+set   218 travel 2.655
+set   31 color White
+set   31 travel 8.606
+set   187 color White
+set   187 travel 13.212
+set   36 color White
+set   36 travel 12.300
+set   214 color White
+set   214 travel 3.199
+set   206 color White
+set   206 travel 4.042
+set   217 color White
+set   217 travel 5.491
+set   216 color White
+set   216 travel 0.622
+set   138 color White
+set   138 travel 15.329
+set   138 speed     0
+set   138 color Yellow
+set   166 color White
+set   166 travel 3.813
+set   166 speed     0
+set   166 color Yellow
+set   189 color White
+set   189 travel 3.909
+set   189 speed     0
+set   189 color Yellow
+set   83 color White
+set   83 travel 15.677
+set   83 speed     0
+set   83 color Yellow
+set   208 color White
+set   208 travel 3.006
+set   208 speed     0
+set   208 color Yellow
+set   101 color White
+set   101 travel 3.607
+set   101 speed     0
+set   101 color Yellow
+set   181 color White
+set   181 travel 17.863
+set   181 speed     0
+set   181 color Yellow
+Time 168.0875 8568
+create Truck 224
+place 224 on CleCin
+Time 168.6488 23202
+set   224 color White
+set   224 travel 5.792
+Time 168.6808 37855
+destroy 158
+Time 168.726 47513
+destroy 112
+Time 169.0441 57171
+set   172 color White
+set   172 travel 31.065
+Time 169.0515 6288
+destroy 157
+Time 169.2392 15946
+destroy 96
+Time 169.5008 25604
+set   128 speed     0
+set   128 color Yellow
+Time 169.5843 40257
+create Truck 225
+place 225 on ChiBos
+Time 169.8328 54891
+set   89 speed     0
+set   89 color Yellow
+Time 169.9801 4008
+create Truck 226
+place 226 on CleCin
+Time 170.1219 18642
+create Truck 227
+place 227 on DetChi
+Time 170.2498 33276
+create Truck 228
+place 228 on DetChi
+Time 170.3723 47654
+set   174 color White
+set   174 travel 30.516
+Time 170.5003 62307
+set   226 color White
+set   226 travel 5.320
+Time 170.5288 11424
+create Truck 229
+place 229 on ColRic
+Time 170.6347 26058
+set   227 color White
+set   227 travel 6.511
+Time 170.6763 40455
+set   228 color White
+set   228 travel 6.764
+Time 171.4618 55108
+set   161 speed     0
+set   161 color Yellow
+Time 171.7275 4225
+set   187 speed     0
+set   187 color Yellow
+Time 172.1109 18878
+create Truck 230
+place 230 on EliPhi
+Time 172.2053 33512
+create Truck 231
+place 231 on ColCle
+Time 172.2641 47890
+set   225 color White
+set   225 travel 21.224
+Time 172.5659 62543
+create Truck 232
+place 232 on DetEli
+Time 172.6241 11641
+create Truck 233
+place 233 on CleEli
+Time 172.6433 26275
+set   230 color White
+set   230 travel 1.817
+Time 172.7596 40928
+create Truck 234
+place 234 on CleCin
+Time 172.7782 55306
+set   229 color White
+set   229 travel 2.317
+Time 173.0594 4423
+set   233 color White
+set   233 travel 9.684
+Time 173.0744 19076
+set   232 color White
+set   232 travel 14.292
+Time 173.2694 33729
+create Truck 235
+place 235 on CleCin
+Time 173.2993 48363
+set   234 color White
+set   234 travel 5.518
+Time 173.4105 62760
+create Truck 236
+place 236 on OrlSea
+Time 173.4368 11858
+set   219 color White
+set   219 travel 33.256
+Time 173.7824 26511
+set   235 color White
+set   235 travel 5.397
+Time 174.2481 41164
+set   36 speed     0
+set   36 color Yellow
+Time 174.442 55561
+set   231 color White
+set   231 travel 3.002
+Time 174.506 4678
+set   236 color White
+set   236 travel 74.698
+Time 174.5841 19331
+create Truck 237
+place 237 on CleCin
+Time 174.8666 33965
+create Truck 238
+place 238 on DetEli
+Time 175.0953 48599
+set   237 color White
+set   237 travel 5.066
+Time 175.3419 62996
+set   238 color White
+set   238 travel 12.915
+Time 175.4798 12113
+create Truck 239
+place 239 on ColSol
+Time 176 26747
+set   193 color Green
+set   216 color Green
+set   134 color Green
+set   185 color Green
+set   218 color Green
+set   198 color Green
+set   214 color Green
+set   178 color Green
+set   206 color Green
+set   179 color Green
+set   164 color Green
+set   170 color Green
+set   217 color Green
+set   160 color Green
+set   201 color Green
+set   224 color Green
+set   230 color Green
+set   229 color Green
+set   226 color Green
+Time 176.2808 58476
+set   159 color Green
+Time 176.4028 2613
+create Truck 240
+place 240 on CleCin
+Time 176.4405 17247
+place 179 on EliDet
+set   179 color White
+set   179 travel 13.586
+Time 176.4525 36621
+place 229 on RicCol
+set   229 color White
+set   229 travel 2.281
+Time 176.4607 56251
+place 224 on CinCle
+set   224 color White
+set   224 travel 5.534
+Time 176.4637 10089
+place 134 on CinCle
+set   134 color White
+set   134 travel 5.839
+Time 176.4903 29463
+place 226 on CinCle
+set   226 color White
+set   226 travel 5.361
+Time 176.4947 49093
+place 230 on PhiEli
+set   230 color White
+set   230 travel 1.851
+Time 176.5146 2931
+place 216 on RicCol
+set   216 color White
+set   216 travel 2.389
+Time 176.5249 22305
+place 160 on CinCle
+set   160 color White
+set   160 travel 5.727
+Time 176.6063 41935
+set   31 color Green
+Time 176.7704 51608
+place 159 on EliDet
+set   159 color White
+set   159 travel 12.982
+Time 176.8961 5446
+set   240 color White
+set   240 travel 5.586
+Time 176.8989 20099
+place 217 on ChiDet
+set   217 color White
+set   217 travel 6.218
+Time 176.9786 39473
+place 201 on ChiDet
+set   201 color White
+set   201 travel 5.762
+Time 177.005 59103
+place 185 on ChiDet
+set   185 color White
+set   185 travel 5.973
+Time 177.0356 12941
+place 214 on CleCol
+set   214 color White
+set   214 travel 3.233
+Time 177.0436 32315
+place 178 on DetCle
+set   178 color White
+set   178 travel 3.447
+Time 177.074 51945
+place 218 on ChiDet
+set   218 color White
+set   218 travel 5.947
+Time 177.1121 5783
+place 198 on CleCol
+set   198 color White
+set   198 travel 3.127
+Time 177.1453 25157
+set   227 color Green
+Time 177.2403 34830
+create Truck 241
+place 241 on ChiNas
+Time 177.4404 49464
+set   228 color Green
+Time 177.4441 59137
+set   231 color Green
+Time 177.4817 3530
+place 31 on SeaOrl
+set   31 color White
+set   31 travel 74.229
+Time 177.7694 22904
+set   239 color White
+set   239 travel 3.475
+Time 177.8558 37557
+create Truck 242
+place 242 on CleTol
+Time 178.1137 52191
+place 227 on ChiDet
+set   227 color White
+set   227 travel 5.866
+Time 178.3179 6029
+set   241 color White
+set   241 travel 10.343
+Time 178.3452 20682
+destroy 230
+Time 178.4055 30340
+place 164 on DetCol
+set   164 color White
+set   164 travel 4.558
+Time 178.4303 49714
+place 193 on ColDet
+set   193 color White
+set   193 travel 4.356
+Time 178.4356 3808
+place 206 on EliCle
+set   206 color White
+set   206 travel 10.758
+Time 178.4423 23182
+set   242 color White
+set   242 travel 2.392
+Time 178.4454 37835
+place 231 on CleCol
+set   231 color White
+set   231 travel 3.371
+Time 178.4659 57209
+place 228 on ChiDet
+set   228 color White
+set   228 travel 6.382
+Time 178.5567 11047
+place 170 on DetCol
+set   170 color White
+set   170 travel 4.801
+Time 178.6079 30677
+create Truck 243
+place 243 on ColSol
+Time 178.7152 45311
+create Truck 244
+place 244 on OrlSea
+Time 178.7335 59689
+destroy 229
+Time 178.8178 4067
+set   234 color Green
+Time 178.9034 13740
+destroy 216
+Time 179.0441 23398
+set   172 speed     0
+set   172 color Blue 
+Time 179.179 38051
+set   235 color Green
+Time 179.1915 47724
+create Truck 245
+place 245 on ColInd
+Time 179.3362 62358
+place 234 on CinCle
+set   234 color White
+set   234 travel 5.384
+Time 179.6052 16196
+create Truck 246
+place 246 on DetCol
+Time 179.6449 30830
+place 235 on CinCle
+set   235 color White
+set   235 travel 5.534
+Time 179.8071 50204
+create Truck 247
+place 247 on EliPhi
+Time 179.9359 64838
+set   244 color White
+set   244 travel 70.681
+Time 179.939 13955
+create Truck 248
+place 248 on DetChi
+Time 180.1124 28589
+set   246 color White
+set   246 travel 4.738
+Time 180.161 43242
+set   237 color Green
+Time 180.2387 52915
+destroy 198
+Time 180.2648 62573
+set   247 color White
+set   247 travel 1.898
+Time 180.2689 11690
+destroy 214
+Time 180.3723 21348
+set   174 speed     0
+set   174 color Blue 
+Time 180.4299 36001
+set   248 color White
+set   248 travel 6.013
+Time 180.4905 50654
+destroy 178
+Time 180.5047 60312
+create Truck 249
+place 249 on ColDet
+Time 180.5859 9410
+place 237 on CinCle
+set   237 color White
+set   237 travel 5.551
+Time 180.8192 28784
+set   243 color White
+set   243 travel 3.208
+set   243 speed     0
+set   243 color Yellow
+Time 180.834 53141
+set   242 color Green
+Time 180.9364 62814
+set   249 color White
+set   249 travel 4.544
+Time 181.2356 11931
+create Truck 250
+place 250 on CleEli
+Time 181.244 26565
+set   239 color Green
+Time 181.5488 36238
+set   245 color White
+set   245 travel 3.590
+set   245 speed     0
+set   245 color Yellow
+Time 181.7512 60595
+set   250 color White
+set   250 travel 10.183
+set   250 speed     0
+set   250 color Yellow
+Time 181.8163 19416
+destroy 231
+Time 181.8515 29074
+destroy 226
+Time 181.8602 38732
+place 242 on TolCle
+set   242 color White
+set   242 travel 2.513
+Time 181.9948 58362
+destroy 224
+Time 182.1173 2484
+create Truck 251
+place 251 on ChiBos
+Time 182.1628 17118
+set   247 color Green
+Time 182.2354 26791
+place 239 on SolCol
+set   239 color White
+set   239 travel 3.114
+Time 182.2475 46165
+create Truck 252
+place 252 on ChiBos
+Time 182.2514 60799
+destroy 160
+Time 182.2641 4921
+set   225 speed     0
+set   225 color Blue 
+Time 182.303 19574
+destroy 134
+Time 182.4822 29232
+set   240 color Green
+Time 182.5504 39161
+set   232 speed     0
+set   232 color Yellow
+Time 182.6579 53558
+place 247 on PhiEli
+set   247 color White
+set   247 travel 1.761
+Time 182.741 7652
+destroy 201
+Time 182.743 17310
+set   233 color Green
+Time 182.786 26983
+destroy 193
+Time 182.964 36641
+destroy 164
+Time 182.978 46555
+destroy 185
+Time 183.0215 56213
+destroy 218
+Time 183.0292 335
+place 240 on CinCle
+set   240 color White
+set   240 travel 5.840
+Time 183.1166 19965
+destroy 217
+Time 183.3279 29623
+create Truck 253
+place 253 on DetEli
+Time 183.3576 44257
+destroy 170
+Time 183.4368 53915
+set   219 speed     0
+set   219 color Blue 
+Time 183.6646 3032
+create Truck 254
+place 254 on DetCle
+Time 183.9303 17410
+set   253 color White
+set   253 travel 13.377
+set   253 speed     0
+set   253 color Yellow
+Time 183.9795 41767
+destroy 227
+Time 184.0166 51681
+create Truck 255
+place 255 on ColRic
+Time 184.2162 523
+set   254 color White
+set   254 travel 3.773
+set   254 speed     0
+set   254 color Yellow
+Time 184.2358 24880
+create Truck 256
+place 256 on ColRic
+Time 184.3735 39514
+destroy 242
+Time 184.419 49172
+destroy 247
+Time 184.4723 59086
+create Truck 257
+place 257 on DetEli
+Time 184.506 8184
+set   236 speed     0
+set   236 color Blue 
+Time 184.5664 22581
+set   190 speed     0
+set   190 color Yellow
+Time 184.7075 37234
+set   255 color White
+set   255 travel 2.346
+Time 184.7199 51887
+destroy 234
+Time 184.8476 61545
+destroy 228
+Time 184.8585 5667
+set   251 color White
+set   251 travel 22.165
+Time 184.9057 20320
+set   252 color White
+set   252 travel 22.306
+Time 185.0622 34973
+set   257 color White
+set   257 travel 12.660
+set   257 speed     0
+set   257 color Yellow
+Time 185.1788 59330
+destroy 235
+Time 185.3419 3452
+set   238 speed     0
+set   238 color Blue 
+Time 185.3497 18105
+destroy 239
+Time 185.3651 27763
+place 233 on EliCle
+set   233 color White
+set   233 travel 9.895
+Time 185.4808 47137
+set   249 color Green
+Time 185.6332 57066
+create Truck 258
+place 258 on ColSol
+Time 185.9999 5908
+create Truck 259
+place 259 on CleTol
+Time 186.0819 20542
+create Truck 260
+place 260 on CleTol
+Time 186.1366 35176
+destroy 237
+Time 186.2792 44834
+create Truck 261
+place 261 on DetEli
+Time 186.304 59468
+set   179 speed     0
+set   179 color Yellow
+Time 186.4758 8585
+set   31 speed     0
+set   31 color Yellow
+Time 186.4873 23238
+set   259 color White
+set   259 travel 2.474
+Time 186.594 37635
+set   260 color White
+set   260 travel 2.612
+Time 186.8811 52288
+set   261 color White
+set   261 travel 13.993
+set   261 speed     0
+set   261 color Yellow
+Time 187.0441 11109
+set   172 color White
+set   172 travel 21.065
+Time 187.2274 25762
+create Truck 262
+place 262 on EliPhi
+Time 187.6888 40396
+set   260 speed     0
+set   260 color Yellow
+Time 187.7708 54793
+set   262 color White
+set   262 travel 1.918
+Time 187.863 3910
+set   258 color White
+set   258 travel 3.474
+set   258 speed     0
+set   258 color Yellow
+Time 187.992 28267
+place 249 on DetCol
+set   249 color White
+set   249 travel 4.636
+Time 188.0693 47641
+create Truck 263
+place 263 on DetChi
+Time 188.3179 62275
+set   241 speed     0
+set   241 color Blue 
+Time 188.3723 11392
+set   174 color White
+set   174 travel 20.516
+Time 188.4811 26045
+create Truck 264
+place 264 on ColDet
+Time 188.4998 40679
+set   148 speed     0
+set   148 color Yellow
+Time 188.5892 55076
+set   263 color White
+set   263 travel 6.374
+set   263 speed     0
+set   263 color Yellow
+Time 188.7233 13897
+set   168 speed     0
+set   168 color Yellow
+Time 188.8696 28550
+destroy 240
+Time 188.9686 38208
+set   264 color White
+set   264 travel 4.529
+set   264 speed     0
+set   264 color Yellow
+Time 189.2476 62565
+create Truck 265
+place 265 on OrlSea
+Time 189.9359 11663
+set   244 speed     0
+set   244 color Blue 
+Time 190.0239 26316
+create Truck 266
+place 266 on DetCol
+Time 190.0871 40950
+create Truck 267
+place 267 on ColDet
+Time 190.2641 55328
+set   225 color White
+set   225 travel 11.224
+Time 190.321 4445
+set   265 color White
+set   265 travel 75.064
+Time 190.4022 19098
+create Truck 268
+place 268 on ColInd
+Time 190.5342 33732
+set   266 color White
+set   266 travel 4.262
+Time 190.6252 48129
+create Truck 269
+place 269 on ColInd
+Time 190.6297 62763
+set   267 color White
+set   267 travel 4.725
+set   267 speed     0
+set   267 color Yellow
+Time 190.9199 21584
+create Truck 270
+place 270 on ColRic
+Time 191.113 36218
+set   268 color White
+set   268 travel 4.105
+Time 191.4195 50871
+create Truck 271
+place 271 on EliPhi
+Time 191.4368 65505
+set   219 color White
+set   219 travel 23.256
+Time 191.5961 14366
+create Truck 272
+place 272 on CleTol
+Time 191.6704 29000
+create Truck 273
+place 273 on CleTol
+Time 191.7645 43634
+create Truck 274
+place 274 on ColRic
+Time 191.8639 58268
+set   271 color White
+set   271 travel 1.859
+Time 192 7385
+write DayNo Day 9
+set   162 color White
+set   162 travel 2.414
+set   138 color White
+set   138 travel 15.329
+set   166 color White
+set   166 travel 3.813
+set   189 color White
+set   189 travel 3.909
+set   189 speed     0
+set   189 color Yellow
+set   83 color White
+set   83 travel 15.677
+set   83 speed     0
+set   83 color Yellow
+set   208 color White
+set   208 travel 3.006
+set   208 speed     0
+set   208 color Yellow
+set   101 color White
+set   101 travel 3.607
+set   101 speed     0
+set   101 color Yellow
+set   181 color White
+set   181 travel 17.863
+set   181 speed     0
+set   181 color Yellow
+set   128 color White
+set   128 travel 1.653
+set   89 color White
+set   89 travel 19.902
+set   161 color White
+set   161 travel 6.910
+set   187 color White
+set   187 travel 9.484
+set   36 color White
+set   36 travel 6.052
+set   243 color White
+set   243 travel 3.208
+set   245 color White
+set   245 travel 3.590
+set   245 speed     0
+set   245 color Yellow
+set   250 color White
+set   250 travel 10.183
+set   232 color White
+set   232 travel 4.816
+set   232 speed     0
+set   232 color Yellow
+set   253 color White
+set   253 travel 13.377
+Time 192.1297 63566
+set   138 speed     0
+set   138 color Yellow
+Time 192.1518 12683
+set   272 color White
+set   272 travel 2.568
+Time 192.2125 27336
+set   273 color White
+set   273 travel 2.412
+Time 192.2162 41733
+set   254 color White
+set   254 travel 3.773
+Time 192.2875 56386
+set   270 color White
+set   270 travel 2.294
+Time 192.4793 5503
+create Truck 275
+place 275 on CleCin
+Time 192.506 20137
+set   236 color White
+set   236 travel 64.698
+Time 192.5664 34790
+set   190 color White
+set   190 travel -12.730
+Time 192.6279 49187
+destroy 249
+Time 192.6688 59101
+create Truck 276
+place 276 on ColRic
+Time 192.7903 7943
+create Truck 277
+place 277 on CleEli
+Time 192.9865 22577
+set   275 color White
+set   275 travel 5.798
+Time 193.0622 37230
+set   257 color White
+set   257 travel 12.660
+Time 193.3419 51883
+set   238 color White
+set   238 travel 2.915
+Time 193.3483 1000
+set   277 color White
+set   277 travel 9.757
+Time 193.6529 15397
+destroy 128
+Time 194.304 25311
+set   179 color White
+set   179 travel 3.723
+Time 194.4136 39708
+destroy 162
+Time 194.4758 49622
+set   31 color White
+set   31 travel 65.235
+Time 194.7928 64019
+set   238 speed     0
+set   238 color Yellow
+Time 194.8585 13136
+set   251 speed     0
+set   251 color Blue 
+Time 194.8811 27789
+set   261 color White
+set   261 travel 13.993
+Time 194.8992 42442
+create Truck 278
+place 278 on ColRic
+Time 194.9057 57076
+set   252 speed     0
+set   252 color Blue 
+Time 195.032 5937
+set   276 color White
+set   276 travel 2.317
+Time 195.2601 20590
+destroy 233
+Time 195.6862 30248
+set   166 speed     0
+set   166 color Yellow
+Time 195.6888 44901
+set   260 color White
+set   260 travel 1.517
+set   260 speed     0
+set   260 color Yellow
+Time 195.863 3722
+set   258 color White
+set   258 travel 3.474
+Time 196.251 18375
+set   172 speed     0
+set   172 color Yellow
+Time 196.3179 32772
+set   241 color White
+set   241 travel 0.343
+Time 196.4698 47425
+set   246 speed     0
+set   246 color Yellow
+Time 196.4998 62078
+set   148 color White
+set   148 travel -13.471
+destroy 148
+Time 196.5892 15904
+set   263 color White
+set   263 travel 6.374
+Time 196.6487 30557
+create Truck 279
+place 279 on DetEli
+Time 196.7233 45191
+set   168 color White
+set   168 travel -16.796
+Time 196.944 59844
+set   31 speed     0
+set   31 color Yellow
+Time 196.9686 8705
+set   264 color White
+set   264 travel 4.529
+Time 197.099 23358
+set   279 color White
+set   279 travel 13.335
+Time 197.1731 38011
+create Truck 280
+place 280 on CleDet
+Time 197.3074 52645
+set   174 speed     0
+set   174 color Yellow
+Time 197.3158 1762
+create Truck 281
+place 281 on DetEli
+Time 197.4359 16140
+create Truck 282
+place 282 on ColRic
+Time 197.651 30774
+set   280 color White
+set   280 travel 3.631
+Time 197.7469 45427
+set   281 color White
+set   281 travel 12.741
+Time 197.8512 60080
+create Truck 283
+place 283 on ColDet
+Time 197.9359 9178
+set   244 color White
+set   244 travel 60.681
+Time 198.2782 23575
+set   283 color White
+set   283 travel 4.889
+Time 198.488 38228
+create Truck 284
+place 284 on CleCin
+Time 198.5417 52862
+create Truck 285
+place 285 on CleCin
+Time 198.5799 1960
+create Truck 286
+place 286 on ChiBos
+Time 198.6297 16594
+set   267 color White
+set   267 travel 4.725
+Time 199.0373 30991
+set   285 color White
+set   285 travel 5.668
+set   285 speed     0
+set   285 color Yellow
+Time 199.067 55348
+set   284 color White
+set   284 travel 5.603
+set   284 speed     0
+set   284 color Yellow
+Time 199.5308 14169
+create Truck 287
+place 287 on DetEli
+Time 199.709 28803
+set   282 color White
+set   282 travel 2.445
+Time 200 43456
+End

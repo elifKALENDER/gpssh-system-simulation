@@ -1,0 +1,112 @@
+Define View "(Home)" center 42.5 21 Width 90.8727 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 6 Mouse 5 Tolerance 0.284
+Define View "(Class)" center 0 -0.1 Width 13.5454 Grid Size 0.1 1 Ortho
+Define color 0 0 0 0
+Define color 1 0 0 0.6667
+Define color 2 1 0 0
+Define color 3 1 1 1
+Define color 4 1 1 0
+Define color 5 1 0 0.6667
+Define color 6 1 0.6667 0
+Define color 7 0 1 0
+Define color 8 0.8889 0.2381 0.2381
+Define color 9 0 0 1
+Define color 10 0.746 0.2381 0.2381
+Define color 11 0.5873 0.9365 1
+Define color 12 0.4921 0.3492 0
+Define color 13 0.746 0.3968 0.6667
+Define color 14 0.5873 0.4921 0.4921
+Define color 15 0 0.5873 0.1905
+Define color 16 0.6667 0 1
+Define color 17 0 0.6667 0.6667
+Define color 18 0.6667 0.3175 0
+Define color 19 0.3968 0.4921 0.6984
+Define color 20 0 0.3175 0.3175
+Define color 21 0.8889 0.6667 0.4921
+Define color 22 0.4921 0.2381 0.4921
+Define color 23 0.746 0.5873 0
+Define color 24 0.4921 0 0.6667
+Define color L1 0 0 0.5079
+Define color L2 0.6667 0.9365 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.8889 0.6667 0.4921
+Define color L6 0.3968 0.4921 0.6984
+Define color L7 0 0 0.6667
+Color F3 
+Define Class box Clearance 2.5 2.6 Speed 10
+Line 2.42 -2.52 2.42 2.28
+Line 2.42 2.28 -2.38 2.28
+Line -2.38 -2.52 2.42 -2.52
+Line -2.38 2.28 -2.38 -2.52
+Line 1.9 -2 1.9 1.8
+Line 1.9 1.8 -1.8 1.8
+Line -1.8 1.8 -1.8 -2
+Line -1.8 -2 1.9 -2
+Color F2 
+Fill 0.0106 -2.294
+Color F3 
+Message id 1 1.5 MIDDLE 0 0 BG Bac id
+End
+Color F4 
+Line 5 31 14 31
+Line 21 31 27 31
+Line 34 31 40 31
+Line 47 31 53 31
+Line 60 31 66 31
+Line 81 31 72 31
+Line 5 37 81 37
+Color F6 
+Fill 75.4942 18.5377
+Fill 49.3866 13.4846
+Fill 36.8942 13.1103
+Fill 23.9807 12.736
+Fill 10.9269 12.5488
+Color Bac
+Line #1 17 34 17 7
+Line #2 30 34 30 7
+Line #3 56 34 56 7
+Line #4 69 34 69 7
+Line #5 43 34 43 7
+Line #6 81 34 4 34
+Color F4 
+Line 5 31 5 5
+Line 14 31 14 5
+Line 21 31 21 5
+Line 27 5 27 31
+Line 34 31 34 5
+Line 40 31 40 5
+Line 47 31 47 5
+Line 53 5 53 31
+Line 60 31 60 5
+Line 66 31 66 5
+Line 72 31 72 5
+Line 5 5 14 5
+Line 21 5 27 5
+Line 34 5 40 5
+Line 47 5 53 5
+Line 60 5 66 5
+Line 72 5 81 5
+Line 81 37 81 5
+Color F6 
+Fill 63.0018 16.8533
+Color L1 
+Fill 43.4244 -2.1093
+Define Path pmain Label 4.0625 40.25 Speed 0
+Segment #6 4 34 69 34 65
+End
+Define Path p1 Accumulating Label 18.8125 20.5833 Speed 0
+Segment #1 17 34 17 7 27
+End
+Define Path p2 Accumulating Label 30.8125 20.5833 Speed 0
+Segment #2 30 34 30 7 27
+End
+Define Path p3 Accumulating Label 44.5625 20.5833 Speed 0
+Segment #5 43 34 43 7 27
+End
+Define Path p4 Accumulating Label 57.0625 20.5833 Speed 0
+Segment #3 56 34 56 7 27
+End
+Define Path p5 Accumulating Label 69.5625 19.25 Speed 0
+Segment #4 69 34 69 7 27
+End
+End

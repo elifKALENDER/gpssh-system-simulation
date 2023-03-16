@@ -1,0 +1,10 @@
+        SIMULATE
+*
+        GENERATE        10
+        TERMINATE       1
+*
+        START           10
+        END
+
+
+

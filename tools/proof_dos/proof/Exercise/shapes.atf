@@ -1,0 +1,33 @@
+create car 1
+create car 2
+create SQUARE 3
+create TRIANGLE 4
+create turn 5
+create turn 6
+create turn 7
+create turn 8
+create turn 9
+place 5 at 35 45
+place 6 at 39 45
+place 7 at 43 45
+place 8 at 47 45
+place 9 at 51 45
+rotate 5 speed -90 step 12
+rotate 6 speed -90 step 12
+rotate 7 speed -90 step 12
+rotate 8 speed -90 step 12
+rotate 9 speed -90 step 12
+place 1 on loop
+time 20
+write mmm Looping Conveyor
+place 2 on loop
+time 25
+time 60
+place 1 on bag
+place 1 on loop1
+set 1 color F4
+set 2 color F6
+time 400
+
+end
+

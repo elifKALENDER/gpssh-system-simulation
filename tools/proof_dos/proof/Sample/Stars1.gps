@@ -1,0 +1,17 @@
+        SIMULATE
+ATF     FILEDEF         'stars.atf'
+*
+        GENERATE        10
+        BLET            PH(XLOC)=80*FRN1
+        BLET            PH(YLOC)=55*FRN1
+        BPUTPIC         FILE=ATF,(AC1)
+TIME *
+        ADVANCE         7
+        TERMINATE       1
+*
+        START           30
+        PUTPIC          FILE=ATF
+END
+        END
+
+

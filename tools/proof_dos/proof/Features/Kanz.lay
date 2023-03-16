@@ -1,0 +1,726 @@
+Def View "Idle AGV Area" center 25.3326 45.9583 Width 48.4813 Grid Size 1 10 Ortho
+Def View "Raw Material Area" center -11.1055 81.125 Width 67.9852 Grid Size 1 10 Ortho
+Def View "Product Shipping Area" center -4.1244 13.6523 Width 67.9852 Grid Size 1 10 Ortho
+Def View "(Home)" Bounds 0 50.0782 0 100 center 0.4 54 Width 81.3043 Grid Size 1 10 Ortho Aspect 0.7143 0.5 Speed 50 Mouse 5 Tolerance 0.5082
+Def Window Bounds 50.0782 100 0 50.1433 Center 0 56 Width 90.4277 Grid Size 1 10 Ortho
+Def Window Bounds 50.0782 74.9609 50.1433 100 Center 0 56 Width 22.6069 Grid Size 1 10 Ortho
+Def Window Bounds 74.9609 100 50.1433 75.0716 Center 0 56 Width 22.6069 Grid Size 1 10 Ortho
+Def Window Bounds 74.9609 100 75.0716 100 Center 0 56 Width 90.4277 Grid Size 1 10 Ortho
+Def View "(Class)" center 0 0 Width 1146.6656 Grid Size 0.2 2 Ortho
+Def color Bac 0 0 0
+Def color F1  0.3175 0.3175 1
+Def color F2  1 0 0
+Def color F3  1 1 1
+Def color F4  1 1 0
+Def color F5  1 0.3175 0.6667
+Def color F6  1 0.6667 0
+Def color F7  0 1 0
+Def color L1  0 1 1
+Color Bac
+Def Class STATUS
+Pie 1 0 0 0 360 6.2832
+End
+Color L1 
+Def Class ST13
+Li -15 18 15 18
+Li -15 12 15 12
+Li -15 6 15 6
+Li -15 0 15 0
+Li -15 -6 15 -6
+Li -15 -12 15 -12
+Li -15 -12 -15 18
+Li 0 -12 0 18
+Li 15 -12 15 18
+Li 9 -12 9 18
+Text 1 2 -15 20 Shipped
+Text 1 2 2 20 In Stock
+Text 1 2 -22 15 1-1
+Text 1 2 -22 9 1-2
+Text 1 2 -22 3 1-3
+Text 1 2 -22 -3 1-4
+Text 1 2 -22 -9 1-5
+End
+Def Class AGVY Directional Clearance 0 7
+Arc 1 1 1 0 90 1.5708
+Arc 1 1 -1 0 -90 1.5708
+Arc 1 -3 1 90 180 1.5708
+Arc 1 -3 -1 180 270 1.5708
+Li 2 1 2 -1
+Li -4 1 -4 -1
+Li -3 -2 1 -2
+Li 1 -2 1 2
+Li 1 2 -3 2
+Li -3 2 -3 -2
+End
+Def Class AGVE Directional Clearance 0 7
+Arc 1 1 1 0 90 1.5708
+Arc 1 1 -1 0 -90 1.5708
+Arc 1 -3 1 90 180 1.5708
+Arc 1 -3 -1 180 270 1.5708
+Li 2 1 2 -1
+Li -4 1 -4 -1
+Li -3 -2 1 -2
+Li 1 -2 1 2
+Li 1 2 -3 2
+Li -3 2 -3 -2
+Li -2 -1 0 -1
+Li 0 -1 0 1
+Li 0 1 -2 1
+Li -2 1 -2 -1
+End
+Def Class AGVF Directional Clearance 0 7
+Arc 1 1 1 0 90 1.5708
+Arc 1 1 -1 0 -90 1.5708
+Arc 1 -3 1 90 180 1.5708
+Arc 1 -3 -1 180 270 1.5708
+Li 2 1 2 -1
+Li -4 1 -4 -1
+Li -3 -2 1 -2
+Li 1 -2 1 2
+Li 1 2 -3 2
+Li -3 2 -3 -2
+Li -2 -1 0 -1
+Li 0 -1 0 1
+Li 0 1 -2 1
+Li -2 1 -2 -1
+Fill -1.0435 0.0513
+End
+Color F6 
+Def Class STN1
+Li 0 0 10 0
+Li 10 0 10 8
+Li 10 8 0 8
+Li 0 8 0 0
+Text 1 3 8 2.5 1
+End
+Def Class STN2
+Li 0 0 10 0
+Li 10 0 10 8
+Li 10 8 0 8
+Li 0 8 0 0
+Text 1 3 8 2.5 2
+End
+Def Class STN3
+Li 0 0 8 0
+Li 8 0 8 10
+Li 8 10 0 10
+Li 0 10 0 0
+Text 1 3 3 7 3
+End
+Def Class STN4
+Li 0 0 8 0
+Li 8 0 8 10
+Li 8 10 0 10
+Li 0 10 0 0
+Text 1 3 3 7 4
+End
+Def Class ST11
+Text 1 2 0 0 Subassembly Area
+End
+Def Class STN5
+Li 0 0 5 0
+Li 5 0 5 12
+Li 5 12 0 12
+Li 0 12 0 0
+Li 0 3 5 3
+Li 0 6 5 6
+Li 0 9 5 9
+Text 1 1.5 3 10.5 5
+End
+Def Class STN6
+Li 0 0 5 0
+Li 5 0 5 12
+Li 5 12 0 12
+Li 0 12 0 0
+Li 0 3 5 3
+Li 0 6 5 6
+Li 0 9 5 9
+Text 1 1.5 3 1.5 6
+End
+Color F3 
+Def Class STN7
+Li 0 0 8 0
+Li 8 0 8 12
+Li 8 12 0 12
+Li 0 12 0 0
+Text 1 3 2 6 7
+End
+Def Class STN8
+Li 0 0 8 0
+Li 8 0 8 12
+Li 8 12 0 12
+Li 0 12 0 0
+Text 1 3 2 6 8
+End
+Def Class ST12
+Text 1 2 0 0 Product Assembly
+End
+Color L1 
+Def Class STN9
+Li 0 0 2 0
+Li 2 0 2 10
+Li 2 10 0 10
+Li 0 10 0 0
+Li 4 0 6 0
+Li 6 0 6 10
+Li 6 10 4 10
+Li 4 10 4 0
+Li 8 0 10 0
+Li 10 0 10 10
+Li 10 10 8 10
+Li 8 10 8 0
+Text 1 2 -2 -4 Product 
+Text 1 2 -2 -8 Shipping
+End
+Color F5 
+Def Class STN0
+Li 0 0 2 0
+Li 2 0 2 10
+Li 2 10 0 10
+Li 0 10 0 0
+Li 4 0 6 0
+Li 6 0 6 10
+Li 6 10 4 10
+Li 4 10 4 0
+Li 8 0 10 0
+Li 10 0 10 10
+Li 10 10 8 10
+Li 8 10 8 0
+Text 1 2 -2 12.5 Material
+End
+Color L1 
+Def Class LAGV
+Arc 1 1 1 0 90 1.5708
+Arc 1 1 -1 0 -90 1.5708
+Arc 1 -3 1 90 180 1.5708
+Arc 1 -3 -1 180 270 1.5708
+Li 2 1 2 -1
+Li -4 1 -4 -1
+Li -3 -2 1 -2
+Li 1 -2 1 2
+Li 1 2 -3 2
+Li -3 2 -3 -2
+Text 1 2 4 0 AGV With No Load
+End
+Def Class LAGF
+Arc 1 1 1 0 90 1.5708
+Arc 1 1 -1 0 -90 1.5708
+Arc 1 -3 1 90 180 1.5708
+Arc 1 -3 -1 180 270 1.5708
+Li 2 1 2 -1
+Li -4 1 -4 -1
+Li -3 -2 1 -2
+Li 1 -2 1 2
+Li 1 2 -3 2
+Li -3 2 -3 -2
+Li -2 -1 0 -1
+Li 0 -1 0 1
+Li 0 1 -2 1
+Li -2 1 -2 -1
+Text 1 2 4 0 AGV With Full Bin
+Fill -0.9409 0.0513
+End
+Def Class LAGE
+Arc 1 1 1 0 90 1.5708
+Arc 1 1 -1 0 -90 1.5708
+Arc 1 -3 1 90 180 1.5708
+Arc 1 -3 -1 180 270 1.5708
+Li 2 1 2 -1
+Li -4 1 -4 -1
+Li -3 -2 1 -2
+Li 1 -2 1 2
+Li 1 2 -3 2
+Li -3 2 -3 -2
+Li -2 -1 0 -1
+Li 0 -1 0 1
+Li 0 1 -2 1
+Li -2 1 -2 -1
+Text 1 2 4 0 AGV With Empty Bin
+End
+Li #1 5 45 5 76
+Arc  #2 5 10 60 270 180 7.854
+Arc  #3 5 10 60 270 180 7.854
+Li #4 5 45 5 60
+Arc  #5 5 0 60 0 45 3.927
+Li #6 5 60 5 76
+Arc  #7 5 0 60 0 45 3.927
+Color F3 
+Text 1 2 -75 61 Finished Products (used at Shipping)
+Color L1 
+Li #8 3.535 63.535 1.465 65.605
+Li #9 3.535 63.535 1.465 65.605
+Li #10 15 55 10 55
+Li #11 15 55 10 55
+Color F6 
+Text 1 2 -75 65 Subassemblies (used at FP Assembly)
+Color L1 
+Li #12 5 28 5 45
+Color F5 
+Text 1 2 -75 69 Raw Materials (used at Subassembly)
+Color L1 
+Arc  #13 5 5 69.14 225 180 3.927
+Li #14 0 69.14 0 74
+Arc  #15 5 5 69.14 225 180 3.927
+Li #16 0 69.14 0 74
+Li 4 45 6 45
+Arc  #17 5 0 41.14 315 360 3.927
+Li #18 5 41.14 5 45
+Li 15 54 15 56
+Text 1 2 15 49 Idle AGV Area
+Li #19 40 55 15 55
+Color F4 
+Text 1 2 -72 49 One Kanban (Request) Issued
+Color F2 
+Text 1 2 -72 45 Two or more Kanbans Issued
+Color L1 
+Li -2 31.5 -10 31.5
+Li -10 31.5 -10 32.5
+Li -10 32.5 -2 32.5
+Li -2 32.5 -2 31.5
+Li 15 34 15 36
+Li #20 5 28 5 30
+Arc  #21 5 10 30 180 90 7.854
+Li #22 10 35 15 35
+Li #23 15 35 40 35
+Arc  #24 5 5 32 180 135 3.927
+Li #25 1.465 35.535 3.535 37.605
+Li -1 32 1 32
+Li #26 0 24 0 32
+Li 4 76 6 76
+Li -1 74 1 74
+Li #27 5 76 5 84
+Li #28 0 74 0 82
+Fill -6.415 31.9653
+Li -2 81.5 -10 81.5
+Li -10 81.5 -10 82.5
+Li -10 82.5 -2 82.5
+Li -2 82.5 -2 81.5
+Li 4 28 6 28
+Li #29 5 20 5 28
+Li -1 82 1 82
+Li #30 0 82 0 83
+Li #31 0 82 0 83
+Fill -6.0728 82.0875
+Text 1 2 -75 36 PRODUCT SHIPPING STATUS
+Li -76 34 -28 34
+Li 4 84 6 84
+Li #32 5 84 5 90
+Li #33 0 83 1 87
+Li #34 0 83 1 87
+Li #35 5 84 5 90
+Li 28.5 93 28.5 85
+Li 28.5 85 27.5 85
+Li 27.5 85 27.5 93
+Li #36 1 87 2 89
+Li #37 1 87 2 89
+Li -1 24 1 24
+Li #38 0 17 0 24
+Li #39 0 17 0 24
+Li 27.5 93 28.5 93
+Li 17.5 7 18.5 7
+Li 18.5 7 18.5 20
+Li 18.5 20 17.5 20
+Li 17.5 20 17.5 7
+Li 26 4 26 6
+Li 18 4 18 6
+Li 4 20 6 20
+Li #40 42 5 26 5
+Li #41 26 5 18 5
+Li #42 18 5 10 5
+Arc  #43 5 10 10 270 180 7.854
+Li #44 5 10 5 20
+Li #45 11 2 2 11
+Li #46 2 11 1 13
+Li #47 1 13 0 17
+Li #48 11 2 6 7
+Li #49 6 7 5 10
+Li #50 5 10 5 20
+Li #51 18 5 10 5
+Li #52 10 5 7 6
+Li #53 7 6 2 11
+Li #54 2 11 1 13
+Li #55 1 13 0 17
+Li 20 94 20 96
+Li 22 99 22 101
+Arc  #56 5 10 90 180 90 7.854
+Li #57 10 95 20 95
+Li #58 20 95 28 95
+Li #59 2 89 11 98
+Li #60 11 98 13 99
+Li #61 13 99 17 100
+Li #62 17 100 22 100
+Li #63 22 100 50 100
+Li #64 2 89 7 94
+Li #65 7 94 10 95
+Li #66 10 95 20 95
+Li #67 5 90 6 93
+Li #68 6 93 11 98
+Li #69 11 98 13 99
+Li #70 13 99 17 100
+Li #71 17 100 22 100
+Color F3 
+Text 1 4 4 107 JIT/KANBAN SYSTEM
+Color L1 
+Li 28 94 28 96
+Li #72 28 95 36 95
+Fill 27.7981 88.588
+Fill 18.0474 13.6613
+Li 20 -1 20 1
+Li #73 48 0 20 0
+Li #74 20 0 17 0
+Li #75 17 0 13 1
+Li #76 13 1 11 2
+Li #77 20 0 17 0
+Li #78 17 0 13 1
+Li #79 13 1 11 2
+Li 36 94 36 96
+Li #80 36 95 44 95
+Color F4 
+Message INVCNT1 1 3 -40 26 BG Bac 40
+Color L1 
+Arc  #81 5 40 40 270 360 7.854
+Arc  #82 5 40 50 0 90 7.854
+Color F4 
+Message INVCNT2 1 3 -40 20 BG Bac 40
+Message INVCNT3 1 3 -40 14 BG Bac 40
+Message INVCNT4 1 3 -40 8 BG Bac 40
+Message INVCNT5 1 3 -40 2 BG Bac 40
+Color L1 
+Li 41.5 7 42.5 7
+Li 42.5 20 41.5 20
+Li 41.5 20 41.5 7
+Li 42 4 42 6
+Li #83 50 5 42 5
+Fill 41.8255 14.0034
+Li 43.5 93 44.5 93
+Li 44.5 85 43.5 85
+Li 43.5 85 43.5 93
+Li 42.5 7 42.5 20
+Li 44.5 93 44.5 85
+Li #84 45 40 45 50
+Li 44 94 44 96
+Li 48 -1 48 1
+Color F7 
+Text 1 2 -75 55 Machine In Use
+Color L1 
+Li #85 44 95 52 95
+Li #86 53 0 48 0
+Li #87 53 0 48 0
+Fill 44.0494 88.759
+Color F4 
+Message SPCNT1 1 3 -52 26 BG Bac 0
+Message SPCNT2 1 3 -52 20 BG Bac 0
+Message SPCNT3 1 3 -52 14 BG Bac 0
+Message SPCNT4 1 3 -52 8 BG Bac 0
+Message SPCNT5 1 3 -52 2 BG Bac 0
+Color L1 
+Li 52 94 52 96
+Li 50 4 50 6
+Li 50 99 50 101
+Text 1 2 -75 76 COLOR LEGEND
+Li -76 74 -48 74
+Text 1 2 -75 105 SHAPE LEGEND
+Li -76 103 -48 103
+Li #88 52 95 60 95
+Li #89 60 5 50 5
+Li #90 50 100 53 100
+Li #91 53 100 57 99
+Li #92 57 1 53 0
+Li #93 50 100 53 100
+Li #94 53 100 57 99
+Li #95 60 5 50 5
+Li #96 52 95 60 95
+Li #97 57 1 53 0
+Li 55 79.5 63 79.5
+Li 63 80.5 55 80.5
+Li 55 80.5 55 79.5
+Li 55 63.5 63 63.5
+Li 63 64.5 55 64.5
+Li 55 64.5 55 63.5
+Li #98 57 99 59 98
+Li #99 59 98 68 89
+Li #100 68 11 59 2
+Li #101 59 2 57 1
+Li #102 57 99 59 98
+Li #103 59 98 64 93
+Li #104 64 7 59 2
+Li #105 59 2 57 1
+Fill 58.0767 80.0347
+Fill 58.9321 63.9545
+Li 63 79.5 63 80.5
+Li 63 63.5 63 64.5
+Li 61 47.5 63 47.5
+Li 63 47.5 63 48.5
+Li 63 48.5 61 48.5
+Li 61 48.5 61 47.5
+Li 61 23.5 63 23.5
+Li 63 23.5 63 24.5
+Li 63 24.5 61 24.5
+Li 61 24.5 61 23.5
+Li 64 80 66 80
+Li 64 72 66 72
+Li 64 64 66 64
+Li 64 56 66 56
+Li 64 48 66 48
+Li 64 32 66 32
+Li 64 24 66 24
+Arc  #106 5 60 90 90 0 7.854
+Li #107 65 90 65 80
+Li #108 65 80 65 72
+Li #109 65 72 65 64
+Li #110 65 64 65 56
+Li #111 65 56 65 48
+Li #112 65 48 65 32
+Li #113 65 32 65 24
+Li #114 65 24 65 10
+Arc  #115 5 60 10 360 270 7.854
+Li #116 64 93 65 90
+Li #117 65 90 65 80
+Li #118 68 11 63 6
+Li #119 63 6 60 5
+Li #120 60 95 63 94
+Li #121 63 94 68 89
+Li #122 65 24 65 10
+Li #123 65 10 64 7
+Fill 62.0112 48.0455
+Fill 62.0112 23.9252
+Li 69 78 71 78
+Li 69 20 71 20
+Li #124 68 89 69 87
+Li #125 69 87 70 83
+Li #126 70 83 70 78
+Li #127 70 78 70 20
+Li #128 70 20 70 17
+Li #129 70 17 69 13
+Li #130 69 13 68 11
+Li #131 70 20 70 17
+Li #132 70 17 69 13
+Li #133 69 13 68 11
+Li #134 68 89 69 87
+Li #135 69 87 70 83
+Li #136 70 83 70 78
+Def Path CP1 Label 0 0 Speed 1
+Segment #1 5 45 5 76 31
+End
+Def Path CP2 Label 0 0 Speed 1
+Segment #27 5 76 5 84 8
+End
+Def Path CP3 Label 0 0 Speed 1
+Segment #32 5 84 5 90 6
+Segment #56 5 90 10 95 7.854 CW
+Segment #57 10 95 20 95 10
+End
+Def Path CP4 Label 0 0 Speed 1
+Segment #58 20 95 28 95 8
+End
+Def Path CP5 Label 0 0 Speed 1
+Segment #72 28 95 36 95 8
+End
+Def Path CP6 Label 0 0 Speed 1
+Segment #80 36 95 44 95 8
+End
+Def Path CP7 Label 0 0 Speed 1
+Segment #85 44 95 52 95 8
+End
+Def Path CP8 Label 0 0 Speed 1
+Segment #88 52 95 60 95 8
+Segment #106 60 95 65 90 7.854 CW
+Segment #107 65 90 65 80 10
+End
+Def Path CP9 Label 0 0 Speed 1
+Segment #108 65 80 65 72 8
+End
+Def Path CP10 Label 0 0 Speed 1
+Segment #109 65 72 65 64 8
+End
+Def Path CP11 Label 0 0 Speed 1
+Segment #110 65 64 65 56 8
+End
+Def Path CP12 Label 0 0 Speed 1
+Segment #111 65 56 65 48 8
+End
+Def Path CP13 Label 0 0 Speed 1
+Segment #112 65 48 65 32 16
+End
+Def Path CP14 Label 0 0 Speed 1
+Segment #113 65 32 65 24 8
+End
+Def Path CP15 Label 0 0 Speed 1
+Segment #114 65 24 65 10 14
+Segment #115 65 10 60 5 7.854 CW
+Segment #89 60 5 50 5 10
+End
+Def Path CP16 Label 0 0 Speed 1
+Segment #83 50 5 42 5 8
+End
+Def Path CP17 Label 0 0 Speed 1
+Segment #40 42 5 26 5 16
+End
+Def Path CP18 Label 0 0 Speed 1
+Segment #41 26 5 18 5 8
+End
+Def Path CP19 Label 0 0 Speed 1
+Segment #42 18 5 10 5 8
+Segment #43 10 5 5 10 7.854 CW
+Segment #44 5 10 5 20 10
+End
+Def Path CP20 Label 0 0 Speed 1
+Segment #29 5 20 5 28 8
+End
+Def Path CP21 Label 0 0 Speed 1
+Segment #20 5 28 5 30 2
+Segment #21 5 30 10 35 7.854 CW
+Segment #22 10 35 15 35 5
+End
+Def Path CP22 Accumulating Label 0 0 Speed 1
+Segment #23 15 35 40 35 25
+Segment #81 40 35 45 40 7.854 CCW
+Segment #84 45 40 45 50 10
+Segment #82 45 50 40 55 7.854 CCW
+Segment #19 40 55 15 55 25
+End
+Def Path CP23 Label 0 0 Speed 1
+Segment #10 15 55 10 55 5
+Segment #2 10 55 5 60 7.854 CW
+Segment #5 5 60 3.5355 63.5355 3.927 CCW
+Segment #8 3.535 63.535 1.465 65.605 2.9274
+Segment #13 1.4645 65.6045 0 69.14 3.927 CW
+Segment #14 0 69.14 0 74 4.86
+End
+Def Path CP24 Label 0 0 Speed 1
+Segment #28 0 74 0 82 8
+End
+Def Path CP25 Label 0 0 Speed 1
+Segment #30 0 82 0 83 1
+Segment #33 0 83 1 87 4.1231
+Segment #36 1 87 2 89 2.2361
+Segment #59 2 89 11 98 12.7279
+Segment #60 11 98 13 99 2.2361
+Segment #61 13 99 17 100 4.1231
+Segment #62 17 100 22 100 5
+End
+Def Path CP26 Accumulating Label 0 0 Speed 1
+Segment #63 22 100 50 100 28
+End
+Def Path CP27 Label 0 0 Speed 1
+Segment #90 50 100 53 100 3
+Segment #91 53 100 57 99 4.1231
+Segment #98 57 99 59 98 2.2361
+Segment #99 59 98 68 89 12.7279
+Segment #124 68 89 69 87 2.2361
+Segment #125 69 87 70 83 4.1231
+Segment #126 70 83 70 78 5
+End
+Def Path CP28 Accumulating Label 0 0 Speed 1
+Segment #127 70 78 70 20 58
+End
+Def Path CP29 Label 0 0 Speed 1
+Segment #128 70 20 70 17 3
+Segment #129 70 17 69 13 4.1231
+Segment #130 69 13 68 11 2.2361
+Segment #100 68 11 59 2 12.7279
+Segment #101 59 2 57 1 2.2361
+Segment #92 57 1 53 0 4.1231
+Segment #86 53 0 48 0 5
+End
+Def Path CP30 Accumulating Label 0 0 Speed 1
+Segment #73 48 0 20 0 28
+End
+Def Path CP31 Label 0 0 Speed 1
+Segment #74 20 0 17 0 3
+Segment #75 17 0 13 1 4.1231
+Segment #76 13 1 11 2 2.2361
+Segment #45 11 2 2 11 12.7279
+Segment #46 2 11 1 13 2.2361
+Segment #47 1 13 0 17 4.1231
+Segment #38 0 17 0 24 7
+End
+Def Path CP32 Label 0 0 Speed 1
+Segment #26 0 24 0 32 8
+End
+Def Path CP33 Label 0 0 Speed 1
+Segment #24 0 32 1.4645 35.5355 3.927 CW
+Segment #25 1.465 35.535 3.535 37.605 2.9274
+Segment #17 3.5355 37.6045 5 41.14 3.927 CCW
+Segment #18 5 41.14 5 45 3.86
+End
+Def Path CP41 Label 0 0 Speed 1
+Segment #11 15 55 10 55 5
+Segment #3 10 55 5 60 7.854 CW
+Segment #6 5 60 5 76 16
+End
+Def Path CP43 Label 0 0 Speed 1
+Segment #31 0 82 0 83 1
+Segment #34 0 83 1 87 4.1231
+Segment #37 1 87 2 89 2.2361
+Segment #64 2 89 7 94 7.0711
+Segment #65 7 94 10 95 3.1623
+Segment #66 10 95 20 95 10
+End
+Def Path CP48 Label 0 0 Speed 1
+Segment #93 50 100 53 100 3
+Segment #94 53 100 57 99 4.1231
+Segment #102 57 99 59 98 2.2361
+Segment #103 59 98 64 93 7.0711
+Segment #116 64 93 65 90 3.1623
+Segment #117 65 90 65 80 10
+End
+Def Path CP55 Label 0 0 Speed 1
+Segment #131 70 20 70 17 3
+Segment #132 70 17 69 13 4.1231
+Segment #133 69 13 68 11 2.2361
+Segment #118 68 11 63 6 7.0711
+Segment #119 63 6 60 5 3.1623
+Segment #95 60 5 50 5 10
+End
+Def Path CP59 Label 0 0 Speed 1
+Segment #77 20 0 17 0 3
+Segment #78 17 0 13 1 4.1231
+Segment #79 13 1 11 2 2.2361
+Segment #48 11 2 6 7 7.0711
+Segment #49 6 7 5 10 3.1623
+Segment #50 5 10 5 20 10
+End
+Def Path CP63 Label 0 0 Speed 1
+Segment #4 5 45 5 60 15
+Segment #7 5 60 3.5355 63.5355 3.927 CCW
+Segment #9 3.535 63.535 1.465 65.605 2.9274
+Segment #15 1.4645 65.6045 0 69.14 3.927 CW
+Segment #16 0 69.14 0 74 4.86
+End
+Def Path CP65 Label 0 0 Speed 1
+Segment #35 5 84 5 90 6
+Segment #67 5 90 6 93 3.1623
+Segment #68 6 93 11 98 7.0711
+Segment #69 11 98 13 99 2.2361
+Segment #70 13 99 17 100 4.1231
+Segment #71 17 100 22 100 5
+End
+Def Path CP67 Label 0 0 Speed 1
+Segment #96 52 95 60 95 8
+Segment #120 60 95 63 94 3.1623
+Segment #121 63 94 68 89 7.0711
+Segment #134 68 89 69 87 2.2361
+Segment #135 69 87 70 83 4.1231
+Segment #136 70 83 70 78 5
+End
+Def Path CP69 Label 0 0 Speed 1
+Segment #122 65 24 65 10 14
+Segment #123 65 10 64 7 3.1623
+Segment #104 64 7 59 2 7.0711
+Segment #105 59 2 57 1 2.2361
+Segment #97 57 1 53 0 4.1231
+Segment #87 53 0 48 0 5
+End
+Def Path CP71 Label 0 0 Speed 1
+Segment #51 18 5 10 5 8
+Segment #52 10 5 7 6 3.1623
+Segment #53 7 6 2 11 7.0711
+Segment #54 2 11 1 13 2.2361
+Segment #55 1 13 0 17 4.1231
+Segment #39 0 17 0 24 7
+End
+Def Path CP73 Label 0 0 Speed 1
+Segment #12 5 28 5 45 17
+End
+End

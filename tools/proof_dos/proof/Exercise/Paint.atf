@@ -1,0 +1,603 @@
+time    0.0
+create  spray 201
+place 201 at 0 0    
+time     22.3525
+create carbody    1
+place    1 on path1
+time     28.9525
+set 201 color 2
+time     30.9525
+set    1 color 2
+time     42.3911
+set 201 color 0
+place    1 on path2
+time     47.3460
+create carbody    2
+place    2 on path1
+time     49.1911
+destroy    1
+time     53.9460
+set 201 color 7
+time     55.9460
+set    2 color 7
+time     63.6700
+set 201 color 0
+place    2 on path2
+time     68.7350
+create carbody    3
+place    3 on path1
+time     70.4700
+destroy    2
+time     75.3350
+set 201 color 5
+time     77.3350
+set    3 color 5
+time     86.9773
+set 201 color 0
+place    3 on path2
+time     93.7773
+destroy    3
+time     96.9296
+create carbody    4
+place    4 on path1
+time    103.5296
+set 201 color 2
+time    105.5296
+set    4 color 2
+time    117.2838
+set 201 color 0
+place    4 on path2
+time    124.0838
+destroy    4
+time    126.6279
+create carbody    5
+place    5 on path1
+time    133.2279
+set 201 color 3
+time    135.2279
+set    5 color 3
+time    142.6223
+set 201 color 0
+place    5 on path2
+time    145.9299
+create carbody    6
+place    6 on path1
+time    149.4223
+destroy    5
+time    152.5299
+set 201 color 6
+time    154.5299
+set    6 color 6
+time    163.5473
+set 201 color 0
+place    6 on path2
+time    167.0260
+create carbody    7
+place    7 on path1
+time    170.3473
+destroy    6
+time    173.6260
+set 201 color 1
+time    175.6260
+set    7 color 1
+time    187.0292
+set 201 color 0
+place    7 on path2
+time    193.8292
+destroy    7
+time    197.3321
+create carbody    8
+place    8 on path1
+time    203.9321
+set 201 color 2
+time    205.9321
+set    8 color 2
+time    217.7778
+set 201 color 0
+place    8 on path2
+time    219.4360
+create carbody    9
+place    9 on path1
+time    224.5778
+destroy    8
+time    226.0360
+set 201 color 3
+time    228.0360
+set    9 color 3
+time    238.0790
+set 201 color 0
+place    9 on path2
+time    244.8790
+destroy    9
+time    246.4907
+create carbody   10
+place   10 on path1
+time    253.0907
+set 201 color 5
+time    255.0907
+set   10 color 5
+time    266.2391
+set 201 color 0
+place   10 on path2
+time    273.0391
+destroy   10
+time    273.6189
+create carbody   11
+place   11 on path1
+time    280.2189
+set 201 color 3
+time    282.2189
+set   11 color 3
+time    294.1720
+set 201 color 0
+place   11 on path2
+time    298.2337
+create carbody   12
+place   12 on path1
+time    300.9720
+destroy   11
+time    304.8337
+set 201 color 3
+time    306.8337
+set   12 color 3
+time    317.6538
+create carbody   13
+place   13 on path1
+time    318.2013
+set 201 color 0
+place   12 on path2
+time    324.2538
+set 201 color 1
+time    325.0013
+destroy   12
+time    326.2538
+set   13 color 1
+time    335.1493
+set 201 color 0
+place   13 on path2
+time    341.9493
+destroy   13
+time    343.3872
+create carbody   14
+place   14 on path1
+time    349.9872
+set 201 color 3
+time    351.9872
+set   14 color 3
+time    364.6654
+set 201 color 0
+place   14 on path2
+time    368.0411
+create carbody   15
+place   15 on path1
+time    371.4654
+destroy   14
+time    374.6411
+set 201 color 5
+time    376.6411
+set   15 color 5
+time    387.1522
+set 201 color 0
+place   15 on path2
+time    393.9522
+destroy   15
+time    394.4022
+create carbody   16
+place   16 on path1
+time    401.0022
+set 201 color 2
+time    403.0022
+set   16 color 2
+time    415.4722
+set 201 color 0
+place   16 on path2
+time    422.2722
+destroy   16
+time    426.7946
+create carbody   17
+place   17 on path1
+time    433.3946
+set 201 color 4
+time    435.3946
+set   17 color 4
+time    445.1257
+create carbody   18
+place   18 on path1
+time    448.2211
+set 201 color 0
+place   17 on path2
+time    451.7257
+set 201 color 7
+time    453.7257
+set   18 color 7
+time    455.0211
+destroy   17
+time    462.0613
+set 201 color 0
+place   18 on path2
+time    468.8613
+destroy   18
+time    471.9452
+create carbody   19
+place   19 on path1
+time    478.5452
+set 201 color 7
+time    480.5452
+set   19 color 7
+time    489.2272
+set 201 color 0
+place   19 on path2
+time    496.0272
+destroy   19
+time    500.2480
+create carbody   20
+place   20 on path1
+time    506.8480
+set 201 color 6
+time    508.8480
+set   20 color 6
+time    519.6375
+set 201 color 0
+place   20 on path2
+time    523.4955
+create carbody   21
+place   21 on path1
+time    526.4375
+destroy   20
+time    530.0955
+set 201 color 4
+time    532.0955
+set   21 color 4
+time    539.9266
+set 201 color 0
+place   21 on path2
+time    546.7266
+destroy   21
+time    552.8828
+create carbody   22
+place   22 on path1
+time    559.4828
+set 201 color 1
+time    561.4828
+set   22 color 1
+time    570.9665
+set 201 color 0
+place   22 on path2
+time    577.7665
+destroy   22
+time    577.9790
+create carbody   23
+place   23 on path1
+time    584.5790
+set 201 color 4
+time    586.5790
+set   23 color 4
+time    594.7935
+set 201 color 0
+place   23 on path2
+time    601.5935
+destroy   23
+time    604.5755
+create carbody   24
+place   24 on path1
+time    611.1755
+set 201 color 4
+time    613.1755
+set   24 color 4
+time    620.7260
+set 201 color 0
+place   24 on path2
+time    627.5260
+destroy   24
+time    631.5373
+create carbody   25
+place   25 on path1
+time    638.1373
+set 201 color 4
+time    640.1373
+set   25 color 4
+time    649.3204
+set 201 color 0
+place   25 on path2
+time    652.3354
+create carbody   26
+place   26 on path1
+time    656.1204
+destroy   25
+time    658.9354
+set 201 color 4
+time    660.9354
+set   26 color 4
+time    672.5824
+set 201 color 0
+place   26 on path2
+time    679.3824
+destroy   26
+time    681.9348
+create carbody   27
+place   27 on path1
+time    688.5348
+set 201 color 4
+time    690.5348
+set   27 color 4
+time    703.0667
+set 201 color 0
+place   27 on path2
+time    707.6192
+create carbody   28
+place   28 on path1
+time    709.8667
+destroy   27
+time    714.2192
+set 201 color 1
+time    716.2192
+set   28 color 1
+time    723.7452
+set 201 color 0
+place   28 on path2
+time    730.5452
+destroy   28
+time    733.5765
+create carbody   29
+place   29 on path1
+time    740.1765
+set 201 color 6
+time    742.1765
+set   29 color 6
+time    752.5256
+set 201 color 0
+place   29 on path2
+time    759.3256
+destroy   29
+time    765.7129
+create carbody   30
+place   30 on path1
+time    772.3129
+set 201 color 4
+time    774.3129
+set   30 color 4
+time    785.2281
+set 201 color 0
+place   30 on path2
+time    787.6647
+create carbody   31
+place   31 on path1
+time    792.0281
+destroy   30
+time    794.2647
+set 201 color 2
+time    796.2647
+set   31 color 2
+time    804.6964
+set 201 color 0
+place   31 on path2
+time    806.5183
+create carbody   32
+place   32 on path1
+time    811.4964
+destroy   31
+time    813.1183
+set 201 color 5
+time    815.1183
+set   32 color 5
+time    828.0323
+set 201 color 0
+place   32 on path2
+time    833.9880
+create carbody   33
+place   33 on path1
+time    834.8323
+destroy   32
+time    840.5880
+set 201 color 7
+time    842.5880
+set   33 color 7
+time    852.8465
+set 201 color 0
+place   33 on path2
+time    857.8928
+create carbody   34
+place   34 on path1
+time    859.6465
+destroy   33
+time    864.4928
+set 201 color 5
+time    866.4928
+set   34 color 5
+time    874.1504
+set 201 color 0
+place   34 on path2
+time    879.3034
+create carbody   35
+place   35 on path1
+time    880.9504
+destroy   34
+time    885.9034
+set 201 color 4
+time    887.9034
+set   35 color 4
+time    899.3709
+set 201 color 0
+place   35 on path2
+time    904.4091
+create carbody   36
+place   36 on path1
+time    906.1709
+destroy   35
+time    911.0091
+set 201 color 7
+time    913.0091
+set   36 color 7
+time    921.7529
+set 201 color 0
+place   36 on path2
+time    928.3156
+create carbody   37
+place   37 on path1
+time    928.5529
+destroy   36
+time    934.9156
+set 201 color 1
+time    936.9156
+set   37 color 1
+time    946.6143
+set 201 color 0
+place   37 on path2
+time    951.4101
+create carbody   38
+place   38 on path1
+time    953.4143
+destroy   37
+time    958.0101
+set 201 color 6
+time    960.0101
+set   38 color 6
+time    970.7644
+set 201 color 0
+place   38 on path2
+time    971.0136
+create carbody   39
+place   39 on path1
+time    977.5644
+destroy   38
+time    977.6136
+set 201 color 1
+time    979.6136
+set   39 color 1
+time    988.0931
+set 201 color 0
+place   39 on path2
+time    994.8931
+destroy   39
+time    997.0849
+create carbody   40
+place   40 on path1
+time   1003.6849
+set 201 color 6
+time   1005.6849
+set   40 color 6
+time   1015.6051
+set 201 color 0
+place   40 on path2
+time   1020.5493
+create carbody   41
+place   41 on path1
+time   1022.4051
+destroy   40
+time   1027.1493
+set 201 color 5
+time   1029.1493
+set   41 color 5
+time   1041.8762
+set 201 color 0
+place   41 on path2
+time   1046.5267
+create carbody   42
+place   42 on path1
+time   1048.6762
+destroy   41
+time   1053.1267
+set 201 color 2
+time   1055.1267
+set   42 color 2
+time   1062.4488
+set 201 color 0
+place   42 on path2
+time   1065.4586
+create carbody   43
+place   43 on path1
+time   1069.2488
+destroy   42
+time   1072.0586
+set 201 color 5
+time   1074.0586
+set   43 color 5
+time   1086.3596
+set 201 color 0
+place   43 on path2
+time   1091.9379
+create carbody   44
+place   44 on path1
+time   1093.1596
+destroy   43
+time   1098.5379
+set 201 color 5
+time   1100.5379
+set   44 color 5
+time   1112.6645
+set 201 color 0
+place   44 on path2
+time   1119.4645
+destroy   44
+time   1119.5997
+create carbody   45
+place   45 on path1
+time   1126.1997
+set 201 color 6
+time   1128.1997
+set   45 color 6
+time   1135.7111
+set 201 color 0
+place   45 on path2
+time   1138.4920
+create carbody   46
+place   46 on path1
+time   1142.5111
+destroy   45
+time   1145.0920
+set 201 color 3
+time   1147.0920
+set   46 color 3
+time   1158.7683
+set 201 color 0
+place   46 on path2
+time   1164.5158
+create carbody   47
+place   47 on path1
+time   1165.5683
+destroy   46
+time   1171.1158
+set 201 color 2
+time   1173.1158
+set   47 color 2
+time   1182.0909
+set 201 color 0
+place   47 on path2
+time   1188.8909
+destroy   47
+time   1196.7359
+create carbody   48
+place   48 on path1
+time   1203.3359
+set 201 color 7
+time   1205.3359
+set   48 color 7
+time   1214.6493
+set 201 color 0
+place   48 on path2
+time   1221.4493
+destroy   48
+time   1225.6332
+create carbody   49
+place   49 on path1
+time   1232.2332
+set 201 color 7
+time   1234.2332
+set   49 color 7
+time   1245.0838
+set 201 color 0
+place   49 on path2
+time   1251.3189
+create carbody   50
+place   50 on path1
+time   1251.8838
+destroy   49
+time   1257.9189
+set 201 color 3
+time   1259.9189
+set   50 color 3
+time   1269.0004
+set 201 color 0
+place   50 on path2
+time   1275.8004
+destroy   50

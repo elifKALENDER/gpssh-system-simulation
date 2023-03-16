@@ -1,0 +1,26 @@
+Define View "(Home)" center 39.9375 21.8125 width 79.875 Ortho Aspect 0.75 0.5 Speed 60 Mouse 5
+Define View "(Class)" center 0 0 width 7.9875 Ortho
+Define color Backdrop 0 0 0
+Define color Blue 0 0 0.6667
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0
+Define color Pink 1 0 0.6667
+Define color Tan 1 0.6667 0
+Define color Green 0 1 0
+Define color Layout 0.5079 0.5079 0.5079
+Color White
+Text 1 1 LJ 20 2 Queue Contents (instantaneous)
+Text 1 1 LJ 20 12 Utilization of Server (moving average)
+Color Green
+Text 1 1.5 CENTER 40 31 Bar Graph Display
+Text 1 1.5 CENTER 40 28 of
+Text 1 1.5 CENTER 40 25 One-Line, Single-Server Queueing Model
+Color Tan
+Bar QUEUE 20 70 5 7 Vrange 0 100 Hrange 0 100
+Text 1 1 CENTER 20 8 0
+Text 1 1 CENTER 70 8 10
+Bar UTIL 20 70 15 17 Vrange 0 100 Hrange 0 100
+Text 1 1 CENTER 20 18 0
+Text 1 1 CENTER 70 18 1.0
+End

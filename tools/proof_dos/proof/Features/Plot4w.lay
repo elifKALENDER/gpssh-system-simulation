@@ -1,0 +1,18 @@
+Define View "3-way" Bounds 0 50.0489 2.6076 52.6728 center 45.5825 -25.767 Width 231.1898 Grid Size 1 10 Ortho
+Define Window Bounds 50.0489 100 2.6076 52.6728 Center 45.5522 -25.7791 Width 231.2823 Grid Size 1 10 Ortho
+Define Window Bounds 0 100 52.6728 100 Center 55.7399 -22.84 Width 203.4292 Grid Size 1 10 Ortho
+Define View "(Home)" Bounds 0 100 2.6076 52.6728 center 60 -20 Width 193.6914 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 50 Mouse 5 Tolerance 0.6053
+Define Window Bounds 0 100 52.6728 100 Center 60 -20 Width 193.6914 Grid Size 1 10 Ortho
+Define View "(Class)" center 0 0 Width 7.9875 Grid Size 1 10 Ortho
+Define color Bac 0 0 0
+Define color F1  0 0 0.6667
+Define color F2  1 0 0
+Define color F3  1 1 1
+Define color F4  1 1 0
+Define color F5  1 0 0.6667
+Define color F6  1 0.6667 0
+Define color F7  0 1 0
+Define color L1  0.5079 0.5079 0.5079
+Color L1 
+Define Plot plot3 -20 140 -40 0 Vrange -25 25 Hrange -100 100 DATA F3  VGRID L1  HGRID L1 
+End

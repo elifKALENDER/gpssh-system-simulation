@@ -1,0 +1,31 @@
+set bar mybar top 100 right 100
+write toprate 0.0
+write botrate 0.0
+write leftrate 0.0
+write rightrate 0.0
+dt 5
+set bar mybar top rate -10
+write toprate -10.0
+dt 15
+set bar mybar top rate 10
+write toprate 10.0
+dt 15
+set bar mybar top rate 0.0
+write toprate 0.0
+dt 5
+set bar mybar top rate -5 bot rate 5
+write toprate -5.0
+write botrate 5.0
+dt 10
+set bar mybar top rate 5 bot rate -5
+write toprate 5.0
+write botrate -5.0
+dt 15
+set bar mybar top rate 0 bot rate 0 left rate 5 right rate -5
+write toprate 0.0
+write botrate 0.0
+write leftrate 5.0
+write rightrate -5.0
+dt 20
+end
+

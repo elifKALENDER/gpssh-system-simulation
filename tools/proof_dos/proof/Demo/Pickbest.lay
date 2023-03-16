@@ -1,0 +1,231 @@
+Define View "Pickers" center 55.3518 -6.9167 Width 112.5863 Grid Size 2 20 Ortho
+Define View "Overview" center 90 20 Width 212.0304 Grid Size 2 20 Ortho
+Define View "AccumSplit" Bounds 0 99.9214 0 49.8936 center 121.1222 2.372 Width 43.0282 Grid Size 2 20 Ortho
+Define Window Bounds 0 64.3082 49.2553 99.8936 Center 79.7923 15.949 Width 171.3036 Grid Size 2 20 Ortho
+Define Window Bounds 64.3082 99.9214 49.2553 99.8936 Center 87.655 -5.0347 Width 28.8258 Grid Size 2 20 Ortho
+Define View "ISO" center 95.1812 17.9275 Width 174.1198 Grid Size 2 20 Iso
+Define View "AccNonAcc" center 97.4158 2.1123 Width 94.0036 Grid Size 2 20 Ortho
+Define View "(Class)" center 0 0 Width 6.2344 Grid Size 0.1 1 Ortho
+Define View "(Home)" center 90 30 Width 212.0304 Grid Size 2 20 Ortho Aspect 1 0.5 Speed 8
+Define color Backdrop  0.8 0.749 0.549
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 0 0 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.3255 0.4627 0.7176
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.3961 0.4902 0.698
+Define color F20 0 0.3176 0.3176
+Define color F21 0.9412 0 0
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.4902 0.4902 0.4902
+Define color L2 0.6667 0.9373 1
+Define color L3 0 0.0275 0.6157
+Define color L4 1 0 0
+Define color L5 0.8902 0.6667 0.4902
+Define color L6 0.3961 0.4902 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F8
+Define Class Box11 Directional Clearance 0 0.92
+Fill -0.5234 0.1586
+Line 0 0.4 0 -0.4
+Line -0.8 -0.4 -0.8 0.4
+Line -0.8 0.4 0 0.4
+Line 0 -0.4 -0.8 -0.4
+End
+Color F21
+Define Class Box17 Directional Clearance 0 1.42
+Line 0 0.4 0 -0.4
+Fill -0.6563 0.0352
+Line -1.3 -0.4 -1.3 0.4
+Line -1.3 0.4 0 0.4
+Line 0 -0.4 -1.3 -0.4
+End
+Color F13
+Define Class Box23 Directional Clearance 0 1.92
+Line 0 0.4 0 -0.4
+Fill -0.8594 0.0977
+Line -1.8 -0.4 -1.8 0.4
+Line -1.8 0.4 0 0.4
+Line 0 -0.4 -1.8 -0.4
+End
+Color F2
+Define Class RedLight
+Fill 0.0703 0.0273
+Arc 0.5 0 0 0 360 3.1416
+End
+Color F7
+Define Class GreenLight
+Arc 0.5 0 0 0 360 3.1416
+Fill 0 -0.003906
+End
+Color F4
+Define Class YellowLight
+Fill -0.0234 -0.003906
+Arc 0.5 0 0 0 360 3.1416
+End
+Color L3
+Line #1 0 0 110 0
+Color L4
+Line 0 -2 110 -2
+Line 110 2 0 2
+Color L1
+Line 100 -2 100 -14
+Color L6
+Line 108 0.5 108 -0.5
+Color L4
+Line 110 -2 110 2
+Color L6
+Line 138 -2 110 -2
+Color L4
+Line 123 2 123 -2
+Color L6
+Line 138 2 138 -2
+Line #2 108 0 142 0
+Line 110 2 138 2
+Color L1
+Line #3 140 10 140 -10
+Line 75 -2 75 -14
+Color L3
+Line 123 -5.5 124 -6.5
+Line 123 -5.5 122 -6.5
+Fill 123.1324 -6.2248
+Line 123 -6.5 123 -9.5
+Line 122 -6.5 124 -6.5
+Color L1
+Arc  #4 10 130 10 0.00000006 90 15.708
+Arc  #5 10 150 -10 180 270 15.708
+Line #6 10 20 130 20
+Color L3
+Text 1 3 LJ 114 -12 Sensor
+Text 1 2.8 LJ 78 -10 Picker 4
+Text 1 2.8 LJ 52 -10 Picker 3
+Text 1 3.2 LJ 56 22 Loop Conveyor
+CPO GreenLight BeltStatus 123 -3.5
+Text 1 3.2 CENTER 123 4 Conveyor
+Text 1 3.2 CENTER 123 8 Accumulating
+Text 1 3.2 CENTER 92 4 Conveyor
+Text 1 3.2 CENTER 92 8 Belt
+Color L1
+Line 50 -2 50 -14
+Line 0 -2 0 -14
+Line 25 -2 25 -14
+Color L4
+Line 0 2 0 -2
+Color L1
+Arc  #7 10 10 30 180 270 15.708
+Arc  #8 10 10 30 90 180 15.708
+Line #9 60 60 60 40
+Line #10 100 60 100 40
+Line #11 140 60 140 40
+Arc 1 19 41 -90 0.00000006 1.5708
+Line #12 20 60 20 40
+Color L4
+Line 142 40 142 60
+Line 138 60 138 40
+Line 18 40 18 60
+Line 22 60 22 40
+Line 58 40 58 60
+Line 62 60 62 40
+Line 98 40 98 60
+Line 102 60 102 40
+Color L1
+Line #13 170 40 10 40
+Line #14 150 -20 170 -20
+Color L4
+Line 142 60 138 60
+Line 18 60 22 60
+Line 58 60 62 60
+Line 98 60 102 60
+Color L3
+Text 1 3.2 LJ 24 50 Dock 4
+Text 1 3.2 LJ 64 50 Dock 3
+Text 1 3.2 LJ 104 50 Dock 2
+Text 1 3.2 LJ 144 50 Dock 1
+Color L1
+Arc  #15 10 170 -10 -90 0.00000006 15.708
+Arc  #16 10 170 30 0.00000006 90 15.708
+Line #17 180 30 180 -10
+Color L3
+Text 1 2.8 LJ 2 -10 Picker 1
+Text 1 2.8 LJ 28 -10 Picker 2
+Define Path Belt Label -3.6918 -0.3602 Speed 1
+Segment #1 0 0 110 0 110
+End
+Define Path Accumulator1 Accumulating Label 99.2128 -0.5568 Speed 1
+Segment #2 108 0 138 0 30
+End
+Define Path Loop Circular Label 140.4834 1.1713 Speed 2
+Segment #3 140 0 140 -10 10
+Segment #5 140 -10 150 -20 15.708 CCW
+Segment #14 150 -20 170 -20 20
+Segment #15 170 -20 180 -10 15.708 CCW
+Segment #17 180 -10 180 30 40
+Segment #16 180 30 170 40 15.708 CCW
+Segment #13 170 40 10 40 160
+Segment #8 10 40 0 30 15.708 CCW
+Segment #7 0 30 10 20 15.708 CCW
+Segment #6 10 20 130 20 120
+Segment #4 130 20 140 10 15.708 CW
+Segment #3 140 10 140 0 10
+End
+Define Path LDock1 Label 140.4834 41.0266 Speed 0.5
+Segment #11 140 40 140 60 20
+End
+Define Path LDock2 Label 100.6281 41.0266 Speed 0.5
+Segment #10 100 40 100 60 20
+End
+Define Path LDock3 Label 60.507 41.0266 Speed 0.5
+Segment #9 60 40 60 60 20
+End
+Define Path LDock4 Label 20.5189 42.0895 Speed 0.5
+Segment #12 20 41 20 60 19
+End
+End

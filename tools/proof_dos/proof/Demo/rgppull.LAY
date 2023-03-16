@@ -1,0 +1,174 @@
+Define View "Big Circle" center 53.076 29.9446 Width 42.3972 Grid Size 1 10 Ortho
+Define View "Little Circle" center 15.1653 24.9866 Width 35.8823 Grid Size 1 10 Ortho
+Define View "(Home)" center 40 30 Width 77.7689 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 2 Toler 0.2
+Define View "(Class)" center -5.2 0 Width 23.059 Grid Size 0.2 2 Ortho
+Define color Backdrop  0.8902 0.7255 0.5216
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 0 0 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.7451 0.3961 0.6667
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.3961 0.4902 0.698
+Define color F20 0 0.3176 0.3176
+Define color F21 0.8902 0.6667 0.4902
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.4902 0.4902 0.4902
+Define color L2 0.8235 0.0941 0.8431
+Define color L3 0 1 0
+Define color L4 0.4902 0.4902 0.4902
+Define color L5 0.8902 0.6667 0.4902
+Define color L6 0.3961 0.4902 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color L5
+Define Class marker Directional RGP -10
+Fill -5.5062 -0.0125
+Color F3
+Arc 0.5 0.5 0.5 0.00000006 90 0.7854
+Arc 0.5 0.5 -0.5 -90 0.00000006 0.7854
+Line 1 0.5 1 -0.5
+Arc 0.5 -10.5 0.5 90 180 0.7854
+Line 0.5 1 -10.5 1
+Arc 0.5 -10.5 -0.5 180 270 0.7854
+Line -10.5 -1 0.5 -1
+Line -11 0.5 -11 -0.5
+Color F2
+Line -10 0.4 -10 -0.4
+Line -10.4 0 -9.6 0
+Line -0.4 0 0.4 0
+Line 0 0.4 0 -0.4
+End
+Define Class toyota Directional RGP -4
+Line 0 0.2 0 -0.2
+Line -0.2 0 0.2 0
+Line -4.2 0 -3.8 0
+Line -4 0.2 -4 -0.2
+Color L5
+Fill -1.9472 -0.0181
+Color F3
+Arc 0.5 -5.5 0.5 90 180 0.7854
+Arc 0.5 1.5 0.5 0.00000006 90 0.7854
+Line 1.5 1 -5.5 1
+Arc 0.5 1.5 -0.5 -90 0.00000006 0.7854
+Line 2 0.5 2 -0.5
+Arc 0.5 -5.5 -0.5 180 270 0.7854
+Line -5.5 -1 1.5 -1
+Line -6 0.5 -6 -0.5
+End
+Color F27
+Arc  #1 10 48.2843 20 225 315 15.708
+Line 40 30 66 30
+Line 53 43 53 17
+Arc  #2 12 53 30 0 360 75.3982
+Arc 0 61.875 18.0625 0 90 0
+Line 15 31 15 19
+Line 9 25 21 25
+Arc  #3 5 15 25 0 360 31.4159
+Arc  #4 10 20 20 180 315 23.5619
+Arc  #5 10 34.1421 5.8579 45 135 15.708
+Arc  #6 5 48.1614 42.7283 106.6992 146.3099 3.4567
+Line #7 53.5633 49.569 46.7247 47.5174
+Arc  #8 5 55 44.7798 73.3008 106.6992 2.9146
+Arc  #9 5 61.9253 42.7023 35.5377 73.3008 3.2955
+Line #10 63.362 47.4914 56.4367 49.569
+Arc  #11 5 65 38.3977 0.00000006 35.5377 3.1012
+Line #12 69.0687 41.3039 65.994 45.6084
+Line #13 70 34.022 70 38.3977
+Arc  #14 5 65 34.022 -37.0212 0.00000006 3.2307
+Line #15 55.3554 12.9289 68.9921 31.0115
+Arc  #16 5 35.7343 42.1154 290.556 326.3099 3.1201
+Line #17 44.0012 45.5018 39.8946 39.3419
+Line #18 37.4899 37.4337 33.0415 35.7656
+Arc  #19 5 31.2859 40.4472 243.4349 290.556 4.1121
+Arc  #20 5 25.64 32.0898 63.4349 85.6012 1.9344
+Line #21 29.0498 35.9751 27.876 36.562
+Arc  #22 5 19.6237 32.5526 85.6012 135 4.3109
+Line #23 26.0235 37.0751 20.0072 37.5379
+Line #24 10 27.9289 10 20
+Arc  #25 5 15 27.9289 135 180 3.927
+Line #26 16.0882 36.0882 11.4645 31.4645
+Define Path loop Circular LEAPOK Label 10.1567 25.2879 Speed 5
+Segment #24 10 25 10 20 5
+Segment #4 10 20 27.0711 12.9289 23.5619 CCW
+Segment #5 27.071 12.929 41.2132 12.929 15.708 CW
+Segment #1 41.2132 12.9289 55.3554 12.9289 15.708 CCW
+Segment #15 55.3554 12.9289 62.7081 22.6788 12.2116
+Segment #2 62.581 22.7747 65 30 7.7537 CCW
+Segment #2 65 30 53 42 18.8496 CCW
+Segment #2 53 42 41 30 18.8496 CCW
+Segment #2 41 30 53 18 18.8496 CCW
+Segment #2 53 18 62.581 22.7747 11.0959 CCW
+Segment #15 62.7081 22.6788 68.9921 31.0115 10.4365
+Segment #14 68.9921 31.0115 70 34.022 3.2307 CCW
+Segment #13 70 34.022 70 38.3977 4.3757
+Segment #11 70 38.3977 69.0687 41.3039 3.1012 CCW
+Segment #12 69.0687 41.3039 65.994 45.6084 5.2899
+Segment #9 65.994 45.6084 63.362 47.4914 3.2955 CCW
+Segment #10 63.362 47.4914 56.4367 49.569 7.2302
+Segment #8 56.4367 49.569 53.5633 49.569 2.9146 CCW
+Segment #7 53.5633 49.569 46.7247 47.5174 7.1397
+Segment #6 46.7247 47.5174 44.0012 45.5018 3.4567 CCW
+Segment #17 44.0012 45.5018 39.8946 39.3419 7.4033
+Segment #16 39.8946 39.3419 37.4899 37.4337 3.1201 CW
+Segment #18 37.4899 37.4337 33.0415 35.7656 4.7509
+Segment #19 33.0415 35.7656 29.0498 35.9751 4.1121 CW
+Segment #21 29.0498 35.9751 27.876 36.562 1.3124
+Segment #20 27.876 36.562 26.0235 37.0751 1.9344 CCW
+Segment #23 26.0235 37.0751 20.0072 37.5379 6.034
+Segment #22 20.0072 37.5379 16.0882 36.0882 4.3109 CCW
+Segment #26 16.0882 36.0882 11.4645 31.4645 6.5389
+Segment #25 11.4645 31.4645 10 27.9289 3.927 CCW
+Segment #24 10 27.9289 10 25 2.9289
+Segment #3 10 25 15 20 7.854 CCW
+Segment #3 15 20 20 25 7.854 CCW
+Segment #3 20 25 15 30 7.854 CCW
+Segment #3 15 30 10 25 7.854 CCW
+End
+End

@@ -1,0 +1,268 @@
+Define View "(Home)" center 54.2654 30.3722 Width 76.7656 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 6 Tolerance 0.1517
+Define View "(Class)" center -11.3691 2.1311 Width 48.7059 Grid Size 1 10 Ortho
+Define color Backdrop  0 0.3961 1
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0.2078
+Define color F7 0 1 0
+Define color F8 0.898 0.2471 0.2471
+Define color F9 0 0 1
+Define color F10 0.749 0.2471 0.2471
+Define color F11 0.6 0.949 1
+Define color F12 0.498 0.349 0
+Define color F13 0.749 0.4 0.6667
+Define color F14 0.6 0.498 0.498
+Define color F15 0 0.6 0.2
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3294 0
+Define color F19 0.4 0.498 0.698
+Define color F20 0 0.3294 0.3294
+Define color F21 0.898 0.6667 0.498
+Define color F22 0.498 0.2471 0.498
+Define color F23 0.749 0.6 0
+Define color F24 0.498 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.5098 0.6667 0.2078
+Define color L2 0.6667 0.949 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.898 0.6667 0.498
+Define color L6 0.4 0.498 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F3
+Define Class cloud
+Arc 2 -6.4 1.4 61.6717 159.874 3.4279
+Arc 1 -8.7408 1.2018 62.4262 250.7163 3.2863
+Arc 1.6 -8.2 1.6 237.0175 309.0416 2.0113
+Arc 1.6 -6.0129 1.4386 220.4381 274.2692 1.5032
+Arc 2 -4.2 1.6 45.7073 128.7172 2.8976
+Arc 2 -5.0129 1.6386 243.8677 321.3653 2.7052
+Arc 2 -2 1.2 52.218 113.683 2.1455
+Arc 2 -2.6 2.2 244.831 331.2754 3.0175
+Arc 0.8 -0.6 2 0 102.6124 1.4327
+Arc 0.8 -0.6 2 252.0823 360 1.5068
+Fill -2.3903 2.1818
+End
+Color L1
+Define Class island
+Line -24.072 2.0475 -27.5 -1
+Arc 3 -22.0785 -0.195 80.5377 131.6335 0.5351
+Line -20 2.5 -21.5855 2.7645
+Fill -13.969 1.4585
+Arc 3 -4 -2.5 30 100.3363 0.7366
+Line -4.5385 0.4513 -14.4115 4.1515
+Line -16.5445 4.036 -20 2.5
+Arc 3 -15.326 1.2945 72.2553 113.9625 0.4368
+Line -27.5 -1 -1.5 -1
+End
+Define Class island2
+Fill -9.6565 1.125
+Line -10.5 1.75 -18.5 2.25
+Line -8.5 3.25 -10.5 1.75
+Line -18.5 2.25 -21.7727 0
+Line -0.7 0 -8.5 3.25
+Line -21.7727 0 -0.7 0
+End
+Color F3
+Define Class cloud2
+Arc 2.5 -7.5 1 231.1515 283.8605 2.2999
+Arc 1.5 -10.5 -0.5 70.4684 342.6617 7.126
+Arc 2.5 -7.5 1 23.0094 181.9786 6.9363
+Arc 2 -2.5 1 0 160.6737 5.6086
+Arc 2 -5.5 0 56.1962 81.3411 0.8777
+Arc 1 -0.5 0 0 90 1.5708
+Arc 1 -0.5 0 216.8699 360 2.4981
+Arc 2 -2.5 1 236.1962 306.8699 2.467
+Arc 2 -5.5 0 225.5288 340.6737 4.0193
+Fill -6.529 1.2835
+End
+Define Class bird
+Line -8.5 1.5 -11.5 1
+Line -6.5 -0.5 -8.5 1.5
+Line -3.5 3 -0.5 0.5
+Line -6.5 0.5 -3.5 3
+Line -8.5 3 -6.5 0.5
+Line -11.5 1 -8.5 3
+Line -3.8941 1.5667 -6.5 -0.5
+Line -0.5 0.5 -3.8941 1.5667
+Fill -5.4455 1.0546
+End
+Line 53 18 50 18
+Line 50 18 43.1429 17.4286
+Color F6
+Line 44 18 45.2 17.6
+Color F5
+Line 42.25 25.25 40 23
+Color F6
+Line 42.5 22 41 16
+Line 40.5 23.5 42.4792 21.9167
+Color F3
+Line 44.3684 18.9211 53 20
+Color F6
+Line 43.4286 26.4286 46 23
+Line 46 23 44 18
+Line 42 25 44.4 22.6
+Line 44.4 22.6 43 17
+Fill 43.25 20.1667
+Fill 45 22.8333
+Color F7
+Fill 48.4389 18.9194
+Color F1
+Fill 45.5557 19.7203
+Color F3
+Line 34 18 41.6316 18.5789
+Line 41.1034 17.2586 33.6738 17.0215
+Color F1
+Line 1 20 42 20
+Color F3
+Line 50 30 57 32
+Line 57 32 53 37
+Line 57 32 71.6964 28.081
+Color F2
+Line 71.4706 30 72.6471 20
+Line 72 26 112 26
+Line 114 30 71.4706 30
+Fill 74.25 28
+Color F3
+Fill 76.5 25.1667
+Fill 91.0625 23.9167
+Color F2
+Fill 90.0625 28.25
+Color F6
+Line 38 30 39 37
+Arc 1 52 33 180 360 3.1416
+Arc 1 52 33 0 90 1.5708
+Line 46 34 52 34
+Line 51 33 45 32
+Line 43.6667 33.3333 42 30
+Arc 1 52 35 180 360 3.1416
+Arc 1 52 35 0 90 1.5708
+Line 46 36 52 36
+Line 44 38 46 36
+Line 43 37 46 34
+Line 51 35 45.8571 34.1429
+Color F2
+Line 53 37 52.5112 35.8595
+Line 51.0994 32.5653 50 30
+Color F6
+Arc 2.5 38 39 323.1301 360 1.6088
+Arc 2.5 45 39 190.1637 203.5782 0.5853
+Line 42.7087 38 44 38
+Line 39 37 40 37.5
+Arc 2.5 42 41 282.4562 360 3.3835
+Color F4
+Arc 2.5 42 41 0 233.1301 10.1722
+Arc 2.5 40.4577 41.4577 -89.0394 6.3617 4.1627
+Arc 2.5 44 44 244.9719 280.1637 1.5355
+Color F6
+Line 45 32 42 35
+Fill 41.5 33.8333
+Color F4
+Fill 41.25 42.1667
+Color F3
+Line 51 16 53 18
+Line 53 20 51 18
+Color F6
+Line 43 17 45 16
+Color F5
+Line 37.5493 28.1971 38 30
+Line 40 23 38.6014 24.3986
+Arc 4 41.4299 27.227 165.9638 225 4.1215
+Line 41.5 26 42.25 25.25
+Line 38 30 42.5 30
+Line 43.7273 26.7273 43 26
+Line 42.5 30 43.7273 26.7273
+Line 43 26 42 25.5
+Arc 0.5 39 28.5 0 360 3.1416
+Arc 0.5 41.5 29 0 360 3.1416
+Arc 0.5 39 26 0 360 3.1416
+Arc 0.5 42 27.5 0 360 3.1416
+Arc 0.5 40 27.5 0 360 3.1416
+Arc 0.5 40 24.5 0 360 3.1416
+Arc 0.5 41 26.5 0 360 3.1416
+Arc 0.5 38 27.5 0 360 3.1416
+Fill 40.375 25.5
+Color F6
+Line 45 16 41 16
+Color F7
+Fill 39.6691 16.3566
+Fill 39.549 17.7982
+Color F3
+Line 34 18 33 15
+Line 33 15 51 16
+Arc 2.4 53.2 15 0 138.3781 7.2455
+Arc 3.2 51.7941 13.4059 38.5286 93.4776 3.8362
+Arc 0.8 54.8 15 139.2277 360 3.0826
+Color F1
+Fill 52.0074 12.7937
+Fill 50.6865 14.3041
+Color F3
+Arc 0.5 52.2988 14.3591 130.5529 340 3.6555
+Arc 1.5 51.3591 14.7012 -20 118.3781 7.2455
+Arc 2 50.0774 14.1035 18.5286 73.4776 3.8362
+Color F7
+Fill 49.9195 17.1575
+Color F3
+Arc 2 48.0774 14.1035 18.5286 73.4776 3.8362
+Arc 1.5 49.3591 14.7012 -20 118.3781 7.2455
+Arc 0.5 50.2988 14.3591 130.5529 340 3.6555
+Color F1
+Fill 48.6865 14.3041
+Fill 50.0074 12.7937
+Color F3
+Arc 0.8 54.9975 17.4999 -205.7723 15 3.0826
+Arc 3.2 52.5066 15.1822 53.5286 108.4776 3.8362
+Arc 2.4 53.452 17.0858 15 153.3781 7.2455
+Fill 51.9228 15.0751
+Fill 52.4033 14.7548
+Fill 50.1208 14.7548
+Color F1
+Fill 53.6047 17.9584
+Color F3
+Fill 54.6859 18.1185
+Fill 54.806 15.5557
+Color F1
+Line 44.8 20 116 20
+Color F2
+Line 114 30 108.2857 20
+Color F1
+Line 1 20 1 2
+Line 1 2 116 2
+Line 116 2 116 20
+End

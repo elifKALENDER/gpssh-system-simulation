@@ -1,0 +1,380 @@
+Define View "Possum" Bounds 0 50 0 99.8534 center -33.3728 10.316 Width 14.5458 rotation 90 Grid Size 1 10 Ortho
+Define Active Window Bounds 50 99.9016 0 99.8534 Center -33.3728 -48.5891 Width 14.5172 rotation 90 Grid Size 1 10 Ortho
+Define View "MIDDLE_VIEW" center -59.0208 6.6974 Width 97.9748 rotation 90 Grid Size 1 10 Ortho
+Define View "TOP_HALF" center -30.6834 12.8552 Width 94.3225 rotation 90 Grid Size 1 10 Ortho
+Define View "BOTTOM_HALF" center -68.8485 -6.1146 Width 120.5773 rotation 90 Grid Size 1 10 Ortho
+Define View "(Home)" center -53.3959 -23.2544 Width 171.5055 rotation 90 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 10
+Define View "(Class)" center 0 0 Width 7.9875 Grid Size 1 10 Ortho
+Define color Backdrop  0 0 0.2549
+Define color F1 0 0 0.6667
+Define color F2 1 0.4902 0.6196
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 0 0.5569 0.698
+Define color F6 0.8902 0.2392 0.2392
+Define color F7 1 0 0
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 0 0 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.7451 0.3961 0.6667
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.3961 0.4902 0.698
+Define color F20 0 0.3176 0.3176
+Define color F21 0.8902 0.6667 0.4902
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.302 0.302 0.2863
+Define color L2 0.6667 0.9373 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.8902 0.6667 0.4902
+Define color L6 0.3961 0.4902 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F3
+Define Class train0 Directional
+Line 0 -0.1 0 0.1
+Fill -0.0688 -0.0063
+Line -0.3 0.1 0 0.1
+Line -0.3 -0.1 0 -0.1
+Fill -0.1938 -0.0063
+Line -0.3 0.1 -0.3 -0.1
+End
+Define Class car
+Fill -0.1938 -0.0063
+Line -0.05 -0.1 -0.05 0.1
+Line -0.2 0.1 -0.05 0.1
+Line -0.2 -0.1 -0.05 -0.1
+Fill -0.1313 -0.0063
+Line -0.2 0.1 -0.2 -0.1
+End
+Define Class train1
+Line -0.3 0.1 -0.3 -0.1
+Fill -0.1938 -0.0063
+Line -0.3 -0.1 0 -0.1
+Line -0.3 0.1 0 0.1
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+End
+Define Class train2
+Fill -0.1938 -0.0063
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+Line -0.4 0.1 -0.4 -0.1
+Line -0.4 0.1 0 0.1
+Line -0.4 -0.1 0 -0.1
+End
+Define Class train3
+Fill -0.1938 -0.0063
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+Line -0.6 0.1 -0.6 -0.1
+Line -0.6 0.1 0 0.1
+Line -0.6 -0.1 0 -0.1
+Fill -0.5313 0.0188
+Fill -0.3688 0.0188
+End
+Define Class train4
+Fill -0.1938 -0.0063
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+Line -0.8 0.1 -0.8 -0.1
+Line -0.8 0.1 0 0.1
+Line -0.8 -0.1 0 -0.1
+Fill -0.4313 -0.0188
+Fill -0.4938 -0.0063
+Fill -0.6313 -0.0063
+Fill -0.7688 -0.0188
+End
+Define Class train5
+Fill -0.1938 -0.0063
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+Line -1 0.1 -1 -0.1
+Line -1 0.1 0 0.1
+Line -1 -0.1 0 -0.1
+Fill -0.4688 0.0188
+Fill -0.6313 -0.0063
+Fill -0.7938 0.0188
+Fill -0.9313 0.0188
+End
+Define Class train6
+Fill -0.1938 -0.0063
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+Line -1.2 0.1 -1.2 -0.1
+Line -1.2 0.1 0 0.1
+Line -1.2 -0.1 0 -0.1
+Fill -0.4313 -0.0188
+Fill -0.5688 -0.0063
+Fill -0.7313 -0.0063
+Fill -0.9688 -0.0063
+Fill -1.0938 0.0188
+End
+Define Class train7
+Fill -0.1938 -0.0063
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+Line -1.3 0.1 -1.3 -0.1
+Line -1.3 -0.1 0 -0.1
+Line -1.3 0.1 0 0.1
+Fill -0.3938 -0.0188
+Fill -0.6313 0.0188
+Fill -0.8688 0.0188
+Fill -1.0688 0.0188
+End
+Define Class train8
+Fill -0.1938 -0.0063
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+Line -1.6 0.1 -1.6 -0.1
+Line -1.6 0.1 0 0.1
+Line -1.6 -0.1 0 -0.1
+Fill -0.5688 -0.0188
+Fill -0.7688 0.0188
+Fill -0.9938 0.0188
+Fill -1.2938 0.0188
+Fill -1.4938 -0.0063
+End
+Define Class train9
+Fill -0.1938 -0.0063
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+Line -1.8 0.1 -1.8 -0.1
+Line -1.8 0.1 0 0.1
+Line -1.8 -0.1 0 -0.1
+Fill -0.6688 -0.0063
+Fill -0.9313 -0.0063
+Fill -1.2313 -0.0063
+Fill -1.5938 0.0188
+End
+Define Class train10
+Fill -0.1938 -0.0063
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+Line -2 0.1 -2 -0.1
+Line -2 -0.1 0 -0.1
+Line -2 0.1 0 0.1
+Fill -0.5688 -0.0313
+Fill -0.9313 -0.0063
+Fill -1.3688 -0.0063
+Fill -1.6313 -0.0063
+Fill -1.8938 -0.0063
+End
+Define Class train11
+Line -0.3 0.1 -0.3 -0.1
+Fill -0.1938 -0.0063
+Line -0.3 -0.1 0 -0.1
+Line -0.3 0.1 0 0.1
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+End
+Define Class train12
+Line -0.3 0.1 -0.3 -0.1
+Fill -0.1938 -0.0063
+Line -0.3 -0.1 0 -0.1
+Line -0.3 0.1 0 0.1
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+End
+Define Class train13
+Line -0.3 0.1 -0.3 -0.1
+Fill -0.1938 -0.0063
+Line -0.3 -0.1 0 -0.1
+Line -0.3 0.1 0 0.1
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+End
+Define Class train14
+Line -0.3 0.1 -0.3 -0.1
+Fill -0.1938 -0.0063
+Line -0.3 -0.1 0 -0.1
+Line -0.3 0.1 0 0.1
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+End
+Define Class train15
+Line -0.3 0.1 -0.3 -0.1
+Fill -0.1938 -0.0063
+Line -0.3 -0.1 0 -0.1
+Line -0.3 0.1 0 0.1
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+End
+Define Class train16
+Line -0.3 0.1 -0.3 -0.1
+Fill -0.1938 -0.0063
+Line -0.3 -0.1 0 -0.1
+Line -0.3 0.1 0 0.1
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+End
+Define Class train17
+Line -0.3 0.1 -0.3 -0.1
+Fill -0.1938 -0.0063
+Line -0.3 -0.1 0 -0.1
+Line -0.3 0.1 0 0.1
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+End
+Define Class train18
+Line -0.3 0.1 -0.3 -0.1
+Fill -0.1938 -0.0063
+Line -0.3 -0.1 0 -0.1
+Line -0.3 0.1 0 0.1
+Fill -0.0688 -0.0063
+Line 0 -0.1 0 0.1
+End
+Color L3
+Define Plot string1 -109.1 0 -102 2 Vrange -1440 0 Unlabeled Hrange -109.1 0 Unlabeled DATA L3 HGRID L1
+Color L1
+Line -24.6 -102 -24.6 0
+Line -27.9 -102 -27.9 0
+Line -32.3 -102 -32.3 0
+Line -35 -102 -35 0
+Line -33.9 -102 -33.9 0
+Line -33.9 11 -32.3 11
+Color L6
+Line 0 6 -109.1 6
+Line -33.9 4 -33.9 6
+Line -35 5 -35 6
+Line -32.3 4 -32.3 6
+Line -27.9 5 -27.9 6
+Line -24.6 5 -24.6 6
+Line -32.3 4 -33.9 4
+Line 0 5 -33.9 5
+Line -35 5 -109.1 5
+Color F4
+Text 1 1.6 Angle -90 RJ -32.5 9 NORTH POSSUM POINT INTERLOCK
+Color F3
+Text 1 1.6 Angle -90 RJ -36.5 9 QUANTICO - 78.6 cfp
+Color F4
+Text 1 1.6 Angle -90 RJ -34.5 9 POSSUM POINT INTERLOCK
+Color F3
+Text 1 1.6 Angle -90 RJ -28.5 9 RIPPON - 85.7 cfp
+Text 1 1.6 Angle -90 RJ -25.5 9 WOODBRIDGE - 89.0 cfp
+Color L6
+Line -44.6 5 -44.6 6
+Line -21.1 5 -21.1 6
+Line -50.2 5 -50.2 6
+Line -16.9 5 -16.9 6
+Line -14.3 5 -14.3 6
+Color F3
+Text 1 1.6 Angle -90 RJ -50.5 9 LELLAND ROAD - 63.4 cfp
+Text 1 1.6 Angle -90 RJ -44.5 9 BROOKE - 69.0 cfp
+Text 1 1.6 Angle -90 RJ -21.5 9 LORTON - 92.5 cfp
+Color F4
+Text 1 1.6 Angle -90 RJ -17.5 9 RAVENSWORTH INTERLOCK
+Color F3
+Text 1 1.6 Angle -90 RJ -14.5 9 FRANCONIA - 99.3 cfp
+Color L1
+Line -21.1 -102 -21.1 0
+Line -44.6 -102 -44.6 0
+Line -14.3 -102 -14.3 0
+Line -16.9 -102 -16.9 0
+Line -50.2 -102 -50.2 0
+Line -52.5 -102 -52.5 0
+Color L6
+Line -52.5 5 -52.5 6
+Color F4
+Text 1 1.6 Angle -90 RJ -52.5 9 DAHLGREN JUNCTION
+Color L1
+Line -8.4 -102 -8.4 0
+Line -9.3 -102 -9.3 0
+Line -54.2 -102 -54.2 0
+Line -57.9 -102 -57.9 0
+Line -60.3 -102 -60.3 0
+Line -98.8 -102 -98.8 6
+Line -75.8 -102 -75.8 0
+Line -77.8 -102 -77.8 0
+Line -90.5 -102 -90.5 0
+Line -91.8 -102 -91.8 0
+Line -3.6 -102 -3.6 0
+Line -4.4 -102 -4.4 0
+Color F4
+Text 1 1.6 Angle -90 RJ -58.5 9 HAMILTON INTERLOCK
+Color F3
+Text 1 1.6 Angle -90 RJ -54.5 9 FREDERICKSBURG - 59.4 cfp
+Text 1 1.6 Angle -90 RJ -60.5 9 VRE CROSSROADS - 53.3 cfp
+Text 1 1.6 Angle -90 RJ -6.5 9 CRYSTAL CITY - 109.2 cfp
+Text 1 1.6 Angle -90 RJ -8.5 9 ALEXANDRIA - 105.2 cfp
+Color F4
+Text 1 1.6 Angle -90 RJ -10.5 9 AF INTERLOCK
+Color L6
+Line -60.3 5 -60.3 6
+Line -57.9 5 -57.9 7
+Line -54.2 5 -54.2 7
+Line -9.3 5 -9.3 6
+Line -8.4 5 -8.4 6
+Line -54.2 7 -57.9 7
+Color F4
+Text 1 1.6 Angle -90 RJ -78.5 9 SOUTH MILFORD INTERLOCK
+Text 1 1.6 Angle -90 RJ -76.5 9 MILFORD INTERLOCK
+Text 1 1.6 Angle -90 RJ -90.5 9 NORTH DOSWELL INTERLOCK
+Text 1 1.6 Angle -90 RJ -92.5 9 DOSWELL INTERLOCK
+Color F3
+Text 1 1.6 Angle -90 RJ -109.5 9 RICHMOND - 4.5 cfp
+Color F4
+Text 1 1.6 Angle -90 RJ -107.5 9 GREENDALE INTERLOCK
+Color F3
+Text 1 1.6 Angle -90 RJ -100.5 9 ASHLAND - 4.8 cfp
+Color F4
+Text 1 1.6 Angle -90 RJ -4.5 9 RO INTERLOCK
+Color F3
+Text 1 1.6 Angle -90 RJ -2.5 9 L'ENFANT PLAZA - 137.1 wtc
+Color L1
+Line -1.7 11 0 11
+Color F3
+Text 1 1.6 Angle -90 RJ -0.5 9 UNION STATION - 135.8 wtc
+Color L6
+Line -4.4 5 -4.4 6
+Line -3.6 5 -3.6 6
+Line 0 4 0 7
+Line 0 4 -1.7 4
+Line -1.7 4 -1.7 7
+Line 0 7 -1.7 7
+Line -91.8 5 -91.8 6
+Line -90.5 5 -90.5 6
+Line -77.8 5 -77.8 6
+Line -75.8 5 -75.8 6
+Line -109.1 5 -109.1 6
+End

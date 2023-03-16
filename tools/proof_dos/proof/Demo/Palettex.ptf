@@ -1,0 +1,16 @@
+set lobj1 color F4
+create marker1 1
+write test F1, F2, and F3 Under F4
+place 1 on testpath
+time 50 24374
+set lobj1 color F1
+set 1 class marker2
+place 1 on testpath
+write test F2, F3, and F4 Over F1
+time 100 48764
+set lobj1 color F3
+set 1 class marker3
+place 1 on testpath
+write test F1 and F2 Under F3; F4 Over F3
+time 150 7618
+end

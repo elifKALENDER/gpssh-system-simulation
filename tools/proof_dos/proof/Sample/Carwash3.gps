@@ -1,0 +1,73 @@
+        SIMULATE
+*
+ATF     FILEDEF 'carwash.atf'
+*
+* -------------------------------------------------------
+*
+* Proof Animation Macro Definitions Begin Here
+*
+* -------------------------------------------------------
+*
+        REAL            &ATFTIME        Declare Ampervariable
+*                                       used in PUTTIME
+*
+* In the PUTTIME Macro, remember that "*," used in an
+* expression that calculates a Block number, means "the
+* current Block."
+*
+PUTTIME STARTMACRO
+        TEST NE         AC1,&ATFTIME,*+3
+        BPUTPIC         FILE=ATF,(AC1)
+Time *.*
+        BLET            &ATFTIME=AC1
+        ENDMACRO
+*
+* The remaining Macros implement a small set of Trace
+* File output commands.
+*
+CREATE  STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#B)
+Create #A *
+        ENDMACRO
+*
+DESTROY STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#A)
+Destroy *
+        ENDMACRO
+*
+PLACEON STARTMACRO
+PUTTIME MACRO
+        BPUTPIC         FILE=ATF,(#A)
+Place * On #B
+        ENDMACRO
+*
+* -------------------------------------------------------
+*
+* CARWASH Model Statements Begin Here
+*
+* -------------------------------------------------------
+*
+* Block Statements
+*
+        GENERATE        RVEXPO(1,2.2)
+CREATE  MACRO           Car,XID1
+PLACEON MACRO           XID1,ENTRY
+        ADVANCE         0.25
+        SEIZE           CHAIN
+PLACEON MACRO           XID1,CHAIN
+        ADVANCE         2
+        RELEASE         CHAIN
+        ADVANCE         1.5
+PLACEON MACRO           XID1,EXIT
+        ADVANCE         0.25
+DESTROY MACRO           XID1
+        TERMINATE       1
+*
+* Control Statements
+*
+        START           100
+        END
+
+

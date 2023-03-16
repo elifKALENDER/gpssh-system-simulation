@@ -1,0 +1,59 @@
+* ---------------------------------------------------------------------
+*
+* GPSS/H Macros for use with Proof Animation
+*
+* ---------------------------------------------------------------------
+*
+	REAL		&ATFTIME
+*
+PUTTIME	STARTMACRO
+	TEST NE		AC1,&ATFTIME,*+3
+	BPUTPIC		FILE=ATF,(AC1)
+Time *.*
+	BLET		&ATFTIME=AC1
+	ENDMACRO
+*
+CREATE	STARTMACRO
+PUTTIME	MACRO
+	BPUTPIC		FILE=ATF,(#B)
+Create #A *
+	ENDMACRO
+*
+DESTROY	STARTMACRO
+PUTTIME	MACRO
+	BPUTPIC		FILE=ATF,(#A)
+Destroy *
+	ENDMACRO
+*
+PLACEAT	STARTMACRO
+PUTTIME	MACRO
+	BPUTPIC		FILE=ATF,(#A,#B,#C)
+Place * At *.** *.**
+	ENDMACRO
+*
+PLACEON	STARTMACRO
+PUTTIME	MACRO
+	BPUTPIC		FILE=ATF,(#A)
+Place * On #B
+	ENDMACRO
+*
+SETCOLR	STARTMACRO
+PUTTIME	MACRO
+	BPUTPIC		FILE=ATF,(#A,#B)
+Set * Color *
+	ENDMACRO
+*
+WRITE	STARTMACRO
+PUTTIME	MACRO
+	BPUTPIC		FILE=ATF
+Write #A #B
+	ENDMACRO
+*
+* ---------------------------------------------------------------------
+*
+* End of Macro Definitions for use with Proof Animation
+*
+* ---------------------------------------------------------------------
+*
+
+

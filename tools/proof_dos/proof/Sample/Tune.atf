@@ -1,0 +1,21 @@
+sound e4
+time 2.5
+sound 0
+time 3
+sound f#4
+time 5.5
+sound 0
+time 6
+sound d4
+time 8.5
+sound 0
+time 9
+sound d3
+time 11.5
+sound 0
+time 12
+sound a3
+time 21
+sound 0
+time 60
+end

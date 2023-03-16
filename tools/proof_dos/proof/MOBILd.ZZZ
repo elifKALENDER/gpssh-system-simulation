@@ -1,0 +1,215 @@
+Define View "(Class)" center 0 0 Width 7.9875 Grid Size 0.1 1 Ortho
+Define View "(Home)" center 39.9375 21.8125 Width 79.875 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 6
+Define color Backdrop  0 0 0
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.898 0.2471 0.2471
+Define color F9 0 0 1
+Define color F10 0.749 0.2471 0.2471
+Define color F11 0.6 0.949 1
+Define color F12 0.498 0.349 0
+Define color F13 0.749 0.4 0.6667
+Define color F14 0.6 0.498 0.498
+Define color F15 0 0.6 0.2
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3294 0
+Define color F19 0.4 0.498 0.698
+Define color F20 0 0.3294 0.3294
+Define color F21 0.898 0.6667 0.498
+Define color F22 0.498 0.2471 0.498
+Define color F23 0.749 0.6 0
+Define color F24 0.498 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.5098 0.5098 0.5098
+Define color L2 0.6667 0.949 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.898 0.6667 0.498
+Define color L6 0.4 0.498 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0.8471 0.8 0.6
+Color F7
+Define Class CAR Clearance 1 2.5
+Line 1.2 1.4 1.2 0
+Line 1.2 0 -1.6 0
+Line -1.6 0 -1.6 1.4
+Line -1.6 1.4 1.2 1.4
+Fill -0.5063 0.4917
+End
+Color L1
+Line #1 6 27 26 27
+Line #2 27 31 27 28
+Arc  #3 1 26 28 -90 0 1.5708
+Line #4 18 28 18 32
+Arc  #5 1 17 28 -90 0 1.5708
+Line #6 17 4 34 4
+Line #7 6 4 17 4
+Arc  #8 3 17 1 0 90 4.7124
+Arc  #9 3 23 1 180 270 4.7124
+Line #10 34 5 34 3
+Arc  #11 3 37 5 90 180 4.7124
+Arc  #12 3 37 3 180 270 4.7124
+Arc  #13 3 24 18 90 180 4.7124
+Arc 3 24 18 90 180 4.7124
+Arc  #14 3 18 18 -90 0 4.7124
+Line #15 7 15 18 15
+Line #16 18.5 15 35.5 15
+Arc  #17 3 38 15 90 180 4.7124
+Arc  #18 3 38 15 180 270 4.7124
+Color F7
+Line 29 31 33 31
+Line 20 35 69 35
+Color F4
+Text 1 0.9 LJ 21.8 35.8 OIL CHANGE
+Color F7
+Line 33 31 33 40
+Line 33 31 69 31
+Color F5
+Text 1 0.9 LJ 39 35.8 MOBIL MARKET & DELI SHOP
+Color F7
+Line 20 31 25 31
+Line 20 37 20 34
+Line 20 34 20 31
+Line 20 40 20 37
+Line 69 37 20 37
+Line 20 40 69 40
+Line 25 40 25 43
+Line 69 40 69 37
+Line 69 37 69 31
+Line 64 43 64 40
+Line 25 43 64 43
+Color L1
+Line #19 23 -2 54 -2
+Line #20 37 0 77 0
+Line #21 37 8 77 8
+Line #22 38 12 78 12
+Color F7
+Line 76 16 76 14
+Color L1
+Line #23 37 18 77 18
+Color F7
+Line 76 14 72 14
+Line 72 16 76 16
+Line 72 14 72 16
+Color F4
+Text 1 0.9 LJ 72.5 14.5 P-1
+Color F7
+Line 72 5 76 5
+Line 72 3 72 5
+Line 76 5 76 3
+Line 76 3 72 3
+Color F4
+Text 1 0.8 LJ 72.5 3.7 P-2
+Color F8
+Text 1 1.5 LJ 33 41 MOBIL WOLF INC.
+Color L1
+Line #24 24 21 67 21
+Color L8
+Line #25 6 24 38 24
+Line #26 38 24 66 24
+Line #27 40 25 40 28
+Line #28 51 29 41 29
+Arc  #29 1 39 25 -90 0 1.5708
+Arc  #30 1 41 28 90 180 1.5708
+Define Path oil01 Accumulating Label 14.5 26.7292 Lag 0.25 Time 10
+Segment #1 17 27 26 27 9
+Segment #3 26 27 27 28 1.5708 CCW
+Segment #2 27 28 27 31 3
+End
+Define Path pump101 Label 5.1151 11.9363 Time 2
+Segment #14 18 15 21 18 4.7124 CCW
+Segment #13 21 18 24 21 4.7124 CW
+Segment #24 24 21 67 21 43
+End
+Define Path pump102 Accumulating LEAPOK Label 5.1067 11.9238 Lag 0.25 Time 2
+Segment #16 18.5 15 35 15 16.5
+Segment #17 35 15 38 18 4.7124 CW
+Segment #23 38 18 77 18 39
+End
+Define Path pump201 Accumulating LEAPOK Label 4.2039 3.8578 Lag 0.25 Time 2
+Segment #6 17 4 34 4 17
+Segment #10 34 4 34 5 1
+Segment #11 34 5 37 8 4.7124 CW
+Segment #21 37 8 77 8 40
+End
+Define Path pump202 Accumulating LEAPOK Label 4.2039 3.8578 Lag 0.25 Time 2
+Segment #6 17 4 34 4 17
+Segment #10 34 4 34 3 1
+Segment #12 34 3 37 0 4.7124 CCW
+Segment #20 37 0 77 0 40
+End
+Define Path pump203 Label 4.2039 3.8578 Time 2
+Segment #8 17 4 20 1 4.7124 CW
+Segment #9 20 1 23 -2 4.7124 CCW
+Segment #19 23 -2 54 -2 31
+End
+Define Path oil02 Label 15.7561 26.8548 Time 3
+Segment #5 17 27 18 28 1.5708 CCW
+Segment #4 18 28 18 32 4
+End
+Define Path oil Accumulating Label 16.3928 26.8768 Time 2
+Segment #1 6 27 17 27 11
+End
+Define Path pump1 Accumulating Label 4.643 11.8576 Time 2
+Segment #15 18 15 7 15 11
+Segment #15 7 15 18 15 11
+End
+Define Path pump2 Accumulating Label 4.6418 3.7756 Time 2
+Segment #7 6 4 17 4 11
+End
+Define Path pump103 Accumulating LEAPOK Label 15 14.7292 Lag 0.25 Time 2
+Segment #16 18.5 15 35 15 16.5
+Segment #18 35 15 38 12 4.7124 CCW
+Segment #22 38 12 78 12 40
+End
+Define Path shop Accumulating Label 4 23.7292 Time 2
+Segment #25 6 24 38 24 32
+Segment #26 38 24 39 24 1
+End
+Define Path shop01 Accumulating Label 36 23.7292 Time 2
+Segment #29 39 24 40 25 1.5708 CCW
+Segment #27 40 25 40 28 3
+Segment #30 40 28 41 29 1.5708 CW
+Segment #28 41 29 51 29 10
+End
+Define Path shop02 Label 63 23.7292 Time 2
+Segment #26 39 24 66 24 27
+End
+End

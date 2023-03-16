@@ -1,0 +1,1325 @@
+*** Time 0 ... 300 of G:\p4w\users\wross\cd\Marriage.PTF ***
+*** Establish Proper State ***
+Set Path p1 Speed 0
+Set Path l2 Speed 0
+Set Path l3 Speed 0
+Set Path p4 Speed 0
+Set Path p5 Speed 0
+Set Path p6 Speed 0
+Set Path p7 Speed 0
+Set Path p8 Speed 0
+Set Path p9 Speed 0
+Set Path p10 Speed 0
+Set Path p11 Speed 0
+Set Path p12 Speed 0
+Set Path p13 Speed 0
+Set Path p14 Speed 0
+Set Path p15 Speed 0
+Set Path p16 Speed 0
+Set Path p17 Speed 0
+Set Path p18 Speed 0
+Set Path p19 Speed 0
+Set Path p20 Speed 0
+Set Path p21 Speed 0
+Set Path p22 Speed 0
+Set Path p23 Speed 0
+Set Path p24 Speed 0
+Set Path p25 Speed 0
+Set Path p26 Speed 0
+Set Path p27 Speed 0
+Set Path p28 Speed 0
+Set Path p29 Speed 0
+Set Path p30 Speed 0
+Set Path p31 Speed 0
+Set Path p32 Speed 0
+Set Path p33 Speed 0
+Set Path p34 Speed 0
+Set Path p35 Speed 0
+Set Path p36 Speed 0
+Set Path p37 Speed 0
+Set Path p38 Speed 0
+Set Path p39 Speed 0
+Set Path p40 Speed 0
+Set Path p41 Speed 0
+Set Path p42 Speed 0
+Set Path p43 Speed 0
+Set Path p44 Speed 0
+Set Path p45 Speed 0
+Set Path p46 Speed 0
+Set Path p47 Speed 0
+Set Path p48 Speed 0
+Set Path p49 Speed 0
+Set Path p50 Speed 0
+Set Path p51 Speed 0
+Set Path p52 Speed 0
+Set Path p53 Speed 0
+Set Path p54 Speed 0
+Set Path p55 Speed 0
+Set Path l56 Speed 0
+Set Path l57 Speed 0
+Set Path l58 Speed 0
+Set Path l59 Speed 0
+Set Path l60 Speed 0
+Set Path l61 Speed 0
+Set Path l62 Speed 0
+Set Path l63 Speed 0
+Set Path l64 Speed 0
+Set Path l65 Speed 0
+Set Path l66 Speed 0
+Set Path l67 Speed 0
+Set Path l68 Speed 0
+Set Path l69 Speed 0
+Set Path l70 Speed 0
+Set Path l71 Speed 0
+Set Path l72 Speed 0
+Set Path l73 Speed 0
+Set Path l74 Speed 0
+Set Path l75 Speed 0
+Set Path p76 Speed 0
+Set Path p77 Speed 0
+Set Path p78 Speed 0
+Set Path p79 Speed 0
+Set Path p80 Speed 0
+*** Resume User Trace ***
+Write TITLE 34 AGVs moving 75 Jobs/Hour
+Write ASSEM Assemble at 26.0 Feet/Min
+Write XFERENG 27 X-fer
+Write XFERBRK 29 X-fer
+Write UPDATED 03/18/93
+Create AGVLoaded 34
+Place 34 on p42 at END
+Set 34 Color Yellow
+Create AGVLoaded 33
+Place 33 on p41 at END
+Set 33 Color Yellow
+Create AGVLoaded 32
+Place 32 on p40 at END
+Set 32 Color Yellow
+Create AGVLoaded 31
+Place 31 on p10 at END
+Create AGVLoaded 30
+Place 30 on p16 at END
+Set 30 Color Yellow
+Create AGVLoaded 29
+Place 29 on p18 at END
+Set 29 Color Yellow
+Create AGVLoaded 28
+Place 28 on p24 at 182.14
+Set 28 Speed 0.4333
+Create AGVLoaded 27
+Place 27 on p24 at 202.76
+Set 27 Speed 0.4333
+Create AGVLoaded 26
+Place 26 on p50 at 10.76
+Set 26 Speed 2.5
+Create AGVLoaded 25
+Place 25 on p49 at END
+Set 25 Color Yellow
+Create AGVLoaded 24
+Place 24 on p36 at END
+Set 24 Color Red
+Create AGVLoaded 23
+Place 23 on p35 at END
+Set 23 Color Red
+Create AGVLoaded 22
+Place 22 on p44 at END
+Set 22 Color Yellow
+Create AGVLoaded 21
+Place 21 on p45 at END
+Set 21 Color Yellow
+Create AGVLoaded 20
+Place 20 on p43 at END
+Set 20 Color Yellow
+Create AGVLoaded 19
+Place 19 on p54 at END
+Create AGVEmpty 18
+Place 18 on p53 at END
+Set 18 Color Yellow
+Create AGVEmpty 17
+Place 17 on p55 at END
+Set 17 Color Yellow
+Create AGVEmpty 16
+Place 16 on p20 at 16.54
+Set 16 Speed 2.5
+Create AGVEmpty 15
+Place 15 on p22 at 36
+Create AGVEmpty 14
+Place 14 on p22 at 101.12
+Set 14 Color Red
+Create AGVEmpty 13
+Place 13 on p46 at 0.10
+Set 13 Speed 2.5
+Create AGVLoaded 12
+Place 12 on p23 at 12.60
+Set 12 Speed 2.5
+Create AGVLoaded 11
+Place 11 on p24 at 6.60
+Set 11 Speed 2.5
+Create AGVLoaded 10
+Place 10 on p24 at 57.08
+Set 10 Speed 0.4333
+Create AGVLoaded 9
+Place 9 on p24 at 77.70
+Set 9 Speed 0.4333
+Create AGVLoaded 8
+Place 8 on p24 at 98.33
+Set 8 Speed 0.4333
+Create AGVLoaded 7
+Place 7 on p24 at 118.96
+Set 7 Speed 0.4333
+Create AGVLoaded 6
+Place 6 on p24 at 139.58
+Set 6 Speed 0.4333
+Create AGVLoaded 5
+Place 5 on p24 at 160.21
+Set 5 Speed 0.4333
+Create AGVLoaded 4
+Place 4 on p48 at END
+Set 4 Color Yellow
+Create AGVLoaded 3
+Place 3 on p47 at END
+Set 3 Color Yellow
+Create AGVLoaded 2
+Place 2 on p52 at END
+Set 2 Color Yellow
+Create AGVLoaded 1
+Place 1 on p37 at END
+Set 1 Color Red
+Create Crane 35
+Place 35 At 93 140
+Create Crane 36
+Place 36 At -38 129.25
+Move 36 5.755 -38 123.50
+Create Body 55
+Set 55 Clearance 10 10
+Place 55 on p76 at 842.42
+Set 55 Speed 1
+Create Body 56
+Set 56 Clearance 10 10
+Place 56 on p76 at 822.42
+Set 56 Speed 1
+Create Body 57
+Set 57 Clearance 10 10
+Place 57 on p76 at 748.42
+Set 57 Speed 1
+Create Body 58
+Set 58 Clearance 10 10
+Place 58 on p76 at 728.42
+Set 58 Speed 1
+Create Body 59
+Set 59 Clearance 10 10
+Place 59 on p76 at 654.42
+Set 59 Speed 1
+Create Body 60
+Set 60 Clearance 10 10
+Place 60 on p76 at 634.42
+Set 60 Speed 1
+Create Body 61
+Set 61 Clearance 10 10
+Place 61 on p76 at 553.42
+Set 61 Speed 1
+Create Body 62
+Set 62 Clearance 10 10
+Place 62 on p76 at 533.42
+Set 62 Speed 1
+Create Body 63
+Set 63 Clearance 10 10
+Place 63 on p76 at 459.42
+Set 63 Speed 1
+Create Body 64
+Set 64 Clearance 10 10
+Place 64 on p76 at 439.42
+Set 64 Speed 1
+Create Body 65
+Set 65 Clearance 10 10
+Place 65 on p76 at 365.42
+Set 65 Speed 1
+Create Body 66
+Set 66 Clearance 10 10
+Place 66 on p76 at 345.42
+Set 66 Speed 1
+Create Body 67
+Set 67 Clearance 10 10
+Place 67 on p76 at 264.42
+Set 67 Speed 1
+Create Body 68
+Set 68 Clearance 10 10
+Place 68 on p76 at 244.42
+Set 68 Speed 1
+Create Body 69
+Set 69 Clearance 10 10
+Place 69 on p76 at 170.42
+Set 69 Speed 1
+Create Body 70
+Set 70 Clearance 10 10
+Place 70 on p76 at 150.42
+Set 70 Speed 1
+Create Body 71
+Set 71 Clearance 10 10
+Place 71 on p76 at 76.42
+Set 71 Speed 1
+Create Body 72
+Set 72 Clearance 10 10
+Place 72 on p76 at 56.42
+Set 72 Speed 1
+Create Body 73
+Set 73 Clearance 10 10
+Place 73 on l75 at END
+Create Body 74
+Set 74 Clearance 10 10
+Place 74 on l75 at END
+Create Body 75
+Set 75 Clearance 10 10
+Place 75 on l74 at END
+Create Body 76
+Set 76 Nondirectional
+Place 76 on l72 at 10.75
+Set 76 Speed 1
+Create Body 77
+Place 77 on l67 at END
+Create Body 78
+Set 78 Nondirectional
+Place 78 on l68 at END
+Create Body 79
+Set 79 Nondirectional
+Place 79 on l66 at END
+Create Body 80
+Place 80 on l64 at 38.42
+Set 80 Speed 1
+Create Body 81
+Set 81 Nondirectional
+Place 81 on l65 at 20
+Set 81 Speed 0
+Create Body 82
+Set 82 Nondirectional
+Place 82 on l63 at 20
+Set 82 Speed 0
+Create Body 83
+Place 83 on l64 at 18.42
+Set 83 Speed 1
+Create Body 84
+Set 84 Nondirectional
+Place 84 on l62 at END
+Create Body 85
+Set 85 Nondirectional
+Place 85 on l60 at END
+Create Body 86
+Place 86 on l57 at END
+Create Body 87
+Place 87 on l56 at END
+Create Body 88
+Place 88 on l56 at 18.42
+Set 88 Speed 1
+Create Body 89
+Place 89 on p1 at END
+Set 89 Speed 1
+Create Body 90
+Place 90 on p1 at 823
+Set 90 Speed 1
+Create Body 91
+Place 91 on p1 at 805
+Set 91 Speed 1
+Create Body 92
+Place 92 on p1 at 787
+Set 92 Speed 1
+Create Body 93
+Place 93 on p1 at 769
+Set 93 Speed 1
+Create Body 94
+Place 94 on p1 at 751
+Set 94 Speed 1
+Create Body 95
+Place 95 on p1 at 733
+Set 95 Speed 1
+Create Body 96
+Place 96 on p1 at 715
+Set 96 Speed 1
+Create Body 97
+Place 97 on p1 at 697
+Set 97 Speed 1
+Create Body 98
+Place 98 on p1 at 651
+Set 98 Speed 1
+Create Body 99
+Place 99 on p1 at 603
+Set 99 Speed 1
+Create Body 100
+Place 100 on p1 at 555
+Set 100 Speed 1
+Create Body 101
+Place 101 on p1 at 507
+Set 101 Speed 1
+Create Body 102
+Place 102 on p1 at 459
+Set 102 Speed 1
+Create Body 103
+Place 103 on p1 at 411
+Set 103 Speed 1
+Create Body 104
+Place 104 on p1 at 363
+Set 104 Speed 1
+Create Body 105
+Place 105 on p1 at 315
+Set 105 Speed 1
+Create Body 106
+Place 106 on p1 at 267
+Set 106 Speed 1
+Create Body 107
+Place 107 on p1 at 219
+Set 107 Speed 1
+Create Body 108
+Place 108 on p1 at 171
+Set 108 Speed 1
+Create Body 109
+Place 109 on p1 at 123
+Set 109 Speed 1
+Create Body 110
+Place 110 on p1 at 75
+Set 110 Speed 1
+Time 1.45 8606
+Set Object 17 Class AGVEmpty
+Set 17 Color GREEN
+Time 1.58 23195
+Set 83 Speed 0
+Time 2.13 32836
+Set 15 Speed 2.5
+Time 2.78 42733
+Set 19 Color YELLOW
+Time 3 52374
+Set 3 Color GREEN
+Create Body 111
+Place 111 on p1 at 30
+Set 111 Speed 1
+Time 3.78 11048
+Place 31 on p17
+Set 31 Speed 2.5
+Time 5.45 25634
+Set 81 Speed 1
+Place 84 on l65
+Set 84 Speed 1
+Time 5.75 45168
+Set 76 Directional
+Set 76 Clearance 10 10
+Place 76 on l74
+Set 76 Speed 1
+Time 5.78 3858
+Set 32 Color GREEN
+Time 6.45 13755
+Place 17 on p27
+Set 17 Speed 2.5
+Set 29 Color GREEN
+Time 8 33033
+Place 3 on p28
+Set 3 Speed 2.5
+Time 9.5 47619
+Set 26 Color YELLOW
+Time 9.56 57516
+Set 14 Color GREEN
+Time 10.33 1621
+Place 86 on l61
+Set 86 Speed 1
+Place 89 on l56
+Set 89 Speed 1
+Time 10.78 26100
+Place 32 on p10
+Set 32 Speed 2.5
+Time 11.41 40686
+Place 27 on p77
+Set 27 Speed 2.5
+Time 11.45 55272
+Place 29 on p55
+Set 29 Speed 2.5
+Time 11.75 4322
+Set 76 Speed 0
+Time 12.01 13963
+Set 15 Color RED
+Set 15 Speed 0
+Time 14.44 28552
+Set 11 Speed 0.433
+Time 14.56 38193
+Set 14 Speed 2.5
+Time 15.42 48090
+Destroy 55
+Destroy 56
+Time 15.75 62649
+Set 76 Speed 1
+Time 15.83 6754
+Place 87 on l57
+Set 87 Speed 1
+Time 16.33 21340
+Set 86 Speed 0
+Time 17.2 30981
+Place 3 on p34
+Time 18.75 40875
+Place 16 on p22
+Time 20.25 50513
+Set 17 Color RED
+Set 17 Color GREEN
+Set 17 Color RED
+Time 20.33 4514
+Set 86 Speed 1
+Time 20.75 14155
+Set 17 Color GREEN
+Time 20.83 24052
+Set 87 Speed 0
+Time 22.33 33693
+Set 87 Speed 1
+Time 22.56 43334
+Set 14 Color RED
+Time 24.56 53231
+Set 15 Color GREEN
+Time 24.58 62872
+Place 73 on p76
+Set 73 Speed 1
+Time 24.98 11922
+Place 32 on p18
+Time 25.45 21560
+Set 84 Speed 0
+Time 25.75 31457
+Place 17 on p21
+Time 26.4 41095
+Place 3 on p40
+Time 26.65 50733
+Set 29 Color YELLOW
+Time 26.98 60630
+Set 33 Color GREEN
+Time 28.38 4735
+Set 31 Color YELLOW
+Time 28.58 14376
+Place 77 on l70
+Set 77 Speed 1
+Time 29.56 28962
+Set 15 Speed 2.5
+Time 31.58 38859
+Place 80 on l67
+Set 80 Speed 1
+Time 31.98 53445
+Place 33 on p11
+Set 33 Speed 2.5
+Time 33.15 2495
+Set 16 Color RED
+Set 16 Speed 0
+Time 33.58 17084
+Set 77 Speed 0
+Time 33.75 26725
+Place 75 on l75
+Set 75 Speed 1
+Time 33.98 41311
+Set 23 Color GREEN
+Time 35.08 50952
+Set 77 Speed 1
+Time 37.56 60849
+Set Object 13 Class AGVLoaded
+Write NUM1 47.6 Seconds
+Time 38.61 9906
+Place 27 on p8
+Time 38.98 19544
+Place 23 on p41
+Set 23 Speed 2.5
+Time 39.08 34130
+Move 35 16.500 93 123.50
+Set 87 Nondirectional
+Place 87 on l59
+Set 87 Speed 1
+Time 40.2 58606
+Set 3 Color YELLOW
+Time 42.56 2711
+Place 13 on p23
+Set 14 Color GREEN
+Time 44.52 17297
+Place 17 on p22
+Time 44.58 26935
+Place 74 on p76
+Set 74 Speed 1
+Time 45.73 41521
+Set 15 Color RED
+Set 15 Speed 0
+Time 47.3 56110
+Place 27 on p51
+Time 47.56 468
+Place 14 on p46
+Time 47.73 10106
+Set 16 Color GREEN
+Time 47.96 19747
+Place 12 on p24
+Time 51 29641
+Create Body 112
+Place 112 on p1 at 30
+Set 112 Speed 1
+Time 51.08 48903
+Set 77 Clearance 10 10
+Place 77 on l74
+Set 77 Speed 1
+Time 51.72 2901
+Set 17 Color RED
+Set 17 Speed 0
+Time 52.25 17490
+Set 32 Color YELLOW
+Time 52.26 27387
+Set 34 Color GREEN
+Time 52.45 37028
+Place 78 on l71
+Set 78 Speed 1
+Time 52.73 51614
+Set 16 Speed 2.5
+Time 52.78 61255
+Set 23 Color YELLOW
+Time 53.26 5616
+Set 33 Color RED
+Time 53.75 15257
+Place 76 on l75
+Set 76 Speed 1
+Time 54.73 29843
+Set 17 Color GREEN
+Time 55 39484
+Set 4 Color GREEN
+Time 55.45 49381
+Place 81 on l68
+Set 81 Speed 1
+Time 55.58 63967
+Place 87 on l62
+Set 87 Speed 1
+Write COL5 5.5 Min
+Time 57.08 17713
+Set 77 Speed 0
+Time 57.16 27610
+Set 15 Color GREEN
+Time 57.26 37251
+Place 34 on p12
+Set 34 Speed 2.5
+Time 57.45 51837
+Set 78 Speed 0
+Time 58.95 61478
+Set 78 Speed 1
+Time 59.01 5839
+Place 28 on p4
+Set 28 Speed 2.5
+Time 59.26 20425
+Set 24 Color GREEN
+Time 59.73 30066
+Set 17 Speed 2.5
+Time 60 39707
+Place 4 on p29
+Set 4 Speed 2.5
+Time 60.25 54293
+Set Object 18 Class AGVEmpty
+Set 18 Color GREEN
+Time 61.08 3346
+Set 77 Speed 1
+Time 61.1 13243
+Set 27 Color YELLOW
+Time 61.58 22884
+Set 87 Speed 0
+Time 62.16 32525
+Set 15 Speed 2.5
+Time 62.61 42422
+Set 16 Color RED
+Set 16 Speed 0
+Time 64.25 57011
+Set 82 Speed 1
+Place 85 on l63
+Set 85 Speed 1
+Place 90 on l56
+Set 90 Speed 1
+Set 33 Color GREEN
+Set 33 Color RED
+Time 64.26 30286
+Place 24 on p42
+Set 24 Speed 2.5
+Time 65.04 44872
+Set 12 Speed 0.433
+Time 65.25 54769
+Place 18 on p25
+Set 18 Speed 2.5
+Set 30 Color GREEN
+Time 65.58 8511
+Set 87 Speed 1
+Time 66.74 18408
+Place 34 on p78
+Time 66.93 28046
+Set 17 Color RED
+Set 17 Speed 0
+Time 69.2 42635
+Place 4 on p35
+Time 69.75 52273
+Place 88 on l57
+Set 88 Speed 1
+Time 70.16 1323
+Set 15 Color RED
+Time 70.25 11220
+Place 30 on p53
+Set 30 Speed 2.5
+Time 70.94 25806
+Set 34 Color RED
+Set 34 Speed 0
+Time 72.16 40395
+Set 16 Color GREEN
+Time 74.75 50036
+Set 88 Speed 0
+Time 74.95 59677
+Move 36 16.500 -38 140
+Place 78 on l73
+Set 78 Speed 1
+Time 76.05 13669
+Place 18 on p19
+Time 76.25 23307
+Set 88 Speed 1
+Time 77.16 33204
+Set 16 Speed 2.5
+Time 78.06 42845
+Set 24 Color YELLOW
+Time 78.1 52486
+Place 28 on p47
+Time 78.4 62380
+Set 4 Color RED
+Time 81.45 6485
+Set 33 Color GREEN
+Time 84.25 16382
+Set 85 Speed 0
+Time 85.16 26023
+Set Object 14 Class AGVLoaded
+Write NUM1 47.6 Seconds
+Time 85.45 40616
+Set 30 Color YELLOW
+Time 86.45 50257
+Place 33 on p16
+Time 88.45 60151
+Set 34 Color GREEN
+Time 90.16 4256
+Place 14 on p23
+Set 15 Color GREEN
+Time 91.45 18842
+Set 78 Directional
+Set 78 Clearance 10 10
+Place 78 on l74
+Set 78 Speed 1
+Time 91.9 43068
+Set 28 Color YELLOW
+Time 93 52965
+Move 35 16.500 93 140
+Set 88 Nondirectional
+Place 88 on l58
+Set 88 Speed 1
+Time 93.33 11649
+Set 16 Color RED
+Set 16 Speed 0
+Time 93.45 26238
+Set 34 Speed 2.5
+Time 95.16 35879
+Place 15 on p46
+Time 95.33 45773
+Set 17 Color GREEN
+Time 95.56 55414
+Place 13 on p24
+Time 97.45 65052
+Set 78 Speed 0
+Time 99 9413
+Create Body 113
+Place 113 on p1 at 30
+Set 113 Speed 1
+Time 100.33 28675
+Set 17 Speed 2.5
+Time 101.45 38572
+Set 78 Speed 1
+Time 104.05 48213
+Set 20 Color GREEN
+Time 104.76 58110
+Set 16 Color GREEN
+Time 105.05 2215
+Set 34 Color RED
+Time 107 11856
+Set 25 Color GREEN
+Time 108.02 21753
+Place 18 on p22
+Time 109.05 31391
+Place 20 on p13
+Set 20 Speed 2.5
+Time 109.42 45977
+Destroy 57
+Destroy 58
+Time 109.5 60536
+Place 88 on l60
+Set 88 Speed 1
+Time 109.61 9586
+Place 5 on p5
+Set 5 Speed 2.5
+Time 109.76 24172
+Set 16 Speed 2.5
+Time 110.21 33813
+Set 17 Color RED
+Set 17 Speed 0
+Time 111.05 48402
+Set 1 Color GREEN
+Time 111.25 58299
+Place 79 on l69
+Set 79 Speed 1
+Time 112 7349
+Place 25 on p30
+Set 25 Speed 2.5
+Time 112.64 21935
+Set 13 Speed 0.433
+Time 113.73 31576
+Set 33 Color YELLOW
+Time 114.25 41217
+Place 82 on l66
+Set 82 Speed 1
+Time 115.5 56059
+Set 88 Speed 0
+Time 116.05 164
+Place 1 on p43
+Set 1 Speed 2.5
+Time 116.25 14750
+Set 79 Speed 0
+Time 117.75 24391
+Set 79 Speed 1
+Time 117.76 34288
+Set 16 Color RED
+Time 118.54 43929
+Place 20 on p79
+Time 119.5 53567
+Set 88 Speed 1
+Time 119.76 63464
+Set 17 Color GREEN
+Time 121.2 7569
+Place 25 on p36
+Time 122.08 17207
+Set Object 19 Class AGVEmpty
+Set 19 Color GREEN
+Time 122.42 31796
+Set 18 Color RED
+Set 18 Speed 0
+Time 123.34 46385
+Place 20 on p78
+Time 123.75 56279
+Place 75 on p76
+Set 75 Speed 1
+Time 124.76 5329
+Set 17 Speed 2.5
+Time 125.34 14970
+Set 21 Color GREEN
+Time 126.08 24611
+Set 83 Speed 1
+Place 86 on l64
+Set 86 Speed 1
+Place 91 on l56
+Set 91 Speed 1
+Set 34 Color GREEN
+Set 34 Color RED
+Time 127.08 63678
+Place 19 on p26
+Set 19 Speed 2.5
+Set 31 Color GREEN
+Time 127.54 17420
+Set 20 Color RED
+Set 20 Speed 0
+Time 127.75 32009
+Place 77 on l75
+Set 77 Speed 1
+Time 129.85 46595
+Set 1 Color YELLOW
+Time 130.34 56492
+Place 21 on p15
+Set 21 Speed 2.5
+Time 130.4 5542
+Set 25 Color RED
+Time 131.58 15183
+Place 89 on l57
+Set 89 Speed 1
+Time 132.08 29769
+Place 31 on p54
+Time 132.7 39663
+Place 5 on p48
+Time 132.76 49301
+Set Object 15 Class AGVLoaded
+Write NUM1 47.6 Seconds
+Time 133.75 63894
+Move 36 16.500 -38 123.50
+Place 79 on l72
+Set 79 Speed 1
+Time 136.58 17886
+Set 89 Speed 0
+Time 137.76 27527
+Place 15 on p23
+Set 16 Color GREEN
+Time 137.88 42113
+Place 19 on p20
+Time 138.08 51751
+Set 89 Speed 1
+Time 140.93 61648
+Set 17 Color RED
+Set 17 Speed 0
+Time 142.76 10701
+Place 16 on p46
+Time 142.93 20339
+Set 18 Color GREEN
+Time 143.16 29980
+Place 14 on p24
+Time 143.28 39874
+Set 34 Color GREEN
+Time 143.75 49515
+Place 76 on p76
+Time 145.95 59153
+Set Object 29 Class AGVEmpty
+Set 29 Color GREEN
+Time 146.08 8206
+Set 86 Speed 0
+Time 146.5 18103
+Set 5 Color YELLOW
+Time 147 27744
+Create Body 114
+Place 114 on p1 at 30
+Set 114 Speed 1
+Time 147.28 47262
+Set 31 Color YELLOW
+Time 147.75 56903
+Place 78 on l75
+Set 78 Speed 1
+Time 147.93 5953
+Set 18 Speed 2.5
+Time 148.28 15850
+Place 34 on p17
+Time 149.95 25488
+Set 84 Speed 1
+Place 87 on l65
+Set 87 Speed 1
+Time 150.25 45022
+Set 79 Directional
+Set 79 Clearance 10 10
+Place 79 on l74
+Set 79 Speed 1
+Time 150.28 3712
+Set 20 Color GREEN
+Time 150.82 13353
+Set 21 Color RED
+Time 150.95 23250
+Place 29 on p27
+Set 32 Color GREEN
+Time 152.36 37836
+Set 17 Color GREEN
+Time 154.83 47477
+Place 89 on l61
+Set 89 Speed 1
+Place 92 on l56
+Set 92 Speed 1
+Time 155.28 6164
+Set 20 Speed 2.5
+Time 155.95 16061
+Place 32 on p55
+Time 156.25 25699
+Set 79 Speed 0
+Time 157.21 35340
+Place 6 on p6
+Set 6 Speed 2.5
+Time 157.36 49926
+Set 17 Speed 2.5
+Time 157.81 59823
+Set 18 Color RED
+Set 18 Speed 0
+Time 159 8876
+Set 26 Color GREEN
+Time 160.24 18517
+Set 14 Speed 0.433
+Time 160.25 28414
+Set 79 Speed 1
+Time 160.33 38055
+Place 90 on l57
+Set 90 Speed 1
+Time 160.83 52641
+Set 89 Speed 0
+Time 163.25 62282
+Place 19 on p22
+Time 164 6640
+Place 26 on p31
+Time 164.75 16278
+Set 29 Color RED
+Set 29 Color GREEN
+Set 29 Color RED
+Time 164.83 35815
+Set 89 Speed 1
+Time 165.25 45456
+Set 29 Color GREEN
+Time 165.33 55097
+Set 90 Speed 0
+Time 165.36 64994
+Set 17 Color RED
+Time 165.88 9099
+Set 21 Color GREEN
+Time 166.83 18740
+Set 90 Speed 1
+Time 166.88 28637
+Set 20 Color RED
+Time 167.36 38278
+Set 18 Color GREEN
+Time 167.88 47919
+Set 20 Color GREEN
+Time 169.95 57816
+Set 87 Speed 0
+Time 170.25 1921
+Place 29 on p21
+Time 170.88 11559
+Place 21 on p79
+Time 171.15 21453
+Set 32 Color YELLOW
+Time 172.36 31094
+Set 18 Speed 2.5
+Time 172.88 40735
+Place 20 on p18
+Set 34 Color YELLOW
+Time 173.08 55321
+Place 80 on l70
+Set 80 Speed 1
+Time 173.2 4371
+Place 26 on p37
+Time 175.68 14265
+Place 21 on p78
+Time 176.08 23903
+Place 83 on l67
+Set 83 Speed 1
+Time 177.65 38489
+Set 19 Color RED
+Set 19 Speed 0
+Time 177.68 53078
+Set 22 Color GREEN
+Time 178.08 62975
+Set 80 Speed 0
+Time 179.58 7080
+Set 80 Speed 1
+Time 180.36 16721
+Set Object 16 Class AGVLoaded
+Write NUM1 47.6 Seconds
+Time 182.4 31314
+Set 26 Color RED
+Time 182.68 41211
+Place 22 on p14
+Set 22 Speed 2.5
+Time 183.58 55797
+Move 35 16.500 93 123.50
+Set 90 Nondirectional
+Place 90 on l59
+Set 90 Speed 1
+Time 184.3 14481
+Place 6 on p49
+Time 185.36 24119
+Place 16 on p23
+Set 17 Color GREEN
+Time 188.53 38705
+Set 18 Color RED
+Set 18 Speed 0
+Time 189.02 53294
+Place 29 on p22
+Time 190.36 63188
+Place 17 on p46
+Time 190.53 7290
+Set 19 Color GREEN
+Time 190.76 16931
+Place 15 on p24
+Time 191.48 26825
+Set 21 Color RED
+Time 195 36466
+Create Body 115
+Place 115 on p1 at 30
+Set 115 Speed 1
+Time 195.53 55984
+Set 19 Speed 2.5
+Time 195.58 89
+Set 80 Clearance 10 10
+Place 80 on l74
+Set 80 Speed 1
+Time 196.17 19623
+Place 22 on p79
+Time 196.22 29261
+Set 29 Color RED
+Set 29 Speed 0
+Time 196.95 43850
+Place 81 on l71
+Set 81 Speed 1
+Time 198.1 58436
+Set 6 Color YELLOW
+Time 199.22 2797
+Set 29 Color GREEN
+Time 199.95 12438
+Place 84 on l68
+Set 84 Speed 1
+Time 199.96 27024
+Set 18 Color GREEN
+Time 200.08 36665
+Place 90 on l62
+Set 90 Speed 1
+Time 200.15 51251
+Set 20 Color YELLOW
+Time 200.97 61148
+Place 22 on p78
+Time 201.58 5250
+Set 80 Speed 0
+Time 201.95 14891
+Set 81 Speed 0
+Time 203.42 24788
+Destroy 59
+Destroy 60
+Time 203.45 39347
+Set 81 Speed 1
+Time 204.22 48988
+Set 29 Speed 2.5
+Time 204.75 58629
+Set Object 30 Class AGVEmpty
+Set 30 Color GREEN
+Time 204.81 7682
+Place 7 on p7
+Set 7 Speed 2.5
+Time 204.96 22524
+Set 18 Speed 2.5
+Time 205.17 32165
+Set 22 Color RED
+Set 22 Speed 0
+Time 205.41 46754
+Set 19 Color RED
+Set 19 Speed 0
+Time 205.58 61343
+Set 80 Speed 1
+Time 206.08 5448
+Set 90 Speed 0
+Time 207.84 15345
+Set 15 Speed 0.433
+Time 208.75 24986
+Set 85 Speed 1
+Place 88 on l63
+Set 88 Speed 1
+Place 93 on l56
+Set 93 Speed 1
+Set 21 Color GREEN
+Set 21 Color RED
+Time 209.75 63797
+Place 30 on p25
+Set 33 Color GREEN
+Time 210.08 12847
+Set 90 Speed 1
+Time 211.42 22744
+Set 29 Color RED
+Set 29 Speed 0
+Time 212.96 37333
+Set 18 Color RED
+Time 214.25 46974
+Place 91 on l57
+Set 91 Speed 1
+Time 214.75 61560
+Place 33 on p53
+Time 214.96 5662
+Set 19 Color GREEN
+Time 217.75 15559
+Place 77 on p76
+Time 219.25 25197
+Set 91 Speed 0
+Time 219.45 34838
+Move 36 16.500 -38 140
+Place 81 on l73
+Set 81 Speed 1
+Time 219.96 54366
+Set 19 Speed 2.5
+Time 220.55 64007
+Place 30 on p19
+Time 220.75 8365
+Set 91 Speed 1
+Time 223.58 18006
+Place 79 on l75
+Set 79 Speed 1
+Time 225.95 32592
+Set 21 Color GREEN
+Time 227.96 42489
+Set Object 17 Class AGVLoaded
+Write NUM1 47.6 Seconds
+Time 228.75 57082
+Set 88 Speed 0
+Time 229.95 1187
+Set 33 Color YELLOW
+Time 230.95 10828
+Place 21 on p16
+Time 232.95 20722
+Set 22 Color GREEN
+Time 232.96 30363
+Place 17 on p23
+Set 18 Color GREEN
+Time 235.95 44949
+Set 81 Directional
+Set 81 Clearance 10 10
+Place 81 on l74
+Set 81 Speed 1
+Time 236.13 3639
+Set 19 Color RED
+Set 19 Speed 0
+Time 236.7 18228
+Place 7 on p50
+Time 237.5 28122
+Move 35 16.500 93 140
+Set 91 Nondirectional
+Place 91 on l58
+Set 91 Speed 1
+Time 237.75 52342
+Place 78 on p76
+Time 237.95 61980
+Set 22 Speed 2.5
+Time 237.96 6341
+Place 18 on p46
+Time 238.13 15979
+Set 29 Color GREEN
+Time 238.36 25620
+Place 16 on p24
+Time 241 35514
+Set 28 Color GREEN
+Time 241.95 45155
+Set 81 Speed 0
+Time 243 54796
+Create Body 116
+Place 116 on p1 at 30
+Set 116 Speed 1
+Time 243.13 8778
+Set 29 Speed 2.5
+Time 243.58 18675
+Place 80 on l75
+Set 80 Speed 1
+Time 245.95 33261
+Set 81 Speed 1
+Time 246 42902
+Place 28 on p28
+Time 247.56 52540
+Set 19 Color GREEN
+Time 249.55 62437
+Set 22 Color RED
+Time 250.5 6542
+Set 7 Color YELLOW
+Time 252.41 16183
+Place 8 on p4
+Set 8 Speed 2.5
+Time 252.52 30769
+Place 30 on p22
+Time 252.56 40663
+Set 19 Speed 2.5
+Time 253.01 50304
+Set 29 Color RED
+Set 29 Speed 0
+Time 254 64893
+Place 91 on l60
+Set 91 Speed 1
+Time 255.2 13943
+Place 28 on p34
+Time 255.44 23581
+Set 16 Speed 0.433
+Time 255.75 33478
+Place 82 on l69
+Set 82 Speed 1
+Time 258.23 48064
+Set 21 Color YELLOW
+Time 258.75 57705
+Place 85 on l66
+Set 85 Speed 1
+Time 260 6755
+Set 91 Speed 0
+Time 260.56 16396
+Set 19 Color RED
+Time 260.75 26293
+Set 82 Speed 0
+Time 262.25 35934
+Set 82 Speed 1
+Time 262.56 45575
+Set 29 Color GREEN
+Time 264 55472
+Set 91 Speed 1
+Time 264.4 65113
+Set 28 Color RED
+Time 266.58 9218
+Set Object 31 Class AGVEmpty
+Set 31 Color GREEN
+Time 266.92 24063
+Set 30 Color RED
+Set 30 Speed 0
+Time 267.56 38652
+Set 29 Speed 2.5
+Time 270.58 48293
+Set 86 Speed 1
+Place 89 on l64
+Set 89 Speed 1
+Place 94 on l56
+Set 94 Speed 1
+Set 22 Color GREEN
+Set 22 Color RED
+Time 271.5 21568
+Place 8 on p47
+Time 271.58 31462
+Place 31 on p26
+Set 34 Color GREEN
+Time 275.56 46048
+Set Object 18 Class AGVLoaded
+Write NUM1 47.6 Seconds
+Time 276.08 60641
+Place 92 on l57
+Set 92 Speed 1
+Time 276.58 9691
+Place 34 on p54
+Time 278.25 19329
+Move 36 16.500 -38 123.50
+Place 82 on l72
+Set 82 Speed 1
+Write COL1 5.5 Min
+Time 280.56 43553
+Place 18 on p23
+Set 19 Color GREEN
+Time 281.08 58139
+Set 92 Speed 0
+Time 282.38 2500
+Place 31 on p20
+Time 282.58 12138
+Set 92 Speed 1
+Time 283.73 21779
+Set 29 Color RED
+Set 29 Speed 0
+Time 285.3 36368
+Set 8 Color YELLOW
+Time 285.56 46265
+Place 19 on p46
+Time 285.73 55903
+Set 30 Color GREEN
+Time 285.96 8
+Place 17 on p24
+Time 287.78 9902
+Set 22 Color GREEN
+Time 290.45 19543
+Set Object 32 Class AGVEmpty
+Set 32 Color GREEN
+Time 290.58 34132
+Set 89 Speed 0
+Time 290.73 44029
+Set 30 Speed 2.5
+Time 291 53670
+Create Body 117
+Place 117 on p1 at 30
+Set 117 Speed 1
+Time 291.78 7652
+Set 34 Color YELLOW
+Time 292.78 17293
+Place 22 on p17
+Time 294.45 26931
+Set 87 Speed 1
+Place 90 on l65
+Set 90 Speed 1
+Time 294.75 46465
+Set 82 Directional
+Set 82 Clearance 10 10
+Place 82 on l74
+Set 82 Speed 1
+Time 294.78 5155
+Set 23 Color GREEN
+Time 295.16 15052
+Set 29 Color GREEN
+Time 295.45 24693
+Place 32 on p27
+Set 20 Color GREEN
+Time 296 39279
+Set 5 Color GREEN
+Time 299.33 48920
+Place 92 on l61
+Set 92 Speed 1
+Place 95 on l56
+Set 95 Speed 1
+Time 299.78 7863
+Place 23 on p11
+Time 300 17501
+End

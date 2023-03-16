@@ -1,0 +1,15 @@
+        SIMULATE
+ATF     FILEDEF         'times.atf'
+*
+        GENERATE        10
+        BPUTPIC         FILE=ATF,(AC1)
+TIME *
+        TERMINATE       1
+*
+        START           10
+        PUTPIC          FILE=ATF
+END
+        END
+
+
+

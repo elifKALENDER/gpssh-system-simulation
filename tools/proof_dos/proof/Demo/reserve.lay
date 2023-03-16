@@ -1,0 +1,189 @@
+Define View "ZoneBD" center 13.0028 -4.1199 Width 6.3644 Grid Size 1 10 Ortho
+Define View "(Home)" center 7 -3.5 Width 26.2636 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 2
+Define View "(Class)" center 0 0 Width 1.9824 Grid Size 0.02 0.2 Ortho
+Define color Backdrop  0.8 0.749 0.549
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.898 0.2471 0.2471
+Define color F9 0 0 1
+Define color F10 0.749 0.2471 0.2471
+Define color F11 0.6 0.949 1
+Define color F12 0.498 0.349 0
+Define color F13 0.749 0.4 0.6667
+Define color F14 0.6 0.498 0.498
+Define color F15 0 0.6 0.2
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3294 0
+Define color F19 0.4 0.498 0.698
+Define color F20 0 0.3294 0.3294
+Define color F21 0.898 0.6667 0.498
+Define color F22 0.498 0.2471 0.498
+Define color F23 0.749 0.6 0
+Define color F24 0.498 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.498 0.498 0.498
+Define color L2 0.8706 0.8471 0.7098
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.898 0.6667 0.498
+Define color L6 0.4 0.498 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0.8471 0.8 0.6
+Color F22
+Define Class Plane Directional
+Arc 0.02 0.26 0 -90 90 0.0628
+Arc 0.02 -0.26 0 90 270 0.0628
+Line -0.3 0.08 -0.26 0.08
+Line -0.3 -0.08 -0.26 -0.02
+Line -0.26 -0.08 -0.3 -0.08
+Line -0.26 0.08 -0.2 0.02
+Line -0.2 -0.02 -0.26 -0.08
+Line 0 0.02 -0.1 0.2
+Line -0.1 0.2 -0.04 0.2
+Line -0.04 0.2 0.12 0.02
+Line 0 -0.02 -0.1 -0.2
+Line -0.1 -0.2 -0.04 -0.2
+Line -0.04 -0.2 0.12 -0.02
+Line -0.26 -0.02 0.26 -0.02
+Line -0.26 0.02 0.26 0.02
+Line -0.26 0.02 -0.3 0.08
+Message ID 1 0.3 MIDDLE 0 -0.44 BG Backdrop 123
+End
+Color L2
+Line #1 13 4 13 -10
+Color L4
+Arc 2 13 -4 0 360 0
+Color L5
+Fill 12.2398 -5.0784
+Fill 13.6888 -4.8196
+Color L4
+Arc 2 7 2 0 360 0
+Arc 2 13 2 0 360 0
+Color L2
+Line #2 1 2 15 2
+Color L5
+Fill 8.0738 2.5807
+Fill 11.981 2.7877
+Color L6
+Line #3 0 2 1 2
+Color L4
+Arc 2 7 -4 0 360 0
+Color L6
+Line #4 13 -10 13 -11
+Line #5 7 -10 7 -11
+Line #6 0 -4 1 -4
+Color L5
+Fill 13.9476 2.736
+Fill 6.2367 -4.9232
+Fill 7.6339 -4.742
+Color L4
+Bar OriginA -1.4 -0.6 2 4 Vrange 0 10 Hrange 0 100
+Color F1
+Message OriginA 1 0.4 CENTER -1 1.4 BG Backdrop 12
+Color L4
+Bar OriginB -1.4 -0.6 -4 -2 Vrange 0 10 Hrange 0 100
+Color F1
+Message OriginB 1 0.4 CENTER -1 -4.6 BG Backdrop 12
+Text 1 0.4 CENTER 0.4 2.8 A
+Text 1 0.4 CENTER 0.4 -3.2 B
+Text 1 0.4 CENTER 7 -12.2 C
+Text 1 0.4 CENTER 13 -12.2 D
+Message OriginD 1 0.4 CENTER 12 -12.2 BG Backdrop 12
+Message OriginC 1 0.4 CENTER 6 -12.2 BG Backdrop 12
+Color L4
+Bar OriginC 5.6 6.4 -11.4 -9.4 Vrange 0 10 Hrange 0 100
+Bar OriginD 11.6 12.4 -11.6 -9.6 Vrange 0 10 Hrange 0 100
+Color L2
+Line #7 7 4 7 -10
+Color F1
+Line 4.2 -7.4 4.2 -11.2
+Line 4.2 -11.2 -5.4 -11.2
+Text 1 0.4 LJ -4.6 -10 Animation Used to Verify Algorithm
+Text 1 0.4 LJ -4.6 -9.2 At Most One Plane in a Zone
+Color F32
+Fill -1.2322 -9.1338
+Fill -1.0252 -9.3409
+Fill -0.1454 -9.0821
+Fill -1.3098 -9.3926
+Color F1
+Line -5.4 -11.2 -5.4 -7.4
+Line -5.4 -7.4 4.2 -7.4
+Line -5.4 -8.4 4.2 -8.4
+Text 1 0.4 MIDDLE -0.5939 -7.9427 Aircraft Zone Control Test
+Color F31
+Fill -0.5526 -7.9427
+Fill -0.7179 -7.984
+Color F1
+Text 1 0.4 LJ -4.6 -10.8 Unrealistic Layout = Torture Test
+Color L7
+Text 1 0.4 MIDDLE 7 2 Zone AC
+Color L5
+Fill 7.9962 -3.1895
+Fill 6.1332 -3.1636
+Fill 13.8182 1.1835
+Fill 7.8668 1.3387
+Fill 6.1849 1.3128
+Fill 6.5472 2.4255
+Fill 12.1622 1.0282
+Fill 12.2398 -3.2671
+Fill 13.6629 -3.2154
+Color L7
+Text 1 0.4 MIDDLE 13 2 Zone AD
+Text 1 0.4 MIDDLE 13 -4 Zone BD
+Text 1 0.4 MIDDLE 7 -4 Zone BC
+Color L2
+Line #8 15 -4 1 -4
+Define Path OriginA Label 0.2592 1.9603 Speed 0
+Segment #3 0 2 1 2 1
+Segment #2 1 2 15 2 14
+End
+Define Path OriginB Label 0.2592 -4.0539 Speed 0
+Segment #6 0 -4 1 -4 1
+Segment #8 1 -4 15 -4 14
+End
+Define Path OriginC Label 7.0648 -9.8835 Speed 0
+Segment #5 7 -11 7 -10 1
+Segment #7 7 -10 7 4 14
+End
+Define Path OriginD Label 13.0526 -10.8859 Speed 0
+Segment #4 13 -11 13 -10 1
+Segment #1 13 -10 13 4 14
+End
+End

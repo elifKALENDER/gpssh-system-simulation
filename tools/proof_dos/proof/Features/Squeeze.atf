@@ -1,0 +1,434 @@
+Time 77.03
+Create LowGuy 1
+Place 1 on AccPath
+Time 131.52
+Destroy 1
+Time 201.01
+Create LowGuy 3
+Place 3 on AccPath
+Time 263.07
+Create LowGuy 4
+Place 4 on AccPath
+Time 299.74
+Create HighGuy 2
+Place 2 on AccPath squeeze at end
+Time 357.11
+Create LowGuy 5
+Place 5 on AccPath
+Time 414.83
+Destroy 2
+Time 416.37
+Create LowGuy 7
+Place 7 on AccPath
+Time 438.30
+Destroy 3
+Time 470.60
+Destroy 4
+Time 472.94
+Create LowGuy 8
+Place 8 on AccPath
+Time 520.95
+Destroy 5
+Time 611.92
+Create LowGuy 9
+Place 9 on AccPath
+Time 619.01
+Destroy 7
+Time 687.16
+Create LowGuy 10
+Place 10 on AccPath
+Time 725.93
+Destroy 8
+Time 743.52
+Create HighGuy 6
+Place 6 on AccPath squeeze at end
+Time 805.59
+Create LowGuy 11
+Place 11 on AccPath
+Time 846.49
+Destroy 6
+Time 899.75
+Destroy 9
+Time 901.82
+Create LowGuy 13
+Place 13 on AccPath
+Time 961.58
+Create LowGuy 14
+Place 14 on AccPath
+Time 1008.82
+Destroy 10
+Time 1084.38
+Create LowGuy 15
+Place 15 on AccPath
+Time 1087.29
+Destroy 11
+Time 1119.59
+Create HighGuy 12
+Place 12 on AccPath squeeze at end
+Time 1165.97
+Create LowGuy 16
+Place 16 on AccPath
+Time 1214.81
+Destroy 12
+Time 1248.43
+Destroy 13
+Time 1274.49
+Create LowGuy 18
+Place 18 on AccPath
+Time 1374.35
+Destroy 14
+Time 1391.01
+Destroy 15
+Time 1415.66
+Create LowGuy 19
+Place 19 on AccPath
+Time 1517.54
+Destroy 16
+Time 1532.20
+Create LowGuy 20
+Place 20 on AccPath
+Time 1554.25
+Destroy 18
+Time 1597.89
+Destroy 19
+Time 1598.14
+Create HighGuy 17
+Place 17 on AccPath squeeze at end
+Time 1659.77
+Create LowGuy 21
+Place 21 on AccPath
+Time 1719.24
+Destroy 17
+Time 1723.62
+Create LowGuy 23
+Place 23 on AccPath
+Time 1769.80
+Destroy 20
+Time 1824.58
+Create LowGuy 24
+Place 24 on AccPath
+Time 1829.48
+Destroy 21
+Time 1863.77
+Destroy 23
+Time 1939.27
+Create LowGuy 25
+Place 25 on AccPath
+Time 1950.77
+Create HighGuy 22
+Place 22 on AccPath squeeze at end
+Time 1998.44
+Create LowGuy 26
+Place 26 on AccPath
+Time 2014.43
+Destroy 22
+Time 2018.66
+Destroy 24
+Time 2118.01
+Create HighGuy 27
+Place 27 on AccPath squeeze at end
+Time 2133.86
+Create LowGuy 28
+Place 28 on AccPath
+Time 2242.98
+Create LowGuy 30
+Place 30 on AccPath
+Time 2248.65
+Destroy 27
+Time 2252.24
+Destroy 25
+Time 2301.74
+Create LowGuy 31
+Place 31 on AccPath
+Time 2377.32
+Destroy 26
+Time 2407.56
+Create LowGuy 32
+Place 32 on AccPath
+Time 2416.32
+Destroy 28
+Time 2435.23
+Destroy 30
+Time 2444.45
+Create HighGuy 29
+Place 29 on AccPath squeeze at end
+Time 2522.82
+Create LowGuy 33
+Place 33 on AccPath
+Time 2582.73
+Destroy 29
+Time 2612.14
+Destroy 31
+Time 2612.46
+Create LowGuy 35
+Place 35 on AccPath
+Time 2683.01
+Create LowGuy 36
+Place 36 on AccPath
+Time 2687.31
+Destroy 32
+Time 2743.97
+Create LowGuy 37
+Place 37 on AccPath
+Time 2758.57
+Destroy 33
+Time 2816.17
+Destroy 35
+Time 2831.04
+Create HighGuy 34
+Place 34 on AccPath squeeze at end
+Time 2868.43
+Create LowGuy 38
+Place 38 on AccPath
+Time 2905.01
+Destroy 34
+Time 2929.03
+Create LowGuy 40
+Place 40 on AccPath
+Time 2935.02
+Destroy 36
+Time 3017.19
+Destroy 37
+Time 3041.60
+Create LowGuy 41
+Place 41 on AccPath
+Time 3056.78
+Destroy 38
+Time 3062.07
+Create HighGuy 39
+Place 39 on AccPath squeeze at end
+Time 3127.42
+Create LowGuy 42
+Place 42 on AccPath
+Time 3185.15
+Create LowGuy 44
+Place 44 on AccPath
+Time 3196.61
+Destroy 39
+Time 3240.52
+Create LowGuy 45
+Place 45 on AccPath
+Time 3259.72
+Destroy 40
+Time 3354.22
+Create LowGuy 46
+Place 46 on AccPath
+Time 3375.74
+Destroy 41
+Time 3399.26
+Create HighGuy 43
+Place 43 on AccPath squeeze at end
+Time 3429.49
+Destroy 43
+Time 3477.29
+Create LowGuy 47
+Place 47 on AccPath
+Time 3518.50
+Destroy 42
+Time 3529.56
+Create HighGuy 48
+Place 48 on AccPath squeeze at end
+Time 3587.01
+Create LowGuy 49
+Place 49 on AccPath
+Time 3589.06
+Destroy 48
+Time 3681.53
+Destroy 44
+Time 3718.39
+Create LowGuy 51
+Place 51 on AccPath
+Time 3737.80
+Destroy 45
+Time 3824.81
+Destroy 46
+Time 3825.01
+Create LowGuy 52
+Place 52 on AccPath
+Time 3892.84
+Destroy 47
+Time 3909.70
+Create LowGuy 53
+Place 53 on AccPath
+Time 4008.48
+Destroy 49
+Time 4014.11
+Create HighGuy 50
+Place 50 on AccPath squeeze at end
+Time 4031.35
+Create LowGuy 54
+Place 54 on AccPath
+Time 4036.41
+Destroy 50
+Time 4099.36
+Destroy 51
+Time 4161.19
+Create LowGuy 56
+Place 56 on AccPath
+Time 4225.18
+Destroy 52
+Time 4281.78
+Create LowGuy 57
+Place 57 on AccPath
+Time 4331.47
+Destroy 53
+Time 4388.41
+Create HighGuy 55
+Place 55 on AccPath squeeze at end
+Time 4431.03
+Create LowGuy 58
+Place 58 on AccPath
+Time 4501.44
+Create LowGuy 60
+Place 60 on AccPath
+Time 4525.40
+Destroy 55
+Time 4596.62
+Destroy 54
+Time 4629.57
+Create LowGuy 61
+Place 61 on AccPath
+Time 4688.45
+Destroy 56
+Time 4722.05
+Create LowGuy 62
+Place 62 on AccPath
+Time 4805.33
+Destroy 57
+Time 4817.78
+Destroy 58
+Time 4845.45
+Create LowGuy 63
+Place 63 on AccPath
+Time 4872.04
+Create HighGuy 59
+Place 59 on AccPath squeeze at end
+Time 4938.77
+Create LowGuy 64
+Place 64 on AccPath
+Time 4983.32
+Create HighGuy 65
+Place 65 on AccPath squeeze at end
+Time 4989.04
+Destroy 59
+Time 5019.00
+Create LowGuy 66
+Place 66 on AccPath
+Time 5108.57
+Destroy 65
+Time 5162.52
+Create LowGuy 68
+Place 68 on AccPath
+Time 5183.63
+Destroy 60
+Time 5240.34
+Destroy 61
+Time 5300.25
+Create LowGuy 69
+Place 69 on AccPath
+Time 5323.95
+Destroy 62
+Time 5356.86
+Create LowGuy 70
+Place 70 on AccPath
+Time 5361.93
+Destroy 63
+Time 5372.78
+Destroy 64
+Time 5380.97
+Create HighGuy 67
+Place 67 on AccPath squeeze at end
+Time 5460.93
+Destroy 67
+Time 5474.92
+Destroy 66
+Time 5499.95
+Destroy 68
+Time 5504.35
+Create LowGuy 71
+Place 71 on AccPath
+Time 5516.32
+Destroy 69
+Time 5571.27
+Destroy 70
+Time 5581.75
+Create HighGuy 72
+Place 72 on AccPath squeeze at end
+Time 5582.44
+Create LowGuy 73
+Place 73 on AccPath
+Time 5605.37
+Destroy 72
+Time 5709.90
+Destroy 71
+Time 5723.40
+Create LowGuy 75
+Place 75 on AccPath
+Time 5743.78
+Destroy 73
+Time 5790.09
+Destroy 75
+Time 5824.20
+Create LowGuy 76
+Place 76 on AccPath
+Time 5877.25
+Create LowGuy 77
+Place 77 on AccPath
+Time 5888.26
+Destroy 76
+Time 5936.54
+Destroy 77
+Time 5954.77
+Create LowGuy 78
+Place 78 on AccPath
+Time 6023.65
+Destroy 78
+Time 6068.43
+Create HighGuy 74
+Place 74 on AccPath squeeze at end
+Time 6070.21
+Create LowGuy 79
+Place 79 on AccPath
+Time 6104.05
+Destroy 74
+Time 6120.05
+Destroy 79
+Time 6213.31
+Create LowGuy 81
+Place 81 on AccPath
+Time 6279.11
+Create HighGuy 80
+Place 80 on AccPath squeeze at end
+Time 6327.59
+Create LowGuy 82
+Place 82 on AccPath
+Time 6334.67
+Destroy 80
+Time 6365.56
+Destroy 81
+Time 6414.18
+Create LowGuy 84
+Place 84 on AccPath
+Time 6448.05
+Destroy 82
+Time 6488.54
+Destroy 84
+Time 6549.60
+Create LowGuy 85
+Place 85 on AccPath
+Time 6580.23
+Destroy 85
+Time 6627.62
+Create HighGuy 83
+Place 83 on AccPath squeeze at end
+Time 6669.67
+Create LowGuy 86
+Place 86 on AccPath
+Time 6731.45
+Create LowGuy 88
+Place 88 on AccPath
+Time 6733.95
+Create HighGuy 87
+Place 87 on AccPath squeeze at end
+Time 6763.76
+Destroy 83

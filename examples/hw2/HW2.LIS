@@ -1,0 +1,98 @@
+    STUDENT GPSS/H RELEASE 2.01 (UG172)     11 Mar 2009   00:53:45     FILE: odev.gps
+
+    LINE# STMT#  IF DO  BLOCK#  *LOC	OPERATION	A,B,C,D,E,F,G	COMMENTS  
+ 
+        1     1                 	SIMULATE
+        2     2              1          GENERATE        3,1
+        3     3              2          SEIZE           SERVIS     
+        4     4              3          ADVANCE         8.5,1.5    
+        5     5              4          RELEASE         SERVIS     
+        6     6              5          TERMINATE       1       
+        7     7                         START           75
+        8     8                 	END
+
+ENTITY DICTIONARY (IN ASCENDING ORDER BY ENTITY NUMBER; "*" => VALUE CONFLICT.)
+
+       Facilities: 1=SERVIS
+
+SYMBOL   VALUE   EQU DEFNS  CONTEXT      REFERENCES BY STATEMENT NUMBER
+ 
+SERVIS       1              Facility         3     5
+
+
+
+STORAGE REQUIREMENTS (BYTES)
+
+COMPILED CODE:      192
+COMPILED DATA:       40
+MISCELLANEOUS:        0
+ENTITIES:           264
+COMMON:           10000
+-----------------------
+TOTAL:            10496
+
+
+
+GPSS/H MODEL SIZE:
+
+CONTROL STATEMENTS      3
+BLOCKS                  5
+
+
+
+Simulation begins.
+
+RELATIVE CLOCK: 648.5725   ABSOLUTE CLOCK: 648.5725
+
+
+
+BLOCK CURRENT     TOTAL  
+1           1        76 
+2                    75 
+3                    75 
+4                    75 
+5                    75 
+
+
+
+          --AVG-UTIL-DURING--                                                               
+FACILITY  TOTAL  AVAIL  UNAVL     ENTRIES    AVERAGE   CURRENT  PERCENT  SEIZING  PREEMPTING
+           TIME   TIME   TIME               TIME/XACT   STATUS   AVAIL     XACT      XACT   
+  SERVIS  0.996                        75       8.614    AVAIL                  
+
+
+
+  RANDOM    ANTITHETIC     INITIAL     CURRENT      SAMPLE   CHI-SQUARE
+  STREAM      VARIATES    POSITION    POSITION       COUNT   UNIFORMITY
+       1           OFF      100000      100151         151      0.61
+
+
+
+STATUS OF COMMON STORAGE
+
+    9744 BYTES AVAILABLE
+     256 IN USE
+     368 USED (MAX)
+
+Simulation terminated.  Absolute Clock: 648.5725
+
+
+
+Total Block Executions: 376
+
+Blocks / second:        376000
+
+Microseconds / Block:   2.66
+
+
+
+Elapsed Time Used (SEC)
+ 
+PASS1:           0.06
+LOAD/CTRL:       0.16
+EXECUTION:       0.00
+---------------------
+TOTAL:           0.22
+
+GPSS/H IS A PROPRIETARY PRODUCT OF, AND IS USED UNDER A LICENSE GRANTED BY, THE WOLVERINE SOFTWARE CORPORATION,
+4115 ANNANDALE ROAD, ANNANDALE, VIRGINIA 22003-2500, USA.

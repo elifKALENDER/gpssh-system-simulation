@@ -1,0 +1,69 @@
+       SIMULATE
+*
+*      Define Ampervariables
+*
+       INTEGER    &M(7),&S(7)
+       LET        &M(5)=7     Mean service time for inspector 1
+       LET        &M(6)=9     Mean service time for inspector 2
+       LET        &M(7)=8     Mean service time for inspector 3
+       LET        &S(5)=2     Spread of service time for inspector 1
+       LET        &S(6)=1     Spread of service time for inspector 2
+       LET        &S(7)=1     Spread of service time for inspector 3
+*
+*      Storage Declaration Segment
+*
+       STORAGE    S(WKR2),2/S(WKR5),3
+*
+*      Define Function
+*
+ PROB  FUNCTION  RN(1),D3
+0.333,5/0.667,6/1.0,7
+*
+*      GPSS/H Block Section
+*
+*         Staging Area
+*
+       GENERATE   RVEXPO(1,4.0) A bundle arrives exponentially with mean 4.0
+       ADVANCE    2           Transportation time to the staging area
+       SEIZE      SERVER      Capture the line server
+       ADVANCE    3.75,1      Prepare a bundle
+       RELEASE    SERVER      Release the line server
+*
+*         Sewing Line
+*
+       SEIZE      WKR1        Capture work station 1
+       ADVANCE    3.5,1       Close first shoulder
+       RELEASE    WKR1        Free work station 1
+*
+       ENTER      WKR2        Capture 1 of work station 2
+       ADVANCE    7,2         Sew collar
+       LEAVE      WKR2        Free 1 of work station 2
+*
+       SEIZE      WKR3        Capture work station 3
+       ADVANCE    3,0.75      Cover seam
+       RELEASE    WKR3        Free work station 3
+*
+       SEIZE      WKR4        Capture work station 4
+       ADVANCE    3.25,1      Close second shoulder
+       RELEASE    WKR4        Free work station 4
+* 
+       ENTER      WKR5        Capture 1 of work station 5 
+       ADVANCE    11,3        Set sleeves
+       LEAVE      WKR5        Free 1 of work station 5
+*
+*         Inspection Stations
+*
+       ASSIGN     INSP,FN(PROB),PH Assign inspector # to PH(INSP)
+       SEIZE      PH(INSP)    Capture inspector number PH(INSP)
+       ADVANCE    &M(PH(INSP)),&S(PH(INSP)) inspect shirts
+       RELEASE    PH(INSP)    Release inspector number PH(INSP)
+       TRANSFER   .05,,REJ    5% are rejected
+       TERMINATE  1           Decrement TG1 by 1 
+ REJ   TERMINATE              Bad t-shirts exit system 
+*
+*      GPSS/H Control Statements
+*
+       START      100         Set TG1 to 100 
+       END
+
+

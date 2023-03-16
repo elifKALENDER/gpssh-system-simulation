@@ -1,0 +1,328 @@
+Define View "(Class)" center 0 0 width 24 Ortho
+Define View "(Home)" center 45 25 width 120 Ortho Aspect 0.75 Speed 20 Mouse 5
+Define color Backdrop 0.1429 0.1905 0.1905
+Define color Blue 0 0 0.7937
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0.3175
+Define color Pink 1 0 0.6667
+Define color Tan 0.6667 0.381 0
+Define color Green 0 1 0
+Define color Layout 0.4921 0.4921 0.4921
+Color Yellow
+Define Class TYPE1 Directional Clearance 2.5 2.5
+Line -1.5 -1 1.5 -1
+Line 1.5 -1 1.5 1
+Line 1.5 1 -1.5 1
+Line -1.5 1 -1.5 -1
+Line -0.5 -0.5 0.5 -0.5
+Line 0.5 -0.5 0.5 0.5
+Line 0.5 0.5 -0.5 0.5
+Line -0.5 0.5 -0.5 -0.5
+Fill -0.1315 -0.025
+End
+Define Class TYPE1E Directional Clearance 2.5 2.5
+Line -1.5 -1 1.5 -1
+Line 1.5 -1 1.5 1
+Line 1.5 1 -1.5 1
+Line -1.5 1 -1.5 -1
+End
+Define Class TYPE1X Directional Clearance 2.5 2.5
+Line 0 1 0 -1
+Line 0 0.5 1.5 0.5
+Line 0 -0.5 1.5 -0.5
+End
+Color Blue
+Define Class TYPE2 Directional Clearance 2.5 2.5
+Line -1.5 -1 1.5 -1
+Line 1.5 -1 1.5 1
+Line 1.5 1 -1.5 1
+Line -1.5 1 -1.5 -1
+Line -0.5 -0.5 0.5 -0.5
+Line 0.5 -0.5 0.5 0.5
+Line 0.5 0.5 -0.5 0.5
+Line -0.5 0.5 -0.5 -0.5
+Fill 0.2066 0.1252
+End
+Define Class TYPE2E Directional Clearance 2.5 2.5
+Line -1.5 -1 1.5 -1
+Line 1.5 -1 1.5 1
+Line 1.5 1 -1.5 1
+Line -1.5 1 -1.5 -1
+End
+Define Class TYPE2X Directional Clearance 2.5 2.5
+Line 0 1 0 -1
+Line 0 0.5 1.5 0.5
+Line 0 -0.5 1.5 -0.5
+End
+Color Tan
+Define Class TYPE3 Directional Clearance 2.5 2.5
+Line -1.5 -1 1.5 -1
+Line 1.5 -1 1.5 1
+Line 1.5 1 -1.5 1
+Line -1.5 1 -1.5 -1
+Line -0.5 -0.5 0.5 -0.5
+Line 0.5 -0.5 0.5 0.5
+Line 0.5 0.5 -0.5 0.5
+Line -0.5 0.5 -0.5 -0.5
+Fill -0.0188 -0.2254
+End
+Define Class TYPE3E Directional Clearance 2.5 2.5
+Line -1.5 -1 1.5 -1
+Line 1.5 -1 1.5 1
+Line 1.5 1 -1.5 1
+Line -1.5 1 -1.5 -1
+End
+Define Class TYPE3X Directional Clearance 2.5 2.5
+Line 0 1 0 -1
+Line 0 0.5 1.5 0.5
+Line 0 -0.5 1.5 -0.5
+End
+Color Pink
+Define Class TYPE4 Directional Clearance 2.5 2.5
+Line -1.5 -1 1.5 -1
+Line 1.5 -1 1.5 1
+Line 1.5 1 -1.5 1
+Line -1.5 1 -1.5 -1
+Line -0.5 -0.5 0.5 -0.5
+Line 0.5 -0.5 0.5 0.5
+Line 0.5 0.5 -0.5 0.5
+Line -0.5 0.5 -0.5 -0.5
+Fill -0.1315 -0.1753
+End
+Define Class TYPE4E Directional Clearance 2.5 2.5
+Line -1.5 -1 1.5 -1
+Line 1.5 -1 1.5 1
+Line 1.5 1 -1.5 1
+Line -1.5 1 -1.5 -1
+End
+Define Class TYPE4X Directional Clearance 2.5 2.5
+Line 0 1 0 -1
+Line 0 0.5 1.5 0.5
+Line 0 -0.5 1.5 -0.5
+End
+Color Green
+Define Class TYPE20 Directional Clearance 2.5 2.5
+Line 0 1 0 -1
+Line 0 0.5 1.5 0.5
+Line 0 -0.5 1.5 -0.5
+End
+Color White
+Define Class H0
+Line -3 -3 3 3
+Line -3 3 3 -3
+End
+Define Class H12
+Arc 3 0 0 0 360 18.8496
+Line 0 3 0 -3
+Line -3 0 3 0
+End
+Define Class H11
+Arc 2.7 0 0 0 360 18.8496
+Line 0 2.7 0 -2.7
+Line -2.7 0 2.7 0
+End
+Define Class H10
+Line -2.43 0 2.43 0
+Line 0 2.43 0 -2.43
+Arc 2.43 0 0 0 360 18.8496
+End
+Define Class H9
+Arc 2.187 0 0 0 360 18.8496
+Line 0 2.187 0 -2.187
+Line -2.187 0 2.187 0
+End
+Define Class H8
+Line -1.9683 0 1.9683 0
+Line 0 1.9683 0 -1.9683
+Arc 1.9683 0 0 0 360 18.8496
+End
+Define Class H7
+Line -1.9683 0 1.9683 0
+Line 0 1.9683 0 -1.9683
+Arc 1.9683 0 0 0 360 18.8496
+End
+Define Class H6
+Arc 1.7715 0 0 0 360 18.8496
+Line 0 1.7715 0 -1.7715
+Line -1.7715 0 1.7715 0
+End
+Define Class H5
+Arc 1.5943 0 0 0 360 18.8496
+Line 0 1.5943 0 -1.5943
+Line -1.5943 0 1.5943 0
+End
+Define Class H4
+Line -1.4349 0 1.4349 0
+Line 0 1.4349 0 -1.4349
+Arc 1.4349 0 0 0 360 18.8496
+End
+Define Class H3
+Arc 1.2914 0 0 0 360 18.8496
+Line 0 1.2914 0 -1.2914
+Line -1.2914 0 1.2914 0
+End
+Define Class H2
+Line -1.1623 0 1.1623 0
+Line 0 1.1623 0 -1.1623
+Arc 1.1623 0 0 0 360 18.8496
+End
+Define Class H1
+Arc 1.046 0 0 0 360 18.8496
+Line 0 1.046 0 -1.046
+Line -1.046 0 1.046 0
+End
+Color Yellow
+Line 20 17 20 15
+Line 20 15.5 21.5 15.5
+Line 20 16.5 21.5 16.5
+Text 1 2 25 16 Empty Dog
+Line 18.5 13 21.5 13
+Line 21.5 13 21.5 11
+Line 21.5 11 18.5 11
+Line 18.5 11 18.5 13
+Line 19.5 12.5 20.5 12.5
+Line 20.5 12.5 20.5 11.5
+Line 20.5 11.5 19.5 11.5
+Line 19.5 11.5 19.5 12.5
+Line 18.5 9 21.5 9
+Line 21.5 9 21.5 7
+Line 21.5 7 18.5 7
+Line 18.5 7 18.5 9
+Text 1 2 25 12 Full Cart
+Text 1 2 25 8 Empty Cart
+Color Red
+Text 1 2 25 4 Red => Committed
+Color Layout
+Line #1 84 30 -10 30
+Line #2 -10 20 84 20
+Arc  #3 3 3 27 90 180 5
+Arc  #4 3 3 23 180 270 5
+Arc  #5 3 23 27 90 180 5
+Line #6 20 27 20 25
+Line #7 20 25 20 23
+Arc  #8 3 23 23 180 270 5
+Arc  #9 3 43 27 90 180 5
+Line #10 40 27 40 25
+Line #11 40 25 40 23
+Arc  #12 3 43 23 180 270 5
+Arc  #13 3 63 27 90 180 5
+Line #14 60 27 60 25
+Line #15 60 25 60 23
+Arc  #16 3 63 23 180 270 5
+Color Yellow
+Fill 20.0211 12.1641
+Color Red
+Text 1 3.3 CENTER 45 50 NEWSPRINT ROLL DELIVERY SYSTEM
+Color Layout
+Arc  #17 3 84 17 90 0 5
+Line #18 87 17 87 10
+Arc  #19 3 90 10 180 270 5
+Line #20 90 7 97 7
+Arc  #21 3 97 10 270 360 5
+Line #22 100 10 100 40
+Arc  #23 3 97 40 0 90 5
+Line #24 97 43 90 43
+Arc  #25 3 90 40 90 180 5
+Line #26 87 40 87 33
+Arc  #27 3 84 33 360 270 5
+Arc  #28 3 -10 27 90 180 5
+Line #29 -13 27 -13 23
+Arc  #30 3 -10 23 180 270 5
+Line #31 84 20 87 20
+Arc  #32 3 87 17 90 0 5
+Line #33 90 17 90 13
+Arc  #34 3 93 13 180 270 5
+Line #35 93 10 94 10
+Arc  #36 3 94 13 270 360 5
+Line #37 97 13 97 37
+Arc  #38 3 94 37 0 90 5
+Line #39 94 40 93 40
+Arc  #40 3 93 37 90 180 5
+Line #41 90 37 90 33
+Arc  #42 3 87 33 360 270 5
+Line #43 87 30 84 30
+Line #44 0 27 0 25
+Line #45 0 25 0 23
+Arc  #46 3 83 27 90 180 5
+Line #47 80 27 80 25
+Line #48 80 25 80 23
+Arc  #49 3 83 23 180 270 5
+Define Path LOOP Circular Label 0 0 Speed 1
+Segment #17 84 20 87 17 5 CW
+Segment #18 87 17 87 10 7
+Segment #19 87 10 90 7 5 CCW
+Segment #20 90 7 97 7 7
+Segment #21 97 7 100 10 5 CCW
+Segment #22 100 10 100 40 30
+Segment #23 100 40 97 43 5 CCW
+Segment #24 97 43 90 43 7
+Segment #25 90 43 87 40 5 CCW
+Segment #26 87 40 87 33 7
+Segment #27 87 33 84 30 5 CW
+Segment #1 84 30 -10 30 94
+Segment #28 -10 30 -13 27 5 CCW
+Segment #29 -13 27 -13 23 4
+Segment #30 -13 23 -10 20 5 CCW
+Segment #2 -10 20 84 20 94
+End
+Define Path DOCKIN Accumulating Label 0 0 Lag 4 Speed 0.5
+Segment #31 84 20 87 20 3
+Segment #32 87 20 90 17 5 CW
+Segment #33 90 17 90 13 4
+Segment #34 90 13 93 10 5 CCW
+Segment #35 93 10 94 10 1
+Segment #36 94 10 97 13 5 CCW
+Segment #37 97 13 97 37 24
+End
+Define Path DOCKOUT Accumulating Label 0 0 Lag 4 Speed 0.5
+Segment #38 97 37 94 40 5 CCW
+Segment #39 94 40 93 40 1
+Segment #40 93 40 90 37 5 CCW
+Segment #41 90 37 90 33 4
+End
+Define Path DOCKX Label 0 0 Speed 0.6667
+Segment #42 90 33 87 30 5 CW
+Segment #43 87 30 84 30 3
+End
+Define Path SPUR1IN Label 0 0 Speed 1
+Segment #3 3 30 0 27 5 CCW
+Segment #44 0 27 0 25 2
+End
+Define Path SPUR1OUT Label 0 0 Speed 1
+Segment #45 0 25 0 23 2
+Segment #4 0 23 3 20 5 CCW
+End
+Define Path SPUR2IN Label 0 0 Speed 1
+Segment #5 23 30 20 27 5 CCW
+Segment #6 20 27 20 25 2
+End
+Define Path SPUR2OUT Label 0 0 Speed 1
+Segment #7 20 25 20 23 2
+Segment #8 20 23 23 20 5 CCW
+End
+Define Path SPUR3IN Label 0 0 Speed 1
+Segment #9 43 30 40 27 5 CCW
+Segment #10 40 27 40 25 2
+End
+Define Path SPUR3OUT Label 0 0 Speed 1
+Segment #11 40 25 40 23 2
+Segment #12 40 23 43 20 5 CCW
+End
+Define Path SPUR4IN Label 0 0 Speed 1
+Segment #13 63 30 60 27 5 CCW
+Segment #14 60 27 60 25 2
+End
+Define Path SPUR4OUT Label 0 0 Speed 1
+Segment #15 60 25 60 23 2
+Segment #16 60 23 63 20 5 CCW
+End
+Define Path SPUR5IN Label 0 0 Speed 1
+Segment #46 83 30 80 27 5 CCW
+Segment #47 80 27 80 25 2
+End
+Define Path SPUR5OUT Label 0 0 Speed 1
+Segment #48 80 25 80 23 2
+Segment #49 80 23 83 20 5 CCW
+End
+End

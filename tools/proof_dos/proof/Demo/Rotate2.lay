@@ -1,0 +1,151 @@
+Define View "(Home)" center 0.0571 -16.2533 Width 66.3175 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 10
+Define View "(Class)" center -13 0.7 Width 18.9375 Grid Size 0.2 2 Ortho
+Define color Backdrop  0.8902 0.7255 0.5216
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 0 0 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.7451 0.3961 0.6667
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.3961 0.4902 0.698
+Define color F20 0 0.3176 0.3176
+Define color F21 0.8902 0.6667 0.4902
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.4902 0.4902 0.4902
+Define color L2 0.8235 0.0941 0.8431
+Define color L3 0 1 0
+Define color L4 0.4902 0.4902 0.4902
+Define color L5 0.8902 0.6667 0.4902
+Define color L6 0.3961 0.4902 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F19
+Define Class Wheel
+Fill 1.1826 1.9405
+Fill -2.2411 0.5292
+Fill 0.0327 -2.1888
+Fill 0.0457 -1.5224
+Fill -1.457 -0.0327
+Fill 0.006534 1.3917
+Fill 1.5616 0.0588
+Line 0 0 -0.5177 1.9319
+Arc 2 0 0 0 360 12.5664
+Line 0 0 -0.5177 -1.9319
+Line 0 0 -1.9319 -0.5177
+Line 0 0 -1.9319 0.5177
+Line 0 0 0.5177 1.9319
+Line 0 0 1.9319 0.5177
+Line 0 0 1.9319 -0.5177
+Line 0 0 0.5177 -1.9319
+Arc 2.4 0 0 0 360 15.0796
+End
+Color F26
+Define Class Wagon Directional
+Line -5.2 0 -2.8 0
+Arc 2.8 0 0 0 180 17.5929
+Line -12 6 4 6
+Line -12 0 -10.8 0
+Arc 2.8 -8 0 0 180 8.7965
+Line -12 0 -12 6
+Fill -1.5879 4.4004
+Line 4 0 2.8 0
+Line 4 6 4 0
+End
+Color F32
+Define Class Smoke
+Arc 1 -13.2 1.6 -23.805 116.4049 2.4471
+Arc 1 -14 -1.2 216.8699 323.1301 1.8546
+Arc 1 -15.6 -1.2 149.2255 323.1301 3.0352
+Arc 1 -16 0.2 111.3045 242.6653 2.2927
+Arc 1 -15.4 1.4 100.5501 195.5654 1.6583
+Arc 1 -14.6 2.2 17.198 169.4499 2.6573
+Fill -9.2984 -1.7312
+Fill -9.4273 -1.7634
+Fill -9.4365 -2.0213
+Fill -11.3381 -1.8923
+Fill -11.3013 -1.8923
+Fill -11.0342 -1.8785
+Fill -10.8316 -1.8463
+Fill -10.7902 -1.7496
+Fill -10.7948 -1.4595
+Fill -10.8132 -1.105
+Fill -10.6659 -0.8656
+Fill -10.4219 -1.1556
+Fill -10.2193 -1.6161
+Fill -10.0213 -1.6069
+Fill -9.9522 -1.3997
+Fill -9.7865 -1.6437
+Fill -9.1511 -2.0489
+Arc 0.2 -9.4 -1.8 0 120.2457 0.4197
+Arc 0.2 -9.4 -2 150 300 0.5236
+Arc 0.2 -9.2 -2 -120 90 0.733
+Arc 0.2 -9.4 -1.8 202.8844 210 0.0248
+Arc 0.5 -10 -1.6 -3.1213 79.4499 0.7206
+Arc 0.5 -10 -1.6 209.3447 326.2514 1.0202
+Arc 1 -11.2 -1.2 233.1301 319.832 1.5132
+Arc 0.5 -10.4 -1.2 10.5501 82.0968 0.6244
+Arc 1 -11.2 -1.2 29.6863 94.8804 1.1379
+Arc 1 -12.2 0.2 -23.805 94.8804 2.0715
+Arc 1 -12.4 -1.2 216.8699 306.8699 1.5708
+End
+Color Backdrop
+Line #1 50 -9 -50 -9
+Line #2 -50 -25 50 -25
+Color L7
+Line -60 -27.4 60 -27.4
+Color Backdrop
+Line #3 -50 -9 -50 -25
+Line #4 50 -25 50 -9
+Define Path Trail Circular Label -53.7605 -25.5301 Speed 1
+Segment #2 -50 -25 50 -25 100
+Segment #4 50 -25 50 -9 16
+Segment #1 50 -9 -50 -9 100
+Segment #3 -50 -9 -50 -25 16
+End
+End

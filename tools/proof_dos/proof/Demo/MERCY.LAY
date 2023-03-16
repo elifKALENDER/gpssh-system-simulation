@@ -1,0 +1,1148 @@
+Define View "Entire Facility" center 26.955 71.5081 Width 211.5177 Grid Size 1 10 Ortho
+Define View "Nurses' Station" center 28.7878 70.1027 Width 43.9807 Grid Size 1 10 Ortho
+Define View "ER Facility" center 48.596 57.0807 Width 160.6936 Grid Size 1 10 Ortho
+Define View "Triage" center 27.5977 24.724 Width 59.4415 Grid Size 1 10 Ortho
+Define View "Lounge" center 100.9297 44.9201 Width 51.3444 Grid Size 1 10 Ortho
+Define View "Move to Treat" center 15.4992 73.3344 Width 73.7157 Grid Size 1 10 Ortho
+Define View "(Home)" center 26.955 71.5081 Width 211.5177 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 0.3
+Define View "(Class)" center -0.0565 0.5194 Width 20.4905 Grid Size 0.2 2 Ortho
+Define color Backdrop  0.302 0.2863 0.302
+Define color F1 0 0 0.5098
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 0 0.6039 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 0.5412 0.3176
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 0 0 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.7451 0.3961 0.6667
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.3961 0.4902 0.698
+Define color F20 0 0.3176 0.3176
+Define color F21 0.8902 0.6667 0.4902
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 1 0.6667 0.3961
+Define color L2 0.2392 0.2392 0.2392
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.7608 0.5098 0.3333
+Define color L6 1 0.0941 0.1098
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F3
+Define Class wp Clearance 1.5 1.5
+Line 0.048 0.395 0.048 -0.253
+Line 0.048 -0.253 -0.357 -0.982
+Line 0.048 -0.253 0.453 -0.982
+Arc 0.243 -0.033 0.638 90 180 0.4712
+Arc 0.243 -0.033 0.638 180 270 0.4712
+Arc 0.243 0.129 0.638 270 360 0.4712
+Arc 0.243 0.129 0.638 0 90 0.4712
+Line -0.033 0.395 0.129 0.395
+Line 0.048 0.152 0.777 -0.01
+Arc 0.162 0.651 -0.1418 10.3048 108.4349 0.3425
+Line 0.8105 -0.1128 1.02 -0.901
+Line 0.5998 0.012 0.534 -0.091
+Line 0.048 0.152 -0.519 0.071
+Line -0.519 0.071 -0.114 -0.172
+Line 0.048 0.881 -0.033 0.881
+Line 0.129 0.881 0.048 0.881
+End
+Define Class amblc Directional Clearance 5 5
+Text 1 0.4 Angle 270 LJ 3.6 1.8 ecnalubmA
+Color F2
+Line -2 -0.4 -2 0.4
+Line -0.4 -0.4 -2 -0.4
+Line -0.4 -1 -0.4 -0.4
+Line 0.4 -1 -0.4 -1
+Line 0.4 -0.4 0.4 -1
+Line 1.2 -0.4 0.4 -0.4
+Line 1.2 0.4 1.2 -0.4
+Line 0.4 0.4 1.2 0.4
+Line 0.4 1 0.4 0.4
+Line -0.4 1 0.4 1
+Line -0.4 0.4 -0.4 1
+Line -2 0.4 -0.4 0.4
+Line 1 2 -2.6 2
+Line 3.4 2 2.4 2
+Line 2.4 -2 3.4 -2
+Line -2.6 -2 1 -2
+Line -4.6 -2 -4.2 -2
+Line -4.2 2 -4.6 2
+Line 2.4 2.2 1 2.2
+Line 1 2.2 1 2
+Line 2.4 -2.2 1 -2.2
+Line 1 -2.2 1 -2
+Line -2.6 2 -2.6 2.2
+Line -2.6 2.2 -4 2.2
+Line -2.6 -2 -2.6 -2.2
+Line -2.6 -2.2 -4.2 -2.2
+Line -4.6 2 -4.6 -2
+Line 3.4 -2 3.4 2
+Line 2.4 2 2.4 2.2
+Line 2.4 -2 2.4 -2.2
+Line -4 2.2 -4.2 2.2
+Line -4.2 2.2 -4.2 2
+Line -4.2 -2.2 -4.2 -2
+Color F3
+Fill -3.2977 -0.0124
+Color F2
+Fill -0.006327 0.0478
+End
+Color F3
+Define Class nurse Clearance 1 1
+Line -0.5188 -0.5708 -0.5188 -1.1783
+Fill -0.5285 -0.4564
+Fill -0.4696 0.016
+Line -0.5188 0.4417 -0.4175 0.2393
+Line -0.5188 0.4417 -0.62 0.2393
+Line -0.3163 0.8468 -0.1138 1.0493
+Line -0.5188 0.4417 -0.3651 0.5186
+Line -0.6724 0.5186 -0.5188 0.4417
+Arc 0.2025 -0.4555 0.6998 -63.4349 45 0.3785
+Arc 0.2025 -0.582 0.6998 135 243.4349 0.3785
+Line -0.7213 0.8468 -0.5188 1.0493
+Line -0.5188 1.0493 -0.3163 0.8468
+Line -0.3163 0.8468 -0.7213 0.8468
+Line -0.9238 1.0493 -0.7213 0.8468
+Fill -0.5133 0.3074
+Line 0.0525 0.27 -0.51 -1.23
+Line -0.51 -1.23 -1.0725 0.27
+Line -1.0725 0.27 0.0525 0.27
+Line -0.7913 -0.48 -0.2288 -0.48
+Line -0.2598 0.7398 -0.2531 0.7059
+Line -0.1138 1.0493 -0.9238 1.0493
+Fill -0.7451 0.9611
+Fill -0.4891 0.9611
+Fill -0.2924 0.9874
+End
+Define Class emrg Clearance 1.5 1.5
+Line -1.5 -0.1 -1.5 0.2
+Line 1.5 -0.1 -1.5 -0.1
+Line 1.5 0.2 1.5 -0.1
+Line -1.5 0.2 1.5 0.2
+Arc 1.5 -0.1326 -1.0486 80.5377 111.8014 0.5457
+Line 0.114 0.431 1.5 0.2
+Arc 0.3 -1.2 0.2 0 90 0.3142
+Arc 0.3 -1.2 0.2 90 180 0.3142
+Line -0.9056 0.2578 -0.6897 0.3442
+Arc 0.15 -1.35 -0.85 0 360 0.6283
+Arc 0.15 1.35 -0.85 0 360 0.6283
+Line 0 -0.1 -1.2155 -0.7837
+Line -1.2 -0.85 1.2 -0.85
+Line 0 -0.1 1.2155 -0.7837
+End
+Color F5
+Define Class doc Clearance 1 1
+Line 0.3758 0.4375 1.0008 -1.25
+Line 1.6258 0.4375 0.3758 0.4375
+Line 1.0008 -1.25 1.6258 0.4375
+Line 0.6257 1.1875 0.6257 1
+Line 0.6257 1 1.3758 1
+Line 1.3758 1 1.3758 1.1875
+Line 0.6257 1 0.8133 0.75
+Line 0.8133 0.75 1.1883 0.75
+Line 1.1883 0.75 1.3758 1
+Line 0.8133 0.75 0.8133 0.5625
+Line 0.8133 0.5625 1.1883 0.5625
+Line 1.1883 0.5625 1.1883 0.75
+Fill 1.1788 1.0989
+Fill 1.0748 0.6335
+Line 1.3758 1.1875 0.6257 1.1875
+End
+Color F2
+Define Class boat Directional Clearance 8 12
+Line -1.5576 -0.4079 -0.2742 -0.4079
+Line -1.5576 -0.4079 -1.5576 -1.4912
+Line -2.3991 -1.4912 -2.3991 -0.4079
+Line -4.4 0.4 -4.4 -0.4
+Line -4.4 -0.4 -2.4 -0.4
+Line -2.4 0.4 -4.4 0.4
+Line -0.2742 0.4341 -1.5576 0.4341
+Line -1.5576 1.5174 -1.5576 0.4341
+Line -2.3991 0.4341 -2.3991 1.5174
+Line -2.3991 1.5174 -1.5576 1.5174
+Line -2.3991 -1.4912 -1.5576 -1.4912
+Line 0.1679 -2.178 4.2304 0.0095
+Line 4.2304 0.0095 0.1679 2.1971
+Line -8.2696 2.1971 -8.2696 -2.178
+Line -6.7071 2.1971 -6.7071 -2.178
+Line 0.1679 2.1971 -8.2696 2.1971
+Line -8.2696 -2.178 0.1679 -2.178
+Line -6.1125 2.1971 -6.1125 -2.178
+Line -0.2742 -0.4079 -0.2742 0.4341
+Color F3
+Fill 0.7764 0.0277
+Fill -7.5724 -0.0124
+Color F2
+Fill -1.9731 0.0478
+Fill -6.3682 0.0879
+End
+Color F1
+Define Class helicopt Directional Clearance 12 20
+Fill 1.3106 0.5998
+Arc 1.125 -7.64 0.53 14.6085 344.8223 6.4837
+Line -6.5542 0.2355 -2 -1
+Line -2 2 -6.5514 0.8137
+Arc 1.6876 5.2976 -0.0324 324.734 360 1.0387
+Arc 1.6876 5.2976 1.0926 0 34.7465 1.0234
+Line -2 -1 6.6831 -0.9959
+Line 6.7173 2.005 -2 2
+Line 6.985 -0.0324 6.985 1.0926
+End
+Define Class rotor
+Line 2.8278 4.8625 -2.7972 -4.8802
+Arc 5.625 0 0 240.1802 270 2.9276
+Arc 5.625 0 0 150.0927 180 2.9361
+Arc 5.625 0 0 329.9073 360 2.9543
+Line -4.8759 2.8046 4.8668 -2.8204
+Arc 5.625 0 0 59.8198 90 2.9629
+Line 0 5.6 0 -5.6
+Line -5.6 0 5.6 0
+End
+Color Backdrop
+Line #1 -40 130 0 30.8696
+Line #2 -6 60 -6 114
+Color L3
+Line -37.4225 118.7887 -13.7959 60
+Line -8.4305 60 -33 121
+Line -8 60 -8 116
+Line -3 111.5 -2.9967 60
+Color Backdrop
+Line #3 18 92 3 92
+Line 3 94 3 90
+Color L4
+Line 0 97 27 97
+Color L3
+Line 0 0 0 108
+Color Backdrop
+Line #4 18 72 3 72
+Color L6
+Line 0 77 11 77
+Color Backdrop
+Line #5 18 82 3 82
+Line 3 74 3 70
+Line 3 84 3 80
+Color L6
+Line 0 87 11 87
+Color Backdrop
+Line #6 14 62 3 62
+Color L6
+Line 0 67 11 67
+Line 0 57 11 57
+Color Backdrop
+Line #7 -6 60 0.3043 31
+Line #8 18 52 3 52
+Line 3 64 3 60
+Line 3 54 3 50
+Color F7
+Line -8 60 -8.4305 60
+Color L6
+Line 0 47 11 47
+Color L3
+Line -100 60 -13.7959 60
+Line -2.9967 60 0 60
+Line #9 -12 50 -100 50
+Arc  #10 5 -12 45 0 90 7.854
+Color L5
+Fill -5.0881 54.0753
+Color F7
+Fill -1.4543 63.5403
+Color L5
+Fill -13.1423 47.703
+Color L3
+Line -3 111.5 62.1898 111.5
+Line 0 108 38 108
+Color Backdrop
+Line #11 -7 30 -7 45
+Color F4
+Text 1 1 LJ 0 33 Emergency Entrance
+Color L4
+Line 0 37 11 37
+Color F3
+Text 1 3 LJ -74 30 Ambulance Arrivals
+Color Backdrop
+Line #12 -9 31 18 31
+Color L3
+Line #13 -7 -5 -7 30
+Color F4
+Text 1 1 LJ 2 16 Public Entry
+Color Backdrop
+Line #14 -2 -4 -2 11
+Line #15 1 14 20 14
+Color L4
+Line 0 12 10 12
+Color Backdrop
+Arc  #16 3 1 11 90 180 4.7124
+Color F3
+Text 1 1 LJ 2 8 Toilets
+Color L4
+Line 10 6 0 6
+Color F3
+Text 1 3 LJ -56 6 Walk-in Arrivals
+Color Backdrop
+Line #17 1 2 30 2
+Color F4
+Text 1 2 LJ 0 98 Trauma
+Color L3
+Line -33 121 2.412 138.706
+Line -30.893 115.7689 5.3831 132.7733
+Line -33 121 -47.5775 148.2113
+Line -37.4225 118.7887 -52 146
+Color Backdrop
+Line #18 -6 114 61.6077 114
+Color L3
+Line -8 116 62.1725 116
+Line -50.1039 106.7638 -35.3662 113.6721
+Line -48.6488 113.1756 -37.4225 118.7887
+Color F3
+Text 1 3 LJ -78 120 Boat Arrivals
+Color L3
+Arc 20 -57.5931 131.0641 257.4712 296.5651 13.6463
+Line -100 112.5161 -62.393 105.2374
+Color F6
+Fill -57.8845 108.1999
+Color L3
+Line -100 120 -61.9317 111.5404
+Arc 20 -58.5926 124.873 259.0459 295.1148 12.5904
+Color F7
+Fill -45.9821 83.9406
+Fill -15.8127 102.8379
+Color F1
+Text 1 3 LJ -74 30 Ambulance Arrivals
+Text 1 3 LJ -56 6 Walk-in Arrivals
+Color L3
+Line 0 0 32 0
+Color F3
+Line 0 0 0 -15
+Color L3
+Line -100 195 -100 -15
+Line -100 -15 150 -15
+Line 74 72 49.5476 111.5
+Color Backdrop
+Line #19 14 63 14 106
+Line #20 18 63 18 106
+Color L6
+Line 11 47 11 97
+Color Backdrop
+Line 6 91 6 93
+Color L4
+Line 27 97 27 93
+Line 27 93 31 93
+Line 31 93 31 100
+Color F4
+Text 1 1 LJ 32 94 Stairs
+Text 1 1 Angle 90 LJ 29 94 Closet
+Color Backdrop
+Line 13 100 19 100
+Color L4
+Line 27 97 27 108
+Line 31 100 27 100
+Line 31 100 38 100
+Line 27 100 38 108
+Line 27 108 38 100
+Color F3
+Line 38 108 38 86
+Color F7
+Line 22 76 22 61
+Line 20 61 20 76
+Arc 3 39 72.7601 180 226.273 2.4229
+Line 31 73.5 31 64.5
+Line 33 64.5 33 73.5
+Color Backdrop
+Line #21 25 62 25 85
+Line #22 28 77 28 65
+Color F7
+Line 33 73.5 31 73.5
+Line 36 80 36 72.7601
+Line 20 76 22 76
+Color Backdrop
+Line #23 28 77 34 77
+Line #24 14 78 25 78
+Color L4
+Line 38 80 27 80
+Line 27 80 27 86
+Color F3
+Text 1 1 LJ 30 82 Toilets
+Color Backdrop
+Line 6 71 6 73
+Line 6 81 6 83
+Line 14 85 25 85
+Color L4
+Line 27 86 38 86
+Color L3
+Line 38 80 38 72
+Line 38 86 38 80
+Color F3
+Line 38 72 48 62
+Color F7
+Line 48 60 36.9263 70.5922
+Color Backdrop
+Line #25 14 63 14 31
+Line #26 18 31 18 63
+Line #27 23 40 23 56
+Line #28 33 56 33 40
+Line #29 48 44 40 56
+Line #30 14 62 18 62
+Line #31 18 56 14 56
+Line #32 40 56 18 56
+Color F7
+Line 22 61 22 58
+Line 20 58 20 61
+Line 32 59 22 59
+Line 32 59 32 58
+Color Backdrop
+Line #33 33 56 33 62
+Color F7
+Line 22 58 20 58
+Line 22 58 32 58
+Color Backdrop
+Line #34 36 52 36 62
+Color F7
+Line 31 64.5 33 64.5
+Color Backdrop
+Line #35 25 62 33 62
+Color F7
+Line 50 45 42 58
+Line 42 58 42 59
+Line 38 59 38 58
+Line 42 59 38 59
+Line 38 58 42 58
+Line 48 57 48 62
+Line 51 57 48 57
+Color F4
+Text 1 1.5 LJ 24 60 Nurses' Station
+Color Backdrop
+Line #36 43 51.5 43 29
+Line #37 40 52 43 40
+Color L6
+Line 29 47 29 34
+Color L4
+Line 20 23 20 47
+Line 11 47 11 37
+Line 38 23 38 47
+Line 39.5 47 39.5 38
+Color Backdrop
+Line #38 18 52 40 52
+Color F7
+Line 51 54 51 57
+Line 58 54 51 54
+Color F4
+Text 1 1 LJ 49 49 Clean
+Color Backdrop
+Line 6 61 6 63
+Line 6 51 6 53
+Color L4
+Line 38 47 38 49
+Line 38 49 38.6667 49
+Line 38.6667 49 39.5 47
+Color L6
+Line 38 47 20 47
+Color F3
+Line 64 62 48 62
+Color F15
+Fill 42.7275 73.9985
+Color Backdrop
+Arc  #39 10 81.1756 107.0351 135.8537 215.5303 13.9062
+Arc  #40 10 87.982 95.6433 202.6199 282.9946 14.028
+Line #41 73.0376 101.2237 78.7512 91.7971
+Color F4
+Text 1 1 LJ 30 101 Shaft
+Text 1 1 LJ 30 101 Shaft
+Color Backdrop
+Line #42 90.2306 85.8994 150 99.6923
+Color L5
+Fill 103.8252 94.5858
+Color F3
+Text 1 3 LJ 76 78 Helicopter Arrivals
+Color L3
+Line 74 72 150 72
+Color Backdrop
+Line #43 120 44 48 44
+Line 17 42 20 42
+Line 34 43 32 43
+Line 24 43 21 43
+Line #44 53 44 53 29
+Line 48 44 43 44
+Color F7
+Text 1 1 LJ 53 58 Laundry
+Line 56 45 56 54
+Line 58 45 58 54
+Line 64 54 58 54
+Line 50 45 64 45
+Color F3
+Text 1 2 LJ 54 64 Internal Arrivals
+Color Backdrop
+Line #45 43 40 120 40
+Line 31 40 35 40
+Line 21 40 25 40
+Color L4
+Line 20 34 38 34
+Color L6
+Line 38 38 58 38
+Line 48 25 48 38
+Color Backdrop
+Line 12 34 16 34
+Color L4
+Line 77 38 87 38
+Color L6
+Line 67 38 77 38
+Color L4
+Line 77 17 77 38
+Color Backdrop
+Line #46 70 49 79 49
+Line #47 79 49 79 44
+Color L4
+Line 65 52 74 46
+Line 74 52 65 46
+Line 74 61 65 55
+Line 65 61 74 55
+Line 74 52 65 52
+Line 65 55 74 55
+Color F4
+Text 1 1 LJ 65 53 Elevators
+Color L4
+Line 74 61 65 61
+Line 64 45 75 45
+Line 66 46 74 46
+Line 75 45 75 62
+Line 74 46 74 52
+Line 74 55 74 61
+Color Backdrop
+Line #48 59 44 59 21
+Color L6
+Line 58 25 58 38
+Color F7
+Line 64 45 64 62
+Color L4
+Line 65 52 65 46
+Line 65 61 65 55
+Line 65 46 66 46
+Color Backdrop
+Line #49 63 18 63 44
+Color L6
+Arc 3 67 35 90 180 4.7124
+Line 64 35 64 17
+Color Backdrop
+Line 71 31 71 34
+Color L3
+Line 64 62 75 62
+Color F3
+Line 122 62 75 62
+Color L4
+Line 122 45 85 45
+Line 85 50 97 50
+Line 97 45 97 62
+Color F4
+Text 1 1 LJ 87 56 Soil
+Color L4
+Line 93 56 97 56
+Line 93 62 93 50
+Color F4
+Text 1 1 LJ 98 52 Lounge
+Color L4
+Line 87 38 87 17
+Line 110 53 122 53
+Line 110 45 110 53
+Color F4
+Text 1 1 LJ 111 50 Nurse's
+Text 1 1 LJ 111 48 Office
+Color Backdrop
+Line #50 106 46 106 60
+Line #51 106 60 120 60
+Line #52 82 44 82 24
+Color L4
+Line 87 35 100 35
+Line 100 35 122 35
+Line 100 35 100 17
+Line 108 35 108 27
+Line 112 35 112 27
+Color L3
+Line 122 17 122 62
+Color L4
+Line 85 45 85 62
+Color F4
+Text 1 1 LJ 21 28 Admissions-Collections
+Color L4
+Line 8 26 17 26
+Line 17 26 17 27
+Line 17 27 7 27
+Line 17 26 17 25
+Line 12 26 12 25
+Line 14 26 14 25
+Line 17 25 8 25
+Line 8 20 8 26
+Line 7 27 7 19
+Color Backdrop
+Line 54 32 52 32
+Color L4
+Line 38 25 58 25
+Line 56 25 56 22
+Color Backdrop
+Line 44 32 42 32
+Color L6
+Line 64 27 77 27
+Color Backdrop
+Line 80 27 84 27
+Line #53 59 32 74 32
+Line 59 21 30 21
+Color L4
+Line 20 24 38 24
+Line 32 24 32 23
+Line 26 24 26 23
+Line 29 24 29 23
+Line 35 24 35 23
+Line 20 23 38 23
+Color Backdrop
+Line #54 30 2 30 21
+Color L4
+Line 23 24 23 23
+Color Backdrop
+Line #55 17 23 9 23
+Color F4
+Text 1 1.3 LJ 9 20 Triage
+Text 1 1 LJ 38 23 Fast Track Waiting
+Color Backdrop
+Line 63 18 30 18
+Color L4
+Line 38 24 38 22
+Line 20 19 20 20
+Line 20 20 8 20
+Line 7 19 20 19
+Color Backdrop
+Line #56 59 22 74 22
+Line 71 20 71 23
+Color F4
+Text 1 1 LJ 78 20 Treatment
+Color L4
+Line 10 12 10 6
+Color F4
+Text 1 2 LJ 14 6 Waiting
+Text 1 2 LJ 14 6 Waiting
+Color F3
+Text 1 2.5 LJ 42 2 (916) 448-5259
+Text 1 2.5 LJ 42 10 Animation by AIC Engineering
+Color F4
+Text 1 2.5 LJ 42 6 Sacramento, CA
+Color F3
+Text 1 2.5 LJ 42 6 Sacramento, CA
+Text 1 2.5 LJ 42 6 Sacramento, CA
+Color L3
+Line 116 14 40 14
+Line 40 14 40 0
+Line 32 17 122 17
+Line 32 0 32 17
+Color F4
+Text 1 1 LJ 100 30 Dressing
+Color L4
+Line 112 27 100 27
+Line 112 27 112 17
+Color F4
+Text 1 1 LJ 101 21 Developer
+Color L3
+Line 116 0 116 14
+Arc 12 73.9682 113.7952 191.0267 360 35.3897
+Color F4
+Text 1 2 LJ 88 24 X-Ray
+Text 1 2 LJ 114 24 X-
+Text 1 2 LJ 114 20 Ray
+Color Backdrop
+Arc  #57 10 -28 142.2076 288.4349 360 12.4905
+Line #58 -18 142.2076 -18 190
+Line #59 -33 130 -24.8377 132.7208
+Line #60 -35.7639 135.5279 -33 130
+Arc  #61 10 -26.8197 140 107.0153 206.5651 17.3747
+Color L3
+Line 10.8678 133.6415 73.6685 125.7915
+Arc 10 9.6275 123.7187 82.875 115.1148 5.6269
+Arc 10 6.8841 129.7617 84.2894 116.5651 5.6332
+Line 7.8791 139.7121 103.9497 130.105
+Color Backdrop
+Line #62 74 114 150 114
+Color L3
+Line 77.2116 125.3486 102.5331 122.1834
+Color L5
+Fill 73.6084 114.1769
+Color F7
+Fill 83.9492 123.2476
+Color L3
+Line 82.725 122 150 122
+Arc 10 103.7735 132.1061 262.875 279.693 2.9353
+Arc 10 104.9448 140.0554 264.2894 276.3402 2.1033
+Color F6
+Fill 102.497 126.4629
+Color L3
+Line 105.4572 122.2489 150 129.8571
+Line 106.0491 130.1166 150 135
+Arc 12 73.9682 113.7952 0 169.4127 35.4817
+Color L5
+Fill -46.9001 141.427
+Color F1
+Fill -56.9227 124.056
+Fill -26.4217 133.3389
+Fill 100.5552 136.3227
+Color F7
+Fill 52.8145 81.2883
+Fill 128.7355 124.3875
+Fill 83.3155 123.7245
+Fill 83.3155 123.7245
+Color F1
+Text 1 3 LJ 76 78 Helicopter Arrivals
+Color L3
+Line 40 0 116 0
+Line -52 146 -47.5775 148.2113
+Color Backdrop
+Line #63 122 196 -29.746 149.5623
+Color L3
+Line -100 200 150 200
+Color F7
+Fill 136.9325 125.735
+Fill 137.0257 46.1358
+Color L3
+Line 150 200 150 -15
+Define Path walkin Accumulating Label -1.7696 8.6697 Speed 240
+Segment #14 -2 -4 -2 11 15
+Segment #16 -2 11 1 14 4.7124 CW
+Segment #15 1 14 20 14 19
+End
+Define Path amblv Accumulating Label -24.5358 35.1909 Speed 480
+Segment #11 -7 31 -7 45 14
+Segment #10 -7 45 -12 50 7.854 CCW
+Segment #9 -12 50 -100 50 88
+End
+Define Path trq Accumulating LEAPOK Label 7.3244 22.7059 Speed 999999
+Segment #55 9 23 17 23 8
+End
+Define Path nursq Accumulating LEAPOK Label 25.2721 85.5635 Speed 999999
+Segment #21 25 85 25 62 23
+Segment #35 25 62 33 62 8
+End
+Define Path ambarv Accumulating Label -6.6847 -4.2145 Speed 480
+Segment #13 -7 -5 -7 30 35
+Segment #11 -7 30 -7 31 1
+End
+Define Path waitq Accumulating LEAPOK Label -1.1556 1.7196 Speed 999999
+Segment #17 1 2 30 2 29
+Segment #54 30 2 30 21 19
+End
+Define Path nrsamb Accumulating LEAPOK Label 14.4405 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #32 33 56 18 56 15
+Segment #31 18 56 14 56 4
+Segment #25 14 56 14 34 22
+End
+Define Path trto1 Accumulating LEAPOK Label 10.9364 51.6685 Speed 240
+Segment #26 18 31 18 52 21
+Segment #8 18 52 3 52 15
+End
+Define Path trto2 Accumulating LEAPOK Label 14.9998 61.501 Speed 240
+Segment #26 18 31 18 62 31
+Segment #30 18 62 14 62 4
+Segment #6 14 62 3 62 11
+End
+Define Path trto3 Accumulating LEAPOK Label 14.9998 71.5342 Speed 240
+Segment #26 18 31 18 63 32
+Segment #20 18 63 18 72 9
+Segment #4 18 72 3 72 15
+End
+Define Path trto4 Accumulating LEAPOK Label 14.9998 81.5674 Speed 240
+Segment #26 18 31 18 63 32
+Segment #20 18 63 18 82 19
+Segment #5 18 82 3 82 15
+End
+Define Path trto5 Accumulating LEAPOK Label 14.9998 91.6006 Speed 240
+Segment #26 18 31 18 63 32
+Segment #20 18 63 18 92 29
+Segment #3 18 92 3 92 15
+End
+Define Path trto6 Accumulating LEAPOK Label 18.5168 32.5621 Speed 240
+Segment #26 18 31 18 63 32
+Segment #20 18 63 18 106 43
+End
+Define Path trto7 Accumulating LEAPOK Label 18.5168 32.5621 Speed 240
+Segment #26 18 31 18 52 21
+Segment #38 18 52 23 52 5
+Segment #27 23 52 23 40 12
+End
+Define Path trto8 Accumulating LEAPOK Label 18.5168 32.5621 Speed 240
+Segment #26 18 31 18 52 21
+Segment #38 18 52 33 52 15
+Segment #28 33 52 33 40 12
+End
+Define Path trto9 Accumulating LEAPOK Label 18.5168 32.5621 Speed 240
+Segment #26 18 31 18 52 21
+Segment #38 18 52 40 52 22
+Segment #37 40 52 43 40 12.3693
+Segment #36 43 40 43 29 11
+End
+Define Path trto10 Accumulating LEAPOK Label 18.5168 32.5621 Speed 240
+Segment #26 18 31 18 52 21
+Segment #38 18 52 40 52 22
+Segment #37 40 52 43 40 12.3693
+Segment #45 43 40 53 40 10
+Segment #44 53 40 53 29 11
+End
+Define Path trto11 Accumulating LEAPOK Label 18.5168 32.5621 Speed 240
+Segment #26 18 31 18 52 21
+Segment #38 18 52 40 52 22
+Segment #37 40 52 43 40 12.3693
+Segment #45 43 40 59 40 16
+Segment #48 59 40 59 32 8
+Segment #53 59 32 74 32 15
+End
+Define Path trto12 Accumulating LEAPOK Label 18.5168 32.5621 Speed 240
+Segment #26 18 31 18 52 21
+Segment #38 18 52 40 52 22
+Segment #37 40 52 43 40 12.3693
+Segment #45 43 40 59 40 16
+Segment #48 59 40 59 22 18
+Segment #56 59 22 74 22 15
+End
+Define Path trto13 Accumulating LEAPOK Label 18.5168 32.5621 Speed 240
+Segment #26 18 31 18 52 21
+Segment #38 18 52 40 52 22
+Segment #37 40 52 43 40 12.3693
+Segment #45 43 40 82 40 39
+Segment #52 82 40 82 24 16
+End
+Define Path r1nrs Accumulating Label 0.5814 51.4033 Speed 240
+Segment #8 6 52 18 52 12
+Segment #38 18 52 36 52 18
+Segment #34 36 52 36 62 10
+End
+Define Path r2nrs Accumulating LEAPOK Label -2.4078 61.1862 Speed 240
+Segment #6 3 62 14 62 11
+Segment #30 14 62 18 62 4
+Segment #26 18 62 18 63 1
+Segment #20 18 63 18 78 15
+Segment #24 18 78 25 78 7
+End
+Define Path r3nrs Accumulating Label -2.4078 71.3315 Speed 240
+Segment #4 3 72 18 72 15
+Segment #20 18 72 18 78 6
+Segment #24 18 78 25 78 7
+End
+Define Path r4nrs Accumulating Label -2.4078 81.1144 Speed 240
+Segment #5 3 82 14 82 11
+Segment #19 14 82 14 78 4
+Segment #24 14 78 25 78 11
+End
+Define Path r5nrs Accumulating Label -2.4078 91.2597 Speed 240
+Segment #3 3 92 14 92 11
+Segment #19 14 92 14 78 14
+Segment #24 14 78 25 78 11
+End
+Define Path r6nrs Accumulating Label 8.2006 103.9523 Speed 240
+Segment #19 14 106 14 78 28
+Segment #24 14 78 25 78 11
+End
+Define Path r7nrs Accumulating Label 23.4082 42.345 Speed 240
+Segment #27 23 41 23 52 11
+Segment #38 23 52 36 52 13
+Segment #34 36 52 36 62 10
+End
+Define Path r8nrs Accumulating Label 33.4629 42.345 Speed 240
+Segment #28 33 41 33 52 11
+Segment #38 33 52 36 52 3
+Segment #34 36 52 36 62 10
+End
+Define Path r9nrs Accumulating Label 43.5176 30.3881 Speed 240
+Segment #36 43 29 43 51.5 22.5
+Segment #29 43 51.5 40 56 5.4083
+Segment #32 40 56 36 56 4
+Segment #34 36 56 36 62 6
+End
+Define Path r10nrs Accumulating Label 53.5723 30.3881 Speed 240
+Segment #44 53 29 53 44 15
+Segment #43 53 44 48 44 5
+Segment #29 48 44 40 56 14.4222
+Segment #32 40 56 36 56 4
+Segment #34 36 56 36 62 6
+End
+Define Path r11nrs Accumulating Label 67.4314 31.1127 Speed 240
+Segment #53 74 32 63 32 11
+Segment #49 63 32 63 44 12
+Segment #43 63 44 48 44 15
+Segment #29 48 44 40 56 14.4222
+Segment #32 40 56 36 56 4
+Segment #34 36 56 36 62 6
+End
+Define Path r12nrs Accumulating Label 67.4314 21.3298 Speed 240
+Segment #56 74 22 63 22 11
+Segment #49 63 22 63 44 22
+Segment #43 63 44 48 44 15
+Segment #29 48 44 40 56 14.4222
+Segment #32 40 56 36 56 4
+Segment #34 36 56 36 62 6
+End
+Define Path r13nrs Accumulating Label 83.7363 27.4894 Speed 240
+Segment #52 82 24 82 44 20
+Segment #43 82 44 48 44 34
+Segment #29 48 44 40 56 14.4222
+Segment #32 40 56 36 56 4
+Segment #34 36 56 36 62 6
+End
+Define Path nrsto1 Accumulating LEAPOK Label 34.2782 67.3458 Speed 240
+Segment #33 33 62 33 56 6
+Segment #32 33 56 18 56 15
+Segment #31 18 56 14 56 4
+Segment #25 14 56 14 52 4
+Segment #8 14 52 6 52 8
+End
+Define Path nrsto2 Accumulating LEAPOK Label 33.4629 64.4472 Speed 240
+Segment #33 33 62 33 56 6
+Segment #32 33 56 18 56 15
+Segment #26 18 56 18 62 6
+Segment #30 18 62 14 62 4
+Segment #6 14 62 6 62 8
+End
+Define Path nrsto3 Accumulating LEAPOK Label 33.4629 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #32 33 56 18 56 15
+Segment #26 18 56 18 63 7
+Segment #20 18 63 18 72 9
+Segment #4 18 72 6 72 12
+End
+Define Path nrsto4 Accumulating LEAPOK Label 33.4629 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #32 33 56 18 56 15
+Segment #26 18 56 18 63 7
+Segment #20 18 63 18 82 19
+Segment #5 18 82 6 82 12
+End
+Define Path nrsto5 Accumulating LEAPOK Label 33.4629 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #32 33 56 18 56 15
+Segment #26 18 56 18 63 7
+Segment #20 18 63 18 92 29
+Segment #3 18 92 6 92 12
+End
+Define Path nrsto6 Accumulating LEAPOK Label 33.4629 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #32 33 56 18 56 15
+Segment #26 18 56 18 63 7
+Segment #20 18 63 18 100 37
+End
+Define Path nrsto7 LEAPOK Label 33.4629 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #32 33 56 23 56 10
+Segment #27 23 56 23 43 13
+End
+Define Path nrsto8 Accumulating LEAPOK Label 33.4629 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #28 33 56 33 43 13
+End
+Define Path nrsto9 Accumulating LEAPOK Label 33.4629 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #28 33 56 33 52 4
+Segment #38 33 52 40 52 7
+Segment #37 40 52 43 40 12.3693
+Segment #36 43 40 43 32 8
+End
+Define Path nrsto10 Accumulating LEAPOK Label 33.4629 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #28 33 56 33 52 4
+Segment #38 33 52 40 52 7
+Segment #37 40 52 43 40 12.3693
+Segment #45 43 40 53 40 10
+Segment #44 53 40 53 32 8
+End
+Define Path nrsto11 Accumulating LEAPOK Label 33.4629 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #28 33 56 33 52 4
+Segment #38 33 52 40 52 7
+Segment #37 40 52 43 40 12.3693
+Segment #45 43 40 59 40 16
+Segment #48 59 40 59 32 8
+Segment #53 59 32 71 32 12
+End
+Define Path nrsto12 Accumulating LEAPOK Label 33.4629 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #28 33 56 33 52 4
+Segment #38 33 52 40 52 7
+Segment #37 40 52 43 40 12.3693
+Segment #45 43 40 59 40 16
+Segment #48 59 40 59 22 18
+Segment #56 59 22 71 22 12
+End
+Define Path nrsto13 Accumulating LEAPOK Label 33.4629 63.3602 Speed 240
+Segment #33 33 62 33 56 6
+Segment #28 33 56 33 52 4
+Segment #38 33 52 40 52 7
+Segment #37 40 52 43 40 12.3693
+Segment #45 43 40 82 40 39
+Segment #52 82 40 82 27 13
+End
+Define Path trgnrs Accumulating Label 18.5168 32.5621 Speed 240
+Segment #26 18 31 18 52 21
+Segment #38 18 52 36 52 18
+Segment #34 36 52 36 62 10
+End
+Define Path nrsbrk Accumulating Label 106.2914 58.6499 Speed 999999
+Segment #51 120 60 106 60 14
+Segment #50 106 60 106 46 14
+End
+Define Path r1trg Accumulating LEAPOK Label 0.2854 51.6901 Speed 240
+Segment #8 3 52 14 52 11
+Segment #25 14 52 14 31 21
+End
+Define Path r2trg Accumulating LEAPOK Label -0.2339 59.0122 Speed 240
+Segment #6 3 62 14 62 11
+Segment #25 14 62 14 31 31
+End
+Define Path r3trg Accumulating LEAPOK Label 0.2854 71.5558 Speed 240
+Segment #4 3 72 14 72 11
+Segment #19 14 72 14 63 9
+Segment #25 14 63 14 31 32
+End
+Define Path r4trg Accumulating LEAPOK Label -0.2957 81.6146 Speed 240
+Segment #5 3 82 14 82 11
+Segment #19 14 82 14 63 19
+Segment #25 14 63 14 31 32
+End
+Define Path r5trg Accumulating LEAPOK Label -0.2957 91.6478 Speed 240
+Segment #3 3 92 14 92 11
+Segment #19 14 92 14 63 29
+Segment #25 14 63 14 31 32
+End
+Define Path r6trg Accumulating LEAPOK Label 14.2524 106.8091 Speed 240
+Segment #19 14 106 14 63 43
+Segment #25 14 63 14 31 32
+End
+Define Path r7trg Accumulating LEAPOK Label 23.4077 40.9802 Speed 240
+Segment #27 23 40 23 52 12
+Segment #38 23 52 18 52 5
+Segment #8 18 52 14 52 4
+Segment #25 14 52 14 31 21
+End
+Define Path r8trg Accumulating LEAPOK Label 33.2737 43.8787 Speed 240
+Segment #28 33 40 33 52 12
+Segment #38 33 52 18 52 15
+Segment #8 18 52 14 52 4
+Segment #25 14 52 14 31 21
+End
+Define Path r9trg Accumulating LEAPOK Label 43.3069 29.8322 Speed 240
+Segment #36 43 29 43 51.5 22.5
+Segment #29 43 51.5 40 56 5.4083
+Segment #32 40 56 18 56 22
+Segment #31 18 56 14 56 4
+Segment #25 14 56 14 31 25
+End
+Define Path r10trg Accumulating LEAPOK Label 53.3401 29.8322 Speed 240
+Segment #44 53 29 53 44 15
+Segment #43 53 44 48 44 5
+Segment #29 48 44 40 56 14.4222
+Segment #32 40 56 18 56 22
+Segment #31 18 56 14 56 4
+Segment #25 14 56 14 31 25
+End
+Define Path r11trg Accumulating LEAPOK Label 70.0621 31.6159 Speed 240
+Segment #53 74 32 63 32 11
+Segment #49 63 32 63 44 12
+Segment #43 63 44 48 44 15
+Segment #29 48 44 40 56 14.4222
+Segment #32 40 56 18 56 22
+Segment #31 18 56 14 56 4
+Segment #25 14 56 14 31 25
+End
+Define Path r12trg Accumulating LEAPOK Label 70.0621 21.5827 Speed 240
+Segment #56 74 22 63 22 11
+Segment #49 63 22 63 44 22
+Segment #43 63 44 48 44 15
+Segment #29 48 44 40 56 14.4222
+Segment #32 40 56 18 56 22
+Segment #31 18 56 14 56 4
+Segment #25 14 56 14 31 25
+End
+Define Path r13trg Accumulating LEAPOK Label 82.2691 24.9271 Speed 240
+Segment #52 82 24 82 44 20
+Segment #43 82 44 48 44 34
+Segment #29 48 44 40 56 14.4222
+Segment #32 40 56 18 56 22
+Segment #31 18 56 14 56 4
+Segment #25 14 56 14 31 25
+End
+Define Path docq Accumulating LEAPOK Label 32.0701 76.6585 Speed 999999
+Segment #23 34 77 28 77 6
+Segment #22 28 77 28 65 12
+End
+Define Path boatarv Accumulating Label -37.1286 149.2417 Speed 480
+Segment #63 122 196 -29.746 149.5623 158.6925
+Segment #61 -29.746 149.5623 -35.7819 135.5638 17.3345 CCW
+Segment #60 -35.7639 135.5279 -33 130 6.1803
+End
+Define Path boatlv Accumulating Label -41.9792 128.8444 Speed 480
+Segment #59 -33 130 -24.8377 132.7208 8.6038
+Segment #57 -24.8377 132.7208 -18 142.2076 12.4905 CCW
+Segment #58 -18 142.2076 -18 190 47.7924
+End
+Define Path emrgin Accumulating LEAPOK Label -8.8647 30.216 Speed 240
+Segment #12 0 31 14 31 14
+End
+Define Path boatin Accumulating Label -11.1034 62.0557 Speed 240
+Segment #1 -40 130 -0.0526 31 106.7558
+End
+Define Path helicin Accumulating Label 51.2079 112.8002 Speed 240
+Segment #18 61.6077 114 -6 114 67.6077
+Segment #2 -6 114 -6 60 54
+Segment #7 -6 60 -0.00004346 32.4 28.2446
+End
+Define Path helicarv Accumulating LEAPOK Label 138.0518 112.8002 Speed 240
+Segment #62 150 114 74 114 76
+End
+Define Path heliclv Accumulating LEAPOK Label 77.2331 98.8703 Speed 240
+Segment #39 74 114 72.6115 101.8721 13.1302 CCW
+Segment #41 73.0376 101.2237 78.7512 91.7971 11.7765
+Segment #40 78.7512 91.7971 90.2306 85.8994 14.028 CCW
+Segment #42 90.2306 85.8994 150 99.6923 61.3403
+End
+Define Path internin Accumulating Label 64.0957 48.4775 Speed 240
+Segment #46 70 49 79 49 9
+Segment #47 79 49 79 44 5
+Segment #43 79 44 48 44 31
+Segment #29 48 44 40 56 14.4222
+Segment #32 40 56 33 56 7
+End
+End

@@ -1,0 +1,58 @@
+Define View "(Home)" center 90.125 120.0625 width 159.75 Grid Size 1 20 Ortho Aspect 0.75 0.5 Speed 6 Mouse 5
+Define View "(Class)" center 0 0 width 7.9875 Grid Size 0.1 1 Ortho
+Define color Backdrop 0 0 0
+Define color Blue 0 0 0.6667
+Define color Red 1 0 0
+Define color White 1 1 1
+Define color Yellow 1 1 0
+Define color Pink 1 0 0.6667
+Define color Tan 1 0.6667 0
+Define color Green 0 1 0
+Define color Layout 0.5079 0.5079 0.5079
+Color Layout
+Arc 4 136 136 0 90 6.2832
+Arc 4 136 84 -90 0 6.2832
+Line 140 136 140 84
+Arc 4 44 84 180 270 6.2832
+Arc 4 64 136 90 180 6.2832
+Line 64 140 136 140
+Arc 4 44 96 90 180 6.2832
+Line 40 96 40 84
+Arc 4 76 84 -90 0 6.2832
+Arc 4 124 84 180 270 6.2832
+Arc 4 56 94 -90 0 6.2832
+Arc 4 76 104 -90 0 6.2832
+Arc 4 76 94 -90 0 6.2832
+Arc 4 84 116 90 180 6.2832
+Arc 4 84 124 180 270 6.2832
+Arc 4 76 124 -90 0 6.2832
+Arc 4 76 116 0 90 6.2832
+Arc 4 116 124 -90 0 6.2832
+Arc 4 124 124 180 270 6.2832
+Arc 4 124 116 90 180 6.2832
+Arc 4 116 116 0 90 6.2832
+Arc 4 64 116 90 180 6.2832
+Arc 4 64 124 180 270 6.2832
+Arc 4 76 136 0 90 6.2832
+Arc 4 84 136 90 180 6.2832
+Arc 4 116 136 0 90 6.2832
+Arc 4 124 136 90 180 6.2832
+Arc 4 136 124 -90 0 6.2832
+Arc 4 136 116 0 90 6.2832
+Line 64 120 136 120
+Line 124 80 136 80
+Line 120 136 120 84
+Line 44 100 76 100
+Line 44 80 76 80
+Line 80 136 80 84
+Arc 4 44 94 180 270 6.2832
+Arc 4 56 84 -90 0 6.2832
+Line 44 90 76 90
+Line 60 136 60 84
+Color White
+Text 1 2 CENTER 100 110 GUIDE PATH
+Text 1 2 CENTER 100 106 EXAMPLE
+Text 1 2 CENTER 100 98 LAYOUT
+Text 1 2 CENTER 100 94 COLOR
+Text 1 2 CENTER 100 86 RADIUS=4
+End

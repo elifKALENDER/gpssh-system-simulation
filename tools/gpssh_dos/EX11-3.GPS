@@ -1,0 +1,24 @@
+       SIMULATE
+       INTEGER   &N
+ OUT1  FILEDEF   'EX11-3.DAT'
+*
+*      GPSS/H Block Section
+*
+       GENERATE   4,1         A bundle arrives
+       ADVANCE    2           Transportation time to the staging area
+       SEIZE      SERVER      Capture the line server
+       ADVANCE    3.75,1      Prepare a bundle
+       RELEASE    SERVER      Release the line server
+       TERMINATE  0           Increment finished bundles by 1
+*
+*      GPSS/H Control Statements
+*
+       GENERATE   10
+       TERMINATE  1
+       DO         &N=1,50
+       RESET
+       START      1,NP         Terminate simulation after 100 bundles
+       PUTPIC     FILE=OUT1,(&N,FR(SERVER)/1000.)
+ ***   ****.****
+       ENDDO
+       END

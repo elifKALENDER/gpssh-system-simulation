@@ -1,0 +1,317 @@
+Define View "(Home)" center -4 27 Width 120 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 15 Tolerance 0.2372
+Define View "(Class)" center 0 0 Width 24 Grid Size 0.2 2 Ortho
+Define color Backdrop  0.4118 0.4706 0.5216
+Define color F1 0.8392 0.3176 0.1294
+Define color F2 0.7255 0.7255 0.7255
+Define color F3 0 0 0
+Define color F4 0.6667 0.6667 0.6667
+Define color F5 0.8471 0.1216 0.102
+Define color F6 1 0 0
+Define color F7 1 1 0
+Define color F8 0.898 0.2471 0.2471
+Define color F9 0 0 1
+Define color F10 0.749 0.2471 0.2471
+Define color F11 0.6 0.949 1
+Define color F12 0.498 0.349 0
+Define color F13 0.749 0.4 0.6667
+Define color F14 0.3765 0.4275 0.4706
+Define color F15 0 0.6 0.2
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3294 0
+Define color F19 0.4353 0.4549 0.5451
+Define color F20 0 0.3294 0.3294
+Define color F21 0.898 0.6667 0.498
+Define color F22 0.498 0.2471 0.498
+Define color F23 0.749 0.6 0
+Define color F24 0.498 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 1 1 1
+Define color L2 0.6667 0.949 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.898 0.6667 0.498
+Define color L6 0.4 0.498 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F4
+Define Class MACH2I
+Line 0 0.25 0.25 0.25
+Line 0.25 0.25 0.25 1
+Line 0.25 1 0 1
+Line 0 1 0 0.25
+Line 0.25 0.75 3.75 0.75
+Line 3.75 0.75 3.75 1
+Line 3.75 1 0.25 1
+Line 0.25 1 0.25 0.75
+Line 3.75 0.25 4 0.25
+Line 4 0.25 4 1
+Line 4 1 3.75 1
+Line 3.75 1 3.75 0.25
+Line 0 -2 0.25 -2
+Line 0.25 -2 0.25 -1.25
+Line 0.25 -1.25 0 -1.25
+Line 0 -1.25 0 -2
+Line 0.25 -2 3.75 -2
+Line 3.75 -2 3.75 -1.75
+Line 3.75 -1.75 0.25 -1.75
+Line 0.25 -1.75 0.25 -2
+Line 3.75 -2 4 -2
+Line 4 -2 4 -1.25
+Line 4 -1.25 3.75 -1.25
+Line 3.75 -1.25 3.75 -2
+End
+Color F3
+Define Class BODY
+Line -5 0.12 -5 -0.12
+Line 5 0.12 -5 0.12
+Line 5 -0.12 5 0.12
+Line -5 -0.12 5 -0.12
+Line 5.5 0.75 5.5 -0.75
+Line 5 0.75 5.5 0.75
+Line 5 -0.75 5 0.75
+Line 5.5 -0.75 5 -0.75
+Line -5.5 0.75 -5.5 -0.75
+Line -5 0.75 -5.5 0.75
+Line -5 -0.75 -5 0.75
+Line -5.5 -0.75 -5 -0.75
+End
+Color F1
+Define Class CRANE Update Always
+Line -1.5 -0.5 1.5 -0.5
+Line 1.5 -0.5 1.5 0.5
+Line 1.5 0.5 -1.5 0.5
+Line -1.5 0.5 -1.5 -0.5
+End
+Color L1
+Define Class BUGGY1
+Line -1.75 -1.25 -1.5 -1.25
+Line -1.5 -1.25 -1.5 1.25
+Line -1.5 1.25 -1.75 1.25
+Line -1.75 1.25 -1.75 -1.25
+Line 1.75 -1.25 1.5 -1.25
+Line 1.5 -1.25 1.5 1.25
+Line 1.5 1.25 1.75 1.25
+Line 1.75 1.25 1.75 -1.25
+Line -1.5 -1.25 1.5 -1.25
+Line 1.5 -1.25 1.5 -1
+Line 1.5 -1 -1.5 -1
+Line -1.5 -1 -1.5 -1.25
+Line -1.5 1.25 1.5 1.25
+Line 1.5 1.25 1.5 1
+Line 1.5 1 -1.5 1
+Line -1.5 1 -1.5 1.25
+Line 0.5 1.5 0.5 1.75
+Line 0.5 1.75 1.25 1.75
+Line 1.25 1.75 1.25 1.5
+Line 1.25 1.5 0.5 1.5
+Line -0.5 1.5 -0.5 1.75
+Line -0.5 1.75 -1.25 1.75
+Line -1.25 1.75 -1.25 1.5
+Line -1.25 1.5 -0.5 1.5
+Line 0.5 -1.5 0.5 -1.75
+Line 0.5 -1.75 1.25 -1.75
+Line 1.25 -1.75 1.25 -1.5
+Line 1.25 -1.5 0.5 -1.5
+Line -0.5 -1.5 -0.5 -1.75
+Line -0.5 -1.75 -1.25 -1.75
+Line -1.25 -1.75 -1.25 -1.5
+Line -1.25 -1.5 -0.5 -1.5
+End
+Color F4
+Define Class INGOT1A Directional Clearance 1 2 Update Always
+Line -1 -0.5 1 -0.5
+Line 1 -0.5 1 0.5
+Line 1 0.5 -1 0.5
+Line -1 0.5 -1 -0.5
+Fill -0.0939 -0.025
+End
+Define Class INGOT2 Directional Clearance 1 2 Update Always
+Line -1 -0.5 1 -0.5
+Line 1 -0.5 1 0.5
+Line 1 0.5 -1 0.5
+Line -1 0.5 -1 -0.5
+End
+Line 0 -0.5 0 62.5
+Line 10.5 -0.5 10.5 62.5
+Color L1
+Line #1 -56.5 7 -14.25 7
+Arc  #2 2 -14.25 5 90 0 2
+Line #3 -12.25 5 -12.25 -2
+Line -12.5 38.5 -11.5 38.5
+Line #4 -12.5 38.5 -20.5 38.5
+Line #5 -20.5 38.5 -23.5 38.5
+Line #6 -23.5 38.5 -42.5 38.5
+Line #7 -42.5 38.5 -45.5 38.5
+Line #8 -45.5 38.5 -59.25 38.5
+Line #9 -59.25 38.5 -59.25 34.5
+Line #10 28 34.5 28 26.5
+Line #11 28 26.5 37 26.5
+Line #12 37 26.5 40 26.5
+Line #13 40 26.5 50 26.5
+Line #14 28 36 28 34.5
+Line #15 28 38.5 28 36
+Line -59.25 34.5 -58.25 34.5
+Line 2 51 9 51
+Line 9 50 2 50
+Line 9 60 2 60
+Line 2 60 2 51
+Line 9 41 9 50
+Line 2 41 9 41
+Line 2 50 2 41
+Line 9 51 9 60
+Line 28 38 27 38
+Line 1.7324 22.3568 8.7324 22.3568
+Line 8.7324 21.3568 1.7324 21.3568
+Line 8.7324 31.3568 1.7324 31.3568
+Line 8.7324 12.3568 8.7324 21.3568
+Line 1.7324 12.3568 8.7324 12.3568
+Line 1.7324 21.3568 1.7324 12.3568
+Line 8.7324 22.3568 8.7324 31.3568
+Line 1.7324 31.3568 1.7324 22.3568
+Line 8.7324 11.3568 1.7324 11.3568
+Line 8.7324 2.3568 8.7324 11.3568
+Line 1.7324 11.3568 1.7324 2.3568
+Line 27 34.5 28 34.5
+Arc  #16 2 -10.25 -2 180 270 2
+Line #17 -10.25 -4 5.25 -4
+Line #18 5.25 -4 5.25 0.5
+Line 1.7324 2.3568 8.7324 2.3568
+Color F4
+Line -40 26 -38 26
+Line -38 26 -38 25
+Line -38 25 -40 25
+Line -40 25 -40 26
+Line -40 23.5 -38 23.5
+Line -38 23.5 -38 22.5
+Line -38 22.5 -40 22.5
+Line -40 22.5 -40 23.5
+Color L1
+Text 1 1.5 37 32 MILL 2
+Text 1 1.5 27 19 UTILIZATION
+Text 1 2 -53 55 ACME STEEL PROCESSING
+Color F4
+Fill -39.2113 25.6228
+Color F31
+Line -21 28 -21 15
+Line -21 15 -43 15
+Line -43 15 -43 28
+Color F25
+Fill -31.0356 21.9012
+Fill -38.9802 23.2055
+Color F31
+Line -43 28 -21 28
+Line 21 22 42 22
+Line 42 22 42 0
+Line 42 0 21 0
+Line 21 0 21 22
+Color F19
+Fill 30.8617 11.585
+Color F6
+Text 1 1.4 24 15 AGV 1
+Color F2
+Text 1 1.4 24 9 AGV 2
+Color F3
+Text 1 1.4 24 3 CRANE
+Color F25
+Fill -39.0988 20.1225
+Color F5
+Line -40 20.6443 -38 20.6443
+Line -38 20.6443 -38 19.6443
+Line -38 19.6443 -40 19.6443
+Line -40 19.6443 -40 20.6443
+Line -40 18.1443 -38 18.1443
+Line -38 18.1443 -38 17.1443
+Line -38 17.1443 -40 17.1443
+Line -40 17.1443 -40 18.1443
+Fill -39.2113 17.7554
+Text 1 1.3 -35 20 HOT SOAKING
+Text 1 1.3 -35 17.5 HOT INGOT 
+Color L1
+Text 1 1.3 -35 25 COOL INGOT
+Text 1 1.3 -35.0672 22.6126 COOL SOAKING
+Color F7
+Message UTIL4 1 1.6 36 15 BG Backdrop 0.466
+Message UTIL5 1 1.6 36 9 BG Backdrop 0.321
+Message UTIL6 1 1.6 36 3 BG Backdrop 0.892
+Color L1
+Text 1 1.5 CENTER -44 42 MILL 1
+Text 1 1.5 CENTER -23 42 GRIND
+Define Path P1 Accumulating Label -57.9906 6.5931 Speed 1
+Segment #1 -56.5 7 -14.25 7 42.25
+Segment #2 -14.25 7 -12.25 5 2 CW
+Segment #3 -12.25 5 -12.25 -2 7
+Segment #16 -12.25 -2 -10.25 -4 2 CCW
+Segment #17 -10.25 -4 5.25 -4 15.5
+End
+Define Path P2 Accumulating Label 5.6714 -2.9218 Speed 1
+Segment #18 5.25 -4 5.25 0.5 4.5
+End
+Define Path P3 Accumulating Label -14.0469 37.892 Speed 1
+Segment #4 -12.5 38.5 -20.5 38.5 8
+End
+Define Path P4 Accumulating Label -21.9343 37.892 Speed 1
+Segment #5 -20.5 38.5 -23.5 38.5 3
+End
+Define Path P5 Accumulating Label -24.939 37.892 Speed 1
+Segment #6 -23.5 38.5 -42.5 38.5 19
+End
+Define Path P6 Accumulating Label -44.0939 37.892 Speed 1
+Segment #7 -42.5 38.5 -45.5 38.5 3
+End
+Define Path P7 Accumulating Label -46.9108 37.892 Speed 1
+Segment #8 -45.5 38.5 -59.25 38.5 13.75
+End
+Define Path P8 Accumulating Label -58.9296 39.3944 Speed 1
+Segment #9 -59.25 38.5 -59.25 34.5 4
+End
+Define Path P9 Accumulating Label 28.3944 35.3881 Speed 1
+Segment #10 28 34.5 28 26.5 8
+End
+Define Path P10 Accumulating Label 25.7653 26.1236 Speed 1
+Segment #11 28 26.5 37 26.5 9
+End
+Define Path P11 Accumulating Label 34.7793 26.1236 Speed 1
+Segment #12 37 26.5 40 26.5 3
+End
+Define Path P12 Accumulating Label 37.784 26.1236 Speed 1
+Segment #13 40 26.5 50 26.5 10
+End
+Define Path WHOOPS Accumulating Label 28.3944 36.8905 Speed 1
+Segment #14 28 36 28 34.5 1.5
+End
+Define Path P14 Accumulating Label 28.3944 39.3944 Speed 1
+Segment #15 28 38.5 28 36 2.5
+End
+End

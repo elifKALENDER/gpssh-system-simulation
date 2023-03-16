@@ -1,0 +1,13 @@
+set bar tank 10
+set bar tank top rate 5
+dt 25 14669
+set bar tank top rate -5
+dt 25 24358
+write joke Earthquake!
+set bar tank top 100 right 0 right rate 5
+dt 25 39031
+set bar tank right rate -5
+dt 25 48720
+write joke
+end
+

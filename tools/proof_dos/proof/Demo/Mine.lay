@@ -1,0 +1,1169 @@
+Define View "silogate" center 108.5875 9.6629 Width 85.2025 Grid Size 1 10 Ortho
+Define View "trucks" center 41.0377 34.5237 Width 80.161 Grid Size 1 10 Ortho
+Define View "conveyor" center 94.4932 18.7235 Width 57.4739 Grid Size 1 10 Ortho
+Define View "silos" center 130.1223 -0.1567 Width 41.2113 Grid Size 1 10 Ortho
+Define View "(Home)" center 70.7091 25.6029 Width 160.8261 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 10
+Define View "(Class)" center 5.4228 1.9931 Width 34.7059 Grid Size 0.25 10 Ortho
+Define color Backdrop  0.9059 0.8118 0.6235
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 0.2471 0.2235 0.6588
+Define color F4 0.7529 0 0.0784
+Define color F5 1 0 0.6667
+Define color F6 0 0.5451 0.0667
+Define color F7 0.5647 0 0
+Define color F8 0.8902 0.2392 0.2392
+Define color F9 0 0 1
+Define color F10 0.7451 0.2392 0.2392
+Define color F11 0.5882 0.9373 1
+Define color F12 0.4902 0.349 0
+Define color F13 0.7451 0.3961 0.6667
+Define color F14 0.5882 0.4902 0.4902
+Define color F15 0 0.5882 0.1922
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3176 0
+Define color F19 0.7333 0.5647 0.2471
+Define color F20 0 0.3176 0.3176
+Define color F21 0.8902 0.6667 0.4902
+Define color F22 0.4902 0.2392 0.4902
+Define color F23 0.7451 0.5882 0
+Define color F24 0.4902 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.5098 0.5098 0.5098
+Define color L2 0.6667 0.9373 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.8902 0.6667 0.4902
+Define color L6 0.3961 0.4902 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F2
+Define Class cat Directional Clearance 2.5 2.5
+Arc 0.256 0.8648 0.5272 0 360 3.1416
+Arc 0.256 -0.1592 0.5272 0 360 3.1416
+Line 1.172 0.604 1.172 1.0904
+Arc 0.32 0.852 0.54 180 15 1.4399
+Line 0.66 1.18 1.044 1.18
+Line -0.94 0.668 -1.004 0.668
+Line -1.004 0.86 -1.004 0.668
+Line -0.94 0.668 -0.812 0.86
+Line -0.812 0.86 -0.492 0.86
+Line -0.492 0.86 -0.428 0.732
+Line -0.428 0.732 -0.364 0.86
+Line -0.364 0.86 0.02 0.86
+Line 0.02 0.86 0.148 0.668
+Line 0.148 0.668 0.532 0.668
+Line 0.532 0.924 -1.068 0.924
+Line -1.068 0.924 -1.068 0.86
+Line -1.068 0.86 -1.004 0.86
+Line 1.236 0.796 1.236 0.604
+Line 1.236 0.796 1.172 0.796
+Line 1.236 0.604 1.172 0.604
+Line 1.044 1.18 0.852 1.564
+Line 0.852 1.564 0.66 1.564
+Line 0.66 1.564 0.66 1.18
+Line 1.172 1.052 0.532 1.052
+Text 1 0.3968 LJ -0.876 1.052 cat
+Line 0.916 1.756 0.916 1.692
+Line 0.916 1.692 0.468 1.692
+Line 0.468 1.692 0.468 0.924
+Line 1.172 1.0904 0.948 1.628
+Line 0.9213 1.692 0.916 1.7048
+Line 0.948 1.628 0.532 1.628
+Line 0.532 1.628 0.532 0.604
+Line -1.068 0.924 -1.004 1.756
+Line -1.004 1.756 0.916 1.756
+Arc 0.256 -0.6712 0.5272 0 360 2.5133
+End
+Color F4
+Define Class belly Directional Clearance 2.5 2.5
+Line 0.496 1.488 0.496 1.072
+Line 0.88 1.072 0.724 1.488
+Line 0.72 1.488 0.496 1.488
+Fill -0.8263 0.4293
+Fill -0.4462 0.461
+Fill 0.6466 0.4504
+Line 0.496 1.072 0.88 1.072
+Arc 0.1536 0.688 0.4832 0 360 1.885
+Arc 0.1536 -0.336 0.4832 0 360 1.885
+Arc 0.1536 -0.848 0.4832 0 360 1.885
+Arc 0.256 0.688 0.4832 0 360 3.1416
+Arc 0.256 -0.336 0.4832 0 360 3.1416
+Arc 0.256 -0.848 0.4832 0 360 3.1416
+Text 1 0.3648 LJ -1.104 1.008 belly
+Line -0.016 0.624 -0.144 0.816
+Line -0.144 0.816 -0.464 0.816
+Line -0.464 0.816 -0.592 0.688
+Line -0.592 0.688 -0.72 0.816
+Line -0.72 0.816 -0.976 0.816
+Line -0.976 0.816 -1.168 0.624
+Line -1.168 0.624 -1.168 1.52
+Line -1.168 1.52 0.368 1.52
+Line 1.008 0.496 1.008 1.072
+Line 0.3947 0.624 -0.016 0.624
+Line -1.04 0.752 -1.168 0.752
+Line -0.528 0.752 -0.656 0.752
+Line 0.368 1.648 0.368 0.752
+Line 0.752 1.648 0.368 1.648
+Line 1.008 1.072 0.745 1.648
+Line 0.496 0.752 -0.1013 0.752
+Arc 0.32 0.688 0.496 0 156.4218 1.365
+Line 1.008 0.688 1.072 0.688
+Line 1.072 0.688 1.072 0.496
+Line 1.072 0.496 1.008 0.496
+End
+Color F3
+Define Class ARM1 Directional
+Line 0 3 0 -3
+Line 0 -3 0.5 1
+Line 0.5 1 0 3
+End
+Define Class ARM2
+Line 0 2 0 -2
+End
+Define Class SHOVEL
+Line -0.3 0.3 -0.3 -0.7
+Line 1.7 0.3 -0.3 0.3
+Line 1.2 -0.7 1.7 0.3
+Line -0.3 -0.7 1.2 -0.7
+End
+Color L4
+Define Class point
+Line 0.1 0.1 -0.1 -0.1
+Line -0.1 0.1 0.1 -0.1
+End
+Color F2
+Define Class wheel
+Arc 0.5 0 0 0 360 3.1416
+Line 0 0.5 0 -0.5
+Line -0.5 0 0.5 0
+Fill 0.2291 0.2587
+Fill -0.2074 -0.181
+End
+Color L1
+Define Class coal1
+Fill 0.1645 0.04
+Line 0.1 -0.28 0.02 -0.2
+Line 0.18 -0.2 0.1 -0.28
+Line 0.42 -0.04 0.18 -0.2
+Line 0.42 0.2 0.42 -0.04
+Line -0.06 0.28 0.42 0.2
+Line -0.22 0.12 -0.06 0.28
+Line -0.22 -0.12 -0.22 0.12
+Line 0.02 -0.2 -0.22 -0.12
+End
+Define Class coal2
+Line 0.15 0.05 0 0.1
+Line 0 0.1 0.1 0.25
+Line 0.1 0.25 0.45 0.25
+Line 0.45 0.25 0.5 0.15
+Line 0.5 0.15 0.25 0.05
+Line 0.25 0.05 0.15 0.05
+Fill 0.1579 0.1353
+End
+Color F3
+Define Class loader
+Line -2 -1 -2 1.5
+Line 2 1.5 2 -1
+Line -2 1.5 2 1.5
+Line 2 -1 -2 -1
+Color F1
+Fill 0.0562 -0.1045
+Color F31
+Text 1 0.9 MIDDLE 0 0.25 loader
+End
+Color F6
+Define Class train Clearance 10 20
+Line -4.2 0.8 -4.5 1.3
+Line -4.5 1.3 -7.7 1.3
+Arc 0.6 -6.1 0.6 0 360 3.7699
+Arc 0.6 -4.9 0.6 0 360 3.7699
+Line -2.1 0.8 -4.2 0.8
+Arc 0.4 -3.5 0.4 0 360 2.5133
+Arc 0.4 -2.7 0.4 0 360 2.5133
+Line -3.6 0.8 -3.6 2.5
+Line -3.6 2.9 -3.6 2.5
+Line -1.7 2.9 -3.6 2.9
+Line -2.1 2.7 -1.7 2.7
+Line -2.1 0.8 -2.1 2.7
+Line -3.6 2.5 -9.1 2.5
+Line -1.8 1 -2.1 1
+Arc 0.6 -7.3 0.6 0 360 3.7699
+Line -9.2 0.9 -9.1 0.9
+Line -9.2 0.8 -9.2 0.9
+Line -9.3 0.8 -9.2 0.8
+Line -9.3 1.2 -9.3 0.8
+Line -9.2 1.2 -9.3 1.2
+Line -9.2 1.1 -9.2 1.2
+Line -9.1 1.1 -9.2 1.1
+Arc 0.4 -8.7 0.4 0 360 2.5133
+Line -9.1 2.5 -9.1 0.9
+Line -8.1 0.9 -9.1 0.9
+Line -7.7 1.3 -8.1 0.9
+Line -1.7 2.7 -1.7 2.9
+Line 9.8 1 10.2 1
+Line 5.8 1 6.2 1
+Line 1.8 1 2.2 1
+Line 9.8 2.5 6.2 2.5
+Line 13.8 2.5 10.2 2.5
+Line 5.8 2.5 2.2 2.5
+Line 1.8 2.5 -1.8 2.5
+Line 10.2 2.5 10.2 0.8
+Arc 0.4 10.7 0.4 0 360 2.5133
+Arc 0.4 11.5 0.4 0 360 2.5133
+Arc 0.4 12.5 0.4 0 360 2.5133
+Arc 0.4 13.3 0.4 0 360 2.5133
+Line 10.2 0.8 13.8 0.8
+Line 13.8 0.8 13.8 2.5
+Line 6.2 2.5 6.2 0.8
+Arc 0.4 6.7 0.4 0 360 2.5133
+Arc 0.4 7.5 0.4 0 360 2.5133
+Arc 0.4 8.5 0.4 0 360 2.5133
+Arc 0.4 9.3 0.4 0 360 2.5133
+Line 6.2 0.8 9.8 0.8
+Line 9.8 0.8 9.8 2.5
+Line 5.8 0.8 5.8 2.5
+Line 2.2 0.8 5.8 0.8
+Arc 0.4 5.3 0.4 0 360 2.5133
+Arc 0.4 4.5 0.4 0 360 2.5133
+Arc 0.4 3.5 0.4 0 360 2.5133
+Arc 0.4 2.7 0.4 0 360 2.5133
+Line 2.2 2.5 2.2 0.8
+Line 1.8 0.8 1.8 2.5
+Line -1.8 0.8 1.8 0.8
+Arc 0.4 1.3 0.4 0 360 2.5133
+Arc 0.4 0.5 0.4 0 360 2.5133
+Arc 0.4 -0.5 0.4 0 360 2.5133
+Arc 0.4 -1.3 0.4 0 360 2.5133
+Line -1.8 2.5 -1.8 0.8
+Line 17.8 2.5 14.2 2.5
+Line 14.2 2.5 14.2 0.8
+Arc 0.4 14.7 0.4 0 360 2.5133
+Arc 0.4 15.5 0.4 0 360 2.5133
+Arc 0.4 16.5 0.4 0 360 2.5133
+Arc 0.4 17.3 0.4 0 360 2.5133
+Line 14.2 0.8 17.8 0.8
+Line 17.8 0.8 17.8 2.5
+Line 13.8 1 14.2 1
+End
+Color F2
+Define Class filler
+Line -1 0.5 1 0.5
+Line -1 -0.5 1 -0.5
+End
+Define Class piece
+Line -0.3 0.1 0.3 0.1
+End
+CPO point POConv1 68 26.5 Color Backdrop
+CPO point POConv2 75.5 26.5 Color Backdrop
+CPO point PRConv2 117 20.5 Color Backdrop
+CPO point PRConv1 103 20.5 Color Backdrop
+CPO point PAConv2 76 13.5 Color Backdrop
+CPO point PAConv1 121.5 13.5 Color Backdrop
+CPO point POConv3 102 30.5 Color Backdrop
+CPO point PSh11 19.8 42.8 Color Backdrop
+CPO point PSh12 20.6 43.6 Color Backdrop
+CPO point PSh13 20.6 41.6 Color Backdrop
+CPO point PSh22 20.6 29.2 Color Backdrop
+CPO point PSh21 19.8 28.4 Color Backdrop
+CPO point PSh23 20.6 27.2 Color Backdrop
+CPO point PSh32 20.4 17.2 Color Backdrop
+CPO point PSh31 19.6 16.4 Color Backdrop
+CPO point PSh33 20.4 15.2 Color Backdrop
+CPO point PRow 24 35 Color Backdrop
+CPO point PUpp 24 21 Color Backdrop
+CPO point PLow 24 8 Color Backdrop
+CPO point PFConv1 71 11.4 Color Backdrop
+CPO point PLdTrain 118 -4.6 Color Backdrop
+CPO point PLdS6 148 7 Color F3
+CPO point PLdS5 142 7 Color F3
+CPO point PLdS2 124 7 Color F3
+CPO point PLdS3 130 7 Color F3
+CPO point PLdS4 136 7 Color F3
+CPO point PLdS1 118 7 Color F3
+Color Backdrop
+Line #1 114.5 8 148 8
+Color F3
+Line 115.5 6.5 117 6.5
+Line 115.2601 7.5 115.5 7.5
+Arc 0.5 117 7 0 360 3.1416
+Line 115.2601 7.5 117 7.5
+Arc 0.5 115.5 7 0 360 3.1416
+Line 111.5 5.9838 115.293 7.5133
+Line 111.5 4.84 115.6931 6.5172
+Color Backdrop
+Line #2 118 8 118 2
+Color F3
+Bar AVAMS1 BG L1 115 115.5 0 3.5 Vrange 0 10750 Hrange 0 100
+Color L6
+Fill 117.7977 2.2694
+Color L3
+Arc 2 118 2 0 360 12.5664
+Text 1 1.7 MIDDLE 118 2 1
+Color F4
+Line 108.5 3.5 111.5 3.5
+Color F6
+Text 1 0.56 CENTER 115.5 5 avg use
+Color Backdrop
+Line #3 118 2 118 -6
+Line #4 75 12 108.5 6.2571
+Color F3
+Line 108.5 4.5795 70.8 10.8
+Line 71 12 108.5 5.75
+Color F6
+Message AVPCTS1 1 0.57 CENTER 115.5 4 BG Backdrop AVPC
+Color Backdrop
+Line #5 111.5 6.5 114.7 8
+Color F4
+Line 111.5 3.5 111.5 7
+Line 111.5 7 108.5 7
+Line 108.5 7 108.5 3.5
+Text 1 0.85 CENTER 110 4.75 Gate
+Color F3
+Line 76 13 121.5 13
+Arc 0.5 121.5 13.5 90 -90 1.5708
+Color F6
+Message ApronState 1 1.3 LJ 123 13 BG Backdrop ApronState
+Color F3
+Arc 0.5 123 7 0 360 3.1416
+Line 119 6.5 123 6.5
+Line 119 7.5 123 7.5
+Arc 0.5 119 7 0 360 3.1416
+Bar AVAMS2 BG L1 121 121.5 0 3.5 Vrange 0 10750 Hrange 0 100
+Color L3
+Arc 2 124 2 0 360 12.5664
+Color F6
+Text 1 0.57 CENTER 121 5.5 avg use
+Color F7
+Bar AMS1 BG L1 116 120 -2 -1.5 Vrange 0 100 Hrange 0 10750
+Bar AMS2 BG L1 122 126 -2 -1.5 Vrange 0 100 Hrange 0 10750
+Color L3
+Text 1 1.7 MIDDLE 124 2 2
+Color Backdrop
+Line #6 124 8 124 2
+Color F3
+Arc 0.5 125 7 0 360 3.1416
+Line 125 7.5 129 7.5
+Line 125 6.5 129 6.5
+Color Backdrop
+Line #7 130 8 130 2
+Color F3
+Arc 0.5 131 7 0 360 3.1416
+Line 131 6.5 135 6.5
+Line 131 7.5 135 7.5
+Arc 0.5 129 7 0 360 3.1416
+Color Backdrop
+Line #8 118 -3 148 -3
+Line #9 124 2 124 -3
+Color L6
+Fill 124.1379 1.9459
+Color F3
+Bar AVAMS3 BG L1 127 127.5 0 3.5 Vrange 0 10750 Hrange 0 100
+Color F7
+Bar AMS3 BG L1 128 132 -2 -1.5 Vrange 0 100 Hrange 0 10750
+Color F3
+Bar AVAMS4 BG L1 133 133.5 0 3.5 Vrange 0 10750 Hrange 0 100
+Bar AVAMS5 BG L1 139 139.5 0 3.5 Vrange 0 11750 Hrange 0 100
+Color F7
+Bar AMS4 BG L1 134 138 -2 -1.5 Vrange 0 100 Hrange 0 10750
+Bar AMS5 BG L1 140 144 -2 -1.5 Vrange 0 100 Hrange 0 11750
+Color L1
+Line #10 114 -10 110 -10
+Line #11 118 -10 114 -10
+Line #12 122 -10 118 -10
+Line #13 122 -10 300 -10
+Color Backdrop
+Line #14 136 8 136 2
+Line #15 130 2 130 -3
+Line #16 136 2 136 -3
+Color L6
+Fill 130.1546 1.8812
+Fill 135.8479 2.0753
+Color L3
+Arc 2 130 2 0 360 12.5664
+Arc 2 136 2 0 360 12.5664
+Arc 2 142 2 0 360 12.5664
+Color F3
+Arc 0.5 141 7 0 360 3.1416
+Arc 0.5 137 7 0 360 3.1416
+Arc 0.5 135 7 0 360 3.1416
+Line 137 6.5 141 6.5
+Line 137 7.5 141 7.5
+Bar AVAMS6 BG L1 145 145.5 0 3.5 Vrange 0 11750 Hrange 0 100
+Color Backdrop
+Line #17 142 8 142 2
+Line #18 142 2 142 -3
+Color L6
+Fill 141.9293 2.14
+Color F3
+Arc 0.5 143 7 0 360 3.1416
+Line 143 6.5 147 6.5
+Line 143 7.5 147 7.5
+Color F7
+Bar AMS6 BG L1 146 150 -2 -1.5 Vrange 0 100 Hrange 0 11750
+Color F1
+Bar BARMINED BG L1 34 148 -16 -12 Vrange 0 100 Hrange 0 500000
+Color Backdrop
+Line #19 148 2 148 -3
+Line #20 148 8 148 2
+Color L6
+Fill 147.5578 1.8812
+Color L3
+Arc 2 148 2 0 360 12.5664
+Color F3
+Arc 0.5 147 7 0 360 3.1416
+Color L3
+Text 1 1.7 MIDDLE 130 2 3
+Text 1 1.7 MIDDLE 136 2 4
+Text 1 1.7 MIDDLE 142 2 5
+Text 1 1.7 MIDDLE 148 2 6
+Color L1
+Line #21 110 -10 106 -10
+Color F6
+Text 1 0.57 CENTER 127 5.5 avg use
+Text 1 0.57 CENTER 133 5.5 avg use
+Text 1 0.57 CENTER 139 5.5 avg use
+Text 1 0.57 CENTER 145 5.5 avg use
+Color Backdrop
+Line #22 121 14.5 75 14.5
+Color F3
+Line 121.5 14 76 14
+Color F4
+Line 117 19 117 16
+Line 119 16 119 19
+Line 120 19 120 16
+Line 117 16 117.5 15
+Line 118.5 15 119 16
+Line 120 16 120.5 15
+Line 121.5 15 122 16
+Line 117.5 15 118.5 15
+Line 120.5 15 121.5 15
+Line 122 16 122 19
+Color L1
+Fill 117.6846 15.6941
+Fill 120.7801 15.6505
+Color F6
+Text 1 1.3 LJ 123 16 Crushers
+Color L1
+Bar BARAPRA 117 119 16 19 Vrange 0 180 Hrange 0 100
+Bar BARAPRB 120 122 16 19 Vrange 0 180 Hrange 0 100
+Line 119 16 117 16
+Line 122 16 120 16
+Color F6
+Message CTAPRON 1 1.3 LJ 110 16 BG Backdrop APRON
+Message AVPCTS3 1 0.57 CENTER 127 4.5 BG Backdrop AVP
+Message AVPCTS5 1 0.57 CENTER 139 4.5 BG Backdrop AVP
+Message AVPCTS6 1 0.57 CENTER 145 4.5 BG Backdrop AVP
+Message AVPCTS2 1 0.57 CENTER 121 4.5 BG Backdrop AVPC
+Message AVPCTS4 1 0.57 CENTER 133 4.5 BG Backdrop AVP
+Color F1
+Message silo2 1 0.75 LJ 122 -1.25 BG Backdrop silo2
+Message silo3 1 0.75 LJ 128 -1.25 BG Backdrop silo3
+Message silo6 1 0.75 LJ 146 -1.25 BG Backdrop silo6
+Message silo5 1 0.75 LJ 140 -1.25 BG Backdrop silo5
+Message silo4 1 0.75 LJ 134 -1.25 BG Backdrop silo4
+Message silo1 1 0.75 LJ 116 -1.25 BG Backdrop silo1
+Color F6
+Message SPEED3 1 1.3 LJ 99 11 BG Backdrop SPEED3
+Color F3
+Line 75.5 26 102 30
+Line 75.5 27 102 31
+Bar AVAMSURG BG L1 109 110 23 28.5 Vrange 0 12000 Hrange 0 100
+Color Backdrop
+Line #23 111.5787 32.0747 115.1618 24.1671
+Color F4
+Line 108.6 29.4706 108.6 23.0294
+Line 101.6 29.4706 101.6 23.0294
+Color Backdrop
+Line #24 104 21.5 117.5 21.5
+Color F3
+Line 103 20 117 20
+Line 103 21 117 21
+Color Backdrop
+Arc  #25 2 117 25 270 204.3765 2.2907
+Color F3
+Arc 0.5 103 20.5 90 270 1.5708
+Color Backdrop
+Line #26 113.55 35.06 117.18 27.17
+Color F4
+Arc 10 105.1 32.3969 249.5127 290.4873 7.1514
+Color L1
+Line 101.6 23.2 108.6 23.2
+Fill 104.9914 22.7636
+Bar BARSURGE 101.6 108.6 23.2 28.6 Vrange 0 12000 Hrange 0 100
+Color Backdrop
+Arc  #27 2 117.5 19.5 10 90 2.7925
+Line #28 117 23 120 23
+Line #29 120 23 125 23
+Color F3
+Arc 0.5 117 20.5 90 -90 1.5708
+Color F4
+Line 119.5 19.5 120 19
+Line 119 19 119.5 19.5
+Color Backdrop
+Arc  #30 2 119 28 270 204.3765 2.2907
+Line #31 119 26 122 26
+Arc  #32 5 122 31 0 -90 7.854
+Color F6
+Message Belt3State 1 1.4 LJ 92 15 BG Backdrop Belt3State
+Text 1 1.3 LJ 123 20 Apron
+Text 1 1.3 LJ 123 18 Feeders
+Color Backdrop
+Line #33 75.5 27.5 102.1286 31.7796
+Line #34 78 35 107 35
+Color F6
+Text 1 1.3 LJ 77 30.5 Breakers
+Text 1 1.3 LJ 77 32.5 Feeder
+Color Backdrop
+Arc  #35 2 78 37 0 -90 3.1416
+Arc  #36 5 68 33 180 90 7.854
+Arc  #37 2 75.5 37 0 -90 3.1416
+Line #38 78 35 73 35
+Line #39 68 35 69 35
+Line #40 69 35 73 35
+Arc  #41 2 73 37 360 270 3.1416
+Line #42 65 35 68 35
+Line #43 66 33 66 10
+Color F3
+Line 68 27 75.5 27
+Arc 0.5 68 26.5 90 270 1.5708
+Line 68 26 75.5 26
+Color Backdrop
+Arc  #44 2 68 33 180 90 3.1416
+Color F4
+Line 71 30 71 34
+Line 68 34 68 30
+Line 68 30 69 29
+Line 70 29 71 30
+Line 68 28 68 29
+Line 68 29 71 29
+Line 71 29 71 28
+Line 71 28 68 28
+Line 72 28 72 29
+Line 75 29 75 28
+Line 75 28 72 28
+Line 72 29 75 29
+Line 73 29 74 29
+Line 73 29 74 29
+Line 69 29 70 29
+Line #45 69 27.5 75.5 27.5
+Color Backdrop
+Line #46 68 38 109 38
+Line #47 75 47 75 37
+Line #48 77.5 50 77.5 37
+Line #49 80 53 80 37
+Color F6
+Text 1 1.3 LJ 80 24 Speed
+Color F4
+Line 75 30 75 34
+Line 74 29 75 30
+Line 72 30 73 29
+Line 72 34 72 30
+Color L1
+Bar BARFEEDA 68 71 30 34 Vrange 0 250 Hrange 0 100
+Line 71 30 68 30
+Fill 69.4057 29.5978
+Bar BARFEEDB 72 75 30 33.9892 Vrange 0 250 Hrange 0 100
+Line 75.0527 30 71.9618 30
+Fill 73.5475 29.4304
+Color F6
+Text 1 0.85 LJ 108 30.5 use
+Color F4
+Arc 10 105.1 20.1031 110.4873 69.5127 7.1514
+Arc 10 105.1 38.7912 249.5127 290.4873 7.1514
+Color Backdrop
+Arc  #50 3 101 29 0 67.9008 3.5553
+Color F3
+Arc 0.5 102 30.5 -90 100 1.6581
+Color F6
+Text 1 1.3 LJ 94 27 Surge
+Color Backdrop
+Arc  #51 5 107 30 24.3765 90 5.7267
+Color F6
+Text 1 0.85 LJ 105 32 average
+Color Backdrop
+Line #52 115.55 38.06 119.18 30.17
+Color F6
+Text 1 1.3 LJ 94 25 Silo
+Message Belt2State 1 1.3 LJ 86 20 BG Backdrop Belt2State
+Color Backdrop
+Arc  #53 1 75 13.5 180 90 1.5708
+Color F3
+Arc 0.5 76 13.5 90 270 1.5708
+Color Backdrop
+Arc  #54 5 109 33 24.3765 90 5.7267
+Arc  #55 2 121 31 270 204.3765 2.2907
+Arc  #56 1 123 30 0 -90 1.5708
+Line #57 121 29 123 29
+Arc  #58 1 75 13 180 270 1.5708
+Line #59 74 13.5 74 13
+Arc  #60 2 64 10 360 270 3.1416
+Color F3
+Arc 0.6 71 11.4 90 270 1.885
+Color F6
+Message Belt1State 1 1.3 LJ 73 20 BG Backdrop Belt1State
+Text 1 1.3 LJ 93 11 Speed
+Text 1 1.3 LJ 105 18 Speed
+Color Backdrop
+Arc  #61 5 125 28 0 -90 7.854
+Arc  #62 5 111 36 24.3765 90 5.7267
+Line #63 124 44 124 30
+Color L1
+Line #64 106 -10 102 -10
+Line #65 102 -10 -8 -10
+Color Backdrop
+Line #66 127 47 127 31
+Line #67 130 50 130 28
+Arc  #68 2 65 33 180 90 3.1416
+Line #69 65 35 59.5 35
+Arc 2 65 33 180 120 2.0944
+Line #70 63 33 63 23
+Arc  #71 4 64 37 180 90 6.2832
+Line #72 59.5 35 58 35
+Arc  #73 2 58 37 360 270 3.1416
+Line 80 42 80 40
+Arc  #74 2 61 23 270 360 3.1416
+Line #75 24 21 61 21
+Color F2
+Bar BARUPS BG L1 30 58 24 25 Vrange 0 100 Hrange 0 50000
+Color Backdrop
+Line #76 24 35 58 35
+Color F2
+Bar BARROW BG L1 30 58 40 41 Vrange 0 100 Hrange 0 50000
+Color Backdrop
+Line #77 64 41 111 41
+Color F2
+Bar BARLOS BG L1 30 58 12 13 Vrange 0 100 Hrange 0 50000
+Color Backdrop
+Line #78 24 8 64 8
+Line #79 73 49 119 49
+Line #80 13 49 73 49
+Arc  #81 2 73 47 0 90 3.1416
+Arc  #82 5 119 44 90 0 7.854
+Arc  #83 5 122 47 90 0 7.854
+Line #84 12 55 125 55
+Color F6
+Line 68 56 100 56
+Color Backdrop
+Line #85 75 52 122 52
+Arc  #86 2 78 53 0 90 3.1416
+Line #87 14 52 75.5 52
+Arc  #88 2 75.5 50 0 90 3.1416
+Color F6
+Line 68 62 68 56
+Text 1 1.9 LJ 46 56 Time
+Color Backdrop
+Arc  #89 3.4 24.6 27 270 330 3.5605
+Arc  #90 3.4 24.6 41.4 270 330 3.5605
+Line #91 23.6 43.2 27.6 39.8
+Line #92 21.8 29.8 25.8 26.4
+Line #93 24.6 25.6 20.6 29.2
+Arc  #94 1.4 24.4 41.4 270 330 1.4661
+Line #95 24.6 38 20.6 41.6
+Line #96 21.8 44.2 25.6 40.8
+Line #97 24.4 40 20.6 43.6
+Arc  #98 3.4 20.6 30.6 270 330 3.5605
+Arc  #99 1.4 20.6 30.6 270 330 1.4661
+Color F3
+Line 21.5 38 17.5 38
+Line 21.5 37 21.5 38
+Color Backdrop
+Arc  #100 3 18.7739 39.9809 15 70 2.8798
+Color F3
+Line 11.5 37 21.5 37
+Color Backdrop
+Line #101 24 35 13 35
+Arc  #102 9 14 43 180 90 14.1372
+Arc  #103 10 12 45 180 90 15.708
+Color F3
+Line 19 38.5 14 38.5
+Line 19 42 19 38.5
+Line 17.5 38 15.5 38
+Line 17.5 38 17.5 38.5
+Line 15.5 38 11.5 38
+Line 15.5 38.5 15.5 38
+Line 14 38.5 14 42
+Text 1 1.2 LJ 14.5 39.5 329
+Color Backdrop
+Arc  #104 5 13 40 270 180 7.854
+Arc  #105 5 10 26 270 180 7.854
+Arc  #106 5 13 44 180 90 7.854
+Color F3
+Line 11.5 38 11.5 37
+Color Backdrop
+Line #107 5 26 5 43
+Line #108 8 44 8 40
+Line #109 2 45 2 13
+Line #110 23.6 28.8 27.6 25.4
+Arc  #111 3.4 24.5 14.9 270 330 3.5605
+Line #112 23.5 16.7 27.5 13.3
+Arc  #113 1.4 24.6 27 270 330 1.4661
+Line #114 24.6 23.6 20.6 27.2
+Arc  #115 1.4 24.5 14.9 270 330 1.4661
+Line #116 21.7 17.7 25.7 14.3
+Line #117 24.5 11.5 20.5 15.1
+Line #118 24.5 13.5 20.5 17.1
+Arc  #119 3 18.7739 25.5809 15 70 2.8798
+Color F3
+Line 21.5 22.5 21.5 23.5
+Line 21.5 23.5 17.5 23.5
+Line 11.5 22.5 21.5 22.5
+Color Backdrop
+Arc  #120 3.4 20.5 18.5 270 330 3.5605
+Arc  #121 1.4 20.5 18.5 270 330 1.4661
+Arc  #122 3 18.6739 13.4809 15 70 2.8798
+Line #123 24 21 10 21
+Color F3
+Line 19 27.5 19 24
+Line 19 27.5 19 24.1
+Line 19 24 14 24
+Line 14 27.5 19 27.5
+Line 17.5 23.5 17.5 24
+Line 15.5 23.5 17.5 23.5
+Line 14 24 14 27.5
+Line 15.5 24 15.5 23.5
+Line 15.5 23.5 11.5 23.5
+Text 1 1.2 LJ 14.5 25 326
+Line 19 15 14 15
+Line 19 11.5 19 15
+Line 14 15 14 11.5
+Line 11.5 23.5 11.5 22.5
+Color Backdrop
+Arc  #124 5 7 13 270 180 7.854
+Color F3
+Text 1 1.2 LJ 14.5 12.5 350
+Color Backdrop
+Arc  #125 3.4 20.6 45 270 330 3.5605
+Line 23.5155 43.2507 23.6 43.2
+Arc  #126 1.4 20.6 45 270 330 1.4661
+Color F3
+Line 14 42 19 42
+Line 21.5 11 17.5 11
+Line 21.5 10 21.5 11
+Line 17.5 11 17.5 11.5
+Line 15.5 11.5 15.5 11
+Line 14 11.5 19 11.5
+Line 17.5 11 15.5 11
+Line 15.5 11 11.5 11
+Line 11.5 11 11.5 10
+Line 11.5 10 21.5 10
+Color Backdrop
+Line #127 24 8 7 8
+Color F6
+Line 100 56 100 62
+Line 100 62 68 62
+Color Backdrop
+Arc  #128 5 125 50 90 0 7.854
+Color F6
+Text 1 2.1 LJ -9 -15 Total mined:
+Message Feed2State 1 1.3 LJ 82 45 BG Backdrop Feed2State
+Message Feed1State 1 1.3 LJ 82 43 BG Backdrop Feed1State
+Text 1 1.6 LJ 37 43 mined today :
+Text 1 1.6 LJ 30 43 Area 1
+Text 1 1.6 LJ 37 27 mined today :
+Text 1 1.6 LJ 30 27 Area 2
+Text 1 1.6 LJ 37 15 mined today :
+Text 1 1.6 LJ 30 15 Area 3
+Color F7
+Text 1 4.2 CENTER 70 70 OPEN PIT MINE
+Color F3
+Arc 2 40 74 90 180 3.1416
+Line 38 70 38 74
+Arc 2 40 70 180 270 3.1416
+Line 100 68 40 68
+Arc 2 100 70 -90 0.00000006 3.1416
+Line 40 76 100 76
+Arc 2 100 74 0.00000006 90 3.1416
+Line 102 74 102 70
+Color F21
+Fill 74.1158 71.6324
+Color F6
+Message CTSURGE 1 1.3 LJ 94 23 BG Backdrop SURG
+Message SPEED1 1 1.3 LJ 86 24 BG Backdrop SPEED1
+Message SPEED2 1 1.3 LJ 111 18 BG Backdrop SPEED
+Message AVPCTSUR 1 0.75 LJ 109 29 BG Backdrop AVPCTSUR
+Message mode 1 2.4 LJ 20 -2 BG Backdrop mode
+Message day 1 2.6 MIDDLE 84 59 BG Backdrop day
+Message TIME 1 1.9 LJ 54 56 BG Backdrop TIME
+Color F7
+Message work 1 1.9 LJ 20 56 BG Backdrop work
+Color F6
+Message CTUPS 1 1.6 LJ 50 27 BG Backdrop USCOAL
+Message CTLOS 1 1.6 LJ 50 15 BG Backdrop LSCOAL
+Message CTMINED 1 2.2 LJ 18 -15 BG Backdrop MINCOAL
+Message CTROW 1 1.6 LJ 50 43 BG Backdrop ROWCOAL
+Message CTFEEDER 1 1.3 CENTER 72 24 BG Backdrop FEEDER
+Define Path ROW2FEED Accumulating LEAPOK Label 55.4413 34.5047 Speed 0
+Segment #76 24 35 58 35 34
+End
+Define Path UPPER2FEED Accumulating LEAPOK Label 53.5634 20.4828 Speed 0
+Segment #75 24 21 61 21 37
+Segment #74 61 21 63 23 3.1416 CCW
+Segment #70 63 23 63 33 10
+End
+Define Path LOWER2FEED Accumulating Label 56.5681 7.4624 Speed 0
+Segment #78 24 8 64 8 40
+Segment #60 64 8 66 10 3.1416 CCW
+Segment #43 66 10 66 33 23
+End
+Define Path TODUMP1 Accumulating Label 56.1925 34.5047 Speed 5
+Segment #72 58 35 59.5 35 1.5
+Segment #69 59.5 35 65 35 5.5
+Segment #42 65 35 68 35 3
+Segment #39 68 35 69 35 1
+End
+Define Path FEEDA2FEEDB Accumulating Label 60.6389 34.4401 Speed 5
+Segment #40 69 35 73 35 4
+End
+Define Path FEED2ROW Accumulating Label 68.9624 35.7567 Lag 0.2 Speed 0
+Segment #41 73 35 75 37 3.1416 CCW
+Segment #47 75 37 75 47 10
+Segment #81 75 47 73 49 3.1416 CCW
+Segment #80 73 49 13 49 60
+Segment #106 13 49 8 44 7.854 CCW
+Segment #108 8 44 8 40 4
+Segment #104 8 40 13 35 7.854 CCW
+Segment #101 13 35 24 35 11
+End
+Define Path FEED2UPPER Accumulating Label 65.3944 34.5047 Lag 0.2 Speed 0
+Segment #38 73 35 75.5 35 2.5
+Segment #37 75.5 35 77.5 37 3.1416 CCW
+Segment #48 77.5 37 77.5 50 13
+Segment #88 77.5 50 75.5 52 3.1416 CCW
+Segment #87 75.5 52 14 52 61.5
+Segment #102 14 52 5 43 14.1372 CCW
+Segment #107 5 43 5 26 17
+Segment #105 5 26 10 21 7.854 CCW
+Segment #123 10 21 24 21 14
+End
+Define Path FEED2LOWER Accumulating Label 65.3944 34.5047 Lag 0.2 Speed 0
+Segment #38 73 35 78 35 5
+Segment #35 78 35 80 37 3.1416 CCW
+Segment #49 80 37 80 53 16
+Segment #86 80 53 78 55 3.1416 CCW
+Segment #84 78 55 12 55 66
+Segment #103 12 55 2 45 15.708 CCW
+Segment #109 2 45 2 13 32
+Segment #124 2 13 7 8 7.854 CCW
+Segment #127 7 8 24 8 17
+End
+Define Path TODUMP2 Accumulating Label 59.7606 34.5047 Speed 5
+Segment #68 63 33 65 35 3.1416 CW
+Segment #42 65 35 68 35 3
+Segment #39 68 35 69 35 1
+End
+Define Path TODUMP3 Accumulating Label 62.7653 34.5047 Speed 5
+Segment #44 66 33 68 35 3.1416 CW
+Segment #39 68 35 69 35 1
+End
+Define Path LHBACK1 Accumulating LEAPOK Label 116.5128 22.7011 Speed 0
+Segment #56 123 29 124 30 1.5708 CCW
+Segment #63 124 30 124 44 14
+Segment #82 124 44 119 49 7.854 CCW
+Segment #79 119 49 73 49 46
+Segment #80 73 49 13 49 60
+Segment #106 13 49 8 44 7.854 CCW
+Segment #108 8 44 8 40 4
+Segment #104 8 40 13 35 7.854 CCW
+Segment #101 13 35 24 35 11
+End
+Define Path LHBACK2 Accumulating LEAPOK Label 111.4949 22.3388 Speed 0
+Segment #32 122 26 127 31 7.854 CCW
+Segment #66 127 31 127 47 16
+Segment #83 127 47 122 52 7.854 CCW
+Segment #85 122 52 75.5 52 46.5
+Segment #87 75.5 52 14 52 61.5
+Segment #102 14 52 5 43 14.1372 CCW
+Segment #107 5 43 5 26 17
+Segment #105 5 26 10 21 7.854 CCW
+Segment #123 10 21 24 21 14
+End
+Define Path LHBACK3 Accumulating LEAPOK Label 111.4949 22.3388 Speed 0
+Segment #29 120 23 125 23 5
+Segment #61 125 23 130 28 7.854 CCW
+Segment #67 130 28 130 50 22
+Segment #128 130 50 125 55 7.854 CCW
+Segment #84 125 55 12 55 113
+Segment #103 12 55 2 45 15.708 CCW
+Segment #109 2 45 2 13 32
+Segment #124 2 13 7 8 7.854 CCW
+Segment #127 7 8 24 8 17
+End
+Define Path OverlandConv Circular Label 0 0 Time 50.0008
+Segment #45 69 27.5 75.5 27.5 6.5
+Segment #33 75.5 27.5 102.1286 31.7796 26.9703
+Segment #50 102.1286 31.7796 104 29 3.5553 CW
+End
+Define Path ReclaimConv Circular Label 114.1395 21.2509 Time 20.0006
+Segment #24 104 21.5 117.5 21.5 13.5
+Segment #27 117.5 21.5 119.4696 19.8473 2.7925 CW
+End
+Define Path ApronConv Circular Label 117.7436 14.2263 Time 100.0004
+Segment #22 121 14.5 75 14.5 46
+Segment #53 75 14.5 74 13.5 1.5708 CCW
+Segment #59 74 13.5 74 13 0.5
+Segment #58 74 13 75 12 1.5708 CCW
+Segment #4 75 12 108.5 6.2571 33.9887
+End
+Define Path TrainLeaving Accumulating Label 91.9535 -10.8989 Speed 5
+Segment #65 102 -10 -8 -10 110
+End
+Define Path LdS1 Label 112.506 3.3121 Speed 2
+Segment #5 111.5 6.5 114.7 8 3.5341
+Segment #1 114.7 8 118 8 3.3
+Segment #2 118 8 118 2 6
+End
+Define Path LdS2 Label 124.1714 2.4285 Speed 2
+Segment #5 111.5 6.5 114.7 8 3.5341
+Segment #1 114.7 8 124 8 9.3
+Segment #6 124 8 124 2 6
+End
+Define Path LdS3 Label 112.4675 2.6951 Speed 2
+Segment #5 111.5 6.5 114.7 8 3.5341
+Segment #1 114.7 8 130 8 15.3
+Segment #7 130 8 130 2 6
+End
+Define Path LdS4 Label 112.3132 2.1809 Speed 2
+Segment #5 111.5 6.5 114.7 8 3.5341
+Segment #1 114.7 8 136 8 21.3
+Segment #14 136 8 136 2 6
+End
+Define Path LdS5 Label 112.3132 1.6667 Speed 2
+Segment #5 111.5 6.5 114.7 8 3.5341
+Segment #1 114.7 8 142 8 27.3
+Segment #17 142 8 142 2 6
+End
+Define Path LdS6 Label 112.4675 3.8777 Speed 2
+Segment #5 111.5 6.5 114.7 8 3.5341
+Segment #1 114.7 8 148 8 33.3
+Segment #20 148 8 148 2 6
+End
+Define Path LdTrS1 Label 118.1566 0.4235 Speed 2
+Segment #3 118 2 118 -6 8
+End
+Define Path LdTrS2 Label 124.1932 0.4654 Speed 2
+Segment #9 124 2 124 -3 5
+Segment #8 124 -3 118 -3 6
+Segment #3 118 -3 118 -6 3
+End
+Define Path LdTrS3 Label 130.1863 2.4285 Speed 2
+Segment #15 130 2 130 -3 5
+Segment #8 130 -3 118 -3 12
+Segment #3 118 -3 118 -6 3
+End
+Define Path LdTrS4 Label 136.2012 0.4235 Speed 2
+Segment #16 136 2 136 -3 5
+Segment #8 136 -3 118 -3 18
+Segment #3 118 -3 118 -6 3
+End
+Define Path LdTrS5 Label 142.2161 2.4285 Speed 2
+Segment #18 142 2 142 -3 5
+Segment #8 142 -3 118 -3 24
+Segment #3 118 -3 118 -6 3
+End
+Define Path LdTrS6 Label 147.8772 1.7208 Speed 2
+Segment #19 148 2 148 -3 5
+Segment #8 148 -3 118 -3 30
+Segment #3 118 -3 118 -6 3
+End
+Define Path GotoS1 Label 118.368 -2.3442 Speed 2
+Segment #3 118 -4.5 118 2 6.5
+End
+Define Path GotoS2 Label 115.707 -2.6527 Speed 2
+Segment #3 118 -4.5 118 -3 1.5
+Segment #8 118 -3 124 -3 6
+Segment #9 124 -3 124 2 5
+End
+Define Path GotoS4 Label 115.9769 -3.5783 Speed 2
+Segment #3 118 -4.5 118 -3 1.5
+Segment #8 118 -3 136 -3 18
+Segment #16 136 -3 136 2 5
+End
+Define Path GotoS5 Label 114.7814 -3.0641 Speed 2
+Segment #3 118 -4.5 118 -3 1.5
+Segment #8 118 -3 142 -3 24
+Segment #18 142 -3 142 2 5
+End
+Define Path GotoS6 Label 115.3599 -2.3442 Speed 2
+Segment #3 118 -4.5 118 -3 1.5
+Segment #8 118 -3 148 -3 30
+Segment #19 148 -3 148 2 5
+End
+Define Path BackFrTr Label 118.1566 -5.4735 Speed 2
+Segment #3 118 -6 118 -4.5 1.5
+End
+Define Path arm22down Label 17.3042 28.1848 Time 0.15
+Segment #92 21.8 29.8 25.8 26.4 5.2922
+End
+Define Path arm21down Label 17.3042 28.1848 Time 0.15
+Segment #119 19.8 28.4 21.6717 26.3574 2.8797 CW
+End
+Define Path arm21up Label 22.7072 25.4491 Time 0.15
+Segment #119 21.6717 26.3574 19.8 28.4 2.8797 CCW
+End
+Define Path arm22up Label 22.7072 25.4491 Time 0.15
+Segment #93 24.6 25.6 20.6 29.2 5.3815
+End
+Define Path arm22forward Label 17.3042 29.0055 Time 0.15
+Segment #99 20.6 29.2 21.7676 29.8275 1.3809 CCW
+End
+Define Path arm22back Label 25.1009 25.0843 Time 0.15
+Segment #113 25.8124 26.3 24.6 25.6 1.4661 CW
+End
+Define Path shovel2down Label 20.5187 28.6407 Time 0.15
+Segment #110 23.6 28.8 27.6 25.4 5.3497
+End
+Define Path shovel2back Label 24.5538 25.0843 Time 0.15
+Segment #89 27.5445 25.3 24.6 23.6 3.5605 CW
+End
+Define Path shovel2up Label 22.1601 23.4429 Time 0.15
+Segment #114 24.6 23.6 20.6 27.2 5.3814
+End
+Define Path shovel2forward Label 16.7571 26.9993 Time 0.15
+Segment #98 20.6 27.2 23.5238 28.8647 3.5197 CCW
+End
+Define Path arm11down Label 17.332 42.5928 Time 0.15
+Segment #100 19.8 42.8 21.6717 40.7574 2.8797 CW
+End
+Define Path arm11up Label 19.7663 40.5866 Time 0.15
+Segment #100 21.6717 40.7574 19.8 42.8 2.8797 CCW
+End
+Define Path arm12up Label 22.502 39.8571 Time 0.15
+Segment #97 24.4 40 20.6 43.6 5.2345
+End
+Define Path arm12down Label 19.2192 44.0518 Time 0.15
+Segment #96 21.8 44.2 25.6 40.8 5.1417
+End
+Define Path arm12forward Label 18.4669 44.0518 Time 0.15
+Segment #126 20.6 43.6 21.7682 44.2284 1.3819 CCW
+End
+Define Path arm12back Label 23.1176 40.4954 Time 0.15
+Segment #94 25.6124 40.7 24.4 40 1.4661 CW
+End
+Define Path shovel1down Label 20.5187 43.0487 Time 0.15
+Segment #91 23.6 43.2 27.6 39.8 5.3497
+End
+Define Path shovel1back Label 24.5538 39.4923 Time 0.15
+Segment #90 27.5445 39.7 24.6 38 3.5605 CW
+End
+Define Path shovel1up Label 22.1601 37.8509 Time 0.15
+Segment #95 24.6 38 20.6 41.6 5.3814
+End
+Define Path shovel1forward Label 16.9438 41.3851 Time 0.15
+Segment #125 20.6 41.6 23.5155 43.2507 3.5033 CCW
+End
+Define Path arm31down Label 18.5417 16.2113 Time 0.15
+Segment #122 19.7 16.3 21.5717 14.2574 2.8797 CW
+End
+Define Path arm31up Label 21.6205 14.4339 Time 0.15
+Segment #122 21.5717 14.2574 19.7 16.3 2.8797 CCW
+End
+Define Path arm32forward Label 18.9861 17.0154 Time 0.15
+Segment #121 20.5 17.1 21.6676 17.7275 1.3809 CCW
+End
+Define Path arm32down Label 20.5096 17.6502 Time 0.15
+Segment #116 21.7 17.7 25.7 14.3 5.2922
+End
+Define Path arm32back Label 25.7784 14.3492 Time 0.15
+Segment #115 25.7124 14.2 24.5 13.5 1.4661 CW
+End
+Define Path arm32up Label 23.6201 13.4182 Time 0.15
+Segment #118 24.5 13.5 20.5 17.1 5.3815
+End
+Define Path shovel3forward Label 18.7322 15.0264 Time 0.15
+Segment #120 20.5 15.1 23.4238 16.7647 3.5197 CCW
+End
+Define Path shovel3down Label 22.0331 16.6768 Time 0.15
+Segment #112 23.5 16.7 27.5 13.3 5.3497
+End
+Define Path shovel3back Label 27.4924 13.3759 Time 0.15
+Segment #111 27.4445 13.2 24.5 11.5 3.5605 CW
+End
+Define Path shovel3up Label 23.3662 11.4292 Time 0.15
+Segment #117 24.5 11.5 20.5 15.1 5.3814
+End
+Define Path TrainComing Accumulating Label 135.2879 -10.856 Speed 5
+Segment #13 300 -10 146 -10 154
+End
+Define Path GotoS3 Label 114.7814 -3.9896 Speed 2
+Segment #3 118 -4.5 118 -3 1.5
+Segment #8 118 -3 130 -3 12
+Segment #15 130 -3 130 2 5
+End
+Define Path LdW1 Accumulating Label 120.5082 -10.2888 Speed 5
+Segment #13 146 -10 122 -10 24
+Segment #12 122 -10 118 -10 4
+End
+Define Path LdW2 Accumulating Label 116.5728 -10.2888 Speed 5
+Segment #11 118 -10 114 -10 4
+End
+Define Path LdW3 Accumulating Label 112.5459 -10.2888 Speed 5
+Segment #10 114 -10 110 -10 4
+End
+Define Path LdW4 Accumulating Label 108.5189 -10.2888 Speed 5
+Segment #21 110 -10 106 -10 4
+End
+Define Path LdW5 Accumulating Label 104.492 -10.2888 Speed 5
+Segment #64 106 -10 102 -10 4
+End
+Define Path longhaul1 Accumulating LEAPOK Label 55.6617 34.6609 Speed 5
+Segment #73 58 35 60 37 3.1416 CCW
+Segment #71 60 37 64 41 6.2832 CW
+Segment #77 64 41 111 41 47
+Segment #62 111 41 115.4395 38.3002 5.4638 CW
+Segment #52 115.55 38.06 119.18 30.17 8.9561
+Segment #55 119.1831 30.164 121 29 2.2792 CCW
+Segment #57 121 29 123 29 2
+End
+Define Path longhaul2 Accumulating LEAPOK Label 57.5421 32.5162 Speed 5
+Segment #36 63 33 68 38 7.854 CW
+Segment #46 68 38 109 38 41
+Segment #54 109 38 113.4395 35.3002 5.4638 CW
+Segment #26 113.55 35.06 117.18 27.17 8.9561
+Segment #30 117.1831 27.164 119 26 2.2792 CCW
+Segment #31 119 26 122 26 3
+End
+Define Path longhaul3 Accumulating LEAPOK Label 60.5627 32.5162 Speed 5
+Segment #44 66 33 68 35 3.1416 CW
+Segment #39 68 35 69 35 1
+Segment #40 69 35 73 35 4
+Segment #38 73 35 78 35 5
+Segment #34 78 35 107 35 29
+Segment #51 107 35 111.5543 32.0637 5.7267 CW
+Segment #23 111.5787 32.0747 115.1618 24.1671 8.6815
+Segment #25 115.1783 24.1745 117 23 2.2907 CCW
+Segment #28 117 23 120 23 3
+End
+End

@@ -1,0 +1,10 @@
+time 5
+create SQUARE 1
+place 1 on ThePath
+time 20
+create CIRCLE 2
+place 2 on ThePath
+time 250
+end
+
+

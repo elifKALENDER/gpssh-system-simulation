@@ -1,0 +1,10 @@
+create BigGear 1
+create BigGear 2
+place 1 at 0 0
+place 2 at 22.5 0
+rotate 2 to 60
+rotate 1 speed -10 step 6
+rotate 2 speed 10 step 6
+time 9999 39032
+end
+

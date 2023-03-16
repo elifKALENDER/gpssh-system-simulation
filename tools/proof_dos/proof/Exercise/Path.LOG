@@ -1,0 +1,8 @@
+T=19.98 @ Trace line 5: CREATE: object 1 already exists
+                      : create CIRCLE 1
+                      :                +
+
+T=252.96 @ Trace line 768: Object 127 : Object 126 on path "oil01"
+                         : Object 126 path offset = 2.74, aft clearance = 0.00
+                         : Object 127 path offset = 0.00, fore clearance = 3.00
+                         : Overlap = 0.2587 (0.00 + 3.00) - (2.74 - 0.00)

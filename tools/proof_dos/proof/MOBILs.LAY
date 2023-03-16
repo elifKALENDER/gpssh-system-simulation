@@ -1,0 +1,350 @@
+Define View "(Home)" center 39.9375 21.8125 Width 79.875 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 6
+Define View "(Class)" center 0.6852 -0.6851 Width 14.5397 Grid Size 0.2 2 Ortho
+Define color Backdrop  0 0 0
+Define color F1 0 0 0.6667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.6667
+Define color F6 1 0.6667 0
+Define color F7 0 1 0
+Define color F8 0.898 0.2471 0.2471
+Define color F9 0 0 1
+Define color F10 0.749 0.2471 0.2471
+Define color F11 0.6 0.949 1
+Define color F12 0.498 0.349 0
+Define color F13 0.749 0.4 0.6667
+Define color F14 0.6 0.498 0.498
+Define color F15 0 0.6 0.2
+Define color F16 0.6667 0 1
+Define color F17 0 0.6667 0.6667
+Define color F18 0.6667 0.3294 0
+Define color F19 0.4 0.498 0.698
+Define color F20 0 0.3294 0.3294
+Define color F21 0.898 0.6667 0.498
+Define color F22 0.498 0.2471 0.498
+Define color F23 0.749 0.6 0
+Define color F24 0.498 0 0.6667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.298 0.298 0.298
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.498 0.498 0.498
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.698 0.698 0.698
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.898 0.898 0.898
+Define color L1 0.5098 0.5098 0.5098
+Define color L2 0.6667 0.949 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.898 0.6667 0.498
+Define color L6 0.4 0.498 0.698
+Define color L7 0 0 0.6667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0.8471 0.8 0.6
+*[new] Define Font 2 "Bookman Old Style"
+*[new] Define Font 3 "Times New Roman"
+Color F7
+Define Class CAR Directional Clearance 2 2
+Line -1.4698 -0.2924 -1.4698 -0.4058
+Line -1.3942 0.01 -1.3942 -0.2546
+Line -1.3942 -0.2546 -1.4698 -0.2924
+Arc 0.0756 -1.3186 0.01 180 90 0.3142
+Fill -0.8234 -0.4462
+Fill 1.0867 -0.3965
+Line 0.7604 0.0856 0.3068 0.5014
+Line 0.3068 0.5014 -0.5248 0.5014
+Line -0.5248 0.5014 -0.865 0.0856
+Line -0.865 0.0856 -1.3186 0.0856
+Line 0.5714 0.0856 0.269 0.4636
+Line 1.6676 -0.3302 1.5542 -0.2546
+Line 1.6676 -0.4058 1.6676 -0.3302
+Line 1.5501 -0.2519 1.5274 -0.024
+Line 1.5274 -0.024 0.7604 0.0856
+Line -0.4114 0.4636 -0.5626 0.0856
+Line 0.269 0.4636 -0.4114 0.4636
+Line -0.5626 0.0856 0.5714 0.0856
+Line -0.0334 0.4636 -0.0334 0.0856
+Line 0.4202 0.1612 0.4202 0.0856
+Arc 0.189 1.0628 -0.4436 0 360 3.1416
+Arc 0.189 -0.865 -0.4436 0 360 3.1416
+Line 1.2864 -0.4058 1.6676 -0.4058
+Arc 0.2268 1.0628 -0.4436 170.4059 9.5941 1.684
+Arc 0.2268 -0.865 -0.4436 170.4059 9.5941 1.684
+Line -0.6414 -0.4058 0.8392 -0.4058
+Line -1.4698 -0.4058 -1.0886 -0.4058
+Fill 0.557 -0.1686
+End
+Color F8
+Define Class bus Directional Clearance 2 2
+Line -1.7498 -0.1624 -1.7498 -0.2758
+Line -1.6742 0.14 -1.6742 -0.1246
+Line -1.6742 -0.1246 -1.7498 -0.1624
+Arc 0.0756 -1.5986 0.14 180 90 0.3142
+Fill -1.1033 -0.3162
+Fill 0.8067 -0.2665
+Line 0.4804 0.2156 0.0268 0.6314
+Line 0.0268 0.6314 -0.8048 0.6314
+Line -0.8048 0.6314 -1.145 0.2156
+Line -1.145 0.2156 -1.5986 0.2156
+Line 0.2914 0.2156 -0.011 0.5936
+Line 1.3876 -0.2002 1.2742 -0.1246
+Line 1.3876 -0.2758 1.3876 -0.2002
+Line 1.2701 -0.1219 1.2474 0.106
+Line 1.2474 0.106 0.4804 0.2156
+Line -0.6914 0.5936 -0.8426 0.2156
+Line -0.011 0.5936 -0.6914 0.5936
+Line -0.8426 0.2156 0.2914 0.2156
+Line -0.3134 0.5936 -0.3134 0.2156
+Line 0.1402 0.2912 0.1402 0.2156
+Arc 0.189 0.7828 -0.3136 0 360 3.1416
+Arc 0.189 -1.145 -0.3136 0 360 3.1416
+Line 1.0064 -0.2758 1.3876 -0.2758
+Arc 0.2268 0.7828 -0.3136 170.4059 9.5941 1.684
+Arc 0.2268 -1.145 -0.3136 170.4059 9.5941 1.684
+Line -0.9214 -0.2758 0.5592 -0.2758
+Line -1.7498 -0.2758 -1.3686 -0.2758
+Fill 0.277 -0.0386
+End
+Color F17
+Define Class car Directional Clearance 2 2
+Fill 0.477 0.0114
+Line -1.5498 -0.2258 -1.1686 -0.2258
+Line -0.7214 -0.2258 0.7592 -0.2258
+Arc 0.2268 -0.945 -0.2636 170.4059 9.5941 1.684
+Arc 0.2268 0.9828 -0.2636 170.4059 9.5941 1.684
+Line 1.2064 -0.2258 1.5876 -0.2258
+Arc 0.189 -0.945 -0.2636 0 360 3.1416
+Arc 0.189 0.9828 -0.2636 0 360 3.1416
+Line 0.3402 0.3412 0.3402 0.2656
+Line -0.1134 0.6436 -0.1134 0.2656
+Line -0.6426 0.2656 0.4914 0.2656
+Line 0.189 0.6436 -0.4914 0.6436
+Line -0.4914 0.6436 -0.6426 0.2656
+Line 1.4474 0.1561 0.6804 0.2656
+Line 1.4701 -0.0719 1.4474 0.1561
+Line 1.5876 -0.2258 1.5876 -0.1502
+Line 1.5876 -0.1502 1.4742 -0.0746
+Line 0.4914 0.2656 0.189 0.6436
+Line -0.945 0.2656 -1.3986 0.2656
+Line -0.6048 0.6814 -0.945 0.2656
+Line 0.2268 0.6814 -0.6048 0.6814
+Line 0.6804 0.2656 0.2268 0.6814
+Fill 1.0067 -0.2165
+Fill -0.9033 -0.2662
+Arc 0.0756 -1.3986 0.19 180 90 0.3142
+Line -1.4742 -0.0746 -1.5498 -0.1124
+Line -1.4742 0.19 -1.4742 -0.0746
+Line -1.5498 -0.1124 -1.5498 -0.2258
+End
+Color F7
+Line 20 35 69 35
+Line 69 37 20 37
+Line 20 40 69 40
+Line 69 40 69 37
+Line 69 37 69 31
+Line 64 43 64 40
+Line 33 31 69 31
+Color L8
+Line #1 40 25 40 28
+Line #2 38 24 66 24
+Arc  #3 1 39 25 -90 0 1.5708
+Line #4 6 24 38 24
+Arc  #5 1 41 28 90 180 1.5708
+Arc  #6 3 38 15 90 180 4.7124
+Line #7 61 29 41 29
+Line #8 24 21 67 21
+Color F2
+Text 1 1.5 LJ 41 40.8  WOLF Inc.
+Color F1
+Text 1 2 LJ 34.5 40.5 bil
+Color F16
+Text 1 1.1 LJ 53 41 Since 1809
+Color F7
+Line 29 31 33 31
+Line 33 31 33 40
+Line 20 31 25 31
+Line 20 37 20 34
+Line 20 34 20 31
+Line 20 40 20 37
+Line 25 40 25 43
+Color L8
+Arc  #9 1 26 28 -90 0 1.5708
+Line #10 27 31 27 28
+Line #11 18 28 18 32
+Arc  #12 1 17 28 -90 0 1.5708
+Arc  #13 3 24 18 90 180 4.7124
+Arc  #14 3 18 18 -90 0 4.7124
+Color F2
+Text 3 1 LJ 22.5 35.6 OIL CHANGE
+Color L8
+Line #15 6 27 26 27
+Color F2
+Text 1 2 LJ 33 40.5 o
+Color F1
+Text 1 2 LJ 31 40.5 M
+Color F7
+Line 25 43 64 43
+Color F3
+Line 61.7012 43.9588 61.7012 43.04
+Line 62.095 43.04 62.095 43.6963
+Line 62.3575 43.6963 62.3575 43.04
+Line 61.7012 43.04 62.095 43.04
+Line 62.095 43.04 62.3575 43.04
+Color F7
+Line 62.095 43.1712 62.3575 43.1712
+Line 62.095 43.3025 62.3575 43.3025
+Line 61.57 44.09 60.6512 43.1712
+Color F3
+Fill 63.5163 42.1094
+Color F7
+Line 62.7513 45.5338 62.0539 44.0135
+Line 62.095 43.4337 62.3575 43.4337
+Line 61.045 45.0088 62.7513 45.5338
+Arc 0.1312 62.8252 45.6103 0 360 0.6283
+Arc 1.9688 62.8825 45.7962 201.1185 276.954 9.9268
+Line 63.0877 44.4073 62.7513 45.5338
+Fill 61.5781 44.1448
+Arc 0.1312 62.095 44.4838 180 270 0.1571
+Line 62.3575 44.7463 62.095 44.3525
+Fill 61.8079 43.5102
+Line 62.095 43.565 62.3575 43.565
+Line 61.9637 44.4838 62.3575 44.7463
+Arc 1.9688 61.5124 43.226 22.2178 103.739 2.1342
+Arc 1.4438 62.4887 45.14 180 306.0274 2.4196
+Color L8
+Arc  #16 3 38 15 180 270 4.7124
+Line #17 18.5 15 35.5 15
+Line #18 7 15 18 15
+Line #19 38 12 78 12
+Line #20 37 8 77 8
+Arc  #21 3 37 5 90 180 4.7124
+Color F6
+Text 1 1.3 LJ 10 7 Number of Arriving Vehicles
+Color F7
+Line 74 7 74 5
+Line 74 7 75 7
+Line 75 7 75 5
+Color F24
+Fill 74.6025 5.8375
+Color L8
+Arc  #22 3 37 3 180 270 4.7124
+Color F7
+Line 72 3 72 5
+Line 75 3 72 3
+Line 72 5 75 5
+Color F2
+Text 1 0.8 LJ 72 4 Pump
+Color L8
+Line #23 34 5 34 3
+Line #24 17 4 34 4
+Line #25 6 4 17 4
+Arc  #26 3 17 1 0 90 4.7124
+Color F6
+Text 1 1.3 LJ 10 3 Shop          :
+Color F7
+Line 75 5 75 3
+Color L8
+Line #27 37 0 77 0
+Arc  #28 3 23 1 180 270 4.7124
+Color F6
+Text 1 1.3 LJ 10 1 Oil Change  :
+Text 1 1.3 LJ 10 -1 Oil Util.        :
+Color L8
+Line #29 23 -2 54 -2
+Color F6
+Message ff 1 1.3 LJ 20.5 -1 BG Backdrop ff
+Message BB 1 1.3 LJ 20 3 BG Backdrop BB
+Message CC 1 1.3 LJ 20 1 BG Backdrop CC
+Color F2
+Text 2 1 LJ 41 35.6 MOBIL MARKET & SANDWICHES
+Color F6
+Text 1 1.3 LJ 10 5 Pumps        :
+Message AA 1 1.3 LJ 20 5 BG Backdrop AA
+Define Path oil01 Accumulating Label 14.5 26.7292 Lag 0.25 Speed 3.36
+Segment #15 17 27 26 27 9
+Segment #9 26 27 27 28 1.5708 CCW
+Segment #10 27 28 27 31 3
+End
+Define Path pump101 Label 5.1151 11.9363 Time 2
+Segment #14 18 15 21 18 4.7124 CCW
+Segment #13 21 18 24 21 4.7124 CW
+Segment #8 24 21 67 21 43
+End
+Define Path pump102 Accumulating LEAPOK Label 5.1067 11.9238 Lag 0.25 Time 2
+Segment #17 18.5 15 35 15 16.5
+Segment #6 35 15 38 18 4.7124 CW
+End
+Define Path pump201 Accumulating LEAPOK Label 4.2039 3.8578 Lag 0.25 Time 2
+Segment #24 17 4 34 4 17
+Segment #23 34 4 34 5 1
+Segment #21 34 5 37 8 4.7124 CW
+Segment #20 37 8 77 8 40
+End
+Define Path pump202 Accumulating LEAPOK Label 4.2039 3.8578 Lag 0.25 Time 2
+Segment #24 17 4 34 4 17
+Segment #23 34 4 34 3 1
+Segment #22 34 3 37 0 4.7124 CCW
+Segment #27 37 0 77 0 40
+End
+Define Path pump203 Label 4.2039 3.8578 Time 2
+Segment #26 17 4 20 1 4.7124 CW
+Segment #28 20 1 23 -2 4.7124 CCW
+Segment #29 23 -2 54 -2 31
+End
+Define Path oil02 Label 15.7561 26.8548 Time 3
+Segment #12 17 27 18 28 1.5708 CCW
+Segment #11 18 28 18 32 4
+End
+Define Path oil Accumulating Label 16.3928 26.8768 Time 2
+Segment #15 6 27 17 27 11
+End
+Define Path pump1 Accumulating Label 4.643 11.8576 Time 2
+Segment #18 18 15 7 15 11
+Segment #18 7 15 18 15 11
+End
+Define Path pump2 Accumulating Label 4.6418 3.7756 Time 2
+Segment #25 6 4 17 4 11
+End
+Define Path pump103 Accumulating LEAPOK Label 15 14.7292 Lag 0.25 Time 2
+Segment #17 18.5 15 35 15 16.5
+Segment #16 35 15 38 12 4.7124 CCW
+Segment #19 38 12 78 12 40
+End
+Define Path shop Accumulating Label 4 23.7292 Time 2
+Segment #4 6 24 38 24 32
+Segment #2 38 24 39 24 1
+End
+Define Path shop01 Accumulating Label 36 23.7292 Time 2
+Segment #3 39 24 40 25 1.5708 CCW
+Segment #1 40 25 40 28 3
+Segment #5 40 28 41 29 1.5708 CW
+Segment #7 41 29 51 29 10
+End
+Define Path shop02 Label 63 23.7292 Time 2
+Segment #2 39 24 66 24 27
+End
+End

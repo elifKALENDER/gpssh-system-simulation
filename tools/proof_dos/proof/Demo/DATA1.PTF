@@ -1,0 +1,3597 @@
+*** Time 5 ... 15 of data.ATF ***
+Time jump 5 9814
+*** Establish Proper State ***
+Set Path b1 Speed 86790098.1065
+Set Path s1b Speed 86856914.72
+Set Path a1 Speed 98088440.809
+Set Path l1 Speed 181763932.1515
+Set Path s1 Speed 119303642.333
+Set Path s3l Speed 181710274.9225
+Set Path s4s Speed 119303642.3325
+Set Path s43 Speed 88672999.4232
+Set Path s34 Speed 88672999.4232
+Set Path s32 Speed 109101070.6057
+Set Path s23 Speed 109101070.6057
+Set Path s12 Speed 79599755.2435
+Set Path s21 Speed 79599755.2435
+Set Path s14 Speed 114572969.2112
+Set Path s41 Speed 114528580.3231
+Set Path s2a Speed 122634922.334
+Set Path bo Speed 30000000
+Set Path bo1 Speed 30000000
+Set Path at Speed 30000000
+Set Path at1 Speed 30000000
+Set Path lo Speed 30000000
+Set Path lo1 Speed 30000000
+Set Path se Speed 30000000
+Set Path se1 Speed 30000000
+*** Resume User Trace ***
+*** Establish Proper State ***
+Set Bar b12 Left 0 Right 100 Top 56 Bot 0 Color F2
+Set Bar b34 Left 0 Right 100 Top 49 Bot 0 Color F2
+Set Bar b23 Left 0 Right 100 Top 43 Bot 0 Color F2
+Set Bar b41 Left 0 Right 100 Top 54 Bot 0 Color F2
+Write sec 04
+Write min 0
+Write sw12 56
+Write sw23 43
+Write sw34 49
+Write sw41 54
+Set Path b1 Speed 86790098.1065
+Set Path s1b Speed 86856914.72
+Set Path a1 Speed 98088440.809
+Set Path l1 Speed 181763932.1515
+Set Path s1 Speed 119303642.333
+Set Path s3l Speed 181710274.9225
+Set Path s4s Speed 119303642.3325
+Set Path s43 Speed 88672999.4232
+Set Path s34 Speed 88672999.4232
+Set Path s32 Speed 109101070.6057
+Set Path s23 Speed 109101070.6057
+Set Path s12 Speed 79599755.2435
+Set Path s21 Speed 79599755.2435
+Set Path s14 Speed 114572969.2112
+Set Path s41 Speed 114528580.3231
+Set Path s2a Speed 122634922.334
+Set Path bo Speed 30000000
+Set Path bo1 Speed 30000000
+Set Path at Speed 30000000
+Set Path at1 Speed 30000000
+Set Path lo Speed 30000000
+Set Path lo1 Speed 30000000
+Set Path se Speed 30000000
+Set Path se1 Speed 30000000
+Create pk 21
+Set 21 Color F1
+Place 21 On se1 at 6295683.7528
+Create pk 18
+Set 18 Color F5
+Place 18 On lo at 3135088.9824
+Create pk 19
+Set 19 Color F5
+Place 19 On lo1 at 2715088.9824
+Create pk 26
+Set 26 Color F5
+Place 26 On lo at 2295088.9824
+Create pk 16
+Set 16 Color F4
+Place 16 On at at 2887322.3792
+Create pk 20
+Set 20 Color F1
+Place 20 On se at 4075683.7528
+Create pk 14
+Set 14 Color F2
+Place 14 On bo at 799420.8056
+Create pk 17
+Set 17 Color F4
+Place 17 On at1 at 17530157.0818
+Create pk 39
+Set 39 Color F4
+Place 39 On at1 at 15490157.0818
+Create pk 31
+Set 31 Color F1
+Place 31 On se at 16777473.2837
+Create pk 28
+Set 28 Color F5
+Place 28 On lo1 at 14233202.8596
+Create pk 29
+Set 29 Color F5
+Place 29 On lo at 13843202.8596
+Create pk 42
+Set 42 Color F4
+Place 42 On at1 at 10270157.0818
+Create pk 30
+Set 30 Color F4
+Place 30 On at at 8830157.0818
+Create pk 47
+Set 47 Color F5
+Place 47 On lo at 6463202.8596
+Create pk 54
+Set 54 Color F4
+Place 54 On at1 at 6580157.0818
+Create pk 62
+Set 62 Color F5
+Place 62 On lo at 4453202.8596
+Create pk 33
+Set 33 Color F2
+Place 33 On bo at 3856993.2049
+Create pk 45
+Set 45 Color F5
+Place 45 On lo1 at 16691316.7368
+Create pk 43
+Set 43 Color F1
+Place 43 On se at 17479262.8146
+Create pk 78
+Set 78 Color F5
+Place 78 On lo1 at 14801316.7368
+Create pk 57
+Set 57 Color F4
+Place 57 On at at 14922991.7844
+Create pk 82
+Set 82 Color F4
+Place 82 On at at 14412991.7844
+Create pk 66
+Set 66 Color F4
+Place 66 On at1 at 14232991.7844
+Create pk 83
+Set 83 Color F4
+Place 83 On at at 12162991.7844
+Create pk 79
+Set 79 Color F1
+Place 79 On se at 11959262.8146
+Create pk 81
+Set 81 Color F5
+Place 81 On lo1 at 7571316.7368
+Create pk 93
+Set 93 Color F1
+Place 93 On se at 7009262.8146
+Create pk 15
+Set 15 Color F2
+Place 15 On bo1 at 3404565.6042
+Create pk 24
+Set 24 Color F1
+Place 24 On se1 at 2689262.8146
+Create pk 71
+Set 71 Color F2
+Place 71 On bo at 17952138.0035
+Create pk 108
+Set 108 Color F2
+Place 108 On bo1 at 16212138.0035
+Create pk 118
+Set 118 Color F2
+Place 118 On bo at 15312138.0035
+Create pk 114
+Set 114 Color F1
+Place 114 On se1 at 16501052.3455
+Create pk 129
+Set 129 Color F1
+Place 129 On se1 at 16111052.3455
+Create pk 130
+Set 130 Color F1
+Place 130 On se1 at 14371052.3455
+Create pk 124
+Set 124 Color F2
+Place 124 On bo1 at 6072138.0035
+Create pk 141
+Set 141 Color F2
+Place 141 On bo1 at 612138.0035
+Create pk 128
+Set 128 Color F2
+Place 128 On bo at 10929710.4028
+Create pk 155
+Set 155 Color F2
+Place 155 On bo1 at 2559710.4028
+Create pack 195
+Set 195 Color F1
+Place 195 On s3l at 10357485.6706
+Create pack 201
+Set 201 Color F2
+Place 201 On s32 at 54441434.2322
+Create pack 207
+Set 207 Color F5
+Place 207 On s14 at 93376969.9071
+Create pack 212
+Set 212 Color F1
+Place 212 On s23 at 26511560.1572
+Create pack 217
+Set 217 Color F4
+Place 217 On s43 at 7537204.951
+Create pack 224
+Set 224 Color F5
+Place 224 On s41 at 108573094.1463
+Create pack 234
+Set 234 Color F5
+Place 234 On s41 at 102961193.7105
+Create pack 238
+Set 238 Color F4
+Place 238 On s41 at 15804944.0846
+Create pack 240
+Set 240 Color F1
+Place 240 On s2a at 16800984.3598
+Create pack 239
+Set 239 Color F2
+Place 239 On s34 at 6827820.9556
+Create pack 242
+Set 242 Color F4
+Place 242 On s14 at 66452322.1425
+Create pack 253
+Set 253 Color F5
+Place 253 On s21 at 18626342.727
+Create pack 245
+Set 245 Color F2
+Place 245 On s14 at 83981986.4318
+Create pack 254
+Set 254 Color F5
+Place 254 On s21 at 238799.2657
+Create pack 261
+Set 261 Color F5
+Place 261 On s41 at 22447601.7433
+Create pack 259
+Set 259 Color F2
+Place 259 On s23 at 19856394.8502
+Create pack 263
+Set 263 Color F2
+Place 263 On s14 at 60494527.7435
+Create pack 258
+Set 258 Color F1
+Place 258 On s41 at 60356561.8303
+Create pack 266
+Set 266 Color F1
+Place 266 On s32 at 10801005.99
+Create pack 262
+Set 262 Color F5
+Place 262 On s4s at 6561700.3283
+Create pack 268
+Set 268 Color F1
+Place 268 On s41 at 50965218.2438
+Create pack 265
+Set 265 Color F2
+Place 265 On s12 at 27621115.0695
+Create pack 271
+Set 271 Color F2
+Place 271 On s12 at 27541515.3143
+Create pack 272
+Set 272 Color F2
+Place 272 On s12 at 27382315.8038
+Create pack 273
+Set 273 Color F2
+Place 273 On s14 at 35403047.4863
+Create pack 269
+Set 269 Color F5
+Place 269 On s34 at 25449150.8345
+Create pack 249
+Set 249 Color F4
+Place 249 On s23 at 30002794.4166
+Create pack 276
+Set 276 Color F2
+Place 276 On s14 at 13405037.3977
+Create pack 270
+Set 270 Color F1
+Place 270 On s43 at 7359858.9521
+Create pack 277
+Set 277 Color F5
+Place 277 On s34 at 5409052.9648
+Create pack 286
+Set 286 Color F1
+Place 286 On s1 at 13123400.6566
+Create pack 289
+Set 289 Color F5
+Place 289 On l1 at 17267573.5544
+Create pack 295
+Set 295 Color F5
+Place 295 On l1 at 15813462.0972
+Create pack 297
+Set 297 Color F5
+Place 297 On l1 at 3271750.7787
+*** Resume User Trace ***
+Write sec 05
+Write min 0
+Time 5.009 29657
+Create pack 298
+Set 298 Color 5
+Place 298 On l1
+Time 5.052 48919
+Place 224 On s12
+Time 5.053 58813
+Place 265 On s23
+Time 5.054 2915
+Place 271 On s23
+Time 5.056 12553
+Place 272 On s23
+Time 5.063 22447
+Destroy 240
+Time 5.072 32073
+Create pack 285
+Set 285 Color 2
+Place 285 On b1
+Time 5.09 51591
+Place 286 On s41
+Time 5.1 61229
+Create pack 303
+Set 303 Color 2
+Place 303 On b1
+Time 5.101 15211
+Place 201 On s2a
+Time 5.101 24849
+Place 234 On s12
+Time 5.105 34743
+Place 289 On s32
+Time 5.113 44381
+Place 295 On s34
+Time 5.113 54019
+Place 269 On s41
+Time 5.143 63913
+Destroy 195
+Time 5.145 8003
+Destroy 262
+Time 5.166 17885
+Place 253 On s14
+Time 5.182 27523
+Place 297 On s32
+Time 5.185 37161
+Place 207 On s4s
+Time 5.201 47055
+Create pack 301
+Set 301 Color 5
+Place 301 On l1
+Time 5.209 781
+Place 298 On s32
+Time 5.21 10675
+Create pack 278
+Set 278 Color 4
+Place 278 On a1
+Time 5.267 30193
+Place 245 On s4s
+Time 5.272 39831
+Place 285 On s14
+Time 5.3 49469
+Place 303 On s12
+Time 5.301 59363
+Destroy 201
+Time 5.315 3453
+Create pack 309
+Set 309 Color 4
+Place 309 On a1
+Time 5.315 22971
+Place 217 On s3l
+Time 5.317 32609
+Place 270 On s3l
+Time 5.323 42247
+Place 239 On s4s
+Time 5.325 52141
+Place 249 On s34
+Time 5.334 61779
+Create pack 306
+Set 306 Color 2
+Place 306 On b1
+Time 5.339 15761
+Place 277 On s41
+Time 5.344 25399
+Create pack 314
+Set 314 Color 2
+Place 314 On b1
+Time 5.357 44917
+Place 212 On s3l
+Time 5.385 54555
+Destroy 207
+Time 5.397 64437
+Place 254 On s14
+Time 5.401 8539
+Place 301 On s34
+Time 5.41 18177
+Place 278 On s23
+Time 5.418 28071
+Place 259 On s3l
+Time 5.42 37709
+Place 242 On s43
+Time 5.452 47603
+Place 224 On s2a
+Time 5.467 57241
+Destroy 245
+Time 5.472 1331
+Place 263 On s43
+Time 5.473 11225
+Place 258 On s12
+Time 5.501 20863
+Place 266 On s2a
+Time 5.501 30501
+Place 234 On s2a
+Time 5.513 40395
+Place 295 On s41
+Time 5.514 50033
+Create pack 313
+Set 313 Color 4
+Place 313 On a1
+Time 5.515 4015
+Place 309 On s21
+Time 5.515 13653
+Destroy 217
+Time 5.517 23535
+Destroy 270
+Time 5.523 33161
+Destroy 239
+Time 5.534 42787
+Place 306 On s12
+Time 5.544 52681
+Place 314 On s14
+Time 5.555 62319
+Place 268 On s1b
+Time 5.557 6421
+Destroy 212
+Time 5.592 16303
+Create pack 294
+Set 294 Color 1
+Place 294 On s1
+Time 5.604 35821
+Create pack 319
+Set 319 Color 4
+Place 319 On a1
+Time 5.605 55083
+Create pack 316
+Set 316 Color 2
+Place 316 On b1
+Time 5.618 9065
+Destroy 259
+Time 5.652 18691
+Destroy 224
+Time 5.653 28573
+Place 265 On s3l
+Time 5.654 38211
+Place 271 On s34
+Time 5.656 48105
+Place 272 On s3l
+Time 5.674 57743
+Create pack 324
+Set 324 Color 2
+Place 324 On b1
+Time 5.676 11725
+Create pack 308
+Set 308 Color 5
+Place 308 On l1
+Time 5.685 30987
+Create pack 322
+Set 322 Color 1
+Place 322 On s1
+Time 5.685 50505
+Create pack 330
+Set 330 Color 1
+Place 330 On s1
+Time 5.691 4487
+Place 273 On s4s
+Time 5.695 14125
+Create pack 323
+Set 323 Color 4
+Place 323 On a1
+Time 5.7 33643
+Place 303 On s2a
+Time 5.701 43281
+Destroy 266
+Time 5.701 53163
+Destroy 234
+Time 5.705 62789
+Place 289 On s21
+Time 5.714 7147
+Place 313 On s21
+Time 5.725 16785
+Place 249 On s41
+Time 5.746 26423
+Create pack 332
+Set 332 Color 4
+Place 332 On a1
+Time 5.755 45941
+Destroy 268
+Time 5.782 55567
+Place 297 On s2a
+Time 5.792 65461
+Place 294 On s43
+Time 5.801 9563
+Place 301 On s4s
+Time 5.804 19201
+Place 261 On s12
+Time 5.804 29095
+Place 319 On s23
+Time 5.805 38733
+Place 316 On s14
+Time 5.809 48627
+Place 298 On s21
+Time 5.817 58265
+Create pack 328
+Set 328 Color 5
+Place 328 On l1
+Time 5.82 12247
+Place 242 On s3l
+Time 5.821 21885
+Create pack 327
+Set 327 Color 2
+Place 327 On b1
+Time 5.84 41403
+Create pack 340
+Set 340 Color 2
+Place 340 On b1
+Time 5.845 60921
+Create pack 331
+Set 331 Color 1
+Place 331 On s1
+Time 5.853 14647
+Destroy 265
+Time 5.856 24529
+Destroy 272
+Time 5.862 34155
+Place 238 On s1b
+Time 5.872 43793
+Place 263 On s3l
+Time 5.873 53687
+Place 258 On s2a
+Time 5.874 63325
+Place 324 On s14
+Time 5.876 7427
+Place 308 On s34
+Time 5.881 17321
+Create pack 335
+Set 335 Color 4
+Place 335 On a1
+Time 5.883 36839
+Place 276 On s4s
+Time 5.885 46477
+Place 322 On s41
+Time 5.885 56115
+Place 330 On s41
+Time 5.891 473
+Destroy 273
+Time 5.895 10099
+Place 323 On s23
+Time 5.9 19737
+Destroy 303
+Time 5.908 29619
+Create pack 343
+Set 343 Color 4
+Place 343 On a1
+Time 5.908 49137
+Create pack 344
+Set 344 Color 4
+Place 344 On a1
+Time 5.915 2863
+Place 309 On s14
+Time 5.934 12757
+Place 306 On s2a
+Time 5.946 22395
+Place 332 On s23
+Time 5.951 32033
+Create pack 345
+Set 345 Color 4
+Place 345 On a1
+Time 5.982 51551
+Destroy 297
+Time 6 61433
+Write sw12 41
+Set Bar b12 41
+Write sw23 45
+Set Bar b23 45
+Write sw34 46
+Set Bar b34 46
+Write sw41 49
+Set Bar b41 49
+Write sec 06
+Write min 0
+Time 6.001 49326
+Destroy 301
+Time 6.004 58952
+Create pack 339
+Set 339 Color 5
+Place 339 On l1
+Time 6.004 12934
+Create pack 349
+Set 349 Color 5
+Place 349 On l1
+Time 6.01 32452
+Place 278 On s3l
+Time 6.014 42090
+Create pack 346
+Set 346 Color 4
+Place 346 On a1
+Time 6.017 61608
+Place 328 On s34
+Time 6.02 5710
+Destroy 242
+Time 6.021 15592
+Place 327 On s14
+Time 6.04 25230
+Place 340 On s14
+Time 6.045 34868
+Place 331 On s41
+Time 6.054 44762
+Place 271 On s4s
+Time 6.062 54400
+Destroy 238
+Time 6.064 64026
+Create pack 351
+Set 351 Color 4
+Place 351 On a1
+Time 6.072 18008
+Destroy 263
+Time 6.073 27890
+Destroy 258
+Time 6.081 37516
+Place 335 On s21
+Time 6.083 47154
+Destroy 276
+Time 6.084 57036
+Create pack 341
+Set 341 Color 2
+Place 341 On b1
+Time 6.089 10762
+Create pack 355
+Set 355 Color 2
+Place 355 On b1
+Time 6.09 30280
+Place 286 On s12
+Time 6.105 40174
+Place 289 On s14
+Time 6.108 49812
+Place 343 On s23
+Time 6.108 59450
+Place 344 On s21
+Time 6.113 3808
+Place 269 On s12
+Time 6.114 13446
+Place 313 On s14
+Time 6.134 23084
+Destroy 306
+Time 6.151 32966
+Place 345 On s21
+Time 6.166 42604
+Place 253 On s4s
+Time 6.192 52242
+Place 294 On s3l
+Time 6.204 62136
+Place 339 On s34
+Time 6.204 6238
+Place 261 On s2a
+Time 6.204 15876
+Place 349 On s32
+Time 6.209 25770
+Place 298 On s14
+Time 6.21 35408
+Destroy 278
+Time 6.214 45290
+Place 346 On s23
+Time 6.254 54928
+Destroy 271
+Time 6.264 64554
+Place 351 On s23
+Time 6.272 8912
+Place 285 On s43
+Time 6.276 18550
+Place 308 On s41
+Time 6.284 28188
+Place 341 On s14
+Time 6.289 38082
+Place 355 On s12
+Time 6.3 47720
+Create pack 353
+Set 353 Color 4
+Place 353 On a1
+Time 6.307 1702
+Create pack 364
+Set 364 Color 4
+Place 364 On a1
+Time 6.312 21220
+Create pack 350
+Set 350 Color 5
+Place 350 On l1
+Time 6.339 40482
+Place 277 On s1b
+Time 6.344 50376
+Create pack 356
+Set 356 Color 2
+Place 356 On b1
+Time 6.366 4102
+Destroy 253
+Time 6.392 13984
+Destroy 294
+Time 6.397 23610
+Place 254 On s4s
+Time 6.404 33504
+Destroy 261
+Time 6.404 43130
+Place 319 On s34
+Time 6.417 52768
+Place 328 On s41
+Time 6.481 62662
+Place 335 On s14
+Time 6.49 6764
+Place 286 On s23
+Time 6.495 16402
+Place 323 On s34
+Time 6.5 26296
+Place 353 On s23
+Time 6.507 35934
+Place 364 On s23
+Time 6.508 45572
+Place 344 On s14
+Time 6.512 55466
+Place 350 On s34
+Time 6.513 65104
+Place 295 On s1b
+Time 6.513 9462
+Place 269 On s2a
+Time 6.539 19100
+Destroy 277
+Time 6.544 28726
+Place 356 On s14
+Time 6.544 38620
+Place 314 On s4s
+Time 6.546 48258
+Place 332 On s34
+Time 6.55 57896
+Create pack 342
+Set 342 Color 1
+Place 342 On s1
+Time 6.551 11878
+Place 345 On s14
+Time 6.558 21516
+Create pack 366
+Set 366 Color 5
+Place 366 On l1
+Time 6.597 41034
+Destroy 254
+Time 6.604 50916
+Place 339 On s4s
+Time 6.613 60554
+Create pack 369
+Set 369 Color 2
+Place 369 On b1
+Time 6.613 14536
+Create pack 375
+Set 375 Color 5
+Place 375 On l1
+Time 6.614 33798
+Create pack 377
+Set 377 Color 2
+Place 377 On b1
+Time 6.622 53316
+Create pack 374
+Set 374 Color 1
+Place 374 On s1
+Time 6.636 7298
+Create pack 379
+Set 379 Color 2
+Place 379 On b1
+Time 6.647 26816
+Create pack 380
+Set 380 Color 1
+Place 380 On s1
+Time 6.649 46334
+Create pack 378
+Set 378 Color 5
+Place 378 On l1
+Time 6.672 60
+Place 285 On s32
+Time 6.689 9954
+Place 355 On s2a
+Time 6.708 19592
+Place 343 On s34
+Time 6.713 29230
+Destroy 295
+Time 6.713 39112
+Destroy 269
+Time 6.725 48738
+Place 249 On s1b
+Time 6.736 58376
+Create pack 381
+Set 381 Color 2
+Place 381 On b1
+Time 6.744 12358
+Destroy 314
+Time 6.75 22240
+Place 342 On s43
+Time 6.758 31878
+Place 366 On s34
+Time 6.804 41516
+Destroy 339
+Time 6.804 51398
+Place 349 On s21
+Time 6.804 61036
+Place 319 On s41
+Time 6.805 5138
+Place 316 On s4s
+Time 6.813 15032
+Place 369 On s12
+Time 6.813 24670
+Place 375 On s34
+Time 6.814 34308
+Place 377 On s12
+Time 6.814 44202
+Place 346 On s3l
+Time 6.822 53840
+Place 374 On s41
+Time 6.836 63734
+Place 379 On s12
+Time 6.845 7836
+Create pack 365
+Set 365 Color 4
+Place 365 On a1
+Time 6.847 27354
+Place 380 On s41
+Time 6.849 36992
+Place 378 On s32
+Time 6.86 46630
+Create pack 383
+Set 383 Color 5
+Place 383 On l1
+Time 6.864 612
+Place 351 On s3l
+Time 6.874 10250
+Place 324 On s4s
+Time 6.885 20144
+Place 322 On s12
+Time 6.885 29782
+Place 330 On s1b
+Time 6.889 39676
+Destroy 355
+Time 6.895 49302
+Place 323 On s4s
+Time 6.912 58940
+Place 350 On s41
+Time 6.915 3298
+Place 309 On s4s
+Time 6.917 12936
+Create pack 391
+Set 391 Color 4
+Place 391 On a1
+Time 6.925 32454
+Destroy 249
+Time 6.936 42080
+Place 381 On s12
+Time 6.946 51718
+Place 332 On s41
+Time 6.995 61612
+Create pack 387
+Set 387 Color 2
+Place 387 On b1
+Time 7 15594
+Write sec 07
+Write min 0
+Time 7.005 30191
+Destroy 316
+Time 7.014 39817
+Destroy 346
+Time 7.018 49443
+Create pack 393
+Set 393 Color 5
+Place 393 On l1
+Time 7.021 3425
+Place 327 On s43
+Time 7.023 13063
+Create pack 396
+Set 396 Color 4
+Place 396 On a1
+Time 7.04 32581
+Place 340 On s4s
+Time 7.045 42475
+Place 331 On s12
+Time 7.045 52113
+Place 365 On s23
+Time 7.06 61751
+Place 383 On s32
+Time 7.064 6109
+Destroy 351
+Time 7.067 15735
+Create pack 398
+Set 398 Color 2
+Place 398 On b1
+Time 7.074 35253
+Destroy 324
+Time 7.085 44879
+Destroy 330
+Time 7.09 54761
+Place 286 On s3l
+Time 7.095 64399
+Destroy 323
+Time 7.1 8489
+Place 353 On s34
+Time 7.105 18383
+Place 289 On s4s
+Time 7.107 28021
+Place 364 On s3l
+Time 7.108 37659
+Place 343 On s4s
+Time 7.114 47553
+Place 313 On s4s
+Time 7.115 57191
+Create pack 400
+Set 400 Color 5
+Place 400 On l1
+Time 7.115 11173
+Destroy 309
+Time 7.117 20799
+Place 391 On s21
+Time 7.145 30693
+Create pack 401
+Set 401 Color 4
+Place 401 On a1
+Time 7.145 49955
+Create pack 403
+Set 403 Color 2
+Place 403 On b1
+Time 7.15 3937
+Place 342 On s32
+Time 7.158 13575
+Place 366 On s4s
+Time 7.195 23469
+Place 387 On s14
+Time 7.204 33107
+Place 349 On s14
+Time 7.209 43001
+Place 298 On s4s
+Time 7.213 52639
+Place 369 On s2a
+Time 7.213 62277
+Place 375 On s41
+Time 7.214 6635
+Place 377 On s23
+Time 7.218 16273
+Place 393 On s32
+Time 7.223 25911
+Place 396 On s23
+Time 7.236 35805
+Place 379 On s2a
+Time 7.24 45443
+Destroy 340
+Time 7.247 55069
+Create pack 382
+Set 382 Color 1
+Place 382 On s1
+Time 7.267 9051
+Place 398 On s12
+Time 7.271 18689
+Create pack 414
+Set 414 Color 1
+Place 414 On s1
+Time 7.272 38207
+Place 285 On s2a
+Time 7.276 48101
+Place 308 On s1b
+Time 7.284 57739
+Place 341 On s43
+Time 7.285 1841
+Place 322 On s23
+Time 7.29 11735
+Destroy 286
+Time 7.305 21361
+Destroy 289
+Time 7.307 30987
+Destroy 364
+Time 7.308 40869
+Destroy 343
+Time 7.314 50495
+Destroy 313
+Time 7.315 60377
+Place 400 On s34
+Time 7.318 4479
+Create pack 407
+Set 407 Color 4
+Place 407 On a1
+Time 7.331 23997
+Create pack 416
+Set 416 Color 1
+Place 416 On s1
+Time 7.336 43515
+Place 381 On s23
+Time 7.344 53153
+Create pack 423
+Set 423 Color 1
+Place 423 On s1
+Time 7.345 7135
+Place 401 On s21
+Time 7.345 16773
+Place 403 On s12
+Time 7.352 26411
+Create pack 424
+Set 424 Color 1
+Place 424 On s1
+Time 7.358 45929
+Destroy 366
+Time 7.37 55555
+Create pack 405
+Set 405 Color 5
+Place 405 On l1
+Time 7.408 9537
+Create pack 420
+Set 420 Color 4
+Place 420 On a1
+Time 7.409 29055
+Destroy 298
+Time 7.409 38681
+Create pack 408
+Set 408 Color 2
+Place 408 On b1
+Time 7.413 58199
+Destroy 369
+Time 7.417 2545
+Place 328 On s12
+Time 7.42 12183
+Create pack 425
+Set 425 Color 1
+Place 425 On s1
+Time 7.421 31701
+Place 327 On s32
+Time 7.436 41339
+Destroy 379
+Time 7.445 50965
+Place 331 On s2a
+Time 7.447 60859
+Place 382 On s41
+Time 7.449 4961
+Place 378 On s21
+Time 7.471 14599
+Place 414 On s41
+Time 7.472 24493
+Destroy 285
+Time 7.476 34119
+Destroy 308
+Time 7.481 44001
+Place 335 On s4s
+Time 7.5 53639
+Place 353 On s41
+Time 7.508 63277
+Place 344 On s43
+Time 7.517 7635
+Place 391 On s1b
+Time 7.518 17273
+Place 407 On s21
+Time 7.531 26911
+Place 416 On s43
+Time 7.544 36805
+Place 423 On s43
+Time 7.544 46443
+Place 356 On s43
+Time 7.544 56081
+Create pack 429
+Set 429 Color 2
+Place 429 On b1
+Time 7.551 10063
+Place 345 On s4s
+Time 7.552 19957
+Place 424 On s43
+Time 7.566 29595
+Create pack 426
+Set 426 Color 5
+Place 426 On l1
+Time 7.57 49113
+Create pack 428
+Set 428 Color 4
+Place 428 On a1
+Time 7.57 2839
+Place 405 On s34
+Time 7.603 12733
+Create pack 435
+Set 435 Color 5
+Place 435 On l1
+Time 7.608 32251
+Place 420 On s21
+Time 7.609 41889
+Place 408 On s14
+Time 7.612 51527
+Create pack 437
+Set 437 Color 5
+Place 437 On l1
+Time 7.62 5509
+Place 425 On s41
+Time 7.621 15147
+Create pack 434
+Set 434 Color 2
+Place 434 On b1
+Time 7.645 34665
+Destroy 331
+Time 7.645 44291
+Place 365 On s34
+Time 7.66 54185
+Create pack 438
+Set 438 Color 5
+Place 438 On l1
+Time 7.66 8167
+Place 383 On s2a
+Time 7.661 17805
+Create pack 431
+Set 431 Color 1
+Place 431 On s1
+Time 7.667 37323
+Place 398 On s23
+Time 7.681 46961
+Destroy 335
+Time 7.684 56587
+Place 341 On s32
+Time 7.715 945
+Place 400 On s41
+Time 7.717 10583
+Destroy 391
+Time 7.744 20465
+Place 429 On s12
+Time 7.745 30103
+Place 401 On s14
+Time 7.745 39741
+Place 403 On s23
+Time 7.75 49635
+Place 342 On s21
+Time 7.751 59273
+Destroy 345
+Time 7.766 3363
+Place 426 On s34
+Time 7.77 13257
+Place 428 On s23
+Time 7.781 22895
+Create pack 436
+Set 436 Color 4
+Place 436 On a1
+Time 7.784 42413
+Create pack 442
+Set 442 Color 4
+Place 442 On a1
+Time 7.803 61931
+Place 435 On s32
+Time 7.804 6033
+Place 319 On s1b
+Time 7.812 15671
+Place 437 On s34
+Time 7.814 25565
+Place 377 On s34
+Time 7.817 35203
+Place 328 On s2a
+Time 7.818 44841
+Place 393 On s2a
+Time 7.821 54735
+Place 434 On s14
+Time 7.822 64373
+Place 374 On s12
+Time 7.836 8475
+Create pack 439
+Set 439 Color 2
+Place 439 On b1
+Time 7.847 27993
+Place 380 On s12
+Time 7.849 37887
+Place 378 On s1b
+Time 7.86 47525
+Destroy 383
+Time 7.861 57151
+Place 431 On s41
+Time 7.885 1509
+Place 322 On s3l
+Time 7.895 11147
+Create pack 445
+Set 445 Color 2
+Place 445 On b1
+Time 7.908 30665
+Place 344 On s3l
+Place 396 On s34
+Time 7.91 45248
+Create pack 441
+Set 441 Color 1
+Place 441 On s1
+Time 7.912 64766
+Place 350 On s1b
+Time 7.914 8868
+Create pack 440
+Set 440 Color 5
+Place 440 On l1
+Time 7.918 28386
+Place 407 On s14
+Time 7.931 38024
+Place 416 On s32
+Place 438 On s34
+Time 7.936 52607
+Place 381 On s3l
+Time 7.939 62245
+Create pack 447
+Set 447 Color 2
+Place 447 On b1
+Time 7.944 16227
+Place 423 On s3l
+Time 7.944 25865
+Place 356 On s3l
+Time 7.946 35759
+Place 332 On s1b
+Time 7.952 45397
+Place 424 On s32
+Time 7.97 55291
+Create pack 448
+Set 448 Color 1
+Place 448 On s1
+Time 7.97 9017
+Place 405 On s41
+Time 7.981 18911
+Place 436 On s23
+Time 7.984 28549
+Place 442 On s21
+Time 8 38187
+Write sw12 49
+Set Bar b12 49
+Write sw23 46
+Set Bar b23 46
+Write sw34 50
+Set Bar b34 50
+Write sw41 62
+Set Bar b41 62
+Write sec 08
+Write min 0
+Time 8.004 26336
+Destroy 319
+Time 8.008 35962
+Place 420 On s1b
+Time 8.017 45600
+Destroy 328
+Time 8.018 55482
+Destroy 393
+Time 8.019 65108
+Create pack 453
+Set 453 Color 1
+Place 453 On s1
+Time 8.021 19090
+Place 327 On s2a
+Time 8.036 28728
+Place 439 On s12
+Time 8.045 38622
+Place 365 On s41
+Time 8.049 48260
+Destroy 378
+Time 8.077 57886
+Create pack 443
+Set 443 Color 4
+Place 443 On a1
+Time 8.085 11868
+Destroy 322
+Time 8.095 21750
+Place 445 On s12
+Time 8.108 31388
+Destroy 344
+Time 8.11 41014
+Place 441 On s43
+Time 8.112 50908
+Destroy 350
+Time 8.114 60534
+Place 440 On s32
+Time 8.136 4636
+Destroy 381
+Time 8.136 14518
+Create pack 450
+Set 450 Color 2
+Place 450 On b1
+Time 8.139 34036
+Place 447 On s12
+Time 8.144 43674
+Destroy 423
+Time 8.144 53300
+Destroy 356
+Time 8.144 63182
+Place 429 On s23
+Time 8.146 7284
+Destroy 332
+Time 8.147 16910
+Create pack 449
+Set 449 Color 5
+Place 449 On l1
+Time 8.15 36428
+Place 342 On s1b
+Time 8.151 46322
+Create pack 461
+Set 461 Color 2
+Place 461 On b1
+Time 8.166 48
+Place 426 On s41
+Time 8.17 9942
+Place 448 On s41
+Time 8.181 19580
+Create pack 457
+Set 457 Color 1
+Place 457 On s1
+Time 8.195 39098
+Place 387 On s43
+Time 8.204 48736
+Place 349 On s4s
+Time 8.208 58374
+Create pack 463
+Set 463 Color 2
+Place 463 On b1
+Time 8.208 12356
+Destroy 420
+Time 8.211 22238
+Create pack 458
+Set 458 Color 4
+Place 458 On a1
+Time 8.212 41500
+Place 437 On s41
+Time 8.213 51394
+Place 375 On s12
+Time 8.214 61032
+Place 377 On s4s
+Time 8.217 5134
+Create pack 467
+Set 467 Color 2
+Place 467 On b1
+Time 8.219 24652
+Place 453 On s43
+Time 8.221 34546
+Destroy 327
+Time 8.222 44172
+Place 374 On s2a
+Time 8.247 53810
+Place 380 On s2a
+Time 8.251 63704
+Create pack 464
+Set 464 Color 1
+Place 464 On s1
+Time 8.259 17430
+Create pack 470
+Set 470 Color 2
+Place 470 On b1
+Time 8.266 36948
+Create pack 473
+Set 473 Color 1
+Place 473 On s1
+Time 8.267 56466
+Place 398 On s34
+Time 8.277 568
+Place 443 On s23
+Time 8.284 10462
+Place 341 On s2a
+Time 8.308 20100
+Place 396 On s41
+Time 8.331 29738
+Place 438 On s41
+Time 8.336 39632
+Place 450 On s12
+Time 8.341 49270
+Create pack 469
+Set 469 Color 4
+Place 469 On a1
+Time 8.345 3252
+Place 403 On s34
+Time 8.347 12890
+Place 449 On s32
+Time 8.35 22528
+Destroy 342
+Time 8.351 32410
+Place 461 On s12
+Time 8.37 42048
+Place 428 On s34
+Time 8.38 51942
+Create pack 476
+Set 476 Color 4
+Place 476 On a1
+Time 8.381 5668
+Place 457 On s43
+Time 8.384 15562
+Place 442 On s14
+Time 8.403 25200
+Place 435 On s2a
+Time 8.404 34838
+Destroy 349
+Time 8.408 44720
+Place 463 On s14
+Time 8.411 54358
+Place 458 On s21
+Time 8.414 64252
+Destroy 377
+Time 8.417 8342
+Place 467 On s12
+Time 8.419 17980
+Create pack 462
+Set 462 Color 5
+Place 462 On l1
+Time 8.422 37498
+Destroy 374
+Time 8.436 47124
+Place 439 On s2a
+Time 8.447 57018
+Destroy 380
+Time 8.447 1108
+Place 382 On s12
+Time 8.451 11002
+Place 464 On s43
+Time 8.454 20640
+Create pack 481
+Set 481 Color 5
+Place 481 On l1
+Time 8.459 40158
+Place 470 On s14
+Time 8.466 49796
+Place 473 On s43
+Time 8.471 59434
+Place 414 On s1b
+Time 8.484 3792
+Destroy 341
+Time 8.487 13418
+Create pack 474
+Set 474 Color 2
+Place 474 On b1
+Time 8.495 32936
+Place 445 On s2a
+Time 8.5 42574
+Place 353 On s1b
+Time 8.51 52468
+Place 441 On s32
+Time 8.514 62106
+Create pack 484
+Set 484 Color 2
+Place 484 On b1
+Time 8.531 16088
+Place 416 On s2a
+Time 8.539 25726
+Place 447 On s23
+Time 8.541 35364
+Place 469 On s21
+Time 8.552 45258
+Place 424 On s21
+Time 8.57 54896
+Create pack 482
+Set 482 Color 5
+Place 482 On l1
+Time 8.58 8878
+Place 476 On s23
+Time 8.581 18516
+Place 436 On s34
+Time 8.595 28410
+Place 387 On s3l
+Time 8.6 38048
+Create pack 487
+Set 487 Color 5
+Place 487 On l1
+Time 8.602 57566
+Create pack 485
+Set 485 Color 2
+Place 485 On b1
+Time 8.603 11292
+Destroy 435
+Time 8.609 21174
+Place 408 On s43
+Time 8.613 30812
+Place 375 On s2a
+Time 8.619 40450
+Place 462 On s34
+Time 8.619 50344
+Place 453 On s32
+Time 8.62 59982
+Place 425 On s12
+Time 8.636 4340
+Destroy 439
+Time 8.654 13966
+Place 481 On s32
+Time 8.662 23604
+Create pack 475
+Set 475 Color 1
+Place 475 On s1
+Time 8.667 43122
+Place 398 On s4s
+Time 8.671 52760
+Destroy 414
+Time 8.687 62642
+Place 474 On s14
+Time 8.695 6744
+Destroy 445
+Time 8.7 16626
+Destroy 353
+Time 8.714 26252
+Place 484 On s14
+Time 8.714 35890
+Place 440 On s2a
+Time 8.715 45784
+Place 400 On s12
+Time 8.731 55422
+Destroy 416
+Time 8.736 65048
+Place 450 On s23
+Time 8.744 9406
+Place 429 On s34
+Time 8.745 19044
+Place 401 On s43
+Time 8.745 28682
+Place 403 On s4s
+Time 8.75 38576
+Create pack 490
+Set 490 Color 2
+Place 490 On b1
+Time 8.751 58094
+Place 461 On s2a
+Time 8.754 2196
+Create pack 479
+Set 479 Color 4
+Place 479 On a1
+Time 8.77 21714
+Place 482 On s32
+Time 8.77 31352
+Place 428 On s41
+Time 8.781 40990
+Place 457 On s32
+Time 8.795 50884
+Destroy 387
+Time 8.8 60510
+Place 487 On s32
+Time 8.802 4612
+Place 485 On s14
+Time 8.811 14506
+Place 458 On s14
+Time 8.813 24144
+Destroy 375
+Time 8.817 34026
+Place 467 On s23
+Time 8.821 43664
+Place 434 On s43
+Time 8.847 53302
+Place 382 On s2a
+Time 8.851 63196
+Place 464 On s32
+Time 8.861 7298
+Place 431 On s1b
+Time 8.862 16936
+Place 475 On s41
+Time 8.866 26830
+Place 473 On s32
+Time 8.867 36468
+Destroy 398
+Time 8.877 46094
+Place 443 On s3l
+Time 8.914 55988
+Destroy 440
+Time 8.918 78
+Place 407 On s4s
+Time 8.933 9972
+Create pack 489
+Set 489 Color 5
+Place 489 On l1
+Time 8.941 29234
+Place 469 On s14
+Time 8.945 39128
+Destroy 403
+Time 8.947 48754
+Place 449 On s21
+Time 8.95 58392
+Place 490 On s12
+Time 8.951 2750
+Destroy 461
+Time 8.952 12376
+Place 424 On s1b
+Time 8.954 22270
+Place 479 On s21
+Time 8.97 31908
+Place 405 On s12
+Time 8.981 41546
+Place 436 On s41
+Time 8.988 51440
+Create pack 492
+Set 492 Color 1
+Place 492 On s1
+Time 8.99 5166
+Create pack 499
+Set 499 Color 5
+Place 499 On l1
+Time 9 24684
+Write sec 09
+Write min 0
+Time 9.009 39281
+Place 408 On s32
+Time 9.019 48919
+Place 462 On s41
+Time 9.02 58813
+Place 425 On s23
+Time 9.045 2915
+Place 365 On s1b
+Time 9.047 12553
+Destroy 382
+Time 9.061 22435
+Destroy 431
+Time 9.077 32061
+Destroy 443
+Time 9.083 41943
+Create pack 495
+Set 495 Color 2
+Place 495 On b1
+Time 9.11 61205
+Place 441 On s21
+Time 9.115 5563
+Place 400 On s2a
+Time 9.118 15201
+Destroy 407
+Time 9.133 25083
+Place 489 On s34
+Time 9.139 34721
+Place 447 On s3l
+Time 9.144 44359
+Place 429 On s4s
+Time 9.145 54253
+Place 401 On s3l
+Time 9.145 63891
+Create pack 504
+Set 504 Color 5
+Place 504 On l1
+Time 9.152 17873
+Destroy 424
+Time 9.166 27499
+Place 426 On s12
+Time 9.17 37137
+Place 448 On s12
+Time 9.18 47031
+Place 476 On s34
+Time 9.181 56669
+Create pack 509
+Set 509 Color 5
+Place 509 On l1
+Time 9.183 10651
+Create pack 496
+Set 496 Color 4
+Place 496 On a1
+Time 9.183 30169
+Create pack 510
+Set 510 Color 5
+Place 510 On l1
+Time 9.188 49431
+Place 492 On s43
+Time 9.19 59325
+Place 499 On s34
+Time 9.196 3427
+Create pack 512
+Set 512 Color 5
+Place 512 On l1
+Time 9.212 22945
+Place 437 On s1b
+Time 9.219 32583
+Place 453 On s21
+Time 9.221 42477
+Place 434 On s3l
+Time 9.228 52115
+Create pack 506
+Set 506 Color 2
+Place 506 On b1
+Time 9.245 6097
+Destroy 365
+Time 9.254 15723
+Place 481 On s21
+Time 9.259 25361
+Create pack 514
+Set 514 Color 2
+Place 514 On b1
+Time 9.278 44879
+Create pack 502
+Set 502 Color 1
+Place 502 On s1
+Time 9.283 64397
+Place 495 On s14
+Time 9.308 8499
+Place 396 On s1b
+Time 9.315 18393
+Destroy 400
+Time 9.324 28019
+Create pack 513
+Set 513 Color 5
+Place 513 On l1
+Time 9.33 47537
+Create pack 515
+Set 515 Color 2
+Place 515 On b1
+Time 9.331 1519
+Place 438 On s12
+Time 9.336 11157
+Place 450 On s34
+Time 9.339 20795
+Destroy 447
+Time 9.341 30677
+Create pack 517
+Set 517 Color 5
+Place 517 On l1
+Time 9.344 49939
+Destroy 429
+Time 9.345 59821
+Destroy 401
+Time 9.345 3911
+Place 504 On s32
+Time 9.347 13805
+Place 449 On s14
+Time 9.35 23443
+Place 490 On s2a
+Time 9.354 33081
+Place 479 On s14
+Time 9.37 42975
+Place 482 On s21
+Time 9.37 52613
+Place 405 On s2a
+Time 9.381 62251
+Place 457 On s21
+Time 9.381 6609
+Place 509 On s34
+Time 9.383 16247
+Place 496 On s21
+Time 9.383 25885
+Place 510 On s34
+Time 9.384 35779
+Place 442 On s43
+Time 9.396 45417
+Place 512 On s34
+Time 9.4 55055
+Place 487 On s2a
+Time 9.408 64949
+Place 463 On s43
+Time 9.412 9051
+Destroy 437
+Time 9.417 18933
+Place 467 On s3l
+Time 9.421 28571
+Destroy 434
+Time 9.428 38197
+Place 506 On s12
+Time 9.466 48091
+Place 473 On s2a
+Time 9.496 57729
+Create pack 511
+Set 511 Color 4
+Place 511 On a1
+Time 9.508 11711
+Destroy 396
+Time 9.51 21337
+Place 441 On s1b
+Place 464 On s21
+Time 9.524 35920
+Place 513 On s32
+Time 9.53 45814
+Create pack 516
+Set 516 Color 1
+Place 516 On s1
+Time 9.533 65076
+Place 489 On s4s
+Place 470 On s43
+Time 9.55 14123
+Destroy 490
+Time 9.551 24005
+Create pack 519
+Set 519 Color 2
+Place 519 On b1
+Time 9.566 43267
+Create pack 528
+Set 528 Color 2
+Place 528 On b1
+Time 9.566 62785
+Place 426 On s2a
+Place 514 On s12
+Time 9.57 11832
+Place 448 On s23
+Place 515 On s12
+Time 9.57 26415
+Destroy 405
+Time 9.58 36297
+Place 476 On s41
+Place 502 On s43
+Time 9.588 50880
+Place 492 On s32
+Place 517 On s34
+Time 9.59 65463
+Place 499 On s4s
+Time 9.599 9565
+Create pack 520
+Set 520 Color 5
+Place 520 On l1
+Time 9.6 29083
+Destroy 487
+Time 9.604 38709
+Create pack 525
+Set 525 Color 4
+Place 525 On a1
+Time 9.607 58227
+Create pack 529
+Set 529 Color 2
+Place 529 On b1
+Time 9.609 12209
+Place 408 On s2a
+Time 9.617 21847
+Destroy 467
+Time 9.618 31729
+Create pack 526
+Set 526 Color 1
+Place 526 On s1
+Time 9.619 50991
+Place 453 On s1b
+Time 9.62 60885
+Place 425 On s3l
+Time 9.654 4987
+Place 481 On s1b
+Time 9.662 14625
+Create pack 532
+Set 532 Color 4
+Place 532 On a1
+Time 9.666 34143
+Destroy 473
+Time 9.687 44025
+Place 474 On s4s
+Time 9.696 53663
+Place 511 On s21
+Time 9.71 63301
+Destroy 441
+Time 9.714 7647
+Place 484 On s4s
+Time 9.73 17285
+Place 516 On s43
+Time 9.731 26923
+Place 438 On s2a
+Time 9.733 36817
+Destroy 489
+Time 9.736 46443
+Place 450 On s4s
+Time 9.746 56081
+Create pack 533
+Set 533 Color 2
+Place 533 On b1
+Time 9.751 10063
+Place 519 On s14
+Time 9.766 19957
+Place 528 On s12
+Time 9.766 29595
+Destroy 426
+Time 9.77 39221
+Place 482 On s1b
+Time 9.77 49115
+Place 428 On s1b
+Time 9.781 58753
+Place 457 On s1b
+Time 9.781 2855
+Place 509 On s41
+Time 9.782 12749
+Create pack 531
+Set 531 Color 5
+Place 531 On l1
+Time 9.783 32011
+Place 496 On s14
+Time 9.783 41905
+Place 510 On s4s
+Time 9.784 51543
+Place 442 On s3l
+Time 9.79 61437
+Destroy 499
+Time 9.796 5527
+Place 512 On s41
+Time 9.799 15165
+Place 520 On s34
+Time 9.802 25059
+Place 485 On s4s
+Time 9.804 34697
+Place 525 On s21
+Time 9.807 44335
+Place 529 On s12
+Time 9.808 54229
+Place 463 On s3l
+Time 9.809 63867
+Destroy 408
+Time 9.811 7957
+Place 458 On s4s
+Time 9.818 17851
+Place 526 On s43
+Time 9.819 27489
+Destroy 453
+Time 9.82 37371
+Destroy 425
+Time 9.828 46997
+Place 506 On s2a
+Time 9.854 56635
+Destroy 481
+Time 9.859 981
+Create pack 534
+Set 534 Color 1
+Place 534 On s1
+Time 9.862 20243
+Place 532 On s21
+Time 9.862 30137
+Place 475 On s12
+Time 9.887 39775
+Destroy 474
+Time 9.91 49657
+Place 464 On s1b
+Time 9.911 59295
+Create pack 544
+Set 544 Color 2
+Place 544 On b1
+Time 9.914 13277
+Destroy 484
+Time 9.931 22903
+Destroy 438
+Time 9.933 32529
+Place 470 On s32
+Time 9.936 42423
+Destroy 450
+Time 9.941 52049
+Place 469 On s43
+Time 9.945 61943
+Place 504 On s21
+Time 9.945 6045
+Create pack 546
+Set 546 Color 5
+Place 546 On l1
+Time 9.946 25563
+Place 533 On s12
+Time 9.966 35201
+Place 514 On s23
+Time 9.97 44839
+Destroy 482
+Time 9.97 54721
+Place 515 On s23
+Time 9.97 64359
+Destroy 428
+Time 9.98 8449
+Place 502 On s3l
+Time 9.981 18343
+Destroy 457
+Time 9.981 27969
+Place 436 On s1b
+Time 9.982 37863
+Place 531 On s34
+Time 9.983 47501
+Destroy 510
+Time 9.984 57127
+Destroy 442
+Time 9.988 1473
+Place 517 On s41
+Time 9.991 11111
+Create pack 551
+Set 551 Color 1
+Place 551 On s1
+Time 10 30629
+Write sw12 72
+Set Bar b12 72
+Write sw23 54
+Set Bar b23 54
+Write sw34 66
+Set Bar b34 66
+Write sw41 59
+Set Bar b41 59
+Write sec 10
+Write min 0
+Time 10.002 18522
+Destroy 485
+Time 10.008 28404
+Destroy 463
+Time 10.008 38030
+Create pack 554
+Set 554 Color 5
+Place 554 On l1
+Time 10.011 57548
+Destroy 458
+Time 10.014 1638
+Create pack 552
+Set 552 Color 2
+Place 552 On b1
+Time 10.016 21156
+Create pack 539
+Set 539 Color 4
+Place 539 On a1
+Time 10.019 40674
+Place 462 On s1b
+Time 10.028 50312
+Destroy 506
+Time 10.046 59938
+Create pack 556
+Set 556 Color 1
+Place 556 On s1
+Time 10.059 13920
+Place 534 On s43
+Time 10.096 23558
+Place 511 On s1b
+Time 10.11 33452
+Destroy 464
+Time 10.11 43078
+Create pack 559
+Set 559 Color 5
+Place 559 On l1
+Time 10.111 62596
+Place 544 On s14
+Time 10.124 6698
+Place 513 On s21
+Time 10.13 16592
+Place 516 On s3l
+Time 10.145 26230
+Place 546 On s34
+Time 10.166 35868
+Place 528 On s2a
+Time 10.17 45762
+Place 448 On s3l
+Time 10.18 55400
+Destroy 502
+Time 10.181 65026
+Destroy 436
+Time 10.188 9372
+Place 492 On s2a
+Time 10.191 19010
+Place 551 On s41
+Time 10.193 28904
+Create pack 561
+Set 561 Color 4
+Place 561 On a1
+Time 10.195 48166
+Create pack 560
+Set 560 Color 2
+Place 560 On b1
+Time 10.199 2148
+Place 520 On s41
+Time 10.204 11786
+Place 525 On s14
+Time 10.207 21680
+Place 529 On s2a
+Time 10.208 31318
+Place 554 On s32
+Time 10.214 41212
+Place 552 On s14
+Time 10.216 50850
+Place 539 On s21
+Time 10.218 60488
+Place 526 On s32
+Time 10.219 4846
+Destroy 462
+Time 10.228 14472
+Create pack 567
+Set 567 Color 4
+Place 567 On a1
+Time 10.246 33990
+Place 556 On s43
+Time 10.262 43628
+Place 532 On s14
+Time 10.262 53266
+Place 475 On s23
+Time 10.269 63160
+Create pack 562
+Set 562 Color 1
+Place 562 On s1
+Time 10.271 17142
+Create pack 568
+Set 568 Color 2
+Place 568 On b1
+Time 10.283 36404
+Place 495 On s43
+Time 10.284 46298
+Create pack 571
+Set 571 Color 4
+Place 571 On a1
+Time 10.29 24
+Create pack 573
+Set 573 Color 2
+Place 573 On b1
+Time 10.296 19542
+Destroy 511
+Time 10.298 29424
+Create pack 572
+Set 572 Color 1
+Place 572 On s1
+Time 10.31 48686
+Place 559 On s34
+Time 10.319 58580
+Create pack 574
+Set 574 Color 4
+Place 574 On a1
+Time 10.321 12306
+Create pack 575
+Set 575 Color 2
+Place 575 On b1
+Time 10.33 31824
+Destroy 516
+Time 10.341 41706
+Place 469 On s3l
+Time 10.345 51344
+Place 504 On s14
+Time 10.346 60982
+Place 533 On s23
+Time 10.347 5340
+Place 449 On s4s
+Time 10.354 14978
+Place 479 On s43
+Time 10.358 24616
+Create pack 577
+Set 577 Color 4
+Place 577 On a1
+Time 10.366 44134
+Destroy 528
+Time 10.37 53760
+Destroy 448
+Time 10.382 63642
+Place 531 On s41
+Time 10.388 7744
+Destroy 492
+Time 10.393 17626
+Place 561 On s21
+Time 10.395 27264
+Place 560 On s14
+Time 10.407 36902
+Destroy 529
+Time 10.428 46784
+Place 567 On s23
+Time 10.459 56422
+Place 534 On s3l
+Time 10.461 524
+Create pack 576
+Set 576 Color 1
+Place 576 On s1
+Time 10.469 20042
+Place 562 On s41
+Time 10.471 29936
+Place 568 On s12
+Time 10.484 39574
+Place 571 On s23
+Time 10.49 49212
+Place 573 On s14
+Time 10.498 59106
+Place 572 On s43
+Time 10.519 3208
+Place 574 On s23
+Time 10.521 12846
+Place 575 On s14
+Time 10.524 22740
+Place 513 On s14
+Time 10.531 32378
+Create pack 581
+Set 581 Color 4
+Place 581 On a1
+Time 10.533 51896
+Place 470 On s2a
+Time 10.541 61534
+Destroy 469
+Time 10.545 5880
+Place 546 On s41
+Time 10.547 15518
+Destroy 449
+Time 10.558 25144
+Place 577 On s23
+Time 10.56 35038
+Create pack 587
+Set 587 Color 1
+Place 587 On s1
+Time 10.566 54300
+Place 514 On s3l
+Time 10.57 64194
+Place 515 On s3l
+Time 10.58 8296
+Place 476 On s1b
+Time 10.58 17934
+Create pack 589
+Set 589 Color 1
+Place 589 On s1
+Time 10.597 37452
+Create pack 590
+Set 590 Color 1
+Place 590 On s1
+Time 10.6 56970
+Create pack 588
+Set 588 Color 4
+Place 588 On a1
+Time 10.611 10952
+Create pack 592
+Set 592 Color 1
+Place 592 On s1
+Time 10.616 30214
+Place 539 On s14
+Time 10.632 40108
+Create pack 563
+Set 563 Color 5
+Place 563 On l1
+Time 10.646 59626
+Place 556 On s3l
+Time 10.659 3728
+Destroy 534
+Time 10.661 13354
+Place 576 On s41
+Time 10.683 23248
+Place 495 On s32
+Time 10.71 32886
+Place 559 On s4s
+Time 10.713 42524
+Create pack 598
+Set 598 Color 5
+Place 598 On l1
+Time 10.721 62042
+Create pack 600
+Set 600 Color 5
+Place 600 On l1
+Time 10.731 16024
+Place 581 On s23
+Time 10.733 25662
+Destroy 470
+Time 10.751 35544
+Place 519 On s4s
+Time 10.754 45182
+Place 479 On s3l
+Time 10.76 54820
+Place 587 On s41
+Time 10.765 64714
+Create pack 594
+Set 594 Color 1
+Place 594 On s1
+Time 10.766 18440
+Destroy 514
+Time 10.77 28322
+Destroy 515
+Time 10.78 37948
+Destroy 476
+Time 10.78 47830
+Place 589 On s43
+Time 10.781 57468
+Place 509 On s1b
+Time 10.783 1570
+Place 496 On s43
+Time 10.792 11464
+Create pack 601
+Set 601 Color 5
+Place 601 On l1
+Time 10.793 30726
+Place 561 On s14
+Time 10.796 40620
+Place 512 On s1b
+Time 10.797 50258
+Place 590 On s43
+Time 10.8 60152
+Place 588 On s21
+Time 10.808 4254
+Place 554 On s21
+Time 10.811 13892
+Place 592 On s43
+Time 10.818 23786
+Place 526 On s21
+Time 10.832 33424
+Place 563 On s34
+Time 10.84 43062
+Create pack 578
+Set 578 Color 2
+Place 578 On b1
+Time 10.846 62580
+Destroy 556
+Time 10.859 6670
+Create pack 605
+Set 605 Color 5
+Place 605 On l1
+Time 10.862 26188
+Place 475 On s3l
+Time 10.871 36082
+Place 568 On s23
+Time 10.898 45720
+Place 572 On s32
+Time 10.898 55358
+Create pack 593
+Set 593 Color 4
+Place 593 On a1
+Time 10.91 9340
+Destroy 559
+Time 10.913 18966
+Place 598 On s32
+Time 10.921 28860
+Place 600 On s34
+Time 10.942 38498
+Create pack 607
+Set 607 Color 2
+Place 607 On b1
+Time 10.946 58016
+Place 533 On s3l
+Time 10.951 2118
+Destroy 519
+Time 10.954 12000
+Destroy 479
+Time 10.965 21626
+Place 594 On s43
+Time 10.975 31264
+Create pack 603
+Set 603 Color 1
+Place 603 On s1
+Time 10.981 50782
+Destroy 509
+Time 10.988 60664
+Place 517 On s1b
+Time 10.992 4766
+Place 601 On s32
+Time 10.996 14404
+Destroy 512
+Time 11 24286
+Write sec 11
+Write min 0
+Time 11.028 38883
+Place 567 On s3l
+Time 11.036 48521
+Create pack 613
+Set 613 Color 2
+Place 613 On b1
+Time 11.04 2503
+Create pack 616
+Set 616 Color 2
+Place 616 On b1
+Time 11.04 21765
+Place 578 On s12
+Time 11.059 31659
+Place 605 On s32
+Time 11.062 41297
+Destroy 475
+Time 11.084 51179
+Place 571 On s34
+Time 11.085 60817
+Create pack 614
+Set 614 Color 1
+Place 614 On s1
+Time 11.098 14799
+Place 593 On s21
+Time 11.111 24437
+Place 544 On s43
+Time 11.119 34075
+Place 574 On s34
+Time 11.12 43969
+Create pack 610
+Set 610 Color 4
+Place 610 On a1
+Time 11.131 63487
+Create pack 620
+Set 620 Color 4
+Place 620 On a1
+Time 11.142 17213
+Place 607 On s12
+Time 11.146 27107
+Destroy 533
+Time 11.171 36733
+Create pack 621
+Set 621 Color 4
+Place 621 On a1
+Time 11.18 56251
+Place 589 On s32
+Place 577 On s34
+Time 11.183 5298
+Place 496 On s3l
+Place 603 On s43
+Time 11.188 19881
+Destroy 517
+Time 11.191 29507
+Place 551 On s12
+Time 11.197 39401
+Place 590 On s32
+Time 11.199 49039
+Place 520 On s1b
+Time 11.2 58677
+Place 588 On s14
+Time 11.204 3035
+Place 525 On s4s
+Time 11.208 12673
+Place 554 On s1b
+Time 11.211 22311
+Place 592 On s32
+Time 11.214 32205
+Place 552 On s43
+Time 11.218 41843
+Place 526 On s1b
+Time 11.223 51481
+Create pack 608
+Set 608 Color 5
+Place 608 On l1
+Time 11.228 5463
+Destroy 567
+Time 11.231 15345
+Create pack 619
+Set 619 Color 1
+Place 619 On s1
+Time 11.232 34607
+Place 563 On s41
+Time 11.236 44501
+Place 613 On s12
+Time 11.24 54139
+Place 616 On s14
+Time 11.262 63777
+Place 532 On s4s
+Time 11.265 8135
+Create pack 617
+Set 617 Color 2
+Place 617 On b1
+Time 11.283 27397
+Place 495 On s2a
+Time 11.285 37291
+Place 614 On s43
+Time 11.32 46929
+Place 610 On s23
+Time 11.321 56823
+Place 600 On s4s
+Time 11.331 925
+Place 620 On s21
+Time 11.331 10563
+Place 581 On s34
+Time 11.345 20457
+Place 504 On s4s
+Time 11.359 30095
+Create pack 624
+Set 624 Color 4
+Place 624 On a1
+Time 11.365 49613
+Place 594 On s32
+Time 11.366 59251
+Create pack 628
+Set 628 Color 1
+Place 628 On s1
+Time 11.371 13233
+Place 621 On s23
+Time 11.382 22871
+Place 531 On s1b
+Time 11.383 32765
+Destroy 496
+Time 11.39 42391
+Create pack 629
+Set 629 Color 2
+Place 629 On b1
+Time 11.395 61909
+Place 560 On s43
+Time 11.399 6011
+Destroy 520
+Time 11.404 15637
+Destroy 525
+Time 11.408 25519
+Destroy 554
+Time 11.418 35145
+Destroy 526
+Time 11.423 45027
+Create pack 638
+Set 638 Color 2
+Place 638 On b1
+Time 11.423 64289
+Place 608 On s32
+Time 11.431 8647
+Place 619 On s41
+Time 11.44 18285
+Place 578 On s23
+Time 11.462 27923
+Destroy 532
+Time 11.465 37805
+Place 617 On s14
+Time 11.469 47443
+Place 562 On s12
+Time 11.471 57337
+Place 568 On s3l
+Time 11.483 1439
+Destroy 495
+Time 11.484 11065
+Place 571 On s41
+Time 11.485 20959
+Create pack 635
+Set 635 Color 4
+Place 635 On a1
+Time 11.49 40221
+Place 573 On s4s
+Time 11.498 50115
+Place 572 On s2a
+Time 11.498 59753
+Place 593 On s1b
+Time 11.511 3855
+Place 544 On s3l
+Time 11.513 13749
+Place 598 On s2a
+Time 11.514 23387
+Create pack 641
+Set 641 Color 2
+Place 641 On b1
+Time 11.519 42905
+Place 574 On s41
+Time 11.521 52543
+Place 575 On s43
+Time 11.521 62437
+Destroy 600
+Time 11.524 6527
+Place 513 On s4s
+Time 11.542 16165
+Place 607 On s2a
+Time 11.545 26059
+Destroy 504
+Time 11.545 35685
+Place 546 On s1b
+Time 11.559 45323
+Place 624 On s23
+Time 11.565 55217
+Create pack 626
+Set 626 Color 5
+Place 626 On l1
+Time 11.566 9199
+Place 628 On s41
+Time 11.573 18837
+Create pack 645
+Set 645 Color 5
+Place 645 On l1
+Time 11.58 38355
+Place 577 On s4s
+Time 11.582 47993
+Destroy 531
+Time 11.583 57619
+Place 603 On s32
+Time 11.59 1977
+Create pack 646
+Set 646 Color 5
+Place 646 On l1
+Time 11.59 21495
+Place 629 On s14
+Time 11.591 31133
+Place 551 On s23
+Time 11.592 40771
+Place 601 On s21
+Time 11.614 50665
+Place 552 On s3l
+Time 11.616 60303
+Place 539 On s43
+Time 11.623 4405
+Place 638 On s12
+Time 11.636 14299
+Place 613 On s23
+Time 11.659 23937
+Place 605 On s21
+Time 11.661 33575
+Place 576 On s1b
+Time 11.671 43469
+Destroy 568
+Time 11.685 53095
+Place 635 On s23
+Time 11.685 62733
+Place 614 On s32
+Time 11.69 7091
+Destroy 573
+Time 11.698 16717
+Destroy 572
+Time 11.698 26599
+Destroy 593
+Time 11.704 36225
+Create pack 643
+Set 643 Color 2
+Place 643 On b1
+Time 11.711 55743
+Destroy 544
+Time 11.713 65369
+Destroy 598
+Time 11.714 9715
+Place 641 On s12
+Time 11.724 19353
+Destroy 513
+Time 11.731 28979
+Place 620 On s1b
+Time 11.731 38873
+Place 581 On s41
+Time 11.742 48511
+Destroy 607
+Time 11.745 58137
+Destroy 546
+Time 11.76 2483
+Place 587 On s1b
+Time 11.765 12121
+Place 626 On s34
+Time 11.773 22015
+Place 645 On s34
+Time 11.78 31653
+Create pack 647
+Set 647 Color 5
+Place 647 On l1
+Time 11.78 51171
+Place 589 On s2a
+Destroy 577
+Time 11.79 206
+Place 646 On s34
+Time 11.793 9844
+Place 561 On s43
+Time 11.795 19482
+Place 560 On s32
+Time 11.797 29376
+Place 590 On s2a
+Time 11.798 39014
+Create pack 637
+Set 637 Color 1
+Place 637 On s1
+Time 11.811 58532
+Place 592 On s21
+Time 11.814 2634
+Destroy 552
+Time 11.842 12516
+Create pack 654
+Set 654 Color 1
+Place 654 On s1
+Time 11.861 31778
+Destroy 576
+Time 11.869 41660
+Place 562 On s23
+Time 11.89 51298
+Create pack 642
+Set 642 Color 4
+Place 642 On a1
+Time 11.896 5280
+Create pack 656
+Set 656 Color 1
+Place 656 On s1
+Time 11.904 24798
+Place 643 On s14
+Time 11.92 34436
+Place 610 On s34
+Time 11.921 44074
+Place 575 On s32
+Time 11.931 53968
+Destroy 620
+Time 11.96 63594
+Destroy 587
+Time 11.965 7684
+Place 594 On s21
+Time 11.971 17578
+Place 621 On s34
+Time 11.98 27216
+Place 647 On s34
+Time 11.98 37110
+Destroy 589
+Time 11.992 46736
+Place 601 On s1b
+Time 11.997 56374
+Destroy 590
+Time 11.998 720
+Place 637 On s41
+Time 12 10358
+Write sw12 46
+Set Bar b12 46
+Write sw23 62
+Set Bar b23 62
+Write sw34 61
+Set Bar b34 61
+Write sw41 59
+Set Bar b41 59
+Write sec 12
+Write min 0
+Time 12.016 63787
+Place 539 On s3l
+Time 12.023 8145
+Place 638 On s23
+Time 12.023 17783
+Place 608 On s21
+Time 12.04 27421
+Place 578 On s34
+Time 12.042 37315
+Place 654 On s43
+Time 12.045 46953
+Create pack 661
+Set 661 Color 1
+Place 661 On s1
+Time 12.048 935
+Create pack 650
+Set 650 Color 2
+Place 650 On b1
+Time 12.059 20453
+Place 605 On s14
+Time 12.09 30091
+Place 642 On s21
+Time 12.096 39729
+Place 656 On s43
+Time 12.114 49623
+Place 641 On s2a
+Time 12.165 59261
+Place 626 On s4s
+Place 624 On s34
+Time 12.173 8308
+Place 645 On s41
+Time 12.183 17946
+Place 603 On s2a
+Time 12.19 27840
+Place 646 On s4s
+Time 12.191 37478
+Place 551 On s3l
+Time 12.192 47116
+Destroy 601
+Time 12.193 56998
+Place 561 On s3l
+Time 12.2 1100
+Place 588 On s43
+Time 12.211 10994
+Place 592 On s1b
+Time 12.216 20632
+Destroy 539
+Time 12.232 30258
+Place 563 On s12
+Time 12.236 40152
+Place 613 On s34
+Time 12.24 49790
+Place 616 On s43
+Time 12.248 59428
+Place 650 On s14
+Time 12.271 3786
+Create pack 666
+Set 666 Color 1
+Place 666 On s1
+Time 12.285 23048
+Place 614 On s21
+Time 12.301 32942
+Create pack 667
+Set 667 Color 2
+Place 667 On b1
+Time 12.309 52460
+Create pack 677
+Set 677 Color 2
+Place 677 On b1
+Time 12.314 6186
+Destroy 641
+Time 12.32 16068
+Place 610 On s4s
+Place 661 On s43
+Time 12.337 30651
+Create pack 660
+Set 660 Color 4
+Place 660 On a1
+Time 12.365 50169
+Destroy 626
+Time 12.365 59795
+Place 594 On s1b
+Time 12.371 3897
+Place 621 On s4s
+Place 635 On s34
+Time 12.38 18480
+Place 647 On s41
+Time 12.383 28374
+Destroy 603
+Time 12.39 38000
+Destroy 646
+Time 12.391 47626
+Destroy 551
+Time 12.393 57508
+Destroy 561
+Time 12.395 1598
+Place 560 On s2a
+Time 12.408 11492
+Create pack 678
+Set 678 Color 2
+Place 678 On b1
+Time 12.411 30754
+Destroy 592
+Time 12.423 40636
+Place 608 On s14
+Time 12.431 50274
+Place 619 On s12
+Time 12.44 59912
+Place 578 On s4s
+Time 12.442 4270
+Place 654 On s32
+Time 12.465 13908
+Place 617 On s43
+Time 12.468 23802
+Create pack 652
+Set 652 Color 5
+Place 652 On l1
+Time 12.469 43064
+Place 562 On s3l
+Time 12.471 52958
+Place 666 On s41
+Time 12.484 62596
+Place 571 On s1b
+Time 12.49 6698
+Place 642 On s14
+Time 12.496 16592
+Place 656 On s3l
+Time 12.498 26230
+Create pack 676
+Set 676 Color 1
+Place 676 On s1
+Time 12.501 45748
+Place 667 On s12
+Time 12.509 55386
+Place 677 On s14
+Time 12.519 65024
+Place 574 On s1b
+Time 12.52 9382
+Destroy 610
+Time 12.521 19008
+Place 575 On s2a
+Time 12.537 28902
+Place 660 On s21
+Time 12.544 38540
+Create pack 679
+Set 679 Color 4
+Place 679 On a1
+Time 12.565 58058
+Place 624 On s41
+Time 12.565 2160
+Destroy 594
+Time 12.566 11786
+Place 628 On s12
+Time 12.571 21680
+Destroy 621
+Time 12.585 31306
+Create pack 683
+Set 683 Color 5
+Place 683 On l1
+Time 12.59 50824
+Place 629 On s43
+Time 12.595 60462
+Destroy 560
+Time 12.6 4808
+Place 588 On s3l
+Time 12.601 14446
+Create pack 687
+Set 687 Color 4
+Place 687 On a1
+Time 12.608 33964
+Place 678 On s14
+Time 12.623 43602
+Place 638 On s34
+Time 12.624 53496
+Create pack 685
+Set 685 Color 1
+Place 685 On s1
+Time 12.625 7222
+Create pack 692
+Set 692 Color 1
+Place 692 On s1
+Time 12.632 26740
+Place 563 On s2a
+Time 12.636 36378
+Place 613 On s4s
+Time 12.64 46272
+Place 616 On s32
+Time 12.64 55910
+Destroy 578
+Time 12.668 0
+Place 652 On s32
+Time 12.669 9894
+Destroy 562
+Time 12.672 19520
+Create pack 693
+Set 693 Color 1
+Place 693 On s1
+Time 12.674 39038
+Create pack 689
+Set 689 Color 5
+Place 689 On l1
+Time 12.684 58556
+Destroy 571
+Time 12.685 2646
+Place 614 On s1b
+Time 12.685 12540
+Create pack 695
+Set 695 Color 1
+Place 695 On s1
+Time 12.696 31802
+Destroy 656
+Time 12.698 41684
+Place 676 On s41
+Time 12.709 51322
+Create pack 680
+Set 680 Color 2
+Place 680 On b1
+Time 12.719 5304
+Destroy 574
+Time 12.72 14930
+Place 661 On s3l
+Time 12.721 24824
+Destroy 575
+Time 12.731 34450
+Place 581 On s1b
+Time 12.738 44088
+Create pack 698
+Set 698 Color 2
+Place 698 On b1
+Time 12.744 63606
+Place 679 On s21
+Time 12.746 7708
+Create pack 690
+Set 690 Color 4
+Place 690 On a1
+Time 12.767 27226
+Create pack 701
+Set 701 Color 4
+Place 701 On a1
+Time 12.767 46744
+Create pack 697
+Set 697 Color 1
+Place 697 On s1
+Time 12.771 726
+Place 635 On s41
+Time 12.785 10364
+Place 683 On s32
+Time 12.8 20002
+Destroy 588
+Time 12.801 29884
+Place 687 On s21
+Time 12.824 39522
+Place 685 On s41
+Time 12.825 49160
+Place 692 On s41
+Time 12.831 59054
+Place 619 On s23
+Time 12.832 3156
+Destroy 563
+Time 12.836 13038
+Destroy 613
+Time 12.846 22664
+Create pack 696
+Set 696 Color 5
+Place 696 On l1
+Time 12.865 42182
+Place 617 On s32
+Time 12.867 51820
+Create pack 700
+Set 700 Color 2
+Place 700 On b1
+Time 12.872 5802
+Place 693 On s43
+Time 12.874 15440
+Place 689 On s32
+Time 12.885 25334
+Destroy 614
+Time 12.885 34960
+Place 695 On s41
+Time 12.901 44598
+Create pack 708
+Set 708 Color 5
+Place 708 On l1
+Time 12.901 64116
+Place 667 On s23
+Time 12.904 8218
+Place 643 On s43
+Time 12.909 18112
+Place 680 On s14
+Time 12.91 27750
+Create pack 702
+Set 702 Color 4
+Place 702 On a1
+Time 12.92 47268
+Destroy 661
+Time 12.931 56894
+Destroy 581
+Time 12.937 1240
+Place 660 On s14
+Time 12.938 10878
+Place 698 On s14
+Time 12.946 20516
+Place 690 On s21
+Time 12.957 30410
+Create pack 712
+Set 712 Color 4
+Place 712 On a1
+Time 12.96 49672
+Create pack 703
+Set 703 Color 1
+Place 703 On s1
+Time 12.966 3654
+Place 628 On s23
+Time 12.967 13548
+Place 701 On s23
+Time 12.967 23186
+Place 697 On s43
+Time 12.99 32824
+Place 629 On s3l
+Time 12.998 42718
+Place 637 On s12
+Time 13 52356
+Write sec 13
+Write min 0
+Time 13.012 1417
+Create pack 711
+Set 711 Color 5
+Place 711 On l1
+Time 13.019 20935
+Create pack 713
+Set 713 Color 4
+Place 713 On a1
+Time 13.023 40197
+Place 638 On s4s
+Time 13.026 50091
+Create pack 717
+Set 717 Color 5
+Place 717 On l1
+Time 13.032 4073
+Create pack 721
+Set 721 Color 5
+Place 721 On l1
+Time 13.042 23335
+Place 654 On s21
+Time 13.046 33229
+Place 696 On s34
+Time 13.049 42867
+Create pack 714
+Set 714 Color 1
+Place 714 On s1
+Time 13.054 62385
+Create pack 722
+Set 722 Color 5
+Place 722 On l1
+Time 13.054 16367
+Create pack 710
+Set 710 Color 2
+Place 710 On b1
+Time 13.059 35629
+Place 605 On s4s
+Time 13.067 45523
+Place 700 On s12
+Time 13.096 55161
+Create pack 728
+Set 728 Color 2
+Place 728 On b1
+Time 13.101 9143
+Place 708 On s32
+Time 13.11 18781
+Place 702 On s21
+Time 13.144 28419
+Place 679 On s14
+Time 13.157 38313
+Place 712 On s23
+Time 13.16 47951
+Place 703 On s41
+Time 13.173 57845
+Place 645 On s1b
+Time 13.19 1947
+Destroy 629
+Time 13.201 11573
+Place 687 On s14
+Time 13.208 21467
+Create pack 731
+Set 731 Color 2
+Place 731 On b1
+Time 13.212 40729
+Place 711 On s34
+Time 13.217 50623
+Create pack 724
+Set 724 Color 1
+Place 724 On s1
+Time 13.219 4605
+Place 713 On s23
+Time 13.223 14243
+Destroy 638
+Time 13.226 23869
+Place 717 On s34
+Time 13.232 33763
+Place 721 On s32
+Time 13.24 43401
+Place 616 On s2a
+Time 13.24 53039
+Create pack 718
+Set 718 Color 4
+Place 718 On a1
+Time 13.248 7021
+Place 650 On s43
+Time 13.249 16659
+Place 714 On s41
+Time 13.254 26553
+Place 722 On s32
+Time 13.254 36191
+Place 710 On s12
+Time 13.259 45829
+Destroy 605
+Time 13.268 55711
+Place 652 On s2a
+Time 13.272 65349
+Place 693 On s32
+Time 13.282 9707
+Create pack 734
+Set 734 Color 2
+Place 734 On b1
+Time 13.296 28969
+Place 728 On s12
+Time 13.304 38863
+Place 643 On s32
+Time 13.312 48501
+Create pack 738
+Set 738 Color 2
+Place 738 On b1
+Time 13.346 2483
+Place 690 On s1b
+Time 13.367 12121
+Place 697 On s32
+Time 13.373 22015
+Destroy 645
+Time 13.38 31641
+Place 647 On s1b
+Time 13.385 41279
+Place 683 On s21
+Time 13.398 51173
+Place 637 On s23
+Time 13.408 60811
+Place 731 On s12
+Time 13.417 4913
+Place 724 On s41
+Time 13.423 14807
+Place 608 On s4s
+Time 13.431 24445
+Place 619 On s3l
+Time 13.44 34083
+Destroy 616
+Time 13.44 43965
+Place 718 On s23
+Time 13.442 53603
+Place 654 On s1b
+Time 13.446 63241
+Place 696 On s4s
+Time 13.465 7599
+Place 617 On s2a
+Time 13.467 17237
+Place 700 On s23
+Time 13.468 27131
+Destroy 652
+Time 13.471 36757
+Place 666 On s12
+Time 13.474 46395
+Place 689 On s21
+Time 13.482 56289
+Place 734 On s14
+Time 13.486 391
+Create pack 727
+Set 727 Color 5
+Place 727 On l1
+Time 13.49 19909
+Place 642 On s43
+Time 13.494 29547
+Create pack 735
+Set 735 Color 1
+Place 735 On s1
+Time 13.494 49065
+Create pack 746
+Set 746 Color 5
+Place 746 On l1
+Time 13.501 3047
+Place 667 On s3l
+Time 13.509 12685
+Create pack 736
+Set 736 Color 4
+Place 736 On a1
+Time 13.509 32203
+Place 677 On s43
+Time 13.51 41841
+Place 702 On s14
+Time 13.512 51479
+Place 738 On s14
+Time 13.546 61373
+Destroy 690
+Time 13.563 5463
+Create pack 749
+Set 749 Color 4
+Place 749 On a1
+Time 13.565 24981
+Place 624 On s1b
+Time 13.566 34619
+Place 628 On s3l
+Time 13.567 44513
+Place 701 On s34
+Time 13.58 54151
+Destroy 647
+Time 13.608 63777
+Place 678 On s43
+Time 13.609 8135
+Create pack 747
+Set 747 Color 1
+Place 747 On s1
+Time 13.612 27397
+Place 711 On s4s
+Time 13.616 37291
+Create pack 748
+Set 748 Color 5
+Place 748 On l1
+Time 13.622 56809
+Create pack 756
+Set 756 Color 5
+Place 756 On l1
+Time 13.623 10535
+Destroy 608
+Time 13.626 20417
+Place 717 On s41
+Time 13.631 30055
+Destroy 619
+Time 13.642 39681
+Destroy 654
+Time 13.646 49563
+Destroy 696
+Time 13.648 59189
+Place 650 On s32
+Time 13.654 3547
+Place 710 On s23
+Time 13.654 13185
+Create pack 739
+Set 739 Color 2
+Place 739 On b1
+Time 13.665 32703
+Destroy 617
+Time 13.686 42329
+Place 727 On s32
+Time 13.694 52223
+Place 735 On s43
+Time 13.694 61861
+Place 746 On s34
+Time 13.696 5963
+Place 728 On s2a
+Time 13.698 15857
+Place 676 On s1b
+Time 13.701 25495
+Place 708 On s2a
+Time 13.701 35133
+Destroy 667
+Time 13.709 45015
+Place 736 On s21
+Time 13.712 54653
+Create pack 757
+Set 757 Color 5
+Place 757 On l1
+Time 13.724 8635
+Create pack 759
+Set 759 Color 2
+Place 759 On b1
+Time 13.734 28153
+Create pack 761
+Set 761 Color 5
+Place 761 On l1
+Time 13.757 47415
+Place 712 On s34
+Time 13.763 57309
+Place 749 On s23
+Time 13.765 1411
+Destroy 624
+Time 13.766 11037
+Destroy 628
+Time 13.771 20919
+Place 635 On s1b
+Time 13.785 30557
+Place 683 On s1b
+Time 13.808 40195
+Place 731 On s23
+Time 13.809 50089
+Place 747 On s43
+Time 13.812 59727
+Destroy 711
+Time 13.816 4073
+Place 748 On s32
+Time 13.819 13711
+Place 713 On s34
+Time 13.822 23349
+Place 756 On s32
+Time 13.824 33243
+Place 685 On s1b
+Time 13.825 42881
+Place 692 On s12
+Time 13.832 52519
+Place 721 On s21
+Time 13.854 62413
+Place 722 On s21
+Time 13.854 6515
+Place 739 On s14
+Time 13.871 16153
+Place 666 On s2a
+Time 13.872 26047
+Place 693 On s2a
+Time 13.874 35685
+Place 689 On s1b
+Time 13.885 45323
+Place 695 On s12
+Time 13.89 55217
+Place 642 On s3l
+Time 13.896 64855
+Destroy 728
+Time 13.898 9201
+Destroy 676
+Time 13.901 18827
+Destroy 708
+Time 13.904 28453
+Place 643 On s2a
+Time 13.909 38347
+Place 680 On s4s
+Time 13.909 47985
+Place 677 On s32
+Time 13.912 57623
+Place 757 On s32
+Time 13.913 1981
+Create pack 755
+Set 755 Color 1
+Place 755 On s1
+Time 13.924 21499
+Place 759 On s14
+Time 13.934 31137
+Place 761 On s34
+Time 13.937 40775
+Place 660 On s4s
+Time 13.938 50669
+Place 698 On s43
+Time 13.967 60307
+Place 701 On s4s
+Time 13.967 4409
+Place 697 On s21
+Time 13.971 14303
+Destroy 635
+Time 13.985 23929
+Destroy 683
+Time 13.998 33555
+Place 637 On s3l
+Time 14 43449
+Write sw12 51
+Set Bar b12 51
+Write sw23 60
+Set Bar b23 60
+Write sw34 62
+Set Bar b34 62
+Write sw41 61
+Set Bar b41 61
+Write sec 14
+Write min 0
+Time 14.008 31342
+Place 678 On s3l
+Time 14.024 40980
+Destroy 685
+Time 14.04 50862
+Place 718 On s34
+Time 14.067 60500
+Place 700 On s3l
+Time 14.071 4858
+Destroy 666
+Time 14.072 14484
+Destroy 693
+Time 14.074 24110
+Destroy 689
+Time 14.09 33992
+Destroy 642
+Time 14.094 43618
+Place 735 On s32
+Time 14.094 53256
+Place 746 On s41
+Time 14.096 63150
+Create pack 762
+Set 762 Color 2
+Place 762 On b1
+Time 14.104 17132
+Destroy 643
+Time 14.109 26758
+Place 736 On s14
+Time 14.109 36396
+Destroy 680
+Time 14.113 46278
+Place 755 On s41
+Time 14.113 55916
+Create pack 763
+Set 763 Color 5
+Place 763 On l1
+Time 14.137 9898
+Destroy 660
+Time 14.138 19524
+Create pack 765
+Set 765 Color 1
+Place 765 On s1
+Time 14.14 39042
+Create pack 771
+Set 771 Color 2
+Place 771 On b1
+Time 14.142 58560
+Create pack 775
+Set 775 Color 2
+Place 775 On b1
+Time 14.144 12542
+Place 679 On s43
+Time 14.157 22180
+Place 712 On s41
+Time 14.16 31818
+Place 703 On s1b
+Time 14.167 41712
+Destroy 701
+Time 14.198 51338
+Destroy 637
+Time 14.201 60964
+Place 687 On s43
+Time 14.208 5322
+Destroy 678
+Time 14.209 14948
+Place 747 On s3l
+Time 14.219 24586
+Place 713 On s4s
+Time 14.225 34480
+Create pack 753
+Set 753 Color 4
+Place 753 On a1
+Time 14.225 53998
+Place 692 On s2a
+Time 14.232 63636
+Place 721 On s14
+Time 14.248 7738
+Place 650 On s2a
+Time 14.249 17632
+Place 714 On s1b
+Time 14.254 27270
+Place 722 On s1b
+Time 14.254 36908
+Place 710 On s34
+Time 14.267 46802
+Destroy 700
+Time 14.273 56428
+Create pack 772
+Set 772 Color 5
+Place 772 On l1
+Time 14.285 10410
+Create pack 778
+Set 778 Color 5
+Place 778 On l1
+Time 14.285 29928
+Place 695 On s2a
+Time 14.286 39566
+Place 727 On s21
+Time 14.296 49204
+Place 762 On s14
+Time 14.313 59098
+Place 763 On s32
+Time 14.331 3200
+Create pack 779
+Set 779 Color 5
+Place 779 On l1
+Time 14.334 22718
+Place 761 On s4s
+Time 14.338 32356
+Place 698 On s3l
+Time 14.338 41994
+Place 765 On s43
+Time 14.34 51888
+Place 771 On s12
+Time 14.342 61526
+Place 775 On s12
+Time 14.36 5884
+Destroy 703
+Time 14.362 15510
+Create pack 774
+Set 774 Color 1
+Place 774 On s1
+Time 14.363 35028
+Place 749 On s3l
+Time 14.367 44666
+Place 697 On s1b
+Time 14.369 54304
+Create pack 780
+Set 780 Color 5
+Place 780 On l1
+Time 14.369 8286
+Create pack 783
+Set 783 Color 5
+Place 783 On l1
+Time 14.408 27804
+Place 731 On s3l
+Time 14.409 37442
+Destroy 747
+Time 14.416 47324
+Place 748 On s2a
+Time 14.417 56962
+Place 724 On s1b
+Time 14.419 1064
+Destroy 713
+Time 14.422 10946
+Place 756 On s21
+Time 14.424 20584
+Create pack 776
+Set 776 Color 2
+Place 776 On b1
+Time 14.425 40102
+Place 753 On s23
+Time 14.425 49740
+Destroy 692
+Time 14.44 59622
+Place 718 On s4s
+Time 14.441 3724
+Create pack 788
+Set 788 Color 2
+Place 788 On b1
+Time 14.448 23242
+Destroy 650
+Time 14.449 32868
+Destroy 714
+Time 14.454 42750
+Destroy 722
+Time 14.473 52376
+Place 772 On s34
+Time 14.482 62014
+Place 734 On s43
+Time 14.485 6372
+Place 778 On s34
+Time 14.485 16010
+Destroy 695
+Time 14.509 25636
+Place 677 On s2a
+Time 14.51 35530
+Place 702 On s4s
+Time 14.511 45168
+Create pack 782
+Set 782 Color 1
+Place 782 On s1
+Time 14.512 64686
+Place 738 On s43
+Time 14.512 8788
+Place 757 On s21
+Time 14.518 18682
+Create pack 784
+Set 784 Color 5
+Place 784 On l1
+Time 14.531 37944
+Place 779 On s34
+Time 14.534 47838
+Destroy 761
+Time 14.538 57464
+Destroy 698
+Time 14.544 1554
+Place 679 On s3l
+Time 14.562 11448
+Place 774 On s41
+Time 14.563 21086
+Destroy 749
+Time 14.567 30968
+Destroy 697
+Time 14.569 40594
+Place 780 On s32
+Time 14.569 50232
+Place 783 On s34
+Time 14.601 60126
+Place 687 On s3l
+Time 14.608 4228
+Destroy 731
+Time 14.616 13854
+Destroy 748
+Time 14.617 23736
+Destroy 724
+Time 14.624 33362
+Place 776 On s12
+Time 14.626 43256
+Place 717 On s12
+Time 14.64 52894
+Destroy 718
+Time 14.641 62520
+Place 788 On s14
+Time 14.654 6878
+Place 710 On s4s
+Time 14.681 16516
+Create pack 795
+Set 795 Color 5
+Place 795 On l1
+Time 14.686 36034
+Place 727 On s14
+Time 14.694 45672
+Place 735 On s2a
+Time 14.709 55310
+Destroy 677
+Time 14.71 65192
+Destroy 702
+Time 14.711 9282
+Place 782 On s43
+Time 14.718 19176
+Place 784 On s34
+Time 14.738 28814
+Place 765 On s3l
+Time 14.74 38452
+Place 771 On s23
+Time 14.742 48346
+Place 775 On s23
+Time 14.744 57984
+Destroy 679
+Time 14.762 2074
+Create pack 802
+Set 802 Color 5
+Place 802 On l1
+Time 14.801 21592
+Destroy 687
+Time 14.805 31474
+Create pack 794
+Set 794 Color 1
+Place 794 On s1
+Time 14.817 50736
+Create pack 777
+Set 777 Color 4
+Place 777 On a1
+Time 14.822 4718
+Place 756 On s14
+Time 14.854 14356
+Destroy 710
+Time 14.854 24238
+Place 739 On s4s
+Time 14.873 33876
+Place 772 On s41
+Time 14.881 43770
+Place 795 On s32
+Time 14.882 53408
+Place 734 On s32
+Time 14.885 63046
+Place 778 On s4s
+Time 14.885 7404
+Create pack 807
+Set 807 Color 5
+Place 807 On l1
+Time 14.894 26666
+Destroy 735
+Time 14.912 36548
+Place 738 On s3l
+Time 14.912 46186
+Place 757 On s14
+Time 14.913 55824
+Place 763 On s21
+Time 14.924 182
+Place 759 On s4s
+Time 14.931 9820
+Place 779 On s41
+Time 14.938 19458
+Destroy 765
+Time 14.962 29340
+Place 802 On s32
+Time 14.969 38978
+Place 783 On s41
+Write sec 15
+Write min 0
+Time 15 58520
+End
